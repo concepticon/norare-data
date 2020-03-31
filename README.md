@@ -28,8 +28,11 @@ You need to derive a dataset first:
 ```python
 from pynorare.data import NormDataSet
 class Dataset(NormDataSet):
+    id = "Author-Year-Keyword"
     ...
 ```
+
+Note that the `id` is important, as it will determine the name of your file.
 
 Then you can define a download command for this dataset:
 
@@ -62,7 +65,13 @@ if __name__ == '__main__':
     Dataset().run(argv)
 ```
 
+To pass validation, you need to add an file with the metadata, which should have the name of the tsv-file which you procuded, plus `-metadat.json`. Check the existing metadata files to see how these are constructed. 
 
+You can also validate all data in once, with the shellscript:
+
+```shell
+$ sh validate.sh
+```
 
 
 ## Note
