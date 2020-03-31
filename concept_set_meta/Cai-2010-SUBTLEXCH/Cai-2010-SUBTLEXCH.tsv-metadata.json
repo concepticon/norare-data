@@ -1,0 +1,73 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of Frequency Norms by Cai and Brysbaert (2010).",
+  "dc:source": "https://doi.org/10.3758/s13428-013-0403-5",
+  "dc:references" : "Cai2010",
+  "dcat:keyword": ["word frequency", "monolingual", "chineese"],
+  "dc:description": "An automated mapping of the frequency norms submitted with the study of Cai and Brysbaert (2010) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CHINESE",
+            "datatype": "string"
+          }, 
+          {
+            "name": "FREQUENCY_COUNT",
+            "datatype": "integer"
+          },
+          {
+            "name": "FREQUENCY_COUNT_PM",
+            "datatype": "float"
+          },
+          {
+            "name": "LG10_FREQUENCY",
+            "datatype": "float"
+          },
+          {
+            "name": "CD_COUNT",
+            "datatype": "integer"
+          },
+          {
+            "name": "CD_PERCENTAGE",
+            "datatype": "float"
+          },
+          {
+            "name": "LG10_CD",
+            "datatype": "float"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Cai-2010-SUBTLEXCH.tsv"
+    }
+  ]
+}

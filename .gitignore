@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+concept_set_meta/*/raw/*
 
 # C extensions
 *.so

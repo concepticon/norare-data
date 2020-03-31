@@ -1,0 +1,73 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of Age of Acquisition data by Kuperman et al. (2012).",
+  "dc:source": "https://doi.org/10.3758/s13428-012-0210-4",
+  "dc:references" : "Kuperman2012",
+  "dcat:keyword": ["age of acquisition", "monolingual", "English"],
+  "dc:description": "An automated mapping of the age of acquisition norms submitted with the study of Kuperman et al. (2012) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string"
+          }, 
+          {
+            "name": "OCCURRENCES_TOTAL",
+            "datatype": "integer"
+          },
+          {
+            "name": "OCCURRENCES_NUM",
+            "datatype": "integer"
+          },
+          {
+            "name": "FREQ_PM",
+            "datatype": "float"
+          },
+          {
+            "name": "RATING_MEAN",
+            "datatype": "float"
+          },
+          {
+            "name": "RATING_SD",
+            "datatype": "float"
+          },
+          {
+            "name": "DUNNO",
+            "datatype": "float"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Kuperman-2012-AoA.tsv"
+    }
+  ]
+}
