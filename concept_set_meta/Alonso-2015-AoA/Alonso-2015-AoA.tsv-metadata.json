@@ -1,0 +1,74 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of AoA ratings by Alonso et al. (2015).",
+  "dc:source": "https://doi.org/10.3758/s13428-014-0454-2",
+  "dc:references" : "Alonso2015",
+  "dcat:keyword": ["word frequency", "monolingual", "Spanish"],
+  "dc:description": "An automated mapping of the AoA ratings submitted with the study of Alonso et al. (2015) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "SPANISH",
+            "datatype": "string"
+          }, 
+          {
+            "name": "SPANISH_AOA_RATING_MEAN",
+            "datatype": "float"
+          },
+          {
+            "name": "SPANISH_AOA_RATING_SD",
+            "datatype": "float"
+          },
+          {
+            "name": "SPANISH_AOA_RATING_MIN",
+            "datatype": "integer"
+          },
+          {
+            "name": "SPANISH_AOA_RATING_MAX",
+            "datatype": "integer"
+          },
+
+          {
+            "name": "SPANISH_ORAL_FREQUENCY_LOG",
+            "datatype": "float"
+          },
+          {
+            "name": "SPANISH_WRITTEN_FREQUENCY_LOG",
+            "datatype": "float"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Alonso-2015-AoA.tsv"
+    }
+  ]
+}
