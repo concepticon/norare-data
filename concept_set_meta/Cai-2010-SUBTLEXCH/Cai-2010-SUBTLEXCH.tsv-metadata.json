@@ -28,27 +28,27 @@
             "datatype": "string"
           }, 
           {
-            "name": "FREQUENCY_COUNT",
+            "name": "CHINESE_FREQUENCY",
             "datatype": "integer"
           },
           {
-            "name": "FREQUENCY_COUNT_PM",
+            "name": "CHINESE_FREQUENCY_PM",
             "datatype": "float"
           },
           {
-            "name": "LG10_FREQUENCY",
+            "name": "CHINESE_FREQUENCY_LOG",
             "datatype": "float"
           },
           {
-            "name": "CD_COUNT",
+            "name": "CHINESE_CD",
             "datatype": "integer"
           },
           {
-            "name": "CD_PERCENTAGE",
+            "name": "CHINESE_CD_PERCENTAGE",
             "datatype": "float"
           },
           {
-            "name": "LG10_CD",
+            "name": "CHINESE_CD_LOG",
             "datatype": "float"
           },
           {

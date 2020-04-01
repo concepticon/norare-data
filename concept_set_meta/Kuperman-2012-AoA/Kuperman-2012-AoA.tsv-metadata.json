@@ -28,27 +28,27 @@
             "datatype": "string"
           }, 
           {
-            "name": "OCCURRENCES_TOTAL",
+            "name": "ENGLISH_OCCURRENCES_TOTAL",
             "datatype": "integer"
           },
           {
-            "name": "OCCURRENCES_NUM",
+            "name": "ENGLISH_OCCURRENCES_NUM",
             "datatype": "integer"
           },
           {
-            "name": "FREQ_PM",
+            "name": "ENGLISH_FREQUENCY_PM",
             "datatype": "float"
           },
           {
-            "name": "RATING_MEAN",
+            "name": "ENGLISH_RATING_MEAN",
             "datatype": "float"
           },
           {
-            "name": "RATING_SD",
+            "name": "ENGLISH_RATING_SD",
             "datatype": "float"
           },
           {
-            "name": "DUNNO",
+            "name": "ENGLISH_DUNNO",
             "datatype": "float"
           },
           {

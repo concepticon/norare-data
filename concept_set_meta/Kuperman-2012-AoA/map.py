@@ -1,4 +1,5 @@
 from pynorare.data import download_zip, NormDataSet, get_excel
+from pynorare.types import integer
 
 class Dataset(NormDataSet):
     id = 'Kuperman-2012-AoA'
@@ -11,53 +12,32 @@ class Dataset(NormDataSet):
             )
 
     def map(self):
-        sheet = get_excel('AoA_ratings_Kuperman_et_al_BRM.xlsx', 0)
-
-        # iterate over data and map them
-        for i in range(1, len(sheet)):
-            gloss, occtot, occnum, freq, ratm, rats, dun = sheet[i] 
-            if gloss in self.mappings['en']: 
-                best_match, priority, pos = self.mappings['en'][gloss][0]
-                self.mapped[best_match] += [[ 
-                    str(i), 
-                    gloss, 
-                    str(int(float(occtot))),
-                    str(int(float(occnum))),
-                    '{0:.2f}'.format(freq),
-                    '{0:.2f}'.format(ratm),
-                    '{0:.2f}'.format(rats),
-                    '{0:.2f}'.format(dun),
-                    best_match, 
-                    priority]]
-        table = []
-        header = [
-                "CONCEPTICON_ID",
-                "CONCEPTICON_GLOSS",
-                "ENGLISH",
-                "OCCURRENCES_TOTAL",
-                "OCCURRENCES_NUM",
-                "FREQ_PM",
-                "RATING_MEAN",
-                "RATING_SD",
-                "DUNNO",
-                "LINE_IN_SOURCE"]
-
-        for key, lines in self.mapped.items(): 
-            best_line = sorted(lines, key=lambda x: (x[-1], x[-2]))[0] 
-            best_line[-1] = str(best_line[-1]) 
-            table += [[
-                best_line[-2],
-                self.concepticon.conceptsets[best_line[-2]].gloss,
-                best_line[1],
-                best_line[2], 
-                best_line[3],
-                best_line[4],
-                best_line[5],
-                best_line[6],
-                best_line[7],
-                best_line[0]
-                ]]
-        self.writefile(header, table)
+        sheet = get_excel('AoA_ratings_Kuperman_et_al_BRM.xlsx', 0, dicts=True)
+        self.extract_data(
+                sheet,
+                [
+                    ("Word", "ENGLISH", str),
+                    ("OccurTotal", "ENGLISH_OCCURRENCES_TOTAL", integer),
+                    ("OccurNum", "ENGLISH_OCCURRENCES_NUM", integer),
+                    ("Freq_pm", "ENGLISH_FREQUENCY_PM", str),
+                    ("Rating.Mean", "ENGLISH_RATING_MEAN", str),
+                    ("Rating.SD", "ENGLISH_RATING_SD", str),
+                    ("Dunno", "ENGLISH_DUNNO", str),
+                    ],
+                [
+                    "CONCEPTICON_ID",
+                    "CONCEPTICON_GLOSS",
+                    "ENGLISH",
+                    "ENGLISH_OCCURRENCES_TOTAL",
+                    "ENGLISH_OCCURRENCES_NUM",
+                    "ENGLISH_FREQUENCY_PM",
+                    "ENGLISH_RATING_MEAN",
+                    "ENGLISH_RATING_SD",
+                    "ENGLISH_DUNNO",
+                    "LINE_IN_SOURCE"
+                    ],
+                gloss='ENGLISH',
+                language='en')
 
 if __name__ == '__main__':
     from sys import argv

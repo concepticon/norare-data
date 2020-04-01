@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of Frequency Norms by Brysbaert et al. (2009).",
+  "dc:title": "Automatic mapping of Polish Ratings by Riegel et al. (2015).",
   "dc:source": "https://doi.org/10.3758/BRM.41.4.977",
-  "dc:references" : "Brysbaert2009",
-  "dcat:keyword": ["word frequency", "monolingual", "english"],
-  "dc:description": "An automated mapping of the frequency norms submitted with the study of Brysbaert et al. (2009) to the concept sets in Concepticon.",
+  "dc:references" : "Riegel2015",
+  "dcat:keyword": ["arousal", "imageability", "multilingual", "German", "Polish", "valency"],
+  "dc:description": "An automated mapping of the Polish ratings submitted with the study of Riegel et al. (2015) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -24,6 +24,10 @@
             "datatype": "string"
           }, 
           {
+            "name": "NUMBER_IN_SOURCE",
+            "datatype": "string"
+          }, 
+          {
             "name": "POLISH",
             "datatype": "string"
           }, 
@@ -32,50 +36,50 @@
             "datatype": "string"
           }, 
           {
-            "name": "VALENCY_MEAN_MEN",
+            "name": "POLISH_VALENCY_MEAN_MEN",
             "datatype": "float"
           },
           {
-            "name": "VALENCY_MEAN_WOMEN",
+            "name": "POLISH_VALENCY_MEAN_WOMEN",
             "datatype": "float"
           },
           {
-            "name": "VALENCY_MEAN_ALL",
+            "name": "POLISH_VALENCY_MEAN_ALL",
             "datatype": "float"
           },
           {
-            "name": "AROUSAL_MEAN_MEN",
+            "name": "POLISH_AROUSAL_MEAN_MEN",
             "datatype": "float"
           },
           {
-            "name": "AROUSAL_MEAN_WOMEN",
+            "name": "POLISH_AROUSAL_MEAN_WOMEN",
             "datatype": "float"
           },
           {
-            "name": "AROUSAL_MEAN_ALL",
+            "name": "POLISH_AROUSAL_MEAN_ALL",
             "datatype": "float"
           },
           {
-            "name": "IMAGEABILITY_MEAN_MEN",
+            "name": "POLISH_IMAGEABILITY_MEAN_MEN",
             "datatype": "float"
           },
           {
-            "name": "IMAGEABILITY_MEAN_WOMEN",
+            "name": "POLISH_IMAGEABILITY_MEAN_WOMEN",
             "datatype": "float"
           },
           {
-            "name": "IMAGEABILITY_MEAN_ALL",
+            "name": "POLISH_IMAGEABILITY_MEAN_ALL",
             "datatype": "float"
           },
           {
             "name": "POLISH_FREQUENCY",
             "datatype": "integer",
-            "null": "NaN"
+            "null": ""
           },
           {
             "name": "POLISH_FREQUENCY_CD",
             "datatype": "float",
-            "null": "NaN"
+            "null": ""
           },
           {
             "name": "LINE_IN_SOURCE",

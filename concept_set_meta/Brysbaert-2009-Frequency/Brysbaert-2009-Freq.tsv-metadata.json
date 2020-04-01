@@ -28,27 +28,27 @@
             "datatype": "string"
           }, 
           {
-            "name": "FREQUENCY_COUNT",
+            "name": "ENGLISH_FREQUENCY",
             "datatype": "integer"
           },
           {
-            "name": "CD_COUNT",
+            "name": "ENGLISH_CD",
             "datatype": "integer"
           },
           {
-            "name": "SUBTITLE_FREQUENCY",
+            "name": "ENGLISH_SUBTITLE_FREQUENCY",
             "datatype": "float"
           },
           {
-            "name": "SUBTITLE_CD",
+            "name": "ENGLISH_SUBTITLE_CD",
             "datatype": "float"
           },
           {
-            "name": "LG10_FREQUENCY",
+            "name": "ENGLISH_FREQUENCY_LOG",
             "datatype": "float"
           },
           {
-            "name": "LG10_CD",
+            "name": "ENGLISH_CD_LOG",
             "datatype": "float"
           },
           {

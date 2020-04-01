@@ -2,6 +2,8 @@ from pynorare.data import NormDataSet, download_zip, get_excel
 from urllib import request
 from zipfile import ZipFile
 from pynorare import log
+from pynorare.types import integer
+from collections import OrderedDict
 
 class Dataset(NormDataSet):
     id = "Cai-2010-SUBTLEXCH"
@@ -21,55 +23,34 @@ class Dataset(NormDataSet):
 
     def map(self):
         
-        sheet = get_excel('SUBTLEX-CH-WF.xlsx', 0)
-        # map the data
-        # get data and map them if possible
-        for i in range(1, len(sheet)):
-            gloss, freqcount, freqcountmill, lg10wf, cd, cdperc, logcd = sheet[i]
-            if gloss in self.mappings['zh']: 
-                best_match, priority, pos = self.mappings['zh'][gloss][0] 
-                self.mapped[best_match] += [[ 
-                    str(i), 
-                    gloss, 
-                    str(int(float(freqcount))),
-                    str(freqcountmill),
-                    '{0:.2f}'.format(lg10wf),
-                    str(int(float(cd))),
-                    '{0:.2f}'.format(cdperc),
-                    '{0:.2f}'.format(logcd),
-                    best_match, 
-                    priority]]
-        
-        header = [
-                "CONCEPTICON_ID",
-                "CONCEPTICON_GLOSS",
-                "CHINESE",
-                "FREQUENCY_COUNT",
-                "FREQUENCY_COUNT_PM",
-                "LG10_FREQUENCY",
-                "CD_COUNT",
-                "CD_PERCENTAGE",
-                "LG10_CD",
-                "LINE_IN_SOURCE"]
-        table = []
-
-        for key, lines in self.mapped.items(): 
-            best_line = sorted(lines, key=lambda x: (x[-1], x[-2]))[0] 
-            best_line[-1] = str(best_line[-1]) 
-            table += [[
-                best_line[-2], # concepticon id
-                self.concepticon.conceptsets[best_line[-2]].gloss,
-                best_line[1],
-                best_line[2], 
-                best_line[3],
-                best_line[4],
-                best_line[5],
-                best_line[6],
-                best_line[7],
-                best_line[0]
-                ]]
-        self.writefile(header, table)
-        
+        sheet_list = get_excel('SUBTLEX-CH-WF.xlsx', 0)
+        sheet = [OrderedDict(zip(sheet_list[2], row)) for row in sheet_list[3:]]
+        self.extract_data(
+                sheet,
+                [
+                    ("Word", "CHINESE", str),
+                    ("WCount", "CHINESE_FREQUENCY", integer),
+                    ("W/million", "CHINESE_FREQUENCY_PM", str),
+                    ("logW", "CHINESE_FREQUENCY_LOG", str),
+                    ("W-CD", "CHINESE_CD", integer),
+                    ("W-CD%", "CHINESE_CD_PERCENTAGE", str),
+                    ("logW-CD", "CHINESE_CD_LOG", str),
+                    ],
+                [
+                    "CONCEPTICON_ID",
+                    "CONCEPTICON_GLOSS",
+                    "CHINESE",
+                    "CHINESE_FREQUENCY",
+                    "CHINESE_FREQUENCY_LOG",
+                    "CHINESE_FREQUENCY_PM",
+                    "CHINESE_CD",
+                    "CHINESE_CD_LOG",
+                    "CHINESE_CD_PERCENTAGE",
+                    "LINE_IN_SOURCE"
+                    ],
+                gloss='CHINESE',
+                language='zh'
+                )
 
 if __name__ == '__main__':
     from sys import argv
