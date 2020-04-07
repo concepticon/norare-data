@@ -14,8 +14,17 @@ class Dataset(NormDataSet):
         )
 
     def map(self):
-
-        sheet = get_excel('SUBTLEX-ESP.xlsx', 0, dicts=True)
+        sheet = []
+        for row in get_excel('SUBTLEX-ESP.xlsx', 0)[1:]:
+            sheet += [dict(zip(
+                ["Word", "Freq. count", "Freq. per million", "Log freq."],
+                row[:4]))]
+            sheet += [dict(zip(
+                ["Word", "Freq. count", "Freq. per million", "Log freq."],
+                row[5:9]))]
+            sheet += [dict(zip(
+                ["Word", "Freq. count", "Freq. per million", "Log freq."],
+                row[10:14]))]
 
         self.extract_data(
             sheet,
