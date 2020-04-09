@@ -1,0 +1,57 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of Spanish word frequencies from Cuetos et al. (2011).",
+  "dc:source": "http://crr.ugent.be/papers/CUETOS%20et%20al%202011.pdf",
+  "dc:references" : "Cuetos2011",
+  "dcat:keyword": ["word frequency", "monolingual", "Spanish"],
+  "dc:description": "An automated mapping of the word frequencies from subtitles submitted with the study of Cuetos et al. (2011) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "SPANISH",
+            "datatype": "string"
+          }, 
+          {
+            "name": "SPANISH_FREQUENCY",
+            "datatype": "integer"
+          },
+          {
+            "name": "SPANISH_FREQUENCY_PM",
+            "datatype": "float"
+          },
+          {
+            "name": "SPANISH_FREQUENCY_LOG",
+            "datatype": "float"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Cuetos-2011-SUBTLEXESP.tsv"
+    }
+  ]
+}

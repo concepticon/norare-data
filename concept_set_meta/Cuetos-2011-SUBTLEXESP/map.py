@@ -4,7 +4,7 @@ from sys import argv
 
 
 class Dataset(NormDataSet):
-    id = "Cuetos-2011-Freq"
+    id = "Cuetos-2011-SUBTLEXESP"
 
     def download(self):
         download_zip(
@@ -30,16 +30,16 @@ class Dataset(NormDataSet):
             sheet,
             [
                 ('Word', 'SPANISH', str),
-                ('Freq. count', "FREQUENCY_COUNT", str),
-                ('Freq. per million', 'FREQUENCY_PER_MILLION', str),
-                ('Log freq.', "LG10_FREQUENCY", str)],
+                ('Freq. count', "SPANISH_FREQUENCY", str),
+                ('Freq. per million', 'SPANISH_FREQUENCY_PM', str),
+                ('Log freq.', "SPANISH_FREQUENCY_LOG", str)],
             [
                 'CONCEPTICON_ID',
                 'CONCEPTICON_GLOSS',
                 'SPANISH',
-                "FREQUENCY_COUNT",
-                "FREQUENCY_PER_MILLION",
-                "LG10_FREQUENCY"
+                "SPANISH_FREQUENCY",
+                "SPANISH_FREQUENCY_PM",
+                "SPANISH_FREQUENCY_LOG"
             ],
             gloss='SPANISH',
             language='es')
