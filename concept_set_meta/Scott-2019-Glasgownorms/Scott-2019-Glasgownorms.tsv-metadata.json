@@ -25,44 +25,54 @@
           }, 
           {
             "name": "ENGLISH",
-            "datatype": "string"
+            "datatype": "string",
+            "dc:title": "Words"
           }, 
           {
-            "name": "AROUSAL_MEAN",
-            "datatype": "float"
+            "name": "ENGLISH_AROUSAL_MEAN",
+            "datatype": "float",
+            "dc:title": "AROU"
           },
           {
-            "name": "VALENCE_MEAN",
-            "datatype": "float"
+            "name": "ENGLISH_VALENCE_MEAN",
+            "datatype": "float",
+            "dc:title": "VAL"
           },
           {
-            "name": "DOMINANCE_MEAN",
-            "datatype": "float"
+            "name": "ENGLISH_DOMINANCE_MEAN",
+            "datatype": "float",
+            "dc:title": "DOM"
           },
           {
-            "name": "CONCRETENESS_MEAN",
-            "datatype": "float"
+            "name": "ENGLISH_CONCRETENESS_MEAN",
+            "datatype": "float",
+            "dc:title": "CNC"
           },
 
           {
-            "name": "IMAGEABILITY_MEAN",
-            "datatype": "float"
+            "name": "ENGLISH_IMAGEABILITY_MEAN",
+            "datatype": "float",
+            "dc:title": "IMAG"
           },
           {
-            "name": "FAMILIARITY_MEAN",
-            "datatype": "float"
+            "name": "ENGLISH_FAMILIARITY_MEAN",
+            "datatype": "float",
+            "dc:title": "FAM"
           },
           {
-            "name": "AOA_MEAN",
-            "datatype": "float"
+            "name": "ENGLISH_AOA_MEAN",
+            "datatype": "float",
+            "dc:title": "AOA"
           },
           {
-            "name": "SEM_SIZE_MEAN",
-            "datatype": "float"
+            "name": "ENGLISH_SEM_SIZE_MEAN",
+            "datatype": "float",
+            "dc:title": "SIZE"
           },
           {
-            "name": "GENDER_ASSOCIATION_MEAN",
-            "datatype": "float"
+            "name": "ENGLISH_GENDER_ASSOCIATION_MEAN",
+            "datatype": "float",
+            "dc:title": "GEND"
           }
         ],
         "foreignKeys": [
