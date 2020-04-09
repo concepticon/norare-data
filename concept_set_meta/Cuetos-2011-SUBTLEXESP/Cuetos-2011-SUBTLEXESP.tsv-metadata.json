@@ -28,15 +28,15 @@
             "datatype": "string"
           }, 
           {
-            "name": "FREQUENCY_COUNT",
+            "name": "SPANISH_SUBTITLE_FREQUENCY",
             "datatype": "integer"
           },
           {
-            "name": "FREQUENCY_PER_MILLION",
+            "name": "SPANISH_FREQUENCY_MILLION",
             "datatype": "float"
           },
           {
-            "name": "LG10_FREQUENCY",
+            "name": "SPANISH_FREQUENCY_LOG",
             "datatype": "float"
           }
         ],
@@ -51,7 +51,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Cuetos-2011-Freq.tsv"
+      "url": "Cuetos-2011-SUBTLEXESP.tsv"
     }
   ]
 }
