@@ -30,15 +30,15 @@ class Dataset(NormDataSet):
             sheet,
             [
                 ('Word', 'SPANISH', str),
-                ('Freq. count', "SPANISH_SUBTITLE_FREQUENCY", str),
-                ('Freq. per million', 'SPANISH_FREQUENCY_MILLION', str),
+                ('Freq. count', "SPANISH_FREQUENCY", str),
+                ('Freq. per million', 'SPANISH_FREQUENCY_PM', str),
                 ('Log freq.', "SPANISH_FREQUENCY_LOG", str)],
             [
                 'CONCEPTICON_ID',
                 'CONCEPTICON_GLOSS',
                 'SPANISH',
-                "SPANISH_SUBTITLE_FREQUENCY",
-                "SPANISH_FREQUENCY_MILLION",
+                "SPANISH_FREQUENCY",
+                "SPANISH_FREQUENCY_PM",
                 "SPANISH_FREQUENCY_LOG"
             ],
             gloss='SPANISH',

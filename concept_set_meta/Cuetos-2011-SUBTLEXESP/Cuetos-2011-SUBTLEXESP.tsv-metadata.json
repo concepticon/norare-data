@@ -28,11 +28,11 @@
             "datatype": "string"
           }, 
           {
-            "name": "SPANISH_SUBTITLE_FREQUENCY",
+            "name": "SPANISH_FREQUENCY",
             "datatype": "integer"
           },
           {
-            "name": "SPANISH_FREQUENCY_MILLION",
+            "name": "SPANISH_FREQUENCY_PM",
             "datatype": "float"
           },
           {
