@@ -3,7 +3,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 1251	BELLY	abdomen	belly	2
 2527	ABILITY	ability	able;to know;strong;luck	4
 1741	ABOVE	over	top	4262
-303	ABSTAIN FROM FOOD	abstain (V)	obstacle;to endure	21
+303	ABSTAIN FROM FOOD	fast (V)	hunger	2228
 1953	ABUSE	abuse (V)	to curse	27
 1542	ACCOMPANY	accompany (V)	to follow;to help;together	37
 1814	ACCUSE	accuse (V)	to curse;to deceive	46
@@ -71,7 +71,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 646	ASH	ash	tree	257
 1894	ASHAMED	ashamed	red;shame	259
 1309	ASK (INQUIRE)	question (V)	to speak	4828
-1862	DONKEY	ass	horse	266
+834	BUTTOCKS	ass	horse	266
 3638	ASSEMBLE (GET TOGETHER)	assemble (V)	group;to swell;together	271
 1461	AT	at	to be	282
 2915	AT FIRST	at first	face	286
@@ -136,7 +136,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 3534	BEG	beg (V)	to deceive;luck	458
 1152	BEGET	beget	to make	459
 1934	BEGGAR	beggar	to bend	460
-3447	BEGIN OR START	start (V)	to make;to throw;to start;one	5888
+3447	BEGIN OR START	begin (V)	to make;to start;one	461
 1557	BEGINNING	beginning	head;to start;old;front;root	462
 1686	BEHIND	behind	back;side;behind;below;end;to stay	464
 2245	BELCH	belch (V)	to vomit	467
@@ -173,7 +173,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 1655	BLINK	wink (V)	hair;wrinkle	6934
 1584	BLISTER	blister	wart;to swell;bubble	570
 946	BLOOD	blood	blood;red;sinew;healthy	576
-2076	SPROUT (VERB)	bloom (V)	flower;to swell	577
+3287	BLOOM	bloom (V)	flower;to swell	577
 175	BLOW (OF WIND)	blow	to cut;wind	584
 2679	BLOW (WITH NOSE)	blow nose	pus	586
 837	BLUE	blue	blue;red;white;vegetable;grass	588
@@ -185,7 +185,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 1480	BODY	body	back;belly;body;thing;side;strong;person;skin;shape	600
 2213	BODY PART	body part	joint	602
 2493	BOIL	boil	to boil;wart	605
-2860	BOLT (MOVE IN HASTE)	bolt	obstacle;stick	611
+2007	BOLT (OF LIGHTNING)	bolt	obstacle;stick	611
 1394	BONE	bone	bone;cheek;foot;brain;ornament	614
 963	BOOK	book	to speak	617
 585	BOOT	boot	shoe;clothes	618
@@ -238,6 +238,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 2052	BUCKET	bucket	vessel;to scoop	756
 2040	BUCKWHEAT	buckwheat	grass;grain	761
 1684	BUD	bud	grain;leaf;to swell;tree;egg;thorn	762
+2076	SPROUT (VERB)	bud (V)	tree	763
 934	BUFFALO	buffalo	cow	764
 1027	BUG	bug	insect	766
 1840	BUILD	build (V)	house;to put;to make	767
@@ -254,7 +255,6 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 1683	BUSH	bush	root;tree;thorn;grass;fruit	804
 2755	BUSY	busy	to make;to work;strong;to want	807
 2569	BUTCHER	butcher	meat	808
-834	BUTTOCKS	butt	below	809
 1245	BUTTER	butter	fat;milk	811
 1791	BUTTERFLY	butterfly	insect	812
 757	BUTTON	button	obstacle	816
@@ -325,7 +325,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 129	CHOKE	choke	obstacle;sick	997
 1750	CHOOSE	choose (V)	to take;to want;to know	999
 2149	CHOP (INTO PIECES)	chop (V)	knife;to break;to measure;to cut;to destroy;to beat	1000
-2772	KITCHEN KNIFE	chopper	to cut	1002
+3067	CLEAVER	chopper	to cut	1002
 1987	CHOPSTICKS	chopsticks	stick;to pinch;plough;handle	1004
 2353	CICADA	cicada	insect	1008
 1467	CIRCLE	circle	circle;to twist;place;to adhere	1011
@@ -480,8 +480,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 2014	GO DOWN (DESCEND)	go down (V)	below;little;to fall;to go	2700
 490	DESCENDANTS	descendant	to follow;grain	1615
 3687	DESERT	desert	field	1616
-2960	LONGING (WISH)	desire	hunger;to want;to love;taste	1618
-2117	DESIRE	desire (V)	to love;to think;to search;to want;to speak;to praise	1619
+2117	DESIRE	desire	hunger;to want;to love;taste	1618
 1775	TABLE	desk	chair	1621
 2715	DESPISE	despise (V)	anger;to deceive;to curse	1622
 1977	DEW	dew	liquid;wet;ice	1647
@@ -515,6 +514,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 2009	DOG	dog	dog;child;wolf;hunt	1776
 1659	DOLL	doll	to play;ornament;child	1779
 1479	DOLPHIN	dolphin	pig	1780
+1862	DONKEY	donkey	horse	1784
 1567	DOOR	door	door;to open;house	1785
 1308	DOUBT	doubt	to know;name;to think;to curse	1793
 273	DOUGH	dough	grain	1794
@@ -619,7 +619,6 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 1971	FAN (OBJECT)	fan	to shake	2211
 1159	FART	fart	to smell	2222
 1631	FAST	swift	quick;heavy;good;to run;time;strong	6158
-3331	FASTING	fast (V)	hunger	2228
 1094	FASTEN	fasten (V)	obstacle;to bind;to take	2229
 323	FAT (ORGANIC SUBSTANCE)	grease	fat	2760
 1688	FATE	fate	name;road;shape;good	2232
@@ -1122,7 +1121,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 2692	MATERNAL UNCLE (MOTHER'S BROTHER)	mother's brother	relative	3951
 2693	MATERNAL AUNT (MOTHER'S SISTER)	mother's sister	relative	3952
 1050	MOTHER-IN-LAW	mother-in-law	relative;woman	3954
-3251	MOLD (GET ROTTEN)	mould	black;dirt;shape;to boil;earth;mushroom;sour;rust	3958
+1166	MOULD	mould	black;dirt;shape;to boil;earth;mushroom;sour;rust	3958
 639	MOUNTAIN	mountain	edge;mountain;grave;top;high;forest;to pass;field	3963
 3673	MOURNING	mourning	grave;to fear;to die	3965
 1491	MOUSE	mouse	marten	3966
@@ -1194,6 +1193,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 2581	OCTOPUS	octopus	shellfish	4181
 600	STRANGE	odd	one	4182
 3704	ODOR (SMELL)	odor	to smell;dirt	4183
+2938	FLAVOR	odour	to smell;smoke	4185
 1103	SACRIFICE	offering	sacrifice;to give;to love	4192
 2430	OFFICE	office	house;to make;person	4193
 3361	OFFICIAL	official	person;slave	4195
@@ -1289,7 +1289,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 723	PLACE (POSITION)	place	door;to put;place;pronoun;earth;edge;village	4514
 3388	PLACENTA	placenta	genitals;fat	4525
 333	PLAIT	plait	hair;to bind;head;fringe	4530
-3296	WEAVE (BASKET)	plait (V)	to bind;to twist;to cover;net;to weave	4531
+3295	BRAID (VERB)	plait (V)	to bind;to twist;to cover;net;to weave	4531
 3630	PLAN	plan (V)	to love;to want;to make;to think;to know	4532
 1597	AIRPLANE	plane	to scrape	4533
 653	PLANT (VEGETATION)	plant	grass;fruit;leaf;to bear;tree;flower;to pierce;to plough;wet;onion	4536
@@ -1467,7 +1467,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 497	SCAR	scar	to cut;wart;wound;bad	5277
 3033	SCARED	scared	grief;bad	5283
 3066	SCARF OR TURBAN	turban	clothes;hat	7080
-3705	SCATTER	scatter (V)	to scatter;to throw;to take;wet;to shake;to fall;to destroy	5286
+2064	SCATTER (SEEDS)	scatter (V)	to scatter;to throw;to take;wet;to shake;to fall;to destroy	5286
 673	SCHOOL	school	house;to learn	5290
 356	SHEARS	scissors	to cut;to press	5291
 299	SCOLD	scold (V)	to curse	5292
@@ -1538,8 +1538,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 1640	SIBLING	sibling	relative;child	5516
 341	SICKLE	sickle	knife;sharp;to mow	5518
 682	SIDE	side	back;side;edge;obstacle;near;body;foot;below;valley;straight;face;low	5520
-3353	SIEVE (TOOL)	sieve	drop;to filter;net	5527
-86	SIEVE	sieve (V)	to shake	5528
+86	SIEVE	sieve	drop;to filter;net	5527
 2519	SEEING (VISUAL SENSE)	sight	to see;shape	5531
 1641	SILK	silk	cloth;sinew;to weave;rope	5536
 2351	SILKWORM	silkworm	insect;worm	5537
@@ -1588,7 +1587,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 1234	SMOOTH	smooth	flat;slippery;to scrape;soft;straight;to press	5662
 1543	SNAIL	snail	insect;snake;shellfish;worm	5666
 730	SNAKE	snake	snake;worm;slippery;fish	5667
-459	SNAP (OF STICK)	snap	to bite	5668
+460	BREAK (OF ROPE)	snap	to bite	5668
 3320	SNARE (TRAP)	snare	trap;stick	5671
 1621	SNEEZE	sneeze (V)	noise;nose;sick;to vomit	5676
 375	SNIFF	sniff (V)	noise;to suck	5677
@@ -1652,6 +1651,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 3618	STAMP	stamp (V)	to press;sign;to adhere;to beat	5879
 1442	STAND	stand	chair	5880
 1430	STAR	star	star;to shine	5883
+1806	BEGIN	start (V)	to make;to throw;to start;one	5888
 2955	STATE (POLITICS)	state	body;house;place;to be	5893
 1002	STATUE	statue	shape;devil	5895
 713	STEAL	steal (V)	thief;to deceive;to hide	5901
@@ -1843,7 +1843,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SENSES	LINE_IN_SOURCE
 1445	TURN (SOMETHING)	turn over (V)	to roll	6555
 3062	TURNIP	turnip	vegetable	6560
 112	TURTLE	turtle	frog	6562
-3280	TUSK	tusk	tooth	6564
+2495	ELEPHANT TUSK	tusk	tooth	6564
 1710	TWENTY	twenty	twenty	6567
 1546	TWICE	twice	together;two	6570
 3222	TWIG	twig	to bear;tree;stick	6571

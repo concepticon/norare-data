@@ -25,11 +25,13 @@
           }, 
           {
             "name": "ENGLISH",
-            "datatype": "string"
+            "datatype": "string",
+            "titles": "GLOSS"
           }, 
           {
             "name": "SENSES",
-            "datatype": "string"
+            "datatype": "string",
+            "titles": "SENSES"
           },
           {
             "name": "LINE_IN_SOURCE",

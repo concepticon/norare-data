@@ -25,32 +25,39 @@
           }, 
           {
             "name": "SPANISH",
-            "datatype": "string"
+            "datatype": "string",
+            "titles": "word"
           }, 
           {
             "name": "SPANISH_AOA_RATING_MEAN",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "averageAoA"
           },
           {
             "name": "SPANISH_AOA_RATING_SD",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "SD"
           },
           {
             "name": "SPANISH_AOA_RATING_MIN",
-            "datatype": "integer"
+            "datatype": "integer",
+            "titles": "Min"
           },
           {
             "name": "SPANISH_AOA_RATING_MAX",
-            "datatype": "integer"
+            "datatype": "integer",
+            "titles": "Max"
           },
 
           {
             "name": "SPANISH_ORAL_FREQUENCY_LOG",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "OralFreq_Log"
           },
           {
             "name": "SPANISH_WRITTEN_FREQUENCY_LOG",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": " WrittenFreq_Subtlex-ESP_Log"
           },
           {
             "name": "LINE_IN_SOURCE",

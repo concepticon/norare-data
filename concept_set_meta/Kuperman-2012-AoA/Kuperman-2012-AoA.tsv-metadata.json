@@ -25,31 +25,38 @@
           }, 
           {
             "name": "ENGLISH",
-            "datatype": "string"
+            "datatype": "string",
+            "titles": "Word"
           }, 
           {
             "name": "ENGLISH_OCCURRENCES_TOTAL",
-            "datatype": "integer"
+            "datatype": "integer",
+            "titles": "OccurTotal"
           },
           {
             "name": "ENGLISH_OCCURRENCES_NUM",
-            "datatype": "integer"
+            "datatype": "integer",
+            "titles": "OccurNum"
           },
           {
             "name": "ENGLISH_FREQUENCY_PM",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "Freq_pm"
           },
           {
             "name": "ENGLISH_RATING_MEAN",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "Rating.Mean"
           },
           {
             "name": "ENGLISH_RATING_SD",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "Rating.SD"
           },
           {
             "name": "ENGLISH_DUNNO",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "Dunno"
           },
           {
             "name": "LINE_IN_SOURCE",

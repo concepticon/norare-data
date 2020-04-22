@@ -26,26 +26,32 @@
           {
             "name": "ENGLISH",
             "datatype": "string"
+            "titles": "Word"
           }, 
           {
             "name": "CONCRETENESS_MEAN",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "Conc.M"
           },
           {
             "name": "CONCRETENESS_SD",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "Conc.SD"
           },
           {
             "name": "DUNNO",
-            "datatype": "integer"
+            "datatype": "integer",
+            "titles": "Unknown"
           },
           {
             "name": "FREQUENCY_SUBTITLE",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "SUBTLEX"
           },
           {
             "name": "POS",
-            "datatype": "string"
+            "datatype": "string",
+            "titles": "Dom_Pos"
           },
           {
             "name": "LINE_IN_SOURCE",

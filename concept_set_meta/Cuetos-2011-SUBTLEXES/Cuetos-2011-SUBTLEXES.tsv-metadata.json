@@ -1,7 +1,7 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of Spanish word frequencies from Cuetos et al. (2011).",
+  "titles": "Automatic mapping of Spanish word frequencies from Cuetos et al. (2011).",
   "dc:source": "http://crr.ugent.be/papers/CUETOS%20et%20al%202011.pdf",
   "dc:references" : "Cuetos2011",
   "dcat:keyword": ["word frequency", "monolingual", "Spanish"],
@@ -26,22 +26,22 @@
           {
             "name": "SPANISH",
             "datatype": "string",
-            "dc:title": "Word"
+            "titles": "Word"
           }, 
           {
             "name": "SPANISH_FREQUENCY",
             "datatype": "integer",
-            "dc:title": "Freq. count"
+            "titles": "Freq. count"
           },
           {
             "name": "SPANISH_FREQUENCY_PM",
             "datatype": "float",
-            "dc:title": "Freq. per million"
+            "titles": "Freq. per million"
           },
           {
             "name": "SPANISH_FREQUENCY_LOG",
             "datatype": "float",
-            "dc:title": "Log freq."
+            "titles": "Log freq."
           }
         ],
         "foreignKeys": [

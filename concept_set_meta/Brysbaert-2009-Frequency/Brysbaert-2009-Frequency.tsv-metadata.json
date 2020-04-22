@@ -25,31 +25,38 @@
           }, 
           {
             "name": "ENGLISH",
-            "datatype": "string"
+            "datatype": "string",
+            "titles": "Word"
           }, 
           {
             "name": "ENGLISH_FREQUENCY",
-            "datatype": "integer"
+            "datatype": "integer",
+            "titles": "FREQcount"
           },
           {
             "name": "ENGLISH_CD",
-            "datatype": "integer"
+            "datatype": "integer",
+            "titles": "CDcount"
           },
           {
             "name": "ENGLISH_SUBTITLE_FREQUENCY",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "SUBTLWF"
           },
           {
             "name": "ENGLISH_SUBTITLE_CD",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "SUBTLCD"
           },
           {
             "name": "ENGLISH_FREQUENCY_LOG",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "Lg10WF"
           },
           {
             "name": "ENGLISH_CD_LOG",
-            "datatype": "float"
+            "datatype": "float",
+            "titles": "Lg10CD"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -67,7 +74,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2009-Freq.tsv"
+      "url": "Brysbaert-2009-Frequency.tsv"
     }
   ]
 }

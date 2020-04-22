@@ -1,15 +1,15 @@
-from pynorare.data import NormDataSet, download_file, get_csv
+from pynorare.dataset import NormDataSet
 
 class Dataset(NormDataSet):
     id = 'Brysbaert-2014-Concreteness'
 
     def download(self):
-        download_file(
+        self.download_file(
         'http://crr.ugent.be/papers/Concreteness_ratings_Brysbaert_et_al_BRM.txt',
         'brysbaert_concreteness.tsv'
         )
 
-    def map(self):
+    def map(self, write_file=True):
         
         # for comparison with part of speech
         remap = {
@@ -32,7 +32,7 @@ class Dataset(NormDataSet):
                 }
 
         # get the data
-        sheet = get_csv('brysbaert_concreteness.tsv')
+        sheet = self.get_csv('brysbaert_concreteness.tsv')
 
         # get data and map them if possible
         for i in range(0, len(sheet)):
@@ -87,10 +87,8 @@ class Dataset(NormDataSet):
                 best_line[6],
                 best_line[0]
                 ]]
-        self.writefile(header, table)
-
-
-if __name__ == '__main__':
-    from sys import argv
-    Dataset().run(argv)
+        self._table = table
+        self._header = header
+        if write_file:
+            self.writefile()
 

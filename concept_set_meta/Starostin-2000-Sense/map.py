@@ -1,4 +1,4 @@
-from pynorare.data import NormDataSet, get_csv
+from pynorare.dataset import NormDataSet
 
 class Dataset(NormDataSet):
 
@@ -7,10 +7,10 @@ class Dataset(NormDataSet):
     def download(self):
         pass
 
-    def map(self):
+    def map(self, write_file=True):
         
         # get the data
-        sheet = get_csv('sense.tsv', dicts=False)
+        sheet = self.get_csv('sense.tsv', dicts=False)
 
         # get data and map them if possible
         for i, line in enumerate(sheet[1:]): 
@@ -59,9 +59,8 @@ class Dataset(NormDataSet):
                 best_line[2], 
                 best_line[0]
                 ]]
-        self.writefile(header, table)
+        self._header = header
+        self._table = table
+        if write_file:
+            self.writefile()
 
-
-if __name__ == '__main__':
-    from sys import argv
-    Dataset().run(argv)
