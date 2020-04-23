@@ -1,7 +1,7 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "titles": "Automatic mapping of Spanish word frequencies from Cuetos et al. (2011).",
+  "cd:title": "Automatic mapping of Spanish word frequencies from Cuetos et al. (2011).",
   "dc:source": "http://crr.ugent.be/papers/CUETOS%20et%20al%202011.pdf",
   "dc:references" : "Cuetos2011",
   "dcat:keyword": ["word frequency", "monolingual", "Spanish"],
