@@ -25,7 +25,7 @@
           }, 
           {
             "name": "ENGLISH",
-            "datatype": "string"
+            "datatype": "string",
             "titles": "Word"
           }, 
           {
