@@ -1,5 +1,4 @@
 from pynorare.dataset import NormDataSet
-from sys import argv
 
 class Dataset(NormDataSet):
 
@@ -19,7 +18,3 @@ class Dataset(NormDataSet):
                 gloss='ENGLISH',
                 language='en',
                 write_file=write_file)
-
-                
-if __name__ == '__main__':
-    Dataset().run(argv)
