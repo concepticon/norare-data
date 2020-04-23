@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of SER ratings by Juhasz & Yap (2013).",
+  "dc:source": "https://doi.org/10.3758/s13428-012-0242-9",
+  "dc:references" : "Juhasz2013",
+  "dcat:keyword": ["sensory experience ratings", "mono- and disyllabic words", "English"],
+  "dc:description": "An automated mapping of the SER ratings submitted with the study of Juhasz & Yap (2013) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "ENGLISH_SER_MEAN",
+            "datatype": "float",
+            "titles": "Average SER"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Juhasz-2013-SER.tsv"
+    }
+  ]
+}
