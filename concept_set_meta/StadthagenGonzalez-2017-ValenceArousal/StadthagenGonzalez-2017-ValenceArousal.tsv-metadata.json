@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of valence and arousal ratings by Stadthagen-Gonzalez et al. (2017).",
+  "dc:source": "https://doi.org/10.3758/s13428-012-0242-9",
+  "dc:references" : "StadthagenGonzalez2017",
+  "dcat:keyword": ["valence", "arousal", "Spanish"],
+  "dc:description": "An automated mapping of the valence and arousal ratings submitted with the study of Stadthagen-Gonzalez et al. (2017) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "SPANISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "SPANISH_VALENCE_MEAN",
+            "datatype": "float",
+            "titles": "ValenceMean"
+          },
+          {
+            "name": "SPANISH_AROUSAL_MEAN",
+            "datatype": "float",
+            "titles": "ArousalMean"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "StadthagenGonzalez-2017-ValenceArousal.tsv"
+    }
+  ]
+}
