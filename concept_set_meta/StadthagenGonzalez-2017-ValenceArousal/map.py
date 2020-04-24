@@ -12,7 +12,8 @@ class Dataset(NormDataSet):
 
     def map(self, write_file=True):
         
-        sheet = self.get_csv('13428_2015_700_MOESM1_ESM.csv', ",", dicts=True)
+        sheet = self.get_csv('13428_2015_700_MOESM1_ESM.csv', delimiter=",", dicts=True,
+                coding='cp1252')
         self.extract_data(
                 sheet,
                 gloss='SPANISH',
