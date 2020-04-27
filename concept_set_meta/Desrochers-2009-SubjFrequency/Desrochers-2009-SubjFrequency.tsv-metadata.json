@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of subjective frequency and imageability ratings for French nouns by Desrochers & Thompson (2009).",
+  "dc:source": "https://doi.org/10.3758/BRM.41.2.546",
+  "dc:references" : "Desrochers2009",
+  "dcat:keyword": ["discrete emotion intensities", "nouns", "German"],
+  "dc:description": "An automated mapping of subjective frequency and imageability ratings for French nouns submitted with the study of Desrochers & Thompson (2009) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "FRENCH",
+            "datatype": "string",
+            "titles": "NOUN"
+          }, 
+          {
+            "name": "FRENCH_SUBJECTIVE_FREQUENCY",
+            "datatype": "float",
+            "titles": "FREQ_Mean"
+          },
+          {
+            "name": "FRENCH_IMAGEABILITY_MEAN",
+            "datatype": "float",
+            "titles": "IMAGE_Mean"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Desrochers-2009-SubjFrequency.tsv"
+    }
+  ]
+}
