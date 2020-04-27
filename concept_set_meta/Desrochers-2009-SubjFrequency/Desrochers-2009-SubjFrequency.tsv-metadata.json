@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of subjective frequency and imageability ratings for French nouns by Desrochers & Thompson (2009).",
   "dc:source": "https://doi.org/10.3758/BRM.41.2.546",
   "dc:references" : "Desrochers2009",
-  "dcat:keyword": ["discrete emotion intensities", "nouns", "German"],
+  "dcat:keyword": ["subjective frequency","imageability","ratings", "nouns", "French"],
   "dc:description": "An automated mapping of subjective frequency and imageability ratings for French nouns submitted with the study of Desrochers & Thompson (2009) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
