@@ -1,0 +1,155 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of ratings of valence, arousal, and dominance by Warriner et al. (2013).",
+  "dc:source": "https://doi.org/10.3758/s13428-012-0314-x",
+  "dc:references" : "Brysbaert2014",
+  "dcat:keyword": ["valence", "arousal", "English", "dominance", "ratings"],
+  "dc:description": "An automated mapping of the ratings of valence, arousal, and dominance for 13,915 English lemmas submitted with the study of Warriner et al. (2013) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "ENGLISH_VALENCE_MEAN",
+            "datatype": "float",
+            "titles": "V.Mean.Sum"
+          },
+          {
+            "name": "ENGLISH_AROUSAL_MEAN",
+            "datatype": "float",
+            "titles": "A.Mean.Sum"
+          },
+          {
+            "name": "ENGLISH_DOMINANCE_MEAN",
+            "datatype": "float",
+            "titles": "D.Mean.Sum"
+          },
+          {
+            "name": "ENGLISH_VALENCE_MEAN_MALE",
+            "datatype": "float",
+            "titles": "V.Mean.M"
+          },
+          {
+            "name": "ENGLISH_VALENCE_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "V.Mean.F"
+          },
+          {
+            "name": "ENGLISH_AROUSAL_MEAN_MALE",
+            "datatype": "float",
+            "titles": "A.Mean.M"
+          },
+          {
+            "name": "ENGLISH_AROUSAL_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "A.Mean.F"
+          },
+          {
+            "name": "ENGLISH_DOMINANCE_MEAN_MALE",
+            "datatype": "float",
+            "titles": "D.Mean.M"
+          },
+          {
+            "name": "ENGLISH_DOMINANCE_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "D.Mean.F"
+          },
+          {
+            "name": "ENGLISH_VALENCE_MEAN_YOUNG",
+            "datatype": "float",
+            "titles": "V.Mean.Y"
+          },
+          {
+            "name": "ENGLISH_VALENCE_MEAN_OLD",
+            "datatype": "float",
+            "titles": "V.Mean.O"
+          },
+          {
+            "name": "ENGLISH_AROUSAL_MEAN_YOUNG",
+            "datatype": "float",
+            "titles": "A.Mean.Y"
+          },
+          {
+            "name": "ENGLISH_AROUSAL_MEAN_OLD",
+            "datatype": "float",
+            "titles": "A.Mean.O"
+          },
+          {
+            "name": "ENGLISH_DOMINANCE_MEAN_YOUNG",
+            "datatype": "float",
+            "titles": "D.Mean.Y"
+          },
+          {
+            "name": "ENGLISH_DOMINANCE_MEAN_OLD",
+            "datatype": "float",
+            "titles": "D.Mean.O"
+          },
+          {
+            "name": "ENGLISH_VALENCE_MEAN_HIGH",
+            "datatype": "float",
+            "titles": "V.Mean.H"
+          },
+          {
+            "name": "ENGLISH_VALENCE_MEAN_LOW",
+            "datatype": "float",
+            "titles": "V.Mean.L"
+          },
+          {
+            "name": "ENGLISH_AROUSAL_MEAN_HIGH",
+            "datatype": "float",
+            "titles": "A.Mean.H"
+          },
+          {
+            "name": "ENGLISH_AROUSAL_MEAN_LOW",
+            "datatype": "float",
+            "titles": "A.Mean.L"
+          },
+          {
+            "name": "ENGLISH_DOMINANCE_MEAN_HIGH",
+            "datatype": "float",
+            "titles": "D.Mean.H"
+          },
+          {
+            "name": "ENGLISH_DOMINANCE_MEAN_LOW",
+            "datatype": "float",
+            "titles": "D.Mean.L"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Warriner-2013-AffectiveRatings.tsv"
+    }
+  ]
+}
