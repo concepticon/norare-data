@@ -1,0 +1,80 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of frequency norms by Keuleers et al. (2010).",
+  "dc:source": "https://doi.org/10.3758/BRM.42.3.643",
+  "dc:references" : "Keuleers2010",
+  "dcat:keyword": ["word frequency", "monolingual", "Dutch"],
+  "dc:description": "An automated mapping of the frequency norms submitted with the study of Keuleers et al. (2010) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "DUTCH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "DUTCH_FREQUENCY",
+            "datatype": "integer",
+            "titles": "FREQcount"
+          },
+          {
+            "name": "DUTCH_CD",
+            "datatype": "integer",
+            "titles": "CDcount"
+          },
+          {
+            "name": "DUTCH_SUBTITLE_FREQUENCY",
+            "datatype": "float",
+            "titles": "SUBTLEXWF"
+          },
+          {
+            "name": "DUTCH_FREQUENCY_LOG",
+            "datatype": "float",
+            "titles": "Lg10WF"
+          },
+          {
+            "name": "DUTCH_SUBTITLE_CD",
+            "datatype": "float",
+            "titles": "SUBTLEXCD"
+          },
+          {
+            "name": "DUTCH_CD_LOG",
+            "datatype": "float",
+            "titles": "Lg10CD"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Keuleers-2010-SUBTLEXNL.tsv"
+    }
+  ]
+}

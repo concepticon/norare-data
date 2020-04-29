@@ -12,3 +12,17 @@ Brysbaert-2009-SUBTLEXUS	ENGLISH_CD_LOG	logarithmic	contextual diversity	norms	E
 Brysbaert-2014-Concreteness	ENGLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	English	ENGLISH	user	Conc.M		The mean concreteness rating.
 Brysbaert-2014-Concreteness	ENGLISH_DUNNO	percentage	familiarity	ratings	English	ENGLISH	user	Unknown		The number of persons indicating they did not know the word.
 Brysbaert-2014-Concreteness	ENGLISH_POS	linguistic	PoS	norms	English	ENGLISH	meta	Dom_Pos		The dominant part-of-speech tag of the word.
+Brysbaert-2011-SUBTLEXDE	GERMAN_FREQUENCY	tokens	frequency	norms	German	GERMAN	corpus	WFfreqcount		This is the number of times the word as written in column 1 is encountered in the subtitle corpus.
+Brysbaert-2011-SUBTLEXDE	GERMAN_SUBTITLE_FREQUENCY	tokens	frequency	norms	German	GERMAN	corpus	SUBTLEX		This is the frequency per million based on CUMfreqcount (i.e., it equals CUMfreqcount / 25.399).
+Brysbaert-2011-SUBTLEXDE	GERMAN_FREQUENCY_LOG	logarithmic	frequency	norms	German	GERMAN	corpus	lgSUBTLEX		This is log10(CUMfreqcount+1). It is the value to use when you want to match stimuli in various conditions. When a stimulus is not present in the corpus, lgSUBTLEX gets a value of 0.
+Cuetos-2011-SUBTLEXESP	SPANISH_FREQUENCY	tokens	frequency	norms	Spanish	SPANISH	corpus	Freq. count		This is the number of times the word appears in the corpus.
+Cuetos-2011-SUBTLEXESP	SPANISH_FREQUENCY_PM	normalized	frequency	norms	Spanish	SPANISH	corpus	Freq. per million		Word frequency per million  of subtitles.
+Cuetos-2011-SUBTLEXESP	SPANISH_FREQUENCY_LOG	logarithmic	frequency	norms	Spanish	SPANISH	corpus	Log freq.		Log10 of subtitle word frequency.
+Desrochers-2009-SubjFrequency	FRENCH_SUBJECTIVE_FREQUENCY	mean	frequency	ratings	French	FRENCH	user	FREQ_Mean		Subjective frequencies estimates were based on a 7-point rating scale.
+Desrochers-2009-SubjFrequency	FRENCH_IMAGEABILITY_MEAN	mean	imageability	ratings	French	FRENCH	user	IMAGE_Mean		Imageability estimates were based on a 7-point rating scale.
+Keuleers-2010-SUBTLEXNL	DUTCH_FREQUENCY	tokens	frequency	norms	Dutch	DUTCH	corpus	FREQcount		This is the number of times the word appears in the corpus.
+Keuleers-2010-SUBTLEXNL	DUTCH_CD	numeric	contextual diversity	norms	Dutch	DUTCH	corpus	CDcount		This  is the number of films in which the word appears.
+Keuleers-2010-SUBTLEXNL	DUTCH_SUBTITLE_FREQUENCY	tokens	frequency	norms	Dutch	DUTCH	corpus	SUBTLEXWF		This is the WF per million words and has 4-digit precision.
+Keuleers-2010-SUBTLEXNL	DUTCH_FREQUENCY_LOG	logarithmic	frequency	norms	Dutch	DUTCH	corpus	Lg10WF		This is a value based on log10(FREQcount+1) and with 4-digit precision.
+Keuleers-2010-SUBTLEXNL	DUTCH_SUBTITLE_CD	numeric	contextual diversity	norms	Dutch	DUTCH	corpus	SUBTLEXCD		This value indicates in what percent of the films the word appears, with 4-digit precision.
+Keuleers-2010-SUBTLEXNL	DUTCH_CD_LOG	logarithmic	contextual diversity	norms	Dutch	DUTCH	corpus	Lg10CD		This value is based on log10(CDcount +1) and has 4-digit precision.
