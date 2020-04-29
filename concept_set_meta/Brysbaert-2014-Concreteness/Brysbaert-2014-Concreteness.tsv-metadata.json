@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of Concreteness Ratings by Brysbaert et al. (2014).",
   "dc:source": "https://doi.org/10.3758/s13428-013-0403-5",
   "dc:references" : "Brysbaert2014",
-  "dcat:keyword": ["word frequency", "monolingual", "english"],
+  "dcat:keyword": ["word frequency", "monolingual", "English"],
   "dc:description": "An automated mapping of the concreteness ratings submitted with the study of Brysbaert et al. (2014) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
@@ -29,27 +29,17 @@
             "titles": "Word"
           }, 
           {
-            "name": "CONCRETENESS_MEAN",
+            "name": "ENGLISH_CONCRETENESS_MEAN",
             "datatype": "float",
             "titles": "Conc.M"
           },
           {
-            "name": "CONCRETENESS_SD",
-            "datatype": "float",
-            "titles": "Conc.SD"
-          },
-          {
-            "name": "DUNNO",
+            "name": "ENGLISH_DUNNO",
             "datatype": "integer",
             "titles": "Unknown"
           },
           {
-            "name": "FREQUENCY_SUBTITLE",
-            "datatype": "float",
-            "titles": "SUBTLEX"
-          },
-          {
-            "name": "POS",
+            "name": "ENGLISH_POS",
             "datatype": "string",
             "titles": "Dom_Pos"
           },

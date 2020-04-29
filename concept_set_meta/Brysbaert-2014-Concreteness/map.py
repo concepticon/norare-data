@@ -56,9 +56,7 @@ class Dataset(NormDataSet):
                     str(i), 
                     gloss, 
                     '{0}'.format(concm),
-                    '{0}'.format(concsd),
                     '{0}'.format(dunno),
-                    '{0}'.format(subtl),
                     '{0}'.format(pos),
                     all_best_match, 
                     all_best_priority]]
@@ -66,11 +64,9 @@ class Dataset(NormDataSet):
         header = ["CONCEPTICON_ID",
                 "CONCEPTICON_GLOSS",
                 "ENGLISH",
-                "CONCRETENESS_MEAN",
-                "CONCRETENESS_SD",
-                "DUNNO",
-                "FREQUENCY_SUBTITLE",
-                "POS",
+                "ENGLISH_CONCRETENESS_MEAN",
+                "ENGLISH_DUNNO",
+                "ENGLISH_POS",
                 "LINE_IN_SOURCE"]
         table = []
         for key, lines in self.mapped.items(): 
@@ -83,8 +79,6 @@ class Dataset(NormDataSet):
                 best_line[2], 
                 best_line[3],
                 best_line[4],
-                best_line[5],
-                best_line[6],
                 best_line[0]
                 ]]
         self._table = table
