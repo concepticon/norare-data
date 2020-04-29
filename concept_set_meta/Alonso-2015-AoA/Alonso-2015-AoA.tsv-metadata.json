@@ -34,11 +34,6 @@
             "titles": "averageAoA"
           },
           {
-            "name": "SPANISH_AOA_RATING_SD",
-            "datatype": "float",
-            "titles": "SD"
-          },
-          {
             "name": "SPANISH_AOA_RATING_MIN",
             "datatype": "integer",
             "titles": "Min"
@@ -53,11 +48,6 @@
             "name": "SPANISH_ORAL_FREQUENCY_LOG",
             "datatype": "float",
             "titles": "OralFreq_Log"
-          },
-          {
-            "name": "SPANISH_WRITTEN_FREQUENCY_LOG",
-            "datatype": "float",
-            "titles": " WrittenFreq_Subtlex-ESP_Log"
           },
           {
             "name": "LINE_IN_SOURCE",
