@@ -1,7 +1,7 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of Frequency Norms by Brysbaert et al. (2009).",
+  "dc:title": "Automatic mapping of frequency norms by Brysbaert et al. (2009).",
   "dc:source": "https://doi.org/10.3758/BRM.41.4.977",
   "dc:references" : "Brysbaert2009",
   "dcat:keyword": ["word frequency", "monolingual", "english"],
@@ -74,7 +74,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2009-Frequency.tsv"
+      "url": "Brysbaert-2009-SUBTLEXUS.tsv"
     }
   ]
 }
