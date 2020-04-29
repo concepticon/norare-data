@@ -20,3 +20,9 @@ Cuetos-2011-SUBTLEXESP	SPANISH_FREQUENCY_PM	normalized	frequency	norms	Spanish	S
 Cuetos-2011-SUBTLEXESP	SPANISH_FREQUENCY_LOG	logarithmic	frequency	norms	Spanish	SPANISH	corpus	Log freq.		Log10 of subtitle word frequency.
 Desrochers-2009-SubjFrequency	FRENCH_SUBJECTIVE_FREQUENCY	mean	frequency	ratings	French	FRENCH	user	FREQ_Mean		Subjective frequencies estimates were based on a 7-point rating scale.
 Desrochers-2009-SubjFrequency	FRENCH_IMAGEABILITY_MEAN	mean	imageability	ratings	French	FRENCH	user	IMAGE_Mean		Imageability estimates were based on a 7-point rating scale.
+Keuleers-2010-SUBTLEXNL	DUTCH_FREQUENCY	tokens	frequency	norms	Dutch	DUTCH	corpus	FREQcount		This is the number of times the word appears in the corpus.
+Keuleers-2010-SUBTLEXNL	DUTCH_CD	numeric	contextual diversity	norms	Dutch	DUTCH	corpus	CDcount		This  is the number of films in which the word appears.
+Keuleers-2010-SUBTLEXNL	DUTCH_SUBTITLE_FREQUENCY	tokens	frequency	norms	Dutch	DUTCH	corpus	SUBTLEXWF		This is the WF per million words and has 4-digit precision.
+Keuleers-2010-SUBTLEXNL	DUTCH_FREQUENCY_LOG	logarithmic	frequency	norms	Dutch	DUTCH	corpus	Lg10WF		This is a value based on log10(FREQcount+1) and with 4-digit precision.
+Keuleers-2010-SUBTLEXNL	DUTCH_SUBTITLE_CD	numeric	contextual diversity	norms	Dutch	DUTCH	corpus	SUBTLEXCD		This value indicates in what percent of the films the word appears, with 4-digit precision.
+Keuleers-2010-SUBTLEXNL	DUTCH_CD_LOG	logarithmic	contextual diversity	norms	Dutch	DUTCH	corpus	Lg10CD		This value is based on log10(CDcount +1) and has 4-digit precision.
