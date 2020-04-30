@@ -59,3 +59,7 @@ Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_HIGH	mean	arousal	ratings	En
 Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_LOW	mean	arousal	ratings	English	ENGLISH	user	A.Mean.L		Mean value of arousal ratings on a 9-point scale across participants with a low education.
 Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_HIGH	mean	dominance	ratings	English	ENGLISH	user	D.Mean.H		Mean value of dominance ratings on a 9-point scale across participants with a high education.
 Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	ratings	English	ENGLISH	user	D.Mean.L		Mean value of dominance ratings on a 9-point scale across participants with a low education.
+Kuperman-2012-AoA	ENGLISH_OCCURRENCES_TOTAL	numeric	AoA	ratings	English	ENGLISH	user	OccurTotal		This is the number of valid age of acquisition-ratings of the word.
+Kuperman-2012-AoA	ENGLISH_OCCURRENCES_NUM	numeric	AoA	ratings	English	ENGLISH	user	OccurNum		This is the number of valid age of acquisition-ratings of the word, counting only numeric ratings, not 'don't know's.
+Kuperman-2012-AoA	ENGLISH_RATING_MEAN	mean	AoA	ratings	English	ENGLISH	user	Rating.Mean		This is the mean of the age of acquisition-ratings of the word. A total of 696,048 valid ratings, including 76,211 'don't know's, were collected from 1,729 inhabitants of the US.
+Kuperman-2012-AoA	ENGLISH_DUNNO	percentage	AoA	ratings	English	ENGLISH	user	dunno		This is the proportion of valid responses that are a rating and not a 'don't know'.
