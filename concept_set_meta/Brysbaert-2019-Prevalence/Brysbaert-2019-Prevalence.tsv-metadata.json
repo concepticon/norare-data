@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of word prevalence ratings by Brysbaert et al. (2019).",
+  "dc:source": "https://doi.org/10.3758/s13428-018-1077-9",
+  "dc:references" : "Brysbaert2019",
+  "dcat:keyword": ["word prevalence", "monolingual", "English"],
+  "dc:description": "An automated mapping of the word prevalence ratings (the number of people who know the word) submitted with the study of Brysbaert et al. (2019) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "ENGLISH_KNOWN_PERCENTAGE",
+            "datatype": "float",
+            "titles": "Pknown"
+          },
+          {
+            "name": "ENGLISH_PREVALENCE",
+            "datatype": "float",
+            "titles": "Prevalence"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Brysbaert-2019-Prevalence.tsv"
+    }
+  ]
+}

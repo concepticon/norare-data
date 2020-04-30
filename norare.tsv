@@ -26,3 +26,6 @@ Keuleers-2010-SUBTLEXNL	DUTCH_SUBTITLE_FREQUENCY	tokens	frequency	norms	Dutch	DU
 Keuleers-2010-SUBTLEXNL	DUTCH_FREQUENCY_LOG	logarithmic	frequency	norms	Dutch	DUTCH	corpus	Lg10WF		This is a value based on log10(FREQcount+1) and with 4-digit precision.
 Keuleers-2010-SUBTLEXNL	DUTCH_SUBTITLE_CD	numeric	contextual diversity	norms	Dutch	DUTCH	corpus	SUBTLEXCD		This value indicates in what percent of the films the word appears, with 4-digit precision.
 Keuleers-2010-SUBTLEXNL	DUTCH_CD_LOG	logarithmic	contextual diversity	norms	Dutch	DUTCH	corpus	Lg10CD		This value is based on log10(CDcount +1) and has 4-digit precision.
+Juhasz-2013-SER	ENGLISH_SER_MEAN	mean	sensory experience	ratings	English	ENGLISH	user	Average SER		Sensory experience ratings on a 7-point scale.
+Brysbaert-2019-Prevalence	ENGLISH_KNOWN_PERCENTAGE	percentage	familiarity	ratings	English	ENGLISH	user	Pknown		The percentages of words known across 220,000 participants.
+Brysbaert-2019-Prevalence	ENGLISH_PREVALENCE	normalized	familiarity	ratings	English	ENGLISH	user	Prevalence		The word prevalence (number of people who know the word) across 220,000 participants.
