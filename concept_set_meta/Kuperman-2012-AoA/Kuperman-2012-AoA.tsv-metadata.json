@@ -30,28 +30,18 @@
           }, 
           {
             "name": "ENGLISH_OCCURRENCES_TOTAL",
-            "datatype": "integer",
+            "datatype": "float",
             "titles": "OccurTotal"
           },
           {
             "name": "ENGLISH_OCCURRENCES_NUM",
-            "datatype": "integer",
-            "titles": "OccurNum"
-          },
-          {
-            "name": "ENGLISH_FREQUENCY_PM",
             "datatype": "float",
-            "titles": "Freq_pm"
+            "titles": "OccurNum"
           },
           {
             "name": "ENGLISH_RATING_MEAN",
             "datatype": "float",
             "titles": "Rating.Mean"
-          },
-          {
-            "name": "ENGLISH_RATING_SD",
-            "datatype": "float",
-            "titles": "Rating.SD"
           },
           {
             "name": "ENGLISH_DUNNO",
