@@ -35,7 +35,7 @@
           },
           {
             "name": "ENGLISH_PREVALENCE",
-            "datatype": "integer",
+            "datatype": "float",
             "titles": "Prevalence"
           },
           {
