@@ -2,12 +2,12 @@ from pynorare.dataset import NormDataSet
 
 class Dataset(NormDataSet):
 
-    id = "Keuleers-2010-SUBTLEXNL"
+    id = "Keuleers-2010-Frequency"
 
     def download(self):
         self.download_zip(
             'http://crr.ugent.be/subtlex-nl/SUBTLEX-NL.cd-above2.xlsx.zip',
-            'keuleers_freq',
+            'keuleers_freq.zip',
             'Users/emmanuel/projects/frequencies/subtlex-nl/distribution/version1.3/SUBTLEX-NL.cd-above2.xlsx'
         )
 
