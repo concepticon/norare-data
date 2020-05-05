@@ -4,12 +4,12 @@ from sys import argv
 
 
 class Dataset(NormDataSet):
-    id = "Cuetos-2011-SUBTLEXES"
+    id = "Cuetos-2011-Frequency"
 
     def download(self):
         download_zip(
             'http://crr.ugent.be/papers/SUBTLEX-ESP.zip',
-            'cuetos_freq',
+            'cuetos_freq.zip',
             'SUBTLEX-ESP.xlsx',
         )
 
