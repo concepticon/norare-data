@@ -2,12 +2,12 @@ from pynorare.dataset import NormDataSet
 
 class Dataset(NormDataSet):
 
-    id = "Brysbaert-2011-SUBTLEXDE"
+    id = "Brysbaert-2011-Frequency"
 
     def download(self):
         self.download_zip(
             'http://crr.ugent.be/SUBTLEX-DE/SUBTLEX-DE%20cleaned%20with%20Google00%20frequencies.zip',
-            'brysbaert_freq_de',
+            'brysbaert_freq_de.zip',
             'SUBTLEX-DE cleaned with Google00 frequencies.xlsx'
         )
 

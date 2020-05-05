@@ -55,7 +55,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Cuetos-2011-SUBTLEXES.tsv"
+      "url": "Cuetos-2011-Frequency.tsv"
     }
   ]
 }

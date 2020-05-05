@@ -2,7 +2,7 @@
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Automatic mapping of Polish Ratings by Riegel et al. (2015).",
-  "dc:source": "https://doi.org/10.3758/BRM.41.4.977",
+  "dc:source": "https://doi.org/10.3758/s13428-014-0552-1",
   "dc:references" : "Riegel2015",
   "dcat:keyword": ["arousal", "imageability", "multilingual", "German", "Polish", "valency"],
   "dc:description": "An automated mapping of the Polish ratings submitted with the study of Riegel et al. (2015) to the concept sets in Concepticon.",
@@ -97,7 +97,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Riegel-2015-NAWL.tsv"
+      "url": "Riegel-2015-AffectiveRatings.tsv"
     }
   ]
 }

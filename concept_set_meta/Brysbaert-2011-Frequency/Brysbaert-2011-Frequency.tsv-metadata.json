@@ -59,7 +59,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2011-SUBTLEXDE.tsv"
+      "url": "Brysbaert-2011-Frequency.tsv"
     }
   ]
 }

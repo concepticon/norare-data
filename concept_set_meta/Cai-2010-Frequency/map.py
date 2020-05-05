@@ -6,7 +6,7 @@ from pynorare.types import integer
 from collections import OrderedDict
 
 class Dataset(NormDataSet):
-    id = "Cai-2010-SUBTLEXZH"
+    id = "Cai-2010-Frequency"
 
     def download(self):
         

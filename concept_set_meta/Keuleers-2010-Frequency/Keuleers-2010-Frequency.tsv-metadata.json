@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of frequency norms by Brysbaert et al. (2009).",
-  "dc:source": "https://doi.org/10.3758/BRM.41.4.977",
-  "dc:references" : "Brysbaert2009",
-  "dcat:keyword": ["word frequency", "monolingual", "english"],
-  "dc:description": "An automated mapping of the frequency norms submitted with the study of Brysbaert et al. (2009) to the concept sets in Concepticon.",
+  "dc:title": "Automatic mapping of frequency norms by Keuleers et al. (2010).",
+  "dc:source": "https://doi.org/10.3758/BRM.42.3.643",
+  "dc:references" : "Keuleers2010",
+  "dcat:keyword": ["word frequency", "monolingual", "Dutch"],
+  "dc:description": "An automated mapping of the frequency norms submitted with the study of Keuleers et al. (2010) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -24,37 +24,37 @@
             "datatype": "string"
           }, 
           {
-            "name": "ENGLISH",
+            "name": "DUTCH",
             "datatype": "string",
             "titles": "Word"
           }, 
           {
-            "name": "ENGLISH_FREQUENCY",
+            "name": "DUTCH_FREQUENCY",
             "datatype": "integer",
             "titles": "FREQcount"
           },
           {
-            "name": "ENGLISH_CD",
+            "name": "DUTCH_CD",
             "datatype": "integer",
             "titles": "CDcount"
           },
           {
-            "name": "ENGLISH_SUBTITLE_FREQUENCY",
+            "name": "DUTCH_SUBTITLE_FREQUENCY",
             "datatype": "float",
-            "titles": "SUBTLWF"
+            "titles": "SUBTLEXWF"
           },
           {
-            "name": "ENGLISH_SUBTITLE_CD",
-            "datatype": "float",
-            "titles": "SUBTLCD"
-          },
-          {
-            "name": "ENGLISH_FREQUENCY_LOG",
+            "name": "DUTCH_FREQUENCY_LOG",
             "datatype": "float",
             "titles": "Lg10WF"
           },
           {
-            "name": "ENGLISH_CD_LOG",
+            "name": "DUTCH_SUBTITLE_CD",
+            "datatype": "float",
+            "titles": "SUBTLEXCD"
+          },
+          {
+            "name": "DUTCH_CD_LOG",
             "datatype": "float",
             "titles": "Lg10CD"
           },
@@ -74,7 +74,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2009-SUBTLEXUS.tsv"
+      "url": "Keuleers-2010-Frequency.tsv"
     }
   ]
 }
