@@ -3,7 +3,7 @@ from pynorare.types import integer
 
 class Dataset(NormDataSet):
     
-    id = "Riegel-2015-NAWL"
+    id = "Riegel-2015-AffectiveRatings"
 
     def download(self):
         download_file(

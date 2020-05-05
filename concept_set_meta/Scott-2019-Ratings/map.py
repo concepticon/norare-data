@@ -4,7 +4,7 @@ from sys import argv
 
 
 class Dataset(NormDataSet):
-    id = "Scott-2019-Glasgownorms"
+    id = "Scott-2019-Ratings"
 
     def download(self):
         download_file(
