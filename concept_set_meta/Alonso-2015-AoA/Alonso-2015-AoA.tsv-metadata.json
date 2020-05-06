@@ -29,7 +29,7 @@
             "titles": "word"
           }, 
           {
-            "name": "SPANISH_AOA__MEAN",
+            "name": "SPANISH_AOA_MEAN",
             "datatype": "float",
             "titles": "averageAoA"
           },
