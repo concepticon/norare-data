@@ -1,7 +1,7 @@
 ID	ColumnName	DataStructure	DatasetType	NoRaReType	RatingType	NameInSource	Source	Note
-Alonso-2015-AoA	SPANISH_AOA_RATING_MEAN	mean	AoA	ratings	user	averageAoA		Average score of AoA ratings.
-Alonso-2015-AoA	SPANISH_AOA_RATING_MIN	numeric	AoA	ratings	user	Min		The minimum age of acquisition indicated by participants.
-Alonso-2015-AoA	SPANISH_AOA_RATING_MAX	numeric	AoA	ratings	user	Max		The maximum age of acquisition indicated by participants.
+Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user	averageAoA		Average score of AoA ratings.
+Alonso-2015-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user	Min		The minimum age of acquisition indicated by participants.
+Alonso-2015-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user	Max		The maximum age of acquisition indicated by participants.
 Alonso-2015-AoA	SPANISH_ORAL_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	OralFreq_Log	Alonso2011	Oral frequency norms from Alonso et al. (2011).
 Brysbaert-2009-Frequency	ENGLISH_FREQUENCY	tokens	frequency	norms	corpus	FREQcount		The number of times the word appears in the corpus (i.e., on the total of 51 million words).
 Brysbaert-2009-Frequency	ENGLISH_CD	tokens	contextual diversity	norms	corpus	CDcount		The number of films in which the word appears (i.e., it has a maximum value of 8,388).
@@ -42,7 +42,7 @@ Keuleers-2010-Frequency	DUTCH_SUBTITLE_CD	numeric	contextual diversity	norms	cor
 Keuleers-2010-Frequency	DUTCH_CD_LOG	logarithmic	contextual diversity	norms	corpus	Lg10CD		This value is based on log10(CDcount +1) and has 4-digit precision.
 Kuperman-2012-AoA	ENGLISH_OCCURRENCES_TOTAL	numeric	AoA	ratings	user	OccurTotal		This is the number of valid age of acquisition-ratings of the word.
 Kuperman-2012-AoA	ENGLISH_OCCURRENCES_NUM	numeric	AoA	ratings	user	OccurNum		This is the number of valid age of acquisition-ratings of the word, counting only numeric ratings, not 'don't know's.
-Kuperman-2012-AoA	ENGLISH_RATING_MEAN	mean	AoA	ratings	user	Rating.Mean		This is the mean of the age of acquisition-ratings of the word. A total of 696,048 valid ratings, including 76,211 'don't know's, were collected from 1,729 inhabitants of the US.
+Kuperman-2012-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	Rating.Mean		This is the mean of the age of acquisition-ratings of the word. A total of 696,048 valid ratings, including 76,211 'don't know's, were collected from 1,729 inhabitants of the US.
 Kuperman-2012-AoA	ENGLISH_DUNNO	percentage	AoA	ratings	user	dunno		This is the proportion of valid responses that are a rating and not a 'don't know'.
 Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_MEN	mean	valence	ratings	user	val_M_men		This is the mean of the valence ratings for each word obtained in the group of men on a 7-point scale.
 Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_WOMEN	mean	valence	ratings	user	val_M_women		This is the mean of the valence ratings for each word obtained in the group of women on a 7-point scale.
@@ -88,3 +88,4 @@ Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_HIGH	mean	arousal	ratings	us
 Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_LOW	mean	arousal	ratings	user	A.Mean.L		Mean value of arousal ratings on a 9-point scale across participants with a low education.
 Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_HIGH	mean	dominance	ratings	user	D.Mean.H		Mean value of dominance ratings on a 9-point scale across participants with a high education.
 Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	ratings	user	D.Mean.L		Mean value of dominance ratings on a 9-point scale across participants with a low education.
+Cortese-2008-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	rating		This is the mean value of age-of-acquisition ratings.
