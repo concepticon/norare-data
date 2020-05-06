@@ -39,7 +39,7 @@
             "titles": "OccurNum"
           },
           {
-            "name": "ENGLISH_RATING_MEAN",
+            "name": "ENGLISH_AOA_MEAN",
             "datatype": "float",
             "titles": "Rating.Mean"
           },

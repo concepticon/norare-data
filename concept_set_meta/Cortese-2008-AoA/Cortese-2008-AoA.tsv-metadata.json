@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of AoA ratings by Alonso et al. (2015).",
-  "dc:source": "https://doi.org/10.3758/s13428-014-0454-2",
-  "dc:references" : "Alonso2015",
-  "dcat:keyword": ["age of acquisition", "monolingual", "Spanish"],
-  "dc:description": "An automated mapping of the AoA ratings submitted with the study of Alonso et al. (2015) to the concept sets in Concepticon.",
+  "dc:title": "Automatic mapping of AoA ratings by Cortese and Khanna (2008).",
+  "dc:source": "https://doi.org/10.3758/BRM.40.3.791",
+  "dc:references" : "Cortese2008",
+  "dcat:keyword": ["age of acquisition", "monolingual", "English"],
+  "dc:description": "An automated mapping of the AoA ratings submitted with the study of Cortese and Khanna (2008) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -24,30 +24,14 @@
             "datatype": "string"
           }, 
           {
-            "name": "SPANISH",
+            "name": "ENGLISH",
             "datatype": "string",
-            "titles": "word"
+            "titles": "item"
           }, 
           {
-            "name": "SPANISH_AOA__MEAN",
+            "name": "ENGLISH_AOA_MEAN",
             "datatype": "float",
-            "titles": "averageAoA"
-          },
-          {
-            "name": "SPANISH_AOA_MIN",
-            "datatype": "integer",
-            "titles": "Min"
-          },
-          {
-            "name": "SPANISH_AOA_MAX",
-            "datatype": "integer",
-            "titles": "Max"
-          },
-
-          {
-            "name": "SPANISH_ORAL_FREQUENCY_LOG",
-            "datatype": "float",
-            "titles": "OralFreq_Log"
+            "titles": "rating"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -65,7 +49,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Alonso-2015-AoA.tsv"
+      "url": "Cortese-2008-AoA.tsv"
     }
   ]
 }
