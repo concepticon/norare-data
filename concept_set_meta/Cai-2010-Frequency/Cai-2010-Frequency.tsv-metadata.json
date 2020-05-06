@@ -2,7 +2,7 @@
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Automatic mapping of Frequency Norms by Cai and Brysbaert (2010).",
-  "dc:source": "https://doi.org/10.3758/s13428-013-0403-5",
+  "dc:source": "http://www.ugent.be/pp/experimentele-psychologie/en/research/documents/subtlexch/cai.pdf",
   "dc:references" : "Cai2010",
   "dcat:keyword": ["word frequency", "monolingual", "chineese"],
   "dc:description": "An automated mapping of the frequency norms submitted with the study of Cai and Brysbaert (2010) to the concept sets in Concepticon.",
