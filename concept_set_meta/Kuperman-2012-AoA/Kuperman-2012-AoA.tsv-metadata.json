@@ -30,12 +30,12 @@
           }, 
           {
             "name": "ENGLISH_OCCURRENCES_TOTAL",
-            "datatype": "float",
+            "datatype": "integer",
             "titles": "OccurTotal"
           },
           {
             "name": "ENGLISH_OCCURRENCES_NUM",
-            "datatype": "float",
+            "datatype": "integer",
             "titles": "OccurNum"
           },
           {
