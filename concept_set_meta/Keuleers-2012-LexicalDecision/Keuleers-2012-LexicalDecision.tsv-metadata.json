@@ -1,7 +1,7 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of AoA ratings by Keuleers et al. (2012).",
+  "dc:title": "Automatic mapping of lexical decision data by Keuleers et al. (2012).",
   "dc:source": "https://doi.org/10.3758/s13428-011-0118-4",
   "dc:references" : "Keuleers2012",
   "dcat:keyword": ["lexical decision", "monolingual", "English"],
