@@ -89,13 +89,6 @@ Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_LOW	mean	arousal	ratings	use
 Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_HIGH	mean	dominance	ratings	user	D.Mean.H		Mean value of dominance ratings on a 9-point scale across participants with a high education.
 Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	ratings	user	D.Mean.L		Mean value of dominance ratings on a 9-point scale across participants with a low education.
 Cortese-2008-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	rating		This is the mean value of age-of-acquisition ratings.
-<<<<<<< HEAD
-Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	reaction time	ratings	user	rt		The average RT to the stimulus (correct trials only).
-Keuleers-2012-LexicalDecision	ENGLISH_ZSCORE_MEAN	mean	reaction time	ratings	user	zscore		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
-Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_PERCENTAGE	percentage	accuracy	ratings	user	accuracy		Average accuracy for the stimulus.
-Ferrand-2010-LexicalDecision	FRENCH_RT_MEAN	mean	reaction time	ratings	user	rt		The average RT to the stimulus (correct trials only).
-Ferrand-2010-LexicalDecision	FRENCH_ZSCORE_MEAN	mean	reaction time	ratings	user	rtz		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
-=======
 Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	reaction time	norms	user	rt		The average RT to the stimulus (correct trials only).
 Keuleers-2012-LexicalDecision	ENGLISH_ZSCORE_MEAN	mean	reaction time	norms	user	zscore		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
 Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_MEAN	mean	accuracy	norms	user	accuracy		Average accuracy for the stimulus.
@@ -106,4 +99,3 @@ GonzalezNosti-2014-LexicalDecision	SPANISH_RT_MEAN	mean	reaction time	norms	user
 Tsang-2018-LexicalDecision	CHINESE_RT_MEAN	mean	reaction time	norms	user	RT		Mean reaction time across participants.
 Tsang-2018-LexicalDecision	CHINESE_ZSCORE_MEAN	mean	reaction time	norms	user	zRT		Mean standardized reaction time across participants.
 Tsang-2018-LexicalDecision	CHINESE_STROKE	numeric	descriptive	norms	meta	tstroke		Total number of strokes of the whole-word.
->>>>>>> master
