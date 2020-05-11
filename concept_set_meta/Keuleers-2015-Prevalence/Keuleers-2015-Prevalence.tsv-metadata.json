@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of word prevalence ratings by Keuleers et al. (2015).",
+  "dc:source": "http://crr.ugent.be/programs-data/word-prevalence-values",
+  "dc:references" : "Keuleers2015",
+  "dcat:keyword": ["word prevalence", "monolingual", "Dutch"],
+  "dc:description": "An automated mapping of the word prevalence ratings submitted with the study of Keuleers et al. (2015) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "DUTCH",
+            "datatype": "string",
+            "titles": "word"
+          }, 
+          {
+            "name": "DUTCH_ACCURACY_PERCENTAGE",
+            "datatype": "float",
+            "titles": "accuracy"
+          },
+          {
+            "name": "DUTCH_PREVALENCE",
+            "datatype": "float",
+            "titles": "prevalence"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Keuleers-2015-Prevalence.tsv"
+    }
+  ]
+}

@@ -91,6 +91,6 @@ Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	ratings
 Cortese-2008-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	rating		This is the mean value of age-of-acquisition ratings.
 Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	reaction time	ratings	user	rt		The average RT to the stimulus (correct trials only).
 Keuleers-2012-LexicalDecision	ENGLISH_ZSCORE_MEAN	mean	reaction time	ratings	user	zscore		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
-Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_MEAN	mean	accuracy	ratings	user	accuracy		Average accuracy for the stimulus.
+Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_PERCENTAGE	percentage	accuracy	ratings	user	accuracy		Average accuracy for the stimulus.
 Ferrand-2010-LexicalDecision	FRENCH_RT_MEAN	mean	reaction time	ratings	user	rt		The average RT to the stimulus (correct trials only).
 Ferrand-2010-LexicalDecision	FRENCH_ZSCORE_MEAN	mean	reaction time	ratings	user	rtz		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
