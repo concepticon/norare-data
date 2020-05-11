@@ -91,7 +91,7 @@ Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	ratings
 Cortese-2008-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	rating		This is the mean value of age-of-acquisition ratings.
 Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	reaction time	norms	user	rt		The average RT to the stimulus (correct trials only).
 Keuleers-2012-LexicalDecision	ENGLISH_ZSCORE_MEAN	mean	reaction time	norms	user	zscore		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
-Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_MEAN	mean	accuracy	norms	user	accuracy		Average accuracy for the stimulus.
+Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_PERCENTAGE	percentage	accuracy	norms	user	accuracy		Average accuracy for the stimulus.
 Ferrand-2010-LexicalDecision	FRENCH_RT_MEAN	mean	reaction time	norms	user	rt		The average RT to the stimulus (correct trials only).
 Ferrand-2010-LexicalDecision	FRENCH_ZSCORE_MEAN	mean	reaction time	norms	user	rtz		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
 GonzalezNosti-2014-LexicalDecision	SPANISH_AOA_MEAN	mean	AoA	ratings	user	AoA		Mean value of AoA ratings on a 7-point Likert scale in which 1 corresponded to ages between 0 and 2 years old, 2 to ages between 2 and 4, and so on up to 7, which corresponded to ages over 12 years old.
@@ -99,3 +99,5 @@ GonzalezNosti-2014-LexicalDecision	SPANISH_RT_MEAN	mean	reaction time	norms	user
 Tsang-2018-LexicalDecision	CHINESE_RT_MEAN	mean	reaction time	norms	user	RT		Mean reaction time across participants.
 Tsang-2018-LexicalDecision	CHINESE_ZSCORE_MEAN	mean	reaction time	norms	user	zRT		Mean standardized reaction time across participants.
 Tsang-2018-LexicalDecision	CHINESE_STROKE	numeric	descriptive	norms	meta	tstroke		Total number of strokes of the whole-word.
+Keuleers-2015-Prevalence	DUTCH_ACCURACY_PERCENTAGE	percentage	accuracy	ratings	user	accuracy		Average accuracy for the stimulus.
+Keuleers-2015-Prevalence	DUTCH_PREVALENCE	normalized	familiarity	ratings	user	prevalence		The word prevalence (number of people who know the word) across nearly 300,000 participants.
