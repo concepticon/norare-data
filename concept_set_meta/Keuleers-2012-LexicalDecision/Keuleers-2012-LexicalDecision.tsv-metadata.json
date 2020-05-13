@@ -34,7 +34,7 @@
             "titles": "rt"
           },
           {
-            "name": "ENGLISH_ZSCORE_MEAN",
+            "name": "ENGLISH_RT_ZSCORE",
             "datatype": "float",
             "titles": "zscore"
           },
