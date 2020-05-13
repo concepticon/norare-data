@@ -34,7 +34,7 @@
             "titles": "rt"
           },
           {
-            "name": "FRENCH_ZSCORE_MEAN",
+            "name": "FRENCH_RT_ZSCORE",
             "datatype": "float",
             "titles": "rtz"
           },

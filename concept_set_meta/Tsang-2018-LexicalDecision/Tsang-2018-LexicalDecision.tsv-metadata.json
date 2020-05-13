@@ -34,7 +34,7 @@
             "titles": "RT"
           },
           {
-            "name": "CHINESE_ZSCORE_MEAN",
+            "name": "CHINESE_RT_ZSCORE",
             "datatype": "float",
             "titles": "zRT"
           },
