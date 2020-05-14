@@ -1,4 +1,4 @@
-from pynorare.data import NormDataSet, download_file, get_excel
+from pynorare.dataset import NormDataSet, download_file, get_excel
 from pynorare.types import integer
 
 class Dataset(NormDataSet):

@@ -1,4 +1,4 @@
-from pynorare.data import NormDataSet, download_zip, get_excel
+from pynorare.dataset import NormDataSet, download_zip, get_excel
 from urllib import request
 from zipfile import ZipFile
 from pynorare import log

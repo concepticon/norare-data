@@ -1,4 +1,4 @@
-from pynorare.data import NormDataSet, download_file, get_csv
+from pynorare.dataset import NormDataSet, download_file, get_csv
 from pynorare.util import progressbar
 from sys import argv
 

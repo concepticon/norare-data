@@ -1,4 +1,4 @@
-from pynorare.data import NormDataSet, download_zip, get_excel
+from pynorare.dataset import NormDataSet, download_zip, get_excel
 from pynorare.util import progressbar
 from sys import argv
 
