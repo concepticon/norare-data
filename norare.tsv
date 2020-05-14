@@ -111,3 +111,28 @@ Alonso-2016-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user	averageAoA		Average score
 Alonso-2016-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user	Min		The minimum age of acquisition indicated by participants.
 Alonso-2016-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user	Max		The maximum age of acquisition indicated by participants.
 Alonso-2016-AoA	SPANISH_AOA_ZSCORE	standardized	AoA	ratings	user	Z_Score		The average standardized AoA ratings.
+Imbir-2016-Ratings	POLISH_POS	tokens	PoS	norms	meta	part of speach		The dominant part of speech category.
+Imbir-2016-Ratings	POLISH_VALENCE_MEAN	mean	valence	ratings	user	Valence_M		Mean value of valence ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_AROUSAL_MEAN	mean	arousal	ratings	user	arousal_M		Mean value of arousal ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN	mean	dominance	ratings	user	dominance_M		Mean value of dominance ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_ORIGIN_MEAN	mean	origin	ratings	user	origin_M		Mean value of origin ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN	mean	significance	ratings	user	significance_M		Mean value of significance ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user	concretness_M		Mean value of concreteness ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	imegability_M		Mean value of imageability ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_AOA_MEAN	mean	AoA	ratings	user	ageOfAquisition_M		Mean value of age-of-acquisition ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_VALENCE_MEAN_FEMALE	mean	valence	ratings	user	Valence_M_Female		Mean value of valence ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	ratings	user	arousal_M_Female		Mean value of arousal ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	ratings	user	dominance_M_Female		Mean value of dominance ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_FEMALE	mean	origin	ratings	user	origin_M_Female		Mean value of origin ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_FEMALE	mean	significance	ratings	user	significance_M_Female		Mean value of significance ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_FEMALE	mean	concreteness	ratings	user	concretness_M_Female		Mean value of concreteness ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	ratings	user	imegability_M_Female		Mean value of imageability ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_AOA_MEAN_FEMALE	mean	AoA	ratings	user	ageOfAquisition_M_Female		Mean value of age-of-acquisition ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_VALENCE_MEAN_MALE	mean	valence	ratings	user	Valence_M_Male		Mean value of valence ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	ratings	user	arousal_M_Male		Mean value of arousal ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_MALE	mean	dominance	ratings	user	dominance_M_Female		Mean value of dominance ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_MALE	mean	origin	ratings	user	origin_M_Male		Mean value of origin ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_MALE	mean	significance	ratings	user	significance_M_Male		Mean value of significance ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_MALE	mean	concreteness	ratings	user	concretness_M_Male		Mean value of concreteness ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	ratings	user	imegability_M_Male		Mean value of imageability ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_AOA_MEAN_MALE	mean	AoA	ratings	user	ageOfAquisition_M_Male		Mean value of age-of-acquisition ratings on SAM scale across male participants.
