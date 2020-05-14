@@ -3,8 +3,8 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Automatic mapping of psycholinguistic measures (Valence, Arousal, Dominance, Origin, Significance, Concreteness, Imageability, and subjective Age of Acquisition) ratings by Imbir (2016).",
   "dc:source": "https://doi.org/10.3389/fpsyg.2016.01081",
-  "dc:references" : "StadthagenGonzalez2018",
-  "dcat:keyword": ["ratings", "monolingual", "valence", "arousal", "dominance", "origin", "significance", "concreteness", "imegability", "age-of-acquisition", "Polish"],
+  "dc:references" : "Imbir2016",
+  "dcat:keyword": ["ratings", "monolingual", "valence", "arousal", "dominance", "origin", "significance", "concreteness", "imageability", "age-of-acquisition", "Polish"],
   "dc:description": "An automated mapping of psycholinguistic measures (Valence, Arousal, Dominance, Origin, Significance, Concreteness, Imageability, and subjective Age of Acquisition) ratings submitted with the study of Imbir (2016) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
