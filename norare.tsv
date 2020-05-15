@@ -141,3 +141,13 @@ Ferre-2017-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	discrete emotions	ratings	us
 Ferre-2017-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	es		The mean value of the ratings for the discrete emotion sadness on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	discrete emotions	ratings	user	es		The mean value of the ratings for the discrete emotion fear on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	es		The mean value of the ratings for the discrete emotion disgust on a 5-point scale.
+Rzymski-2020-1624	FAMILY_FREQUENCY	numeric	colexifications	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
+Rzymski-2020-1624	LANGUAGE_FREQUENCY	numeric	colexifications	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
+Rzymski-2020-1624	WORD_FREQUENCY	numeric	colexifications	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
+Rzymski-2020-1624	RANK	numeric	colexifications	relations	concept lists	en		This is the rank based on the degree.
+Rzymski-2020-1624	COMMUNITY	numeric	colexifications	relations	concept lists	en		This is the community identifier.
+Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	colexifications	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3
+Rzymski-2020-1624	DEGREE	numeric	colexifications	relations	concept lists	en		This is the unweighted and weighted degree for each node.
+Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language families.
+Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language varieties.
+								
