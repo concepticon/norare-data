@@ -150,4 +150,3 @@ Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	colexifications	relations	concept list
 Rzymski-2020-1624	DEGREE	numeric	colexifications	relations	concept lists	en		This is the unweighted and weighted degree for each node.
 Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language families.
 Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language varieties.
-								
