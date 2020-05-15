@@ -1,7 +1,5 @@
-DATASET	NAME	STRUCTURE	TYPE	NORARE	RATING	"LANGUAGE
-"	SOURCE	NOTE
-Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user	"es
-"		Average score of AoA ratings.
+DATASET	NAME	STRUCTURE	TYPE	NORARE	RATING	LANGUAGE	SOURCE	NOTE
+Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user	es		Average score of AoA ratings.
 Alonso-2015-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user	es		The minimum age of acquisition indicated by participants.
 Alonso-2015-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user	es		The maximum age of acquisition indicated by participants.
 Alonso-2015-AoA	SPANISH_ORAL_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	es	Alonso2011	Oral frequency norms from Alonso et al. (2011).
