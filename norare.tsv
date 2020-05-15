@@ -1,138 +1,139 @@
-DATASET	NAME	STRUCTURE	TYPE	NORARE	RATING	NAMEINSOURCE	SOURCE	NOTE
-Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user	averageAoA		Average score of AoA ratings.
-Alonso-2015-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user	Min		The minimum age of acquisition indicated by participants.
-Alonso-2015-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user	Max		The maximum age of acquisition indicated by participants.
-Alonso-2015-AoA	SPANISH_ORAL_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	OralFreq_Log	Alonso2011	Oral frequency norms from Alonso et al. (2011).
-Brysbaert-2009-Frequency	ENGLISH_FREQUENCY	tokens	frequency	norms	corpus	FREQcount		The number of times the word appears in the corpus (i.e., on the total of 51 million words).
-Brysbaert-2009-Frequency	ENGLISH_CD	tokens	contextual diversity	norms	corpus	CDcount		The number of films in which the word appears (i.e., it has a maximum value of 8,388).
-Brysbaert-2009-Frequency	ENGLISH_SUBTITLE_FREQUENCY	numeric	frequency	norms	corpus	SUBTLWF		The word frequency per million words. It is the measure one would preferably use in ones manuscripts, because it is a standard measure of word frequency independent of the corpus size. It is given with two-digit precision, in order not to lose precision of the frequency counts.
-Brysbaert-2009-Frequency	ENGLISH_SUBTITLE_CD	numeric	contextual diversity	norms	corpus	SUBTLCD		This  indicates in what percentage of the films the word appears.
-Brysbaert-2009-Frequency	ENGLISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	Lg10WF		This value is based on log10(FREQcount+1) and has four-digit precision. Calculating the log frequency on the raw frequencies is the most straightforward transformation, because it allows one to give words that are not in the corpus a value of 0. One can easily lose 5% of the variance explained by taking log(frequency per million # 1), because, in this case, one is not making much of a distinction between words with low frequencies. Similarly, adding values lower than 1 (e.g., #1E#10) is dangerous, because one may end up with a big gap between the words in oneÕs corpus and words for which one does not have a frequency measure (which will get a log value of #10). In addition, if one uses log(frequency per million), one will have negative values for words with a frequency lower than 1 per million, and one will have to enter negative values for missing words. The downside of using log10(FREQcount # 1) is that there is no intuitive relationship between Lg10WF and SUBTLWF (frequency per million).
-Brysbaert-2009-Frequency	ENGLISH_CD_LOG	logarithmic	contextual diversity	norms	corpus	Lg10CD		This value is based on log10(CDcount+1) and has four-digit precision.
-Brysbaert-2011-Frequency	GERMAN_FREQUENCY	tokens	frequency	norms	corpus	WFfreqcount		This is the number of times the word as written in column 1 is encountered in the subtitle corpus.
-Brysbaert-2011-Frequency	GERMAN_SUBTITLE_FREQUENCY	tokens	frequency	norms	corpus	SUBTLEX		This is the frequency per million based on CUMfreqcount (i.e., it equals CUMfreqcount / 25.399).
-Brysbaert-2011-Frequency	GERMAN_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	lgSUBTLEX		This is log10(CUMfreqcount+1). It is the value to use when you want to match stimuli in various conditions. When a stimulus is not present in the corpus, lgSUBTLEX gets a value of 0.
-Brysbaert-2014-Concreteness	ENGLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user	Conc.M		The mean concreteness rating.
-Brysbaert-2014-Concreteness	ENGLISH_DUNNO	percentage	familiarity	ratings	user	Unknown		The number of persons indicating they did not know the word.
-Brysbaert-2014-Concreteness	ENGLISH_POS	linguistic	PoS	norms	meta	Dom_Pos		The dominant part-of-speech tag of the word.
-Brysbaert-2019-Prevalence	ENGLISH_KNOWN_PERCENTAGE	percentage	familiarity	ratings	user	Pknown		The percentages of words known across 220,000 participants.
-Brysbaert-2019-Prevalence	ENGLISH_PREVALENCE	normalized	familiarity	ratings	user	Prevalence		The word prevalence (number of people who know the word) across 220,000 participants.
-Cai-2010-Frequency	CHINESE_FREQUENCY	tokens	frequency	norms	corpus	WCount		The number of times the word appears in the corpus.
-Cai-2010-Frequency	CHINESE_FREQUENCY_PM	numeric	frequency	norms	corpus	W/million		The word frequency per million words. It is the measure one would preferably use in ones manuscripts, because it is a standard measure of word frequency independent of the corpus size. It is given with two-digit precision, in order not to lose precision of the frequency counts.
-Cai-2010-Frequency	CHINESE_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	logW		This value is based on log10(FREQcount+1) and has four-digit precision. Calculating the log frequency on the raw frequencies is the most straightforward transformation, because it allows one to give words that are not in the corpus a value of 0.
-Cai-2010-Frequency	CHINESE_CD	tokens	contextual diversity	norms	corpus	W-CD		The number of films in which the word appears.
-Cai-2010-Frequency	CHINESE_CD_PERCENTAGE	percentage	contextual diversity	norms	corpus	W-CD%		This  indicates in what percentage of the films the word appears.
-Cai-2010-Frequency	CHINESE_CD_LOG	logarithmic	contextual diversity	norms	corpus	logW-CD		This value is based on log10(CDcount+1) and has four-digit precision.
-Cuetos-2011-Frequency	SPANISH_FREQUENCY	tokens	frequency	norms	corpus	Freq. count		This is the number of times the word appears in the corpus.
-Cuetos-2011-Frequency	SPANISH_FREQUENCY_PM	normalized	frequency	norms	corpus	Freq. per million		Word frequency per million  of subtitles.
-Cuetos-2011-Frequency	SPANISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	Log freq.		Log10 of subtitle word frequency.
-Desrochers-2009-SubjFrequency	FRENCH_SUBJECTIVE_FREQUENCY	mean	frequency	ratings	user	FREQ_Mean		Subjective frequencies estimates were based on a 7-point rating scale.
-Desrochers-2009-SubjFrequency	FRENCH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	IMAGE_Mean		Imageability estimates were based on a 7-point rating scale.
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN	mean	humor	ratings	user	mean		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for all participants.
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_MALE	mean	humor	ratings	user	mean_M		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for male participants.
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_FEMALE	mean	humor	ratings	user	mean_F		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for female participants.
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_YOUNG	mean	humor	ratings	user	mean_young		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for young participants (with age above 32).
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_OLD	mean	humor	ratings	user	mean_old		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for old participants (with age under 32).
-Juhasz-2013-SER	ENGLISH_SER_MEAN	mean	sensory experience	ratings	user	Average SER		Sensory experience ratings on a 7-point scale.
-Keuleers-2010-Frequency	DUTCH_FREQUENCY	tokens	frequency	norms	corpus	FREQcount		This is the number of times the word appears in the corpus.
-Keuleers-2010-Frequency	DUTCH_CD	numeric	contextual diversity	norms	corpus	CDcount		This  is the number of films in which the word appears.
-Keuleers-2010-Frequency	DUTCH_SUBTITLE_FREQUENCY	tokens	frequency	norms	corpus	SUBTLEXWF		This is the WF per million words and has 4-digit precision.
-Keuleers-2010-Frequency	DUTCH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	Lg10WF		This is a value based on log10(FREQcount+1) and with 4-digit precision.
-Keuleers-2010-Frequency	DUTCH_SUBTITLE_CD	numeric	contextual diversity	norms	corpus	SUBTLEXCD		This value indicates in what percent of the films the word appears, with 4-digit precision.
-Keuleers-2010-Frequency	DUTCH_CD_LOG	logarithmic	contextual diversity	norms	corpus	Lg10CD		This value is based on log10(CDcount +1) and has 4-digit precision.
-Kuperman-2012-AoA	ENGLISH_OCCURRENCES_TOTAL	numeric	AoA	ratings	user	OccurTotal		This is the number of valid age of acquisition-ratings of the word.
-Kuperman-2012-AoA	ENGLISH_OCCURRENCES_NUM	numeric	AoA	ratings	user	OccurNum		This is the number of valid age of acquisition-ratings of the word, counting only numeric ratings, not 'don't know's.
-Kuperman-2012-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	Rating.Mean		This is the mean of the age of acquisition-ratings of the word. A total of 696,048 valid ratings, including 76,211 'don't know's, were collected from 1,729 inhabitants of the US.
-Kuperman-2012-AoA	ENGLISH_DUNNO	percentage	AoA	ratings	user	dunno		This is the proportion of valid responses that are a rating and not a 'don't know'.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_MEN	mean	valence	ratings	user	val_M_men		This is the mean of the valence ratings for each word obtained in the group of men on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_WOMEN	mean	valence	ratings	user	val_M_women		This is the mean of the valence ratings for each word obtained in the group of women on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_ALL	mean	valence	ratings	user	val_M_all		This is the mean of the valence ratings for each word obtained in the whole group on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_MEN	mean	arousal	ratings	user	aro_M_men		This is the mean of the arousal ratings for each word obtained in the group of men on a 5-point scale.
-Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_WOMEN	mean	arousal	ratings	user	aro_M_women		This is the mean of the arousal ratings for each word obtained in the group of women on a 5-point scale.
-Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_ALL	mean	arousal	ratings	user	aro_M_all		This is the mean of the arousal ratings for each word obtained in the whole group on a 5-point scale.
-Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_MEN	mean	imageability	ratings	user	ima_M_men		This is the mean of the imageability ratings for each word obtained in the group of men on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_WOMEN	mean	imageability	ratings	user	ima_M_women		This is the mean of the imageanility ratings for each word obtained in the group of women on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_ALL	mean	imageability	ratings	user	ima_M_all		This is the mean of the imageability ratings for each word obtained in the whole group on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_FREQUENCY	tokens	frequency	norms	corpus	SUBTLEX-PL_freq	Mandera2014	The number of times the word appears in the corpus.
-Riegel-2015-AffectiveRatings	POLISH_FREQUENCY_CD	tokens	contextual diversity	norms	corpus	SUBTLEX-PL_cd	Mandera2014	This value indicates in what percent of the films the word appears.
-Scott-2019-Ratings	ENGLISH_AROUSAL_MEAN	mean	arousal	ratings	user	AROU		Number of Scale Points: 9 Arousal is a measure of excitement versus calmness.
-Scott-2019-Ratings	ENGLISH_VALENCE_MEAN	mean	valence	ratings	user	VAL		Number of Scale Points: 9 Valence is a measure of value or worth.
-Scott-2019-Ratings	ENGLISH_DOMINANCE_MEAN	mean	dominance	ratings	user	DOM		Number of Scale Points: 9 Dominance is a measure of the degree of control you feel.
-Scott-2019-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user	CNC		Number of Scale Points: 7 Concreteness is a measure of how concrete or abstract something is. A word is CONCRETE if it represents something that exists in a definite physical form in the real world. In contrast, a word is ABSTRACT if it represents more of a concept or idea.
-Scott-2019-Ratings	ENGLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	IMAG		Number of Scale Points: 7 Imageability is a measure of how easy or difficult something is to imagine.
-Scott-2019-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity	ratings	user	FAM		Number of Scale Points: 7 Familiarity is a measure of how familiar something is.
-Scott-2019-Ratings	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	AOA		Number of Scale Points: 7 A words age of acquisition is the age at which that word was initially learned.
-Scott-2019-Ratings	ENGLISH_SEM_SIZE_MEAN	mean	semantic size	ratings	user	SIZE		Number of Scale Points: 7 Size is a measure of somethings dimensions, magnitude, or extent. A word represents something BIG if it refers to things or concepts that are large. A word represents something SMALL if it refers to things or concepts that are little.
-Scott-2019-Ratings	ENGLISH_GENDER_ASSOCIATION_MEAN	mean	gender association	ratings	user	GEND		Number of Scale Points: 7 A words gender is how strongly its meaning is associated with male or female behaviour.
-StadthagenGonzalez-2017-ValenceArousal	SPANISH_VALENCE_MEAN	mean	valence	ratings	user	ValenceMean		This is the mean value of valence across all participants. Participants rated the words on a 9-point scale.
-StadthagenGonzalez-2017-ValenceArousal	SPANISH_AROUSAL_MEAN	mean	arousal	ratings	user	ArousalMean		This is the mean value of arousal across all participants. Participants rated the words on a 9-point scale.
-Starostin-2000-Sense	SENSES	linguistic	sense relation	relations	other	SENSES		The relations to a sense for a given word.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN	mean	valence	ratings	user	V.Mean.Sum		Mean value of valence ratings on a 9-point scale across all participants.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN	mean	arousal	ratings	user	A.Mean.Sum		Mean value of arousal ratings on a 9-point scale across all participants.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN	mean	dominance	ratings	user	D.Mean.Sum		Mean value of dominance ratings on a 9-point scale across all participants.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_MALE	mean	valence	ratings	user	V.Mean.M		Mean value of valence ratings on a 9-point scale across male participants.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_FEMALE	mean	valence	ratings	user	V.Mean.F		Mean value of valence ratings on a 9-point scale across female participants.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_MALE	mean	arousal	ratings	user	A.Mean.M		Mean value of arousal ratings on a 9-point scale across male participants.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_FEMALE	mean	arousal	ratings	user	A.Mean.F		Mean value of arousal ratings on a 9-point scale across female participants.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_MALE	mean	dominance	ratings	user	D.Mean.M		Mean value of dominance ratings on a 9-point scale across male participants.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	ratings	user	D.Mean.F		Mean value of dominance ratings on a 9-point scale across female participants.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_YOUNG	mean	valence	ratings	user	V.Mean.Y		Mean value of valence ratings on a 9-point scale across young participants (less than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_OLD	mean	valence	ratings	user	V.Mean.O		Mean value of valence ratings on a 9-point scale across old participants (greater than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_YOUNG	mean	arousal	ratings	user	A.Mean.Y		Mean value of arousal ratings on a 9-point scale across young participants (less than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_OLD	mean	arousal	ratings	user	A.Mean.O		Mean value of arousal ratings on a 9-point scale across old participants (greater than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_YOUNG	mean	dominance	ratings	user	D.Mean.Y		Mean value of dominance ratings on a 9-point scale across young participants (less than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_OLD	mean	dominance	ratings	user	D.Mean.O		Mean value of dominance ratings on a 9-point scale across old participants (greater than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_HIGH	mean	valence	ratings	user	V.Mean.H		Mean value of valence ratings on a 9-point scale across participants with a high education.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_LOW	mean	valence	ratings	user	V.Mean.L		Mean value of valence ratings on a 9-point scale across participants with a low education.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_HIGH	mean	arousal	ratings	user	A.Mean.H		Mean value of arousal ratings on a 9-point scale across participants with a high education.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_LOW	mean	arousal	ratings	user	A.Mean.L		Mean value of arousal ratings on a 9-point scale across participants with a low education.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_HIGH	mean	dominance	ratings	user	D.Mean.H		Mean value of dominance ratings on a 9-point scale across participants with a high education.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	ratings	user	D.Mean.L		Mean value of dominance ratings on a 9-point scale across participants with a low education.
-Cortese-2008-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	rating		This is the mean value of age-of-acquisition ratings.
-Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	reaction time	norms	user	rt		The average RT to the stimulus (correct trials only).
-Keuleers-2012-LexicalDecision	ENGLISH_RT_ZSCORE	standardized	reaction time	norms	user	zscore		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
-Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_PERCENTAGE	percentage	accuracy	norms	user	accuracy		Average accuracy for the stimulus.
-Ferrand-2010-LexicalDecision	FRENCH_RT_MEAN	mean	reaction time	norms	user	rt		The average RT to the stimulus (correct trials only).
-Ferrand-2010-LexicalDecision	FRENCH_RT_ZSCORE	standardized	reaction time	norms	user	rtz		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
-GonzalezNosti-2014-LexicalDecision	SPANISH_AOA_MEAN	mean	AoA	ratings	user	AoA		Mean value of AoA ratings on a 7-point Likert scale in which 1 corresponded to ages between 0 and 2 years old, 2 to ages between 2 and 4, and so on up to 7, which corresponded to ages over 12 years old.
-GonzalezNosti-2014-LexicalDecision	SPANISH_RT_MEAN	mean	reaction time	norms	user	RTs		The average RT to the stimulus (correct trials only).
-Tsang-2018-LexicalDecision	CHINESE_RT_MEAN	mean	reaction time	norms	user	RT		Mean reaction time across participants.
-Tsang-2018-LexicalDecision	CHINESE_RT_ZSCORE	standardized	reaction time	norms	user	zRT		Mean standardized reaction time across participants.
-Tsang-2018-LexicalDecision	CHINESE_STROKE	numeric	descriptive	norms	meta	tstroke		Total number of strokes of the whole-word.
-Keuleers-2015-Prevalence	DUTCH_ACCURACY_PERCENTAGE	percentage	accuracy	ratings	user	accuracy		Average accuracy for the stimulus.
-Keuleers-2015-Prevalence	DUTCH_PREVALENCE	normalized	familiarity	ratings	user	prevalence		The word prevalence (number of people who know the word) across nearly 300,000 participants.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	Happiness_Mean		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category happiness.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	Disgust_Mean		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category disgust.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	discrete emotions	ratings	user	Anger_Mean		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category anger.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	discrete emotions	ratings	user	Fear_Mean		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category fear.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	Sadness_Mean		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category sadness.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_DOMINANT_POS	tokens	PoS	norms	meta	Dominant_POS	Duchon2013	The percentage of tokens that correspond to that dominant POS category.
-Alonso-2016-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user	averageAoA		Average score of AoA ratings.
-Alonso-2016-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user	Min		The minimum age of acquisition indicated by participants.
-Alonso-2016-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user	Max		The maximum age of acquisition indicated by participants.
-Alonso-2016-AoA	SPANISH_AOA_ZSCORE	standardized	AoA	ratings	user	Z_Score		The average standardized AoA ratings.
-Imbir-2016-Ratings	POLISH_POS	tokens	PoS	norms	meta	part of speach		The dominant part of speech category.
-Imbir-2016-Ratings	POLISH_VALENCE_MEAN	mean	valence	ratings	user	Valence_M		Mean value of valence ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_AROUSAL_MEAN	mean	arousal	ratings	user	arousal_M		Mean value of arousal ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN	mean	dominance	ratings	user	dominance_M		Mean value of dominance ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_ORIGIN_MEAN	mean	origin	ratings	user	origin_M		Mean value of origin ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN	mean	significance	ratings	user	significance_M		Mean value of significance ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user	concretness_M		Mean value of concreteness ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	imegability_M		Mean value of imageability ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_AOA_MEAN	mean	AoA	ratings	user	ageOfAquisition_M		Mean value of age-of-acquisition ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_VALENCE_MEAN_FEMALE	mean	valence	ratings	user	Valence_M_Female		Mean value of valence ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	ratings	user	arousal_M_Female		Mean value of arousal ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	ratings	user	dominance_M_Female		Mean value of dominance ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_FEMALE	mean	origin	ratings	user	origin_M_Female		Mean value of origin ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_FEMALE	mean	significance	ratings	user	significance_M_Female		Mean value of significance ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_FEMALE	mean	concreteness	ratings	user	concretness_M_Female		Mean value of concreteness ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	ratings	user	imegability_M_Female		Mean value of imageability ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_AOA_MEAN_FEMALE	mean	AoA	ratings	user	ageOfAquisition_M_Female		Mean value of age-of-acquisition ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_VALENCE_MEAN_MALE	mean	valence	ratings	user	Valence_M_Male		Mean value of valence ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	ratings	user	arousal_M_Male		Mean value of arousal ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_MALE	mean	dominance	ratings	user	dominance_M_Female		Mean value of dominance ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_MALE	mean	origin	ratings	user	origin_M_Male		Mean value of origin ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_MALE	mean	significance	ratings	user	significance_M_Male		Mean value of significance ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_MALE	mean	concreteness	ratings	user	concretness_M_Male		Mean value of concreteness ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	ratings	user	imegability_M_Male		Mean value of imageability ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_AOA_MEAN_MALE	mean	AoA	ratings	user	ageOfAquisition_M_Male		Mean value of age-of-acquisition ratings on SAM scale across male participants.
+DATASET	NAME	STRUCTURE	TYPE	NORARE	RATING	SOURCE	NOTE
+Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user		Average score of AoA ratings.
+Alonso-2015-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user		The minimum age of acquisition indicated by participants.
+Alonso-2015-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user		The maximum age of acquisition indicated by participants.
+Alonso-2015-AoA	SPANISH_ORAL_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	Alonso2011	Oral frequency norms from Alonso et al. (2011).
+Brysbaert-2009-Frequency	ENGLISH_FREQUENCY	tokens	frequency	norms	corpus		The number of times the word appears in the corpus (i.e., on the total of 51 million words).
+Brysbaert-2009-Frequency	ENGLISH_CD	tokens	contextual diversity	norms	corpus		The number of films in which the word appears (i.e., it has a maximum value of 8,388).
+Brysbaert-2009-Frequency	ENGLISH_SUBTITLE_FREQUENCY	numeric	frequency	norms	corpus		The word frequency per million words. It is the measure one would preferably use in ones manuscripts, because it is a standard measure of word frequency independent of the corpus size. It is given with two-digit precision, in order not to lose precision of the frequency counts.
+Brysbaert-2009-Frequency	ENGLISH_SUBTITLE_CD	numeric	contextual diversity	norms	corpus		This  indicates in what percentage of the films the word appears.
+Brysbaert-2009-Frequency	ENGLISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus		This value is based on log10(FREQcount+1) and has four-digit precision. Calculating the log frequency on the raw frequencies is the most straightforward transformation, because it allows one to give words that are not in the corpus a value of 0. One can easily lose 5% of the variance explained by taking log(frequency per million # 1), because, in this case, one is not making much of a distinction between words with low frequencies. Similarly, adding values lower than 1 (e.g., #1E#10) is dangerous, because one may end up with a big gap between the words in oneÕs corpus and words for which one does not have a frequency measure (which will get a log value of #10). In addition, if one uses log(frequency per million), one will have negative values for words with a frequency lower than 1 per million, and one will have to enter negative values for missing words. The downside of using log10(FREQcount # 1) is that there is no intuitive relationship between Lg10WF and SUBTLWF (frequency per million).
+Brysbaert-2009-Frequency	ENGLISH_CD_LOG	logarithmic	contextual diversity	norms	corpus		This value is based on log10(CDcount+1) and has four-digit precision.
+Brysbaert-2011-Frequency	GERMAN_FREQUENCY	tokens	frequency	norms	corpus		This is the number of times the word as written in column 1 is encountered in the subtitle corpus.
+Brysbaert-2011-Frequency	GERMAN_SUBTITLE_FREQUENCY	tokens	frequency	norms	corpus		This is the frequency per million based on CUMfreqcount (i.e., it equals CUMfreqcount / 25.399).
+Brysbaert-2011-Frequency	GERMAN_FREQUENCY_LOG	logarithmic	frequency	norms	corpus		This is log10(CUMfreqcount+1). It is the value to use when you want to match stimuli in various conditions. When a stimulus is not present in the corpus, lgSUBTLEX gets a value of 0.
+Brysbaert-2014-Concreteness	ENGLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user		The mean concreteness rating.
+Brysbaert-2014-Concreteness	ENGLISH_DUNNO	percentage	familiarity	ratings	user		The number of persons indicating they did not know the word.
+Brysbaert-2014-Concreteness	ENGLISH_POS	linguistic	PoS	norms	meta		The dominant part-of-speech tag of the word.
+Brysbaert-2019-Prevalence	ENGLISH_KNOWN_PERCENTAGE	percentage	familiarity	ratings	user		The percentages of words known across 220,000 participants.
+Brysbaert-2019-Prevalence	ENGLISH_PREVALENCE	normalized	familiarity	ratings	user		The word prevalence (number of people who know the word) across 220,000 participants.
+Cai-2010-Frequency	CHINESE_FREQUENCY	tokens	frequency	norms	corpus		The number of times the word appears in the corpus.
+Cai-2010-Frequency	CHINESE_FREQUENCY_PM	numeric	frequency	norms	corpus		The word frequency per million words. It is the measure one would preferably use in ones manuscripts, because it is a standard measure of word frequency independent of the corpus size. It is given with two-digit precision, in order not to lose precision of the frequency counts.
+Cai-2010-Frequency	CHINESE_FREQUENCY_LOG	logarithmic	frequency	norms	corpus		This value is based on log10(FREQcount+1) and has four-digit precision. Calculating the log frequency on the raw frequencies is the most straightforward transformation, because it allows one to give words that are not in the corpus a value of 0.
+Cai-2010-Frequency	CHINESE_CD	tokens	contextual diversity	norms	corpus		The number of films in which the word appears.
+Cai-2010-Frequency	CHINESE_CD_PERCENTAGE	percentage	contextual diversity	norms	corpus		This  indicates in what percentage of the films the word appears.
+Cai-2010-Frequency	CHINESE_CD_LOG	logarithmic	contextual diversity	norms	corpus		This value is based on log10(CDcount+1) and has four-digit precision.
+Cuetos-2011-Frequency	SPANISH_FREQUENCY	tokens	frequency	norms	corpus		This is the number of times the word appears in the corpus.
+Cuetos-2011-Frequency	SPANISH_FREQUENCY_PM	normalized	frequency	norms	corpus		Word frequency per million  of subtitles.
+Cuetos-2011-Frequency	SPANISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus		Log10 of subtitle word frequency.
+Desrochers-2009-SubjFrequency	FRENCH_SUBJECTIVE_FREQUENCY	mean	frequency	ratings	user		Subjective frequencies estimates were based on a 7-point rating scale.
+Desrochers-2009-SubjFrequency	FRENCH_IMAGEABILITY_MEAN	mean	imageability	ratings	user		Imageability estimates were based on a 7-point rating scale.
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN	mean	humor	ratings	user		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for all participants.
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_MALE	mean	humor	ratings	user		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for male participants.
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_FEMALE	mean	humor	ratings	user		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for female participants.
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_YOUNG	mean	humor	ratings	user		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for young participants (with age above 32).
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_OLD	mean	humor	ratings	user		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for old participants (with age under 32).
+Juhasz-2013-SER	ENGLISH_SER_MEAN	mean	sensory experience	ratings	user		Sensory experience ratings on a 7-point scale.
+Keuleers-2010-Frequency	DUTCH_FREQUENCY	tokens	frequency	norms	corpus		This is the number of times the word appears in the corpus.
+Keuleers-2010-Frequency	DUTCH_CD	numeric	contextual diversity	norms	corpus		This  is the number of films in which the word appears.
+Keuleers-2010-Frequency	DUTCH_SUBTITLE_FREQUENCY	tokens	frequency	norms	corpus		This is the WF per million words and has 4-digit precision.
+Keuleers-2010-Frequency	DUTCH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus		This is a value based on log10(FREQcount+1) and with 4-digit precision.
+Keuleers-2010-Frequency	DUTCH_SUBTITLE_CD	numeric	contextual diversity	norms	corpus		This value indicates in what percent of the films the word appears, with 4-digit precision.
+Keuleers-2010-Frequency	DUTCH_CD_LOG	logarithmic	contextual diversity	norms	corpus		This value is based on log10(CDcount +1) and has 4-digit precision.
+Kuperman-2012-AoA	ENGLISH_OCCURRENCES_TOTAL	numeric	AoA	ratings	user		This is the number of valid age of acquisition-ratings of the word.
+Kuperman-2012-AoA	ENGLISH_OCCURRENCES_NUM	numeric	AoA	ratings	user		This is the number of valid age of acquisition-ratings of the word, counting only numeric ratings, not 'don't know's.
+Kuperman-2012-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user		This is the mean of the age of acquisition-ratings of the word. A total of 696,048 valid ratings, including 76,211 'don't know's, were collected from 1,729 inhabitants of the US.
+Kuperman-2012-AoA	ENGLISH_DUNNO	percentage	AoA	ratings	user		This is the proportion of valid responses that are a rating and not a 'don't know'.
+Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_MEN	mean	valence	ratings	user		This is the mean of the valence ratings for each word obtained in the group of men on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_WOMEN	mean	valence	ratings	user		This is the mean of the valence ratings for each word obtained in the group of women on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_ALL	mean	valence	ratings	user		This is the mean of the valence ratings for each word obtained in the whole group on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_MEN	mean	arousal	ratings	user		This is the mean of the arousal ratings for each word obtained in the group of men on a 5-point scale.
+Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_WOMEN	mean	arousal	ratings	user		This is the mean of the arousal ratings for each word obtained in the group of women on a 5-point scale.
+Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_ALL	mean	arousal	ratings	user		This is the mean of the arousal ratings for each word obtained in the whole group on a 5-point scale.
+Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_MEN	mean	imageability	ratings	user		This is the mean of the imageability ratings for each word obtained in the group of men on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_WOMEN	mean	imageability	ratings	user		This is the mean of the imageanility ratings for each word obtained in the group of women on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_ALL	mean	imageability	ratings	user		This is the mean of the imageability ratings for each word obtained in the whole group on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_FREQUENCY	tokens	frequency	norms	corpus	Mandera2014	The number of times the word appears in the corpus.
+Riegel-2015-AffectiveRatings	POLISH_FREQUENCY_CD	tokens	contextual diversity	norms	corpus	Mandera2014	This value indicates in what percent of the films the word appears.
+Scott-2019-Ratings	ENGLISH_AROUSAL_MEAN	mean	arousal	ratings	user		Number of Scale Points: 9 Arousal is a measure of excitement versus calmness.
+Scott-2019-Ratings	ENGLISH_VALENCE_MEAN	mean	valence	ratings	user		Number of Scale Points: 9 Valence is a measure of value or worth.
+Scott-2019-Ratings	ENGLISH_DOMINANCE_MEAN	mean	dominance	ratings	user		Number of Scale Points: 9 Dominance is a measure of the degree of control you feel.
+Scott-2019-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user		Number of Scale Points: 7 Concreteness is a measure of how concrete or abstract something is. A word is CONCRETE if it represents something that exists in a definite physical form in the real world. In contrast, a word is ABSTRACT if it represents more of a concept or idea.
+Scott-2019-Ratings	ENGLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user		Number of Scale Points: 7 Imageability is a measure of how easy or difficult something is to imagine.
+Scott-2019-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity	ratings	user		Number of Scale Points: 7 Familiarity is a measure of how familiar something is.
+Scott-2019-Ratings	ENGLISH_AOA_MEAN	mean	AoA	ratings	user		Number of Scale Points: 7 A words age of acquisition is the age at which that word was initially learned.
+Scott-2019-Ratings	ENGLISH_SEM_SIZE_MEAN	mean	semantic size	ratings	user		Number of Scale Points: 7 Size is a measure of somethings dimensions, magnitude, or extent. A word represents something BIG if it refers to things or concepts that are large. A word represents something SMALL if it refers to things or concepts that are little.
+Scott-2019-Ratings	ENGLISH_GENDER_ASSOCIATION_MEAN	mean	gender association	ratings	user		Number of Scale Points: 7 A words gender is how strongly its meaning is associated with male or female behaviour.
+StadthagenGonzalez-2017-ValenceArousal	SPANISH_VALENCE_MEAN	mean	valence	ratings	user		This is the mean value of valence across all participants. Participants rated the words on a 9-point scale.
+StadthagenGonzalez-2017-ValenceArousal	SPANISH_AROUSAL_MEAN	mean	arousal	ratings	user		This is the mean value of arousal across all participants. Participants rated the words on a 9-point scale.
+Starostin-2000-Sense	SENSES	linguistic	sense relation	relations	other		The relations to a sense for a given word.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN	mean	valence	ratings	user		Mean value of valence ratings on a 9-point scale across all participants.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN	mean	arousal	ratings	user		Mean value of arousal ratings on a 9-point scale across all participants.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN	mean	dominance	ratings	user		Mean value of dominance ratings on a 9-point scale across all participants.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_MALE	mean	valence	ratings	user		Mean value of valence ratings on a 9-point scale across male participants.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_FEMALE	mean	valence	ratings	user		Mean value of valence ratings on a 9-point scale across female participants.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_MALE	mean	arousal	ratings	user		Mean value of arousal ratings on a 9-point scale across male participants.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_FEMALE	mean	arousal	ratings	user		Mean value of arousal ratings on a 9-point scale across female participants.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_MALE	mean	dominance	ratings	user		Mean value of dominance ratings on a 9-point scale across male participants.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	ratings	user		Mean value of dominance ratings on a 9-point scale across female participants.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_YOUNG	mean	valence	ratings	user		Mean value of valence ratings on a 9-point scale across young participants (less than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_OLD	mean	valence	ratings	user		Mean value of valence ratings on a 9-point scale across old participants (greater than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_YOUNG	mean	arousal	ratings	user		Mean value of arousal ratings on a 9-point scale across young participants (less than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_OLD	mean	arousal	ratings	user		Mean value of arousal ratings on a 9-point scale across old participants (greater than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_YOUNG	mean	dominance	ratings	user		Mean value of dominance ratings on a 9-point scale across young participants (less than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_OLD	mean	dominance	ratings	user		Mean value of dominance ratings on a 9-point scale across old participants (greater than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_HIGH	mean	valence	ratings	user		Mean value of valence ratings on a 9-point scale across participants with a high education.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_LOW	mean	valence	ratings	user		Mean value of valence ratings on a 9-point scale across participants with a low education.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_HIGH	mean	arousal	ratings	user		Mean value of arousal ratings on a 9-point scale across participants with a high education.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_LOW	mean	arousal	ratings	user		Mean value of arousal ratings on a 9-point scale across participants with a low education.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_HIGH	mean	dominance	ratings	user		Mean value of dominance ratings on a 9-point scale across participants with a high education.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	ratings	user		Mean value of dominance ratings on a 9-point scale across participants with a low education.
+Cortese-2008-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user		This is the mean value of age-of-acquisition ratings.
+Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	reaction time	norms	user		The average RT to the stimulus (correct trials only).
+Keuleers-2012-LexicalDecision	ENGLISH_RT_ZSCORE	standardized	reaction time	norms	user		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
+Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_PERCENTAGE	percentage	accuracy	norms	user		Average accuracy for the stimulus.
+Ferrand-2010-LexicalDecision	FRENCH_RT_MEAN	mean	reaction time	norms	user		The average RT to the stimulus (correct trials only).
+Ferrand-2010-LexicalDecision	FRENCH_RT_ZSCORE	standardized	reaction time	norms	user		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
+GonzalezNosti-2014-LexicalDecision	SPANISH_AOA_MEAN	mean	AoA	ratings	user		Mean value of AoA ratings on a 7-point Likert scale in which 1 corresponded to ages between 0 and 2 years old, 2 to ages between 2 and 4, and so on up to 7, which corresponded to ages over 12 years old.
+GonzalezNosti-2014-LexicalDecision	SPANISH_RT_MEAN	mean	reaction time	norms	user		The average RT to the stimulus (correct trials only).
+Tsang-2018-LexicalDecision	CHINESE_RT_MEAN	mean	reaction time	norms	user		Mean reaction time across participants.
+Tsang-2018-LexicalDecision	CHINESE_RT_ZSCORE	standardized	reaction time	norms	user		Mean standardized reaction time across participants.
+Tsang-2018-LexicalDecision	CHINESE_STROKE	numeric	descriptive	norms	meta		Total number of strokes of the whole-word.
+Keuleers-2015-Prevalence	DUTCH_ACCURACY_PERCENTAGE	percentage	accuracy	ratings	user		Average accuracy for the stimulus.
+Keuleers-2015-Prevalence	DUTCH_PREVALENCE	normalized	familiarity	ratings	user		The word prevalence (number of people who know the word) across nearly 300,000 participants.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category happiness.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	discrete emotions	ratings	user		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category disgust.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	discrete emotions	ratings	user		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category anger.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	discrete emotions	ratings	user		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category fear.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	discrete emotions	ratings	user		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category sadness.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_DOMINANT_POS	tokens	PoS	norms	meta	Duchon2013	The percentage of tokens that correspond to that dominant POS category.
+Alonso-2016-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user		Average score of AoA ratings.
+Alonso-2016-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user		The minimum age of acquisition indicated by participants.
+Alonso-2016-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user		The maximum age of acquisition indicated by participants.
+Alonso-2016-AoA	SPANISH_AOA_ZSCORE	standardized	AoA	ratings	user		The average standardized AoA ratings.
+Imbir-2016-Ratings	POLISH_POS	tokens	PoS	norms	meta		The dominant part of speech category.
+Imbir-2016-Ratings	POLISH_VALENCE_MEAN	mean	valence	ratings	user		Mean value of valence ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_AROUSAL_MEAN	mean	arousal	ratings	user		Mean value of arousal ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN	mean	dominance	ratings	user		Mean value of dominance ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_ORIGIN_MEAN	mean	origin	ratings	user		Mean value of origin ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN	mean	significance	ratings	user		Mean value of significance ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user		Mean value of concreteness ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user		Mean value of imageability ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_AOA_MEAN	mean	AoA	ratings	user		Mean value of age-of-acquisition ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_VALENCE_MEAN_FEMALE	mean	valence	ratings	user		Mean value of valence ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	ratings	user		Mean value of arousal ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	ratings	user		Mean value of dominance ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_FEMALE	mean	origin	ratings	user		Mean value of origin ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_FEMALE	mean	significance	ratings	user		Mean value of significance ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_FEMALE	mean	concreteness	ratings	user		Mean value of concreteness ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	ratings	user		Mean value of imageability ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_AOA_MEAN_FEMALE	mean	AoA	ratings	user		Mean value of age-of-acquisition ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_VALENCE_MEAN_MALE	mean	valence	ratings	user		Mean value of valence ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	ratings	user		Mean value of arousal ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_MALE	mean	dominance	ratings	user		Mean value of dominance ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_MALE	mean	origin	ratings	user		Mean value of origin ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_MALE	mean	significance	ratings	user		Mean value of significance ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_MALE	mean	concreteness	ratings	user		Mean value of concreteness ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	ratings	user		Mean value of imageability ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_AOA_MEAN_MALE	mean	AoA	ratings	user		Mean value of age-of-acquisition ratings on SAM scale across male participants.
+							
