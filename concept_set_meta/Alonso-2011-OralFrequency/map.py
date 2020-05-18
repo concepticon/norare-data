@@ -12,18 +12,13 @@ class Dataset(NormDataSet):
 
     def map(self, write_file=True):
 
-        sheet_ = self.get_excel('13428_2011_62_MOESM1_ESM.xls', 0, dicts=True)
+        sheet_ = self.get_excel('13428_2011_62_MOESM1_ESM.xls', 0, dicts=False)
 
         sheet = []
         valid_fields = ['Word', 'Frequency', 'Frequency per million', 'Log10(freq count+1)']
         for row in sheet_[1:]:  # iterate over the lines after header
-            new_row = {}
-            for head, cell in zip(sheet_[0], row):
-                if head in valid_fields:
-                    new_row[head] = cell
-                if len(new_row) == 4:
-                    sheet.append(new_row)
-                    new_row = {}
+            sheet += [dict(zip(valid_fields,row[:4]))]
+            sheet += [dict(zip(valid_fields,row[5:9]))]
 
         self.extract_data(
                 sheet,
