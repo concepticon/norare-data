@@ -166,4 +166,3 @@ Wierzba-2018-DiscreteEmotions	POLISH_DISGUST_MEAN_MALE	mean	discrete emotions	ra
 Alonso-2011-OralFrequency	SPANISH_FREQUENCY	tokens	frequency	norms	corpus	es		This is the number of times the spoken word appears in the corpus.
 Alonso-2011-OralFrequency	SPANISH_FREQUENCY_PM	normalized	frequency	norms	corpus	es		The frequency per million for spoken words.
 Alonso-2011-OralFrequency	SPANISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	es		The log10 of spoken word frequency.
-								

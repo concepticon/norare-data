@@ -30,22 +30,18 @@
           }, 
           {
             "name": "SPANISH_FREQUENCY",
-            "datatype": "string",
+            "datatype": "integer",
             "titles": "Frequency"
           },
           {
             "name": "SPANISH_FREQUENCY_PM",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "Frequency per million"
           },
           {
             "name": "SPANISH_FREQUENCY_LOG",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "Log10(freq count+1)"
-          },
-          {
-            "name": "LINE_IN_SOURCE",
-            "datatype": "integer"
           }
         ],
         "foreignKeys": [
