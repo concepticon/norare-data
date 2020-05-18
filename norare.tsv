@@ -44,17 +44,15 @@ Kuperman-2012-AoA	ENGLISH_OCCURRENCES_TOTAL	numeric	AoA	ratings	user	en		This is
 Kuperman-2012-AoA	ENGLISH_OCCURRENCES_NUM	numeric	AoA	ratings	user	en		This is the number of valid age of acquisition-ratings of the word, counting only numeric ratings, not 'don't know's.
 Kuperman-2012-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	en		This is the mean of the age of acquisition-ratings of the word. A total of 696,048 valid ratings, including 76,211 'don't know's, were collected from 1,729 inhabitants of the US.
 Kuperman-2012-AoA	ENGLISH_DUNNO	percentage	AoA	ratings	user	en		This is the proportion of valid responses that are a rating and not a 'don't know'.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_MEN	mean	valence	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of men on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_WOMEN	mean	valence	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of women on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_MALE	mean	valence	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of men on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_FEMALE	mean	valence	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of women on a 7-point scale.
 Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_ALL	mean	valence	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the whole group on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_MEN	mean	arousal	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of men on a 5-point scale.
-Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_WOMEN	mean	arousal	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of women on a 5-point scale.
+Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of men on a 5-point scale.
+Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of women on a 5-point scale.
 Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_ALL	mean	arousal	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the whole group on a 5-point scale.
-Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_MEN	mean	imageability	ratings	user	pl		This is the mean of the imageability ratings for each word obtained in the group of men on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_WOMEN	mean	imageability	ratings	user	pl		This is the mean of the imageanility ratings for each word obtained in the group of women on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	ratings	user	pl		This is the mean of the imageability ratings for each word obtained in the group of men on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	ratings	user	pl		This is the mean of the imageanility ratings for each word obtained in the group of women on a 7-point scale.
 Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_ALL	mean	imageability	ratings	user	pl		This is the mean of the imageability ratings for each word obtained in the whole group on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_FREQUENCY	tokens	frequency	norms	corpus	pl	Mandera2014	The number of times the word appears in the corpus.
-Riegel-2015-AffectiveRatings	POLISH_FREQUENCY_CD	tokens	contextual diversity	norms	corpus	pl	Mandera2014	This value indicates in what percent of the films the word appears.
 Scott-2019-Ratings	ENGLISH_AROUSAL_MEAN	mean	arousal	ratings	user	en		Number of Scale Points: 9 Arousal is a measure of excitement versus calmness.
 Scott-2019-Ratings	ENGLISH_VALENCE_MEAN	mean	valence	ratings	user	en		Number of Scale Points: 9 Valence is a measure of value or worth.
 Scott-2019-Ratings	ENGLISH_DOMINANCE_MEAN	mean	dominance	ratings	user	en		Number of Scale Points: 9 Dominance is a measure of the degree of control you feel.
