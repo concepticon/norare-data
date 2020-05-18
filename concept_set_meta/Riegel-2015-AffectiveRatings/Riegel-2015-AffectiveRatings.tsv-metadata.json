@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of affective ratings (valence, arousal, imageability) for Polish by Riegel et al. (2015).",
+  "dc:title": "Automatic mapping of affective ratings (valence, arousal, imageability) by Riegel et al. (2015).",
   "dc:source": "https://doi.org/10.3758/s13428-014-0552-1",
   "dc:references" : "Riegel2015",
   "dcat:keyword": ["ratings", "monolingual", "valence", "arousal", "imageability", "Polish"],
-  "dc:description": "An automated mapping of affective ratings (valence, arousal, imageability) for Polish submitted with the study of Riegel et al. (2015) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of affective ratings (valence, arousal, imageability) submitted with the study of Riegel et al. (2015) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
