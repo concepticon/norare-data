@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of Polish Ratings by Riegel et al. (2015).",
+  "dc:title": "Automatic mapping of affective ratings (valence, arousal, imageability) by Riegel et al. (2015).",
   "dc:source": "https://doi.org/10.3758/s13428-014-0552-1",
   "dc:references" : "Riegel2015",
-  "dcat:keyword": ["arousal", "imageability", "multilingual", "German", "Polish", "valency"],
-  "dc:description": "An automated mapping of the Polish ratings submitted with the study of Riegel et al. (2015) to the concept sets in Concepticon.",
+  "dcat:keyword": ["ratings", "monolingual", "valence", "arousal", "imageability", "Polish"],
+  "dc:description": "An automated mapping of affective ratings (valence, arousal, imageability) submitted with the study of Riegel et al. (2015) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -24,62 +24,59 @@
             "datatype": "string"
           }, 
           {
-            "name": "NUMBER_IN_SOURCE",
-            "datatype": "string"
-          }, 
-          {
             "name": "POLISH",
-            "datatype": "string"
-          }, 
+            "datatype": "string",
+            "titles": "NAWL_word"
+          },
           {
             "name": "GERMAN",
-            "datatype": "string"
-          }, 
-          {
-            "name": "POLISH_VALENCY_MEAN_MEN",
-            "datatype": "float"
+            "datatype": "string",
+            "titles": "BAWL_word"
           },
           {
-            "name": "POLISH_VALENCY_MEAN_WOMEN",
-            "datatype": "float"
+            "name": "POLISH_VALENCE_MEAN_MALE",
+            "datatype": "string",
+            "titles": "val_M_men"
           },
           {
-            "name": "POLISH_VALENCY_MEAN_ALL",
-            "datatype": "float"
+            "name": "POLISH_VALENCY_MEAN_FEMALE",
+            "datatype": "string",
+            "titles": "val_M_women"
           },
           {
-            "name": "POLISH_AROUSAL_MEAN_MEN",
-            "datatype": "float"
+            "name": "POLISH_VALENCY_MEAN",
+            "datatype": "string",
+            "titles": "val_M_all"
           },
           {
-            "name": "POLISH_AROUSAL_MEAN_WOMEN",
-            "datatype": "float"
+            "name": "POLISH_AROUSAL_MEAN_MALE",
+            "datatype": "string",
+            "titles": "aro_M_men"
           },
           {
-            "name": "POLISH_AROUSAL_MEAN_ALL",
-            "datatype": "float"
+            "name": "POLISH_AROUSAL_MEAN_FEMALE",
+            "datatype": "string",
+            "titles": "aro_M_women"
           },
           {
-            "name": "POLISH_IMAGEABILITY_MEAN_MEN",
-            "datatype": "float"
+            "name": "POLISH_AROUSAL_MEAN",
+            "datatype": "string",
+            "titles": "aro_M_all"
           },
           {
-            "name": "POLISH_IMAGEABILITY_MEAN_WOMEN",
-            "datatype": "float"
+            "name": "POLISH_IMAGEABILITY_MEAN_MALE",
+            "datatype": "string",
+            "titles": "ima_M_men"
           },
           {
-            "name": "POLISH_IMAGEABILITY_MEAN_ALL",
-            "datatype": "float"
+            "name": "POLISH_IMAGEABILITY_MEAN_FEMALE",
+            "datatype": "string",
+            "titles": "ima_M_women"
           },
           {
-            "name": "POLISH_FREQUENCY",
-            "datatype": "integer",
-            "null": ""
-          },
-          {
-            "name": "POLISH_FREQUENCY_CD",
-            "datatype": "float",
-            "null": ""
+            "name": "POLISH_IMAGEABILITY_MEAN",
+            "datatype": "string",
+            "titles": "ima_M_all"
           },
           {
             "name": "LINE_IN_SOURCE",
