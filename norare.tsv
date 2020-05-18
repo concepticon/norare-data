@@ -163,3 +163,6 @@ Wierzba-2018-DiscreteEmotions	POLISH_ANGER_MEAN_MALE	mean	discrete emotions	rati
 Wierzba-2018-DiscreteEmotions	POLISH_SADNESS_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only male participants).
 Wierzba-2018-DiscreteEmotions	POLISH_FEAR_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category fear (only male participants).
 Wierzba-2018-DiscreteEmotions	POLISH_DISGUST_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category disgust (only male participants).
+Alonso-2011-OralFrequency	SPANISH_FREQUENCY	tokens	frequency	norms	corpus	es		This is the number of times the spoken word appears in the corpus.
+Alonso-2011-OralFrequency	SPANISH_FREQUENCY_PM	normalized	frequency	norms	corpus	es		The frequency per million for spoken words.
+Alonso-2011-OralFrequency	SPANISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	es		The log10 of spoken word frequency.
