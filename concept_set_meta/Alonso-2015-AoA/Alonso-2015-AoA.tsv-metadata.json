@@ -43,12 +43,6 @@
             "datatype": "integer",
             "titles": "Max"
           },
-
-          {
-            "name": "SPANISH_ORAL_FREQUENCY_LOG",
-            "datatype": "float",
-            "titles": "OralFreq_Log"
-          },
           {
             "name": "LINE_IN_SOURCE",
             "datatype": "integer"
