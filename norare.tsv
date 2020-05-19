@@ -148,11 +148,11 @@ Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	colexifications	relations	concept list
 Rzymski-2020-1624	DEGREE	numeric	colexifications	relations	concept lists	en		This is the unweighted and weighted degree for each node.
 Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language families.
 Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language varieties.
-Wierzba-2018-DiscreteEmotions	POLISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses a 7-point scale in the emotional category happiness.
-Wierzba-2018-DiscreteEmotions	POLISH_ANGER_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses a 7-point scale in the emotional category anger.
-Wierzba-2018-DiscreteEmotions	POLISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses a 7-point scale in the emotional category sadness.
-Wierzba-2018-DiscreteEmotions	POLISH_FEAR_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses a 7-point scale in the emotional category fear.
-Wierzba-2018-DiscreteEmotions	POLISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses a 7-point scale in the emotional category disgust.
+Wierzba-2018-DiscreteEmotions	POLISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category happiness.
+Wierzba-2018-DiscreteEmotions	POLISH_ANGER_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category anger.
+Wierzba-2018-DiscreteEmotions	POLISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category sadness.
+Wierzba-2018-DiscreteEmotions	POLISH_FEAR_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category fear.
+Wierzba-2018-DiscreteEmotions	POLISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category disgust.
 Wierzba-2018-DiscreteEmotions	POLISH_HAPPINESS_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category happiness (only female participants).
 Wierzba-2018-DiscreteEmotions	POLISH_ANGER_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category anger (only female participants).
 Wierzba-2018-DiscreteEmotions	POLISH_SADNESS_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only female participants).
@@ -193,4 +193,11 @@ Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_KNOWN_PERCENTAGE	percentage	familiar
 Lynott-2019-Sensorimotor	ENGLISH_ACTION_KNOWN_PERCENTAGE	percentage	familiarity	ratings	user	en		Percentage of participants (0–1) in action strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.action divided by List_N.action.
 Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_AOA_MEAN	mean	AoA	ratings	user	en		Average age of participants in perceptual strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
 Lynott-2019-Sensorimotor	ENGLISH_ACTION_AOA_MEAN	mean	AoA	ratings	user	en		Average age of participants in action strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
-
+Kapucu-2018-EmotionRatings	TURKISH_VALENCE_MEAN	mean	valence	ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM scale for valence.
+Kapucu-2018-EmotionRatings	TURKISH_AROUSAL_MEAN	mean	arousal	ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM for arousal.
+Kapucu-2018-EmotionRatings	TURKISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category happiness.
+Kapucu-2018-EmotionRatings	TURKISH_ANGER_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category anger.
+Kapucu-2018-EmotionRatings	TURKISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category sadness.
+Kapucu-2018-EmotionRatings	TURKISH_FEAR_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category fear.
+Kapucu-2018-EmotionRatings	TURKISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category disgust.
+Kapucu-2018-EmotionRatings	TURKISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for concreteness.
