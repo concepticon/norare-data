@@ -193,3 +193,4 @@ Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_KNOWN_PERCENTAGE	percentage	familiar
 Lynott-2019-Sensorimotor	ENGLISH_ACTION_KNOWN_PERCENTAGE	percentage	familiarity	ratings	user	en		Percentage of participants (0–1) in action strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.action divided by List_N.action.
 Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_AOA_MEAN	mean	AoA	ratings	user	en		Average age of participants in perceptual strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
 Lynott-2019-Sensorimotor	ENGLISH_ACTION_AOA_MEAN	mean	AoA	ratings	user	en		Average age of participants in action strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
+
