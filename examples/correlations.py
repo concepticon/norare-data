@@ -112,7 +112,35 @@ checks = [
             'spanish_frequency_log',
             'plot-spanish-frequency'
             ],
+        [
+            'Alonso-2016-AoA',
+            'Luniewska-2019-299',
+            'spanish_aoa_mean',
+            'spanish_aoa',
+            'plot-spanish-aoa-2'
+        ],
+        [
+            'Cuetos-2011-Frequency',
+            'Desrochers-2010-330',
+            'spanish_frequency_log',
+            'subjective_freq_mean',
+            'plot-spanish-frequency-2'
+        ],
+        [
+            'Luniewska-2019-299',
+            'Kuperman-2012-AoA',
+            'english_aoa',
+            'english_aoa_mean',
+            'plot-english-aoa-2'
+        ],
+        [
+            'Lynott-2013-400',
+            'Lynott-2019-Sensorimotor',
+            'olfactory_mean',
+            'english_olfactory_mean',
+            'plot-english-olfactory'
         ]
+            ]
 
 norare = NoRaRe('../')
 for dsA, dsB, valA, valB, filename in checks:
