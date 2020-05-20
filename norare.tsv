@@ -1,4 +1,6 @@
 DATASET	NAME	STRUCTURE	TYPE	NORARE	RATING	LANGUAGE	SOURCE	NOTE
+Bond-2013-OMW	IN_DEGREE	numeric	semantic	relations	user	en		The number of hypernyms of a given concept.
+Bond-2013-OMW	OUT_DEGREE	numeric	semantic	relations	user	en		The number of hyponyms of a given concept.
 Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user	es		Average score of AoA ratings on a scale from 1 to 11.
 Alonso-2015-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user	es		The minimum age of acquisition indicated by participants.
 Alonso-2015-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user	es		The maximum age of acquisition indicated by participants.
