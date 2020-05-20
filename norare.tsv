@@ -146,21 +146,21 @@ Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	colexifications	relations	concept list
 Rzymski-2020-1624	DEGREE	numeric	colexifications	relations	concept lists	en		This is the unweighted and weighted degree for each node.
 Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language families.
 Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language varieties.
-Wierzba-2018-DiscreteEmotions	POLISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category happiness.
-Wierzba-2018-DiscreteEmotions	POLISH_ANGER_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category anger.
-Wierzba-2018-DiscreteEmotions	POLISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category sadness.
-Wierzba-2018-DiscreteEmotions	POLISH_FEAR_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category fear.
-Wierzba-2018-DiscreteEmotions	POLISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category disgust.
-Wierzba-2018-DiscreteEmotions	POLISH_HAPPINESS_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category happiness (only female participants).
-Wierzba-2018-DiscreteEmotions	POLISH_ANGER_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category anger (only female participants).
-Wierzba-2018-DiscreteEmotions	POLISH_SADNESS_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only female participants).
-Wierzba-2018-DiscreteEmotions	POLISH_FEAR_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category fear (only female participants).
-Wierzba-2018-DiscreteEmotions	POLISH_DISGUST_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category disgust (only female participants).
-Wierzba-2018-DiscreteEmotions	POLISH_HAPPINESS_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category happiness (only male participants).
-Wierzba-2018-DiscreteEmotions	POLISH_ANGER_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category anger (only male participants).
-Wierzba-2018-DiscreteEmotions	POLISH_SADNESS_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only male participants).
-Wierzba-2018-DiscreteEmotions	POLISH_FEAR_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category fear (only male participants).
-Wierzba-2018-DiscreteEmotions	POLISH_DISGUST_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category disgust (only male participants).
+Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category happiness.
+Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category anger.
+Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category sadness.
+Wierzba-2015-DiscreteEmotions	POLISH_FEAR_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category fear.
+Wierzba-2015-DiscreteEmotions	POLISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category disgust.
+Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category happiness (only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category anger (only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_FEAR_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category fear (only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_DISGUST_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category disgust (only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category happiness (only male participants).
+Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category anger (only male participants).
+Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only male participants).
+Wierzba-2015-DiscreteEmotions	POLISH_FEAR_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category fear (only male participants).
+Wierzba-2015-DiscreteEmotions	POLISH_DISGUST_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category disgust (only male participants).
 Alonso-2011-OralFrequency	SPANISH_FREQUENCY	tokens	frequency	norms	corpus	es		This is the number of times the spoken word appears in the corpus.
 Alonso-2011-OralFrequency	SPANISH_FREQUENCY_PM	normalized	frequency	norms	corpus	es		The frequency per million for spoken words.
 Alonso-2011-OralFrequency	SPANISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	es		The log10 of spoken word frequency.
