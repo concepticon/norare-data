@@ -25,31 +25,38 @@
           }, 
           {
             "name": "CHINESE",
-            "datatype": "string"
+            "datatype": "string",
+            "titles": "Word"
           }, 
           {
             "name": "CHINESE_FREQUENCY",
-            "datatype": "integer"
+            "datatype": "integer",
+            "titles": "WCount"
           },
           {
             "name": "CHINESE_FREQUENCY_PM",
-            "datatype": "float"
+            "datatype": "string",
+            "titles": "W/million"
           },
           {
             "name": "CHINESE_FREQUENCY_LOG",
-            "datatype": "float"
+            "datatype": "string",
+            "titles": "logW"
           },
           {
             "name": "CHINESE_CD",
-            "datatype": "integer"
+            "datatype": "integer",
+            "titles": "W-CD"
           },
           {
             "name": "CHINESE_CD_PERCENTAGE",
-            "datatype": "float"
+            "datatype": "string",
+            "titles": "W-CD%"
           },
           {
             "name": "CHINESE_CD_LOG",
-            "datatype": "float"
+            "datatype": "string",
+            "titles": "logW-CD"
           },
           {
             "name": "LINE_IN_SOURCE",
