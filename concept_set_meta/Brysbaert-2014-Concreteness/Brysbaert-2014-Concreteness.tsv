@@ -1,2377 +1,2375 @@
 CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	ENGLISH_CONCRETENESS_MEAN	ENGLISH_DUNNO	ENGLISH_POS	LINE_IN_SOURCE
-16	SLED	sled	5	0	Adjective	16
-683	PERSON	human	4.93	0	Adjective	18
-2500	GINGER	ginger	4.92	0	Adjective	21
-1154	OLIVE	olive	4.9	0	Adjective	24
-2027	SOYA	soybean	4.82	0	Adjective	27
-2367	MANDARINE	mandarin	3.67	0	Noun	15808
-58	LIQUID	liquid	4.72	0	Adjective	34
-1125	BALD	bald	4.69	0	Adjective	39
-3752	LILAC	lilac	4.69	0	Adjective	40
-3328	ORANGE (COLOR)	orange	4.66	0	Adjective	42
-1123	PREGNANT	pregnant	4.59	0	Adjective	52
-1551	FEMALE	female	4.57	0	Adjective	55
-1279	FAT (OBESE)	fatness	3.18	0	Noun	17637
-590	NAKED	naked	4.5	0	Adjective	66
-1726	WET	wet	4.46	0	Adjective	70
-1553	MALE	male	4.45	0	Adjective	72
-3003	SOLID	solid	4.42	0	Adjective	77
-1962	ROAST (SOMETHING)	roast	4.4	0	Adjective	83
-999	JOINT	joint	4.37	0	Adjective	91
-3737	BAREFOOT	barefooted	4.33	0	Adjective	96
-1286	HOT	hot	4.31	0	Adjective	111
-1424	YELLOW	yellow	4.3	0	Adjective	115
-706	DARK	dark	4.29	0	Adjective	117
-380	WRINKLED	wrinkled	4.29	0	Adjective	123
-156	RED	red	4.24	0	Adjective	139
-1230	DIRTY	dirty	4.23	0	Adjective	143
-2340	SUNNY	sunny	4.2	0	Adjective	152
-3750	KHAKI	khaki	4.19	0	Adjective	158
-3367	STUTTERER	stutterer	4.16	3	Adjective	166
-1903	SWELLING	bump	4.1	0	Noun	13959
-153	GREY	gray	3.46	0	Adjective	756
-2997	COLORFUL	multicolored	4.11	0	Adjective	187
-2666	SOLE (FOOT)	sole	4.11	0	Adjective	192
-1625	DEAD	dead	4.07	0	Adjective	206
-1425	GREEN	green	4.07	0	Adjective	209
-2341	CLOUDY	overcast	4.04	0	Adjective	229
-2452	PURPLE	purple	4.04	0	Adjective	231
-1653	BLIND	blind	4.03	0	Adjective	239
-717	SWEET	sweetness	2.83	0	Noun	18947
-1244	THICK	thick	4	0	Adjective	263
-3702	SLIPPERY	slippery	3.94	0	Adjective	287
-3044	BOVINE	bovine	3.93	2	Adjective	290
-535	INFLATED	inflated	3.93	0	Adjective	296
-3446	PINK	pink	3.93	0	Adjective	302
-1091	SALTY	salty	3.93	0	Adjective	303
-1400	THIN (SLIM)	slimy	3.26	0	Adjective	1020
-3545	WATERY	watery	3.93	0	Adjective	310
-679	BRIGHT	bright	3.92	0	Adjective	312
-1395	ROUND	round	3.9	0	Adjective	328
-1335	WHITE	white	3.89	0	Adjective	339
-1856	SOFT	softness	3.1	0	Noun	17932
-1728	ROTTEN	rotten	3.87	0	Adjective	350
-1396	SHARP	sharp	3.86	0	Adjective	356
-847	THIRSTY	thirsty	3.86	0	Adjective	359
-3758	WINDY	windy	3.86	0	Adjective	362
-1287	COLD	coldness	3.33	0	Noun	17039
-1923	ROUGH	rough	3.83	0	Adjective	381
-2303	SPHERICAL (ROUND IN THREE DIMENSIONS)	spherical	3.83	0	Adjective	383
-2308	THIN	thin	3.83	0	Adjective	384
-955	GREASY	greasy	3.82	0	Adjective	388
-2998	DAMP	damp	3.81	0	Adjective	395
-1234	SMOOTH	smooth	3.81	0	Adjective	406
-3759	FOGGY	foggy	3.8	0	Adjective	408
-2302	CIRCULAR (ROUND IN TWO DIMENSIONS)	circular	3.79	2	Adjective	413
-297	CROOKED	bent	3.62	0	Verb	24435
-1398	DRY	dry	3.77	0	Adjective	436
-3403	HORSE BARN	stable	3.77	0	Adjective	439
-163	BLACK	black	3.76	0	Adjective	443
-837	BLUE	blue	3.76	0	Adjective	444
-1884	HARD	hardness	3.34	0	Noun	17028
-2717	STEEP	steep	3.76	0	Adjective	454
-3756	FLORAL	floral	3.75	0	Adjective	458
-3616	FAINT (PASS OUT)	faint	3.74	0	Adjective	463
-42	STINKING	stinking	3.2	0	Adjective	1121
-2112	OLD (AGED)	elderly	3.68	0	Adjective	516
-1246	SMALL	little	3.67	0	Adjective	529
-3755	MOUNTAINOUS	mountainous	3.67	0	Adjective	531
-1202	BIG	great	1.81	0	Adjective	5176
-544	SPICY	peppery	3.66	0	Adjective	539
-1645	SHORT	short	3.61	0	Adjective	589
-1429	FULL	full	3.59	0	Adjective	602
-3703	STICKY	sticky	3.59	0	Adjective	613
-1232	WARM	warm	3.56	0	Adjective	653
-989	CLEAR	clear	3.55	0	Adjective	656
-2483	COLD (OF WEATHER)	cool	3.53	0	Adjective	686
-2276	IDENTICAL	identical	3.5	0	Adjective	718
-1463	DRUNK	intoxicated	3.56	0	Verb	24560
-143	HUMID	humid	3.48	0	Adjective	741
-2375	VERTICAL	vertical	3.48	0	Adjective	749
-1265	HIGH	high	3.46	0	Adjective	757
-2376	HORIZONTAL	horizontal	3.46	0	Adjective	758
-193	SHALLOW	shallow	3.45	0	Adjective	780
-1624	EMPTY	empty	3.43	0	Adjective	792
-1129	PAINFUL	hurting	3.03	0	Verb	25699
-3707	BEIGE	beige	3.41	0	Adjective	819
-3762	SAFE	safe	3.41	0	Adjective	829
-1593	DEEP	deep	3.38	0	Adjective	853
-1210	HEAVY	heaviness	2.89	0	Noun	18708
-711	TALL	tall	3.36	0	Adjective	888
-1698	CURVED	curved	3.35	0	Adjective	892
-376	FRAGRANT	fragrant	3.35	1	Adjective	894
-1959	RAW	raw	3.35	0	Adjective	896
-721	LOW	low	3.34	0	Adjective	903
-1861	ACTIVE	active	3.32	0	Adjective	919
-825	AWAKE	awake	3.32	0	Adjective	921
-1364	HEALTHY	health	2.28	0	Noun	20855
-1573	SWELL	swollen	3.6	0	Verb	24482
-1958	UNRIPE	unripe	3.31	2	Adjective	950
-178	RIPE	ripe	3.3	0	Adjective	963
-2517	CROWDED	crowded	3.28	0	Adjective	984
-3757	MUGGY	muggy	3.28	0	Adjective	989
-1229	OLD	overgrown	3.28	0	Adjective	990
-701	SLOW	slow	3.28	0	Adjective	993
-996	DEAF	deaf	3.27	0	Adjective	999
-2151	COARSE	coarse	3.25	0	Adjective	1027
-1359	SEPARATE	separate	3.25	0	Adjective	1033
-2277	WHOLE	total	2.8	0	Adjective	1821
-1666	MUTE	mute	3.24	0	Adjective	1053
-3708	FEELING SORE	sore	3.23	0	Adjective	1064
-1548	UGLY	ugly	3.23	0	Adjective	1068
-149	ITCHY	itchy	3.21	0	Adjective	1094
-3735	NEAR (IN SPACE)	close	3.2	0	Adjective	1116
-2506	LOOSE	slack	3.15	0	Noun	17743
-3754	TRANSPARENT	transparent	3.18	0	Adjective	1160
-2935	CURRENT (STREAM)	current	3.16	1	Adjective	1185
-1326	DOWN	downward	3.16	0	Adjective	1186
-1207	YOUNG	young	3.16	0	Adjective	1192
-2496	ADORNED	crested	3.15	0	Adjective	1196
-1422	BE ALIVE	living	3.04	0	Verb	25653
-2239	DENSE	dense	3.14	0	Adjective	1220
-1906	SOUR	sourness	3.27	0	#N/A	32402
-785	STRONG	strong	3.14	0	Adjective	1234
-1426	EXPENSIVE	expensiveness	2	2	#N/A	36997
-1868	VISIBLE	visible	3.08	2	Adjective	1325
-379	BLUNT	blunt	3.07	0	Adjective	1332
-704	CLEAN	cleanness	3.61	2	Noun	16022
-699	SAD	unhappy	2.04	0	Adjective	4216
-1243	WIDE	wideness	3.07	0	#N/A	32954
-1267	NARROW	narrow	3.04	0	Adjective	1403
-1631	FAST	swift	3.04	2	Adjective	1416
-1636	MOTIONLESS	motionless	3	0	Adjective	1463
-1757	TIRED	tired	3	0	Adjective	1478
-1847	SICK	feverish	2.57	0	Adjective	2323
-887	BITTER	bitterness	2.36	0	Noun	20558
-1533	BE HUNGRY	hungry	2.9	0	Adjective	1637
-2203	RABID	rabid	2.9	0	Adjective	1643
-1964	ALONE	alone	2.86	0	Adjective	1698
-69	SOBER	sober	2.86	0	Adjective	1718
-1813	TASTY	delicious	2.43	0	Adjective	2698
-1231	NEW	new	2.81	0	Adjective	1798
-2756	IDLE	idle	2.79	0	Adjective	1832
-712	RICH	wealthy	2.73	0	Adjective	1966
-1601	WEAK	weak	2.79	0	Adjective	1841
-3620	SLEEPY	sleepy	2.77	0	Adjective	1871
-1899	MAD	insane	1.77	0	Adjective	5335
-1314	QUIET	quiet	2.76	0	Adjective	1895
-1406	FAR	faraway	2.96	3	Noun	18440
-888	POISONOUS	poisonous	2.74	0	Adjective	1947
-1419	FEAR (BE AFRAID)	afraid	2.7	0	Adjective	2011
-1674	POOR	poor	2.7	0	Adjective	2027
-1093	MIDDLE	mid	2.69	1	Adjective	2044
-1564	LAZY	lazy	2.67	0	Adjective	2089
-2410	GOOD-LOOKING	attractive	2.64	0	Adjective	2136
-1691	FLEXIBLE	flexible	2.64	0	Adjective	2141
-2018	GREEDY	greedy	2.64	0	Adjective	2143
-220	INTACT	intact	2.64	0	Adjective	2148
-218	FINE (PENALTY)	fine	2.61	0	Adjective	2230
-425	BE LATE	late	2.6	0	Adjective	2248
-1725	CORRECT (RIGHT)	correct	2.59	0	Adjective	2261
-1954	GENTLE	meek	2.22	1	Adjective	3408
-1198	MANY	numerous	2.57	0	Adjective	2331
-1570	EQUAL	equal	2.56	0	Adjective	2345
-1495	HAPPY	glad	2.36	0	Adjective	2922
-1466	EXACT	exact	2.54	0	Adjective	2386
-3361	OFFICIAL	official	2.54	0	Adjective	2394
-1771	TASTELESS	tasteless	2.54	1	Adjective	2407
-1826	ANGRY	angry	2.53	0	Adjective	2411
-1552	GLOOMY	gloomy	2.52	0	Adjective	2438
-320	LAME	lame	2.52	0	Adjective	2445
-1412	RUDE	rude	2.52	0	Adjective	2455
-487	SHY	shy	2.52	0	Adjective	2461
-109	FOREIGN	foreign	2.5	2	Adjective	2490
-1976	MERRY	merry	2.41	0	Adjective	2776
-1657	TRUE	real	2.5	0	Adjective	2513
-3033	SCARED	scared	2.5	0	Adjective	2518
-1572	SURPRISED	surprised	2.5	0	Adjective	2522
-2530	SMART	smart	1.75	0	Adjective	5411
-1558	SIMILAR	alike	2.38	0	Adverb	6486
-2531	BROAD	broad	2.45	0	Adjective	2631
-419	SEVERE	severe	2.43	1	Adjective	2724
-2755	BUSY	busy	2.41	0	Adjective	2754
-1078	MAIN	main	2.41	0	Adjective	2774
-2230	UNTAMED OR WILD	wild	2.41	0	Adjective	2791
-2181	LIGHT (IN TASTE)	bland	2.38	1	Adjective	2837
-1492	DUMB	dumb	2.36	0	Adjective	2917
-3069	FALSE	fraud	1.68	0	Noun	22751
-1682	GUILTY	guilty	2.36	0	Adjective	2923
-3053	TIGHT	tense	2.35	0	Adjective	2975
-222	LAVISH	lavish	2.31	0	Adjective	3097
-207	SPARSE	sparse	2.31	0	Adjective	3109
-2233	LOVELY	lovely	2.29	1	Adjective	3177
-3	BRAVE	courageous	2	0	Adjective	4307
-652	PLAIN	plain	2.26	0	Adjective	3291
-3632	GENEROUS	generous	2.25	0	Adjective	3312
-584	DIFFICULT	difficult	2.21	0	Adjective	3444
-2507	DISGUSTING	disgusting	2.21	0	Adjective	3445
-100	FAITHFUL	faithful	2.2	0	Adjective	3518
-528	DREADFUL	fearful	2.2	0	Adjective	3519
-3634	STUBBORN	stubborn	2.18	0	Adjective	3612
-2821	JEALOUS	jealous	2.17	0	Adjective	3637
-3001	POWERFUL	powerful	2.17	0	Adjective	3641
-1427	BEAUTIFUL	beautiful	2.16	0	Adjective	3658
-1285	IMPORTANT	important	2.14	0	Adjective	3734
-905	BORING	bored	2.13	0	Adjective	3766
-3466	DANGEROUS	dangerous	2.13	0	Adjective	3768
-2335	CUNNING	cunning	2.12	1	Adjective	3789
-1887	CHEAP	inexpensiveness	1.92	2	Noun	22121
-500	CRUEL	cruel	2.11	0	Adjective	3832
-45	EVIL	wicked	2.11	0	Adjective	3889
-3709	BRILLIANT	brilliant	2.07	0	Adjective	3999
-102	COMMON COLD (DISEASE)	common	2.07	0	Adjective	4006
-686	EASY	simple	1.62	0	Adjective	5783
-174	PROUD	proud	2.07	0	Adjective	4055
-790	READY	ready	2.07	0	Adjective	4057
-2316	FREE	free	2.04	0	Adjective	4139
-197	OTHER	another	2.69	1	Determiner	8038
-3005	FAMILIAR	familiar	2.03	0	Adjective	4250
-3761	EMOTIONAL	emotional	2	0	Adjective	4323
-1764	OBSCURE	obscure	2	0	Adjective	4376
-3002	PRECIOUS	precious	2	0	Adjective	4387
-1774	STINGY	stingy	2	0	Adjective	4402
-2504	DIFFERENT	different	1.97	0	Adjective	4452
-243	FRESH	fresh	1.97	0	Adjective	4455
-1080	VULGAR	vulgar	1.97	0	Adjective	4485
-698	WISE	wise	1.97	0	Adjective	4487
-209	RARE	rare	1.96	0	Adjective	4552
-807	SKILLED	skilled	1.96	0	Adjective	4559
-26	UNPLEASANT	unpleasant	1.91	0	Adjective	4771
-1875	REGRET	repent	1.96	0	Verb	28165
-1147	PURE	pure	1.87	0	Adjective	4952
-2758	CAREFUL	careful	1.86	0	Adjective	4968
-600	STRANGE	odd	1.7	0	Adjective	5564
-583	KIND OR POLITE	polite	1.85	5	Adjective	5043
-1518	STUPID	foolish	1.84	0	Adjective	5074
-1390	WRONG	wrong	1.83	0	Adjective	5130
-1030	NECESSARY	necessary	1.8	0	Adjective	5220
-1310	CLEVER	clever	1.79	0	Adjective	5233
-1842	OBSTINATE	obstinate	1.79	1	Adjective	5257
-885	OPPOSITE	opposite	1.79	0	Adjective	5258
-1908	ATTENTIVE	attentive	1.78	0	Adjective	5291
-1702	HOLY	sacred	1.77	0	Adjective	5343
-3633	CURIOUS	curious	1.75	0	Adjective	5395
-1894	ASHAMED	ashamed	1.74	0	Adjective	5423
-145	SORROWFUL	sorrowful	1.74	0	Adjective	5441
-509	CERTAIN	certainly	1.86	0	Adverb	7241
-2232	KEEN OR SUBTLE	subtle	1.72	0	Adjective	5513
-2077	DILIGENT	diligent	1.69	0	Adjective	5583
-1292	BAD	bad	1.68	1	Adjective	5615
-1120	HONEST	honest	1.66	0	Adjective	5683
-1035	GOOD	goodness	1.38	0	Noun	23113
-2651	BE IGNORANT	ignorant	1.62	0	Adjective	5773
-39	KEEN	keen	1.61	1	Adjective	5797
-1863	AMAZING	amazing	1.55	0	Adjective	5891
-90	INNOCENT	innocent	1.54	0	Adjective	5911
-1880	PASSIONATE	passionate	1.48	0	Adjective	5999
-3262	HORSEFLY	horsefly	4.97	0	Adverb	6128
-1504	FLY (INSECT)	housefly	4.96	0	Adverb	6129
-2910	BACK (DIRECTION)	back	4.33	0	Adverb	6135
-762	OUTSIDE	out	2.73	0	Adverb	6319
-2406	HOME	home	4.11	0	Adverb	6147
-1591	UP	upwards	2.63	0	Adverb	6358
-377	LOUD	loud	3.73	0	Adverb	6163
-1606	INSIDE	inside	3.67	0	Adverb	6168
-1019	RIGHT	right	3.47	0	Adverb	6178
-2919	STILL (CONTINUING)	still	3.46	0	Adverb	6179
-1485	BELOW OR UNDER	underneath	3.71	0	Preposition	23206
-2911	BACKWARD	backwards	3.17	0	Adverb	6212
-844	KIND (THING)	sort	3.34	1	Adverb	6192
-954	WELL	well	3.33	0	Adverb	6194
-1203	LONG	long	3.18	0	Adverb	6210
-136	HERE	here	3.13	0	Adverb	6219
-2165	SLOWLY	slowly	3.1	0	Adverb	6224
-1174	YESTERDAY	yesterday	3	0	Adverb	6241
-1546	TWICE	twice	2.93	0	Adverb	6254
-1942	NEAR	nearby	2.86	0	Adverb	6274
-1404	STRAIGHT	straight	2.76	0	Adverb	6304
-374	ONE TIME	once	2.74	0	Adverb	6315
-2482	TOGETHER	together	2.74	0	Adverb	6316
-2912	FORWARD	forward	2.66	0	Adverb	6344
-1283	TODAY	today	2.57	0	Adverb	6376
-1852	OFTEN	frequently	1.88	0	Adverb	7215
-1741	ABOVE	over	2.46	0	Adverb	6440
-2916	INSTANTLY (IMMEDIATELY)	instantly	2.44	0	Adverb	6449
-1580	ONLY	only	2.41	0	Adverb	6467
-1963	IMMEDIATELY	immediately	2.3	0	Adverb	6571
-672	EARLY	early	2.25	0	Adverb	6614
-2925	HITHER (HERE TO)	hither	2.17	3	Adverb	6706
-2093	AFTERWARDS	afterwards	2.14	0	Adverb	6736
-1329	TOMORROW	tomorrow	2.04	0	Adverb	6919
-204	AGAIN	again	2	0	Adverb	6944
-2999	EVERYWHERE	everywhere	2	0	Adverb	6958
-2914	ONCE (IN THE PAST)	formerly	1.9	0	Adverb	7166
-1270	WHY	why	1.86	0	Adverb	7276
-2920	SUDDENLY	suddenly	1.84	1	Adverb	7296
-703	SOON	soon	1.79	0	Adverb	7400
-1544	SOMETIMES	sometimes	1.77	0	Adverb	7428
-1676	ALWAYS	always	1.71	0	Adverb	7534
-1237	WHERE	where	1.66	0	Adverb	7633
-2576	ALREADY	already	1.64	0	Adverb	7650
-1271	DELIGHT	please	1.64	0	Adverb	7660
-2926	HARDLY	hardly	1.62	0	Adverb	7697
-1656	NEVER	never	1.59	0	Adverb	7753
-84	JUST	just	1.52	0	Adverb	7838
-1376	NOW	now	1.48	0	Adverb	7884
-2921	THEN	then	1.44	2	Adverb	7918
-1311	VERY	very	1.43	0	Adverb	7925
-2336	OF THIS KIND (SUCH)	so	1.42	1	Adverb	7931
-2927	FROM HERE	hence	1.41	0	Adverb	7935
-2577	YET	yet	1.39	0	Adverb	7947
-1239	HOW	how	1.35	0	Adverb	7969
-1881	ENOUGH	enough	1.33	0	Adverb	7973
-2278	PERHAPS	perhaps	1.19	0	Adverb	8002
-98	ALL	everything	2.3	0	Pronoun	23308
-1882	BEFORE	till	4	1	Conjunction	8008
-1869	BUY	but	2.04	0	Conjunction	8009
-1014	OR	or	1.72	0	Conjunction	8016
-1238	WHEN	when	1.6	0	Conjunction	8018
-726	WHILE	while	1.55	0	Conjunction	8020
-1577	AND	and	1.52	0	Conjunction	8022
-2753	UNTIL	until	1.33	0	Conjunction	8029
-1157	BECAUSE	because	1.22	0	Conjunction	8030
-1459	IF	if	1.19	0	Conjunction	8033
-816	HALF	half	3.27	0	Determiner	8035
-1241	SOME	several	3	0	Determiner	8036
-200	SAME	same	2.64	18	Determiner	8039
-1242	FEW	few	2.48	0	Determiner	8040
-1992	MORE	more	2.37	0	Determiner	8043
-78	THAT	those	2.32	0	Determiner	8044
-3004	FORMER	former	2.18	0	Determiner	8046
-1214	THIS	these	2.03	0	Determiner	8049
-1236	WHAT	what	2	0	Determiner	8050
-684	OWN	got	1.93	1	Verb	28202
-3452	MUCH	much	1.69	0	Determiner	8053
-727	WHICH	which	1.54	2	Determiner	8056
-1937	THERE	there	2.2	0	Ex	8061
-3553	HELLO	hello	2.8	0	Interjection	8072
-1269	NO	no	2.45	0	Interjection	8082
-2470	DEAR	dear	2.25	0	Interjection	8090
-1268	YES	affirmative	1.93	0	Noun	22021
-3382	PEACOCK	peacock	5	0	Name	8115
-124	THORN	thorn	5	0	Name	8117
-1312	FOX	fox	4.97	0	Name	8119
-1208	CAT	kitty	4.97	0	Name	8120
-646	ASH	ash	4.96	0	Name	8121
-2837	SWAN	swan	4.96	0	Name	8127
-904	BERRY	berry	4.93	0	Name	8128
-307	HAWK	kite	5	0	Noun	8642
-361	PEG	peg	4.93	0	Name	8131
-410	YAM	yam	4.93	0	Name	8132
-1885	ARMADILLO	armadillo	4.9	0	Name	8135
-637	MOSS	moss	4.9	0	Name	8136
-1910	STINGRAY	stingray	4.9	0	Name	8137
-3325	PEARL	pearl	4.87	1	Name	8140
-3688	MARSH	marsh	4.85	1	Name	8143
-1854	SPARROW	sparrow	4.85	0	Name	8144
-934	BUFFALO	buffalo	4.83	0	Name	8145
-113	SHORE	shore	4.79	0	Name	8151
-1662	CAPE	cape	4.77	0	Name	8154
-3243	CYPRESS	cypress	4.76	3	Name	8159
-3724	STORK	stork	4.72	0	Name	8167
-2568	BAKER	baker	4.71	0	Name	8169
-992	CLIFF	cliff	4.71	0	Name	8170
-2502	GONG	gong	4.7	0	Name	8173
-659	REED	reed	4.7	1	Name	8175
-1830	CRANE	crane	4.68	0	Name	8182
-2402	ROBIN	robin	4.61	0	Name	8193
-903	ASPEN	aspen	4.59	4	Name	8194
-2034	FROST	frost	4.56	0	Name	8198
-2409	BROWN	brown	4.48	0	Name	8211
-1684	BUD	bud	4.48	0	Name	8212
-3401	HENHOUSE	coop	4.46	1	Name	8217
-3723	NIGHTINGALE	nightingale	4.46	3	Name	8218
-1042	CARPENTER	carpenter	4.41	0	Name	8225
-1053	HUNTER	hunter	4.41	0	Name	8227
-1916	GILL	gills	4.55	0	Noun	11682
-3721	FINCH	finch	4.3	0	Name	8245
-3637	WEAVER	weaver	4.29	0	Name	8250
-1720	SIGN	mark	4.21	0	Name	8265
-877	MASON	mason	4.2	2	Name	8268
-2818	FORD (CROSSING)	ford	4.19	2	Name	8272
-3684	PECK	peck	4.16	0	Name	8276
-1855	BIRCH	birch	4.12	1	Name	8285
-359	POTTER	potter	4.12	3	Name	8288
-1001	BLACKSMITH	smith	3.81	1	Name	8332
-398	PIERCE	pierce	3.73	0	Name	8349
-2957	WARE	ware	3.54	4	Name	8392
-1943	CROWN (OF HEAD)	corona	3.46	2	Name	8408
-3231	DEITY	deity	2.33	1	Noun	20669
-1240	NOT	not	2.08	0	Not	8552
-3674	ANTELOPE	antelope	5	0	Noun	8554
-1320	APPLE	apple	5	0	Noun	8555
-677	AXE	hatchet	4.93	1	Noun	9009
-1289	BABY	infant	4.93	0	Noun	9017
-1845	BALL	sphere	4.44	0	Noun	12333
-868	BANANA	banana	5	0	Noun	8561
-1539	BASKET	basket	5	0	Noun	8564
-1793	BAT	bat	5	0	Noun	8565
-832	BEAN	bean	5	0	Noun	8567
-1663	BED	bed	5	0	Noun	8568
-3715	BELLYBUTTON	bellybutton	5	1	Noun	8570
-937	BIRD	bird	5	0	Noun	8573
-806	BLANKET	blanket	5	1	Noun	8575
-585	BOOT	boots	5	0	Noun	8577
-1402	BREAST	bosom	4.63	2	Noun	11156
-1027	BUG	bug	5	0	Noun	8580
-2595	CACTUS	cactus	5	0	Noun	8582
-3283	CAGE	cage	5	0	Noun	8583
-2618	CAMERA	camera	5	0	Noun	8585
-3085	CARROT	carrot	5	0	Noun	8586
-2843	CAULIFLOWER	cauliflower	5	0	Noun	8588
-1305	CHIMNEY	chimney	5	0	Noun	8589
-1987	CHOPSTICKS	chopstick	4.93	0	Noun	8971
-1323	CLOCK	clock	5	0	Noun	8591
-476	CUP	drinking glass	4.96	0	#N/A	28866
-1659	DOLL	doll	5	0	Noun	8600
-1862	DONKEY	donkey	5	0	Noun	8601
-2051	DUSTPAN	dustpan	5	0	Noun	8603
-1905	EAGLE	eagle	5	0	Noun	8604
-1247	EAR	ear	5	0	Noun	8605
-981	ELBOW	elbow	5	0	Noun	8607
-1290	ELEPHANT	elephant	5	0	Noun	8608
-2596	ESCALATOR	escalator	5	0	Noun	8609
-1540	EYELASH	eyelash	5	0	Noun	8611
-17	EYELID	eyelid	5	0	Noun	8612
-1303	FINGER	finger	5	0	Noun	8614
-227	FISH	fish	5	0	Noun	8615
-239	FLOWER	flower	5	0	Noun	8617
-777	FLUTE	flute	5	0	Noun	8618
-503	FROG	frog	5	0	Noun	8620
-1502	GOAT	goat	5	0	Noun	8621
-920	GRAPE	grape	5	0	Noun	8623
-3028	GRAVEL	gravel	5	0	Noun	8624
-1020	HANDKERCHIEF	kerchief	4.85	1	Noun	9665
-330	HEADBAND	headband	5	0	Noun	8631
-1393	HORN (ANATOMY)	horn	5	0	Noun	8632
-615	HORSE	horse	5	0	Noun	8633
-1252	HOUSE	house	5	0	Noun	8636
-1462	POT	jar	5	0	Noun	8639
-1371	KNEE	knee	5	0	Noun	8643
-1464	LADDER	ladder	5	0	Noun	8644
-628	LEAF	leaf	5	0	Noun	8646
-3091	LEMON	lemon	5	0	Noun	8647
-1139	LEOPARD	panther	4.93	0	Noun	9043
-2398	MANGO	mango	5	0	Noun	8653
-890	MULE	mule	5	0	Noun	8659
-1333	NECK	neck	5	0	Noun	8660
-2581	OCTOPUS	octopus	5	0	Noun	8664
-882	PARROT	parrot	5	0	Noun	8667
-2831	PENGUIN	penguin	5	0	Noun	8669
-1222	PENIS	penis	5	0	Noun	8670
-1337	PIG	hog	4.66	0	Noun	10984
-1044	PILLOW	cushion	4.68	0	Noun	10818
-256	FOOD	pizza	5	0	Noun	8675
-1227	BOARD	plank	5	0	Noun	8676
-2510	PORCUPINE	porcupine	5	0	Noun	8679
-2048	QUILT	quilt	5	0	Noun	8680
-1664	RAFT	raft	5	0	Noun	8681
-3712	RAINCOAT	raincoat	5	0	Noun	8683
-871	RATTLESNAKE	rattlesnake	5	0	Noun	8684
-671	SAND	sand	5	0	Noun	8687
-950	SEAGULL	gull	4.08	4	Noun	14029
-2771	SHAWL	shawl	5	2	Noun	8691
-730	SNAKE	snake	5	0	Noun	8693
-945	SPEAR	spear	5	1	Noun	8696
-34	STAIRS	stairs	5	0	Noun	8698
-3138	STRAWBERRY	strawberry	5	0	Noun	8699
-846	TIGER	tiger	5	0	Noun	8705
-894	TOAD	toad	5	0	Noun	8706
-986	TOMATO	tomato	5	0	Noun	8707
-272	TONGS	tongs	5	0	Noun	8708
-2579	TOOTHBRUSH	toothbrush	5	0	Noun	8709
-906	TREE	tree	5	0	Noun	8712
-112	TURTLE	turtle	5	0	Noun	8713
-154	UDDER	udder	5	1	Noun	8714
-3105	UMBRELLA	umbrella	5	0	Noun	8715
-3746	VASE	vase	5	0	Noun	8718
-948	WATER	water	5	0	Noun	8723
-3730	APRICOT	apricot	4.97	0	Noun	8726
-1673	ARM	arms	4.97	0	Noun	8727
-977	ARROW	arrow	4.97	0	Noun	8728
-1011	BRIDGE	bridge	4.97	1	Noun	8734
-603	COAT	coat	4.97	0	Noun	8742
-1850	COTTON	cotton	4.97	0	Noun	8743
-744	EGG	egg	4.97	0	Noun	8746
-1146	AUBERGINE	eggplant	4.97	0	Noun	8747
-322	FIG	fig	4.97	1	Noun	8749
-1594	FLOUR	flour	4.97	0	Noun	8750
-867	GLOVE	mitten	4.89	1	Noun	9331
-3144	GORILLA	gorilla	4.97	0	Noun	8752
-1040	HAIR	hair	4.97	0	Noun	8754
-1365	KITCHEN	kitchen	4.97	0	Noun	8759
-820	LAMB	lamb	4.97	0	Noun	8760
-625	LAMP	lamp	4.97	0	Noun	8761
-3729	LETTUCE	lettuce	4.97	0	Noun	8763
-2640	LARVA	larva	4.52	0	Noun	11851
-1171	MIRROR	mirror	4.97	0	Noun	8768
-1772	ELK	moose	4.97	0	Noun	8769
-3120	MOP (SOMETHING)	mop	4.97	0	Noun	8770
-638	MOTORCYCLE	motorcycle	4.97	0	Noun	8771
-1143	OVEN	oven	4.97	0	Noun	8772
-327	PONCHO	poncho	4.97	0	Noun	8774
-829	RAFTER	rafter	4.97	1	Noun	8775
-658	RAIN (PRECIPITATION)	rain	4.97	0	Noun	8776
-3066	SCARF OR TURBAN	turban	4.76	0	Noun	10315
-1381	SHOE	shoe	4.97	0	Noun	8781
-1901	SHOVEL	shovel	4.97	0	Noun	8782
-2668	SKELETON	skeleton	4.97	0	Noun	8783
-843	SPIDER	spider	4.97	0	Noun	8787
-1346	THROAT	throat	4.97	0	Noun	8791
-219	TOILET	lavatory	4.81	0	Noun	9918
-2042	WALNUT	walnut	4.97	0	Noun	8795
-1931	BEESWAX	beeswax	4.88	0	Noun	9403
-968	ACORN	acorn	4.96	0	Noun	8798
-1597	AIRPLANE	plane	4.92	0	Noun	9143
-1581	ALLIGATOR	alligator	4.96	0	Noun	8800
-1648	ANVIL	anvil	4.96	1	Noun	8802
-2605	ASPARAGUS	asparagus	4.96	0	Noun	8805
-73	BEAK	beak	4.96	0	Noun	8808
-678	BEARD	beard	4.96	0	Noun	8810
-2246	BELL	bell	4.96	0	Noun	8811
-2809	BLUEBERRY	blueberry	4.96	0	Noun	8817
-1754	BRACELET	bracelet	4.96	0	Noun	8819
-2052	BUCKET	bucket	4.96	0	Noun	8820
-757	BUTTON	button	4.96	0	Noun	8823
-292	RUG	carpet	4.96	0	Noun	8827
-1938	FORTRESS	castle	4.96	0	Noun	8828
-1155	CAVE	cave	4.96	0	Noun	8829
-3734	CHIMPANZEE	chimp	4.96	1	Noun	8832
-1575	COCKROACH	roach	4.96	1	Noun	8903
-506	MAIZE	maize	4.58	1	Noun	11513
-1007	COW	cow	4.96	0	Noun	8837
-912	COYOTE	coyote	4.96	0	Noun	8838
-1479	DOLPHIN	dolphin	4.96	0	Noun	8845
-908	DRUM	drum	4.96	0	Noun	8849
-18	EARLOBE	earlobe	4.96	0	Noun	8851
-770	EARRING	earring	4.96	0	Noun	8852
-675	FAECES (EXCREMENT)	shit	4.33	0	Noun	12892
-2940	GATE	gate	4.96	0	Noun	8858
-3261	HORNET	hornet	4.96	0	Noun	8864
-1589	HUMMINGBIRD	hummingbird	4.96	0	Noun	8865
-622	ISLAND	island	4.96	0	Noun	8868
-798	JAW	jawbone	4.96	0	Noun	8869
-1029	JEWEL	jewel	4.96	0	Noun	8870
-270	JUG	jug	4.96	0	Noun	8871
-489	KIDNEY	kidney	4.96	0	Noun	8873
-2319	LID (COVER, CAP)	lid	4.96	0	Noun	8875
-2540	LIME (MATERIAL)	lime	4.96	0	Noun	8877
-1386	LION	lion	4.96	0	Noun	8879
-478	LIP	lip	4.96	0	Noun	8880
-1803	WOOD	log	4.96	0	Noun	8881
-994	BOW	longbow	4.96	3	Noun	8883
-2005	MASK	mask	4.96	0	Noun	8885
-639	MOUNTAIN	mountain	4.96	0	Noun	8888
-1165	MOUSTACHE	moustache	4.96	0	Noun	8889
-1961	NECKLACE	necklace	4.96	0	Noun	8891
-973	NOODLE	noodles	4.96	0	Noun	8895
-472	PELICAN	pelican	4.96	0	Noun	8898
-2600	PYRAMID	pyramid	4.96	0	Noun	8900
-1563	PYTHON	python	4.96	1	Noun	8901
-745	SHELF	shelf	4.96	0	Noun	8908
-1378	SPOON	spoon	4.96	0	Noun	8914
-859	STOVE	stove	4.96	0	Noun	8916
-1145	SWAMP	swamp	4.96	1	Noun	8919
-1220	TAIL	tail	4.96	0	Noun	8920
-1380	TOOTH	teeth	4.96	0	Noun	8922
-1379	TELEPHONE	phone	4.86	0	Noun	9569
-1316	TENT	tent	4.96	0	Noun	8924
-3104	THERMOMETER	thermometer	4.96	0	Noun	8925
-1781	THUMB	thumb	4.96	0	Noun	8927
-1517	WASP	wasp	4.96	0	Noun	8937
-957	WHALE	whale	4.96	0	Noun	8938
-2440	PINEAPPLE	pineapple	4.94	4	Noun	8941
-1622	SHIRT	shirt	4.94	1	Noun	8942
-88	BEEHIVE	hive	4.83	0	Noun	9768
-869	BLADE	blade	4.93	0	Noun	8951
-1844	BOAT	boat	4.93	0	Noun	8953
-2617	BULB	bulb	4.93	1	Noun	8960
-1791	BUTTERFLY	butterfly	4.93	0	Noun	8962
-1871	CAMEL	camel	4.93	0	Noun	8963
-3284	GRAVEYARD	graveyard	4.83	0	Noun	9759
-1592	CHEST	chest	4.93	0	Noun	8969
-2512	CHICK	chick	4.93	0	Noun	8970
-1399	CLAY	clay	4.93	0	Noun	8974
-3257	CLITORIS	clitoris	4.93	0	Noun	8976
-3086	COMPUTER	computer	4.93	0	Noun	8980
-2946	CRADLE	cradle	4.93	0	Noun	8983
-467	CRAYFISH	crayfish	4.93	1	Noun	8985
-913	CROW	crow	4.93	0	Noun	8986
-474	DRESS	dress	4.93	0	Noun	8993
-3088	ENVELOPE	envelope	4.93	0	Noun	8996
-1258	FINGERNAIL	fingernail	4.93	0	Noun	8997
-10	FIREWOOD	firewood	4.93	0	Noun	8999
-1473	FIST	fist	4.93	0	Noun	9001
-606	GRASS	grass	4.93	0	Noun	9005
-3719	MARMOT	groundhog	4.93	0	Noun	9006
-1797	HEDGEHOG	hedgehog	4.93	0	Noun	9011
-614	HILL	hill	4.93	0	Noun	9012
-3145	HIPPOPOTAMUS	hippo	4.93	0	Noun	9013
-2824	KNUCKLE	knuckle	4.93	0	Noun	9022
-2625	MAP	map	4.93	0	Noun	9026
-3181	MUSTARD	mustard	4.93	0	Noun	9032
-1382	NEEDLE (FOR SEWING)	needle	4.93	0	Noun	9034
-2430	OFFICE	office	4.93	0	Noun	9037
-1484	OIL (ORGANIC SUBSTANCE)	oil	4.93	0	Noun	9038
-309	OPOSSUM	opossum	4.93	0	Noun	9040
-735	OWL	owl	4.93	0	Noun	9041
-648	PAPER	paper	4.93	0	Noun	9044
-922	PEAR	pear	4.93	0	Noun	9045
-3304	PICTURE (PHOTOGRAPH)	photo	4.93	0	Noun	9050
-2564	PIGLET	piglet	4.93	0	Noun	9052
-120	PITCHER	pitcher	4.93	0	Noun	9055
-1136	RABBIT	rabbit	4.93	0	Noun	9062
-1218	ROPE	ropes	4.78	0	Noun	10170
-2833	RUM	rum	4.93	0	Noun	9068
-1110	SHARK	shark	4.93	0	Noun	9071
-1482	SHOULDER	shoulder	4.93	0	Noun	9073
-1543	SNAIL	snail	4.93	0	Noun	9076
-788	SOAP	soap	4.93	0	Noun	9078
-1002	STATUE	statute	3.88	1	Noun	14972
-1535	SWORD	sword	4.93	0	Noun	9084
-1389	TOE	toe	4.93	0	Noun	9092
-1205	TONGUE	tongue	4.93	0	Noun	9093
-2403	TOY	toy	4.93	1	Noun	9095
-809	TROUSERS	pants	4.86	0	Noun	9563
-1142	URINE	urine	4.93	0	Noun	9098
-2447	WOODPECKER	woodpecker	4.93	0	Noun	9103
-1361	TOOL	wrench	4.93	1	Noun	9105
-799	WRIST	wrist	4.93	1	Noun	9106
-1197	BABOON	baboon	4.92	0	Noun	9112
-3083	BALLOON	balloon	4.92	0	Noun	9113
-1368	BREAD	bread	4.92	0	Noun	9117
-1248	EYE	eyes	4.85	0	Noun	9651
-1680	HELMET	helmet	4.92	0	Noun	9128
-3139	LADYBUG	ladybug	4.92	0	Noun	9129
-184	MAST	mast	4.92	1	Noun	9132
-635	MILK	milk	4.92	7	Noun	9133
-336	PADLOCK	padlock	4.92	0	Noun	9139
-794	PEN	pen	4.92	11	Noun	9140
-64	PIN	pin	4.92	0	Noun	9142
-1935	ANUS	rectum	4.92	0	Noun	9147
-751	SHRUB	shrub	4.92	1	Noun	9149
-277	SPINDLE	spindle	4.92	1	Noun	9151
-753	PUPIL (STUDENT)	student	4.92	0	Noun	9155
-1321	BOTTLE	bottle	4.91	5	Noun	9160
-607	GRASSHOPPER	grasshopper	4.91	1	Noun	9161
-668	ROCK	rock	4.91	0	Noun	9163
-1522	SOCK	sock	4.91	7	Noun	9165
-2468	BAG	bag	4.9	0	Noun	9169
-1860	BEAD	bead	4.9	0	Noun	9172
-2505	BEDROOM	bedroom	4.9	0	Noun	9173
-772	BELT	belt	4.9	0	Noun	9174
-1394	BONE	bone	4.9	0	Noun	9176
-963	BOOK	book	4.9	0	Noun	9177
-1465	BOX	case	3.93	1	Noun	14636
-1531	BRANCH	limb	4.64	0	Noun	11104
-1070	BUS	bus	4.9	0	Noun	9183
-1683	BUSH	bush	4.9	0	Noun	9184
-1245	BUTTER	butter	4.9	0	Noun	9185
-2619	CARD	card	4.9	0	Noun	9186
-1349	CHURCH	church	4.9	0	Noun	9191
-1616	CLOTH	cloth	4.9	0	Noun	9192
-2348	CRAB	crab	4.9	0	Noun	9195
-2587	DARTS	darts	4.83	0	Noun	9752
-481	DISH	dish	4.9	0	Noun	9198
-3258	FALCON	falcon	4.9	0	Noun	9203
-1201	FEATHER	plume	4	3	Noun	14431
-206	FIREFLY	firefly	4.9	0	Noun	9206
-1301	FOOT	foot	4.9	0	Noun	9207
-123	FOREHEAD	forehead	4.9	0	Noun	9208
-1302	FORK	fork	4.9	0	Noun	9209
-2292	GLASSES	glasses	4.9	0	Noun	9211
-3090	GUITAR	guitar	4.9	0	Noun	9213
-2590	HARMONICA	harmonica	4.9	1	Noun	9216
-1514	HEN	hen	4.9	0	Noun	9217
-1250	JAGUAR	jaguar	4.9	0	Noun	9219
-1352	KNIFE	knife	4.9	0	Noun	9225
-2657	LADLE	ladle	4.9	0	Noun	9226
-3093	LIPSTICK	lipstick	4.9	0	Noun	9227
-634	MEAT	meat	4.9	0	Noun	9229
-1350	MONKEY	monkey	4.9	0	Noun	9230
-1313	MOON	moon	4.9	0	Noun	9231
-886	PARAKEET	parakeet	4.9	0	Noun	9237
-2025	PEA	pea	4.9	0	Noun	9238
-2043	PEACH	peach	4.9	0	Noun	9239
-2035	POND	pond	4.9	0	Noun	9242
-1647	FOAL	pony	4.9	0	Noun	9243
-864	PUMPKIN	squash	4.7	0	Noun	10706
-151	RAZOR	razor	4.9	0	Noun	9250
-2591	RHINOCEROS	rhino	4.9	0	Noun	9251
-801	RIB	rib	4.9	0	Noun	9252
-836	SCREWDRIVER	screwdriver	4.9	0	Noun	9258
-1331	SHEEP	sheep	4.9	0	Noun	9259
-3099	SOFA	couch	4.71	0	Noun	10582
-3032	STARFISH	starfish	4.9	0	Noun	9261
-2058	STOOL	stool	4.9	0	Noun	9264
-1775	TABLE	desk	4.87	0	Noun	9458
-800	THIGH	thigh	4.9	0	Noun	9267
-943	WATERFALL	waterfall	4.9	0	Noun	9271
-3288	WEED	weeds	4.83	0	Noun	9816
-1219	WORM	worm	4.9	0	Noun	9273
-1873	ANTHILL	anthill	4.89	0	Noun	9276
-3725	AVOCADO	avocado	4.89	0	Noun	9277
-747	BICYCLE	bicycle	4.89	0	Noun	9281
-245	BROOM	broom	4.89	0	Noun	9287
-3357	CUPBOARD	cabinet	4.89	0	Noun	9288
-1111	CAR	car	4.89	0	Noun	9289
-122	CART	cart	4.89	0	Noun	9290
-2099	CHILD	children	4.89	0	Noun	9293
-1510	CHIN	chin	4.89	0	Noun	9294
-1867	COIN	coin	4.89	0	Noun	9297
-767	CORPSE	corpse	4.89	0	Noun	9298
-2350	EARTHWORM	earthworm	4.89	0	Noun	9301
-232	FLEA	flea	4.89	0	Noun	9305
-2368	GARLIC	garlic	4.89	0	Noun	9310
-139	GUMS	gum	4.89	0	Noun	9314
-2019	HAMMOCK	hammock	4.89	0	Noun	9316
-152	HOOF	hoof	4.89	0	Noun	9317
-617	ICE	ice	4.89	1	Noun	9319
-620	INSECT	insect	4.89	0	Noun	9320
-1499	JUICE	juice	4.89	0	Noun	9322
-1472	KEY	key	4.89	0	Noun	9323
-2959	LEASH	leash	4.89	0	Noun	9325
-3677	MONGOOSE	mongoose	4.89	1	Noun	9332
-1221	NOSE	nose	4.89	0	Noun	9335
-1178	NOSTRIL	nostril	4.89	0	Noun	9336
-2364	PEANUT	peanut	4.89	0	Noun	9341
-3123	PHOTOGRAPH (SOMETHING)	photograph	4.89	0	Noun	9343
-2049	CONGEE	porridge	4.89	1	Noun	9348
-2969	RIBBON	ribbon	4.89	0	Noun	9353
-666	RIVER	river	4.89	0	Noun	9354
-1503	SALIVA	spittle	4.52	4	Noun	11884
-1274	SALT	salt	4.89	0	Noun	9357
-2586	SEAHORSE	seahorse	4.89	0	Noun	9358
-3128	SHOWER (ACTION)	shower	4.89	0	Noun	9361
-2200	SNOUT	snout	4.89	0	Noun	9365
-1628	SQUIRREL	squirrel	4.89	0	Noun	9368
-819	STOMACH	stomach	4.89	0	Noun	9369
-146	SUGAR CANE	sugar cane	4.82	0	#N/A	29424
-2386	TURKEY	turkey	4.89	0	Noun	9383
-924	VEGETABLES	vegetable	4.89	0	Noun	9386
-930	VILLAGE	village	4.89	0	Noun	9387
-985	VINEGAR	vinegar	4.89	0	Noun	9388
-2665	WART	wart	4.89	0	Noun	9390
-2766	WATERMELON	watermelon	4.89	0	Noun	9391
-1077	WHEAT	wheat	4.89	0	Noun	9393
-3385	ALUMINIUM	aluminum	4.88	0	Noun	9397
-1820	BEAR	bear	4.88	0	Noun	9400
-665	BEE	honeybee	4.86	0	Noun	9542
-1639	BEER	beer	4.88	0	Noun	9402
-969	CIGARETTE	cigarette	4.88	0	Noun	9408
-1853	DOVE	turtledove	4.61	2	Noun	11367
-1190	HARE	jackrabbit	4.66	0	Noun	10987
-771	HAT	hat	4.88	0	Noun	9422
-942	HONEY	honey	4.88	0	Noun	9424
-624	LAKE	lake	4.88	0	Noun	9427
-1282	FAT (FROM ANIMALS)	lard	4.88	1	Noun	9428
-1965	LOINCLOTH	sarong	4.5	4	Noun	11983
-1509	MOSQUITO	gnat	4.83	127	Noun	9758
-2578	PENCIL	pencil	4.88	0	Noun	9434
-1124	PIPE	pipe	4.88	0	Noun	9435
-1874	SAUSAGE	sausage	4.88	0	Noun	9437
-341	SICKLE	sickle	4.88	0	Noun	9439
-805	SPINE	spine	4.88	0	Noun	9441
-974	TOBACCO	tobacco	4.88	0	Noun	9443
-2046	APRON	apron	4.87	0	Noun	9447
-2584	BENCH	bench	4.87	0	Noun	9448
-1530	BOWL	bowl	4.87	0	Noun	9449
-3726	BROCCOLI	broccoli	4.87	0	Noun	9450
-1296	WALKING STICK	cane	4.87	0	Noun	9451
-2247	CATERPILLAR	caterpillar	4.87	0	Noun	9453
-990	CREEK (TIDAL)	creek	4.87	0	Noun	9456
-32	EARWAX	earwax	4.87	0	Noun	9460
-1560	FACE	face	4.87	0	Noun	9461
-1074	FISHHOOK	fishhook	4.87	0	Noun	9463
-342	HAY	hay	4.87	0	Noun	9465
-760	KNOT	knot	4.87	0	Noun	9469
-2244	METAL	metal	4.87	0	Noun	9473
-2445	PAPAYA	papaya	4.87	0	Noun	9474
-2365	RADISH	radish	4.87	0	Noun	9476
-797	TESTICLES	scrotum	4.87	0	Noun	9477
-740	SHIP	ship	4.87	0	Noun	9478
-1228	EARTH (SOIL)	soil	4.87	0	Noun	9482
-2343	STEEL	steel	4.87	0	Noun	9484
-862	SUGAR	sugar	4.87	2	Noun	9485
-893	TIN (METAL)	tin	4.87	0	Noun	9487
-895	TORTOISE	tortoise	4.87	0	Noun	9488
-420	FOREST	jungle	4.66	0	Noun	10988
-2603	ACCORDION	accordion	4.86	1	Noun	9491
-587	ANT	ant	4.86	0	Noun	9492
-181	ANTEATER	anteater	4.86	1	Noun	9493
-1927	BAMBOO	bamboo	4.86	0	Noun	9497
-2548	BARREL	barrel	4.86	0	Noun	9498
-946	BLOOD	blood	4.86	0	Noun	9500
-1273	CANDLE	candle	4.86	0	Noun	9503
-1970	CANOE	canoe	4.86	0	Noun	9504
-2620	CARRIAGE	carriage	4.86	1	Noun	9505
-2011	COFFIN	coffin	4.86	0	Noun	9513
-1936	DEER	deer	4.86	0	Noun	9520
-3687	DESERT	desert	4.86	0	Noun	9521
-25	DIRT	dirt	4.86	0	Noun	9523
-1360	DUCK	duck	4.86	0	Noun	9528
-2622	ENGINE	engine	4.86	0	Noun	9529
-411	GOURD	gourd	4.86	2	Noun	9535
-1383	GRANDFATHER	grandfather	4.86	0	Noun	9536
-3147	HAMSTER	hamster	4.86	0	Noun	9539
-980	HEEL	heel	4.86	0	Noun	9541
-2501	RICE HUSK	husk	4.86	0	Noun	9544
-2770	JACKET	jacket	4.86	0	Noun	9545
-164	KANGAROO	kangaroo	4.86	0	Noun	9546
-3247	KIWIFRUIT	kiwi	4.86	0	Noun	9548
-2397	LOBSTER	lobster	4.86	0	Noun	9550
-2819	GRASSLAND	meadow	4.86	0	Noun	9551
-640	MUD	mud	4.86	0	Noun	9553
-539	NEST	nest	4.86	0	Noun	9556
-645	OCEAN	ocean	4.86	0	Noun	9557
-2366	ONION	onion	4.86	0	Noun	9558
-15	OTTER	otter	4.86	0	Noun	9559
-1169	OX	ox	4.86	1	Noun	9560
-31	PAN	pan	4.86	0	Noun	9561
-961	PEBBLES	pebble	4.86	0	Noun	9567
-3732	POMEGRANATE	pomegranate	4.86	0	Noun	9571
-1891	PUMA	puma	4.86	0	Noun	9573
-2543	RAVEN	raven	4.86	0	Noun	9575
-926	RICE	rice	4.86	0	Noun	9578
-186	SHIN	shin	4.86	0	Noun	9587
-329	STOCKING	stocking	4.86	0	Noun	9594
-3141	TAMBOURINE	tambourine	4.86	1	Noun	9600
-2662	TOENAIL	toenail	4.86	0	Noun	9604
-1021	TOWEL	towel	4.86	0	Noun	9606
-775	TRUMPET	trumpet	4.86	0	Noun	9609
-343	VINE	vine	4.86	0	Noun	9613
-933	WALL (OF HOUSE)	wall	4.86	0	Noun	9614
-710	WHEEL	wheel	4.86	0	Noun	9617
-1375	WINDOW	window	4.86	0	Noun	9618
-1257	WING	wing	4.86	0	Noun	9621
-964	WOOL	wool	4.86	0	Noun	9622
-3675	ZEBRA	zebra	4.86	0	Noun	9623
-853	ALTAR	altar	4.85	0	Noun	9624
-138	BATHE	bath	4.85	0	Noun	9629
-1008	BULL	bull	4.85	0	Noun	9631
-3777	CATFISH	catfish	4.85	0	Noun	9634
-1188	CHARCOAL	charcoal	4.85	0	Noun	9637
-1994	COLLARBONE	clavicle	4.5	1	Noun	11921
-2009	DOG	dog	4.85	0	Noun	9647
-1173	EYEBROW	eyebrow	4.85	0	Noun	9650
-1768	FOAM	foam	4.85	0	Noun	9652
-1646	GIRL	girl	4.85	0	Noun	9654
-2597	HARP	harp	4.85	0	Noun	9658
-2041	HEMP	hemp	4.85	0	Noun	9661
-3279	MANTIS	mantis	4.85	1	Noun	9671
-289	MOLD	mold	4.85	0	Noun	9675
-2830	OYSTERS	oyster	4.85	0	Noun	9676
-593	POTATO	potato	4.85	0	Noun	9681
-1490	RAT	rat	4.85	0	Noun	9685
-1566	GUN	rifle	4.85	0	Noun	9686
-3065	SADDLE	saddle	4.85	8	Noun	9687
-356	SHEARS	scissors	4.85	0	Noun	9689
-784	SNOW	snow	4.85	0	Noun	9691
-3349	WRISTWATCH	wristwatch	4.85	0	Noun	9702
-1804	BOMB	bomb	4.84	0	Noun	9704
-3137	OAR	oar	4.84	0	Noun	9715
-2990	SACK	sack	4.84	0	Noun	9716
-1538	SCORPION	scorpion	4.84	0	Noun	9717
-2953	SLEEVE	sleeve	4.84	0	Noun	9719
-2242	BEETLE	beetle	4.83	0	Noun	9728
-432	BLOWGUN	blowgun	4.83	3	Noun	9730
-1006	BRICK	brick	4.83	0	Noun	9733
-1114	BULLET	bullet	4.83	0	Noun	9735
-834	BUTTOCKS	ass	4.67	0	Noun	10881
-874	CANDY	candy	4.83	0	Noun	9737
-1730	CHEEK	cheek	4.83	0	Noun	9741
-72	CLAW	claw	4.83	0	Noun	9742
-1857	CROCODILE	crocodile	4.83	0	Noun	9749
-496	CUCUMBER	cucumber	4.83	0	Noun	9751
-2352	DRAGONFLY	dragonfly	4.83	0	Noun	9754
-3733	FERRY	ferry	4.83	0	Noun	9757
-1578	IGUANA	iguana	4.83	0	Noun	9771
-1281	PRISON	jail	4.83	0	Noun	9772
-1297	LEG	leg	4.83	0	Noun	9773
-195	MAT	mat	4.83	0	Noun	9779
-1049	MOLAR TOOTH	molar	4.83	1	Noun	9781
-1491	MOUSE	mouse	4.83	0	Noun	9782
-641	MUSHROOM	fungus	4.59	0	Noun	11426
-796	NIPPLE	teat	4.38	1	Noun	12654
-1183	PALM OF HAND	palm	4.83	0	Noun	9786
-1605	SKULL	skull	4.83	0	Noun	9799
-1343	SUN	sun	4.83	0	Noun	9807
-3100	SUNGLASSES	sunglasses	4.83	0	Noun	9808
-1788	TELEVISION	tv	5	0	#N/A	28800
-1161	THREAD	thread	4.83	0	Noun	9811
-14	YOKE	yoke	4.83	1	Noun	9817
-2621	CURTAIN	curtain	4.82	0	Noun	9829
-1690	FENCE	fence	4.82	0	Noun	9837
-604	GLASS	glass	4.82	0	Noun	9840
-3114	GRATE (SOMETHING)	grate	4.82	0	Noun	9841
-629	LEATHER	leather	4.82	0	Noun	9849
-688	LUNG	lung	4.82	0	Noun	9853
-2680	MACHETE	machete	4.82	0	Noun	9854
-1298	NEWSPAPER	newspaper	4.82	0	Noun	9855
-644	OAK	oak	4.82	0	Noun	9856
-789	PEOPLE	nation	3.62	0	Noun	15996
-1600	SKIRT	skirt	4.82	0	Noun	9866
-1505	SPERM	sperm	4.82	0	Noun	9868
-2956	TUBE	tube	4.82	0	Noun	9875
-1836	VAGINA	vagina	4.82	0	Noun	9877
-736	YARD	yard	4.82	0	Noun	9879
-803	ANKLE	ankle	4.81	0	Noun	9884
-663	BAY	bay	4.81	0	Noun	9888
-2408	CAKE	cake	4.81	0	Noun	9891
-1299	COFFEE	coffee	4.81	1	Noun	9895
-1567	DOOR	doorway	4.75	0	Noun	10333
-3722	FLAMINGO	flamingo	4.81	0	Noun	9904
-1507	FRUIT	fruit	4.81	0	Noun	9907
-1369	GOLD	gold	4.81	0	Noun	9908
-1187	GOOSE	goose	4.81	0	Noun	9909
-1667	HOLE	hole	4.81	0	Noun	9912
-1630	MACAW	macaw	4.81	2	Noun	9919
-1374	RING	ring	4.81	0	Noun	9930
-944	SALMON	salmon	4.81	0	Noun	9935
-1886	ARMPIT	armpit	4.8	0	Noun	9945
-1251	BELLY	abdomen	4.7	0	Noun	10627
-1348	BOAR (MALE PIG)	boar	4.8	0	Noun	9950
-3727	CELERY	celery	4.8	0	Noun	9954
-1318	CHICKEN	chicken	4.8	0	Noun	9956
-1632	FLOOR	floor	4.8	0	Noun	9963
-605	GRAIN	grain	4.8	0	Noun	9967
-2428	LIBRARY	library	4.8	0	Noun	9972
-916	LINEN	linen	4.8	0	Noun	9973
-810	LOCUST	locust	4.8	0	Noun	9974
-234	PADDLE	paddle	4.8	0	Noun	9978
-598	SHELL	shell	4.8	0	Noun	9981
-2349	SHRIMP	shrimp	4.8	0	Noun	9983
-1956	SUNFLOWER	sunflower	4.8	0	Noun	9987
-3102	TANK	tank	4.8	0	Noun	9989
-3657	GRANARY	barn	4.79	0	Noun	9999
-3460	BEACH	beach	4.79	0	Noun	10001
-1480	BODY	body	4.79	0	Noun	10008
-2371	BREADFRUIT	breadfruit	4.79	4	Noun	10009
-2986	CAMPFIRE	campfire	4.79	0	Noun	10017
-3202	CANNON	cannon	4.79	0	Noun	10018
-919	CHILI PEPPER	chili pepper	4.83	0	#N/A	29359
-2547	CITY	city	4.79	1	Noun	10023
-1511	ROOSTER	cock	4.79	0	Noun	10025
-970	COCONUT	coconut	4.79	0	Noun	10026
-576	DANDRUFF	dandruff	4.79	0	Noun	10031
-1357	DAUGHTER	daughter	4.79	0	Noun	10032
-273	DOUGH	dough	4.79	0	Noun	10038
-2817	EMU	emu	4.79	0	Noun	10043
-2623	FLAG	flag	4.79	0	Noun	10045
-1798	GUNPOWDER	gunpowder	4.79	0	Noun	10057
-1071	HOOK	hook	4.79	0	Noun	10063
-1554	MAN	men	4.75	0	Noun	10351
-1372	MEDICINE	medication	4.53	0	Noun	11787
-3094	PAINTBRUSH	paintbrush	4.79	0	Noun	10077
-3252	PANCREAS	pancreas	4.79	0	Noun	10078
-3388	PLACENTA	placenta	4.79	0	Noun	10082
-654	PLASTIC	plastic	4.79	1	Noun	10083
-2769	PORK	pork	4.79	0	Noun	10085
-769	ROOF	roof	4.79	0	Noun	10089
-1450	ROOM	room	4.79	0	Noun	10091
-271	SAUCER	saucer	4.79	0	Noun	10093
-673	SCHOOL	secondary school	4.19	0	#N/A	30789
-1474	SEA	sea	4.79	0	Noun	10097
-2283	SEMEN	semen	4.79	0	Noun	10099
-763	SKIN	skin	4.79	0	Noun	10103
-2973	STRAP	strap	4.79	0	Noun	10110
-900	TRAIN	train	4.79	0	Noun	10117
-3062	TURNIP	turnip	4.79	0	Noun	10118
-2241	WILD CAT	wildcat	4.79	0	Noun	10122
-1524	WINE	wine	4.79	0	Noun	10123
-522	WOLF	wolf	4.79	0	Noun	10124
-1284	BANK	bank	4.78	0	Noun	10129
-3076	SLOPE	hillside	4.78	0	Noun	10146
-507	MELON	cantaloupe	4.76	1	Noun	10254
-60	OAT	oats	4.78	0	Noun	10157
-1737	OKRA	okra	4.78	2	Noun	10158
-649	PASTURE	pasture	4.78	0	Noun	10163
-74	PUPPY	cub	4.67	0	Noun	10902
-241	TREE STUMP	tree stump	4.59	0	#N/A	30075
-1556	YOLK	yolk	4.78	1	Noun	10191
-1870	ANCHOR	anchor	4.77	0	Noun	10192
-2354	CRICKET	cricket	4.77	0	Noun	10201
-3193	CROSSBOW	crossbow	4.77	0	Noun	10202
-849	SPRING (OF WATER)	fountain	4.77	0	Noun	10213
-2159	GROUND	ground	4.77	0	Noun	10214
-1481	HAMMER	hammer	4.77	0	Noun	10216
-2045	COLUMN	column	4.48	0	Noun	12040
-1809	PIMPLE	pimple	4.77	0	Noun	10229
-480	PLATE	plate	4.77	0	Noun	10230
-852	PRIEST	priest	4.77	0	Noun	10234
-975	SPINACH	spinach	4.77	0	Noun	10237
-2299	STRAW	straw	4.77	0	Noun	10238
-404	ALCOHOL (FERMENTED DRINK)	alcohol	4.76	0	Noun	10244
-1061	ARMOUR	armor	4.76	0	Noun	10246
-1366	BOY	boy	4.76	0	Noun	10252
-1895	CLOTHES	clothes	4.76	0	Noun	10257
-731	BEVERAGE	drink	4.76	0	Noun	10262
-213	FIN	fin	4.76	1	Noun	10266
-2355	GECKO	gecko	4.76	0	Noun	10268
-208	NASAL MUCUS (SNOT)	snivel	2.77	4	Verb	26302
-317	PIRANHA	piranha	4.76	1	Noun	10288
-653	PLANT (VEGETATION)	plant	4.76	0	Noun	10289
-3368	POWDER	powder	4.76	0	Noun	10291
-362	STRING	string	4.76	0	Noun	10303
-1919	TORCH	torch	4.76	0	Noun	10313
-1671	TOWER	tower	4.76	0	Noun	10314
-2495	ELEPHANT TUSK	tusk	4.76	0	Noun	10316
-951	WEAPONS	weapon	4.76	0	Noun	10319
-774	CABBAGE	cabbage	4.75	0	Noun	10328
-1256	HEAD	head	4.75	0	Noun	10339
-854	KETTLE	kettle	4.75	0	Noun	10345
-938	MARE	mare	4.75	1	Noun	10350
-3060	PHEASANT	pheasant	4.75	0	Noun	10359
-667	ROAD	road	4.75	0	Noun	10365
-132	SAUCE	sauce	4.75	0	Noun	10367
-1362	STREET	street	4.75	0	Noun	10371
-3222	TWIG	twig	4.75	1	Noun	10376
-2291	VOLCANO	volcano	4.75	0	Noun	10378
-2570	BEEF	beef	4.74	0	Noun	10383
-1865	BUZZARD	buzzard	4.74	0	Noun	10387
-284	HOE	hoe	4.74	2	Noun	10403
-1991	INTESTINES	bowels	4.33	0	Noun	12852
-674	MOUTH	mouth	4.74	0	Noun	10412
-2044	PERSIMMON	persimmon	4.74	4	Noun	10419
-3095	POSTMAN	postman	4.74	0	Noun	10420
-1315	RADIO	radio	4.74	0	Noun	10423
-23	RYE	rye	4.74	0	Noun	10424
-266	SCALE	scales	4.74	0	Noun	10427
-497	SCAR	scar	4.74	0	Noun	10428
-915	SINK (BASIN)	sink	4.74	0	Noun	10430
-2629	TRAY	tray	4.74	0	Noun	10437
-3384	WEASEL	weasel	4.74	1	Noun	10441
-1148	BRUISE	bruise	4.73	0	Noun	10447
-1858	FISHERMAN	fisherman	4.73	0	Noun	10454
-586	GARDEN	garden	4.73	0	Noun	10457
-3089	GIRAFFE	giraffe	4.73	1	Noun	10458
-1392	LOUSE	lice	4.73	0	Noun	10466
-842	LIQUOR	liquor	4.73	0	Noun	10467
-1918	MANE	mane	4.73	0	Noun	10469
-470	POSSUM	possum	4.73	0	Noun	10473
-1773	GRAVE	tomb	4.73	0	Noun	10487
-1185	VULTURE	vulture	4.73	0	Noun	10490
-3084	BLACKBOARD	blackboard	4.72	1	Noun	10498
-388	FISHNET	fishing net	4.52	1	#N/A	30208
-5	GAZELLE	gazelle	4.72	1	Noun	10516
-1277	HAND	hand	4.72	0	Noun	10521
-636	MILL	mill	4.72	0	Noun	10527
-395	PILL	pill	4.72	0	Noun	10537
-108	RUDDER	rudder	4.72	0	Noun	10543
-1941	SOLDIER	soldier	4.72	0	Noun	10550
-1547	SOUP	broth	4.68	0	Noun	10805
-936	STALLION	stallion	4.72	0	Noun	10552
-857	STONE	stone	4.72	0	Noun	10553
-2607	TRIPOD	tripod	4.72	0	Noun	10558
-795	TROUT	trout	4.72	0	Noun	10559
-921	VALLEY	valley	4.72	0	Noun	10560
-1681	WAIST	waist	4.72	0	Noun	10561
-2631	WIRE	wire	4.72	0	Noun	10564
-967	YEAST	ferment	2.92	1	Verb	25966
-1584	BLISTER	blister	4.71	0	Noun	10571
-326	CLOAK	cloak	4.71	0	Noun	10578
-1971	FAN (OBJECT)	fan	4.71	0	Noun	10584
-331	HEADDRESS	headdress	4.71	0	Noun	10592
-2444	KINGFISHER	kingfisher	4.71	1	Noun	10597
-1838	NAVEL	navel	4.71	0	Noun	10600
-3780	PET	pet	4.71	0	Noun	10605
-2664	SCAB	scab	4.71	0	Noun	10613
-714	SEED	seed	4.71	0	Noun	10614
-125	SWEAT (SUBSTANCE)	sweat	4.71	0	Noun	10619
-68	TATTOO	tattoo	4.71	0	Noun	10620
-344	TREE TRUNK	tree trunk	4.97	0	#N/A	28847
-1561	ARMY	army	4.7	0	Noun	10629
-135	BOOMERANG	boomerang	4.7	1	Noun	10635
-3743	BRASS	brass	4.7	0	Noun	10636
-1569	CHEESE	cheese	4.7	0	Noun	10644
-3146	CHEETAH	cheetah	4.7	0	Noun	10645
-2318	CHESTNUT	chestnut	4.7	0	Noun	10647
-1612	LETTER	letter	4.7	0	Noun	10676
-631	LIVESTOCK	livestock	4.7	1	Noun	10678
-633	MARKET	marketplace	4.28	0	Noun	13151
-3074	FIX	patch	4.7	0	Noun	10688
-660	REEF	reef	4.7	1	Noun	10692
-1876	REINDEER	reindeer	4.7	0	Noun	10693
-1641	SILK	silk	4.7	0	Noun	10699
-1744	SPLEEN	spleen	4.7	1	Noun	10705
-596	POSTAGE STAMP	stamp	4.7	0	Noun	10707
-858	STORM	storm	4.7	0	Noun	10709
-883	TERMITE	termite	4.7	0	Noun	10712
-1583	BRAIN	brains	3.96	0	Noun	14524
-597	PHYSICIAN	physician	4.65	0	Noun	11046
-1013	FRESHWATER EEL	eel	4.69	0	Noun	10736
-3317	ELM	elm	4.69	0	Noun	10737
-446	LOWER ARM	forearm	4.69	1	Noun	10741
-580	FUR	fur	4.69	0	Noun	10742
-909	GARBAGE	rubbish	3.64	0	Noun	15922
-198	GENITALIA	genitalia	4.69	1	Noun	10745
-3389	MEASLES	measles	4.69	0	Noun	10756
-2828	MOTH	moth	4.69	0	Noun	10758
-2829	MUSSELS	mussel	4.69	0	Noun	10759
-650	PETROLEUM	petroleum	4.69	0	Noun	10762
-1430	STAR	star	4.69	0	Noun	10778
-2810	BREASTBONE	sternum	4.69	0	Noun	10779
-2296	SUNRISE	sunrise	4.69	0	Noun	10782
-1373	TEA	tea	4.69	0	Noun	10783
-1189	ULCER	ulcer	4.69	0	Noun	10787
-3399	WAREHOUSE	warehouse	4.69	0	Noun	10790
-1194	BEAVER	beaver	4.68	0	Noun	10802
-3142	BISON	bison	4.68	0	Noun	10803
-1555	CHAMELEON	chameleon	4.68	1	Noun	10814
-221	FIRE	fire	4.68	0	Noun	10823
-185	FIREPLACE	hearth	4.38	1	Noun	12623
-1224	LIVER	liver	4.68	0	Noun	10838
-632	LIZARD	lizard	4.68	0	Noun	10839
-2539	PIT (POTHOLE)	pit	4.68	0	Noun	10847
-1851	POCKET	pocket	4.68	0	Noun	10848
-3404	TILE	tile	4.68	0	Noun	10869
-295	WHETSTONE	whetstone	4.68	1	Noun	10875
-662	BATTERY	battery	4.67	0	Noun	10887
-2007	BOLT (OF LIGHTNING)	bolt	4.67	0	Noun	10891
-889	FLAME	flame	4.67	0	Noun	10907
-2939	FLOCK (OF ANIMALS)	flock	4.67	0	Noun	10908
-2290	PUDDLE	puddle	4.67	0	Noun	10937
-828	RACCOON	raccoon	4.67	0	Noun	10938
-332	RAG	rag	4.67	0	Noun	10939
-2544	SHEPHERD	shepherd	4.67	0	Noun	10948
-881	TAILOR	tailor	4.67	0	Noun	10956
-3106	WARDROBE	wardrobe	4.67	0	Noun	10964
-2658	COAL	coal	4.66	0	Noun	10972
-2606	COMPASS	compass	4.66	0	Noun	10974
-249	FOG	mist	4.51	9	Noun	11908
-1024	CHARACTER	graph	4.66	0	Noun	10981
-281	POST	pole	4.66	0	Noun	11001
-3405	RULER	ruler	4.66	0	Noun	11006
-1064	SHIELD	shield	4.66	0	Noun	11009
-308	TOUCAN	toucan	4.66	0	Noun	11018
-2569	BUTCHER	butcher	4.65	0	Noun	11027
-1069	GLUE	glue	4.65	0	Noun	11035
-1496	GRANDMOTHER	grandmother	4.65	0	Noun	11037
-1678	HUT	shelter	4.64	0	Noun	11133
-1893	QUAIL	quail	4.65	1	Noun	11048
-2435	UNIVERSITY	university	4.65	0	Noun	11059
-2477	YAK	yak	4.65	0	Noun	11062
-3396	BUILDING	building	4.64	0	Noun	11070
-1153	CATTLE	cattle	4.64	0	Noun	11073
-2012	COLLAR	collar	4.64	0	Noun	11076
-2057	DUNG (ANIMAL FAECES)	dung	4.64	4	Noun	11082
-265	FOWL	fowl	4.64	1	Noun	11088
-616	HOSPITAL	hospital	4.64	0	Noun	11095
-1332	NEIGHBOUR	neighbor	4.64	0	Noun	11110
-255	SERVANT	servant	4.64	0	Noun	11131
-3098	SNOWMAN	snowman	4.64	0	Noun	11138
-1391	TOWN	town	4.64	0	Noun	11144
-2549	VEHICLE	vehicle	4.64	0	Noun	11146
-1982	WHIRLPOOL	whirlpool	4.64	1	Noun	11149
-958	WILD ANIMAL	beast	4.63	0	Noun	11154
-1266	BRIDE	bride	4.63	0	Noun	11159
-543	SHUTTLE	shuttle	4.63	0	Noun	11203
-2991	SKI	ski	4.63	0	Noun	11205
-2628	PLANT STEM	stalk	3.5	0	Verb	24676
-1833	DINNER (SUPPER)	supper	4.63	0	Noun	11213
-1924	VEIN	vein	4.63	0	Noun	11216
-1967	CALENDAR	calendar	4.62	0	Noun	11225
-2685	CARP (FISH)	carp	4.62	0	Noun	11227
-2765	CHERRY	cherry	4.62	0	Noun	11232
-334	COOKHOUSE	cookhouse	4.62	2	Noun	11234
-613	HIGH TIDE	flood	4.62	0	Noun	11243
-2580	HELICOPTER	helicopter	4.62	0	Noun	11251
-1526	MEAL	meal	4.62	0	Noun	11262
-238	PRAWNS	prawn	4.62	3	Noun	11273
-2351	SILKWORM	silkworm	4.62	0	Noun	11281
-619	ANIMAL	animal	4.61	0	Noun	11303
-192	CORNER	corner	4.61	0	Noun	11322
-323	FAT (ORGANIC SUBSTANCE)	grease	4.61	0	Noun	11333
-3087	PACIFIER	pacifier	4.61	0	Noun	11342
-354	POUND	pound	4.61	0	Noun	11349
-1930	RAVINE	ravine	4.61	1	Noun	11353
-830	SOOT	soot	4.61	0	Noun	11360
-3689	BUBBLE	bubble	4.6	0	Noun	11373
-1216	MOTHER	mother	4.6	0	Noun	11390
-1217	FATHER	padre	4.6	4	Noun	11392
-876	ARCH	arch	4.59	0	Noun	11402
-932	BARLEY	barley	4.59	0	Noun	11405
-1934	BEGGAR	beggar	4.59	0	Noun	11406
-1288	CAP	cap	4.59	1	Noun	11411
-201	FARM	farm	4.59	0	Noun	11421
-2259	FLESH	flesh	4.59	0	Noun	11425
-621	IRON	iron	4.59	0	Noun	11435
-1654	LIGHTNING	lightening	4.19	0	Verb	23616
-216	MOVIE	movie	4.59	0	Noun	11442
-3303	PICTURE (PAINTING)	painting	4.59	0	Noun	11446
-1385	PEPPER	pepper	4.59	0	Noun	11449
-3353	SIEVE (TOOL)	sieve	4.59	2	Noun	11463
-3064	RUST	stain	4.59	0	Noun	11467
-2977	WORKER	worker	4.59	0	Noun	11485
-1476	CHAIR	chair	4.58	0	Noun	11490
-157	DYE	dye	4.58	0	Noun	11495
-1915	FIR	fir	4.58	1	Noun	11500
-4	COURTYARD	courtyard	4.57	0	Noun	11553
-1799	HYENA	hyena	4.57	0	Noun	11566
-626	LAND	land	4.57	0	Noun	11567
-1733	RAINBOW	rainbow	4.57	0	Noun	11584
-3132	SURF	surf	4.57	0	Noun	11598
-1527	TICK	tick	4.57	0	Noun	11601
-1005	TWINS	twin	4.17	0	Noun	13698
-2056	WOK	wok	4.57	0	Noun	11604
-530	FRECKLE	pockmark	4.36	1	Noun	12758
-2982	GIFT	present	3.39	0	Noun	16859
-2643	INK	ink	4.56	0	Noun	11624
-1972	KID	kid	4.56	0	Noun	11625
-2498	OPIUM	opium	4.56	2	Noun	11641
-3050	SEEDLING	seedling	4.56	2	Noun	11651
-1627	CHAIN	chain	4.55	0	Noun	11675
-1658	PUPIL	pupil	4.55	0	Noun	11694
-1344	RAM	ram	4.55	0	Noun	11695
-978	WAVE	wave	4.55	0	Noun	11710
-1949	BEDBUG	bedbug	4.54	0	Noun	11716
-2040	BUCKWHEAT	buckwheat	4.54	1	Noun	11719
-1489	CLOUD	cloud	4.54	0	Noun	11723
-979	FARMER	peasant	3.96	0	Noun	14584
-3282	GROOM	groom	4.54	0	Noun	11738
-1559	MONEY	money	4.54	0	Noun	11747
-1603	MOSQUE	mosque	4.54	0	Noun	11748
-1388	SHADE	shade	3.38	0	Noun	16911
-875	SHOEMAKER	shoemaker	4.54	0	Noun	11759
-2295	SUNSET	sunset	4.54	0	Noun	11767
-3269	PORCH	veranda	4.54	4	Noun	11774
-3080	SPLIT OPEN	crack	4.53	0	Noun	11782
-3092	LIGHTER	lighter	4.53	0	Noun	11785
-2963	NET	net	4.53	0	Noun	11789
-911	TEMPLE	temple	4.53	0	Noun	11796
-2489	ABACUS	abacus	4.52	2	Noun	11799
-1204	BARK	bark	4.52	0	Noun	11806
-1825	COPPER	copper	4.52	0	Noun	11820
-2023	CROWD	crowd	4.52	0	Noun	11823
-1177	DIARRHEA	diarrhea	4.52	0	Noun	11826
-1223	HEART	heart	4.52	0	Noun	11844
-1233	NIGHT	night	4.52	0	Noun	11859
-2604	NOOSE	noose	4.52	0	Noun	11860
-191	NUT	nut	4.52	0	Noun	11861
-2401	PICTURE	picture	4.52	0	Noun	11868
-1808	PUS	pus	4.52	3	Noun	11870
-759	SILVER	silver	4.52	0	Noun	11881
-387	SLING	sling	4.52	0	Noun	11882
-1038	TEACHER	teacher	4.52	0	Noun	11893
-3140	VEST	vest	4.52	0	Noun	11902
-1769	AXLE	axle	4.5	1	Noun	11910
-2467	GAME	game	4.5	0	Noun	11937
-623	LAGOON	lagoon	4.5	0	Noun	11951
-3714	LARYNX	larynx	4.5	3	Noun	11953
-1048	LINE	line	4.5	0	Noun	11955
-1787	LOOM	loom	4.5	1	Noun	11956
-3314	LYNX	lynx	4.5	0	Noun	11958
-1004	MUSCLE	muscle	4.5	0	Noun	11964
-1926	OINTMENT	ointment	4.5	0	Noun	11970
-2951	POUCH	pouch	4.5	0	Noun	11975
-3171	RINGWORM	ringworm	4.5	0	Noun	11981
-2797	SESAME	sesame seed	4.67	0	#N/A	29888
-1451	SMILE	smiling	3.88	2	Verb	23989
-1193	STEAM	steam	4.5	0	Noun	11994
-752	STORE	store	4.5	0	Noun	11996
-947	STREAM	stream	4.5	0	Noun	11998
-2992	TIP (OF OBJECT)	tip	4.5	0	Noun	12003
-1837	VULVA	vulva	4.5	1	Noun	12011
-1925	ARTERY	artery	4.48	2	Noun	12017
-1746	BLADDER	bladder	4.48	0	Noun	12020
-2362	BRAN	bran	4.48	0	Noun	12023
-1989	CALF	calf	4.48	1	Noun	12029
-3151	CUT (WITH AXE)	chop	4.48	0	Noun	12038
-3200	COUNTRYSIDE	countryside	4.48	0	Noun	12043
-1488	FAUCET	faucet	4.48	0	Noun	12052
-2459	GRINDSTONE	grindstone	4.48	0	Noun	12059
-3380	HUNTING DOG	hound	4.48	0	Noun	12067
-1835	MARROW	bone marrow	4.43	0	#N/A	30393
-224	MORTAR	mortar	4.48	0	Noun	12079
-1063	NEPHEW	nephew	4.48	0	Noun	12085
-3061	PHLEGM	phlegm	4.48	1	Noun	12095
-1748	RIDGE	ridge	4.48	1	Noun	12102
-2841	WOMBAT	wombat	4.48	3	Noun	12130
-2313	BRONZE	bronze	4.47	0	Noun	12135
-823	SORCERER	sorcerer	4.47	0	Noun	12154
-1137	TENDON	tendon	4.47	0	Noun	12155
-1780	BILE	bile	4.46	2	Noun	12163
-2805	BIRTH (ACCOUCHEMENT)	childbirth	4.04	0	Noun	14193
-729	DAWN	dawn	4.46	0	Noun	12174
-3116	HATCH (OUT)	hatch	4.46	0	Noun	12188
-3248	MAPLE TREE	maple	4.46	0	Noun	12197
-2154	PLOUGH (INSTRUMENT)	plow	4.46	0	Noun	12204
-1096	SONG	song	4.46	0	Noun	12215
-1176	SPADE	spade	4.46	0	Noun	12216
-962	WOMAN	woman	4.46	0	Noun	12235
-2013	BAIT	bait	4.45	0	Noun	12241
-1306	QUEEN	queen	4.45	0	Noun	12270
-1732	SKY	sky	4.45	0	Noun	12278
-3276	SUNSHINE	sunlight	4.45	0	Noun	12283
-1151	VEIL	veil	4.45	0	Noun	12286
-3415	BALDHEAD	baldhead	4.44	0	Noun	12293
-966	BRAKE	brake	4.44	0	Noun	12296
-1467	CIRCLE	circle	4.44	0	Noun	12301
-2287	HORIZON	horizon	4.44	0	Noun	12313
-1347	NAPE (OF NECK)	nape	4.44	1	Noun	12318
-2554	PRINCE (RULER)	prince	4.44	0	Noun	12328
-1439	SWIM	swimming	4.44	0	Noun	12337
-1322	BREAKFAST	breakfast	4.43	0	Noun	12354
-1262	BROTHER	brother	4.43	0	Noun	12357
-1032	CITIZEN	citizen	4.43	0	Noun	12361
-2934	CUCKOO	cuckoo	4.42	2	Noun	12438
-399	PLANTAIN	plantain	4.42	4	Noun	12448
-3107	WHISTLE (INSTRUMENT)	whistle	4.42	4	Noun	12462
-3407	FILE (TOOL)	file	4.41	0	Noun	12487
-2981	ITEM	item	4.41	0	Noun	12496
-1907	MOLE	mole	4.41	0	Noun	12506
-2252	PATH	path	4.41	0	Noun	12513
-610	PORT	port	4.41	0	Noun	12517
-571	STING	sting	4.41	0	Noun	12526
-3635	ADULT	adult	4.4	0	Noun	12531
-3179	CORAL ROCK	coral	4.4	1	Noun	12539
-3423	DRILL	drill	4.4	0	Noun	12540
-2	DUST	dust	4.4	0	Noun	12541
-899	PRESIDENT	president	4.4	0	Noun	12552
-2038	DRAGON	dragon	4.39	0	Noun	12573
-3313	JACKAL	jackal	4.39	1	Noun	12581
-1104	NURSE	nurse	4.39	0	Noun	12588
-2783	SCALES (MEASURE INSTRUMENT)	scale	4.39	0	Noun	12594
-518	SPARK	sparks	4.39	0	Noun	12596
-1043	BRAID	braid	4.38	0	Noun	12609
-1977	DEW	dew	4.38	1	Noun	12613
-758	HERON	heron	4.38	4	Noun	12624
-3614	PANT	pant	4.38	0	Noun	12639
-812	SLAVE	slave	4.38	0	Noun	12651
-3717	BADGER	badger	4.37	0	Noun	12664
-318	FOOTPRINT	track	4.31	0	Noun	13002
-1619	GRANDDAUGHTER	granddaughter	4.37	0	Noun	12681
-1740	PINE	pine tree	4.96	0	#N/A	28893
-345	SAP	sap	4.37	0	Noun	12707
-1640	SIBLING	sibling	4.37	0	Noun	12708
-1160	THIEF	thief	4.37	0	Noun	12712
-1065	SPIDER WEB	web	4.37	0	Noun	12717
-804	WOMB	womb	4.37	0	Noun	12720
-870	BREATH	breath	4.36	0	Noun	12727
-879	COUGH	cough	4.36	0	Noun	12732
-1045	POET	poet	4.36	0	Noun	12759
-965	WORLD	world	4.36	0	Noun	12778
-1751	BIRTHMARK	birthmark	4.35	0	Noun	12783
-1105	CAMP	camp	4.35	0	Noun	12786
-1508	KING	emperor	4.35	0	Noun	12794
-818	WILLOW	willow tree	4.94	0	#N/A	28927
-2342	LANDSCAPE	landscape	4.34	0	Noun	12827
-670	ROOT	root	4.34	0	Noun	12835
-2836	STARLIGHT	starlight	4.34	1	Noun	12840
-1150	THUNDER	thundering	3.29	0	Verb	25141
-131	FESTIVAL	party	3.89	0	Noun	14887
-2471	LADY	lady	4.33	0	Noun	12876
-2273	LEECH	leech	4.33	1	Noun	12878
-850	SQUARE	square	4.33	0	Noun	12897
-1756	WIDOW	widow	4.33	0	Noun	12905
-99	HUNCHBACK	hunchback	4.32	0	Noun	12924
-296	CROUCH	squat	4.32	0	Noun	12943
-1068	COURT	court	4.31	0	Noun	12967
-1225	DAY (NOT NIGHT)	daytime	4.31	0	Noun	12968
-162	HICCOUGH	hiccup	4.31	0	Noun	12972
-768	LUNCH	lunch	4.31	0	Noun	12980
-166	MAINLAND	mainland	4.31	1	Noun	12981
-1082	MERCHANT	merchant	4.31	0	Noun	12982
-642	MUSIC	music	4.31	1	Noun	12983
-3376	ROBBER	robber	4.31	0	Noun	12994
-746	SHOP	shop	4.31	0	Noun	12996
-2638	FISHING	fishing	4.3	8	Noun	13028
-2624	FRAME	frame	4.3	0	Noun	13029
-1618	GRANDSON	grandson	4.3	0	Noun	13032
-3679	GROWL	growl	4.3	0	Noun	13035
-2965	PAW	paw	4.3	0	Noun	13051
-1075	TRAP (PITFALL)	trap	4.3	0	Noun	13073
-2294	WRINKLE	wrinkle	4.3	0	Noun	13075
-2546	BORDER	border	4.29	0	Noun	13084
-20	SCYTHE	scythe	4.29	1	Noun	13107
-2952	SLAB	slab	4.29	0	Noun	13109
-647	PAINT (PIGMENTS)	lacquer	4.28	0	Noun	13143
-2253	DRIP (EMIT LIQUID)	leak	4.28	0	Noun	13147
-1642	NIECE	niece	4.28	0	Noun	13154
-1610	PROSTITUTE	whore	4.15	0	Noun	13770
-655	POISON	poison	4.27	0	Noun	13207
-301	CHIEFTAIN	tribal chief	4.32	1	#N/A	30591
-212	FIELD	field	4.26	0	Noun	13238
-1617	GRANDCHILD	grandchild	4.26	0	Noun	13241
-3096	RACKET	racket	4.26	0	Noun	13261
-547	SURFACE	surface	4.26	0	Noun	13263
-690	BOTTOM	bottom	4.25	0	Noun	13276
-144	MACHINE	machine	4.25	0	Noun	13289
-2967	PIKE (FISH)	pike	4.25	1	Noun	13294
-1054	SMALLPOX	smallpox	4.25	1	Noun	13298
-2297	DUSK	dusk	4.24	0	Noun	13324
-863	EDGE	cutting edge	2.44	0	#N/A	34876
-3172	SCABIES	scabies	4.24	0	Noun	13345
-1327	UNCLE	uncle	4.24	0	Noun	13355
-1109	WOUND	wound	4.24	0	Noun	13358
-2814	CUTTLEFISH	cuttlefish	4.23	3	Noun	13367
-194	FAMILY	family	4.23	0	Noun	13374
-3659	POLISH (SOMETHING)	polish	4.23	0	Noun	13386
-236	STEPMOTHER	stepmother	4.23	0	Noun	13396
-1655	BLINK	wink	4.23	0	Noun	13399
-2943	BUNDLE	bundle	4.22	0	Noun	13405
-2958	LAUGHTER	laughter	4.22	0	Noun	13423
-941	MEAD	mead	4.22	1	Noun	13426
-486	MINISTER	minister	4.22	2	Noun	13427
-3135	VACUUM (SOMETHING)	vacuum	4.22	0	Noun	13439
-1525	COAST	coast	4.21	0	Noun	13450
-1016	DRIZZLE	drizzle	4.21	1	Noun	13461
-111	DRUMMING	drumming	4.21	0	Noun	13463
-1745	HIP	hip	4.21	0	Noun	13478
-630	LIGHT (RADIATION)	light	4.21	0	Noun	13483
-2137	MAGICIAN	magician	4.21	0	Noun	13486
-1614	SUMMIT	summit	4.21	1	Noun	13507
-1370	MONTH	month	4.2	0	Noun	13535
-2205	PEAK	peak	4.2	0	Noun	13538
-901	ADOBE	adobe	4.19	2	Noun	13551
-1100	COOK (SOMETHING)	cooking	4.19	0	Noun	13561
-3267	PULSE	pulse	4.19	0	Noun	13590
-365	SPLASH	splash	4.19	0	Noun	13599
-2423	CHANNEL	channel	4.18	1	Noun	13613
-1159	FART	fart	4.18	0	Noun	13618
-3119	MASSAGE (SOMEBODY)	massage	4.18	0	Noun	13623
-3716	OVARY	ovary	4.18	1	Noun	13627
-1983	SNORE	snort	4.18	0	Noun	13634
-1272	AUNT	aunt	4.17	0	Noun	13642
-1300	COUNTRY	country	4.17	0	Noun	13656
-2285	ECLIPSE	eclipse	4.17	0	Noun	13658
-2286	ESTUARY	estuary	4.17	4	Noun	13661
-3131	SUNBATHE	sunbathe	3.72	0	Verb	24258
-205	TROUGH	trough	4.17	0	Noun	13697
-3608	WARRIOR	warrior	4.17	0	Noun	13699
-824	WITCH	witch	4.17	0	Noun	13703
-1334	GUTS	gut	4.15	0	Noun	13741
-366	LIMP	limp	4.15	0	Noun	13746
-928	EMBRACE	embrace	3.38	0	Verb	24907
-1133	MATCH	match	4.14	0	Noun	13808
-1598	NORTH	north	4.14	0	Noun	13810
-594	PIECE	piece	4.14	1	Noun	13811
-1620	SON	son	4.14	0	Noun	13821
-1549	TRIBE	tribe	4.14	0	Noun	13829
-2059	FOLK SONG	folk song	3.97	0	#N/A	31072
-1363	VOICE	voice	4.13	0	Noun	13847
-1199	WIFE	wife	4.13	0	Noun	13848
-27	AIR	air	4.11	0	Noun	13901
-2983	COMPANIONSHIP	company	4.11	0	Noun	13906
-1138	FAIRY	fairy	4.11	0	Noun	13911
-2885	HERD (SOMETHING)	herd	4.11	0	Noun	13916
-263	HERDSMAN	herdsman	4.11	1	Noun	13917
-1200	HUSBAND	husband	4.11	1	Noun	13919
-3263	LAP	lap	4.11	0	Noun	13925
-1072	PRISONER	prisoner	4.11	0	Noun	13940
-3624	LEPROSY	leprosy	4.1	0	Noun	13977
-2966	PERCH (FISH)	perch	4.1	0	Noun	13987
-2562	SEX (GENDER)	sex	4.1	0	Noun	13991
-2993	STROKE (OF PEN)	stroke	4.1	0	Noun	13994
-891	TIDE	tide	4.1	0	Noun	13999
-716	GROAN	groan	4.09	0	Noun	14007
-914	SCULPTOR	sculptor	4.09	1	Noun	14010
-1613	COLOR	color	4.08	0	Noun	14024
-608	GULF	gulf	4.08	0	Noun	14028
-664	RESIN	pitch	4	1	Noun	14429
-394	SHAMAN (FOLK HEALER)	shaman	4.08	3	Noun	14052
-3067	CLEAVER	chopper	4.07	0	Noun	14084
-1633	FLAT	flat	4.07	0	Noun	14100
-2537	LENGTH	length	4.07	0	Noun	14119
-3676	SHREW	shrew	4.07	2	Noun	14144
-1058	STEPDAUGHTER	stepdaughter	4.07	0	Noun	14149
-2190	TASTE	savor	2.48	0	Verb	26959
-3740	WHIRLWIND	whirlwind	4.07	0	Noun	14167
-1144	WITNESS	witness	4.07	0	Noun	14168
-1940	GUARD	guard	4.04	0	Noun	14221
-917	ORNAMENT	ornament	4.04	0	Noun	14239
-1149	ORPHAN	orphan	4.04	0	Noun	14240
-1661	STRAIT	strait	4.04	1	Noun	14266
-305	GRANDPARENTS	grandparent	4.03	0	Noun	14297
-2804	AMULET	amulet	4	1	Noun	14327
-579	BATTLE	battle	4	0	Noun	14339
-3541	HARVEST OR HARVEST SEASON	harvest	4	0	Noun	14389
-2947	DAMAGE (INJURY)	injury	4	0	Noun	14397
-766	MENSTRUATION	menstruation	4	0	Noun	14409
-705	GO UP (ASCEND)	mount	4	0	Noun	14412
-3681	PARTRIDGE	partridge	4	2	Noun	14423
-378	PINCH	pinch	4	0	Noun	14427
-1263	SISTER	sister	4	0	Noun	14452
-237	STEPFATHER	stepfather	4	0	Noun	14459
-6	EARTHQUAKE	earthquake	3.97	0	Noun	14488
-2961	MESSAGE	message	3.97	0	Noun	14496
-298	SHRIEK	shriek	3.97	0	Noun	14504
-2974	SWARM (OF BIRDS)	swarm	3.97	0	Noun	14509
-1132	BEAM	beam	3.96	0	Noun	14519
-1950	BEECH	beech	3.96	4	Noun	14520
-1435	HUNT	hunting	3.96	0	Noun	14567
-1122	WAGES	wages	3.96	0	Noun	14608
-1981	WIDOWER	widower	3.96	0	Noun	14610
-2466	WEIGHT	weight	3.94	0	Noun	14614
-1752	LEAVE	exit	3.93	0	Noun	14648
-1167	GRUEL	gruel	3.93	2	Noun	14654
-3059	MALARIA	malaria	3.93	0	Noun	14670
-1849	ROW	row	3.93	0	Noun	14689
-2571	TRY (TEST)	test	3.93	0	Noun	14709
-1753	TOP	top	3.93	0	Noun	14712
-960	WIND	wind	3.93	0	Noun	14720
-2948	GAP (DISTANCE)	gap	3.92	0	Noun	14746
-2988	PATTERN	pattern	3.92	1	Noun	14762
-1259	WEDDING	wedding	3.92	0	Noun	14783
-3329	YEARLING (HORSE)	yearling	3.92	1	Noun	14785
-1434	STAB	prick	3.91	1	Noun	14792
-59	ELECTRICITY	electricity	3.9	0	Noun	14807
-2449	FAT (OF MEAT AND FOOD)	fatty	3.9	0	Noun	14809
-3625	HEADACHE	headache	3.9	0	Noun	14814
-2984	HEAP	heap	3.9	0	Noun	14815
-2020	PLAINTIFF	plaintiff	3.9	0	Noun	14827
-1913	PRESS	press down	3.78	1	#N/A	31378
-3320	SNARE (TRAP)	snare	3.9	0	Noun	14835
-2227	SPAWN (VERB)	spawn	3.9	0	Noun	14837
-430	TWIST	twist	3.9	0	Noun	14847
-2907	ROT	decay	3.89	0	Noun	14861
-442	FRONT TOOTH (INCISOR)	incisor	3.89	0	Noun	14874
-2626	NERVE	nerve	3.89	0	Noun	14884
-1537	SPRINGTIME	spring	3.89	0	Noun	14904
-873	TAX	tax	3.89	1	Noun	14909
-931	MILLET	millet	3.88	4	Noun	14949
-33	NETTLE	nettle	3.88	4	Noun	14952
-1888	PAIR	pair	3.88	0	Noun	14956
-831	BASE	base	3.86	0	Noun	15001
-3011	GRUB	grub	3.86	0	Noun	15022
-2985	HEIGHT	height	3.86	0	Noun	15023
-491	CENTER	center	3.85	0	Noun	15059
-11	DARKNESS	darkness	3.85	0	Noun	15063
-2954	SLICE	slice	3.85	0	Noun	15097
-2514	SPOUSE	spouse	3.85	0	Noun	15100
-1595	SOUTH	south	3.84	0	Noun	15127
-1471	WINTER	winter	3.84	0	Noun	15134
-2930	BOSS	boss	3.83	0	Noun	15140
-3336	FUNERAL	funeral	3.83	0	Noun	15155
-1782	GUEST	guest	3.83	0	Noun	15158
-52	SHIVER	tremble	3.61	0	Verb	24466
-2206	RABIES	rabies	3.83	0	Noun	15176
-952	WEATHER	weather	3.83	0	Noun	15192
-278	AWL	awl	3.81	4	Noun	15230
-3753	MAGENTA	magenta	3.81	1	Noun	15256
-2876	ROAR (OF SEA)	roar	3.81	0	Noun	15265
-1034	DEFENDANT	defendant	3.8	0	Noun	15286
-3599	BILLION	billion	3.79	0	Noun	15311
-2936	ELEVATION	elevation	3.79	0	Noun	15325
-3057	FLAIL	flail	3.79	1	Noun	15329
-612	HEAT	hotness	3.1	0	Noun	17918
-1763	CLUB	club	3.78	0	Noun	15381
-3621	DISABLED PERSON	cripple	3.78	0	Noun	15384
-1036	OWNER	owner	3.78	0	Noun	15398
-821	POPLAR	poplar	3.78	2	Noun	15402
-1009	CHESTNUT TREE	buckeye	3.76	4	Noun	15447
-2949	LAIR	lair	3.76	0	Noun	15456
-791	STRANGER	stranger	3.76	0	Noun	15469
-3026	CONJUNCTIVITIS	conjunctivitis	3.75	0	Noun	15487
-861	JUDGE	judge	3.75	0	Noun	15500
-367	RIDE	ride	3.75	0	Noun	15507
-910	DEATH	death	3.73	0	Noun	15548
-540	PALATE	palate	3.73	1	Noun	15557
-2980	AREA	area	3.72	0	Noun	15570
-2003	FLOW	flow	3.72	0	Noun	15585
-12	MIDDAY	midday	3.72	0	Noun	15596
-722	ATTACK	attack	3.71	0	Noun	15623
-1807	AFTERNOON	afternoon	3.7	0	Noun	15646
-1643	COUSIN	cousin	3.7	1	Noun	15648
-43	LEAD (GUIDE)	guide	3.7	0	Noun	15659
-1929	STUDY	study	3.7	0	Noun	15684
-718	PAY	salary	3.69	0	Noun	15711
-682	SIDE	side	3.68	0	Noun	15759
-1796	SLAUGHTER	slaughter	3.68	0	Noun	15760
-1059	STEPSON	stepson	3.68	0	Noun	15764
-3744	INTERPRETER	interpreter	3.67	0	Noun	15805
-1889	ARSON	arson	3.66	0	Noun	15828
-2903	CHAT (WITH SOMEBODY)	chat	3.66	0	Noun	15831
-2816	ECHO	echo	3.64	0	Noun	15906
-1342	SUMMER	summer	3.64	0	Noun	15926
-2902	BRAWL (FIGHT)	brawl	3.63	0	Noun	15936
-3683	CACKLE	cackle	3.63	1	Noun	15937
-1545	HOST	host	3.63	0	Noun	15947
-1945	IDOL	figure	3.63	0	Verb	24423
-1679	LOAD	burden	2.63	0	Noun	19629
-3695	MOVEMENT	movement	3.63	0	Noun	15955
-657	PRICE	price	3.63	0	Noun	15962
-935	WAR	war	3.63	0	Noun	15968
-2601	UNICORN	unicorn	3.62	0	Noun	16016
-3701	HOLLOW	hollow	3.61	0	Noun	16036
-845	MURDER	murder	3.61	0	Noun	16041
-953	RAPE	rape	3.61	0	Noun	16049
-2134	RAISE (BRING UP)	rear	3.59	0	Noun	16123
-1952	TORTURE	torture	3.59	0	Noun	16131
-1599	WORD	word	3.56	0	Noun	16254
-199	FAMINE	famine	3.55	0	Noun	16259
-2938	FLAVOR	flavor	3.55	0	Noun	16260
-1986	DISEASE	illness	3.54	0	Noun	16298
-2150	MATTER	matter	3.54	0	Noun	16300
-3006	SPACE (AVAILABLE)	space	3.54	0	Noun	16313
-490	DESCENDANTS	descendant	3.53	0	Noun	16323
-1182	NOISE	noise	3.52	0	Noun	16366
-3704	ODOR (SMELL)	odor	3.52	0	Noun	16367
-2955	STATE (POLITICS)	state	3.52	0	Noun	16383
-2888	TINKLE	tinkle	3.52	0	Noun	16386
-1966	BUNCH	bunch	3.5	0	Noun	16401
-2426	CLIMATE	climate	3.5	0	Noun	16403
-1405	NAME	last name	3.56	2	#N/A	31794
-1783	PAIN	suffering	2.39	0	Verb	27169
-541	POETRY	poetry	3.5	0	Noun	16437
-1047	PURSUE	chase	3.48	0	Noun	16485
-723	PLACE (POSITION)	place	3.48	0	Noun	16524
-1727	THRESHOLD	threshold	3.48	0	Noun	16544
-1469	WEEK	week	3.48	0	Noun	16550
-302	CLAN	clan	3.46	1	Noun	16568
-1339	MORNING	morning	3.44	0	Noun	16669
-1817	WEST	west	3.44	0	Noun	16681
-1815	ACHE	ache	3.43	0	Noun	16683
-3470	LIAR	liar	3.43	0	Noun	16707
-1973	DEMON	devil	3.41	0	Noun	16763
-2964	NEWS	news	3.41	0	Noun	16781
-3630	PLAN	plan	3.4	0	Noun	16819
-2863	DASH (OF VEHICLE)	dash	3.39	0	Noun	16844
-2669	POINT (WITH FINGER)	point	3.39	0	Noun	16857
-3215	CREEP	creep	3.38	0	Noun	16884
-2989	FRINGE	fringe	3.38	1	Noun	16892
-1115	SPEECH	speech	3.37	0	Noun	16952
-1669	ANCESTORS	ancestors	3.36	0	Noun	16963
-3268	QUESTION	question	3.36	0	Noun	16997
-3458	SILENCE	silence	3.33	0	Noun	17076
-384	FREEMAN	freeman	3.32	4	Noun	17098
-1848	QUARREL	quarrel	3.32	0	Noun	17114
-691	SEASON	season	3.32	0	Noun	17119
-508	PERIOD	period	3.31	0	Noun	17147
-2298	VIRGIN	virgin	3.31	0	Noun	17160
-1864	HUNGER	hunger	3.3	0	Noun	17178
-3736	INSTEP	instep	3.3	2	Noun	17180
-1356	NUMBER	number	3.3	0	Noun	17183
-1384	SECOND	second	3.3	0	Noun	17188
-2060	STORY	story	3.3	0	Noun	17192
-3134	TYPE (ON SOMETHING)	type	3.3	0	Noun	17197
-3168	DOWRY	dowry	3.29	0	Noun	17218
-779	PART	part	3.29	0	Noun	17232
-2931	BUSINESS	business	3.28	0	Noun	17254
-1276	AUTUMN	autumn	3.27	0	Noun	17297
-1534	FEVER	fever	3.27	0	Noun	17308
-2321	MAD PERSON	lunatic	3.27	0	Noun	17315
-1629	EVENING	evening	3.26	0	Noun	17341
-1134	DIVORCE	divorce	3.25	0	Noun	17374
-1226	YEAR	year	3.25	0	Noun	17402
-2937	FAIRY TALE	tale	3.23	0	Noun	17467
-2519	SEEING (VISUAL SENSE)	sight	3.21	0	Noun	17538
-2407	BIRTHDAY	birthday	3.2	0	Noun	17552
-1634	HUNDRED	hundred	3.2	0	Noun	17560
-1438	FOOL	fool	3.19	0	Noun	17596
-1175	GHOST	ghost	3.19	1	Noun	17598
-2978	DISTANCE	distance	3.17	0	Noun	17657
-240	ELECTION	election	3.17	0	Noun	17660
-738	THING	thing	3.17	0	Noun	17685
-65	AMBUSH	ambush	3.16	0	Noun	17689
-533	GLUTTON	glutton	3.16	0	Noun	17698
-148	ITCH	itch	3.15	0	Noun	17726
-1947	BASTARD	bastard	3.14	0	Noun	17756
-742	END (OF SPACE)	end	3.14	0	Noun	17760
-1140	FATIGUE	fatigue	3.14	0	Noun	17762
-2656	MIDNIGHT	midnight	3.14	0	Noun	17773
-3747	SHAPE	shape	3.14	0	Noun	17786
-2845	SIZE (OF OBJECT)	size	3.13	0	Noun	17815
-2534	DEPTH	depth	3.11	0	Noun	17868
-1353	HOUR	hour	3.1	0	Noun	17919
-1993	SELF	oneself	3.48	1	Pronoun	23279
-1843	THOUSAND	thousand	3.08	0	Noun	17985
-898	TRADE	trade	3.08	0	Noun	17987
-1325	FRIEND	friend	3.07	0	Noun	18025
-2424	MEMBER	member	3.07	0	Noun	18044
-2929	BENEFIT	profit	3.07	0	Noun	18055
-892	TIME	time	3.07	0	Noun	18075
-2995	TONE (MUSIC)	tone	3.07	0	Noun	18076
-2976	VIOLENCE	violence	3.07	0	Noun	18085
-1010	BOUNDARY	boundary	3.04	0	Noun	18110
-1877	EAST	east	3.04	0	Noun	18127
-3153	LORD	lord	3.04	0	Noun	18143
-848	THIRST	thirst	3.04	1	Noun	18172
-483	COMPOUND	compound	3.03	0	Noun	18189
-1066	CRIME	crime	3.03	0	Noun	18191
-168	REST	relax	2.86	0	Verb	26094
-421	RETREAT	retreat	3.03	0	Noun	18213
-3046	FODDER	fodder	3	3	Noun	18272
-3640	GOSSIP	gossip	3	0	Noun	18282
-1468	LOOK FOR	seek	2.68	1	Verb	26475
-940	STRAIN	strain	3	0	Noun	18347
-1644	RELATIVES	relative	2.97	0	Noun	18389
-2075	BROOD (VERB)	brood	2.96	2	Noun	18411
-202	STRENGTH	strength	2.96	0	Noun	18494
-392	MAGIC	witchcraft	2.96	0	Noun	18511
-1319	COWARD	coward	2.93	0	Noun	18537
-1052	LIGHT (WEIGHT)	lightweight	2.93	0	Noun	18557
-2760	MAKE A JOKE	joke	2.9	0	Noun	18670
-3533	ONE MILLION	million	2.9	0	Noun	18673
-2860	BOLT (MOVE IN HASTE)	rush	2.9	0	Noun	18679
-2932	COLD (CHILL)	chill	2.89	0	Noun	18691
-815	GOVERNMENT	government	2.88	0	Noun	18741
-2431	REVOLUTION	revolution	2.87	0	Noun	18767
-1789	AGE	old age	3.04	0	#N/A	33004
-3469	LEVEL	level	2.86	0	Noun	18802
-1358	ENEMY	enemy	2.83	0	Noun	18909
-1103	SACRIFICE	offering	2.82	0	Verb	26192
-902	ADULTERY	adultery	2.79	1	Noun	19050
-3427	DIRECTION	direction	2.79	0	Noun	19062
-1712	OATH	oath	2.79	0	Noun	19073
-1128	ORDER	order	2.79	0	Noun	19074
-3426	SURNAME	surname	2.79	0	Noun	19092
-2987	AMOUNT	amount	2.74	0	Noun	19230
-1778	APPROACH	approach	2.74	0	Noun	19232
-2509	EXCHANGE	swap	3.85	1	Verb	24040
-1914	DEBT	debt	2.72	0	Noun	19297
-3602	TRILLION	trillion	2.72	0	Noun	19330
-1953	ABUSE	abuse	2.71	0	Noun	19333
-1668	GRIEF	sorrow	2.36	0	Noun	20599
-210	LIFE	life	2.69	0	Noun	19430
-107	OMEN	omen	2.69	0	Noun	19437
-1747	CUSTOM	ritual	2.6	0	Noun	19735
-1810	DANGER	danger	2.68	0	Noun	19463
-1293	MISTAKE	error	2.68	0	Noun	19468
-2425	PROBLEM	problem	2.68	0	Noun	19478
-2815	DIALECT	dialect	2.67	0	Noun	19505
-383	MASTER	master	2.63	0	Noun	19654
-2996	WEALTH	wealth	2.63	0	Noun	19665
-2572	SENSE (PERCEIVE BY SENSES)	sense	2.61	0	Noun	19712
-2374	DREAM	dream	2.6	0	Noun	19721
-2941	HAPPINESS	happiness	2.6	0	Noun	19725
-1828	ASK (REQUEST)	request	2.59	0	Noun	19785
-1841	SUSPECT	suspect	2.59	0	Noun	19790
-1017	APPEARANCE	appearance	2.57	0	Noun	19822
-781	FEAR (FRIGHT)	fear	2.57	0	Noun	19836
-2393	JOURNEY	journey	2.57	0	Noun	19842
-1062	LAW	law	2.57	0	Noun	19843
-1846	RULE	rule	2.57	0	Noun	19853
-783	VICTORY	victory	2.55	0	Noun	19909
-161	MISS (A TARGET)	miss	2.54	0	Noun	19954
-3334	RITE	rite	2.54	2	Noun	19965
-2432	MARRIAGE	marriage	2.51	2	Noun	20049
-1557	BEGINNING	beginning	2.5	0	Noun	20061
-1562	MIND	mind	2.5	0	Noun	20083
-3375	PATIENT (SICK PERSON)	patient	2.5	0	Noun	20090
-2970	RIDDLE	riddle	2.5	0	Noun	20098
-1998	COMMAND	command	2.48	0	Noun	20121
-1995	DEFECT	defect	2.48	0	Noun	20123
-2214	AFFAIR	affair	2.45	0	Noun	20244
-1330	DEFEND	defense	2.45	0	Noun	20247
-2573	FEELING (EMOTION)	emotion	2.44	0	Noun	20271
-860	CAUSE	cause	2.43	0	Noun	20303
-82	ANGER	anger	2.41	0	Noun	20365
-134	FAULT	guilt	1.93	0	Noun	22050
-878	HELL	hell	2.41	0	Noun	20380
-8	CURSE	curse	2.39	0	Noun	20439
-1018	MEMORY	memory	2.38	0	Noun	20496
-13	DECEIT	deception	1.86	0	Noun	22278
-2524	JOY	pleasure	2.04	0	Noun	21712
-1307	LANGUAGE	language	2.35	0	Noun	20621
-2457	PATH OR ROAD	way	2.34	0	Noun	20659
-3646	PROVERB	proverb	2.26	2	Noun	20919
-1776	SHAME	shame	2.24	0	Noun	20998
-3644	AGREEMENT	agreement	2.22	0	Noun	21040
-1792	PERJURY	perjury	2.22	1	Noun	21058
-1000	ANXIETY	anxiety	2.21	0	Noun	21069
-3554	GOODBYE	farewell	2.21	0	Noun	21082
-2826	LIE (FALSEHOOD)	untruth	2.21	0	Noun	21122
-2465	DISGUST	disgust	2.19	0	Noun	21173
-3471	OBLIGATION (DUTY)	obligation	2.04	1	Noun	21708
-1121	SECRET	secret	2.19	0	Noun	21203
-3673	MOURNING	mourning	2.17	0	Noun	21249
-988	ACQUIT	acquit	2.13	1	Noun	21384
-75	DISGRACE	disgrace	2.11	0	Noun	21459
-56	BAD LUCK	misfortune	2.07	0	Noun	21613
-2434	TRAGEDY	tragedy	2.07	0	Noun	21639
-2526	POWER	power	2.04	0	Noun	21714
-385	RESPECT (SOMEBODY)	respect	2.04	0	Noun	21726
-865	FAME	fame	1.96	0	Noun	21973
-2541	MIRACLE	miracle	1.96	0	Noun	21987
-1638	TRUTH	truth	1.96	0	Noun	22009
-2968	REASON	reason	1.93	0	Noun	22079
-2881	URGE (SOMEONE)	urge	1.93	0	Noun	22092
-1141	PITY	pity	1.87	0	Noun	22261
-2427	FUTURE	future	1.86	0	Noun	22285
-811	SOUL	soul	1.86	0	Noun	22308
-2950	MEANING	meaning	1.85	0	Noun	22335
-2971	SIN	sin	1.85	0	Noun	22345
-2527	ABILITY	ability	1.81	0	Noun	22424
-1565	HEAVEN	heaven	1.81	0	Noun	22438
-2062	INTEREST	interest	1.8	0	Noun	22470
-2016	JEALOUSY	jealousy	1.8	0	Noun	22471
-3468	KINDNESS	kindness	1.74	0	Noun	22620
-2429	LOGIC	logic	1.72	0	Noun	22660
-661	RELIGION	religion	1.71	0	Noun	22678
-2960	LONGING (WISH)	desire	1.7	0	Noun	22690
-1162	INTENTION	intention	1.7	0	Noun	22697
-3628	HONOR (SOMEBODY)	honor	1.68	0	Noun	22754
-1067	JUDGMENT	judgment	1.68	0	Noun	22759
-1890	BELIEVE	faith	1.63	0	Noun	22834
-1338	PEACE	peace	1.62	0	Noun	22865
-3197	SUSPICION	suspicion	1.62	0	Noun	22870
-1609	IDEA	idea	1.61	0	Noun	22877
-53	SPIRIT	spirit	1.6	0	Noun	22895
-495	REVENGE	revenge	1.54	0	Noun	22995
-1688	FATE	fate	1.53	0	Noun	22999
-3049	COURAGE	courage	1.52	0	Noun	23003
-2433	THEORY	theory	1.47	6	Noun	23062
-720	GOOD LUCK	luck	1.33	0	Noun	23131
-3333	BELIEF (RELIGIOUS)	belief	1.19	0	Noun	23143
-1498	TWO	two	4.18	0	Number	23146
-1716	FORTY	forty	4.14	1	Number	23147
-1705	EIGHT	eight	4.04	0	Number	23148
-1483	NINE	nine	4.04	0	Number	23149
-1493	ONE	one	3.97	0	Number	23150
-1713	EIGHTEEN	eighteen	3.96	0	Number	23151
-1706	ELEVEN	eleven	3.93	0	Number	23152
-2454	SIXTEEN	sixteen	3.88	0	Number	23155
-493	FIVE	five	3.87	0	Number	23156
-1715	THIRTY	thirty	3.75	0	Number	23160
-1704	SEVEN	seven	3.72	0	Number	23161
-1708	THIRTEEN	thirteen	3.69	0	Number	23162
-1710	TWENTY	twenty	3.67	0	Number	23164
-492	THREE	three	3.62	0	Number	23169
-1707	TWELVE	twelve	3.61	0	Number	23170
-1718	SIXTY	sixty	3.56	0	Number	23175
-1717	FIFTY	fifty	3.48	0	Number	23176
-1859	THIRD	third	3.44	0	Number	23177
-1703	SIX	six	3.43	0	Number	23178
-1722	EIGHTY	eighty	3.41	0	Number	23179
-1724	NINETY	ninety	3.39	0	Number	23181
-1515	TEN	ten	3.39	0	Number	23182
-1709	FIFTEEN	fifteen	3.37	0	Number	23183
-1500	FOUR	four	3.37	0	Number	23185
-1721	SEVENTY	seventy	3.36	1	Number	23186
-1714	NINETEEN	nineteen	3.26	0	Number	23188
-2453	SEVENTEEN	seventeen	3.19	0	Number	23190
-2451	FOURTEEN	fourteen	3.04	0	Number	23196
-1529	LAST (FINAL)	last	3.04	0	Number	23197
-1294	ZERO	zero	2.86	0	Number	23202
-728	FIRST	first	2.76	0	Number	23203
-1354	NEXT	next	2.56	1	Number	23204
-1883	IN FRONT OF	front	3.77	0	Preposition	23205
-1686	BEHIND	behind	3.48	0	Preposition	23207
-57	ATOP	upon	2.83	0	Preposition	23218
-2670	ACROSS	across	3.07	0	Preposition	23213
-1460	IN	within	2.81	0	Preposition	23221
-97	THROUGH	through	2.9	0	Preposition	23216
-2754	TOWARDS	toward	2.28	0	Preposition	23233
-689	BETWEEN	between	2.72	0	Preposition	23224
-1816	BESIDE	beside	2.59	1	Preposition	23226
-1478	WITHOUT	without	2.15	1	Preposition	23237
-1685	AFTER	after	2.12	0	Preposition	23238
-1461	AT	at	2.07	0	Preposition	23239
-1340	WITH	with	2	0	Preposition	23241
-1117	LIKE	like	1.89	0	Preposition	23242
-693	FROM	from	1.84	0	Preposition	23246
-2469	AGAINST	against	1.8	0	Preposition	23248
-1652	INSTEAD	instead	1.48	0	Preposition	23265
-2301	ME	me	4.33	0	Pronoun	23269
-1213	YOU	you	4.11	0	Pronoun	23270
-1211	HE	he	3.93	0	Pronoun	23271
-1209	I	I	3.93	0	Pronoun	23272
-2422	SOMEONE	someone	3.71	0	Pronoun	23274
-2310	US (OBLIQUE CASE OF WE)	us	3.59	0	Pronoun	23275
-2090	MY	mine	3.56	0	Pronoun	23276
-1834	SHE	she	3.36	0	Pronoun	23281
-2400	THEIR	theirs	2.4	0	Pronoun	23304
-2092	HIS OR HER	his	3.14	0	Pronoun	23284
-1212	WE	we	3.08	0	Pronoun	23286
-2474	HER (GENITIVE OF SHE)	her	3	0	Pronoun	23288
-817	THEY	they	2.93	0	Pronoun	23292
-169	IT	it	2.81	1	Pronoun	23294
-732	YOUR (SINGULAR)	yours	2.14	0	Pronoun	23313
-687	NOTHING	nothing	2.21	0	Pronoun	23310
-1215	THOU	thou	2.19	2	Pronoun	23311
-3416	EVERY (EACH)	each	2.03	0	Pronoun	23316
-780	OUR	ours	1.81	0	Pronoun	23323
-1235	WHO	who	1.74	0	Pronoun	23324
-2070	COMB (VERB)	comb	5	1	Verb	23338
-1996	GET TIRED	tire	5	0	Verb	23340
-1689	SMOKE (INHALE)	smoking	4.32	0	Verb	23526
-1896	FINGERNAIL OR TOENAIL	nail	4.93	0	Verb	23344
-2155	CUT (WITH SCISSORS)	scissor	4.9	0	Verb	23345
-3127	RAKE (SOMETHING)	rake	4.84	0	Verb	23349
-1802	SCREW	screw	4.81	0	Verb	23352
-1917	TIE	bind	3.4	0	Verb	24878
-1416	SIT	sit	4.8	0	Verb	23354
-1974	CENTIPEDE	centipede	4.79	0	Verb	23355
-3122	PAINT (SOMETHING)	paint	4.79	0	Verb	23358
-1278	VOMIT	puke	4.59	0	Verb	23409
-592	PISS	piss	4.73	0	Verb	23369
-1440	SPIT	spit	4.71	0	Verb	23376
-2630	WHIP	whip	4.68	0	Verb	23379
-1596	LOCK	lock	4.65	0	Verb	23388
-1441	FLY (MOVE THROUGH AIR)	flying	4.1	0	Verb	23709
-2076	SPROUT (VERB)	bloom	4	1	Verb	23810
-1979	CHISEL	chisel	4.63	1	Verb	23393
-651	SEAL	seal	4.63	0	Verb	23395
-275	PEEL	peel	4.61	0	Verb	23404
-1650	WATCH	watch	4.61	0	Verb	23405
-787	SAIL	sail	4.59	0	Verb	23410
-254	STICKING	stick	4.59	0	Verb	23411
-1254	HANDLE	handle	4.57	0	Verb	23413
-3129	SKATE	skate	4.56	0	Verb	23415
-1735	TEAR (SHRED)	tear	4.56	0	Verb	23417
-972	BE ABLE	may	3	0	Verb	25755
-1432	CUT	cut	4.55	0	Verb	23420
-3025	BARN OR SHED	shed	4.55	0	Verb	23421
-3109	BRUSH (TEETH)	brush	4.54	0	Verb	23423
-2065	STEP (VERB)	step	4.54	0	Verb	23424
-2871	SWING (MOVEMENT)	swing	4.54	0	Verb	23425
-1839	CRY	weep	4.54	0	Verb	23426
-1829	JUMP	jump	4.52	0	Verb	23435
-319	LICK	lick	4.52	0	Verb	23437
-2002	DITCH	ditch	4.5	0	Verb	23443
-578	KISS	kiss	4.48	0	Verb	23448
-1324	SLIP	slide	4.48	0	Verb	23451
-3543	SAW (SOMETHING)	saw	4.46	0	Verb	23453
-1028	YAWN	gape	3.27	4	Verb	25167
-1403	BITE	bite	4.44	0	Verb	23457
-1367	CROSS	cross	4.44	0	Verb	23458
-1336	EAT	eats	3.79	0	Verb	24128
-1585	SLEEP	sleep	4.44	0	Verb	23463
-2905	KNIT	knit	4.41	0	Verb	23472
-3615	BLEED	bleed	4.4	0	Verb	23476
-2897	CHIME (ACTION)	chime	4.4	0	Verb	23477
-792	BOIL (OF LIQUID)	boiling	4.39	0	Verb	23481
-991	FRY	fry	4.37	0	Verb	23491
-851	STABLE	stall	4.37	0	Verb	23495
-1453	WASH	wash	4.35	0	Verb	23500
-1261	SING	sing	4.34	0	Verb	23502
-55	WHISPER	whisper	4.34	0	Verb	23505
-1418	DIG	dig	4.33	0	Verb	23510
-1135	KICK	kick	4.33	4	Verb	23512
-1449	RUB	rub	4.33	0	Verb	23514
-1879	DANCE	dance	4.32	0	Verb	23521
-104	HAILING	hail	4.32	0	Verb	23522
-190	MOW	mow	4.32	0	Verb	23523
-2522	SCREAMING	scream	4.32	0	Verb	23525
-66	KNEEL	kneel	4.31	0	Verb	23534
-1519	RUN	ran	3.82	0	Verb	24089
-96	CRAWL	crawl	4.27	0	Verb	23556
-2396	KNOCK	knock	4.24	0	Verb	23569
-761	COVER	cover	4.23	0	Verb	23572
-231	SHAVE	shave	4.23	0	Verb	23573
-3697	DIP	dip	4.22	0	Verb	23578
-1672	WRITE	write	4.22	0	Verb	23583
-183	BAKE	bake	4.21	0	Verb	23584
-676	SHIT (DEFECATE)	excrete	2.89	3	Verb	26015
-750	DROP	drop	4.21	0	Verb	23588
-1355	LAUGH	laugh	4.21	0	Verb	23593
-1452	PUSH	push	4.21	0	Verb	23595
-2069	SOAK (VERB)	soak	4.21	0	Verb	23600
-2493	BOIL	boil	4.2	0	Verb	23603
-1423	FIGHT	fight	4.2	0	Verb	23604
-133	WEAVE	weaving	3.37	0	Verb	24954
-2030	DRAG	drag	4.17	0	Verb	23635
-739	FEED	feed	4.17	0	Verb	23636
-715	SHOUT	yell	3.86	0	Verb	24024
-375	SNIFF	sniff	4.17	0	Verb	23643
-3110	CLAP	clap	4.16	0	Verb	23647
-827	ROLL	roll	4.16	0	Verb	23649
-1436	SCRATCH	scratch	4.16	0	Verb	23650
-1442	STAND	stand	4.16	0	Verb	23651
-1767	SCRAPE	scrape	4.15	0	Verb	23655
-2245	BELCH	belch	4.14	0	Verb	23661
-1094	FASTEN	fasten	4.14	0	Verb	23667
-1487	POUR	pour	4.14	0	Verb	23670
-1470	FOLD	fold	4.13	0	Verb	23676
-588	BROKEN	broken	4.11	0	Verb	23684
-2102	BURN	burn	4.11	0	Verb	23685
-702	CATCH	catch	4.11	0	Verb	23687
-1975	CHECK	check	4.11	0	Verb	23688
-1102	CLIMB	climb	4.11	0	Verb	23689
-983	CONVICT	convict	4.11	0	Verb	23690
-1433	HIT	hit	4.11	0	Verb	23694
-1113	WRAP	wrap up	2.88	0	#N/A	33450
-1407	BREATHE	breathing	4.1	0	Verb	23706
-2904	RINSE	rinse	4.1	0	Verb	23713
-460	BREAK (OF ROPE)	snap	4.1	11	Verb	23718
-1574	FLOAT	float	4.07	0	Verb	23737
-300	RATTLE	rattle	4.07	0	Verb	23747
-1909	SHAKE	shake	4.07	0	Verb	23748
-3130	SPILL (SOMETHING)	spill	4.07	1	Verb	23752
-353	STRIKE	strike	4.07	0	Verb	23756
-2708	TALK	talk	4.07	0	Verb	23758
-1443	WALK	walk	4.07	0	Verb	23760
-700	CARRY	carry	4.04	0	Verb	23767
-1280	FALL	fall	4.04	0	Verb	23773
-288	FORGE	forge	4.04	0	Verb	23777
-568	RISE (MOVE UPWARDS)	rise	4.04	0	Verb	23785
-748	SOW SEEDS	sow	4.04	0	Verb	23791
-1456	THROW	throw	4.04	1	Verb	23793
-119	DIVE	dive	4.03	0	Verb	23801
-1621	SNEEZE	sneeze	4.03	0	Verb	23808
-1084	CALL	call for	2.74	1	#N/A	33871
-1454	WIPE	wipe off	4.32	0	#N/A	30592
-1414	SQUEEZE	wring	4	3	Verb	23848
-1665	BEAT	beat	3.97	0	Verb	23850
-129	CHOKE	choke	3.97	0	Verb	23851
-2001	PAINTING	draw	3.97	0	Verb	23853
-1033	GRIND	grind	3.97	0	Verb	23855
-1455	PULL	pull	3.97	0	Verb	23857
-855	SEIZE	grab	3.52	0	Verb	24631
-1172	SHOOT	shoot	3.97	0	Verb	23860
-1039	SHOW	show	3.97	0	Verb	23862
-1866	STUTTER	stutter	3.97	0	Verb	23864
-1755	UNDRESS	take off	3.62	0	#N/A	31683
-1431	FREEZE	freeze	3.96	0	Verb	23875
-2334	MELT	melt	3.96	0	Verb	23880
-569	SPOIL (BECOME SPOILED)	rot	3.96	0	Verb	23882
-1437	SPLIT	split	3.96	0	Verb	23886
-321	CHEW	chew	3.93	0	Verb	23900
-1904	DROWN	drown	3.93	0	Verb	23905
-1457	SEW	sew	3.93	0	Verb	23913
-3698	SINGE	singe	3.92	2	Verb	23927
-1377	VISIT	visit	3.92	1	Verb	23933
-1417	KILL	kill	3.9	0	Verb	23941
-121	SPIN	spin	3.9	0	Verb	23944
-274	KNEAD	knead	3.89	0	Verb	23960
-501	LIFT	lift	3.89	0	Verb	23962
-897	SWALLOW	swallow	3.89	0	Verb	23968
-2894	TUMBLE (FALL DOWN)	tumble	3.89	22	Verb	23970
-352	UNTIE	untie	3.89	0	Verb	23973
-2224	BEND (SOMETHING)	bend	3.88	0	Verb	23974
-1921	PLOUGH	plough	3.88	4	Verb	23985
-741	DRIVE	drive	3.86	0	Verb	24004
-2706	GNAW	gnaw	3.86	0	Verb	24007
-2071	LAY (VERB)	lay	3.86	0	Verb	24011
-1892	TOUCH	touch	3.86	0	Verb	24021
-1428	BURNING	burning	3.85	0	Verb	24025
-708	SHINE	shine	3.85	0	Verb	24035
-3647	TICKLE (SOMEBODY)	tickle	3.85	0	Verb	24041
-2705	INHALE	inhale	3.84	0	Verb	24046
-713	STEAL	stealing	3.28	0	Verb	25154
-268	DRIBBLE	dribble	3.83	0	Verb	24054
-526	HOWL	howl	3.83	1	Verb	24056
-279	THATCH	thatch	3.83	3	Verb	24070
-1719	BURY	bury	3.82	1	Verb	24074
-29	GELD	castrate	3.82	1	Verb	24075
-2017	MIX	mix	3.82	0	Verb	24082
-2148	PICK	pick	3.82	0	Verb	24086
-2887	THAW (DEW)	thaw	3.8	0	Verb	24122
-2284	CLEARING	clearing	3.79	0	Verb	24123
-1098	WEIGH	weigh	3.79	0	Verb	24148
-3648	SERVE (SOMEONE)	serve	3.78	0	Verb	24159
-696	STIR	stir	3.76	0	Verb	24187
-3617	STUMBLE	stumble	3.75	0	Verb	24206
-175	BLOW (OF WIND)	blow	3.74	0	Verb	24211
-2827	MENSTRUATE	menstruate	3.74	0	Verb	24219
-251	SHARPEN (SOMETHING)	sharpen	3.72	0	Verb	24252
-1587	SMELL (STINK)	stink	3.72	0	Verb	24256
-230	SWEEP	sweep	3.72	0	Verb	24259
-680	BREAK (DESTROY OR GET DESTROYED)	break	3.71	0	Verb	24263
-1840	BUILD	build	3.71	0	Verb	24264
-3112	ERUPT	erupt	3.7	0	Verb	24297
-2884	HANG	hang	3.7	1	Verb	24298
-2124	SMELL	smell	3.7	0	Verb	24306
-2879	SOUND (OF INSTRUMENT OR VOICE)	sound	3.7	0	Verb	24307
-1623	SPEAK	spoke	3.38	0	Verb	24922
-228	CARVE	carve	3.69	0	Verb	24313
-128	MUMBLE	mumble	3.69	2	Verb	24318
-1448	HOLD	hold	3.68	0	Verb	24333
-38	SPREAD OUT	spread out	3.85	0	#N/A	31277
-2880	HALT (STOP)	stop	3.68	0	Verb	24344
-3638	ASSEMBLE (GET TOGETHER)	assemble	3.67	0	Verb	24349
-956	FLEE	flee	3.67	0	Verb	24361
-400	MUSH	mush	3.67	1	Verb	24365
-2891	TIE UP (TETHER)	tether	3.67	0	Verb	24374
-3665	TRAVEL	travel	3.67	0	Verb	24375
-1408	HEAR	hear	3.66	0	Verb	24378
-2899	JOG (SOMETHING)	jog	3.63	0	Verb	24425
-214	STRETCH	stretch	3.62	0	Verb	24452
-2411	HURT (SOMEBODY)	hurt	3.61	0	Verb	24460
-976	WEAR	wear	3.61	0	Verb	24470
-3685	HISS	hiss	3.6	0	Verb	24476
-573	SWAY	sway	3.6	0	Verb	24480
-1506	MEASURE	measure	3.59	0	Verb	24500
-1420	COUNT	counting	3.57	0	Verb	24536
-372	POINTED	pointed	3.57	0	Verb	24544
-575	TREAD	tread	3.57	1	Verb	24552
-724	READ	read	3.56	0	Verb	24564
-355	CUT DOWN	fell	3.55	0	Verb	24577
-3705	SCATTER	scatter	3.55	0	Verb	24585
-3078	IRRIGATE	irrigate	3.53	0	Verb	24614
-3058	GRAZE	graze	3.52	0	Verb	24632
-2243	REPAIR	mend	3.5	1	Verb	24666
-28	MOISTEN	moisten	3.48	0	Verb	24699
-2073	ROB (VERB)	rob	3.48	1	Verb	24708
-1086	WORK (ACTIVITY)	work	3.48	0	Verb	24717
-127	EXTINGUISH	extinguish	3.47	0	Verb	24720
-3700	LENGTHEN	lengthen	3.47	0	Verb	24723
-1608	LISTEN	listen	3.47	0	Verb	24724
-681	DESTROY	demolish	3.46	0	Verb	24728
-838	REMAINS	remains	3.46	0	Verb	24743
-1421	SUCK	suck	3.46	0	Verb	24752
-3174	WAKE UP (SOMEONE)	awaken	3.45	0	Verb	24757
-1163	BRIBE (AMOUNT)	bribe	3.44	0	Verb	24778
-3117	HITCHHIKE	hitchhike	3.44	0	Verb	24785
-1588	TURN	turn	3.44	0	Verb	24796
-2808	BLACKEN	blacken	3.43	1	Verb	24798
-3551	FETCH	fetch	3.42	0	Verb	24835
-1108	UNCOVER	uncover	3.42	0	Verb	24846
-160	SET (HEAVENLY BODIES)	set	3.41	0	Verb	24866
-1739	DECORATE	decorate	3.4	0	Verb	24880
-1046	SHUT	shut	3.38	0	Verb	24916
-589	CLOSED	closed	3.37	0	Verb	24935
-304	PREACH	preach	3.37	0	Verb	24944
-1532	SHEAR	shear	3.37	2	Verb	24947
-1571	SELL	sell	3.35	1	Verb	24988
-1615	ESCAPE	escape	3.34	0	Verb	24997
-1501	BORE	perforate	3.33	2	Verb	25023
-2006	FILL	fill	3.32	0	Verb	25039
-9	ANNOUNCE	announce	3.31	0	Verb	25061
-2886	PRODUCE	produce	3.31	0	Verb	25078
-179	RIPEN	ripen	3.31	0	Verb	25079
-2893	NOTICE (SOMETHING)	notice	3.3	0	Verb	25107
-246	THRUST	thrust	3.29	0	Verb	25140
-494	FLIRT	flirt	3.26	0	Verb	25177
-1085	FOLLOW	follow	3.26	0	Verb	25178
-765	MOVE	move	3.25	1	Verb	25208
-1933	LOOSEN	loosen	3.24	0	Verb	25219
-1413	PLAY	play	3.24	0	Verb	25223
-1095	LET GO OR SET FREE	release	3.24	0	Verb	25224
-79	WASTE	waste	3.24	0	Verb	25228
-1387	ARRIVE	arrive	3.22	0	Verb	25246
-1090	BE BORN	born	3.22	0	Verb	25248
-2865	DIE (FROM ACCIDENT)	perish	3.22	0	Verb	25257
-2486	HIDE	hide	3.21	0	Verb	25273
-1156	OPEN	open	3.21	0	Verb	25279
-24	PRAY	pray	3.21	0	Verb	25282
-1409	SEE	see	3.21	0	Verb	25290
-3075	SLANTED	slanting	3.2	0	Verb	25318
-602	HIDE (CONCEAL)	conceal	3.19	0	Verb	25324
-2014	GO DOWN (DESCEND)	go down	3.5	2	#N/A	31898
-2503	LAUNDER	launder	3.18	1	Verb	25362
-2008	RESCUE	rescue	3.17	0	Verb	25389
-695	GO	going	2.69	0	Verb	26446
-709	TEACH	teach	3.15	0	Verb	25420
-1541	CULTIVATE	cultivate	3.14	1	Verb	25434
-1076	EMERGE (APPEAR)	appear	3.13	0	Verb	25460
-549	COPULATE	copulate	3.13	0	Verb	25462
-749	ENTER	enter	3.12	0	Verb	25475
-3213	HIRE OR RENT	hire	3.11	0	Verb	25495
-1411	LIE (REST)	lie	3.11	0	Verb	25496
-3670	PLUNDER	plunder	3.11	0	Verb	25499
-1823	BORROW	borrow	3.1	0	Verb	25517
-550	DILUTE	dilute	3.1	0	Verb	25522
-1542	ACCOMPANY	accompany	3.07	0	Verb	25565
-1264	CHANGE	alter	3.07	0	Verb	25566
-1494	DIE	pass away	2.61	1	#N/A	34315
-252	FRIGHTEN	frighten	3.07	0	Verb	25582
-582	LEND	lend	3.07	0	Verb	25593
-299	SCOLD	scold	3.07	0	Verb	25606
-1749	TAKE	take	3.06	0	Verb	25626
-2883	DISTURB	disturb	3.04	0	Verb	25639
-325	FELT	felt	3.04	0	Verb	25646
-49	REFUSE	refuse	3.04	0	Verb	25666
-479	GROW	grow	3.03	0	Verb	25697
-203	MARRY	marry	3.03	0	Verb	25700
-2882	ADD	add	3	0	Verb	25716
-1611	INVITE	invite	3	0	Verb	25752
-3619	LEAN	lean	3	0	Verb	25753
-1831	MEET	meet	3	0	Verb	25756
-694	GET	obtain	3	0	Verb	25759
-3121	OPERATE (MEDICINE)	operate	3	0	Verb	25760
-2412	THANK (SOMBEODY)	thank	3	0	Verb	25801
-581	COME BACK	return	2.97	0	Verb	25823
-1458	SAY	said	2.97	0	Verb	25824
-370	BARTER	barter	2.96	2	Verb	25835
-3534	BEG	beg	2.96	0	Verb	25836
-782	DEFEAT	defeat	2.96	0	Verb	25849
-3552	GREET	greet	2.96	0	Verb	25855
-1819	LOOK	look	2.96	1	Verb	25862
-2877	RUSTLE (OF LEAVES)	rustle	2.96	0	Verb	25878
-884	SHARE	share	2.96	0	Verb	25884
-1602	WAKE UP	waken	2.95	2	Verb	25906
-880	REPEAT	repeat	2.9	0	Verb	25999
-1711	TELL	tell	2.9	0	Verb	26003
-1275	ANSWER	answer	2.89	0	Verb	26006
-1766	FINISH	finish	2.89	0	Verb	26017
-2862	CONNECT	connect	2.88	0	Verb	26040
-196	DONATE	donate	2.88	0	Verb	26043
-485	DISAPPEAR	disappear	2.86	0	Verb	26078
-1119	DIVIDE	divide	2.86	0	Verb	26080
-1743	JOIN	unite	2.58	2	Verb	26719
-2900	PROTECT	protect	2.86	0	Verb	26092
-258	CALM	calm	2.83	0	Verb	26161
-1447	GIVE	gave	2.38	0	Verb	27186
-92	SPOIL (SOMEBODY OR SOMETHING)	spoil	2.82	0	Verb	26201
-3274	ENCIRCLE	surround	2.81	0	Verb	26229
-1568	ARRANGE	arrange	2.79	0	Verb	26240
-3204	INSULT	insult	2.79	0	Verb	26252
-554	HINDER	hinder	2.78	1	Verb	26278
-2072	USE (VERB)	use	2.78	0	Verb	26285
-3302	QUARREL (VERB)	argue	2.75	0	Verb	26335
-7	GATHER	gather	2.75	0	Verb	26338
-2867	CALCULATE	calculate	2.74	0	Verb	26345
-402	SURPASS	surpass	2.73	0	Verb	26370
-1446	COME	comes	2.27	2	Verb	27437
-1951	PASS	pass	2.71	0	Verb	26408
-1806	BEGIN	start	2.71	0	Verb	26413
-1127	SEND	send	2.7	0	Verb	26428
-2906	TRANSLATE	translate	2.69	0	Verb	26457
-391	BLESS	bless	2.68	0	Verb	26459
-2864	DECREASE	decrease	2.68	0	Verb	26462
-1590	WAIT (FOR)	await	1.54	0	Verb	28642
-3667	LOST	lost	2.67	1	Verb	26492
-734	MAKE	made	2.52	0	Verb	26876
-1635	OBEY	obey	2.67	0	Verb	26494
-866	WIN	win	2.67	0	Verb	26506
-117	IMITATE	imitate	2.66	0	Verb	26515
-3649	PUNISH	punish	2.66	0	Verb	26519
-2861	BUDGE (ONESELF)	budge	2.65	2	Verb	26524
-1978	RECOVER	recover	2.64	0	Verb	26553
-2113	OLD (USED)	used	2.64	0	Verb	26562
-1579	BE	will	2.64	0	Verb	26563
-719	FIND	found	2.53	0	Verb	26842
-754	HURRY	hasten	2.22	1	Verb	27565
-1696	SURRENDER	give up	2.59	0	#N/A	34366
-1192	THREATEN	threaten	2.63	0	Verb	26597
-1750	CHOOSE	chose	2.48	1	Verb	26934
-363	DWELL (LIVE, RESIDE)	dwell	2.62	0	Verb	26605
-257	WORSHIP	worship	2.62	0	Verb	26625
-1041	INCREASE	increase	2.61	0	Verb	26634
-3455	COMMEND	praise	2.61	0	Verb	26636
-3642	COMPLAIN	complain	2.6	0	Verb	26649
-3071	INSERT	insert	2.57	0	Verb	26733
-1997	PRESERVE	preserve	2.57	0	Verb	26742
-3447	BEGIN OR START	begin	2.56	0	Verb	26751
-1897	HELP	help	2.56	0	Verb	26761
-692	BRING	bring	2.55	0	Verb	26788
-150	WORRY	worry	2.55	0	Verb	26803
-1097	ABANDON	abandon	2.54	1	Verb	26804
-1309	ASK (INQUIRE)	ask	2.52	0	Verb	26850
-3429	COMPARE	compare	2.52	0	Verb	26856
-1184	DIMINISH	diminish	2.5	0	Verb	26904
-998	PUT	put down	2.86	0	#N/A	33494
-2704	FADE (LOOSE COLOR)	fade	2.48	0	Verb	26939
-813	DO	did	2.45	0	Verb	27011
-3629	HESITATE	hesitate	2.46	0	Verb	26991
-1939	SWEAR	swear	2.45	0	Verb	27018
-1003	PERMIT	allow	2.41	0	Verb	27088
-3639	AVOID	avoid	2.41	0	Verb	27090
-101	BOAST	brag	2.41	0	Verb	27092
-707	REMEMBER	remember	2.41	0	Verb	27125
-2271	THINK	think	2.41	0	Verb	27131
-733	EARN	earn	2.39	0	Verb	27160
-303	ABSTAIN FROM FOOD	abstain	2.38	0	Verb	27173
-1477	KEEP	keep	2.37	0	Verb	27215
-2909	PREPARE	prepare	2.36	0	Verb	27241
-1550	PREVENT	prevent	2.34	0	Verb	27284
-1955	GRIEVE	mourn	2.33	0	Verb	27305
-1112	SUCCEED	succeed	2.33	0	Verb	27314
-2022	ADMIT	admit	2.32	1	Verb	27319
-3643	AGREE	agree	2.31	0	Verb	27341
-1779	DARE	dare	2.28	0	Verb	27412
-1079	FEEL	feel	2.28	0	Verb	27416
-1932	GUESS	guess	2.28	0	Verb	27417
-1999	OVERCOME	overcome	2.28	0	Verb	27421
-1101	SUFFER	suffer	2.28	0	Verb	27430
-1536	UNDERSTAND	understand	2.28	0	Verb	27432
-3666	WANDER	wander	2.28	0	Verb	27434
-2896	CAUSE TO (LET)	let	2.26	0	Verb	27460
-1814	ACCUSE	accuse	2.25	0	Verb	27474
-1152	BEGET	beget	2.25	4	Verb	27476
-3072	MISPLACE	lose	2.25	0	Verb	27485
-1902	BETRAY	cheat	2.23	0	Verb	27528
-41	IGNORE	ignore	2.22	0	Verb	27566
-1812	TRY	tried	2.07	0	Verb	27953
-382	GOVERN	govern	2.21	0	Verb	27592
-755	DENY	deny	2.2	0	Verb	27627
-504	LEARN	learn	2.2	0	Verb	27632
-1777	RESEMBLE	look alike	3.83	0	#N/A	31295
-3680	RUMINATE	ruminate	2.19	3	Verb	27664
-773	HAVE	had	1.77	0	Verb	28445
-2192	REJOICE	rejoice	2.17	0	Verb	27712
-987	REMAIN	remain	1.96	0	Verb	28164
-2709	FLATTER	flatter	2.14	0	Verb	27772
-971	MUST	must	2.13	0	Verb	27794
-2715	DESPISE	despise	2.12	0	Verb	27807
-118	BEWITCH	bewitch	2.11	1	Verb	27828
-3631	PRETEND	pretend	2.11	0	Verb	27842
-1675	PROMISE	promise	2.09	0	Verb	27877
-3111	CONDUCT	conduct	2.08	0	Verb	27882
-81	FATHOM	fathom	2.07	0	Verb	27920
-923	LOVE	love	2.07	0	Verb	27932
-369	OWE	owe	2.07	0	Verb	27938
-3645	PERSUADE	persuade	2.07	0	Verb	27940
-2870	RECOGNIZE (SOMEBODY)	recognize	2.07	0	Verb	27946
-381	BLAME	blame	2.06	0	Verb	27958
-1087	CONCEIVE	conceive	2.04	0	Verb	27967
-1523	FORGET	forget	2.04	0	Verb	27979
-3664	INHERIT	inherit	2.04	0	Verb	27983
-2838	TAME	tame	2.04	0	Verb	28006
-2869	BOTHER (HARASS)	bother	2	0	Verb	28045
-833	ENDURE	endure	2	0	Verb	28063
-3073	MANAGE	manage	2	0	Verb	28080
-1626	EXPLAIN	explain	1.97	0	Verb	28118
-1607	HATE	hate	1.97	0	Verb	28119
-2975	THOUGHT	thought	1.97	0	Verb	28128
-484	CONDEMN	condemn	1.96	1	Verb	28135
-83	FORBID	forbid	1.96	0	Verb	28146
-2892	MAKE ANGRY (ANNOY)	annoy	1.93	0	Verb	28186
-555	INFRINGE	infringe	1.93	0	Verb	28205
-1784	WANT	wish	1.77	0	Verb	28451
-685	DECIDE	decide	1.92	0	Verb	28229
-1528	FORGIVE	forgive	1.92	0	Verb	28234
-756	DEPEND	depend	1.89	0	Verb	28266
-2872	IMPROVE (SOMETHING)	improve	1.82	0	Verb	28376
-3536	DOUBT (SOMETHING)	doubt	1.79	0	Verb	28410
-248	HAPPEN	happen	1.78	0	Verb	28434
-1521	SEEM	seem	1.75	0	Verb	28478
-2898	CONVEY (A MESSAGE)	convey	1.72	0	Verb	28503
-3475	SUFFICE	suffice	1.72	0	Verb	28512
-40	ENVY	envy	1.69	0	Verb	28539
-2339	NEED (SOMETHING)	need	1.69	0	Verb	28541
-3230	DECEIVE	deceive	1.68	0	Verb	28551
-2521	FEELING (HAPTIC SENSE)	feeling	1.68	0	Verb	28555
-3626	KNOW	know	1.68	0	Verb	28558
-1990	BECOME	become	1.54	0	Verb	28643
-2218	EXPERIENCED	experienced	1.5	0	Verb	28664
-1092	HOPE	hope	1.25	0	Verb	28703
-2240	CORAL SNAKE	coral snake	5	0	#N/A	28731
-3690	FULL MOON	full moon	5	0	#N/A	28743
-3148	MEERKAT	meerkat	5	1	#N/A	28759
-1181	PALM TREE	palm tree	5	0	#N/A	28766
-3143	POLAR BEAR	polar bear	5	0	#N/A	28772
-3097	SEWING MACHINE	sewing machine	5	0	#N/A	28777
-159	SWEET POTATO	sweet potato	5	0	#N/A	28789
-3103	TENNIS BALL	tennis ball	5	0	#N/A	28792
-1968	SOYA SAUCE	soy sauce	4.97	0	#N/A	28844
-3718	GUINEA PIG	guinea pig	4.93	0	#N/A	28970
-2795	MOSQUITO NET	mosquito net	4.93	0	#N/A	28988
-2555	OIL (FROM PLANTS)	vegetable oil	4.93	0	#N/A	29028
-172	SHOULDERBLADE	shoulder blade	4.92	0	#N/A	29053
-577	FOREFINGER	index finger	4.89	0	#N/A	29133
-449	CORN FIELD	corn field	4.87	0	#N/A	29195
-19	FISHING LINE	fishing line	4.86	0	#N/A	29245
-2663	UMBILICAL CORD	umbilical cord	4.86	0	#N/A	29291
-3738	GRIZZLY BEAR	grizzly bear	4.85	0	#N/A	29310
-2196	HORSETAIL	horsetail	4.8	1	#N/A	29475
-907	OLD WOMAN	old lady	4.78	0	#N/A	29558
-525	BLOOD VESSEL	blood vessel	4.76	0	#N/A	29598
-2811	BUSHFIRE	bushfire	4.75	1	#N/A	29626
-36	PUBIC HAIR	pubic hair	4.69	0	#N/A	29812
-1126	CITRUS FRUIT	citrus fruit	4.65	0	#N/A	29914
-2289	MILKY WAY	milky way	4.52	0	#N/A	30223
-2213	BODY PART	body part	4.47	0	#N/A	30312
-1759	OLDER BROTHER	big brother	4.41	0	#N/A	30429
-3691	NEW MOON	new moon	4.28	0	#N/A	30658
-3386	SULPHUR	sulphur	4.23	0	#N/A	30733
-215	LIE DOWN	lie down	4.21	0	#N/A	30758
-1106	FALL ASLEEP	fall asleep	4.15	0	#N/A	30826
-570	STAND UP	stand up	4.15	0	#N/A	30841
-1195	GIVE BIRTH	give birth	4	0	#N/A	31040
-1445	TURN (SOMETHING)	turn over	3.93	0	#N/A	31150
-3260	HORNBILL	hornbill	3.91	4	#N/A	31175
-1576	PILE UP	pile up	3.85	1	#N/A	31273
-1444	TURN AROUND	turn around	3.8	0	#N/A	31347
-2142	RUN AWAY	run away	3.75	0	#N/A	31430
-3654	TAKE OUT	take out	3.44	0	#N/A	32014
-357	HANG UP	hang up	3.15	0	#N/A	32676
-2067	STEAM (VERB)	braise	3.09	4	#N/A	32842
-1700	SATURDAY	saturday	3.07	0	#N/A	32942
-48	BE SILENT	shut up	3.03	0	#N/A	33038
-1723	RESULT IN	turn out	2.89	0	#N/A	33407
-253	CARE FOR	look after	2.73	0	#N/A	33918
-552	GROW UP	grow up	2.14	0	#N/A	36260
-1765	IN VAIN	in vain	1.69	1	#N/A	38878
+10	FIREWOOD	firewood	4.9300	0	Noun	9000
+100	FAITHFUL	faithful	2.2000	0	Adjective	3519
+1000	ANXIETY	anxiety	2.2100	0	Noun	21070
+1001	BLACKSMITH	smith	3.8100	1	Name	8333
+1002	STATUE	statute	3.8800	1	Noun	14973
+1003	PERMIT	allow	2.4100	0	Verb	27089
+1004	MUSCLE	muscle	4.5000	0	Noun	11965
+1005	TWINS	twin	4.1700	0	Noun	13699
+1006	BRICK	brick	4.8300	0	Noun	9734
+1007	COW	cow	4.9600	0	Noun	8838
+1008	BULL	bull	4.8500	0	Noun	9632
+1009	CHESTNUT TREE	buckeye	3.7600	4	Noun	15448
+101	BOAST	brag	2.4100	0	Verb	27093
+1010	BOUNDARY	boundary	3.0400	0	Noun	18111
+1011	BRIDGE	bridge	4.9700	1	Noun	8735
+1013	FRESHWATER EEL	eel	4.6900	0	Noun	10737
+1014	OR	or	1.7200	0	Conjunction	8017
+1016	DRIZZLE	drizzle	4.2100	1	Noun	13462
+1017	APPEARANCE	appearance	2.5700	0	Noun	19823
+1018	MEMORY	memory	2.3800	0	Noun	20497
+1019	RIGHT	right	3.4700	0	Adverb	6179
+102	COMMON COLD (DISEASE)	common	2.0700	0	Adjective	4007
+1020	HANDKERCHIEF	kerchief	4.8500	1	Noun	9666
+1021	TOWEL	towel	4.8600	0	Noun	9607
+1024	CHARACTER	graph	4.6600	0	Noun	10982
+1025	WHISTLE	whistle	4.4200	4	Noun	12463
+1027	BUG	bug	5.0000	0	Noun	8581
+1028	YAWN	gape	3.2700	4	Verb	25168
+1029	JEWEL	jewel	4.9600	0	Noun	8871
+1030	NECESSARY	necessary	1.8000	0	Adjective	5221
+1032	CITIZEN	citizen	4.4300	0	Noun	12362
+1033	GRIND	grind	3.9700	0	Verb	23856
+1034	DEFENDANT	defendant	3.8000	0	Noun	15287
+1035	GOOD	goodness	1.3800	0	Noun	23114
+1036	OWNER	owner	3.7800	0	Noun	15399
+1038	TEACHER	teacher	4.5200	0	Noun	11894
+1039	SHOW	show	3.9700	0	Verb	23863
+1040	HAIR	hair	4.9700	0	Noun	8755
+1041	INCREASE	increase	2.6100	0	Verb	26635
+1042	CARPENTER	carpenter	4.4100	0	Name	8226
+1043	BRAID	braid	4.3800	0	Noun	12610
+1044	PILLOW	cushion	4.6800	0	Noun	10819
+1045	POET	poet	4.3600	0	Noun	12760
+1046	SHUT	shut	3.3800	0	Verb	24917
+1047	PURSUE	chase	3.4800	0	Noun	16486
+1048	LINE	line	4.5000	0	Noun	11956
+1049	MOLAR TOOTH	molar	4.8300	1	Noun	9782
+1052	LIGHT (WEIGHT)	lightweight	2.9300	0	Noun	18558
+1053	HUNTER	hunter	4.4100	0	Name	8228
+1054	SMALLPOX	smallpox	4.2500	1	Noun	13299
+1058	STEPDAUGHTER	stepdaughter	4.0700	0	Noun	14150
+1059	STEPSON	stepson	3.6800	0	Noun	15765
+1061	ARMOUR	armor	4.7600	0	Noun	10247
+1062	LAW	law	2.5700	0	Noun	19844
+1063	NEPHEW	nephew	4.4800	0	Noun	12086
+1064	SHIELD	shield	4.6600	0	Noun	11010
+1065	SPIDER WEB	web	4.3700	0	Noun	12718
+1066	CRIME	crime	3.0300	0	Noun	18192
+1067	JUDGMENT	judgment	1.6800	0	Noun	22760
+1068	COURT	court	4.3100	0	Noun	12968
+1069	GLUE	glue	4.6500	0	Noun	11036
+107	OMEN	omen	2.6900	0	Noun	19438
+1070	BUS	bus	4.9000	0	Noun	9184
+1071	HOOK	hook	4.7900	0	Noun	10064
+1072	PRISONER	prisoner	4.1100	0	Noun	13941
+1074	FISHHOOK	fishhook	4.8700	0	Noun	9464
+1075	TRAP (PITFALL)	trap	4.3000	0	Noun	13074
+1076	EMERGE (APPEAR)	appear	3.1300	0	Verb	25461
+1077	WHEAT	wheat	4.8900	0	Noun	9394
+1078	MAIN	main	2.4100	0	Adjective	2775
+1079	FEEL	feel	2.2800	0	Verb	27417
+108	RUDDER	rudder	4.7200	0	Noun	10544
+1080	VULGAR	vulgar	1.9700	0	Adjective	4486
+1082	MERCHANT	merchant	4.3100	0	Noun	12983
+1084	CALL	call for	2.7400	1	#N/A	33872
+1085	FOLLOW	follow	3.2600	0	Verb	25179
+1086	WORK (ACTIVITY)	work	3.4800	0	Verb	24718
+1087	CONCEIVE	conceive	2.0400	0	Verb	27968
+1088	SINK (DESCEND)	sink	4.7400	0	Noun	10431
+109	FOREIGN	foreign	2.5000	2	Adjective	2491
+1090	BE BORN	born	3.2200	0	Verb	25249
+1091	SALTY	salty	3.9300	0	Adjective	304
+1092	HOPE	hope	1.2500	0	Verb	28704
+1093	MIDDLE	mid	2.6900	1	Adjective	2045
+1094	FASTEN	fasten	4.1400	0	Verb	23668
+1095	LET GO OR SET FREE	release	3.2400	0	Verb	25225
+1096	SONG	song	4.4600	0	Noun	12216
+1097	ABANDON	abandon	2.5400	1	Verb	26805
+1098	WEIGH	weigh	3.7900	0	Verb	24149
+11	DARKNESS	darkness	3.8500	0	Noun	15064
+1100	COOK (SOMETHING)	cooking	4.1900	0	Noun	13562
+1101	SUFFER	suffer	2.2800	0	Verb	27431
+1102	CLIMB	climb	4.1100	0	Verb	23690
+1103	SACRIFICE	offering	2.8200	0	Verb	26193
+1105	CAMP	camp	4.3500	0	Noun	12787
+1106	FALL ASLEEP	fall asleep	4.1500	0	#N/A	30827
+1107	GO OUT	out	2.7300	0	Adverb	6320
+1108	UNCOVER	uncover	3.4200	0	Verb	24847
+1109	WOUND	wound	4.2400	0	Noun	13359
+111	DRUMMING	drumming	4.2100	0	Noun	13464
+1110	SHARK	shark	4.9300	0	Noun	9072
+1111	CAR	car	4.8900	0	Noun	9290
+1112	SUCCEED	succeed	2.3300	0	Verb	27315
+1113	WRAP	wrap up	2.8800	0	#N/A	33451
+1114	BULLET	bullet	4.8300	0	Noun	9736
+1115	SPEECH	speech	3.3700	0	Noun	16953
+1117	LIKE	like	1.8900	0	Preposition	23243
+1119	DIVIDE	divide	2.8600	0	Verb	26081
+112	TURTLE	turtle	5.0000	0	Noun	8714
+1120	HONEST	honest	1.6600	0	Adjective	5684
+1121	SECRET	secret	2.1900	0	Noun	21204
+1122	WAGES	wages	3.9600	0	Noun	14609
+1123	PREGNANT	pregnant	4.5900	0	Adjective	53
+1124	PIPE	pipe	4.8800	0	Noun	9436
+1125	BALD	bald	4.6900	0	Adjective	40
+1126	CITRUS FRUIT	citrus fruit	4.6500	0	#N/A	29915
+1127	SEND	send	2.7000	0	Verb	26429
+1128	ORDER	order	2.7900	0	Noun	19075
+1129	PAINFUL	hurting	3.0300	0	Verb	25700
+113	SHORE	shore	4.7900	0	Name	8152
+1132	BEAM	beam	3.9600	0	Noun	14520
+1133	MATCH	match	4.1400	0	Noun	13809
+1134	DIVORCE	divorce	3.2500	0	Noun	17375
+1135	KICK	kick	4.3300	4	Verb	23513
+1136	RABBIT	rabbit	4.9300	0	Noun	9063
+1137	TENDON	tendon	4.4700	0	Noun	12156
+1138	FAIRY	fairy	4.1100	0	Noun	13912
+1139	LEOPARD	panther	4.9300	0	Noun	9044
+1140	FATIGUE	fatigue	3.1400	0	Noun	17763
+1141	PITY	pity	1.8700	0	Noun	22262
+1142	URINE	urine	4.9300	0	Noun	9099
+1143	OVEN	oven	4.9700	0	Noun	8773
+1144	WITNESS	witness	4.0700	0	Noun	14169
+1145	SWAMP	swamp	4.9600	1	Noun	8920
+1146	AUBERGINE	eggplant	4.9700	0	Noun	8748
+1147	PURE	pure	1.8700	0	Adjective	4953
+1148	BRUISE	bruise	4.7300	0	Noun	10448
+1149	ORPHAN	orphan	4.0400	0	Noun	14241
+1150	THUNDER	thundering	3.2900	0	Verb	25142
+1151	VEIL	veil	4.4500	0	Noun	12287
+1152	BEGET	beget	2.2500	4	Verb	27477
+1153	CATTLE	cattle	4.6400	0	Noun	11074
+1154	OLIVE	olive	4.9000	0	Adjective	25
+1155	CAVE	cave	4.9600	0	Noun	8830
+1156	OPEN	open	3.2100	0	Verb	25280
+1157	BECAUSE	because	1.2200	0	Conjunction	8031
+1158	STEP	step	4.5400	0	Verb	23425
+1159	FART	fart	4.1800	0	Noun	13619
+1160	THIEF	thief	4.3700	0	Noun	12713
+1161	THREAD	thread	4.8300	0	Noun	9812
+1162	INTENTION	intention	1.7000	0	Noun	22698
+1163	BRIBE (AMOUNT)	bribe	3.4400	0	Verb	24779
+1165	MOUSTACHE	moustache	4.9600	0	Noun	8890
+1167	GRUEL	gruel	3.9300	2	Noun	14655
+1169	OX	ox	4.8600	1	Noun	9561
+117	IMITATE	imitate	2.6600	0	Verb	26516
+1171	MIRROR	mirror	4.9700	0	Noun	8769
+1172	SHOOT	shoot	3.9700	0	Verb	23861
+1173	EYEBROW	eyebrow	4.8500	0	Noun	9651
+1174	YESTERDAY	yesterday	3.0000	0	Adverb	6242
+1175	GHOST	ghost	3.1900	1	Noun	17599
+1176	SPADE	spade	4.4600	0	Noun	12217
+1177	DIARRHEA	diarrhea	4.5200	0	Noun	11827
+1178	NOSTRIL	nostril	4.8900	0	Noun	9337
+118	BEWITCH	bewitch	2.1100	1	Verb	27829
+1181	PALM TREE	palm tree	5.0000	0	#N/A	28767
+1182	NOISE	noise	3.5200	0	Noun	16367
+1183	PALM OF HAND	palm	4.8300	0	Noun	9787
+1184	DIMINISH	diminish	2.5000	0	Verb	26905
+1185	VULTURE	vulture	4.7300	0	Noun	10491
+1187	GOOSE	goose	4.8100	0	Noun	9910
+1188	CHARCOAL	charcoal	4.8500	0	Noun	9638
+1189	ULCER	ulcer	4.6900	0	Noun	10788
+119	DIVE	dive	4.0300	0	Verb	23802
+1190	HARE	jackrabbit	4.6600	0	Noun	10988
+1192	THREATEN	threaten	2.6300	0	Verb	26598
+1193	STEAM	steam	4.5000	0	Noun	11995
+1194	BEAVER	beaver	4.6800	0	Noun	10803
+1195	GIVE BIRTH	give birth	4.0000	0	#N/A	31041
+1197	BABOON	baboon	4.9200	0	Noun	9113
+1198	MANY	numerous	2.5700	0	Adjective	2332
+1199	WIFE	wife	4.1300	0	Noun	13849
+12	MIDDAY	midday	3.7200	0	Noun	15597
+120	PITCHER	pitcher	4.9300	0	Noun	9056
+1200	HUSBAND	husband	4.1100	1	Noun	13920
+1201	FEATHER	plume	4.0000	3	Noun	14432
+1202	BIG	great	1.8100	0	Adjective	5177
+1203	LONG	long	3.1800	0	Adverb	6211
+1204	BARK	bark	4.5200	0	Noun	11807
+1205	TONGUE	tongue	4.9300	0	Noun	9094
+1207	YOUNG	young	3.1600	0	Adjective	1193
+1208	CAT	kitty	4.9700	0	Name	8121
+1209	I	I	3.9300	0	Pronoun	23273
+121	SPIN	spin	3.9000	0	Verb	23945
+1210	HEAVY	heaviness	2.8900	0	Noun	18709
+1211	HE	he	3.9300	0	Pronoun	23272
+1212	WE	we	3.0800	0	Pronoun	23287
+1213	YOU	you	4.1100	0	Pronoun	23271
+1214	THIS	these	2.0300	0	Determiner	8050
+1215	THOU	thou	2.1900	2	Pronoun	23312
+1216	MOTHER	mother	4.6000	0	Noun	11391
+1217	FATHER	padre	4.6000	4	Noun	11393
+1218	ROPE	ropes	4.7800	0	Noun	10171
+1219	WORM	worm	4.9000	0	Noun	9274
+122	CART	cart	4.8900	0	Noun	9291
+1220	TAIL	tail	4.9600	0	Noun	8921
+1221	NOSE	nose	4.8900	0	Noun	9336
+1222	PENIS	penis	5.0000	0	Noun	8671
+1223	HEART	heart	4.5200	0	Noun	11845
+1224	LIVER	liver	4.6800	0	Noun	10839
+1225	DAY (NOT NIGHT)	daytime	4.3100	0	Noun	12969
+1226	YEAR	year	3.2500	0	Noun	17403
+1227	BOARD	plank	5.0000	0	Noun	8677
+1228	EARTH (SOIL)	soil	4.8700	0	Noun	9483
+1229	OLD	overgrown	3.2800	0	Adjective	991
+123	FOREHEAD	forehead	4.9000	0	Noun	9209
+1230	DIRTY	dirty	4.2300	0	Adjective	144
+1231	NEW	new	2.8100	0	Adjective	1799
+1232	WARM	warm	3.5600	0	Adjective	654
+1233	NIGHT	night	4.5200	0	Noun	11860
+1234	SMOOTH	smooth	3.8100	0	Adjective	407
+1235	WHO	who	1.7400	0	Pronoun	23325
+1236	WHAT	what	2.0000	0	Determiner	8051
+1237	WHERE	where	1.6600	0	Adverb	7634
+1238	WHEN	when	1.6000	0	Conjunction	8019
+1239	HOW	how	1.3500	0	Adverb	7970
+124	THORN	thorn	5.0000	0	Name	8118
+1240	NOT	not	2.0800	0	Not	8553
+1241	SOME	several	3.0000	0	Determiner	8037
+1242	FEW	few	2.4800	0	Determiner	8041
+1243	WIDE	wideness	3.0700	0	#N/A	32955
+1244	THICK	thick	4.0000	0	Adjective	264
+1245	BUTTER	butter	4.9000	0	Noun	9186
+1246	SMALL	little	3.6700	0	Adjective	530
+1247	EAR	ear	5.0000	0	Noun	8606
+1248	EYE	eyes	4.8500	0	Noun	9652
+1250	JAGUAR	jaguar	4.9000	0	Noun	9220
+1251	BELLY	abdomen	4.7000	0	Noun	10628
+1252	HOUSE	house	5.0000	0	Noun	8637
+1254	HANDLE	handle	4.5700	0	Verb	23414
+1256	HEAD	head	4.7500	0	Noun	10340
+1257	WING	wing	4.8600	0	Noun	9622
+1258	FINGERNAIL	fingernail	4.9300	0	Noun	8998
+1259	WEDDING	wedding	3.9200	0	Noun	14784
+1261	SING	sing	4.3400	0	Verb	23503
+1262	BROTHER	brother	4.4300	0	Noun	12358
+1263	SISTER	sister	4.0000	0	Noun	14453
+1264	CHANGE	change	2.8900	0	Verb	26010
+1265	HIGH	high	3.4600	0	Adjective	758
+1266	BRIDE	bride	4.6300	0	Noun	11160
+1267	NARROW	narrow	3.0400	0	Adjective	1404
+1268	YES	affirmative	1.9300	0	Noun	22022
+1269	NO	no	2.4500	0	Interjection	8083
+127	EXTINGUISH	extinguish	3.4700	0	Verb	24721
+1270	WHY	why	1.8600	0	Adverb	7277
+1271	DELIGHT	please	1.6400	0	Adverb	7661
+1272	AUNT	aunt	4.1700	0	Noun	13643
+1273	CANDLE	candle	4.8600	0	Noun	9504
+1274	SALT	salt	4.8900	0	Noun	9358
+1275	ANSWER	answer	2.8900	0	Verb	26007
+1276	AUTUMN	autumn	3.2700	0	Noun	17298
+1277	HAND	hand	4.7200	0	Noun	10522
+1278	VOMIT	puke	4.5900	0	Verb	23410
+1279	FAT (OBESE)	fatness	3.1800	0	Noun	17638
+128	MUMBLE	mumble	3.6900	2	Verb	24319
+1280	FALL	fall	4.0400	0	Verb	23774
+1281	PRISON	jail	4.8300	0	Noun	9773
+1282	FAT (FROM ANIMALS)	lard	4.8800	1	Noun	9429
+1283	TODAY	today	2.5700	0	Adverb	6377
+1284	BANK	bank	4.7800	0	Noun	10130
+1285	IMPORTANT	important	2.1400	0	Adjective	3735
+1286	HOT	hot	4.3100	0	Adjective	112
+1287	COLD	coldness	3.3300	0	Noun	17040
+1288	CAP	cap	4.5900	1	Noun	11412
+1289	BABY	infant	4.9300	0	Noun	9018
+129	CHOKE	choke	3.9700	0	Verb	23852
+1290	ELEPHANT	elephant	5.0000	0	Noun	8609
+1291	BACK	back	4.3300	0	Adverb	6136
+1292	BAD	bad	1.6800	1	Adjective	5616
+1293	MISTAKE	error	2.6800	0	Noun	19469
+1294	ZERO	zero	2.8600	0	Number	23203
+1295	STICK	stick	4.5900	0	Verb	23412
+1296	WALKING STICK	cane	4.8700	0	Noun	9452
+1297	LEG	leg	4.8300	0	Noun	9774
+1298	NEWSPAPER	newspaper	4.8200	0	Noun	9856
+1299	COFFEE	coffee	4.8100	1	Noun	9896
+13	DECEIT	deception	1.8600	0	Noun	22279
+1300	COUNTRY	country	4.1700	0	Noun	13657
+1301	FOOT	foot	4.9000	0	Noun	9208
+1302	FORK	fork	4.9000	0	Noun	9210
+1303	FINGER	finger	5.0000	0	Noun	8615
+1305	CHIMNEY	chimney	5.0000	0	Noun	8590
+1306	QUEEN	queen	4.4500	0	Noun	12271
+1307	LANGUAGE	language	2.3500	0	Noun	20622
+1308	DOUBT	doubt	1.7900	0	Verb	28411
+1309	ASK (INQUIRE)	ask	2.5200	0	Verb	26851
+131	FESTIVAL	party	3.8900	0	Noun	14888
+1310	CLEVER	clever	1.7900	0	Adjective	5234
+1311	VERY	very	1.4300	0	Adverb	7926
+1312	FOX	fox	4.9700	0	Name	8120
+1313	MOON	moon	4.9000	0	Noun	9232
+1314	QUIET	quiet	2.7600	0	Adjective	1896
+1315	RADIO	radio	4.7400	0	Noun	10424
+1316	TENT	tent	4.9600	0	Noun	8925
+1318	CHICKEN	chicken	4.8000	0	Noun	9957
+1319	COWARD	coward	2.9300	0	Noun	18538
+132	SAUCE	sauce	4.7500	0	Noun	10368
+1320	APPLE	apple	5.0000	0	Noun	8556
+1321	BOTTLE	bottle	4.9100	5	Noun	9161
+1322	BREAKFAST	breakfast	4.4300	0	Noun	12355
+1323	CLOCK	clock	5.0000	0	Noun	8592
+1324	SLIP	slide	4.4800	0	Verb	23452
+1325	FRIEND	friend	3.0700	0	Noun	18026
+1326	DOWN	downward	3.1600	0	Adjective	1187
+1327	UNCLE	uncle	4.2400	0	Noun	13356
+1329	TOMORROW	tomorrow	2.0400	0	Adverb	6920
+133	WEAVE	weaving	3.3700	0	Verb	24955
+1330	DEFEND	defense	2.4500	0	Noun	20248
+1331	SHEEP	sheep	4.9000	0	Noun	9260
+1332	NEIGHBOUR	neighbor	4.6400	0	Noun	11111
+1333	NECK	neck	5.0000	0	Noun	8661
+1334	GUTS	gut	4.1500	0	Noun	13742
+1335	WHITE	white	3.8900	0	Adjective	340
+1336	EAT	eats	3.7900	0	Verb	24129
+1337	PIG	hog	4.6600	0	Noun	10985
+1338	PEACE	peace	1.6200	0	Noun	22866
+1339	MORNING	morning	3.4400	0	Noun	16670
+134	FAULT	guilt	1.9300	0	Noun	22051
+1340	WITH	with	2.0000	0	Preposition	23242
+1342	SUMMER	summer	3.6400	0	Noun	15927
+1343	SUN	sun	4.8300	0	Noun	9808
+1344	RAM	ram	4.5500	0	Noun	11696
+1346	THROAT	throat	4.9700	0	Noun	8792
+1347	NAPE (OF NECK)	nape	4.4400	1	Noun	12319
+1348	BOAR (MALE PIG)	boar	4.8000	0	Noun	9951
+1349	CHURCH	church	4.9000	0	Noun	9192
+135	BOOMERANG	boomerang	4.7000	1	Noun	10636
+1350	MONKEY	monkey	4.9000	0	Noun	9231
+1351	SOW (FEMALE PIG)	sow	4.0400	0	Verb	23792
+1352	KNIFE	knife	4.9000	0	Noun	9226
+1353	HOUR	hour	3.1000	0	Noun	17920
+1354	NEXT	next	2.5600	1	Number	23205
+1355	LAUGH	laugh	4.2100	0	Verb	23594
+1356	NUMBER	number	3.3000	0	Noun	17184
+1357	DAUGHTER	daughter	4.7900	0	Noun	10033
+1358	ENEMY	enemy	2.8300	0	Noun	18910
+1359	SEPARATE	separate	3.2500	0	Adjective	1034
+136	HERE	here	3.1300	0	Adverb	6220
+1360	DUCK	duck	4.8600	0	Noun	9529
+1361	TOOL	wrench	4.9300	1	Noun	9106
+1362	STREET	street	4.7500	0	Noun	10372
+1363	VOICE	voice	4.1300	0	Noun	13848
+1364	HEALTHY	health	2.2800	0	Noun	20856
+1365	KITCHEN	kitchen	4.9700	0	Noun	8760
+1366	BOY	boy	4.7600	0	Noun	10253
+1367	CROSS	cross	4.4400	0	Verb	23459
+1368	BREAD	bread	4.9200	0	Noun	9118
+1369	GOLD	gold	4.8100	0	Noun	9909
+1370	MONTH	month	4.2000	0	Noun	13536
+1371	KNEE	knee	5.0000	0	Noun	8644
+1372	MEDICINE	medication	4.5300	0	Noun	11788
+1373	TEA	tea	4.6900	0	Noun	10784
+1374	RING	ring	4.8100	0	Noun	9931
+1375	WINDOW	window	4.8600	0	Noun	9619
+1376	NOW	now	1.4800	0	Adverb	7885
+1377	VISIT	visit	3.9200	1	Verb	23934
+1378	SPOON	spoon	4.9600	0	Noun	8915
+1379	TELEPHONE	phone	4.8600	0	Noun	9570
+138	BATHE	bath	4.8500	0	Noun	9630
+1380	TOOTH	teeth	4.9600	0	Noun	8923
+1381	SHOE	shoe	4.9700	0	Noun	8782
+1382	NEEDLE (FOR SEWING)	needle	4.9300	0	Noun	9035
+1383	GRANDFATHER	grandfather	4.8600	0	Noun	9537
+1384	SECOND	second	3.3000	0	Noun	17189
+1385	PEPPER	pepper	4.5900	0	Noun	11450
+1386	LION	lion	4.9600	0	Noun	8880
+1387	ARRIVE	arrive	3.2200	0	Verb	25247
+1388	SHADE	shade	3.3800	0	Noun	16912
+1389	TOE	toe	4.9300	0	Noun	9093
+139	GUMS	gum	4.8900	0	Noun	9315
+1390	WRONG	wrong	1.8300	0	Adjective	5131
+1391	TOWN	town	4.6400	0	Noun	11145
+1392	LOUSE	lice	4.7300	0	Noun	10467
+1393	HORN (ANATOMY)	horn	5.0000	0	Noun	8633
+1394	BONE	bone	4.9000	0	Noun	9177
+1395	ROUND	round	3.9000	0	Adjective	329
+1396	SHARP	sharp	3.8600	0	Adjective	357
+1398	DRY	dry	3.7700	0	Adjective	437
+1399	CLAY	clay	4.9300	0	Noun	8975
+14	YOKE	yoke	4.8300	1	Noun	9818
+1400	THIN (SLIM)	slimy	3.2600	0	Adjective	1021
+1401	DRINK	drink	4.7600	0	Noun	10263
+1402	BREAST	bosom	4.6300	2	Noun	11157
+1403	BITE	bite	4.4400	0	Verb	23458
+1404	STRAIGHT	straight	2.7600	0	Adverb	6305
+1405	NAME	last name	3.5600	2	#N/A	31795
+1406	FAR	faraway	2.9600	3	Noun	18441
+1407	BREATHE	breathing	4.1000	0	Verb	23707
+1408	HEAR	hear	3.6600	0	Verb	24379
+1409	SEE	see	3.2100	0	Verb	25291
+1411	LIE (REST)	lie	3.1100	0	Verb	25497
+1412	RUDE	rude	2.5200	0	Adjective	2456
+1413	PLAY	play	3.2400	0	Verb	25224
+1414	SQUEEZE	wring	4.0000	3	Verb	23849
+1416	SIT	sit	4.8000	0	Verb	23355
+1417	KILL	kill	3.9000	0	Verb	23942
+1418	DIG	dig	4.3300	0	Verb	23511
+1419	FEAR (BE AFRAID)	afraid	2.7000	0	Adjective	2012
+1420	COUNT	counting	3.5700	0	Verb	24537
+1421	SUCK	suck	3.4600	0	Verb	24753
+1422	BE ALIVE	living	3.0400	0	Verb	25654
+1423	FIGHT	fight	4.2000	0	Verb	23605
+1424	YELLOW	yellow	4.3000	0	Adjective	116
+1425	GREEN	green	4.0700	0	Adjective	210
+1426	EXPENSIVE	expensiveness	2.0000	2	#N/A	36998
+1427	BEAUTIFUL	beautiful	2.1600	0	Adjective	3659
+1428	BURNING	burning	3.8500	0	Verb	24026
+1429	FULL	full	3.5900	0	Adjective	603
+143	HUMID	humid	3.4800	0	Adjective	742
+1430	STAR	star	4.6900	0	Noun	10779
+1431	FREEZE	freeze	3.9600	0	Verb	23876
+1432	CUT	cut	4.5500	0	Verb	23421
+1433	HIT	hit	4.1100	0	Verb	23695
+1434	STAB	prick	3.9100	1	Noun	14793
+1435	HUNT	hunting	3.9600	0	Noun	14568
+1436	SCRATCH	scratch	4.1600	0	Verb	23651
+1437	SPLIT	split	3.9600	0	Verb	23887
+1438	FOOL	fool	3.1900	0	Noun	17597
+1439	SWIM	swimming	4.4400	0	Noun	12338
+144	MACHINE	machine	4.2500	0	Noun	13290
+1440	SPIT	spit	4.7100	0	Verb	23377
+1441	FLY (MOVE THROUGH AIR)	flying	4.1000	0	Verb	23710
+1442	STAND	stand	4.1600	0	Verb	23652
+1443	WALK	walk	4.0700	0	Verb	23761
+1444	TURN AROUND	turn around	3.8000	0	#N/A	31348
+1445	TURN (SOMETHING)	turn over	3.9300	0	#N/A	31151
+1446	COME	comes	2.2700	2	Verb	27438
+1447	GIVE	gave	2.3800	0	Verb	27187
+1448	HOLD	hold	3.6800	0	Verb	24334
+1449	RUB	rub	4.3300	0	Verb	23515
+145	SORROWFUL	sorrowful	1.7400	0	Adjective	5442
+1450	ROOM	room	4.7900	0	Noun	10092
+1451	SMILE	smiling	3.8800	2	Verb	23990
+1452	PUSH	push	4.2100	0	Verb	23596
+1453	WASH	wash	4.3500	0	Verb	23501
+1454	WIPE	wipe off	4.3200	0	#N/A	30593
+1455	PULL	pull	3.9700	0	Verb	23858
+1456	THROW	throw	4.0400	1	Verb	23794
+1457	SEW	sew	3.9300	0	Verb	23914
+1458	SAY	said	2.9700	0	Verb	25825
+1459	IF	if	1.1900	0	Conjunction	8034
+146	SUGAR CANE	sugar cane	4.8200	0	#N/A	29425
+1460	IN	within	2.8100	0	Preposition	23222
+1461	AT	at	2.0700	0	Preposition	23240
+1462	POT	jar	5.0000	0	Noun	8640
+1463	DRUNK	intoxicated	3.5600	0	Verb	24561
+1464	LADDER	ladder	5.0000	0	Noun	8645
+1465	BOX	case	3.9300	1	Noun	14637
+1466	EXACT	exact	2.5400	0	Adjective	2387
+1467	CIRCLE	circle	4.4400	0	Noun	12302
+1468	LOOK FOR	seek	2.6800	1	Verb	26476
+1469	WEEK	week	3.4800	0	Noun	16551
+1470	FOLD	fold	4.1300	0	Verb	23677
+1471	WINTER	winter	3.8400	0	Noun	15135
+1472	KEY	key	4.8900	0	Noun	9324
+1473	FIST	fist	4.9300	0	Noun	9002
+1474	SEA	sea	4.7900	0	Noun	10098
+1475	COMB	comb	5.0000	1	Verb	23339
+1476	CHAIR	chair	4.5800	0	Noun	11491
+1477	KEEP	keep	2.3700	0	Verb	27216
+1478	WITHOUT	without	2.1500	1	Preposition	23238
+1479	DOLPHIN	dolphin	4.9600	0	Noun	8846
+148	ITCH	itch	3.1500	0	Noun	17727
+1480	BODY	body	4.7900	0	Noun	10009
+1481	HAMMER	hammer	4.7700	0	Noun	10217
+1482	SHOULDER	shoulder	4.9300	0	Noun	9074
+1483	NINE	nine	4.0400	0	Number	23150
+1484	OIL (ORGANIC SUBSTANCE)	oil	4.9300	0	Noun	9039
+1485	BELOW OR UNDER	underneath	3.7100	0	Preposition	23207
+1487	POUR	pour	4.1400	0	Verb	23671
+1488	FAUCET	faucet	4.4800	0	Noun	12053
+1489	CLOUD	cloud	4.5400	0	Noun	11724
+149	ITCHY	itchy	3.2100	0	Adjective	1095
+1490	RAT	rat	4.8500	0	Noun	9686
+1491	MOUSE	mouse	4.8300	0	Noun	9783
+1492	DUMB	dumb	2.3600	0	Adjective	2918
+1493	ONE	one	3.9700	0	Number	23151
+1494	DIE	pass away	2.6100	1	#N/A	34316
+1495	HAPPY	glad	2.3600	0	Adjective	2923
+1496	GRANDMOTHER	grandmother	4.6500	0	Noun	11038
+1498	TWO	two	4.1800	0	Number	23147
+1499	JUICE	juice	4.8900	0	Noun	9323
+15	OTTER	otter	4.8600	0	Noun	9560
+150	WORRY	worry	2.5500	0	Verb	26804
+1500	FOUR	four	3.3700	0	Number	23186
+1501	BORE	perforate	3.3300	2	Verb	25024
+1502	GOAT	goat	5.0000	0	Noun	8622
+1503	SALIVA	spittle	4.5200	4	Noun	11885
+1504	FLY (INSECT)	housefly	4.9600	0	Adverb	6130
+1505	SPERM	sperm	4.8200	0	Noun	9869
+1506	MEASURE	measure	3.5900	0	Verb	24501
+1507	FRUIT	fruit	4.8100	0	Noun	9908
+1508	KING	emperor	4.3500	0	Noun	12795
+1509	MOSQUITO	gnat	4.8300	127	Noun	9759
+151	RAZOR	razor	4.9000	0	Noun	9251
+1510	CHIN	chin	4.8900	0	Noun	9295
+1511	ROOSTER	cock	4.7900	0	Noun	10026
+1514	HEN	hen	4.9000	0	Noun	9218
+1515	TEN	ten	3.3900	0	Number	23183
+1517	WASP	wasp	4.9600	0	Noun	8938
+1518	STUPID	foolish	1.8400	0	Adjective	5075
+1519	RUN	ran	3.8200	0	Verb	24090
+152	HOOF	hoof	4.8900	0	Noun	9318
+1521	SEEM	seem	1.7500	0	Verb	28479
+1522	SOCK	sock	4.9100	7	Noun	9166
+1523	FORGET	forget	2.0400	0	Verb	27980
+1524	WINE	wine	4.7900	0	Noun	10124
+1525	COAST	coast	4.2100	0	Noun	13451
+1526	MEAL	meal	4.6200	0	Noun	11263
+1527	TICK	tick	4.5700	0	Noun	11602
+1528	FORGIVE	forgive	1.9200	0	Verb	28235
+1529	LAST (FINAL)	last	3.0400	0	Number	23198
+153	GREY	gray	3.4600	0	Adjective	757
+1530	BOWL	bowl	4.8700	0	Noun	9450
+1531	BRANCH	limb	4.6400	0	Noun	11105
+1532	SHEAR	shear	3.3700	2	Verb	24948
+1533	BE HUNGRY	hungry	2.9000	0	Adjective	1638
+1534	FEVER	fever	3.2700	0	Noun	17309
+1535	SWORD	sword	4.9300	0	Noun	9085
+1536	UNDERSTAND	understand	2.2800	0	Verb	27433
+1537	SPRINGTIME	spring	3.8900	0	Noun	14905
+1538	SCORPION	scorpion	4.8400	0	Noun	9718
+1539	BASKET	basket	5.0000	0	Noun	8565
+154	UDDER	udder	5.0000	1	Noun	8715
+1540	EYELASH	eyelash	5.0000	0	Noun	8612
+1541	CULTIVATE	cultivate	3.1400	1	Verb	25435
+1542	ACCOMPANY	accompany	3.0700	0	Verb	25566
+1543	SNAIL	snail	4.9300	0	Noun	9077
+1544	SOMETIMES	sometimes	1.7700	0	Adverb	7429
+1545	HOST	host	3.6300	0	Noun	15948
+1546	TWICE	twice	2.9300	0	Adverb	6255
+1547	SOUP	broth	4.6800	0	Noun	10806
+1548	UGLY	ugly	3.2300	0	Adjective	1069
+1549	TRIBE	tribe	4.1400	0	Noun	13830
+1550	PREVENT	prevent	2.3400	0	Verb	27285
+1551	FEMALE	female	4.5700	0	Adjective	56
+1552	GLOOMY	gloomy	2.5200	0	Adjective	2439
+1553	MALE	male	4.4500	0	Adjective	73
+1554	MAN	men	4.7500	0	Noun	10352
+1555	CHAMELEON	chameleon	4.6800	1	Noun	10815
+1556	YOLK	yolk	4.7800	1	Noun	10192
+1557	BEGINNING	beginning	2.5000	0	Noun	20062
+1558	SIMILAR	alike	2.3800	0	Adverb	6487
+1559	MONEY	money	4.5400	0	Noun	11748
+156	RED	red	4.2400	0	Adjective	140
+1560	FACE	face	4.8700	0	Noun	9462
+1561	ARMY	army	4.7000	0	Noun	10630
+1562	MIND	mind	2.5000	0	Noun	20084
+1563	PYTHON	python	4.9600	1	Noun	8902
+1564	LAZY	lazy	2.6700	0	Adjective	2090
+1565	HEAVEN	heaven	1.8100	0	Noun	22439
+1566	GUN	rifle	4.8500	0	Noun	9687
+1567	DOOR	doorway	4.7500	0	Noun	10334
+1568	ARRANGE	arrange	2.7900	0	Verb	26241
+1569	CHEESE	cheese	4.7000	0	Noun	10645
+157	DYE	dye	4.5800	0	Noun	11496
+1570	EQUAL	equal	2.5600	0	Adjective	2346
+1571	SELL	sell	3.3500	1	Verb	24989
+1572	SURPRISED	surprised	2.5000	0	Adjective	2523
+1573	SWELL	swollen	3.6000	0	Verb	24483
+1574	FLOAT	float	4.0700	0	Verb	23738
+1575	COCKROACH	roach	4.9600	1	Noun	8904
+1576	PILE UP	pile up	3.8500	1	#N/A	31274
+1577	AND	and	1.5200	0	Conjunction	8023
+1578	IGUANA	iguana	4.8300	0	Noun	9772
+1579	BE	will	2.6400	0	Verb	26564
+1580	ONLY	only	2.4100	0	Adverb	6468
+1581	ALLIGATOR	alligator	4.9600	0	Noun	8801
+1583	BRAIN	brains	3.9600	0	Noun	14525
+1584	BLISTER	blister	4.7100	0	Noun	10572
+1585	SLEEP	sleep	4.4400	0	Verb	23464
+1587	SMELL (STINK)	stink	3.7200	0	Verb	24257
+1588	TURN	turn	3.4400	0	Verb	24797
+1589	HUMMINGBIRD	hummingbird	4.9600	0	Noun	8866
+159	SWEET POTATO	sweet potato	5.0000	0	#N/A	28790
+1590	WAIT (FOR)	await	1.5400	0	Verb	28643
+1591	UP	upwards	2.6300	0	Adverb	6359
+1592	CHEST	chest	4.9300	0	Noun	8970
+1593	DEEP	deep	3.3800	0	Adjective	854
+1594	FLOUR	flour	4.9700	0	Noun	8751
+1595	SOUTH	south	3.8400	0	Noun	15128
+1596	LOCK	lock	4.6500	0	Verb	23389
+1597	AIRPLANE	plane	4.9200	0	Noun	9144
+1598	NORTH	north	4.1400	0	Noun	13811
+1599	WORD	word	3.5600	0	Noun	16255
+16	SLED	sleigh	4.7100	0	Noun	10618
+160	SET (HEAVENLY BODIES)	set	3.4100	0	Verb	24867
+1600	SKIRT	skirt	4.8200	0	Noun	9867
+1601	WEAK	weak	2.7900	0	Adjective	1842
+1602	WAKE UP	waken	2.9500	2	Verb	25907
+1603	MOSQUE	mosque	4.5400	0	Noun	11749
+1605	SKULL	skull	4.8300	0	Noun	9800
+1606	INSIDE	inside	3.6700	0	Adverb	6169
+1607	HATE	hate	1.9700	0	Verb	28120
+1608	LISTEN	listen	3.4700	0	Verb	24725
+1609	IDEA	idea	1.6100	0	Noun	22878
+161	MISS (A TARGET)	miss	2.5400	0	Noun	19955
+1610	PROSTITUTE	whore	4.1500	0	Noun	13771
+1611	INVITE	invite	3.0000	0	Verb	25753
+1612	LETTER	letter	4.7000	0	Noun	10677
+1613	COLOR	color	4.0800	0	Noun	14025
+1614	SUMMIT	summit	4.2100	1	Noun	13508
+1615	ESCAPE	escape	3.3400	0	Verb	24998
+1616	CLOTH	cloth	4.9000	0	Noun	9193
+1617	GRANDCHILD	grandchild	4.2600	0	Noun	13242
+1618	GRANDSON	grandson	4.3000	0	Noun	13033
+1619	GRANDDAUGHTER	granddaughter	4.3700	0	Noun	12682
+162	HICCOUGH	hiccup	4.3100	0	Noun	12973
+1620	SON	son	4.1400	0	Noun	13822
+1621	SNEEZE	sneeze	4.0300	0	Verb	23809
+1622	SHIRT	shirt	4.9400	1	Noun	8943
+1623	SPEAK	spoke	3.3800	0	Verb	24923
+1624	EMPTY	empty	3.4300	0	Adjective	793
+1625	DEAD	dead	4.0700	0	Adjective	207
+1626	EXPLAIN	explain	1.9700	0	Verb	28119
+1627	CHAIN	chain	4.5500	0	Noun	11676
+1628	SQUIRREL	squirrel	4.8900	0	Noun	9369
+1629	EVENING	evening	3.2600	0	Noun	17342
+163	BLACK	black	3.7600	0	Adjective	444
+1630	MACAW	macaw	4.8100	2	Noun	9920
+1631	FAST	swift	3.0400	2	Adjective	1417
+1632	FLOOR	floor	4.8000	0	Noun	9964
+1633	FLAT	flat	4.0700	0	Noun	14101
+1634	HUNDRED	hundred	3.2000	0	Noun	17561
+1635	OBEY	obey	2.6700	0	Verb	26495
+1636	MOTIONLESS	motionless	3.0000	0	Adjective	1464
+1638	TRUTH	truth	1.9600	0	Noun	22010
+1639	BEER	beer	4.8800	0	Noun	9403
+164	KANGAROO	kangaroo	4.8600	0	Noun	9547
+1640	SIBLING	sibling	4.3700	0	Noun	12709
+1641	SILK	silk	4.7000	0	Noun	10700
+1642	NIECE	niece	4.2800	0	Noun	13155
+1643	COUSIN	cousin	3.7000	1	Noun	15649
+1644	RELATIVES	relative	2.9700	0	Noun	18390
+1645	SHORT	short	3.6100	0	Adjective	590
+1646	GIRL	girl	4.8500	0	Noun	9655
+1647	FOAL	pony	4.9000	0	Noun	9244
+1648	ANVIL	anvil	4.9600	1	Noun	8803
+1650	WATCH	watch	4.6100	0	Verb	23406
+1652	INSTEAD	instead	1.4800	0	Preposition	23266
+1653	BLIND	blind	4.0300	0	Adjective	240
+1654	LIGHTNING	lightening	4.1900	0	Verb	23617
+1655	BLINK	wink	4.2300	0	Noun	13400
+1656	NEVER	never	1.5900	0	Adverb	7754
+1657	TRUE	real	2.5000	0	Adjective	2514
+1659	DOLL	doll	5.0000	0	Noun	8601
+166	MAINLAND	mainland	4.3100	1	Noun	12982
+1661	STRAIT	strait	4.0400	1	Noun	14267
+1662	CAPE	cape	4.7700	0	Name	8155
+1663	BED	bed	5.0000	0	Noun	8569
+1664	RAFT	raft	5.0000	0	Noun	8682
+1665	BEAT	beat	3.9700	0	Verb	23851
+1666	MUTE	mute	3.2400	0	Adjective	1054
+1667	HOLE	hole	4.8100	0	Noun	9913
+1668	GRIEF	sorrow	2.3600	0	Noun	20600
+1669	ANCESTORS	ancestors	3.3600	0	Noun	16964
+1671	TOWER	tower	4.7600	0	Noun	10315
+1672	WRITE	write	4.2200	0	Verb	23584
+1673	ARM	arms	4.9700	0	Noun	8728
+1674	POOR	poor	2.7000	0	Adjective	2028
+1675	PROMISE	promise	2.0900	0	Verb	27878
+1676	ALWAYS	always	1.7100	0	Adverb	7535
+1678	HUT	shelter	4.6400	0	Noun	11134
+1679	LOAD	burden	2.6300	0	Noun	19630
+168	REST	relax	2.8600	0	Verb	26095
+1680	HELMET	helmet	4.9200	0	Noun	9129
+1681	WAIST	waist	4.7200	0	Noun	10562
+1682	GUILTY	guilty	2.3600	0	Adjective	2924
+1683	BUSH	bush	4.9000	0	Noun	9185
+1684	BUD	bud	4.4800	0	Name	8213
+1685	AFTER	after	2.1200	0	Preposition	23239
+1686	BEHIND	behind	3.4800	0	Preposition	23208
+1688	FATE	fate	1.5300	0	Noun	23000
+1689	SMOKE (INHALE)	smoking	4.3200	0	Verb	23527
+169	IT	it	2.8100	1	Pronoun	23295
+1690	FENCE	fence	4.8200	0	Noun	9838
+1691	FLEXIBLE	flexible	2.6400	0	Adjective	2142
+1696	SURRENDER	give up	2.5900	0	#N/A	34367
+1698	CURVED	curved	3.3500	0	Adjective	893
+17	EYELID	eyelid	5.0000	0	Noun	8613
+1700	SATURDAY	saturday	3.0700	0	#N/A	32943
+1702	HOLY	sacred	1.7700	0	Adjective	5344
+1703	SIX	six	3.4300	0	Number	23179
+1704	SEVEN	seven	3.7200	0	Number	23162
+1705	EIGHT	eight	4.0400	0	Number	23149
+1706	ELEVEN	eleven	3.9300	0	Number	23153
+1707	TWELVE	twelve	3.6100	0	Number	23171
+1708	THIRTEEN	thirteen	3.6900	0	Number	23163
+1709	FIFTEEN	fifteen	3.3700	0	Number	23184
+1710	TWENTY	twenty	3.6700	0	Number	23165
+1711	TELL	tell	2.9000	0	Verb	26004
+1712	OATH	oath	2.7900	0	Noun	19074
+1713	EIGHTEEN	eighteen	3.9600	0	Number	23152
+1714	NINETEEN	nineteen	3.2600	0	Number	23189
+1715	THIRTY	thirty	3.7500	0	Number	23161
+1716	FORTY	forty	4.1400	1	Number	23148
+1717	FIFTY	fifty	3.4800	0	Number	23177
+1718	SIXTY	sixty	3.5600	0	Number	23176
+1719	BURY	bury	3.8200	1	Verb	24075
+172	SHOULDERBLADE	shoulder blade	4.9200	0	#N/A	29054
+1720	SIGN	mark	4.2100	0	Name	8266
+1721	SEVENTY	seventy	3.3600	1	Number	23187
+1722	EIGHTY	eighty	3.4100	0	Number	23180
+1723	RESULT IN	turn out	2.8900	0	#N/A	33408
+1724	NINETY	ninety	3.3900	0	Number	23182
+1725	CORRECT (RIGHT)	correct	2.5900	0	Adjective	2262
+1726	WET	wet	4.4600	0	Adjective	71
+1727	THRESHOLD	threshold	3.4800	0	Noun	16545
+1728	ROTTEN	rotten	3.8700	0	Adjective	351
+1730	CHEEK	cheek	4.8300	0	Noun	9742
+1732	SKY	sky	4.4500	0	Noun	12279
+1733	RAINBOW	rainbow	4.5700	0	Noun	11585
+1735	TEAR (SHRED)	tear	4.5600	0	Verb	23418
+1737	OKRA	okra	4.7800	2	Noun	10159
+1739	DECORATE	decorate	3.4000	0	Verb	24881
+174	PROUD	proud	2.0700	0	Adjective	4056
+1740	PINE	pine tree	4.9600	0	#N/A	28894
+1741	ABOVE	over	2.4600	0	Adverb	6441
+1743	JOIN	unite	2.5800	2	Verb	26720
+1744	SPLEEN	spleen	4.7000	1	Noun	10706
+1745	HIP	hip	4.2100	0	Noun	13479
+1746	BLADDER	bladder	4.4800	0	Noun	12021
+1747	CUSTOM	ritual	2.6000	0	Noun	19736
+1748	RIDGE	ridge	4.4800	1	Noun	12103
+1749	TAKE	take	3.0600	0	Verb	25627
+175	BLOW (OF WIND)	blow	3.7400	0	Verb	24212
+1750	CHOOSE	chose	2.4800	1	Verb	26935
+1751	BIRTHMARK	birthmark	4.3500	0	Noun	12784
+1752	LEAVE	exit	3.9300	0	Noun	14649
+1753	TOP	top	3.9300	0	Noun	14713
+1754	BRACELET	bracelet	4.9600	0	Noun	8820
+1755	UNDRESS	take off	3.6200	0	#N/A	31684
+1756	WIDOW	widow	4.3300	0	Noun	12906
+1757	TIRED	tired	3.0000	0	Adjective	1479
+1759	OLDER BROTHER	big brother	4.4100	0	#N/A	30430
+1763	CLUB	club	3.7800	0	Noun	15382
+1764	OBSCURE	obscure	2.0000	0	Adjective	4377
+1765	IN VAIN	in vain	1.6900	1	#N/A	38879
+1766	FINISH	finish	2.8900	0	Verb	26018
+1767	SCRAPE	scrape	4.1500	0	Verb	23656
+1768	FOAM	foam	4.8500	0	Noun	9653
+1769	AXLE	axle	4.5000	1	Noun	11911
+1771	TASTELESS	tasteless	2.5400	1	Adjective	2408
+1772	ELK	moose	4.9700	0	Noun	8770
+1773	GRAVE	tomb	4.7300	0	Noun	10488
+1774	STINGY	stingy	2.0000	0	Adjective	4403
+1775	TABLE	desk	4.8700	0	Noun	9459
+1776	SHAME	shame	2.2400	0	Noun	20999
+1777	RESEMBLE	look alike	3.8300	0	#N/A	31296
+1778	APPROACH	approach	2.7400	0	Noun	19233
+1779	DARE	dare	2.2800	0	Verb	27413
+178	RIPE	ripe	3.3000	0	Adjective	964
+1780	BILE	bile	4.4600	2	Noun	12164
+1781	THUMB	thumb	4.9600	0	Noun	8928
+1782	GUEST	guest	3.8300	0	Noun	15159
+1783	PAIN	suffering	2.3900	0	Verb	27170
+1784	WANT	wish	1.7700	0	Verb	28452
+1787	LOOM	loom	4.5000	1	Noun	11957
+1788	TELEVISION	tv	5.0000	0	#N/A	28801
+1789	AGE	old age	3.0400	0	#N/A	33005
+179	RIPEN	ripen	3.3100	0	Verb	25080
+1791	BUTTERFLY	butterfly	4.9300	0	Noun	8963
+1792	PERJURY	perjury	2.2200	1	Noun	21059
+1793	BAT	bat	5.0000	0	Noun	8566
+1796	SLAUGHTER	slaughter	3.6800	0	Noun	15761
+1797	HEDGEHOG	hedgehog	4.9300	0	Noun	9012
+1798	GUNPOWDER	gunpowder	4.7900	0	Noun	10058
+1799	HYENA	hyena	4.5700	0	Noun	11567
+18	EARLOBE	earlobe	4.9600	0	Noun	8852
+1802	SCREW	screw	4.8100	0	Verb	23353
+1803	WOOD	log	4.9600	0	Noun	8882
+1804	BOMB	bomb	4.8400	0	Noun	9705
+1807	AFTERNOON	afternoon	3.7000	0	Noun	15647
+1808	PUS	pus	4.5200	3	Noun	11871
+1809	PIMPLE	pimple	4.7700	0	Noun	10230
+181	ANTEATER	anteater	4.8600	1	Noun	9494
+1810	DANGER	danger	2.6800	0	Noun	19464
+1812	TRY	tried	2.0700	0	Verb	27954
+1813	TASTY	delicious	2.4300	0	Adjective	2699
+1814	ACCUSE	accuse	2.2500	0	Verb	27475
+1815	ACHE	ache	3.4300	0	Noun	16684
+1816	BESIDE	beside	2.5900	1	Preposition	23227
+1817	WEST	west	3.4400	0	Noun	16682
+1819	LOOK	look	2.9600	1	Verb	25863
+1820	BEAR	bear	4.8800	0	Noun	9401
+1821	BRUSH	brush	4.5400	0	Verb	23424
+1823	BORROW	borrow	3.1000	0	Verb	25518
+1825	COPPER	copper	4.5200	0	Noun	11821
+1826	ANGRY	angry	2.5300	0	Adjective	2412
+1828	ASK (REQUEST)	request	2.5900	0	Noun	19786
+1829	JUMP	jump	4.5200	0	Verb	23436
+183	BAKE	bake	4.2100	0	Verb	23585
+1830	CRANE	crane	4.6800	0	Name	8183
+1831	MEET	meet	3.0000	0	Verb	25757
+1833	DINNER (SUPPER)	supper	4.6300	0	Noun	11214
+1834	SHE	she	3.3600	0	Pronoun	23282
+1835	MARROW	bone marrow	4.4300	0	#N/A	30394
+1836	VAGINA	vagina	4.8200	0	Noun	9878
+1837	VULVA	vulva	4.5000	1	Noun	12012
+1838	NAVEL	navel	4.7100	0	Noun	10601
+1839	CRY	weep	4.5400	0	Verb	23427
+184	MAST	mast	4.9200	1	Noun	9133
+1840	BUILD	build	3.7100	0	Verb	24265
+1841	SUSPECT	suspect	2.5900	0	Noun	19791
+1842	OBSTINATE	obstinate	1.7900	1	Adjective	5258
+1843	THOUSAND	thousand	3.0800	0	Noun	17986
+1844	BOAT	boat	4.9300	0	Noun	8954
+1845	BALL	sphere	4.4400	0	Noun	12334
+1846	RULE	rule	2.5700	0	Noun	19854
+1847	SICK	feverish	2.5700	0	Adjective	2324
+1848	QUARREL	quarrel	3.3200	0	Noun	17115
+1849	ROW	row	3.9300	0	Noun	14690
+185	FIREPLACE	hearth	4.3800	1	Noun	12624
+1850	COTTON	cotton	4.9700	0	Noun	8744
+1851	POCKET	pocket	4.6800	0	Noun	10849
+1852	OFTEN	frequently	1.8800	0	Adverb	7216
+1853	DOVE	turtledove	4.6100	2	Noun	11368
+1854	SPARROW	sparrow	4.8500	0	Name	8145
+1855	BIRCH	birch	4.1200	1	Name	8286
+1856	SOFT	softness	3.1000	0	Noun	17933
+1857	CROCODILE	crocodile	4.8300	0	Noun	9750
+1858	FISHERMAN	fisherman	4.7300	0	Noun	10455
+1859	THIRD	third	3.4400	0	Number	23178
+186	SHIN	shin	4.8600	0	Noun	9588
+1860	BEAD	bead	4.9000	0	Noun	9173
+1861	ACTIVE	active	3.3200	0	Adjective	920
+1862	DONKEY	donkey	5.0000	0	Noun	8602
+1863	AMAZING	amazing	1.5500	0	Adjective	5892
+1864	HUNGER	hunger	3.3000	0	Noun	17179
+1865	BUZZARD	buzzard	4.7400	0	Noun	10388
+1866	STUTTER	stutter	3.9700	0	Verb	23865
+1867	COIN	coin	4.8900	0	Noun	9298
+1868	VISIBLE	visible	3.0800	2	Adjective	1326
+1869	BUY	but	2.0400	0	Conjunction	8010
+1870	ANCHOR	anchor	4.7700	0	Noun	10193
+1871	CAMEL	camel	4.9300	0	Noun	8964
+1873	ANTHILL	anthill	4.8900	0	Noun	9277
+1874	SAUSAGE	sausage	4.8800	0	Noun	9438
+1875	REGRET	repent	1.9600	0	Verb	28166
+1876	REINDEER	reindeer	4.7000	0	Noun	10694
+1877	EAST	east	3.0400	0	Noun	18128
+1879	DANCE	dance	4.3200	0	Verb	23522
+1880	PASSIONATE	passionate	1.4800	0	Adjective	6000
+1881	ENOUGH	enough	1.3300	0	Adverb	7974
+1882	BEFORE	till	4.0000	1	Conjunction	8009
+1884	HARD	hardness	3.3400	0	Noun	17029
+1885	ARMADILLO	armadillo	4.9000	0	Name	8136
+1886	ARMPIT	armpit	4.8000	0	Noun	9946
+1887	CHEAP	inexpensiveness	1.9200	2	Noun	22122
+1888	PAIR	pair	3.8800	0	Noun	14957
+1889	ARSON	arson	3.6600	0	Noun	15829
+1890	BELIEVE	faith	1.6300	0	Noun	22835
+1891	PUMA	puma	4.8600	0	Noun	9574
+1892	TOUCH	touch	3.8600	0	Verb	24022
+1893	QUAIL	quail	4.6500	1	Noun	11049
+1894	ASHAMED	ashamed	1.7400	0	Adjective	5424
+1895	CLOTHES	clothes	4.7600	0	Noun	10258
+1896	FINGERNAIL OR TOENAIL	nail	4.9300	0	Verb	23345
+1897	HELP	help	2.5600	0	Verb	26762
+1899	MAD	insane	1.7700	0	Adjective	5336
+19	FISHING LINE	fishing line	4.8600	0	#N/A	29246
+190	MOW	mow	4.3200	0	Verb	23524
+1901	SHOVEL	shovel	4.9700	0	Noun	8783
+1902	BETRAY	cheat	2.2300	0	Verb	27529
+1903	SWELLING	bump	4.1000	0	Noun	13960
+1904	DROWN	drown	3.9300	0	Verb	23906
+1905	EAGLE	eagle	5.0000	0	Noun	8605
+1906	SOUR	sourness	3.2700	0	#N/A	32403
+1907	MOLE	mole	4.4100	0	Noun	12507
+1908	ATTENTIVE	attentive	1.7800	0	Adjective	5292
+1909	SHAKE	shake	4.0700	0	Verb	23749
+191	NUT	nut	4.5200	0	Noun	11862
+1910	STINGRAY	stingray	4.9000	0	Name	8138
+1913	PRESS	press down	3.7800	1	#N/A	31379
+1914	DEBT	debt	2.7200	0	Noun	19298
+1915	FIR	fir	4.5800	1	Noun	11501
+1916	GILL	gills	4.5500	0	Noun	11683
+1917	TIE	bind	3.4000	0	Verb	24879
+1918	MANE	mane	4.7300	0	Noun	10470
+1919	TORCH	torch	4.7600	0	Noun	10314
+192	CORNER	corner	4.6100	0	Noun	11323
+1923	ROUGH	rough	3.8300	0	Adjective	382
+1924	VEIN	vein	4.6300	0	Noun	11217
+1925	ARTERY	artery	4.4800	2	Noun	12018
+1926	OINTMENT	ointment	4.5000	0	Noun	11971
+1927	BAMBOO	bamboo	4.8600	0	Noun	9498
+1929	STUDY	study	3.7000	0	Noun	15685
+193	SHALLOW	shallow	3.4500	0	Adjective	781
+1930	RAVINE	ravine	4.6100	1	Noun	11354
+1931	BEESWAX	beeswax	4.8800	0	Noun	9404
+1932	GUESS	guess	2.2800	0	Verb	27418
+1933	LOOSEN	loosen	3.2400	0	Verb	25220
+1934	BEGGAR	beggar	4.5900	0	Noun	11407
+1935	ANUS	rectum	4.9200	0	Noun	9148
+1936	DEER	deer	4.8600	0	Noun	9521
+1937	THERE	there	2.2000	0	Ex	8062
+1938	FORTRESS	castle	4.9600	0	Noun	8829
+1939	SWEAR	swear	2.4500	0	Verb	27019
+194	FAMILY	family	4.2300	0	Noun	13375
+1940	GUARD	guard	4.0400	0	Noun	14222
+1941	SOLDIER	soldier	4.7200	0	Noun	10551
+1942	NEAR	nearby	2.8600	0	Adverb	6275
+1943	CROWN (OF HEAD)	corona	3.4600	2	Name	8409
+1945	IDOL	figure	3.6300	0	Verb	24424
+1947	BASTARD	bastard	3.1400	0	Noun	17757
+1948	SAW	saw	4.4600	0	Verb	23454
+1949	BEDBUG	bedbug	4.5400	0	Noun	11717
+195	MAT	mat	4.8300	0	Noun	9780
+1950	BEECH	beech	3.9600	4	Noun	14521
+1951	PASS	pass	2.7100	0	Verb	26409
+1952	TORTURE	torture	3.5900	0	Noun	16132
+1953	ABUSE	abuse	2.7100	0	Noun	19334
+1954	GENTLE	meek	2.2200	1	Adjective	3409
+1955	GRIEVE	mourn	2.3300	0	Verb	27306
+1956	SUNFLOWER	sunflower	4.8000	0	Noun	9988
+1958	UNRIPE	unripe	3.3100	2	Adjective	951
+1959	RAW	raw	3.3500	0	Adjective	897
+196	DONATE	donate	2.8800	0	Verb	26044
+1961	NECKLACE	necklace	4.9600	0	Noun	8892
+1962	ROAST (SOMETHING)	roast	4.4000	0	Adjective	84
+1963	IMMEDIATELY	immediately	2.3000	0	Adverb	6572
+1964	ALONE	alone	2.8600	0	Adjective	1699
+1965	LOINCLOTH	sarong	4.5000	4	Noun	11984
+1966	BUNCH	bunch	3.5000	0	Noun	16402
+1967	CALENDAR	calendar	4.6200	0	Noun	11226
+1968	SOYA SAUCE	soy sauce	4.9700	0	#N/A	28845
+197	OTHER	another	2.6900	1	Determiner	8039
+1970	CANOE	canoe	4.8600	0	Noun	9505
+1971	FAN (OBJECT)	fan	4.7100	0	Noun	10585
+1972	KID	kid	4.5600	0	Noun	11626
+1973	DEMON	devil	3.4100	0	Noun	16764
+1974	CENTIPEDE	centipede	4.7900	0	Verb	23356
+1975	CHECK	check	4.1100	0	Verb	23689
+1976	MERRY	merry	2.4100	0	Adjective	2777
+1977	DEW	dew	4.3800	1	Noun	12614
+1978	RECOVER	recover	2.6400	0	Verb	26554
+1979	CHISEL	chisel	4.6300	1	Verb	23394
+198	GENITALIA	genitalia	4.6900	1	Noun	10746
+1981	WIDOWER	widower	3.9600	0	Noun	14611
+1982	WHIRLPOOL	whirlpool	4.6400	1	Noun	11150
+1983	SNORE	snort	4.1800	0	Noun	13635
+1986	DISEASE	illness	3.5400	0	Noun	16299
+1987	CHOPSTICKS	chopstick	4.9300	0	Noun	8972
+1989	CALF	calf	4.4800	1	Noun	12030
+199	FAMINE	famine	3.5500	0	Noun	16260
+1990	BECOME	become	1.5400	0	Verb	28644
+1991	INTESTINES	bowels	4.3300	0	Noun	12853
+1992	MORE	more	2.3700	0	Determiner	8044
+1993	SELF	oneself	3.4800	1	Pronoun	23280
+1994	COLLARBONE	clavicle	4.5000	1	Noun	11922
+1995	DEFECT	defect	2.4800	0	Noun	20124
+1996	GET TIRED	tire	5.0000	0	Verb	23341
+1997	PRESERVE	preserve	2.5700	0	Verb	26743
+1998	COMMAND	command	2.4800	0	Noun	20122
+1999	OVERCOME	overcome	2.2800	0	Verb	27422
+2	DUST	dust	4.4000	0	Noun	12542
+20	SCYTHE	scythe	4.2900	1	Noun	13108
+200	SAME	same	2.6400	18	Determiner	8040
+2001	PAINTING	draw	3.9700	0	Verb	23854
+2002	DITCH	ditch	4.5000	0	Verb	23444
+2003	FLOW	flow	3.7200	0	Noun	15586
+2005	MASK	mask	4.9600	0	Noun	8886
+2006	FILL	fill	3.3200	0	Verb	25040
+2008	RESCUE	rescue	3.1700	0	Verb	25390
+2009	DOG	dog	4.8500	0	Noun	9648
+201	FARM	farm	4.5900	0	Noun	11422
+2011	COFFIN	coffin	4.8600	0	Noun	9514
+2012	COLLAR	collar	4.6400	0	Noun	11077
+2013	BAIT	bait	4.4500	0	Noun	12242
+2014	GO DOWN (DESCEND)	go down	3.5000	2	#N/A	31899
+2016	JEALOUSY	jealousy	1.8000	0	Noun	22472
+2017	MIX	mix	3.8200	0	Verb	24083
+2018	GREEDY	greedy	2.6400	0	Adjective	2144
+2019	HAMMOCK	hammock	4.8900	0	Noun	9317
+202	STRENGTH	strength	2.9600	0	Noun	18495
+2020	PLAINTIFF	plaintiff	3.9000	0	Noun	14828
+2022	ADMIT	admit	2.3200	1	Verb	27320
+2023	CROWD	crowd	4.5200	0	Noun	11824
+2025	PEA	pea	4.9000	0	Noun	9239
+2027	SOYA	soybean	4.8200	0	Adjective	28
+203	MARRY	marry	3.0300	0	Verb	25701
+2030	DRAG	drag	4.1700	0	Verb	23636
+2034	FROST	frost	4.5600	0	Name	8199
+2035	POND	pond	4.9000	0	Noun	9243
+2038	DRAGON	dragon	4.3900	0	Noun	12574
+204	AGAIN	again	2.0000	0	Adverb	6945
+2040	BUCKWHEAT	buckwheat	4.5400	1	Noun	11720
+2041	HEMP	hemp	4.8500	0	Noun	9662
+2042	WALNUT	walnut	4.9700	0	Noun	8796
+2043	PEACH	peach	4.9000	0	Noun	9240
+2044	PERSIMMON	persimmon	4.7400	4	Noun	10420
+2045	COLUMN	column	4.4800	0	Noun	12041
+2046	APRON	apron	4.8700	0	Noun	9448
+2048	QUILT	quilt	5.0000	0	Noun	8681
+2049	CONGEE	porridge	4.8900	1	Noun	9349
+205	TROUGH	trough	4.1700	0	Noun	13698
+2051	DUSTPAN	dustpan	5.0000	0	Noun	8604
+2052	BUCKET	bucket	4.9600	0	Noun	8821
+2056	WOK	wok	4.5700	0	Noun	11605
+2057	DUNG (ANIMAL FAECES)	dung	4.6400	4	Noun	11083
+2058	STOOL	stool	4.9000	0	Noun	9265
+2059	FOLK SONG	folk song	3.9700	0	#N/A	31073
+206	FIREFLY	firefly	4.9000	0	Noun	9207
+2060	STORY	story	3.3000	0	Noun	17193
+2062	INTEREST	interest	1.8000	0	Noun	22471
+2067	STEAM (VERB)	braise	3.0900	4	#N/A	32843
+2069	SOAK (VERB)	soak	4.2100	0	Verb	23601
+207	SPARSE	sparse	2.3100	0	Adjective	3110
+2071	LAY (VERB)	lay	3.8600	0	Verb	24012
+2072	USE (VERB)	use	2.7800	0	Verb	26286
+2073	ROB (VERB)	rob	3.4800	1	Verb	24709
+2075	BROOD (VERB)	brood	2.9600	2	Noun	18412
+2076	SPROUT (VERB)	bloom	4.0000	1	Verb	23811
+2077	DILIGENT	diligent	1.6900	0	Adjective	5584
+208	NASAL MUCUS (SNOT)	snivel	2.7700	4	Verb	26303
+209	RARE	rare	1.9600	0	Adjective	4553
+2090	MY	mine	3.5600	0	Pronoun	23277
+2093	AFTERWARDS	afterwards	2.1400	0	Adverb	6737
+2099	CHILD	children	4.8900	0	Noun	9294
+21	TASTE (SOMETHING)	taste	4.0700	0	Noun	14156
+210	LIFE	life	2.6900	0	Noun	19431
+2102	BURN	burn	4.1100	0	Verb	23686
+2112	OLD (AGED)	elderly	3.6800	0	Adjective	517
+2113	OLD (USED)	used	2.6400	0	Verb	26563
+2117	DESIRE	desire	1.7000	0	Noun	22691
+212	FIELD	field	4.2600	0	Noun	13239
+2124	SMELL	smell	3.7000	0	Verb	24307
+213	FIN	fin	4.7600	1	Noun	10267
+2134	RAISE (BRING UP)	rear	3.5900	0	Noun	16124
+2137	MAGICIAN	magician	4.2100	0	Noun	13487
+214	STRETCH	stretch	3.6200	0	Verb	24453
+2142	RUN AWAY	run away	3.7500	0	#N/A	31431
+2148	PICK	pick	3.8200	0	Verb	24087
+2149	CHOP (INTO PIECES)	chop	4.4800	0	Noun	12039
+215	LIE DOWN	lie down	4.2100	0	#N/A	30759
+2150	MATTER	matter	3.5400	0	Noun	16301
+2151	COARSE	coarse	3.2500	0	Adjective	1028
+2154	PLOUGH (INSTRUMENT)	plough	3.8800	4	Verb	23986
+2155	CUT (WITH SCISSORS)	scissor	4.9000	0	Verb	23346
+2159	GROUND	ground	4.7700	0	Noun	10215
+216	MOVIE	movie	4.5900	0	Noun	11443
+2165	SLOWLY	slowly	3.1000	0	Adverb	6225
+218	FINE (PENALTY)	fine	2.6100	0	Adjective	2231
+2181	LIGHT (IN TASTE)	bland	2.3800	1	Adjective	2838
+219	TOILET	lavatory	4.8100	0	Noun	9919
+2190	TASTE	savor	2.4800	0	Verb	26960
+2192	REJOICE	rejoice	2.1700	0	Verb	27713
+2194	FRONT (PART)	front	3.7700	0	Preposition	23206
+2196	HORSETAIL	horsetail	4.8000	1	#N/A	29476
+220	INTACT	intact	2.6400	0	Adjective	2149
+2200	SNOUT	snout	4.8900	0	Noun	9366
+2203	RABID	rabid	2.9000	0	Adjective	1644
+2205	PEAK	peak	4.2000	0	Noun	13539
+2206	RABIES	rabies	3.8300	0	Noun	15177
+221	FIRE	fire	4.6800	0	Noun	10824
+2213	BODY PART	body part	4.4700	0	#N/A	30313
+2214	AFFAIR	affair	2.4500	0	Noun	20245
+2218	EXPERIENCED	experienced	1.5000	0	Verb	28665
+2219	LEAN (MEAT)	lean	3.0000	0	Verb	25754
+222	LAVISH	lavish	2.3100	0	Adjective	3098
+2224	BEND (SOMETHING)	bend	3.8800	0	Verb	23975
+2227	SPAWN (VERB)	spawn	3.9000	0	Noun	14838
+2230	UNTAMED OR WILD	wild	2.4100	0	Adjective	2792
+2232	KEEN OR SUBTLE	subtle	1.7200	0	Adjective	5514
+2233	LOVELY	lovely	2.2900	1	Adjective	3178
+2239	DENSE	dense	3.1400	0	Adjective	1221
+224	MORTAR	mortar	4.4800	0	Noun	12080
+2240	CORAL SNAKE	coral snake	5.0000	0	#N/A	28732
+2241	WILD CAT	wildcat	4.7900	0	Noun	10123
+2242	BEETLE	beetle	4.8300	0	Noun	9729
+2243	REPAIR	mend	3.5000	1	Verb	24667
+2244	METAL	metal	4.8700	0	Noun	9474
+2245	BELCH	belch	4.1400	0	Verb	23662
+2246	BELL	bell	4.9600	0	Noun	8812
+2247	CATERPILLAR	caterpillar	4.8700	0	Noun	9454
+2252	PATH	path	4.4100	0	Noun	12514
+2253	DRIP (EMIT LIQUID)	leak	4.2800	0	Noun	13148
+2259	FLESH	flesh	4.5900	0	Noun	11426
+227	FISH	fish	5.0000	0	Noun	8616
+2271	THINK	think	2.4100	0	Verb	27132
+2273	LEECH	leech	4.3300	1	Noun	12879
+2276	IDENTICAL	identical	3.5000	0	Adjective	719
+2277	WHOLE	total	2.8000	0	Adjective	1822
+2278	PERHAPS	perhaps	1.1900	0	Adverb	8003
+228	CARVE	carve	3.6900	0	Verb	24314
+2283	SEMEN	semen	4.7900	0	Noun	10100
+2284	CLEARING	clearing	3.7900	0	Verb	24124
+2285	ECLIPSE	eclipse	4.1700	0	Noun	13659
+2286	ESTUARY	estuary	4.1700	4	Noun	13662
+2287	HORIZON	horizon	4.4400	0	Noun	12314
+2289	MILKY WAY	milky way	4.5200	0	#N/A	30224
+2290	PUDDLE	puddle	4.6700	0	Noun	10938
+2291	VOLCANO	volcano	4.7500	0	Noun	10379
+2292	GLASSES	glasses	4.9000	0	Noun	9212
+2294	WRINKLE	wrinkle	4.3000	0	Noun	13076
+2295	SUNSET	sunset	4.5400	0	Noun	11768
+2296	SUNRISE	sunrise	4.6900	0	Noun	10783
+2297	DUSK	dusk	4.2400	0	Noun	13325
+2298	VIRGIN	virgin	3.3100	0	Noun	17161
+2299	STRAW	straw	4.7700	0	Noun	10239
+23	RYE	rye	4.7400	0	Noun	10425
+230	SWEEP	sweep	3.7200	0	Verb	24260
+2301	ME	me	4.3300	0	Pronoun	23270
+2302	CIRCULAR (ROUND IN TWO DIMENSIONS)	circular	3.7900	2	Adjective	414
+2303	SPHERICAL (ROUND IN THREE DIMENSIONS)	spherical	3.8300	0	Adjective	384
+2308	THIN	thin	3.8300	0	Adjective	385
+231	SHAVE	shave	4.2300	0	Verb	23574
+2310	US (OBLIQUE CASE OF WE)	us	3.5900	0	Pronoun	23276
+2313	BRONZE	bronze	4.4700	0	Noun	12136
+2316	FREE	free	2.0400	0	Adjective	4140
+2318	CHESTNUT	chestnut	4.7000	0	Noun	10648
+2319	LID (COVER, CAP)	lid	4.9600	0	Noun	8876
+232	FLEA	flea	4.8900	0	Noun	9306
+2321	MAD PERSON	lunatic	3.2700	0	Noun	17316
+2334	MELT	melt	3.9600	0	Verb	23881
+2335	CUNNING	cunning	2.1200	1	Adjective	3790
+2336	OF THIS KIND (SUCH)	so	1.4200	1	Adverb	7932
+2339	NEED (SOMETHING)	need	1.6900	0	Verb	28542
+234	PADDLE	paddle	4.8000	0	Noun	9979
+2340	SUNNY	sunny	4.2000	0	Adjective	153
+2341	CLOUDY	overcast	4.0400	0	Adjective	230
+2342	LANDSCAPE	landscape	4.3400	0	Noun	12828
+2343	STEEL	steel	4.8700	0	Noun	9485
+2348	CRAB	crab	4.9000	0	Noun	9196
+2349	SHRIMP	shrimp	4.8000	0	Noun	9984
+2350	EARTHWORM	earthworm	4.8900	0	Noun	9302
+2351	SILKWORM	silkworm	4.6200	0	Noun	11282
+2352	DRAGONFLY	dragonfly	4.8300	0	Noun	9755
+2354	CRICKET	cricket	4.7700	0	Noun	10202
+2355	GECKO	gecko	4.7600	0	Noun	10269
+236	STEPMOTHER	stepmother	4.2300	0	Noun	13397
+2362	BRAN	bran	4.4800	0	Noun	12024
+2364	PEANUT	peanut	4.8900	0	Noun	9342
+2365	RADISH	radish	4.8700	0	Noun	9477
+2366	ONION	onion	4.8600	0	Noun	9559
+2367	MANDARINE	mandarin	3.6700	0	Noun	15809
+2368	GARLIC	garlic	4.8900	0	Noun	9311
+237	STEPFATHER	stepfather	4.0000	0	Noun	14460
+2371	BREADFRUIT	breadfruit	4.7900	4	Noun	10010
+2374	DREAM	dream	2.6000	0	Noun	19722
+2375	VERTICAL	vertical	3.4800	0	Adjective	750
+2376	HORIZONTAL	horizontal	3.4600	0	Adjective	759
+238	PRAWNS	prawn	4.6200	3	Noun	11274
+2386	TURKEY	turkey	4.8900	0	Noun	9384
+239	FLOWER	flower	5.0000	0	Noun	8618
+2393	JOURNEY	journey	2.5700	0	Noun	19843
+2396	KNOCK	knock	4.2400	0	Verb	23570
+2397	LOBSTER	lobster	4.8600	0	Noun	9551
+2398	MANGO	mango	5.0000	0	Noun	8654
+24	PRAY	pray	3.2100	0	Verb	25283
+240	ELECTION	election	3.1700	0	Noun	17661
+2400	THEIR	theirs	2.4000	0	Pronoun	23305
+2401	PICTURE	picture	4.5200	0	Noun	11869
+2402	ROBIN	robin	4.6100	0	Name	8194
+2403	TOY	toy	4.9300	1	Noun	9096
+2406	HOME	home	4.1100	0	Adverb	6148
+2407	BIRTHDAY	birthday	3.2000	0	Noun	17553
+2408	CAKE	cake	4.8100	0	Noun	9892
+2409	BROWN	brown	4.4800	0	Name	8212
+241	TREE STUMP	tree stump	4.5900	0	#N/A	30076
+2410	GOOD-LOOKING	attractive	2.6400	0	Adjective	2137
+2411	HURT (SOMEBODY)	hurt	3.6100	0	Verb	24461
+2412	THANK (SOMBEODY)	thank	3.0000	0	Verb	25802
+2422	SOMEONE	someone	3.7100	0	Pronoun	23275
+2423	CHANNEL	channel	4.1800	1	Noun	13614
+2424	MEMBER	member	3.0700	0	Noun	18045
+2425	PROBLEM	problem	2.6800	0	Noun	19479
+2426	CLIMATE	climate	3.5000	0	Noun	16404
+2427	FUTURE	future	1.8600	0	Noun	22286
+2428	LIBRARY	library	4.8000	0	Noun	9973
+2429	LOGIC	logic	1.7200	0	Noun	22661
+243	FRESH	fresh	1.9700	0	Adjective	4456
+2430	OFFICE	office	4.9300	0	Noun	9038
+2431	REVOLUTION	revolution	2.8700	0	Noun	18768
+2432	MARRIAGE	marriage	2.5100	2	Noun	20050
+2433	THEORY	theory	1.4700	6	Noun	23063
+2434	TRAGEDY	tragedy	2.0700	0	Noun	21640
+2435	UNIVERSITY	university	4.6500	0	Noun	11060
+244	LEFT	left	3.7000	0	Verb	24303
+2440	PINEAPPLE	pineapple	4.9400	4	Noun	8942
+2444	KINGFISHER	kingfisher	4.7100	1	Noun	10598
+2445	PAPAYA	papaya	4.8700	0	Noun	9475
+2447	WOODPECKER	woodpecker	4.9300	0	Noun	9104
+2449	FAT (OF MEAT AND FOOD)	fatty	3.9000	0	Noun	14810
+245	BROOM	broom	4.8900	0	Noun	9288
+2451	FOURTEEN	fourteen	3.0400	0	Number	23197
+2452	PURPLE	purple	4.0400	0	Adjective	232
+2453	SEVENTEEN	seventeen	3.1900	0	Number	23191
+2454	SIXTEEN	sixteen	3.8800	0	Number	23156
+2457	PATH OR ROAD	way	2.3400	0	Noun	20660
+2458	PERSPIRE OR SWEAT	sweat	4.7100	0	Noun	10620
+2459	GRINDSTONE	grindstone	4.4800	0	Noun	12060
+246	THRUST	thrust	3.2900	0	Verb	25141
+2465	DISGUST	disgust	2.1900	0	Noun	21174
+2466	WEIGHT	weight	3.9400	0	Noun	14615
+2467	GAME	game	4.5000	0	Noun	11938
+2468	BAG	bag	4.9000	0	Noun	9170
+2469	AGAINST	against	1.8000	0	Preposition	23249
+2470	DEAR	dear	2.2500	0	Interjection	8091
+2471	LADY	lady	4.3300	0	Noun	12877
+2472	SUCKLE (BREASTFEED, NURSE)	nurse	4.3900	0	Noun	12589
+2473	HIS (GENITIVE OF HE)	his	3.1400	0	Pronoun	23285
+2474	HER (GENITIVE OF SHE)	her	3.0000	0	Pronoun	23289
+2477	YAK	yak	4.6500	0	Noun	11063
+248	HAPPEN	happen	1.7800	0	Verb	28435
+2482	TOGETHER	together	2.7400	0	Adverb	6317
+2483	COLD (OF WEATHER)	cool	3.5300	0	Adjective	687
+2486	HIDE	hide	3.2100	0	Verb	25274
+2489	ABACUS	abacus	4.5200	2	Noun	11800
+249	FOG	mist	4.5100	9	Noun	11909
+2493	BOIL	boil	4.2000	0	Verb	23604
+2495	ELEPHANT TUSK	tusk	4.7600	0	Noun	10317
+2496	ADORNED	crested	3.1500	0	Adjective	1197
+2498	OPIUM	opium	4.5600	2	Noun	11642
+25	DIRT	dirt	4.8600	0	Noun	9524
+2500	GINGER	ginger	4.9200	0	Adjective	22
+2501	RICE HUSK	husk	4.8600	0	Noun	9545
+2502	GONG	gong	4.7000	0	Name	8174
+2503	LAUNDER	launder	3.1800	1	Verb	25363
+2504	DIFFERENT	different	1.9700	0	Adjective	4453
+2505	BEDROOM	bedroom	4.9000	0	Noun	9174
+2506	LOOSE	slack	3.1500	0	Noun	17744
+2507	DISGUSTING	disgusting	2.2100	0	Adjective	3446
+2509	EXCHANGE	swap	3.8500	1	Verb	24041
+251	SHARPEN (SOMETHING)	sharpen	3.7200	0	Verb	24253
+2510	PORCUPINE	porcupine	5.0000	0	Noun	8680
+2512	CHICK	chick	4.9300	0	Noun	8971
+2514	SPOUSE	spouse	3.8500	0	Noun	15101
+2517	CROWDED	crowded	3.2800	0	Adjective	985
+2519	SEEING (VISUAL SENSE)	sight	3.2100	0	Noun	17539
+252	FRIGHTEN	frighten	3.0700	0	Verb	25583
+2521	FEELING (HAPTIC SENSE)	feeling	1.6800	0	Verb	28556
+2522	SCREAMING	scream	4.3200	0	Verb	23526
+2524	JOY	pleasure	2.0400	0	Noun	21713
+2526	POWER	power	2.0400	0	Noun	21715
+2527	ABILITY	ability	1.8100	0	Noun	22425
+253	CARE FOR	look after	2.7300	0	#N/A	33919
+2530	SMART	smart	1.7500	0	Adjective	5412
+2531	BROAD	broad	2.4500	0	Adjective	2632
+2534	DEPTH	depth	3.1100	0	Noun	17869
+2537	LENGTH	length	4.0700	0	Noun	14120
+2539	PIT (POTHOLE)	pit	4.6800	0	Noun	10848
+2540	LIME (MATERIAL)	lime	4.9600	0	Noun	8878
+2541	MIRACLE	miracle	1.9600	0	Noun	21988
+2543	RAVEN	raven	4.8600	0	Noun	9576
+2544	SHEPHERD	shepherd	4.6700	0	Noun	10949
+2546	BORDER	border	4.2900	0	Noun	13085
+2547	CITY	city	4.7900	1	Noun	10024
+2548	BARREL	barrel	4.8600	0	Noun	9499
+2549	VEHICLE	vehicle	4.6400	0	Noun	11147
+255	SERVANT	servant	4.6400	0	Noun	11132
+2554	PRINCE (RULER)	prince	4.4400	0	Noun	12329
+2555	OIL (FROM PLANTS)	vegetable oil	4.9300	0	#N/A	29029
+256	FOOD	pizza	5.0000	0	Noun	8676
+2562	SEX (GENDER)	sex	4.1000	0	Noun	13992
+2564	PIGLET	piglet	4.9300	0	Noun	9053
+2568	BAKER	baker	4.7100	0	Name	8170
+2569	BUTCHER	butcher	4.6500	0	Noun	11028
+257	WORSHIP	worship	2.6200	0	Verb	26626
+2570	BEEF	beef	4.7400	0	Noun	10384
+2571	TRY (TEST)	test	3.9300	0	Noun	14710
+2572	SENSE (PERCEIVE BY SENSES)	sense	2.6100	0	Noun	19713
+2573	FEELING (EMOTION)	emotion	2.4400	0	Noun	20272
+2576	ALREADY	already	1.6400	0	Adverb	7651
+2577	YET	yet	1.3900	0	Adverb	7948
+2578	PENCIL	pencil	4.8800	0	Noun	9435
+2579	TOOTHBRUSH	toothbrush	5.0000	0	Noun	8710
+258	CALM	calm	2.8300	0	Verb	26162
+2580	HELICOPTER	helicopter	4.6200	0	Noun	11252
+2581	OCTOPUS	octopus	5.0000	0	Noun	8665
+2584	BENCH	bench	4.8700	0	Noun	9449
+2586	SEAHORSE	seahorse	4.8900	0	Noun	9359
+2587	DARTS	darts	4.8300	0	Noun	9753
+2590	HARMONICA	harmonica	4.9000	1	Noun	9217
+2591	RHINOCEROS	rhino	4.9000	0	Noun	9252
+2595	CACTUS	cactus	5.0000	0	Noun	8583
+2596	ESCALATOR	escalator	5.0000	0	Noun	8610
+2597	HARP	harp	4.8500	0	Noun	9659
+26	UNPLEASANT	unpleasant	1.9100	0	Adjective	4772
+2600	PYRAMID	pyramid	4.9600	0	Noun	8901
+2601	UNICORN	unicorn	3.6200	0	Noun	16017
+2603	ACCORDION	accordion	4.8600	1	Noun	9492
+2604	NOOSE	noose	4.5200	0	Noun	11861
+2605	ASPARAGUS	asparagus	4.9600	0	Noun	8806
+2606	COMPASS	compass	4.6600	0	Noun	10975
+2607	TRIPOD	tripod	4.7200	0	Noun	10559
+2617	BULB	bulb	4.9300	1	Noun	8961
+2618	CAMERA	camera	5.0000	0	Noun	8586
+2619	CARD	card	4.9000	0	Noun	9187
+2620	CARRIAGE	carriage	4.8600	1	Noun	9506
+2621	CURTAIN	curtain	4.8200	0	Noun	9830
+2622	ENGINE	engine	4.8600	0	Noun	9530
+2623	FLAG	flag	4.7900	0	Noun	10046
+2624	FRAME	frame	4.3000	0	Noun	13030
+2625	MAP	map	4.9300	0	Noun	9027
+2626	NERVE	nerve	3.8900	0	Noun	14885
+2627	ORANGE (FRUIT)	orange	4.6600	0	Adjective	43
+2628	PLANT STEM	stalk	3.5000	0	Verb	24677
+2629	TRAY	tray	4.7400	0	Noun	10438
+263	HERDSMAN	herdsman	4.1100	1	Noun	13918
+2630	WHIP	whip	4.6800	0	Verb	23380
+2631	WIRE	wire	4.7200	0	Noun	10565
+2638	FISHING	fishing	4.3000	8	Noun	13029
+2640	LARVA	larva	4.5200	0	Noun	11852
+2643	INK	ink	4.5600	0	Noun	11625
+265	FOWL	fowl	4.6400	1	Noun	11089
+2651	BE IGNORANT	ignorant	1.6200	0	Adjective	5774
+2656	MIDNIGHT	midnight	3.1400	0	Noun	17774
+2657	LADLE	ladle	4.9000	0	Noun	9227
+2658	COAL	coal	4.6600	0	Noun	10973
+266	SCALE	scales	4.7400	0	Noun	10428
+2662	TOENAIL	toenail	4.8600	0	Noun	9605
+2663	UMBILICAL CORD	umbilical cord	4.8600	0	#N/A	29292
+2664	SCAB	scab	4.7100	0	Noun	10614
+2665	WART	wart	4.8900	0	Noun	9391
+2666	SOLE (FOOT)	sole	4.1100	0	Adjective	193
+2668	SKELETON	skeleton	4.9700	0	Noun	8784
+2669	POINT (WITH FINGER)	point	3.3900	0	Noun	16858
+2670	ACROSS	across	3.0700	0	Preposition	23214
+268	DRIBBLE	dribble	3.8300	0	Verb	24055
+2680	MACHETE	machete	4.8200	0	Noun	9855
+2685	CARP (FISH)	carp	4.6200	0	Noun	11228
+27	AIR	air	4.1100	0	Noun	13902
+270	JUG	jug	4.9600	0	Noun	8872
+2704	FADE (LOOSE COLOR)	fade	2.4800	0	Verb	26940
+2705	INHALE	inhale	3.8400	0	Verb	24047
+2706	GNAW	gnaw	3.8600	0	Verb	24008
+2708	TALK	talk	4.0700	0	Verb	23759
+2709	FLATTER	flatter	2.1400	0	Verb	27773
+271	SAUCER	saucer	4.7900	0	Noun	10094
+2715	DESPISE	despise	2.1200	0	Verb	27808
+2717	STEEP	steep	3.7600	0	Adjective	455
+272	TONGS	tongs	5.0000	0	Noun	8709
+273	DOUGH	dough	4.7900	0	Noun	10039
+274	KNEAD	knead	3.8900	0	Verb	23961
+275	PEEL	peel	4.6100	0	Verb	23405
+2753	UNTIL	until	1.3300	0	Conjunction	8030
+2754	TOWARDS	toward	2.2800	0	Preposition	23234
+2755	BUSY	busy	2.4100	0	Adjective	2755
+2756	IDLE	idle	2.7900	0	Adjective	1833
+2758	CAREFUL	careful	1.8600	0	Adjective	4969
+2765	CHERRY	cherry	4.6200	0	Noun	11233
+2766	WATERMELON	watermelon	4.8900	0	Noun	9392
+2769	PORK	pork	4.7900	0	Noun	10086
+277	SPINDLE	spindle	4.9200	1	Noun	9152
+2770	JACKET	jacket	4.8600	0	Noun	9546
+2771	SHAWL	shawl	5.0000	2	Noun	8692
+278	AWL	awl	3.8100	4	Noun	15231
+2783	SCALES (MEASURE INSTRUMENT)	scale	4.3900	0	Noun	12595
+279	THATCH	thatch	3.8300	3	Verb	24071
+2795	MOSQUITO NET	mosquito net	4.9300	0	#N/A	28989
+2797	SESAME	sesame seed	4.6700	0	#N/A	29889
+28	MOISTEN	moisten	3.4800	0	Verb	24700
+2804	AMULET	amulet	4.0000	1	Noun	14328
+2805	BIRTH (ACCOUCHEMENT)	childbirth	4.0400	0	Noun	14194
+2808	BLACKEN	blacken	3.4300	1	Verb	24799
+2809	BLUEBERRY	blueberry	4.9600	0	Noun	8818
+281	POST	pole	4.6600	0	Noun	11002
+2810	BREASTBONE	sternum	4.6900	0	Noun	10780
+2811	BUSHFIRE	bushfire	4.7500	1	#N/A	29627
+2814	CUTTLEFISH	cuttlefish	4.2300	3	Noun	13368
+2815	DIALECT	dialect	2.6700	0	Noun	19506
+2816	ECHO	echo	3.6400	0	Noun	15907
+2817	EMU	emu	4.7900	0	Noun	10044
+2818	FORD (CROSSING)	ford	4.1900	2	Name	8273
+2819	GRASSLAND	meadow	4.8600	0	Noun	9552
+2821	JEALOUS	jealous	2.1700	0	Adjective	3638
+2824	KNUCKLE	knuckle	4.9300	0	Noun	9023
+2826	LIE (FALSEHOOD)	untruth	2.2100	0	Noun	21123
+2827	MENSTRUATE	menstruate	3.7400	0	Verb	24220
+2828	MOTH	moth	4.6900	0	Noun	10759
+2829	MUSSELS	mussel	4.6900	0	Noun	10760
+2830	OYSTERS	oyster	4.8500	0	Noun	9677
+2831	PENGUIN	penguin	5.0000	0	Noun	8670
+2833	RUM	rum	4.9300	0	Noun	9069
+2836	STARLIGHT	starlight	4.3400	1	Noun	12841
+2837	SWAN	swan	4.9600	0	Name	8128
+2838	TAME	tame	2.0400	0	Verb	28007
+284	HOE	hoe	4.7400	2	Noun	10404
+2841	WOMBAT	wombat	4.4800	3	Noun	12131
+2843	CAULIFLOWER	cauliflower	5.0000	0	Noun	8589
+2845	SIZE (OF OBJECT)	size	3.1300	0	Noun	17816
+2856	CHANGE (SOMETHING)	alter	3.0700	0	Verb	25567
+2860	BOLT (MOVE IN HASTE)	bolt	4.6700	0	Noun	10892
+2861	BUDGE (ONESELF)	budge	2.6500	2	Verb	26525
+2862	CONNECT	connect	2.8800	0	Verb	26041
+2863	DASH (OF VEHICLE)	dash	3.3900	0	Noun	16845
+2864	DECREASE	decrease	2.6800	0	Verb	26463
+2865	DIE (FROM ACCIDENT)	perish	3.2200	0	Verb	25258
+2867	CALCULATE	calculate	2.7400	0	Verb	26346
+2869	BOTHER (HARASS)	bother	2.0000	0	Verb	28046
+2870	RECOGNIZE (SOMEBODY)	recognize	2.0700	0	Verb	27947
+2871	SWING (MOVEMENT)	swing	4.5400	0	Verb	23426
+2872	IMPROVE (SOMETHING)	improve	1.8200	0	Verb	28377
+2876	ROAR (OF SEA)	roar	3.8100	0	Noun	15266
+2877	RUSTLE (OF LEAVES)	rustle	2.9600	0	Verb	25879
+2879	SOUND (OF INSTRUMENT OR VOICE)	sound	3.7000	0	Verb	24308
+288	FORGE	forge	4.0400	0	Verb	23778
+2880	HALT (STOP)	stop	3.6800	0	Verb	24345
+2881	URGE (SOMEONE)	urge	1.9300	0	Noun	22093
+2882	ADD	add	3.0000	0	Verb	25717
+2883	DISTURB	disturb	3.0400	0	Verb	25640
+2884	HANG	hang	3.7000	1	Verb	24299
+2885	HERD (SOMETHING)	herd	4.1100	0	Noun	13917
+2886	PRODUCE	produce	3.3100	0	Verb	25079
+2887	THAW (DEW)	thaw	3.8000	0	Verb	24123
+2888	TINKLE	tinkle	3.5200	0	Noun	16387
+289	MOLD	mold	4.8500	0	Noun	9676
+2891	TIE UP (TETHER)	tether	3.6700	0	Verb	24375
+2892	MAKE ANGRY (ANNOY)	annoy	1.9300	0	Verb	28187
+2893	NOTICE (SOMETHING)	notice	3.3000	0	Verb	25108
+2894	TUMBLE (FALL DOWN)	tumble	3.8900	22	Verb	23971
+2896	CAUSE TO (LET)	let	2.2600	0	Verb	27461
+2897	CHIME (ACTION)	chime	4.4000	0	Verb	23478
+2898	CONVEY (A MESSAGE)	convey	1.7200	0	Verb	28504
+2899	JOG (SOMETHING)	jog	3.6300	0	Verb	24426
+29	GELD	castrate	3.8200	1	Verb	24076
+2900	PROTECT	protect	2.8600	0	Verb	26093
+2902	BRAWL (FIGHT)	brawl	3.6300	0	Noun	15937
+2903	CHAT (WITH SOMEBODY)	chat	3.6600	0	Noun	15832
+2904	RINSE	rinse	4.1000	0	Verb	23714
+2905	KNIT	knit	4.4100	0	Verb	23473
+2906	TRANSLATE	translate	2.6900	0	Verb	26458
+2907	ROT	decay	3.8900	0	Noun	14862
+2909	PREPARE	prepare	2.3600	0	Verb	27242
+2911	BACKWARD	backwards	3.1700	0	Adverb	6213
+2912	FORWARD	forward	2.6600	0	Adverb	6345
+2914	ONCE (IN THE PAST)	formerly	1.9000	0	Adverb	7167
+2916	INSTANTLY (IMMEDIATELY)	instantly	2.4400	0	Adverb	6450
+2919	STILL (CONTINUING)	still	3.4600	0	Adverb	6180
+292	RUG	carpet	4.9600	0	Noun	8828
+2920	SUDDENLY	suddenly	1.8400	1	Adverb	7297
+2921	THEN	then	1.4400	2	Adverb	7919
+2925	HITHER (HERE TO)	hither	2.1700	3	Adverb	6707
+2926	HARDLY	hardly	1.6200	0	Adverb	7698
+2927	FROM HERE	hence	1.4100	0	Adverb	7936
+2929	BENEFIT	profit	3.0700	0	Noun	18056
+2930	BOSS	boss	3.8300	0	Noun	15141
+2931	BUSINESS	business	3.2800	0	Noun	17255
+2932	COLD (CHILL)	chill	2.8900	0	Noun	18692
+2934	CUCKOO	cuckoo	4.4200	2	Noun	12439
+2935	CURRENT (STREAM)	current	3.1600	1	Adjective	1186
+2936	ELEVATION	elevation	3.7900	0	Noun	15326
+2937	FAIRY TALE	tale	3.2300	0	Noun	17468
+2938	FLAVOR	flavor	3.5500	0	Noun	16261
+2939	FLOCK (OF ANIMALS)	flock	4.6700	0	Noun	10909
+2940	GATE	gate	4.9600	0	Noun	8859
+2941	HAPPINESS	happiness	2.6000	0	Noun	19726
+2943	BUNDLE	bundle	4.2200	0	Noun	13406
+2946	CRADLE	cradle	4.9300	0	Noun	8984
+2947	DAMAGE (INJURY)	injury	4.0000	0	Noun	14398
+2948	GAP (DISTANCE)	gap	3.9200	0	Noun	14747
+2949	LAIR	lair	3.7600	0	Noun	15457
+295	WHETSTONE	whetstone	4.6800	1	Noun	10876
+2950	MEANING	meaning	1.8500	0	Noun	22336
+2951	POUCH	pouch	4.5000	0	Noun	11976
+2952	SLAB	slab	4.2900	0	Noun	13110
+2953	SLEEVE	sleeve	4.8400	0	Noun	9720
+2954	SLICE	slice	3.8500	0	Noun	15098
+2955	STATE (POLITICS)	state	3.5200	0	Noun	16384
+2956	TUBE	tube	4.8200	0	Noun	9876
+2957	WARE	ware	3.5400	4	Name	8393
+2958	LAUGHTER	laughter	4.2200	0	Noun	13424
+2959	LEASH	leash	4.8900	0	Noun	9326
+296	CROUCH	squat	4.3200	0	Noun	12944
+2961	MESSAGE	message	3.9700	0	Noun	14497
+2963	NET	net	4.5300	0	Noun	11790
+2964	NEWS	news	3.4100	0	Noun	16782
+2965	PAW	paw	4.3000	0	Noun	13052
+2966	PERCH (FISH)	perch	4.1000	0	Noun	13988
+2967	PIKE (FISH)	pike	4.2500	1	Noun	13295
+2968	REASON	reason	1.9300	0	Noun	22080
+2969	RIBBON	ribbon	4.8900	0	Noun	9354
+297	CROOKED	bent	3.6200	0	Verb	24436
+2970	RIDDLE	riddle	2.5000	0	Noun	20099
+2971	SIN	sin	1.8500	0	Noun	22346
+2973	STRAP	strap	4.7900	0	Noun	10111
+2974	SWARM (OF BIRDS)	swarm	3.9700	0	Noun	14510
+2975	THOUGHT	thought	1.9700	0	Verb	28129
+2976	VIOLENCE	violence	3.0700	0	Noun	18086
+2977	WORKER	worker	4.5900	0	Noun	11486
+2978	DISTANCE	distance	3.1700	0	Noun	17658
+298	SHRIEK	shriek	3.9700	0	Noun	14505
+2980	AREA	area	3.7200	0	Noun	15571
+2981	ITEM	item	4.4100	0	Noun	12497
+2982	GIFT	present	3.3900	0	Noun	16860
+2983	COMPANIONSHIP	company	4.1100	0	Noun	13907
+2984	HEAP	heap	3.9000	0	Noun	14816
+2985	HEIGHT	height	3.8600	0	Noun	15024
+2986	CAMPFIRE	campfire	4.7900	0	Noun	10018
+2987	AMOUNT	amount	2.7400	0	Noun	19231
+2988	PATTERN	pattern	3.9200	1	Noun	14763
+2989	FRINGE	fringe	3.3800	1	Noun	16893
+299	SCOLD	scold	3.0700	0	Verb	25607
+2990	SACK	sack	4.8400	0	Noun	9717
+2991	SKI	ski	4.6300	0	Noun	11206
+2992	TIP (OF OBJECT)	tip	4.5000	0	Noun	12004
+2993	STROKE (OF PEN)	stroke	4.1000	0	Noun	13995
+2995	TONE (MUSIC)	tone	3.0700	0	Noun	18077
+2996	WEALTH	wealth	2.6300	0	Noun	19666
+2997	COLORFUL	multicolored	4.1100	0	Adjective	188
+2998	DAMP	damp	3.8100	0	Adjective	396
+2999	EVERYWHERE	everywhere	2.0000	0	Adverb	6959
+3	BRAVE	courageous	2.0000	0	Adjective	4308
+300	RATTLE	rattle	4.0700	0	Verb	23748
+3001	POWERFUL	powerful	2.1700	0	Adjective	3642
+3002	PRECIOUS	precious	2.0000	0	Adjective	4388
+3003	SOLID	solid	4.4200	0	Adjective	78
+3004	FORMER	former	2.1800	0	Determiner	8047
+3005	FAMILIAR	familiar	2.0300	0	Adjective	4251
+3006	SPACE (AVAILABLE)	space	3.5400	0	Noun	16314
+301	CHIEFTAIN	tribal chief	4.3200	1	#N/A	30592
+3011	GRUB	grub	3.8600	0	Noun	15023
+302	CLAN	clan	3.4600	1	Noun	16569
+3025	BARN OR SHED	shed	4.5500	0	Verb	23422
+3026	CONJUNCTIVITIS	conjunctivitis	3.7500	0	Noun	15488
+3028	GRAVEL	gravel	5.0000	0	Noun	8625
+303	ABSTAIN FROM FOOD	abstain	2.3800	0	Verb	27174
+3032	STARFISH	starfish	4.9000	0	Noun	9262
+3033	SCARED	scared	2.5000	0	Adjective	2519
+304	PREACH	preach	3.3700	0	Verb	24945
+3044	BOVINE	bovine	3.9300	2	Adjective	291
+3046	FODDER	fodder	3.0000	3	Noun	18273
+3049	COURAGE	courage	1.5200	0	Noun	23004
+305	GRANDPARENTS	grandparent	4.0300	0	Noun	14298
+3050	SEEDLING	seedling	4.5600	2	Noun	11652
+3053	TIGHT	tense	2.3500	0	Adjective	2976
+3057	FLAIL	flail	3.7900	1	Noun	15330
+3058	GRAZE	graze	3.5200	0	Verb	24633
+3059	MALARIA	malaria	3.9300	0	Noun	14671
+3060	PHEASANT	pheasant	4.7500	0	Noun	10360
+3061	PHLEGM	phlegm	4.4800	1	Noun	12096
+3062	TURNIP	turnip	4.7900	0	Noun	10119
+3064	RUST	stain	4.5900	0	Noun	11468
+3065	SADDLE	saddle	4.8500	8	Noun	9688
+3066	SCARF OR TURBAN	turban	4.7600	0	Noun	10316
+3067	CLEAVER	chopper	4.0700	0	Noun	14085
+3069	FALSE	fraud	1.6800	0	Noun	22752
+307	HAWK	kite	5.0000	0	Noun	8643
+3071	INSERT	insert	2.5700	0	Verb	26734
+3072	MISPLACE	lose	2.2500	0	Verb	27486
+3073	MANAGE	manage	2.0000	0	Verb	28081
+3074	FIX	patch	4.7000	0	Noun	10689
+3075	SLANTED	slanting	3.2000	0	Verb	25319
+3076	SLOPE	hillside	4.7800	0	Noun	10147
+3078	IRRIGATE	irrigate	3.5300	0	Verb	24615
+308	TOUCAN	toucan	4.6600	0	Noun	11019
+3080	SPLIT OPEN	crack	4.5300	0	Noun	11783
+3083	BALLOON	balloon	4.9200	0	Noun	9114
+3084	BLACKBOARD	blackboard	4.7200	1	Noun	10499
+3085	CARROT	carrot	5.0000	0	Noun	8587
+3086	COMPUTER	computer	4.9300	0	Noun	8981
+3087	PACIFIER	pacifier	4.6100	0	Noun	11343
+3088	ENVELOPE	envelope	4.9300	0	Noun	8997
+3089	GIRAFFE	giraffe	4.7300	1	Noun	10459
+309	OPOSSUM	opossum	4.9300	0	Noun	9041
+3090	GUITAR	guitar	4.9000	0	Noun	9214
+3091	LEMON	lemon	5.0000	0	Noun	8648
+3092	LIGHTER	lighter	4.5300	0	Noun	11786
+3093	LIPSTICK	lipstick	4.9000	0	Noun	9228
+3094	PAINTBRUSH	paintbrush	4.7900	0	Noun	10078
+3095	POSTMAN	postman	4.7400	0	Noun	10421
+3096	RACKET	racket	4.2600	0	Noun	13262
+3097	SEWING MACHINE	sewing machine	5.0000	0	#N/A	28778
+3098	SNOWMAN	snowman	4.6400	0	Noun	11139
+3099	SOFA	couch	4.7100	0	Noun	10583
+31	PAN	pan	4.8600	0	Noun	9562
+3100	SUNGLASSES	sunglasses	4.8300	0	Noun	9809
+3102	TANK	tank	4.8000	0	Noun	9990
+3103	TENNIS BALL	tennis ball	5.0000	0	#N/A	28793
+3104	THERMOMETER	thermometer	4.9600	0	Noun	8926
+3105	UMBRELLA	umbrella	5.0000	0	Noun	8716
+3106	WARDROBE	wardrobe	4.6700	0	Noun	10965
+3110	CLAP	clap	4.1600	0	Verb	23648
+3111	CONDUCT	conduct	2.0800	0	Verb	27883
+3112	ERUPT	erupt	3.7000	0	Verb	24298
+3114	GRATE (SOMETHING)	grate	4.8200	0	Noun	9842
+3116	HATCH (OUT)	hatch	4.4600	0	Noun	12189
+3117	HITCHHIKE	hitchhike	3.4400	0	Verb	24786
+3119	MASSAGE (SOMEBODY)	massage	4.1800	0	Noun	13624
+3120	MOP (SOMETHING)	mop	4.9700	0	Noun	8771
+3121	OPERATE (MEDICINE)	operate	3.0000	0	Verb	25761
+3122	PAINT (SOMETHING)	paint	4.7900	0	Verb	23359
+3123	PHOTOGRAPH (SOMETHING)	photograph	4.8900	0	Noun	9344
+3128	SHOWER (ACTION)	shower	4.8900	0	Noun	9362
+3129	SKATE	skate	4.5600	0	Verb	23416
+3130	SPILL (SOMETHING)	spill	4.0700	1	Verb	23753
+3131	SUNBATHE	sunbathe	3.7200	0	Verb	24259
+3132	SURF	surf	4.5700	0	Noun	11599
+3134	TYPE (ON SOMETHING)	type	3.3000	0	Noun	17198
+3135	VACUUM (SOMETHING)	vacuum	4.2200	0	Noun	13440
+3137	OAR	oar	4.8400	0	Noun	9716
+3138	STRAWBERRY	strawberry	5.0000	0	Noun	8700
+3139	LADYBUG	ladybug	4.9200	0	Noun	9130
+3140	VEST	vest	4.5200	0	Noun	11903
+3141	TAMBOURINE	tambourine	4.8600	1	Noun	9601
+3142	BISON	bison	4.6800	0	Noun	10804
+3143	POLAR BEAR	polar bear	5.0000	0	#N/A	28773
+3144	GORILLA	gorilla	4.9700	0	Noun	8753
+3145	HIPPOPOTAMUS	hippo	4.9300	0	Noun	9014
+3146	CHEETAH	cheetah	4.7000	0	Noun	10646
+3147	HAMSTER	hamster	4.8600	0	Noun	9540
+3148	MEERKAT	meerkat	5.0000	1	#N/A	28760
+3153	LORD	lord	3.0400	0	Noun	18144
+3168	DOWRY	dowry	3.2900	0	Noun	17219
+317	PIRANHA	piranha	4.7600	1	Noun	10289
+3171	RINGWORM	ringworm	4.5000	0	Noun	11982
+3172	SCABIES	scabies	4.2400	0	Noun	13346
+3174	WAKE UP (SOMEONE)	wake	3.1100	1	Verb	25514
+3179	CORAL ROCK	coral	4.4000	1	Noun	12540
+318	FOOTPRINT	track	4.3100	0	Noun	13003
+3181	MUSTARD	mustard	4.9300	0	Noun	9033
+319	LICK	lick	4.5200	0	Verb	23438
+3193	CROSSBOW	crossbow	4.7700	0	Noun	10203
+3197	SUSPICION	suspicion	1.6200	0	Noun	22871
+32	EARWAX	earwax	4.8700	0	Noun	9461
+320	LAME	lame	2.5200	0	Adjective	2446
+3200	COUNTRYSIDE	countryside	4.4800	0	Noun	12044
+3202	CANNON	cannon	4.7900	0	Noun	10019
+3204	INSULT	insult	2.7900	0	Verb	26253
+321	CHEW	chew	3.9300	0	Verb	23901
+3213	HIRE OR RENT	hire	3.1100	0	Verb	25496
+3215	CREEP	creep	3.3800	0	Noun	16885
+322	FIG	fig	4.9700	1	Noun	8750
+3222	TWIG	twig	4.7500	1	Noun	10377
+323	FAT (ORGANIC SUBSTANCE)	grease	4.6100	0	Noun	11334
+3230	DECEIVE	deceive	1.6800	0	Verb	28552
+3231	DEITY	deity	2.3300	1	Noun	20670
+3243	CYPRESS	cypress	4.7600	3	Name	8160
+3247	KIWIFRUIT	kiwi	4.8600	0	Noun	9549
+3248	MAPLE TREE	maple	4.4600	0	Noun	12198
+325	FELT	felt	3.0400	0	Verb	25647
+3252	PANCREAS	pancreas	4.7900	0	Noun	10079
+3257	CLITORIS	clitoris	4.9300	0	Noun	8977
+3258	FALCON	falcon	4.9000	0	Noun	9204
+326	CLOAK	cloak	4.7100	0	Noun	10579
+3260	HORNBILL	hornbill	3.9100	4	#N/A	31176
+3261	HORNET	hornet	4.9600	0	Noun	8865
+3262	HORSEFLY	horsefly	4.9700	0	Adverb	6129
+3263	LAP	lap	4.1100	0	Noun	13926
+3267	PULSE	pulse	4.1900	0	Noun	13591
+3268	QUESTION	question	3.3600	0	Noun	16998
+3269	PORCH	veranda	4.5400	4	Noun	11775
+327	PONCHO	poncho	4.9700	0	Noun	8775
+3274	ENCIRCLE	surround	2.8100	0	Verb	26230
+3276	SUNSHINE	sunlight	4.4500	0	Noun	12284
+3279	MANTIS	mantis	4.8500	1	Noun	9672
+3282	GROOM	groom	4.5400	0	Noun	11739
+3283	CAGE	cage	5.0000	0	Noun	8584
+3284	GRAVEYARD	graveyard	4.8300	0	Noun	9760
+3288	WEED	weeds	4.8300	0	Noun	9817
+329	STOCKING	stocking	4.8600	0	Noun	9595
+3299	KIND	kind	2.0700	0	Noun	21608
+33	NETTLE	nettle	3.8800	4	Noun	14953
+330	HEADBAND	headband	5.0000	0	Noun	8632
+3302	QUARREL (VERB)	argue	2.7500	0	Verb	26336
+3303	PICTURE (PAINTING)	painting	4.5900	0	Noun	11447
+3304	PICTURE (PHOTOGRAPH)	photo	4.9300	0	Noun	9051
+331	HEADDRESS	headdress	4.7100	0	Noun	10593
+3313	JACKAL	jackal	4.3900	1	Noun	12582
+3314	LYNX	lynx	4.5000	0	Noun	11959
+3317	ELM	elm	4.6900	0	Noun	10738
+332	RAG	rag	4.6700	0	Noun	10940
+3320	SNARE (TRAP)	snare	3.9000	0	Noun	14836
+3325	PEARL	pearl	4.8700	1	Name	8141
+3327	AUTUMN OR HARVEST SEASON	harvest	4.0000	0	Noun	14390
+3329	YEARLING (HORSE)	yearling	3.9200	1	Noun	14786
+3333	BELIEF (RELIGIOUS)	belief	1.1900	0	Noun	23144
+3334	RITE	rite	2.5400	2	Noun	19966
+3336	FUNERAL	funeral	3.8300	0	Noun	15156
+334	COOKHOUSE	cookhouse	4.6200	2	Noun	11235
+3349	WRISTWATCH	wristwatch	4.8500	0	Noun	9703
+3353	SIEVE (TOOL)	sieve	4.5900	2	Noun	11464
+3357	CUPBOARD	cabinet	4.8900	0	Noun	9289
+336	PADLOCK	padlock	4.9200	0	Noun	9140
+3361	OFFICIAL	official	2.5400	0	Adjective	2395
+3367	STUTTERER	stutterer	4.1600	3	Adjective	167
+3368	POWDER	powder	4.7600	0	Noun	10292
+3375	PATIENT (SICK PERSON)	patient	2.5000	0	Noun	20091
+3376	ROBBER	robber	4.3100	0	Noun	12995
+338	RAKE	rake	4.8400	0	Verb	23350
+3380	HUNTING DOG	hound	4.4800	0	Noun	12068
+3382	PEACOCK	peacock	5.0000	0	Name	8116
+3384	WEASEL	weasel	4.7400	1	Noun	10442
+3385	ALUMINIUM	aluminum	4.8800	0	Noun	9398
+3386	SULPHUR	sulphur	4.2300	0	#N/A	30734
+3388	PLACENTA	placenta	4.7900	0	Noun	10083
+3389	MEASLES	measles	4.6900	0	Noun	10757
+3396	BUILDING	building	4.6400	0	Noun	11071
+3399	WAREHOUSE	warehouse	4.6900	0	Noun	10791
+34	STAIRS	stairs	5.0000	0	Noun	8699
+3401	HENHOUSE	coop	4.4600	1	Name	8218
+3403	HORSE BARN	stable	3.7700	0	Adjective	440
+3404	TILE	tile	4.6800	0	Noun	10870
+3405	RULER	ruler	4.6600	0	Noun	11007
+3407	FILE (TOOL)	file	4.4100	0	Noun	12488
+341	SICKLE	sickle	4.8800	0	Noun	9440
+3415	BALDHEAD	baldhead	4.4400	0	Noun	12294
+3416	EVERY (EACH)	each	2.0300	0	Pronoun	23317
+342	HAY	hay	4.8700	0	Noun	9466
+3425	JOKE	joke	2.9000	0	Noun	18671
+3426	SURNAME	surname	2.7900	0	Noun	19093
+3427	DIRECTION	direction	2.7900	0	Noun	19063
+3429	COMPARE	compare	2.5200	0	Verb	26857
+343	VINE	vine	4.8600	0	Noun	9614
+344	TREE TRUNK	tree trunk	4.9700	0	#N/A	28848
+3446	PINK	pink	3.9300	0	Adjective	303
+3447	BEGIN OR START	start	2.7100	0	Verb	26414
+345	SAP	sap	4.3700	0	Noun	12708
+3452	MUCH	much	1.6900	0	Determiner	8054
+3455	COMMEND	praise	2.6100	0	Verb	26637
+3458	SILENCE	silence	3.3300	0	Noun	17077
+3460	BEACH	beach	4.7900	0	Noun	10002
+3466	DANGEROUS	dangerous	2.1300	0	Adjective	3769
+3468	KINDNESS	kindness	1.7400	0	Noun	22621
+3469	LEVEL	level	2.8600	0	Noun	18803
+3470	LIAR	liar	3.4300	0	Noun	16708
+3471	OBLIGATION (DUTY)	obligation	2.0400	1	Noun	21709
+3475	SUFFICE	suffice	1.7200	0	Verb	28513
+352	UNTIE	untie	3.8900	0	Verb	23974
+353	STRIKE	strike	4.0700	0	Verb	23757
+3533	ONE MILLION	million	2.9000	0	Noun	18674
+3534	BEG	beg	2.9600	0	Verb	25837
+354	POUND	pound	4.6100	0	Noun	11350
+3545	WATERY	watery	3.9300	0	Adjective	311
+355	CUT DOWN	fell	3.5500	0	Verb	24578
+3551	FETCH	fetch	3.4200	0	Verb	24836
+3552	GREET	greet	2.9600	0	Verb	25856
+3553	HELLO	hello	2.8000	0	Interjection	8073
+3554	GOODBYE	farewell	2.2100	0	Noun	21083
+356	SHEARS	scissors	4.8500	0	Noun	9690
+357	HANG UP	hang up	3.1500	0	#N/A	32677
+359	POTTER	potter	4.1200	3	Name	8289
+3599	BILLION	billion	3.7900	0	Noun	15312
+36	PUBIC HAIR	pubic hair	4.6900	0	#N/A	29813
+3602	TRILLION	trillion	2.7200	0	Noun	19331
+3608	WARRIOR	warrior	4.1700	0	Noun	13700
+361	PEG	peg	4.9300	0	Name	8132
+3614	PANT	pant	4.3800	0	Noun	12640
+3615	BLEED	bleed	4.4000	0	Verb	23477
+3616	FAINT (PASS OUT)	faint	3.7400	0	Adjective	464
+3617	STUMBLE	stumble	3.7500	0	Verb	24207
+3618	STAMP	stamp	4.7000	0	Noun	10708
+362	STRING	string	4.7600	0	Noun	10304
+3620	SLEEPY	sleepy	2.7700	0	Adjective	1872
+3621	DISABLED PERSON	cripple	3.7800	0	Noun	15385
+3624	LEPROSY	leprosy	4.1000	0	Noun	13978
+3625	HEADACHE	headache	3.9000	0	Noun	14815
+3626	KNOW	know	1.6800	0	Verb	28559
+3628	HONOR (SOMEBODY)	honor	1.6800	0	Noun	22755
+3629	HESITATE	hesitate	2.4600	0	Verb	26992
+363	DWELL (LIVE, RESIDE)	dwell	2.6200	0	Verb	26606
+3630	PLAN	plan	3.4000	0	Noun	16820
+3631	PRETEND	pretend	2.1100	0	Verb	27843
+3632	GENEROUS	generous	2.2500	0	Adjective	3313
+3633	CURIOUS	curious	1.7500	0	Adjective	5396
+3634	STUBBORN	stubborn	2.1800	0	Adjective	3613
+3635	ADULT	adult	4.4000	0	Noun	12532
+3637	WEAVER	weaver	4.2900	0	Name	8251
+3638	ASSEMBLE (GET TOGETHER)	assemble	3.6700	0	Verb	24350
+3639	AVOID	avoid	2.4100	0	Verb	27091
+3640	GOSSIP	gossip	3.0000	0	Noun	18283
+3642	COMPLAIN	complain	2.6000	0	Verb	26650
+3643	AGREE	agree	2.3100	0	Verb	27342
+3644	AGREEMENT	agreement	2.2200	0	Noun	21041
+3645	PERSUADE	persuade	2.0700	0	Verb	27941
+3646	PROVERB	proverb	2.2600	2	Noun	20920
+3647	TICKLE (SOMEBODY)	tickle	3.8500	0	Verb	24042
+3648	SERVE (SOMEONE)	serve	3.7800	0	Verb	24160
+3649	PUNISH	punish	2.6600	0	Verb	26520
+365	SPLASH	splash	4.1900	0	Noun	13600
+3651	MUSH (FOOD)	mush	3.6700	1	Verb	24366
+3654	TAKE OUT	take out	3.4400	0	#N/A	32015
+3657	GRANARY	barn	4.7900	0	Noun	10000
+3659	POLISH (SOMETHING)	polish	4.2300	0	Noun	13387
+366	LIMP	limp	4.1500	0	Noun	13747
+3664	INHERIT	inherit	2.0400	0	Verb	27984
+3665	TRAVEL	travel	3.6700	0	Verb	24376
+3666	WANDER	wander	2.2800	0	Verb	27435
+3667	LOST	lost	2.6700	1	Verb	26493
+367	RIDE	ride	3.7500	0	Noun	15508
+3670	PLUNDER	plunder	3.1100	0	Verb	25500
+3673	MOURNING	mourning	2.1700	0	Noun	21250
+3674	ANTELOPE	antelope	5.0000	0	Noun	8555
+3675	ZEBRA	zebra	4.8600	0	Noun	9624
+3676	SHREW	shrew	4.0700	2	Noun	14145
+3677	MONGOOSE	mongoose	4.8900	1	Noun	9333
+3679	GROWL	growl	4.3000	0	Noun	13036
+3680	RUMINATE	ruminate	2.1900	3	Verb	27665
+3681	PARTRIDGE	partridge	4.0000	2	Noun	14424
+3683	CACKLE	cackle	3.6300	1	Noun	15938
+3684	PECK	peck	4.1600	0	Name	8277
+3685	HISS	hiss	3.6000	0	Verb	24477
+3687	DESERT	desert	4.8600	0	Noun	9522
+3688	MARSH	marsh	4.8500	1	Name	8144
+3689	BUBBLE	bubble	4.6000	0	Noun	11374
+369	OWE	owe	2.0700	0	Verb	27939
+3690	FULL MOON	full moon	5.0000	0	#N/A	28744
+3691	NEW MOON	new moon	4.2800	0	#N/A	30659
+3695	MOVEMENT	movement	3.6300	0	Noun	15956
+3697	DIP	dip	4.2200	0	Verb	23579
+3698	SINGE	singe	3.9200	2	Verb	23928
+370	BARTER	barter	2.9600	2	Verb	25836
+3700	LENGTHEN	lengthen	3.4700	0	Verb	24724
+3701	HOLLOW	hollow	3.6100	0	Noun	16037
+3702	SLIPPERY	slippery	3.9400	0	Adjective	288
+3703	STICKY	sticky	3.5900	0	Adjective	614
+3704	ODOR (SMELL)	odor	3.5200	0	Noun	16368
+3705	SCATTER	scatter	3.5500	0	Verb	24586
+3707	BEIGE	beige	3.4100	0	Adjective	820
+3709	BRILLIANT	brilliant	2.0700	0	Adjective	4000
+3712	RAINCOAT	raincoat	5.0000	0	Noun	8684
+3714	LARYNX	larynx	4.5000	3	Noun	11954
+3715	BELLYBUTTON	bellybutton	5.0000	1	Noun	8571
+3716	OVARY	ovary	4.1800	1	Noun	13628
+3717	BADGER	badger	4.3700	0	Noun	12665
+3718	GUINEA PIG	guinea pig	4.9300	0	#N/A	28971
+3719	MARMOT	groundhog	4.9300	0	Noun	9007
+372	POINTED	pointed	3.5700	0	Verb	24545
+3721	FINCH	finch	4.3000	0	Name	8246
+3722	FLAMINGO	flamingo	4.8100	0	Noun	9905
+3723	NIGHTINGALE	nightingale	4.4600	3	Name	8219
+3724	STORK	stork	4.7200	0	Name	8168
+3725	AVOCADO	avocado	4.8900	0	Noun	9278
+3726	BROCCOLI	broccoli	4.8700	0	Noun	9451
+3727	CELERY	celery	4.8000	0	Noun	9955
+3729	LETTUCE	lettuce	4.9700	0	Noun	8764
+3730	APRICOT	apricot	4.9700	0	Noun	8727
+3732	POMEGRANATE	pomegranate	4.8600	0	Noun	9572
+3733	FERRY	ferry	4.8300	0	Noun	9758
+3734	CHIMPANZEE	chimp	4.9600	1	Noun	8833
+3736	INSTEP	instep	3.3000	2	Noun	17181
+3737	BAREFOOT	barefooted	4.3300	0	Adjective	97
+3738	GRIZZLY BEAR	grizzly bear	4.8500	0	#N/A	29311
+3740	WHIRLWIND	whirlwind	4.0700	0	Noun	14168
+3743	BRASS	brass	4.7000	0	Noun	10637
+3744	INTERPRETER	interpreter	3.6700	0	Noun	15806
+3746	VASE	vase	5.0000	0	Noun	8719
+3747	SHAPE	shape	3.1400	0	Noun	17787
+375	SNIFF	sniff	4.1700	0	Verb	23644
+3750	KHAKI	khaki	4.1900	0	Adjective	159
+3752	LILAC	lilac	4.6900	0	Adjective	41
+3753	MAGENTA	magenta	3.8100	1	Noun	15257
+3754	TRANSPARENT	transparent	3.1800	0	Adjective	1161
+3755	MOUNTAINOUS	mountainous	3.6700	0	Adjective	532
+3756	FLORAL	floral	3.7500	0	Adjective	459
+3757	MUGGY	muggy	3.2800	0	Adjective	990
+3758	WINDY	windy	3.8600	0	Adjective	363
+3759	FOGGY	foggy	3.8000	0	Adjective	409
+376	FRAGRANT	fragrant	3.3500	1	Adjective	895
+3761	EMOTIONAL	emotional	2.0000	0	Adjective	4324
+3762	SAFE	safe	3.4100	0	Adjective	830
+377	LOUD	loud	3.7300	0	Adverb	6164
+3777	CATFISH	catfish	4.8500	0	Noun	9635
+378	PINCH	pinch	4.0000	0	Noun	14428
+3780	PET	pet	4.7100	0	Noun	10606
+379	BLUNT	blunt	3.0700	0	Adjective	1333
+38	SPREAD OUT	spread out	3.8500	0	#N/A	31278
+380	WRINKLED	wrinkled	4.2900	0	Adjective	124
+381	BLAME	blame	2.0600	0	Verb	27959
+382	GOVERN	govern	2.2100	0	Verb	27593
+383	MASTER	master	2.6300	0	Noun	19655
+384	FREEMAN	freeman	3.3200	4	Noun	17099
+385	RESPECT (SOMEBODY)	respect	2.0400	0	Noun	21727
+387	SLING	sling	4.5200	0	Noun	11883
+388	FISHNET	fishing net	4.5200	1	#N/A	30209
+39	KEEN	keen	1.6100	1	Adjective	5798
+391	BLESS	bless	2.6800	0	Verb	26460
+392	MAGIC	witchcraft	2.9600	0	Noun	18512
+394	SHAMAN (FOLK HEALER)	shaman	4.0800	3	Noun	14053
+395	PILL	pill	4.7200	0	Noun	10538
+398	PIERCE	pierce	3.7300	0	Name	8350
+399	PLANTAIN	plantain	4.4200	4	Noun	12449
+4	COURTYARD	courtyard	4.5700	0	Noun	11554
+40	ENVY	envy	1.6900	0	Verb	28540
+402	SURPASS	surpass	2.7300	0	Verb	26371
+404	ALCOHOL (FERMENTED DRINK)	alcohol	4.7600	0	Noun	10245
+41	IGNORE	ignore	2.2200	0	Verb	27567
+410	YAM	yam	4.9300	0	Name	8133
+411	GOURD	gourd	4.8600	2	Noun	9536
+419	SEVERE	severe	2.4300	1	Adjective	2725
+42	STINKING	stinking	3.2000	0	Adjective	1122
+420	FOREST	jungle	4.6600	0	Noun	10989
+421	RETREAT	retreat	3.0300	0	Noun	18214
+43	LEAD (GUIDE)	guide	3.7000	0	Noun	15660
+430	TWIST	twist	3.9000	0	Noun	14848
+432	BLOWGUN	blowgun	4.8300	3	Noun	9731
+442	FRONT TOOTH (INCISOR)	incisor	3.8900	0	Noun	14875
+446	LOWER ARM	forearm	4.6900	1	Noun	10742
+449	CORN FIELD	corn field	4.8700	0	#N/A	29196
+45	EVIL	wicked	2.1100	0	Adjective	3890
+460	BREAK (OF ROPE)	snap	4.1000	11	Verb	23719
+467	CRAYFISH	crayfish	4.9300	1	Noun	8986
+470	POSSUM	possum	4.7300	0	Noun	10474
+472	PELICAN	pelican	4.9600	0	Noun	8899
+474	DRESS	dress	4.9300	0	Noun	8994
+476	CUP	drinking glass	4.9600	0	#N/A	28867
+477	LATE	late	2.6000	0	Adjective	2249
+478	LIP	lip	4.9600	0	Noun	8881
+479	GROW	grow	3.0300	0	Verb	25698
+48	BE SILENT	shut up	3.0300	0	#N/A	33039
+480	PLATE	plate	4.7700	0	Noun	10231
+481	DISH	dish	4.9000	0	Noun	9199
+483	COMPOUND	compound	3.0300	0	Noun	18190
+484	CONDEMN	condemn	1.9600	1	Verb	28136
+485	DISAPPEAR	disappear	2.8600	0	Verb	26079
+486	MINISTER	minister	4.2200	2	Noun	13428
+487	SHY	shy	2.5200	0	Adjective	2462
+489	KIDNEY	kidney	4.9600	0	Noun	8874
+49	REFUSE	refuse	3.0400	0	Verb	25667
+490	DESCENDANTS	descendant	3.5300	0	Noun	16324
+491	CENTER	center	3.8500	0	Noun	15060
+492	THREE	three	3.6200	0	Number	23170
+493	FIVE	five	3.8700	0	Number	23157
+494	FLIRT	flirt	3.2600	0	Verb	25178
+495	REVENGE	revenge	1.5400	0	Noun	22996
+496	CUCUMBER	cucumber	4.8300	0	Noun	9752
+497	SCAR	scar	4.7400	0	Noun	10429
+5	GAZELLE	gazelle	4.7200	1	Noun	10517
+500	CRUEL	cruel	2.1100	0	Adjective	3833
+501	LIFT	lift	3.8900	0	Verb	23963
+503	FROG	frog	5.0000	0	Noun	8621
+504	LEARN	learn	2.2000	0	Verb	27633
+506	MAIZE	maize	4.5800	1	Noun	11514
+507	MELON	cantaloupe	4.7600	1	Noun	10255
+508	PERIOD	period	3.3100	0	Noun	17148
+509	CERTAIN	certainly	1.8600	0	Adverb	7242
+51	SORE	sore	3.2300	0	Adjective	1065
+518	SPARK	sparks	4.3900	0	Noun	12597
+52	SHIVER	tremble	3.6100	0	Verb	24467
+522	WOLF	wolf	4.7900	0	Noun	10125
+525	BLOOD VESSEL	blood vessel	4.7600	0	#N/A	29599
+526	HOWL	howl	3.8300	1	Verb	24057
+528	DREADFUL	fearful	2.2000	0	Adjective	3520
+53	SPIRIT	spirit	1.6000	0	Noun	22896
+530	FRECKLE	pockmark	4.3600	1	Noun	12759
+533	GLUTTON	glutton	3.1600	0	Noun	17699
+535	INFLATED	inflated	3.9300	0	Adjective	297
+539	NEST	nest	4.8600	0	Noun	9557
+540	PALATE	palate	3.7300	1	Noun	15558
+541	POETRY	poetry	3.5000	0	Noun	16438
+543	SHUTTLE	shuttle	4.6300	0	Noun	11204
+544	SPICY	peppery	3.6600	0	Adjective	540
+547	SURFACE	surface	4.2600	0	Noun	13264
+549	COPULATE	copulate	3.1300	0	Verb	25463
+55	WHISPER	whisper	4.3400	0	Verb	23506
+550	DILUTE	dilute	3.1000	0	Verb	25523
+552	GROW UP	grow up	2.1400	0	#N/A	36261
+554	HINDER	hinder	2.7800	1	Verb	26279
+555	INFRINGE	infringe	1.9300	0	Verb	28206
+56	BAD LUCK	misfortune	2.0700	0	Noun	21614
+568	RISE (MOVE UPWARDS)	rise	4.0400	0	Verb	23786
+569	SPOIL (BECOME SPOILED)	rot	3.9600	0	Verb	23883
+57	ATOP	upon	2.8300	0	Preposition	23219
+570	STAND UP	stand up	4.1500	0	#N/A	30842
+571	STING	sting	4.4100	0	Noun	12527
+573	SWAY	sway	3.6000	0	Verb	24481
+575	TREAD	tread	3.5700	1	Verb	24553
+576	DANDRUFF	dandruff	4.7900	0	Noun	10032
+577	FOREFINGER	index finger	4.8900	0	#N/A	29134
+578	KISS	kiss	4.4800	0	Verb	23449
+579	BATTLE	battle	4.0000	0	Noun	14340
+58	LIQUID	liquid	4.7200	0	Adjective	35
+580	FUR	fur	4.6900	0	Noun	10743
+581	COME BACK	return	2.9700	0	Verb	25824
+582	LEND	lend	3.0700	0	Verb	25594
+583	KIND OR POLITE	polite	1.8500	5	Adjective	5044
+584	DIFFICULT	difficult	2.2100	0	Adjective	3445
+585	BOOT	boots	5.0000	0	Noun	8578
+586	GARDEN	garden	4.7300	0	Noun	10458
+587	ANT	ant	4.8600	0	Noun	9493
+588	BROKEN	broken	4.1100	0	Verb	23685
+589	CLOSED	closed	3.3700	0	Verb	24936
+59	ELECTRICITY	electricity	3.9000	0	Noun	14808
+590	NAKED	naked	4.5000	0	Adjective	67
+592	PISS	piss	4.7300	0	Verb	23370
+593	POTATO	potato	4.8500	0	Noun	9682
+594	PIECE	piece	4.1400	1	Noun	13812
+597	PHYSICIAN	physician	4.6500	0	Noun	11047
+598	SHELL	shell	4.8000	0	Noun	9982
+6	EARTHQUAKE	earthquake	3.9700	0	Noun	14489
+60	OAT	oats	4.7800	0	Noun	10158
+600	STRANGE	odd	1.7000	0	Adjective	5565
+602	HIDE (CONCEAL)	conceal	3.1900	0	Verb	25325
+603	COAT	coat	4.9700	0	Noun	8743
+604	GLASS	glass	4.8200	0	Noun	9841
+605	GRAIN	grain	4.8000	0	Noun	9968
+606	GRASS	grass	4.9300	0	Noun	9006
+607	GRASSHOPPER	grasshopper	4.9100	1	Noun	9162
+608	GULF	gulf	4.0800	0	Noun	14029
+609	HAIL	hail	4.3200	0	Verb	23523
+610	PORT	port	4.4100	0	Noun	12518
+612	HEAT	hotness	3.1000	0	Noun	17919
+613	HIGH TIDE	flood	4.6200	0	Noun	11244
+614	HILL	hill	4.9300	0	Noun	9013
+615	HORSE	horse	5.0000	0	Noun	8634
+616	HOSPITAL	hospital	4.6400	0	Noun	11096
+617	ICE	ice	4.8900	1	Noun	9320
+619	ANIMAL	animal	4.6100	0	Noun	11304
+620	INSECT	insect	4.8900	0	Noun	9321
+621	IRON	iron	4.5900	0	Noun	11436
+622	ISLAND	island	4.9600	0	Noun	8869
+623	LAGOON	lagoon	4.5000	0	Noun	11952
+624	LAKE	lake	4.8800	0	Noun	9428
+625	LAMP	lamp	4.9700	0	Noun	8762
+626	LAND	land	4.5700	0	Noun	11568
+628	LEAF	leaf	5.0000	0	Noun	8647
+629	LEATHER	leather	4.8200	0	Noun	9850
+631	LIVESTOCK	livestock	4.7000	1	Noun	10679
+632	LIZARD	lizard	4.6800	0	Noun	10840
+633	MARKET	marketplace	4.2800	0	Noun	13152
+634	MEAT	meat	4.9000	0	Noun	9230
+635	MILK	milk	4.9200	7	Noun	9134
+636	MILL	mill	4.7200	0	Noun	10528
+637	MOSS	moss	4.9000	0	Name	8137
+638	MOTORCYCLE	motorcycle	4.9700	0	Noun	8772
+639	MOUNTAIN	mountain	4.9600	0	Noun	8889
+64	PIN	pin	4.9200	0	Noun	9143
+640	MUD	mud	4.8600	0	Noun	9554
+641	MUSHROOM	fungus	4.5900	0	Noun	11427
+642	MUSIC	music	4.3100	1	Noun	12984
+644	OAK	oak	4.8200	0	Noun	9857
+645	OCEAN	ocean	4.8600	0	Noun	9558
+646	ASH	ash	4.9600	0	Name	8122
+647	PAINT (PIGMENTS)	lacquer	4.2800	0	Noun	13144
+648	PAPER	paper	4.9300	0	Noun	9045
+649	PASTURE	pasture	4.7800	0	Noun	10164
+65	AMBUSH	ambush	3.1600	0	Noun	17690
+650	PETROLEUM	petroleum	4.6900	0	Noun	10763
+651	SEAL	seal	4.6300	0	Verb	23396
+652	PLAIN	plain	2.2600	0	Adjective	3292
+653	PLANT (VEGETATION)	plant	4.7600	0	Noun	10290
+654	PLASTIC	plastic	4.7900	1	Noun	10084
+655	POISON	poison	4.2700	0	Noun	13208
+657	PRICE	price	3.6300	0	Noun	15963
+658	RAIN (PRECIPITATION)	rain	4.9700	0	Noun	8777
+659	REED	reed	4.7000	1	Name	8176
+66	KNEEL	kneel	4.3100	0	Verb	23535
+660	REEF	reef	4.7000	1	Noun	10693
+661	RELIGION	religion	1.7100	0	Noun	22679
+662	BATTERY	battery	4.6700	0	Noun	10888
+663	BAY	bay	4.8100	0	Noun	9889
+664	RESIN	pitch	4.0000	1	Noun	14430
+665	BEE	honeybee	4.8600	0	Noun	9543
+666	RIVER	river	4.8900	0	Noun	9355
+667	ROAD	road	4.7500	0	Noun	10366
+668	ROCK	rock	4.9100	0	Noun	9164
+670	ROOT	root	4.3400	0	Noun	12836
+671	SAND	sand	5.0000	0	Noun	8688
+672	EARLY	early	2.2500	0	Adverb	6615
+673	SCHOOL	secondary school	4.1900	0	#N/A	30790
+674	MOUTH	mouth	4.7400	0	Noun	10413
+675	FAECES (EXCREMENT)	shit	4.3300	0	Noun	12893
+676	SHIT (DEFECATE)	excrete	2.8900	3	Verb	26016
+677	AXE	hatchet	4.9300	1	Noun	9010
+678	BEARD	beard	4.9600	0	Noun	8811
+679	BRIGHT	bright	3.9200	0	Adjective	313
+68	TATTOO	tattoo	4.7100	0	Noun	10621
+680	BREAK (DESTROY OR GET DESTROYED)	break	3.7100	0	Verb	24264
+681	DESTROY	demolish	3.4600	0	Verb	24729
+682	SIDE	side	3.6800	0	Noun	15760
+683	PERSON	human	4.9300	0	Adjective	19
+684	OWN	got	1.9300	1	Verb	28203
+685	DECIDE	decide	1.9200	0	Verb	28230
+686	EASY	simple	1.6200	0	Adjective	5784
+687	NOTHING	nothing	2.2100	0	Pronoun	23311
+688	LUNG	lung	4.8200	0	Noun	9854
+689	BETWEEN	between	2.7200	0	Preposition	23225
+69	SOBER	sober	2.8600	0	Adjective	1719
+690	BOTTOM	bottom	4.2500	0	Noun	13277
+691	SEASON	season	3.3200	0	Noun	17120
+692	BRING	bring	2.5500	0	Verb	26789
+693	FROM	from	1.8400	0	Preposition	23247
+694	GET	obtain	3.0000	0	Verb	25760
+695	GO	going	2.6900	0	Verb	26447
+696	STIR	stir	3.7600	0	Verb	24188
+698	WISE	wise	1.9700	0	Adjective	4488
+699	SAD	unhappy	2.0400	0	Adjective	4217
+7	GATHER	gather	2.7500	0	Verb	26339
+700	CARRY	carry	4.0400	0	Verb	23768
+701	SLOW	slow	3.2800	0	Adjective	994
+702	CATCH	catch	4.1100	0	Verb	23688
+703	SOON	soon	1.7900	0	Adverb	7401
+704	CLEAN	cleanness	3.6100	2	Noun	16023
+705	GO UP (ASCEND)	mount	4.0000	0	Noun	14413
+706	DARK	dark	4.2900	0	Adjective	118
+707	REMEMBER	remember	2.4100	0	Verb	27126
+708	SHINE	shine	3.8500	0	Verb	24036
+709	TEACH	teach	3.1500	0	Verb	25421
+710	WHEEL	wheel	4.8600	0	Noun	9618
+711	TALL	tall	3.3600	0	Adjective	889
+712	RICH	wealthy	2.7300	0	Adjective	1967
+713	STEAL	stealing	3.2800	0	Verb	25155
+714	SEED	seed	4.7100	0	Noun	10615
+715	SHOUT	yell	3.8600	0	Verb	24025
+716	GROAN	groan	4.0900	0	Noun	14008
+717	SWEET	sweetness	2.8300	0	Noun	18948
+718	PAY	salary	3.6900	0	Noun	15712
+719	FIND	found	2.5300	0	Verb	26843
+72	CLAW	claw	4.8300	0	Noun	9743
+720	GOOD LUCK	luck	1.3300	0	Noun	23132
+721	LOW	low	3.3400	0	Adjective	904
+722	ATTACK	attack	3.7100	0	Noun	15624
+723	PLACE (POSITION)	place	3.4800	0	Noun	16525
+724	READ	read	3.5600	0	Verb	24565
+726	WHILE	while	1.5500	0	Conjunction	8021
+727	WHICH	which	1.5400	2	Determiner	8057
+728	FIRST	first	2.7600	0	Number	23204
+729	DAWN	dawn	4.4600	0	Noun	12175
+73	BEAK	beak	4.9600	0	Noun	8809
+730	SNAKE	snake	5.0000	0	Noun	8694
+732	YOUR (SINGULAR)	yours	2.1400	0	Pronoun	23314
+733	EARN	earn	2.3900	0	Verb	27161
+734	MAKE	made	2.5200	0	Verb	26877
+735	OWL	owl	4.9300	0	Noun	9042
+736	YARD	yard	4.8200	0	Noun	9880
+738	THING	thing	3.1700	0	Noun	17686
+739	FEED	feed	4.1700	0	Verb	23637
+74	PUPPY	cub	4.6700	0	Noun	10903
+740	SHIP	ship	4.8700	0	Noun	9479
+741	DRIVE	drive	3.8600	0	Verb	24005
+742	END (OF SPACE)	end	3.1400	0	Noun	17761
+744	EGG	egg	4.9700	0	Noun	8747
+745	SHELF	shelf	4.9600	0	Noun	8909
+746	SHOP	shop	4.3100	0	Noun	12997
+747	BICYCLE	bicycle	4.8900	0	Noun	9282
+749	ENTER	enter	3.1200	0	Verb	25476
+75	DISGRACE	disgrace	2.1100	0	Noun	21460
+750	DROP	drop	4.2100	0	Verb	23589
+751	SHRUB	shrub	4.9200	1	Noun	9150
+752	STORE	store	4.5000	0	Noun	11997
+753	PUPIL (STUDENT)	student	4.9200	0	Noun	9156
+754	HURRY	hasten	2.2200	1	Verb	27566
+755	DENY	deny	2.2000	0	Verb	27628
+756	DEPEND	depend	1.8900	0	Verb	28267
+757	BUTTON	button	4.9600	0	Noun	8824
+758	HERON	heron	4.3800	4	Noun	12625
+759	SILVER	silver	4.5200	0	Noun	11882
+760	KNOT	knot	4.8700	0	Noun	9470
+761	COVER	cover	4.2300	0	Verb	23573
+762	OUTSIDE	outside	4.2500	1	Adverb	6139
+763	SKIN	skin	4.7900	0	Noun	10104
+765	MOVE	move	3.2500	1	Verb	25209
+766	MENSTRUATION	menstruation	4.0000	0	Noun	14410
+767	CORPSE	corpse	4.8900	0	Noun	9299
+768	LUNCH	lunch	4.3100	0	Noun	12981
+769	ROOF	roof	4.7900	0	Noun	10090
+770	EARRING	earring	4.9600	0	Noun	8853
+771	HAT	hat	4.8800	0	Noun	9423
+772	BELT	belt	4.9000	0	Noun	9175
+773	HAVE	had	1.7700	0	Verb	28446
+774	CABBAGE	cabbage	4.7500	0	Noun	10329
+775	TRUMPET	trumpet	4.8600	0	Noun	9610
+777	FLUTE	flute	5.0000	0	Noun	8619
+778	SMOKE (EXHAUST)	smoke	4.9600	0	Verb	23342
+779	PART	part	3.2900	0	Noun	17233
+78	THAT	those	2.3200	0	Determiner	8045
+780	OUR	ours	1.8100	0	Pronoun	23324
+782	DEFEAT	defeat	2.9600	0	Verb	25850
+783	VICTORY	victory	2.5500	0	Noun	19910
+784	SNOW	snow	4.8500	0	Noun	9692
+785	STRONG	strong	3.1400	0	Adjective	1235
+787	SAIL	sail	4.5900	0	Verb	23411
+788	SOAP	soap	4.9300	0	Noun	9079
+789	PEOPLE	nation	3.6200	0	Noun	15997
+79	WASTE	waste	3.2400	0	Verb	25229
+790	READY	ready	2.0700	0	Adjective	4058
+791	STRANGER	stranger	3.7600	0	Noun	15470
+792	BOIL (OF LIQUID)	boiling	4.3900	0	Verb	23482
+794	PEN	pen	4.9200	11	Noun	9141
+795	TROUT	trout	4.7200	0	Noun	10560
+796	NIPPLE	teat	4.3800	1	Noun	12655
+797	TESTICLES	scrotum	4.8700	0	Noun	9478
+798	JAW	jawbone	4.9600	0	Noun	8870
+799	WRIST	wrist	4.9300	1	Noun	9107
+8	CURSE	curse	2.3900	0	Noun	20440
+800	THIGH	thigh	4.9000	0	Noun	9268
+801	RIB	rib	4.9000	0	Noun	9253
+803	ANKLE	ankle	4.8100	0	Noun	9885
+804	WOMB	womb	4.3700	0	Noun	12721
+805	SPINE	spine	4.8800	0	Noun	9442
+806	BLANKET	blanket	5.0000	1	Noun	8576
+807	SKILLED	skilled	1.9600	0	Adjective	4560
+809	TROUSERS	pants	4.8600	0	Noun	9564
+81	FATHOM	fathom	2.0700	0	Verb	27921
+810	LOCUST	locust	4.8000	0	Noun	9975
+811	SOUL	soul	1.8600	0	Noun	22309
+812	SLAVE	slave	4.3800	0	Noun	12652
+813	DO	did	2.4500	0	Verb	27012
+815	GOVERNMENT	government	2.8800	0	Noun	18742
+816	HALF	half	3.2700	0	Determiner	8036
+817	THEY	they	2.9300	0	Pronoun	23293
+818	WILLOW	willow tree	4.9400	0	#N/A	28928
+819	STOMACH	stomach	4.8900	0	Noun	9370
+82	ANGER	anger	2.4100	0	Noun	20366
+820	LAMB	lamb	4.9700	0	Noun	8761
+821	POPLAR	poplar	3.7800	2	Noun	15403
+823	SORCERER	sorcerer	4.4700	0	Noun	12155
+824	WITCH	witch	4.1700	0	Noun	13704
+825	AWAKE	awake	3.3200	0	Adjective	922
+827	ROLL	roll	4.1600	0	Verb	23650
+828	RACCOON	raccoon	4.6700	0	Noun	10939
+829	RAFTER	rafter	4.9700	1	Noun	8776
+83	FORBID	forbid	1.9600	0	Verb	28147
+830	SOOT	soot	4.6100	0	Noun	11361
+831	BASE	base	3.8600	0	Noun	15002
+832	BEAN	bean	5.0000	0	Noun	8568
+833	ENDURE	endure	2.0000	0	Verb	28064
+834	BUTTOCKS	ass	4.6700	0	Noun	10882
+836	SCREWDRIVER	screwdriver	4.9000	0	Noun	9259
+837	BLUE	blue	3.7600	0	Adjective	445
+838	REMAINS	remains	3.4600	0	Verb	24744
+84	JUST	just	1.5200	0	Adverb	7839
+842	LIQUOR	liquor	4.7300	0	Noun	10468
+843	SPIDER	spider	4.9700	0	Noun	8788
+844	KIND (THING)	sort	3.3400	1	Adverb	6193
+845	MURDER	murder	3.6100	0	Noun	16042
+846	TIGER	tiger	5.0000	0	Noun	8706
+847	THIRSTY	thirsty	3.8600	0	Adjective	360
+848	THIRST	thirst	3.0400	1	Noun	18173
+849	SPRING (OF WATER)	fountain	4.7700	0	Noun	10214
+850	SQUARE	square	4.3300	0	Noun	12898
+851	STABLE	stall	4.3700	0	Verb	23496
+852	PRIEST	priest	4.7700	0	Noun	10235
+853	ALTAR	altar	4.8500	0	Noun	9625
+854	KETTLE	kettle	4.7500	0	Noun	10346
+855	SEIZE	grab	3.5200	0	Verb	24632
+857	STONE	stone	4.7200	0	Noun	10554
+858	STORM	storm	4.7000	0	Noun	10710
+859	STOVE	stove	4.9600	0	Noun	8917
+860	CAUSE	cause	2.4300	0	Noun	20304
+861	JUDGE	judge	3.7500	0	Noun	15501
+862	SUGAR	sugar	4.8700	2	Noun	9486
+863	EDGE	cutting edge	2.4400	0	#N/A	34877
+864	PUMPKIN	squash	4.7000	0	Noun	10707
+865	FAME	fame	1.9600	0	Noun	21974
+866	WIN	win	2.6700	0	Verb	26507
+867	GLOVE	mitten	4.8900	1	Noun	9332
+868	BANANA	banana	5.0000	0	Noun	8562
+869	BLADE	blade	4.9300	0	Noun	8952
+870	BREATH	breath	4.3600	0	Noun	12728
+871	RATTLESNAKE	rattlesnake	5.0000	0	Noun	8685
+873	TAX	tax	3.8900	1	Noun	14910
+874	CANDY	candy	4.8300	0	Noun	9738
+875	SHOEMAKER	shoemaker	4.5400	0	Noun	11760
+876	ARCH	arch	4.5900	0	Noun	11403
+877	MASON	mason	4.2000	2	Name	8269
+878	HELL	hell	2.4100	0	Noun	20381
+879	COUGH	cough	4.3600	0	Noun	12733
+88	BEEHIVE	hive	4.8300	0	Noun	9769
+880	REPEAT	repeat	2.9000	0	Verb	26000
+881	TAILOR	tailor	4.6700	0	Noun	10957
+882	PARROT	parrot	5.0000	0	Noun	8668
+883	TERMITE	termite	4.7000	0	Noun	10713
+884	SHARE	share	2.9600	0	Verb	25885
+885	OPPOSITE	opposite	1.7900	0	Adjective	5259
+886	PARAKEET	parakeet	4.9000	0	Noun	9238
+887	BITTER	bitterness	2.3600	0	Noun	20559
+888	POISONOUS	poisonous	2.7400	0	Adjective	1948
+889	FLAME	flame	4.6700	0	Noun	10908
+890	MULE	mule	5.0000	0	Noun	8660
+891	TIDE	tide	4.1000	0	Noun	14000
+892	TIME	time	3.0700	0	Noun	18076
+893	TIN (METAL)	tin	4.8700	0	Noun	9488
+894	TOAD	toad	5.0000	0	Noun	8707
+895	TORTOISE	tortoise	4.8700	0	Noun	9489
+897	SWALLOW	swallow	3.8900	0	Verb	23969
+898	TRADE	trade	3.0800	0	Noun	17988
+899	PRESIDENT	president	4.4000	0	Noun	12553
+9	ANNOUNCE	announce	3.3100	0	Verb	25062
+90	INNOCENT	innocent	1.5400	0	Adjective	5912
+900	TRAIN	train	4.7900	0	Noun	10118
+901	ADOBE	adobe	4.1900	2	Noun	13552
+902	ADULTERY	adultery	2.7900	1	Noun	19051
+903	ASPEN	aspen	4.5900	4	Name	8195
+904	BERRY	berry	4.9300	0	Name	8129
+905	BORING	bored	2.1300	0	Adjective	3767
+906	TREE	tree	5.0000	0	Noun	8713
+907	OLD WOMAN	old lady	4.7800	0	#N/A	29559
+908	DRUM	drum	4.9600	0	Noun	8850
+909	GARBAGE	rubbish	3.6400	0	Noun	15923
+910	DEATH	death	3.7300	0	Noun	15549
+911	TEMPLE	temple	4.5300	0	Noun	11797
+912	COYOTE	coyote	4.9600	0	Noun	8839
+913	CROW	crow	4.9300	0	Noun	8987
+914	SCULPTOR	sculptor	4.0900	1	Noun	14011
+915	SINK (BASIN)	basin	4.6300	1	Noun	11154
+916	LINEN	linen	4.8000	0	Noun	9974
+917	ORNAMENT	ornament	4.0400	0	Noun	14240
+919	CHILI PEPPER	chili pepper	4.8300	0	#N/A	29360
+92	SPOIL (SOMEBODY OR SOMETHING)	spoil	2.8200	0	Verb	26202
+920	GRAPE	grape	5.0000	0	Noun	8624
+921	VALLEY	valley	4.7200	0	Noun	10561
+922	PEAR	pear	4.9300	0	Noun	9046
+923	LOVE	love	2.0700	0	Verb	27933
+924	VEGETABLES	vegetable	4.8900	0	Noun	9387
+926	RICE	rice	4.8600	0	Noun	9579
+928	EMBRACE	embrace	3.3800	0	Verb	24908
+930	VILLAGE	village	4.8900	0	Noun	9388
+931	MILLET	millet	3.8800	4	Noun	14950
+932	BARLEY	barley	4.5900	0	Noun	11406
+933	WALL (OF HOUSE)	wall	4.8600	0	Noun	9615
+934	BUFFALO	buffalo	4.8300	0	Name	8146
+935	WAR	war	3.6300	0	Noun	15969
+936	STALLION	stallion	4.7200	0	Noun	10553
+937	BIRD	bird	5.0000	0	Noun	8574
+938	MARE	mare	4.7500	1	Noun	10351
+940	STRAIN	strain	3.0000	0	Noun	18348
+941	MEAD	mead	4.2200	1	Noun	13427
+942	HONEY	honey	4.8800	0	Noun	9425
+943	WATERFALL	waterfall	4.9000	0	Noun	9272
+944	SALMON	salmon	4.8100	0	Noun	9936
+945	SPEAR	spear	5.0000	1	Noun	8697
+946	BLOOD	blood	4.8600	0	Noun	9501
+947	STREAM	stream	4.5000	0	Noun	11999
+948	WATER	water	5.0000	0	Noun	8724
+950	SEAGULL	gull	4.0800	4	Noun	14030
+951	WEAPONS	weapon	4.7600	0	Noun	10320
+952	WEATHER	weather	3.8300	0	Noun	15193
+953	RAPE	rape	3.6100	0	Noun	16050
+954	WELL	well	3.3300	0	Adverb	6195
+955	GREASY	greasy	3.8200	0	Adjective	389
+956	FLEE	flee	3.6700	0	Verb	24362
+957	WHALE	whale	4.9600	0	Noun	8939
+958	WILD ANIMAL	beast	4.6300	0	Noun	11155
+96	CRAWL	crawl	4.2700	0	Verb	23557
+960	WIND	wind	3.9300	0	Noun	14721
+961	PEBBLES	pebble	4.8600	0	Noun	9568
+962	WOMAN	woman	4.4600	0	Noun	12236
+963	BOOK	book	4.9000	0	Noun	9178
+964	WOOL	wool	4.8600	0	Noun	9623
+965	WORLD	world	4.3600	0	Noun	12779
+966	BRAKE	brake	4.4400	0	Noun	12297
+967	YEAST	ferment	2.9200	1	Verb	25967
+968	ACORN	acorn	4.9600	0	Noun	8799
+969	CIGARETTE	cigarette	4.8800	0	Noun	9409
+97	THROUGH	through	2.9000	0	Preposition	23217
+970	COCONUT	coconut	4.7900	0	Noun	10027
+971	MUST	must	2.1300	0	Verb	27795
+972	BE ABLE	may	3.0000	0	Verb	25756
+973	NOODLE	noodles	4.9600	0	Noun	8896
+974	TOBACCO	tobacco	4.8800	0	Noun	9444
+975	SPINACH	spinach	4.7700	0	Noun	10238
+976	WEAR	wear	3.6100	0	Verb	24471
+977	ARROW	arrow	4.9700	0	Noun	8729
+978	WAVE	wave	4.5500	0	Noun	11711
+979	FARMER	peasant	3.9600	0	Noun	14585
+98	ALL	everything	2.3000	0	Pronoun	23309
+980	HEEL	heel	4.8600	0	Noun	9542
+981	ELBOW	elbow	5.0000	0	Noun	8608
+983	CONVICT	convict	4.1100	0	Verb	23691
+985	VINEGAR	vinegar	4.8900	0	Noun	9389
+986	TOMATO	tomato	5.0000	0	Noun	8708
+987	REMAIN	remain	1.9600	0	Verb	28165
+988	ACQUIT	acquit	2.1300	1	Noun	21385
+989	CLEAR	clear	3.5500	0	Adjective	657
+99	HUNCHBACK	hunchback	4.3200	0	Noun	12925
+990	CREEK (TIDAL)	creek	4.8700	0	Noun	9457
+991	FRY	fry	4.3700	0	Verb	23492
+992	CLIFF	cliff	4.7100	0	Name	8171
+994	BOW	longbow	4.9600	3	Noun	8884
+996	DEAF	deaf	3.2700	0	Adjective	1000
+998	PUT	put down	2.8600	0	#N/A	33495
+999	JOINT	joint	4.3700	0	Adjective	92
