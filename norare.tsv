@@ -337,7 +337,7 @@ Xiao-2012-213	ICONICITY	mean	iconicity	ratings	user	zh		40 U.S. adults with no k
 Xiao-2012-213	PICTURABILITY	mean	picturability	ratings	user	zh		31 English speaking students were shown the English translations of Chinese characters used in the experiment and had to rate each translation on a 7-point scale to indicate the extent to which the concept could be expressed easily in a simple black-on-white line drawing or diagram.
 Pagel-2018-200	RATE	numeric	stability	relations	concept lists	en		Stability (rate of lexical change) measured for concepts based on a sample from Indo-European languages.
 Pagel-2007-200	RANK	numeric	stability	relations	concept lists	en	Dyen1992	Ranks for the 200 basic concepts, which are retrieved from the calculation of evolutionary rates from phylogenetic analyses on the database by Dyen et al (1992).
-Breisemeister-2011-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category happiness.
+Breisemeister-2011-DiscreteEmotions	GERMAN_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category happiness.
 Breisemeister-2011-DiscreteEmotions	GERMAN_ANGER_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category anger.
 Breisemeister-2011-DiscreteEmotions	GERMAN_SADNESS_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category sadness.
 Breisemeister-2011-DiscreteEmotions	GERMAN_FEAR_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category fear.
