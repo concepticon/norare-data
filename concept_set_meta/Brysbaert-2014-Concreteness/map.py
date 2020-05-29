@@ -37,6 +37,7 @@ class Dataset(NormDataSet):
                     "To": "Other",
                     "Number": "Number",
                     "Pronoun": "Other",
-                    "Not": "Other"}
+                    "Not": "Other"},
+                pos_name = "ENGLISH_POS"
                 )
 

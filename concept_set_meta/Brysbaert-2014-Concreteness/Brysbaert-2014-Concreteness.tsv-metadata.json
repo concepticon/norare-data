@@ -39,7 +39,7 @@
             "titles": "Unknown"
           },
           {
-            "name": "POS",
+            "name": "ENGLISH_POS",
             "datatype": "string",
             "titles": "Dom_Pos"
           },
