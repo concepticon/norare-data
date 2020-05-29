@@ -29,7 +29,7 @@
             "titles": "WORD_LOWER"
           }, 
           {
-            "name": "GERMAN_HAPTIC_MEAN",
+            "name": "GERMAN_HAPPINESS_MEAN",
             "datatype": "float",
             "titles": "HAP_MEAN"
           },
