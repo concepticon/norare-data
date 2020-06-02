@@ -30,48 +30,48 @@
           }, 
           {
             "name": "ENGLISH_AROUSAL_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "AROU"
           },
           {
             "name": "ENGLISH_VALENCE_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "VAL"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "DOM"
           },
           {
             "name": "ENGLISH_CONCRETENESS_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "CNC"
           },
 
           {
             "name": "ENGLISH_IMAGEABILITY_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "IMAG"
           },
           {
             "name": "ENGLISH_FAMILIARITY_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "FAM"
           },
           {
             "name": "ENGLISH_AOA_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "AOA"
           },
           {
             "name": "ENGLISH_SEM_SIZE_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "SIZE"
           },
           {
             "name": "ENGLISH_GENDER_ASSOCIATION_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "GEND"
           }
         ],

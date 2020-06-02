@@ -30,7 +30,7 @@
           }, 
           {
             "name": "SPANISH_AOA_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "averageAoA"
           },
           {

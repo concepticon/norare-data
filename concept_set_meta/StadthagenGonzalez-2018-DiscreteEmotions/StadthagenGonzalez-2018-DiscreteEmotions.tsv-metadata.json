@@ -30,27 +30,27 @@
           }, 
           {
             "name": "SPANISH_HAPPINESS_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "Happiness_Mean"
           },
           {
             "name": "SPANISH_DISGUST_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "Disgust_Mean"
           },
           {
             "name": "SPANISH_ANGER_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "Anger_Mean"
           },
           {
             "name": "SPANISH_FEAR_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "Fear_Mean"
           },
           {
             "name": "SPANISH_SADNESS_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "Sadness_Mean"
           },
           {
