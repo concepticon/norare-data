@@ -26,53 +26,53 @@
           {
             "name": "ENGLISH",
             "datatype": "string",
-            "dc:title": "Words"
+            "titles": "Words"
           }, 
           {
             "name": "ENGLISH_AROUSAL_MEAN",
             "datatype": "float",
-            "dc:title": "AROU"
+            "titles": "AROU"
           },
           {
             "name": "ENGLISH_VALENCE_MEAN",
             "datatype": "float",
-            "dc:title": "VAL"
+            "titles": "VAL"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN",
             "datatype": "float",
-            "dc:title": "DOM"
+            "titles": "DOM"
           },
           {
             "name": "ENGLISH_CONCRETENESS_MEAN",
             "datatype": "float",
-            "dc:title": "CNC"
+            "titles": "CNC"
           },
 
           {
             "name": "ENGLISH_IMAGEABILITY_MEAN",
             "datatype": "float",
-            "dc:title": "IMAG"
+            "titles": "IMAG"
           },
           {
             "name": "ENGLISH_FAMILIARITY_MEAN",
             "datatype": "float",
-            "dc:title": "FAM"
+            "titles": "FAM"
           },
           {
             "name": "ENGLISH_AOA_MEAN",
             "datatype": "float",
-            "dc:title": "AOA"
+            "titles": "AOA"
           },
           {
             "name": "ENGLISH_SEM_SIZE_MEAN",
             "datatype": "float",
-            "dc:title": "SIZE"
+            "titles": "SIZE"
           },
           {
             "name": "ENGLISH_GENDER_ASSOCIATION_MEAN",
             "datatype": "float",
-            "dc:title": "GEND"
+            "titles": "GEND"
           }
         ],
         "foreignKeys": [

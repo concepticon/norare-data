@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of discrete emotions (happiness, sadness, anger, fear, and disgust) ratings by Stadthagen-Gonzalez et al. (2018).",
-  "dc:source": "https://doi.org/10.3758/s13428-017-0962-y",
-  "dc:references" : "StadthagenGonzalez2018",
-  "dcat:keyword": ["discrete emotions", "monolingual", "happiness", "sadness", "anger", "fear", "disgust", "Spanish"],
-  "dc:description": "An automated mapping of discrete emotions (happiness, sadness, anger, fear, and disgust) ratings submitted with the study of Stadthagen-Gonzalez et al. (2018) to the concept sets in Concepticon.",
+  "dc:title": "Automatic mapping of discrete emotions (happiness, sadness, anger, fear, and disgust) ratings by Briesemeister et al. (2011).",
+  "dc:source": "https://doi.org/10.3758/s13428-011-0059-y",
+  "dc:references" : "Breisemeister2011",
+  "dcat:keyword": ["discrete emotions", "monolingual", "happiness", "sadness", "anger", "fear", "disgust", "nouns", "German"],
+  "dc:description": "An automated mapping of the discrete emotions (happiness, sadness, anger, fear, and disgust) ratings submitted with the study of Briesemeister et al. (2011) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -24,39 +24,39 @@
             "datatype": "string"
           }, 
           {
-            "name": "SPANISH",
+            "name": "GERMAN",
             "datatype": "string",
-            "titles": "Word"
+            "titles": "WORD_LOWER"
           }, 
           {
-            "name": "SPANISH_HAPPINESS_MEAN",
+            "name": "GERMAN_HAPPINESS_MEAN",
             "datatype": "float",
-            "titles": "Happiness_Mean"
+            "titles": "HAP_MEAN"
           },
           {
-            "name": "SPANISH_DISGUST_MEAN",
+            "name": "GERMAN_ANGER_MEAN",
             "datatype": "float",
-            "titles": "Disgust_Mean"
+            "titles": "ANG_MEAN"
           },
           {
-            "name": "SPANISH_ANGER_MEAN",
+            "name": "GERMAN_SADNESS_MEAN",
             "datatype": "float",
-            "titles": "Anger_Mean"
+            "titles": "SAD_MEAN"
           },
           {
-            "name": "SPANISH_FEAR_MEAN",
+            "name": "GERMAN_FEAR_MEAN",
             "datatype": "float",
-            "titles": "Fear_Mean"
+            "titles": "FEA_MEAN"
           },
           {
-            "name": "SPANISH_SADNESS_MEAN",
+            "name": "GERMAN_DISGUST_MEAN",
             "datatype": "float",
-            "titles": "Sadness_Mean"
+            "titles": "FEA_MEAN"
           },
           {
-            "name": "SPANISH_POS",
+            "name": "GERMAN_EMOTION_DOMINANT",
             "datatype": "string",
-            "titles": "Dominant_POS"
+            "titles": "BasicEmoCat liberal"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -74,7 +74,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "StadthagenGonzalez-2018-DiscreteEmotions.tsv"
+      "url": "Breisemeister-2011-DiscreteEmotions.tsv"
     }
   ]
 }

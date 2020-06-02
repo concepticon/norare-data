@@ -15,6 +15,17 @@ class Dataset(NormDataSet):
         sheet = self.get_csv('13428_2017_962_MOESM1_ESM.csv', delimiter=",", dicts=True, coding='cp1252')
         self.extract_data(
                 sheet,
+                pos_mapper = {
+                    'NOUN': 'Person/Thing',
+                    'ADJECTIVE': 'Property',
+                    'VERB': 'Action/Process',
+                    'ADPOSITION': 'Other',
+                    'ADVERB': 'Other',
+                    'CONJUNCTION': 'Other',
+                    'DATE': "Person/Thing",
+                    'DETERMINER': "Other",
+                    "PRONOUN": "Other"},
+                pos_name = "SPANISH_POS",
                 gloss='SPANISH',
                 language='es',
                 write_file=write_file)
