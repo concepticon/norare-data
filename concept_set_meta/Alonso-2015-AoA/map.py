@@ -1,5 +1,4 @@
 from pynorare.dataset import NormDataSet
-from sys import argv
 
 class Dataset(NormDataSet):
 
@@ -15,12 +14,25 @@ class Dataset(NormDataSet):
     def map(self, write_file=True):
         
         sheet = self.get_excel('SpanishAoA.xls', 0, dicts=True)
+        
         self.extract_data(
                 sheet,
+                pos_mapper = {
+                    'NOUN': 'Person/Thing',
+                    'ADJECTIVE': 'Property',
+                    'VERB': 'Action/Process',
+                    'ADPOSITION': 'Other',
+                    'ADVERB': 'Other',
+                    'CONJUNCTION': 'Other',
+                    'DATE': "Person/Thing",
+                    'DETERMINER': "Other",
+                    'INTERJECTION': 'Other',
+                    "PRONOUN": "Other",
+                    " ": "Other"},
+                pos_name = "SPANISH_POS",
                 gloss='SPANISH',
                 language='es',
                 write_file=write_file)
 
                 
-if __name__ == '__main__':
-    Dataset().run(argv)
+
