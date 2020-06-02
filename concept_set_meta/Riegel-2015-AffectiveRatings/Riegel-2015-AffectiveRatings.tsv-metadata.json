@@ -35,47 +35,47 @@
           },
           {
             "name": "POLISH_VALENCE_MEAN_MALE",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "val_M_men"
           },
           {
             "name": "POLISH_VALENCY_MEAN_FEMALE",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "val_M_women"
           },
           {
             "name": "POLISH_VALENCY_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "val_M_all"
           },
           {
             "name": "POLISH_AROUSAL_MEAN_MALE",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "aro_M_men"
           },
           {
             "name": "POLISH_AROUSAL_MEAN_FEMALE",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "aro_M_women"
           },
           {
             "name": "POLISH_AROUSAL_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "aro_M_all"
           },
           {
             "name": "POLISH_IMAGEABILITY_MEAN_MALE",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "ima_M_men"
           },
           {
             "name": "POLISH_IMAGEABILITY_MEAN_FEMALE",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "ima_M_women"
           },
           {
             "name": "POLISH_IMAGEABILITY_MEAN",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "ima_M_all"
           },
           {
