@@ -40,7 +40,7 @@
           },
           {
             "name": "CHINESE_FREQUENCY_LOG",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "logW"
           },
           {
@@ -50,12 +50,12 @@
           },
           {
             "name": "CHINESE_CD_PERCENTAGE",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "W-CD%"
           },
           {
             "name": "CHINESE_CD_LOG",
-            "datatype": "string",
+            "datatype": "float",
             "titles": "logW-CD"
           },
           {
