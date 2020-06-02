@@ -30,12 +30,12 @@
           }, 
           {
             "name": "FRENCH_SUBJECTIVE_FREQUENCY",
-            "datatype": "float",
+            "datatype": "string",
             "titles": "FREQ_Mean"
           },
           {
             "name": "FRENCH_IMAGEABILITY_MEAN",
-            "datatype": "float",
+            "datatype": "string",
             "titles": "IMAGE_Mean"
           },
           {
