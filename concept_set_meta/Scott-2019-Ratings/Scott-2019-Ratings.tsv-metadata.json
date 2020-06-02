@@ -1,7 +1,7 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "titles": "Automatic mapping of normative ratings by Scott et al. (2019).",
+  "dc:title": "Automatic mapping of normative ratings by Scott et al. (2019).",
   "dc:source": "https://doi.org/10.3758/s13428-018-1099-3",
   "dc:references" : "Scott2019",
   "dcat:keyword": ["arousal", "valence", "dominance", "concreteness", "imageability", "familiarity", "age of acquisition", "semantic size", "gender association", "monolingual", "English"],
