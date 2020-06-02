@@ -44,6 +44,11 @@
             "titles": "Max"
           },
           {
+            "name": "SPANISH_POS",
+            "datatype": "string",
+            "titles": "espal_max_lem_cat"
+          },
+          {
             "name": "LINE_IN_SOURCE",
             "datatype": "integer"
           }

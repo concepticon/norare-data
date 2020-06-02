@@ -15,6 +15,19 @@ class Dataset(NormDataSet):
         sheet = self.get_excel('data sheet 1.xlsx', 0, dicts=True)
         self.extract_data(
                 sheet,
+                pos_mapper = {
+                    'N': 'Person/Thing',
+                    'A': 'Property',
+                    'V': 'Action/Process',
+                    'pron': 'Other',
+                    'adv': 'Other',
+                    'I': 'Action/Process',
+                    'pred': "Person/Thing",
+                    'ign': "Other",
+                    'num': 'Number',
+                    "prep": "Other",
+                    "qub": "Other"},
+                pos_name = "POLISH_POS",
                 gloss='POLISH',
                 language='pl',
                 write_file=write_file)

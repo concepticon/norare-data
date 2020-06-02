@@ -7,7 +7,7 @@ class Dataset(NormDataSet):
     def download(self):
         self.download_zip(
             'https://static-content.springer.com/esm/art%3A10.3758%2FBRM.41.2.546/MediaObjects/Desrochers-BRM-2009.zip',
-            'desrochers_freq_fr',
+            'desrochers_freq_fr.zip',
             'Desrochers-Thompson_2009_Ratings.xls'
         )
 

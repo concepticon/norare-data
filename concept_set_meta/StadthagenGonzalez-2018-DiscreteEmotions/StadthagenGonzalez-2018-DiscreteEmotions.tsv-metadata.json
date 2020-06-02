@@ -54,7 +54,7 @@
             "titles": "Sadness_Mean"
           },
           {
-            "name": "SPANISH_DOMINANT_POS",
+            "name": "SPANISH_POS",
             "datatype": "string",
             "titles": "Dominant_POS"
           },
