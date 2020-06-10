@@ -3,7 +3,7 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Automatic mapping of discrete emotions (happiness, sadness, anger, fear, and disgust) ratings by Briesemeister et al. (2011).",
   "dc:source": "https://doi.org/10.3758/s13428-011-0059-y",
-  "dc:references" : "Breisemeister2011",
+  "dc:references" : "Briesemeister2011",
   "dcat:keyword": ["discrete emotions", "monolingual", "happiness", "sadness", "anger", "fear", "disgust", "nouns", "German"],
   "dc:description": "An automated mapping of the discrete emotions (happiness, sadness, anger, fear, and disgust) ratings submitted with the study of Briesemeister et al. (2011) to the concept sets in Concepticon.",
   "dialect": {
@@ -74,7 +74,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Breisemeister-2011-DiscreteEmotions.tsv"
+      "url": "Briesemeister-2011-DiscreteEmotions.tsv"
     }
   ]
 }
