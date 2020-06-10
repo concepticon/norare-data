@@ -1,0 +1,75 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of frequency norms by Mandera et al. (2014).",
+  "dc:source": "http://crr.ugent.be/programs-data/subtitle-frequencies/subtlex-pl",
+  "dc:references" : "Mandera2014",
+  "dcat:keyword": ["word frequency", "monolingual", "Polish"],
+  "dc:description": "An automated mapping of the frequency norms submitted with the study of Mandera et al. (2014) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "POLISH",
+            "datatype": "string",
+            "titles": "spelling"
+          }, 
+          {
+            "name": "POLISH_FREQUENCY",
+            "datatype": "integer",
+            "titles": "freq"
+          },
+          {
+            "name": "POLISH_CD",
+            "datatype": "integer",
+            "titles": "cd.count"
+          },
+          {
+            "name": "POLISH_FREQUENCY_LOG",
+            "datatype": "float",
+            "titles": "lg.freq"
+          },
+          {
+            "name": "POLISH_CD_LOG",
+            "datatype": "float",
+            "titles": "lg.cd"
+          },
+          {
+            "name": "POLISH_POS",
+            "datatype": "string",
+            "titles": "dom.pos"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Mandera-2015-Frequency.tsv"
+    }
+  ]
+}

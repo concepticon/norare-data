@@ -343,3 +343,7 @@ Breisemeister-2011-DiscreteEmotions	GERMAN_SADNESS_MEAN	mean	discrete emotions	r
 Breisemeister-2011-DiscreteEmotions	GERMAN_FEAR_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category fear.
 Breisemeister-2011-DiscreteEmotions	GERMAN_DISGUST_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category disgust.
 Breisemeister-2011-DiscreteEmotions	GERMAN_EMOTION_DOMINANT	linguistic	discrete emotions	ratings	user	de		A more conservative classification criterion was applied, assigning words to a specific discrete emotion category only in cases in which the averaged rating in one discrete emotion was more than one standard deviation higher than in any other discrete emotion.
+Mandera-2015-Frequency	POLISH_FREQUENCY	tokens	frequency	norms	corpus	pl		This is the number of times the word appears in the corpus.
+Mandera-2015-Frequency	POLISH_CD	numeric	contextual diversity	norms	corpus	pl		This  is the number of films in which the word appears.
+Mandera-2015-Frequency	POLISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	pl		This is a value based on log10(FREQcount+1).
+Mandera-2015-Frequency	POLISH_CD_LOG	logarithmic	contextual diversity	norms	corpus	pl		This value is based on log10(CDcount +1).
