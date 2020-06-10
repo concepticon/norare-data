@@ -3,7 +3,7 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Automatic mapping of frequency norms by Mandera et al. (2014).",
   "dc:source": "http://crr.ugent.be/programs-data/subtitle-frequencies/subtlex-pl",
-  "dc:references" : "Mandera2014",
+  "dc:references" : "Mandera2015",
   "dcat:keyword": ["word frequency", "monolingual", "Polish"],
   "dc:description": "An automated mapping of the frequency norms submitted with the study of Mandera et al. (2014) to the concept sets in Concepticon.",
   "dialect": {
