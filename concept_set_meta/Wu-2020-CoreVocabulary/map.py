@@ -20,7 +20,7 @@ class Dataset(NormDataSet):
         valid_fields = ["word", "count"]
 
         for row in sheet_list[0:]:  # iterate over the lines after header
-            sheet += [dict(zip(valid_fields, row[:43]))]
+            sheet += [dict(zip(valid_fields, row[:2]))]
 
         self.extract_data(
                 sheet,

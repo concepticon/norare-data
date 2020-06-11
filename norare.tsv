@@ -356,3 +356,4 @@ Moors-2013-Ratings	DUTCH_AROUSAL_FEMALE_MEAN	mean	arousal	ratings	user	nl		Mean 
 Moors-2013-Ratings	DUTCH_AOA_MEAN	mean	AoA	ratings	user	nl		Mean age-of-acquisition values for all participants (224 students) on a 7-point Likert scale.
 Moors-2013-Ratings	DUTCH_AOA_MALE_MEAN	mean	AoA	ratings	user	nl		Mean age-of-acquisition values for male participants on a 7-point Likert scale.
 Moors-2013-Ratings	DUTCH_AOA_FEMALE_MEAN	mean	AoA	ratings	user	nl		Mean age-of-acquisition values for female participants on a 7-point Likert scale.
+Wu-2020-CoreVocabulary	TRANSLATION_COUNT	numeric	core vocabulary	relations	corpus	en		This value represents the number of languages in which a word occurred. It is the relative coverage of a target concept in thousands of bilingual dictionaries.
