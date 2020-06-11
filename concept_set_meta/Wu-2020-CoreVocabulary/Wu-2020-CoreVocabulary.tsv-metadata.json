@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of the core vocabulary list by Wu et al. (2020).",
+  "dc:source": "https://github.com/wswu/corevoc",
+  "dc:references" : "Wu2020",
+  "dcat:keyword": ["core vocabulary", "multi-lingual"],
+  "dc:description": "An automated mapping of the core vocabulary list submitted with the study by Wu et al. (2020) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "word"
+          }, 
+          {
+            "name": "TRANSLATION_COUNT",
+            "datatype": "integer",
+            "titles": "count"
+          }, 
+          {
+            "name": "VOCABULARY_RANK",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Wu-2020-CoreVocabulary.tsv"
+    }
+  ]
+}
