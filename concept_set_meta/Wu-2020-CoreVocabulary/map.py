@@ -13,9 +13,15 @@ class Dataset(NormDataSet):
 
     def map(self, write_file=True):
 
-        column_names = ["word", "count"]
-        
-        sheet = self.get_csv('corevoc-master/lists/core', "\t", dicts=True, header=None, names=column_names)
+        sheet_list = self.get_csv('corevoc-master/lists/core', "\t", dicts=False)
+
+        sheet = []
+
+        valid_fields = ["word", "count"]
+
+        for row in sheet_list[0:]:  # iterate over the lines after header
+            sheet += [dict(zip(valid_fields, row[:43]))]
+
         self.extract_data(
                 sheet,
                 gloss='ENGLISH',
