@@ -13,9 +13,9 @@ class Dataset(NormDataSet):
 
     def map(self, write_file=True):
 
-        column_names=["word", "count"]
+        column_names = ["word", "count"]
         
-        sheet = self.get_csv('core', "\t", dicts=True, header=None, names=column_names)
+        sheet = self.get_csv('corevoc-master/lists/core', "\t", dicts=True, header=None, names=column_names)
         self.extract_data(
                 sheet,
                 gloss='ENGLISH',

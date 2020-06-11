@@ -34,7 +34,7 @@
             "titles": "count"
           }, 
           {
-            "name": "VOCABULARY_RANK",
+            "name": "LINE_IN_SOURCE",
             "datatype": "integer"
           }
         ],
