@@ -1,0 +1,120 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of affective ratings (valence, arousal, age-of-acquisition) by Moors et al. (2013).",
+  "dc:source": "https://doi.org/10.3758/s13428-012-0243-8",
+  "dc:references" : "Moors2013",
+  "dcat:keyword": ["ratings", "monolingual", "valence", "arousal", "age-of-acquisition", "DUTCH"],
+  "dc:description": "An automated mapping of affective ratings (valence, arousal, age-of-acquisition) submitted with the study of Moors et al. (2013) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "DUTCH",
+            "datatype": "string",
+            "titles": "Words"
+          },
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Translation"
+          },
+          {
+            "name": "DUTCH_VALENCE_MEAN",
+            "datatype": "float",
+            "titles": "M V"
+          },
+          {
+            "name": "DUTCH_AROUSAL_MEAN",
+            "datatype": "float",
+            "titles": "M A"
+          },
+          {
+            "name": "DUTCH_DOMINANCE_MEAN",
+            "datatype": "float",
+            "titles": "M P"
+          },
+          {
+            "name": "DUTCH_AOA_MEAN",
+            "datatype": "float",
+            "titles": "M AoA"
+          },
+          {
+            "name": "DUTCH_VALENCE_MALE_MEAN",
+            "datatype": "float",
+            "titles": "M V Men"
+          },
+          {
+            "name": "DUTCH_AROUSAL_MALE_MEAN",
+            "datatype": "float",
+            "titles": "M A Men"
+          },
+          {
+            "name": "DUTCH_DOMINANCE_MALE_MEAN",
+            "datatype": "float",
+            "titles": "M P Men"
+          },
+          {
+            "name": "DUTCH_AOA_MALE_MEAN",
+            "datatype": "float",
+            "titles": "M AoA Men"
+          },
+                    {
+            "name": "DUTCH_VALENCE_FEMALE_MEAN",
+            "datatype": "float",
+            "titles": "M V Women"
+          },
+                    {
+            "name": "DUTCH_AROUSAL_FEMALE_MEAN",
+            "datatype": "float",
+            "titles": "M A Women"
+          },
+          {
+            "name": "DUTCH_DOMINANCE_FEMALE_MEAN",
+            "datatype": "float",
+            "titles": "M P Women"
+          },
+          {
+            "name": "DUTCH_AOA_FEMALE_MEAN",
+            "datatype": "float",
+            "titles": "M AoA Women"
+          },
+          {
+            "name": "DUTCH_POS",
+            "datatype": "string",
+            "titles": "Grammatical category"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Moors-2013-Ratings.tsv"
+    }
+  ]
+}

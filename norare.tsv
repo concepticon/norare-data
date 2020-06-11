@@ -347,3 +347,12 @@ Mandera-2015-Frequency	POLISH_FREQUENCY	tokens	frequency	norms	corpus	pl		This i
 Mandera-2015-Frequency	POLISH_CD	numeric	contextual diversity	norms	corpus	pl		This  is the number of films in which the word appears.
 Mandera-2015-Frequency	POLISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	pl		This is a value based on log10(FREQcount+1).
 Mandera-2015-Frequency	POLISH_CD_LOG	logarithmic	contextual diversity	norms	corpus	pl		This value is based on log10(CDcount +1).
+Moors-2013-Ratings	DUTCH_VALENCE_MEAN	mean	valence	ratings	user	nl		Mean valence values for all participants (224 students) on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AROUSAL_MEAN	mean	arousal	ratings	user	nl		Mean arousal values for all participants (224 students) on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_VALENCE_MALE_MEAN	mean	valence	ratings	user	nl		Mean valence values for male participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AROUSAL_MALE_MEAN	mean	arousal	ratings	user	nl		Mean arousal values for male participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_VALENCE_FEMALE_MEAN	mean	valence	ratings	user	nl		Mean valence values for female participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AROUSAL_FEMALE_MEAN	mean	arousal	ratings	user	nl		Mean arousal values for female participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AOA_MEAN	mean	AoA	ratings	user	nl		Mean age-of-acquisition values for all participants (224 students) on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AOA_MALE_MEAN	mean	AoA	ratings	user	nl		Mean age-of-acquisition values for male participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AOA_FEMALE_MEAN	mean	AoA	ratings	user	nl		Mean age-of-acquisition values for female participants on a 7-point Likert scale.
