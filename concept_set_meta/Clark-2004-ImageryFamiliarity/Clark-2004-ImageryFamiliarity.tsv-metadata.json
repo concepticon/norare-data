@@ -30,7 +30,7 @@
           },
           {
             "name": "PAVIO_NORMS",
-            "datatype": "string",
+            "datatype": "integer",
             "titles": "PYM"
           },
           {
