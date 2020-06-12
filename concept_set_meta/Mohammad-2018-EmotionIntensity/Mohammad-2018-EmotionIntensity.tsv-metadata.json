@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of valence, arousal, and dominance ratings by Mohammad (2018).",
+  "dc:title": "Automatic mapping of dominant emotion and intensity ratings by Mohammad (2018).",
   "dc:source": "http://sentiment.nrc.ca/lexicons-for-research/",
-  "dc:references" : "Mohammad2018a",
-  "dcat:keyword": ["valence", "arousal", "dominance", "English"],
-  "dc:description": "An automated mapping of the valence, arousal, and dominance ratings submitted with the study of Mohammad (2018) to the concept sets in Concepticon.",
+  "dc:references" : "Mohammad2018b",
+  "dcat:keyword": ["emotions", "intensity", "English"],
+  "dc:description": "An automated mapping of the dominant emotion and intensity ratings submitted with the study of Mohammad (2018) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -26,22 +26,17 @@
           {
             "name": "ENGLISH",
             "datatype": "string",
-            "titles": "Word"
+            "titles": "word"
           }, 
           {
-            "name": "ENGLISH_VALENCE_MEAN",
-            "datatype": "float",
-            "titles": "Valence"
+            "name": "ENGLISH_EMOTION_DOMINANT",
+            "datatype": "string",
+            "titles": "emotion"
           },
           {
-            "name": "ENGLISH_AROUSAL_MEAN",
+            "name": "ENGLISH_EMOTION_INTENSITY",
             "datatype": "float",
-            "titles": "Arousal"
-          },
-          {
-            "name": "ENGLISH_DOMINANCE_MEAN",
-            "datatype": "float",
-            "titles": "Dominance"
+            "titles": "emotion-intensity-score"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -59,7 +54,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Mohammad-2018-AffectiveRatings.tsv"
+      "url": "Mohammad-2018-EmotionIntensity.tsv"
     }
   ]
 }
