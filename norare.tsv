@@ -364,3 +364,14 @@ Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_DOMINANT	linguistic	discrete emot
 Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_INTENSITY	mean	emotion intensity	ratings	user	en		Mean value of emotion intensity based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word that conveys the highest emotion intensity and the word that conveys the lowest emotion intensity.
 Clark-2004-ImageryFamiliarity	ENGLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	en		Mean value of imageability ratings based on a 7-point scale.
 Clark-2004-ImageryFamiliarity	ENGLISH_FAMILIARITY_MEAN	mean	familiarity	ratings	user	en		Mean value of familiarity ratings based on a 7-point scale.
+Abdaoui-2017-EmoLex	FRENCH_EMOTION_POLARITY	semantic	polarity	norms	corpus	fr		Polarity associated with a word (positive/negative) based on a sentiment analysis of texts.
+Abdaoui-2017-EmoLex	FRENCH_JOY_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_FEAR_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_SADNESS_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_ANGER_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_SURPRISE_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_DISGUST_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Dellert-2018-1016	LGC	numeric	stability	relations	corpus	de		The stability measure for a concept is called local-global distance correlation (lgc).
+Dellert-2018-1016	INF	numeric	basicness	relations	corpus	de		The average information content (inf) is the measure for basicness.
+Dellert-2018-1016	RANK	numeric	stability	relations	corpus	de		The rank is based on the suitability of a given word for inclusion in Swadesh-style lists of basic stable concepts.
+
