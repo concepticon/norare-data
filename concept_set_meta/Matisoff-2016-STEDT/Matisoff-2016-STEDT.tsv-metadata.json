@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) and five action effectors (mouth/throat, hand/arm, foot/leg, head excluding mouth/throat, and torso) ratings by Lynott et al. (2019).",
-  "dc:source": "https://osf.io/7emr6/",
-  "dc:references" : "Lynott2019",
-  "dcat:keyword": ["ratings", "monolingual", "auditory", "gustatory", "haptic", "interoceptive", "olfactory", "visual", "action", "perceptual", "sensorimotor", "age-of-acquisition", "English"],
-  "dc:description": "An automated mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) and five action effectors (mouth/throat, hand/arm, foot/leg, head excluding mouth/throat, and torso) ratings submitted with the study of Lynott et al. (2019) to the concept sets in Concepticon.",
+  "dc:title": "Automatic mapping of semantic categorization in the Sino-Tibetan Etymological Dictionary and Thesaurus (STEDT) by Matisoff (2016).",
+  "dc:source": "https://github.com/stedt-project/sss/tree/master/semcats/revision1",
+  "dc:references" : "Matisoff2016",
+  "dcat:keyword": ["Proto-Sino-Tibetan", "relations", "semantic category"],
+  "dc:description": "An automated mapping of semantic categorization in the Sino-Tibetan Etymological Dictionary and Thesaurus (STEDT) submitted with the database of Matisoff (2016) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
