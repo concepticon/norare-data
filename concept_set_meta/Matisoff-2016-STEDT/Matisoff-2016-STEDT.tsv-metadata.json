@@ -1,0 +1,62 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) and five action effectors (mouth/throat, hand/arm, foot/leg, head excluding mouth/throat, and torso) ratings by Lynott et al. (2019).",
+  "dc:source": "https://osf.io/7emr6/",
+  "dc:references" : "Lynott2019",
+  "dcat:keyword": ["ratings", "monolingual", "auditory", "gustatory", "haptic", "interoceptive", "olfactory", "visual", "action", "perceptual", "sensorimotor", "age-of-acquisition", "English"],
+  "dc:description": "An automated mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) and five action effectors (mouth/throat, hand/arm, foot/leg, head excluding mouth/throat, and torso) ratings submitted with the study of Lynott et al. (2019) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "gloss"
+          },
+          {
+            "name": "STEDT_ID",
+            "datatype": "string",
+            "propertyUrl": "dc:relation",
+            "valueUrl": "https://stedt.berkeley.edu/~stedt-cgi/rootcanal.pl/edit/lexicon?lexicon.rn={STEDT_ID}",
+            "titles": "rn"
+          },
+          {
+            "name": "SEMANTIC_CATEGORY",
+            "datatype": "string",
+            "titles": "semcat"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Matisoff-2016-STEDT.tsv"
+    }
+  ]
+}
