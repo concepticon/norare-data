@@ -2,7 +2,7 @@ from pynorare.dataset import NormDataSet
 
 class Dataset(NormDataSet):
 
-    id = "Matisoff-2016-STEDT"
+    id = "Matisoff-2015-STEDT"
 
     def download(self):
         self.download_file(
