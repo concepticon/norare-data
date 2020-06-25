@@ -1,6 +1,4 @@
 from pynorare.dataset import NormDataSet
-import zipfile
-from nltk.corpus import wordnet as wn
 
 class Dataset(NormDataSet):
 
