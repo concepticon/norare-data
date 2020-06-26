@@ -1,0 +1,52 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of definitions in Wikidata.",
+  "dc:source": "https://www.wikidata.org/",
+  "dcat:keyword": ["Wikidata", "English", "relations"],
+  "dc:description": "An automated mapping of the definitions found in Wikidata to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string"
+          },
+          {
+            "name": "WIKIDATA_LABEL",
+            "datatype": "string"
+          },
+          {
+            "name": "WIKIDATA_DESCRIPTION",
+            "datatype": "string"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Wikidata.tsv"
+    }
+  ]
+}
