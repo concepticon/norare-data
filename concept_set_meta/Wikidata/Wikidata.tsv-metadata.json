@@ -28,7 +28,9 @@
           },
           {
             "name": "WIKIDATA_LABEL",
-            "datatype": "string"
+            "datatype": "string",
+            "propertyUrl": "dc:relation",
+            "valueUrl": "https://www.wikidata.org/wiki/Lexeme:{WIKIDATA_LABEL}"
           },
           {
             "name": "WIKIDATA_DESCRIPTION",
