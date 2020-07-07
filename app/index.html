@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+ <html lang="de">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex">
+    <meta name="viewport" content="user-scalable=no,width=device-width,initial-scale=1">
+    <title>Norms, Ratings, and Relations</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="icon" href="img/favicon.png" type="image/png"> 
+    <script src="concepticon.js" type="text/javascript"></script>
+    <script src="data/concepticon.js" type="text/javascript"></script>
+    <script src="data/norare.js" type="text/javascript"></script>
+    <!--<script src="jquery.js"></script>
+    <script src="digling-data.js"></script>
+    <script src="script.js"></script>-->
+</head>
+<body>
+  <h1 class="main">Norms, Ratings, and Relations</h1>
+  <h1 class="smart">NoRaRe</h1>
+
+  <div class="dropdown">
+    <div class="menu-icon">
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+    <div class="dropdown-content">
+      <label for="tabreiter-0-0">Introduction</label>
+      <label for="tabreiter-0-1">Concepts</label>
+      <label for="tabreiter-0-2">Datasets</label>
+      <label for="tabreiter-0-3">Impressum</label>
+    </div>
+  </div>
+  <h2>NoRaRe</h2>
+    <div id="content" class="tabreiter">
+      <ul>
+	<li class="reiter">
+	  <input type="radio" name="tabreiter-0" checked="checked" id="tabreiter-0-0" />
+	  <label class="main" for="tabreiter-0-0">Introduction</label>
+	  <div style="padding:10px;">
+	    <h3>Welcome to NoRaRe</h3>
+	    <p>
+	    Welcome to NoRaRe, the cross-linguistic database of norms, ratings, and relations of
+	    words and concepts. In order to browse through the data, just navigate to the
+	    <i>Concepts</i> tab, and type in the name of any concept you can think of. The tool will
+	    answer with a couple of suggestions, showing you the definitions that are actively being
+	    used in the <a href="https://concepticon.clld.org">Concepticon</a> project, and allow
+	    you to search all the metadata which we have so far accumulated on the respective
+	    concept. 
+	    </p>
+	  </div>
+	</li>
+	<li class="reiter">
+	  <input type="radio" name="tabreiter-0" id="tabreiter-0-1" />
+	  <label class="main" for="tabreiter-0-1">Concepts</label>
+	  <div style="padding:10px;">
+  <h3>Concept Lookup in NoRaRe</h3>
+  <p>To browse the data on norms, ratings, and relations for individual concepts, just type in the
+  gloss of a given concept you want to investigate. 
+  <div style="margin:5px;">
+    <span class="lchoice" title="change language" onclick="Concepticon.language='en';document.getElementById('language').innerHTML='English'">English</span>
+    <span class="lchoice" title="change language" onclick="Concepticon.language='de';document.getElementById('language').innerHTML='German'">German</span>
+    <span class="lchoice" title="change language" onclick="Concepticon.language='zh';document.getElementById('language').innerHTML='Chinese'">Chinese</span>
+    <span class="lchoice" title="change language" onclick="Concepticon.language='fr';document.getElementById('language').innerHTML='French'">French</span>
+    <span class="lchoice" title="change language" onclick="Concepticon.language='es';document.getElementById('language').innerHTML='Spanish'">Spanish</span>
+    <span class="lchoice" title="change language" onclick="Concepticon.language='ru';document.getElementById('language').innerHTML='Russian'">Russian</span>
+    <span class="lchoice" title="change language" onclick="Concepticon.language='pt';document.getElementById('language').innerHTML='Portuguese'">Portuguese</span>
+    <br></br>
+  <div>Selected language: <span id="language">English</span></div><br>
+
+  <input type="text" onkeyup="filterConcepts(this.value)" style="width:200px;" placeholder="search for gloss"/> 
+  <br><br>
+  <div id="output"></div></div>
+  </div>
+	</li>
+	<li class="reiter">
+	  <input type="radio" name="tabreiter-0" id="tabreiter-0-2" />
+	  <label class="main" for="tabreiter-0-2">Datasets</label>
+	  <div style="padding:10px">
+	    <h3>Datasets in NoRaRe</h3>
+	    The datasets in NoRaRe come from two basic types of sources. On the one hand, we have
+	    datasets curated as part of the <a href="https://concepticon.clld.org">Concepticon</a>
+	    project. On the other hand, we have freshly curated dataset which we added genuinely to
+	    NoRaRe. 
+	    <input type="text" style="width:300px;" onkeyup="showDatasets(this.value)" placeholder="search for keywords"/>
+	    <div id="datasets"></div>
+	  </div>
+	</li>
+	<li class="reiter">
+	  <input type="radio" name="tabreiter-0" id="tabreiter-0-3" />
+	  <label class="main" for="tabreiter-0-3">Impressum</label>
+	  <div style="padding:10px;">
+	    <h3>Impressum</h3>
+	    This web application has been produced as a demo-tool for a publication, which is
+	    currently under review. Upon acceptance, an online version of the application will be
+	    published and distributed under a free license.
+	  </div>
+	</li>
+      </ul>
+    </div>
+    <!--<script>showresource('data');</script>-->
+    <!--<script>checkfornews();</script>-->
+</body>
+<script>showDatasets('');</script>
+</html>
