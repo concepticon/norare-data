@@ -1,396 +1,394 @@
-DATASET	NAME	STRUCTURE	TYPE	NORARE	RATING	LANGUAGE	SOURCE	NOTE
-Bond-2013-OMW	IN_DEGREE	numeric	semantic	relations	user	en		The number of hypernyms of a given concept.
-Bond-2013-OMW	OUT_DEGREE	numeric	semantic	relations	user	en		The number of hyponyms of a given concept.
-Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user	es		Average score of AoA ratings on a scale from 1 to 11.
-Alonso-2015-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user	es		The minimum age of acquisition indicated by participants.
-Alonso-2015-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user	es		The maximum age of acquisition indicated by participants.
-Brysbaert-2009-Frequency	ENGLISH_FREQUENCY	tokens	frequency	norms	corpus	en		The number of times the word appears in the corpus (i.e., on the total of 51 million words).
-Brysbaert-2009-Frequency	ENGLISH_CD	tokens	contextual diversity	norms	corpus	en		The number of films in which the word appears (i.e., it has a maximum value of 8,388).
-Brysbaert-2009-Frequency	ENGLISH_SUBTITLE_FREQUENCY	numeric	frequency	norms	corpus	en		The word frequency per million words. It is the measure one would preferably use in ones manuscripts, because it is a standard measure of word frequency independent of the corpus size. It is given with two-digit precision, in order not to lose precision of the frequency counts.
-Brysbaert-2009-Frequency	ENGLISH_SUBTITLE_CD	numeric	contextual diversity	norms	corpus	en		This  indicates in what percentage of the films the word appears.
-Brysbaert-2009-Frequency	ENGLISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	en		This value is based on log10(FREQcount+1) and has four-digit precision. Calculating the log frequency on the raw frequencies is the most straightforward transformation, because it allows one to give words that are not in the corpus a value of 0. One can easily lose 5% of the variance explained by taking log(frequency per million # 1), because, in this case, one is not making much of a distinction between words with low frequencies. Similarly, adding values lower than 1 (e.g., #1E#10) is dangerous, because one may end up with a big gap between the words in oneÕs corpus and words for which one does not have a frequency measure (which will get a log value of #10). In addition, if one uses log(frequency per million), one will have negative values for words with a frequency lower than 1 per million, and one will have to enter negative values for missing words. The downside of using log10(FREQcount # 1) is that there is no intuitive relationship between Lg10WF and SUBTLWF (frequency per million).
-Brysbaert-2009-Frequency	ENGLISH_CD_LOG	logarithmic	contextual diversity	norms	corpus	en		This value is based on log10(CDcount+1) and has four-digit precision.
-Brysbaert-2011-Frequency	GERMAN_FREQUENCY	tokens	frequency	norms	corpus	de		This is the number of times the word as written in column 1 is encountered in the subtitle corpus.
-Brysbaert-2011-Frequency	GERMAN_SUBTITLE_FREQUENCY	tokens	frequency	norms	corpus	de		This is the frequency per million based on CUMfreqcount (i.e., it equals CUMfreqcount / 25.399).
-Brysbaert-2011-Frequency	GERMAN_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	de		This is log10(CUMfreqcount+1). It is the value to use when you want to match stimuli in various conditions. When a stimulus is not present in the corpus, lgSUBTLEX gets a value of 0.
-Brysbaert-2014-Concreteness	ENGLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user	en		The mean concreteness rating on a 5-point rating scale going from abstract to concrete.
-Brysbaert-2014-Concreteness	ENGLISH_DUNNO	percentage	familiarity	ratings	user	en		The number of persons indicating they did not know the word.
-Brysbaert-2014-Concreteness	ENGLISH_POS	linguistic	PoS	norms	meta	en		The dominant part-of-speech tag of the word.
-Brysbaert-2019-Prevalence	ENGLISH_KNOWN_PERCENTAGE	percentage	familiarity	ratings	user	en		The percentages of words known across 220,000 participants.
-Brysbaert-2019-Prevalence	ENGLISH_PREVALENCE	normalized	familiarity	ratings	user	en		The word prevalence (number of people who know the word) across 220,000 participants.
-Cai-2010-Frequency	CHINESE_FREQUENCY	tokens	frequency	norms	corpus	zh		The number of times the word appears in the corpus.
-Cai-2010-Frequency	CHINESE_FREQUENCY_PM	numeric	frequency	norms	corpus	zh		The word frequency per million words. It is the measure one would preferably use in ones manuscripts, because it is a standard measure of word frequency independent of the corpus size. It is given with two-digit precision, in order not to lose precision of the frequency counts.
-Cai-2010-Frequency	CHINESE_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	zh		This value is based on log10(FREQcount+1) and has four-digit precision. Calculating the log frequency on the raw frequencies is the most straightforward transformation, because it allows one to give words that are not in the corpus a value of 0.
-Cai-2010-Frequency	CHINESE_CD	tokens	contextual diversity	norms	corpus	zh		The number of films in which the word appears.
-Cai-2010-Frequency	CHINESE_CD_PERCENTAGE	percentage	contextual diversity	norms	corpus	zh		This  indicates in what percentage of the films the word appears.
-Cai-2010-Frequency	CHINESE_CD_LOG	logarithmic	contextual diversity	norms	corpus	zh		This value is based on log10(CDcount+1) and has four-digit precision.
-Cuetos-2011-Frequency	SPANISH_FREQUENCY	tokens	frequency	norms	corpus	es		This is the number of times the word appears in the corpus.
-Cuetos-2011-Frequency	SPANISH_FREQUENCY_PM	normalized	frequency	norms	corpus	es		Word frequency per million  of subtitles.
-Cuetos-2011-Frequency	SPANISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	es		Log10 of subtitle word frequency.
-Desrochers-2009-SubjFrequency	FRENCH_SUBJECTIVE_FREQUENCY	mean	frequency	ratings	user	fr		Subjective frequencies estimates were based on a 7-point rating scale.
-Desrochers-2009-SubjFrequency	FRENCH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	fr		Imageability estimates were based on a 7-point rating scale.
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN	mean	humor	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for all participants.
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_MALE	mean	humor	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for male participants.
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_FEMALE	mean	humor	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for female participants.
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_YOUNG	mean	humor	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for young participants (with age above 32).
-Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_OLD	mean	humor	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for old participants (with age under 32).
-Juhasz-2013-SER	ENGLISH_SER_MEAN	mean	sensory experience	ratings	user	en		Sensory experience ratings on a 7-point scale.
-Keuleers-2010-Frequency	DUTCH_FREQUENCY	tokens	frequency	norms	corpus	nl		This is the number of times the word appears in the corpus.
-Keuleers-2010-Frequency	DUTCH_CD	numeric	contextual diversity	norms	corpus	nl		This  is the number of films in which the word appears.
-Keuleers-2010-Frequency	DUTCH_SUBTITLE_FREQUENCY	tokens	frequency	norms	corpus	nl		This is the WF per million words and has 4-digit precision.
-Keuleers-2010-Frequency	DUTCH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	nl		This is a value based on log10(FREQcount+1) and with 4-digit precision.
-Keuleers-2010-Frequency	DUTCH_SUBTITLE_CD	numeric	contextual diversity	norms	corpus	nl		This value indicates in what percent of the films the word appears, with 4-digit precision.
-Keuleers-2010-Frequency	DUTCH_CD_LOG	logarithmic	contextual diversity	norms	corpus	nl		This value is based on log10(CDcount +1) and has 4-digit precision.
-Kuperman-2012-AoA	ENGLISH_OCCURRENCES_TOTAL	numeric	AoA	ratings	user	en		This is the number of valid age of acquisition-ratings of the word.
-Kuperman-2012-AoA	ENGLISH_OCCURRENCES_NUM	numeric	AoA	ratings	user	en		This is the number of valid age of acquisition-ratings of the word, counting only numeric ratings, not 'don't know's.
-Kuperman-2012-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	en		This is the mean of the age of acquisition-ratings of the word. A total of 696,048 valid ratings, including 76,211 'don't know's, were collected from 1,729 inhabitants of the US.
-Kuperman-2012-AoA	ENGLISH_DUNNO	percentage	familiarity	ratings	user	en		This is the proportion of valid responses that are a rating and not a 'don't know'.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_MALE	mean	valence	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of men on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_FEMALE	mean	valence	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of women on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN	mean	valence	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the whole group on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of men on a 5-point scale.
-Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of women on a 5-point scale.
-Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN	mean	arousal	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the whole group on a 5-point scale.
-Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	ratings	user	pl		This is the mean of the imageability ratings for each word obtained in the group of men on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	ratings	user	pl		This is the mean of the imageanility ratings for each word obtained in the group of women on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	pl		This is the mean of the imageability ratings for each word obtained in the whole group on a 7-point scale.
-Scott-2019-Ratings	ENGLISH_AROUSAL_MEAN	mean	arousal	ratings	user	en		Number of Scale Points: 9 Arousal is a measure of excitement versus calmness.
-Scott-2019-Ratings	ENGLISH_VALENCE_MEAN	mean	valence	ratings	user	en		Number of Scale Points: 9 Valence is a measure of value or worth.
-Scott-2019-Ratings	ENGLISH_DOMINANCE_MEAN	mean	dominance	ratings	user	en		Number of Scale Points: 9 Dominance is a measure of the degree of control you feel.
-Scott-2019-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user	en		Number of Scale Points: 7 Concreteness is a measure of how concrete or abstract something is. A word is CONCRETE if it represents something that exists in a definite physical form in the real world. In contrast, a word is ABSTRACT if it represents more of a concept or idea.
-Scott-2019-Ratings	ENGLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	en		Number of Scale Points: 7 Imageability is a measure of how easy or difficult something is to imagine.
-Scott-2019-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity	ratings	user	en		Number of Scale Points: 7 Familiarity is a measure of how familiar something is.
-Scott-2019-Ratings	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	en		Number of Scale Points: 7 A words age of acquisition is the age at which that word was initially learned.
-Scott-2019-Ratings	ENGLISH_SEM_SIZE_MEAN	mean	semantic size	ratings	user	en		Number of Scale Points: 7 Size is a measure of somethings dimensions, magnitude, or extent. A word represents something BIG if it refers to things or concepts that are large. A word represents something SMALL if it refers to things or concepts that are little.
-Scott-2019-Ratings	ENGLISH_GENDER_ASSOCIATION_MEAN	mean	gender association	ratings	user	en		Number of Scale Points: 7 A words gender is how strongly its meaning is associated with male or female behaviour.
-StadthagenGonzalez-2017-ValenceArousal	SPANISH_VALENCE_MEAN	mean	valence	ratings	user	es		This is the mean value of valence across all participants. Participants rated the words on a 9-point scale.
-StadthagenGonzalez-2017-ValenceArousal	SPANISH_AROUSAL_MEAN	mean	arousal	ratings	user	es		This is the mean value of arousal across all participants. Participants rated the words on a 9-point scale.
-Starostin-2000-Sense	SENSES	linguistic	sense relation	relations	other	en		The relations to a sense for a given word.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN	mean	valence	ratings	user	en		Mean value of valence ratings on a 9-point scale across all participants.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN	mean	arousal	ratings	user	en		Mean value of arousal ratings on a 9-point scale across all participants.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN	mean	dominance	ratings	user	en		Mean value of dominance ratings on a 9-point scale across all participants.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_MALE	mean	valence	ratings	user	en		Mean value of valence ratings on a 9-point scale across male participants.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_FEMALE	mean	valence	ratings	user	en		Mean value of valence ratings on a 9-point scale across female participants.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_MALE	mean	arousal	ratings	user	en		Mean value of arousal ratings on a 9-point scale across male participants.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_FEMALE	mean	arousal	ratings	user	en		Mean value of arousal ratings on a 9-point scale across female participants.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_MALE	mean	dominance	ratings	user	en		Mean value of dominance ratings on a 9-point scale across male participants.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	ratings	user	en		Mean value of dominance ratings on a 9-point scale across female participants.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_YOUNG	mean	valence	ratings	user	en		Mean value of valence ratings on a 9-point scale across young participants (less than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_OLD	mean	valence	ratings	user	en		Mean value of valence ratings on a 9-point scale across old participants (greater than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_YOUNG	mean	arousal	ratings	user	en		Mean value of arousal ratings on a 9-point scale across young participants (less than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_OLD	mean	arousal	ratings	user	en		Mean value of arousal ratings on a 9-point scale across old participants (greater than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_YOUNG	mean	dominance	ratings	user	en		Mean value of dominance ratings on a 9-point scale across young participants (less than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_OLD	mean	dominance	ratings	user	en		Mean value of dominance ratings on a 9-point scale across old participants (greater than 30 years old).
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_HIGH	mean	valence	ratings	user	en		Mean value of valence ratings on a 9-point scale across participants with a high education.
-Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_LOW	mean	valence	ratings	user	en		Mean value of valence ratings on a 9-point scale across participants with a low education.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_HIGH	mean	arousal	ratings	user	en		Mean value of arousal ratings on a 9-point scale across participants with a high education.
-Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_LOW	mean	arousal	ratings	user	en		Mean value of arousal ratings on a 9-point scale across participants with a low education.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_HIGH	mean	dominance	ratings	user	en		Mean value of dominance ratings on a 9-point scale across participants with a high education.
-Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	ratings	user	en		Mean value of dominance ratings on a 9-point scale across participants with a low education.
-Cortese-2008-AoA	ENGLISH_AOA_MEAN	mean	AoA	ratings	user	en		This is the mean value of age-of-acquisition ratings on a 7-point scale.
-Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	reaction time	norms	user	en		The average RT to the stimulus (correct trials only).
-Keuleers-2012-LexicalDecision	ENGLISH_RT_ZSCORE	standardized	reaction time	norms	user	en		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
-Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_PERCENTAGE	percentage	accuracy	norms	user	en		Average accuracy for the stimulus.
-Ferrand-2010-LexicalDecision	FRENCH_RT_MEAN	mean	reaction time	norms	user	fr		The average RT to the stimulus (correct trials only).
-Ferrand-2010-LexicalDecision	FRENCH_RT_ZSCORE	standardized	reaction time	norms	user	fr		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
-GonzalezNosti-2014-LexicalDecision	SPANISH_AOA_MEAN	mean	AoA	ratings	user	es		Mean value of AoA ratings on a 7-point Likert scale in which 1 corresponded to ages between 0 and 2 years old, 2 to ages between 2 and 4, and so on up to 7, which corresponded to ages over 12 years old.
-GonzalezNosti-2014-LexicalDecision	SPANISH_RT_MEAN	mean	reaction time	norms	user	es		The average RT to the stimulus (correct trials only).
-Tsang-2018-LexicalDecision	CHINESE_RT_MEAN	mean	reaction time	norms	user	zh		Mean reaction time across participants.
-Tsang-2018-LexicalDecision	CHINESE_RT_ZSCORE	standardized	reaction time	norms	user	zh		Mean standardized reaction time across participants.
-Tsang-2018-LexicalDecision	CHINESE_STROKE	numeric	descriptive	norms	meta	zh		Total number of strokes of the whole-word.
-Keuleers-2015-Prevalence	DUTCH_ACCURACY_PERCENTAGE	percentage	accuracy	ratings	user	nl		Average accuracy for the stimulus.
-Keuleers-2015-Prevalence	DUTCH_PREVALENCE	normalized	familiarity	ratings	user	nl		The word prevalence (number of people who know the word) across nearly 300,000 participants.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category happiness.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category disgust.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	discrete emotions	ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category anger.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	discrete emotions	ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category fear.
-StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category sadness.
-Alonso-2016-AoA	SPANISH_AOA_MEAN	mean	AoA	ratings	user	es		Average score of AoA ratings. A predefined age scale was not used, and participants were required to directly enter the number corresponding to a particular age, in years.
-Alonso-2016-AoA	SPANISH_AOA_MIN	numeric	AoA	ratings	user	es		The minimum age of acquisition indicated by participants.
-Alonso-2016-AoA	SPANISH_AOA_MAX	numeric	AoA	ratings	user	es		The maximum age of acquisition indicated by participants.
-Alonso-2016-AoA	SPANISH_AOA_ZSCORE	standardized	AoA	ratings	user	es		The average standardized AoA ratings.
-Imbir-2016-Ratings	POLISH_POS	tokens	PoS	norms	meta	pl		The dominant part of speech category.
-Imbir-2016-Ratings	POLISH_VALENCE_MEAN	mean	valence	ratings	user	pl		Mean value of valence ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_AROUSAL_MEAN	mean	arousal	ratings	user	pl		Mean value of arousal ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN	mean	dominance	ratings	user	pl		Mean value of dominance ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_ORIGIN_MEAN	mean	origin	ratings	user	pl		Mean value of origin ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN	mean	significance	ratings	user	pl		Mean value of significance ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user	pl		Mean value of concreteness ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	pl		Mean value of imageability ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_AOA_MEAN	mean	AoA	ratings	user	pl		Mean value of age-of-acquisition ratings on SAM scale across all participants.
-Imbir-2016-Ratings	POLISH_VALENCE_MEAN_FEMALE	mean	valence	ratings	user	pl		Mean value of valence ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	ratings	user	pl		Mean value of arousal ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	ratings	user	pl		Mean value of dominance ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_FEMALE	mean	origin	ratings	user	pl		Mean value of origin ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_FEMALE	mean	significance	ratings	user	pl		Mean value of significance ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_FEMALE	mean	concreteness	ratings	user	pl		Mean value of concreteness ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	ratings	user	pl		Mean value of imageability ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_AOA_MEAN_FEMALE	mean	AoA	ratings	user	pl		Mean value of age-of-acquisition ratings on SAM scale across female participants.
-Imbir-2016-Ratings	POLISH_VALENCE_MEAN_MALE	mean	valence	ratings	user	pl		Mean value of valence ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	ratings	user	pl		Mean value of arousal ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_MALE	mean	dominance	ratings	user	pl		Mean value of dominance ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_MALE	mean	origin	ratings	user	pl		Mean value of origin ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_MALE	mean	significance	ratings	user	pl		Mean value of significance ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_MALE	mean	concreteness	ratings	user	pl		Mean value of concreteness ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	ratings	user	pl		Mean value of imageability ratings on SAM scale across male participants.
-Imbir-2016-Ratings	POLISH_AOA_MEAN_MALE	mean	AoA	ratings	user	pl		Mean value of age-of-acquisition ratings on SAM scale across male participants.
-Ferre-2017-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	es		The mean value of the ratings for the discrete emotion happiness on a 5-point scale.
-Ferre-2017-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	discrete emotions	ratings	user	es		The mean value of the ratings for the discrete emotion anger on a 5-point scale.
-Ferre-2017-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	es		The mean value of the ratings for the discrete emotion sadness on a 5-point scale.
-Ferre-2017-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	discrete emotions	ratings	user	es		The mean value of the ratings for the discrete emotion fear on a 5-point scale.
-Ferre-2017-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	es		The mean value of the ratings for the discrete emotion disgust on a 5-point scale.
-Rzymski-2020-1624	FAMILY_FREQUENCY	numeric	colexifications	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
-Rzymski-2020-1624	LANGUAGE_FREQUENCY	numeric	colexifications	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
-Rzymski-2020-1624	WORD_FREQUENCY	numeric	colexifications	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
-Rzymski-2020-1624	RANK	numeric	colexifications	relations	concept lists	en		This is the rank based on the degree.
-Rzymski-2020-1624	COMMUNITY	numeric	colexifications	relations	concept lists	en		This is the community identifier.
-Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	colexifications	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
-Rzymski-2020-1624	DEGREE	numeric	colexifications	relations	concept lists	en		This is the unweighted and weighted degree for each node.
-Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language families.
-Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	colexifications	relations	concept lists	en		This is the weighted degree for each node across language varieties.
-Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category happiness.
-Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category anger.
-Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category sadness.
-Wierzba-2015-DiscreteEmotions	POLISH_FEAR_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category fear.
-Wierzba-2015-DiscreteEmotions	POLISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category disgust.
-Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category happiness (only female participants).
-Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category anger (only female participants).
-Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only female participants).
-Wierzba-2015-DiscreteEmotions	POLISH_FEAR_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category fear (only female participants).
-Wierzba-2015-DiscreteEmotions	POLISH_DISGUST_MEAN_FEMALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category disgust (only female participants).
-Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category happiness (only male participants).
-Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category anger (only male participants).
-Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only male participants).
-Wierzba-2015-DiscreteEmotions	POLISH_FEAR_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category fear (only male participants).
-Wierzba-2015-DiscreteEmotions	POLISH_DISGUST_MEAN_MALE	mean	discrete emotions	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category disgust (only male participants).
-Alonso-2011-OralFrequency	SPANISH_FREQUENCY	tokens	frequency	norms	corpus	es		This is the number of times the spoken word appears in the corpus.
-Alonso-2011-OralFrequency	SPANISH_FREQUENCY_PM	normalized	frequency	norms	corpus	es		The frequency per million for spoken words.
-Alonso-2011-OralFrequency	SPANISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	es		The log10 of spoken word frequency.
-Lynott-2019-Sensorimotor	ENGLISH_AUDITORY_MEAN	mean	perceptual modalities	ratings	user	en		Auditory strength: mean rating (0–5) of how strongly the concept is experienced by hearing.
-Lynott-2019-Sensorimotor	ENGLISH_GUSTATORY_MEAN	mean	perceptual modalities	ratings	user	en		Gustatory strength: mean rating (0–5) of how strongly the concept is experienced by tasting.
-Lynott-2019-Sensorimotor	ENGLISH_HAPTIC_MEAN	mean	perceptual modalities	ratings	user	en		Haptic strength: mean rating (0–5) of how strongly the concept is experienced by feeling through touch.
-Lynott-2019-Sensorimotor	ENGLISH_INTEROCEPTIVE_MEAN	mean	perceptual modalities	ratings	user	en		Interoceptive strength: mean rating (0–5) of how strongly the concept is experienced by sensations inside the body.
-Lynott-2019-Sensorimotor	ENGLISH_OLFACTORY_MEAN	mean	perceptual modalities	ratings	user	en		Olfactory strength: mean rating (0–5) of how strongly the concept is experienced by smelling.
-Lynott-2019-Sensorimotor	ENGLISH_VISUAL_MEAN	mean	perceptual modalities	ratings	user	en		Visual strength: mean rating (0–5) of how strongly the concept is experienced by seeing.
-Lynott-2019-Sensorimotor	ENGLISH_FOOT_ACTION_MEAN	mean	action effector	ratings	user	en		Foot action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the foot / leg.
-Lynott-2019-Sensorimotor	ENGLISH_HAND_ACTION_MEAN	mean	action effector	ratings	user	en		Hand action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the hand / arm.
-Lynott-2019-Sensorimotor	ENGLISH_HEAD_ACTION_MEAN	mean	action effector	ratings	user	en		Head action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the head excluding mouth.
-Lynott-2019-Sensorimotor	ENGLISH_MOUTH_ACTION_MEAN	mean	action effector	ratings	user	en		Mouth action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the mouth / throat.
-Lynott-2019-Sensorimotor	ENGLISH_TORSO_ACTION_MEAN	mean	action effector	ratings	user	en		Torso action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the torso.
-Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_STRENGTH_MAX	numeric	perceptual modalities	ratings	user	en		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
-Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_STRENGTH_AGGREGATED	normalized	perceptual modalities	ratings	user	en		Aggregated perceptual strength in all modalities where the influence of weaker modalities is attenuated, calculated as Minkowski distance (with exponent 3) of the 6-dimension vector of perceptual strength from the origin.
-Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_EXCLUSIVITY	percentage	perceptual modalities	ratings	user	en		Modality exclusivity of the concept; the extent to which a concept is experienced though a single perceptual modality (0–1, typically expressed as %), calculated as the range of perceptual strength values divided by their sum.
-Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_DOMINANT	linguistic	perceptual modalities	ratings	user	en		Perceptual modality through which the concept is experienced most strongly (i.e., with highest perceptual strength rating).
-Lynott-2019-Sensorimotor	ENGLISH_ACTION_STRENGTH_MAX	numeric	action effector	ratings	user	en		Action strength in the dominant effector (i.e., highest strength rating across five action effectors).
-Lynott-2019-Sensorimotor	ENGLISH_ACTION_STRENGTH_AGGREGATED	normalized	action effector	ratings	user	en		Aggregated action strength in all effectors where the influence of weaker effectors is attenuated, calculated as Minkowski distance (with exponent 3) of the 5-dimension vector of action strength from the origin.
-Lynott-2019-Sensorimotor	ENGLISH_ACTION_EXCLUSIVITY	percentage	action effector	ratings	user	en		Effector exclusivity of the concept; the extent to which a concept is experienced though a single action effector (0–1, typically expressed as %), calculated as the range of action strength values divided by their sum .
-Lynott-2019-Sensorimotor	ENGLISH_ACTION_DOMINANT	linguistic	action effector	ratings	user	en		Action effector through which the concept is experienced most strongly (i.e., with highest action strength rating).
-Lynott-2019-Sensorimotor	ENGLISH_SENSORIMOTOR_STRENGTH_MAX	numeric	sensorimotor dimensions	ratings	user	en		Sensorimotor strength in the dominant dimension (i.e., highest strength rating across 11 sensorimotor dimensions).
-Lynott-2019-Sensorimotor	ENGLISH_SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensorimotor dimensions	ratings	user	en		Aggregated sensorimotor strength in all dimensions where the influence of weaker dimensions is attenuated, calculated as Minkowski distance (with exponent 3) of the 11-dimension vector of sensorimotor strength from the origin.
-Lynott-2019-Sensorimotor	ENGLISH_SENSORIMOTOR_EXCLUSIVITY	percentage	sensorimotor dimensions	ratings	user	en		Sensorimotor exclusivity of the concept; the extent to which a concept is experienced though a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum .
-Lynott-2019-Sensorimotor	ENGLISH_SENSORIMOTOR_DOMINANT	linguistic	sensorimotor dimensions	ratings	user	en		Sensorimotor dimension through which the concept is experienced most strongly (i.e., with highest sensorimotor strength rating).
-Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_KNOWN_PERCENTAGE	percentage	familiarity	ratings	user	en		Percentage of participants (0–1) in perceptual strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.perceptual divided by List_N.perceptual.
-Lynott-2019-Sensorimotor	ENGLISH_ACTION_KNOWN_PERCENTAGE	percentage	familiarity	ratings	user	en		Percentage of participants (0–1) in action strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.action divided by List_N.action.
-Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_AOA_MEAN	mean	AoA	ratings	user	en		Average age of participants in perceptual strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
-Lynott-2019-Sensorimotor	ENGLISH_ACTION_AOA_MEAN	mean	AoA	ratings	user	en		Average age of participants in action strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
-Kapucu-2018-EmotionRatings	TURKISH_VALENCE_MEAN	mean	valence	ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM scale for valence.
-Kapucu-2018-EmotionRatings	TURKISH_AROUSAL_MEAN	mean	arousal	ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM for arousal.
-Kapucu-2018-EmotionRatings	TURKISH_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category happiness.
-Kapucu-2018-EmotionRatings	TURKISH_ANGER_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category anger.
-Kapucu-2018-EmotionRatings	TURKISH_SADNESS_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category sadness.
-Kapucu-2018-EmotionRatings	TURKISH_FEAR_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category fear.
-Kapucu-2018-EmotionRatings	TURKISH_DISGUST_MEAN	mean	discrete emotions	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category disgust.
-Kapucu-2018-EmotionRatings	TURKISH_CONCRETENESS_MEAN	mean	concreteness	ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for concreteness.
-Lewis-2016-499	COMPLEXITY	mean	complexity	ratings	user	en		This is the intuitive complexity of the word on a scale from 1 to 7 based on a survey with 240 valid participants.
-Gampe-2017-48	MEAN_SWISS_GERMAN	mean	familiarity	ratings	user	de		Mean of whether children understand the word for this concept in Swiss German.
-Gampe-2017-48	MEAN_SECOND_L1	mean	familiarity	ratings	user	de		Mean of whether children understand the word for this concept in their other native language.
-Gampe-2017-48	MEAN_TRANSLATIONAL_EQUIV	mean	familiarity	ratings	user	de		Mean of whether children understand the word for this concept in both languages.
-Gampe-2017-48	MEAN_CONCEP_VOCAB	mean	familiarity	ratings	user	en		Mean of whether children understand the word for this concept in any of their native languages.
-Luniewska-2016-299	AFRIKAANS_AOA	mean	AoA	ratings	user	af		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	CATALAN_AOA	mean	AoA	ratings	user	ca		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	DANISH_AOA	mean	AoA	ratings	user	da		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	DUTCH_AOA	mean	AoA	ratings	user	nl		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	ENGLISH_AOA	mean	AoA	ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	FINNISH_AOA	mean	AoA	ratings	user	fi		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	GERMAN_AOA	mean	AoA	ratings	user	de		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	GREEK_AOA	mean	AoA	ratings	user	el		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	HEBREW_AOA	mean	AoA	ratings	user	he		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	HUNGARIAN_AOA	mean	AoA	ratings	user	hu		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	ICELANDIC_AOA	mean	AoA	ratings	user	is		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	IRISH_AOA	mean	AoA	ratings	user	ga		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	XHOSA_AOA	mean	AoA	ratings	user	xh		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	ITALIAN_AOA	mean	AoA	ratings	user	it		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	LITHUANIAN_AOA	mean	AoA	ratings	user	lt		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	LUXEMBOURGISH_AOA	mean	AoA	ratings	user	lb		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	MALTESE_AOA	mean	AoA	ratings	user	mt		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	POLISH_AOA	mean	AoA	ratings	user	pl		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	RUSSIAN_AOA	mean	AoA	ratings	user	ru		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	SOUTHAFRICANENGLISH_AOA	mean	AoA	ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	SERBIAN_AOA	mean	AoA	ratings	user	sr		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	SLOVAK_AOA	mean	AoA	ratings	user	sk		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	SPANISH_AOA	mean	AoA	ratings	user	es		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	SWEDISH_AOA	mean	AoA	ratings	user	sv		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2016-299	TURKISH_AOA	mean	AoA	ratings	user	tr		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	AFRIKAANS_AOA	mean	AoA	ratings	user	af		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	AMERICANENGLISH_AOA	mean	AoA	ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	CATALAN_AOA	mean	AoA	ratings	user	ca		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	CZECH_AOA	mean	AoA	ratings	user	cs		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	DANISH_AOA	mean	AoA	ratings	user	da		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	DUTCH_AOA	mean	AoA	ratings	user	nl		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	ENGLISH_AOA	mean	AoA	ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	FINNISH_AOA	mean	AoA	ratings	user	fi		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	GAELIC_AOA	mean	AoA	ratings	user	gd		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	GERMAN_AOA	mean	AoA	ratings	user	de		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	GREEK_AOA	mean	AoA	ratings	user	el		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	HEBREW_AOA	mean	AoA	ratings	user	he		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	HUNGARIAN_AOA	mean	AoA	ratings	user	hu		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	ICELANDIC_AOA	mean	AoA	ratings	user	is		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	IRISH_AOA	mean	AoA	ratings	user	ga		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	XHOSA_AOA	mean	AoA	ratings	user	xh		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	ITALIAN_AOA	mean	AoA	ratings	user	it		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	LEBANESEARABIC_AOA	mean	AoA	ratings	user	ar		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	LITHUANIAN_AOA	mean	AoA	ratings	user	lt		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	LUXEMBOURGISH_AOA	mean	AoA	ratings	user	lb		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	MALAY_AOA	mean	AoA	ratings	user	ms		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	MALTESE_AOA	mean	AoA	ratings	user	mt		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	PERSIAN_AOA	mean	AoA	ratings	user	fa		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	POLISH_AOA	mean	AoA	ratings	user	pl		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	RUSSIAN_AOA	mean	AoA	ratings	user	ru		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	SOUTHAFRICANENGLISH_AOA	mean	AoA	ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	SERBIAN_AOA	mean	AoA	ratings	user	sr		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	SLOVAK_AOA	mean	AoA	ratings	user	sk		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	SPANISH_AOA	mean	AoA	ratings	user	es		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	SWEDISH_AOA	mean	AoA	ratings	user	sv		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	TURKISH_AOA	mean	AoA	ratings	user	tr		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Luniewska-2019-299	WESTERNARMENIAN_AOA	mean	AoA	ratings	user	hy		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
-Lynott-2013-400	KNOWN_PROPORTION	percentage	familiarity	ratings	user	en		Proportion of participants that were familiar with the meaning of the noun (0-100%).
-Lynott-2013-400	AUDITORY_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by hearing.
-Lynott-2013-400	GUSTATORY_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
-Lynott-2013-400	HAPTIC_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
-Lynott-2013-400	OLFACTORY_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by smelling.
-Lynott-2013-400	VISUAL_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
-Lynott-2013-400	DOMINANT_MODALITY	linguistic	sensory modality	ratings	meta	en		Modality through which noun concept is experienced most strongly (i.e., with highest strength rating).
-Lynott-2013-400	EXCLUSIVITY	percentage	sensory modality	ratings	meta	en		Extent to which noun concept is experienced though a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
-Winter-2016-300	DOMINANT_MODALITY	linguistic	sensory modality	ratings	meta	en		Modality through which noun concept is experienced most strongly (i.e., with highest strength rating).
-Winter-2016-300	VISUAL_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
-Winter-2016-300	HAPTIC_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
-Winter-2016-300	AUDITORY_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by hearing.
-Winter-2016-300	GUSTATORY_MEAN	mean	sensory modality	ratings	user	en		Standard deviation of gustatory strength ratings.
-Winter-2016-300	OLFACTORY_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
-Winter-2016-300	EXCLUSIVITY	percentage	sensory modality	norms	meta	en		Extent to which verbs concept is experienced though a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
-Lynott-2009-423	FAMILARITY	percentage	familiarity	ratings	user	en		The values represent the proportion of participants who believed that they knew the word’s meaning.
-Lynott-2009-423	VISUAL_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
-Lynott-2009-423	HAPTIC_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
-Lynott-2009-423	AUDITORY_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by hearing.
-Lynott-2009-423	OLFACTORY_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by smelling.
-Lynott-2009-423	GUSTATORY_MEAN	mean	sensory modality	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
-Lynott-2009-423	DOMINANT_MODALITY	linguistic	sensory modality	ratings	meta	en		Modality through which property is experienced most strongly (i.e., with highest strength rating).
-Lynott-2009-423	EXCLUSIVITY	percentage	sensory modality	ratings	meta	en		Extent to which property is experienced though a single perceptual modality (0%–100%), calculated as range of strength values divided by their sum.
-Lynott-2009-423	WORD_LENGTH	numeric	syllable/morpheme length	norms	meta	en		Number of letters in property word.
-Izura-2005-499	SEMANTIC_CATEGORY	linguistic	semantic field	relations	user	es	Hernandez2002	One hundred words were selected per category from the study by [Hernández-Muñoz (2002)](:bib:Hernandez2002), which is an exploration of the common vocabulary shared by the Spanish community of Cuenca. The first 100 words with the highest LA scores in each category were selected for the present study.
-Izura-2005-499	TYPICALITY	mean	typicality	ratings	user	es		Typicality refers to the degree to which a concept (e.g., dog) is representative of a given category (e.g., animals).
-Izura-2005-499	FAMILIARITY	mean	familiarity	ratings	user	es		The participants were asked to estimate the degree to which they thought about or came into contact with a concept, using a 7-point scale (from 1  less than once a month to 7  many times a day).
-Izura-2005-499	AOA	mean	AoA	ratings	user	es		50 monolingual native Spanish speakers with a mean age of 23 years (range, 18–42) were asked to indicate the age at which they believed they had first learned each word.
-Izura-2005-499	IMAGEABILITY	mean	imageability	ratings	user	es		Ratings were obtained on a scale ranging from 1 (very difficult to arouse a mental image) to 7 (very easy to arouse a mental image).
-Izura-2005-499	LEXICAL_AVAILABILITY	mean	lexical availability	ratings	user	es	Hernandez2002	LA denotes the readiness with which a word is produced as a member of a given category. The LA values presented here were taken from [Hernández-Muñoz (2002)](:bib:Hernandez2002), who collected written category generation data from 117 Spanish native speakers 17 to 18 years of age.
-Izura-2005-499	FREQUENCY	numeric	frequency	norms	corpus	es	Alameda1995	Frequency values were taken from [Alameda and Cuetos (1995)](:bib:Alameda1995), which is a corpus of written Spanish text comprising 2 million words.
-Schroeder-2012-824	SEMANTIC_CATEGORY	linguistic	semantic field	relations	user	de		A group of 20 participants (15 female, 5 male) took part in the exemplar generation study. Participants were provided with a booklet containing a list of 11 category labels (VEGETABLES, VEHICLES, TOOLS, CLOTHING, FURNITURE, SPORTS, BIRDS, FRUITS, ANIMALS, PROFESSIONS, and MUSICAL INSTRUMENTS1). Each category label was presented on a separate sheet of paper. Participants were asked by written instructions to write down as many examples as they could think of for each semantic category.
-Schroeder-2012-824	TYPICALITY_MEAN	mean	typicality	ratings	user	de		The participants were asked to rate the typicality of the category exemplar on a 7-point scale from 1 (very good example of the category/typical) to 7 (bad example of the category/atypical)
-Schroeder-2012-824	AOA_MEAN	mean	AoA	ratings	user	de		Participants were asked to indicate on a 7-point scale when they thought they had learned the words.
-Schroeder-2012-824	FAMILIARITY_MEAN	mean	familiarity	ratings	user	de		Participants were asked to estimate the degree to which they thought about or came in contact with a concept, using a 5-point scale ranging from 1 (very unfamiliar) to 5 (very familiar).
-Verheyen-2019-1000	AOA_MEAN	mean	AoA	ratings	user	nl		For each word, the participants were asked to enter the age (in years) at which they thought they had learned the word.
-Verheyen-2019-1000	AROUSAL_MEAN	mean	arousal	ratings	user	nl		Participants were asked to indicate the degree to which a word refers to something very passive/calm (1) or very active/arousing (7), and to something very weak/submissive (1) or very strong/dominant (7) for arousal and dominance, respectively.
-Verheyen-2019-1000	CONCRETENESS_MEAN	mean	concreteness	ratings	user	nl		Participants rated each word’s level of abstraction on a 7-point scale ranging from very abstract (1) to very concrete (7).
-Verheyen-2019-1000	DOMINANCE_MEAN	mean	dominance	ratings	user	nl		Participants were asked to indicate the degree to which a word refers to something very passive/calm (1) or very active/arousing (7), and to something very weak/submissive (1) or very strong/dominant (7) for arousal and dominance, respectively.
-Verheyen-2019-1000	FAMILIARITY_MEAN	mean	familiarity	ratings	user	nl		Participants rated how familiar they were with each word in the list by indicating how often they had encountered or used the word. Ratings were performed on 7-point scales.
-Verheyen-2019-1000	IMAGEABILITY_MEAN	mean	imageability	ratings	user	nl		Participants rated each word’s capacity to arouse a mental image by indicating how easily they could form a mental image of the word on a 7-point scale with the ends labeled difficult (1) and easy (7).
-Verheyen-2019-1000	VALENCE_MEAN	mean	valence	ratings	user	nl		Participants rated the valence of each word by indicating on a 7-point scale the extent to which it evoked a very bad (1) or a very good (7) feeling.
-Verheyen-2019-1000	INSTRENGTH	numeric	network	relations	user	nl	DeDeyne2019	The in-strength si of a word i reflects the number of links that go into the node representing the word in the word association network and as such provides an indication of the word’s importance in the mental lexicon. The variables in-strength and betweenness were taken from the Small World of Words project (https://smallworldofword.org/), a large-scale study that aims to build a map of the human lexicon in the major languages of the world (including Dutch) using word association data [(De Deyne et al. 2019)](:bib:DeDeyne2019).
-Verheyen-2019-1000	BETWEENNESS	numeric	network	relations	user	nl	DeDeyne2019	Betweenness is another indicator of the centrality of a node in the network. It takes the global structure of the word association network more in account than in-strength does in that it captures how often a node is located on the shortest path between other nodes in the network. The variables in-strength and betweenness were taken from the Small World of Words project (https://smallworldofword.org/), a large-scale study that aims to build a map of the human lexicon in the major languages of the world (including Dutch) using word association data [(De Deyne et al. 2019)](:bib:DeDeyne2019).
-Desrochers-2010-330	WORD_TYPE	linguistic	PoS	norms	meta	es		The list includes deverbal compounds, nouns and verbs.
-Desrochers-2010-330	SUBJECTIVE_FREQ_MEAN	mean	frequency	norms	user	es		Ratings were collected from 102 native speakers of Spanish on the subjective frequency of occurrence of 330 Spanish words.
-DiezAlamo-2018-750	COLOR_MEAN	mean	sensory modality	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
-DiezAlamo-2018-750	MOTION_MEAN	mean	sensory modality	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
-DiezAlamo-2018-750	GRASP_MEAN	mean	sensory modality	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
-DiezAlamo-2018-750	PAIN_MEAN	mean	sensory modality	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
-DiezAlamo-2018-750	SOUND_MEAN	mean	sensory modality	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
-DiezAlamo-2018-750	TASTE_MEAN	mean	sensory modality	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
-DiezAlamo-2018-750	SMELL_MEAN	mean	sensory modality	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
-Monnier-2014-1031	VALENCE_ALL_MEAN	mean	valence	ratings	user	fr		Mean valence values for all participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
-Monnier-2014-1031	AROUSAL_ALL_MEAN	mean	arousal	ratings	user	fr		Mean arousal values for all participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
-Monnier-2014-1031	VALENCE_MALE_MEAN	mean	valence	ratings	user	fr		Mean valence values for male participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
-Monnier-2014-1031	AROUSAL_MALE_MEAN	mean	arousal	ratings	user	fr		Mean arousal values for male participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
-Monnier-2014-1031	VALENCE_FEMALE_MEAN	mean	valence	ratings	user	fr		Mean valence values for female participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
-Monnier-2014-1031	AROUSAL_FEMALE_MEAN	mean	arousal	ratings	user	fr		Mean arousal values for female participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
-Maciejewski-2016-100	DEFINITION	linguistic	polysemy	relations	meta	en		Definition of the meanings in the Wordsmyth dictionary.
-Maciejewski-2016-100	SUBJECTIVE_FREQ	mean	frequency	norms	user	en		Mean subjective frequency ratings of the meanings.
-Maciejewski-2016-100	DOMINANCE_SCORE	numeric	polysemy	relations	meta	en		Dominance score (B), first calculated for each subject and then averaged across subjects (0 - completely balanced, 1 - completely unbalanced homonym).
-Maciejewski-2016-100	NUMBER_WORD_SENSE_WORDSMYTH	numeric	polysemy	relations	meta	en	Parks1998	Number of word senses in the Wordsmyth Online Dictionary [(Parks et al., 1998)](:bib:Parks1998).
-Yao-2017-1100	AROUSAL_MEAN	mean	arousal	ratings	user	zh		Valence rating on a 9-point Likert scale by 960 university students.
-Yao-2017-1100	CONCRETENESS_MEAN	mean	concreteness	ratings	user	zh		Arousal rating on a 9-point Likert scale 960 university students.
-Yao-2017-1100	FAMILIARITY_MEAN	mean	familiarity	ratings	user	zh		Concreteness rating on a 9-point Likert scale 960 university students.
-Yao-2017-1100	FAMILIARITY_MEAN	mean	familiarity	ratings	user	zh		Familiarity rating on a 9-point Likert scale 960 university students.
-Yao-2017-1100	IMAGEABILITY_MEAN	mean	imageability	ratings	user	zh		Imageability rating on a 9-point Likert scale 960 university students.
-Yao-2017-1100	CONTEXT_AVAILABILITY_MEAN	mean	semantic	ratings	user	zh		Context availability rating on a 9-point Likert scale 960 university students.
-Xiao-2012-213	PEN_STROKES	numeric	descriptive	norms	meta	zh		Total number of strokes of the whole-word.
-Xiao-2012-213	ICONICITY	mean	iconicity	ratings	user	zh		40 U.S. adults with no knowledge of Chinese were given an English word or short phrase together with two Chinese characters and were asked which character matched the meaning of the English word.
-Xiao-2012-213	PICTURABILITY	mean	picturability	ratings	user	zh		31 English speaking students were shown the English translations of Chinese characters used in the experiment and had to rate each translation on a 7-point scale to indicate the extent to which the concept could be expressed easily in a simple black-on-white line drawing or diagram.
-Pagel-2018-200	RATE	numeric	stability	relations	concept lists	en		Stability (rate of lexical change) measured for concepts based on a sample from Indo-European languages.
-Pagel-2007-200	RANK	numeric	stability	relations	concept lists	en	Dyen1992	Ranks for the 200 basic concepts, which are retrieved from the calculation of evolutionary rates from phylogenetic analyses on the database by Dyen et al (1992).
-Briesemeister-2011-DiscreteEmotions	GERMAN_HAPPINESS_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category happiness.
-Briesemeister-2011-DiscreteEmotions	GERMAN_ANGER_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category anger.
-Briesemeister-2011-DiscreteEmotions	GERMAN_SADNESS_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category sadness.
-Briesemeister-2011-DiscreteEmotions	GERMAN_FEAR_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category fear.
-Briesemeister-2011-DiscreteEmotions	GERMAN_DISGUST_MEAN	mean	discrete emotions	ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category disgust.
-Briesemeister-2011-DiscreteEmotions	GERMAN_EMOTION_DOMINANT	linguistic	discrete emotions	ratings	user	de		A more conservative classification criterion was applied, assigning words to a specific discrete emotion category only in cases in which the averaged rating in one discrete emotion was more than one standard deviation higher than in any other discrete emotion.
-Mandera-2015-Frequency	POLISH_FREQUENCY	tokens	frequency	norms	corpus	pl		This is the number of times the word appears in the corpus.
-Mandera-2015-Frequency	POLISH_CD	numeric	contextual diversity	norms	corpus	pl		This  is the number of films in which the word appears.
-Mandera-2015-Frequency	POLISH_FREQUENCY_LOG	logarithmic	frequency	norms	corpus	pl		This is a value based on log10(FREQcount+1).
-Mandera-2015-Frequency	POLISH_CD_LOG	logarithmic	contextual diversity	norms	corpus	pl		This value is based on log10(CDcount +1).
-Moors-2013-Ratings	DUTCH_VALENCE_MEAN	mean	valence	ratings	user	nl		Mean valence values for all participants (224 students) on a 7-point Likert scale.
-Moors-2013-Ratings	DUTCH_AROUSAL_MEAN	mean	arousal	ratings	user	nl		Mean arousal values for all participants (224 students) on a 7-point Likert scale.
-Moors-2013-Ratings	DUTCH_VALENCE_MALE_MEAN	mean	valence	ratings	user	nl		Mean valence values for male participants on a 7-point Likert scale.
-Moors-2013-Ratings	DUTCH_AROUSAL_MALE_MEAN	mean	arousal	ratings	user	nl		Mean arousal values for male participants on a 7-point Likert scale.
-Moors-2013-Ratings	DUTCH_VALENCE_FEMALE_MEAN	mean	valence	ratings	user	nl		Mean valence values for female participants on a 7-point Likert scale.
-Moors-2013-Ratings	DUTCH_AROUSAL_FEMALE_MEAN	mean	arousal	ratings	user	nl		Mean arousal values for female participants on a 7-point Likert scale.
-Moors-2013-Ratings	DUTCH_AOA_MEAN	mean	AoA	ratings	user	nl		Mean age-of-acquisition values for all participants (224 students) on a 7-point Likert scale.
-Moors-2013-Ratings	DUTCH_AOA_MALE_MEAN	mean	AoA	ratings	user	nl		Mean age-of-acquisition values for male participants on a 7-point Likert scale.
-Moors-2013-Ratings	DUTCH_AOA_FEMALE_MEAN	mean	AoA	ratings	user	nl		Mean age-of-acquisition values for female participants on a 7-point Likert scale.
-Wu-2020-CoreVocabulary	TRANSLATION_COUNT	numeric	core vocabulary	relations	corpus	en		This value represents the number of languages in which a word occurred. It is the relative coverage of a target concept in 1895 bilingual dictionaries.
-Mohammad-2018-AffectiveRatings	ENGLISH_VALENCE_MEAN	mean	valence	ratings	user	en		Mean value of valence ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest valence and the word with the lowest valence.
-Mohammad-2018-AffectiveRatings	ENGLISH_AROUSAL_MEAN	mean	arousal	ratings	user	en		Mean value of arousal ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest arousal and the word with the lowest arousal.
-Mohammad-2018-AffectiveRatings	ENGLISH_DOMINANCE_MEAN	mean	dominance	ratings	user	en		Mean value of dominance ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest dominance and the word with the lowest dominance.
-Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_DOMINANT	linguistic	discrete emotions	ratings	user	en		The most dominant emotion based on pointwise mutual information (PMI) with PMI > 1 in the Hashtag Emotion Corpus [(Mohammad 2012)](:bib:Mohammad2012).
-Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_INTENSITY	mean	emotion intensity	ratings	user	en		Mean value of emotion intensity based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word that conveys the highest emotion intensity and the word that conveys the lowest emotion intensity.
-Clark-2004-ImageryFamiliarity	ENGLISH_IMAGEABILITY_MEAN	mean	imageability	ratings	user	en		Mean value of imageability ratings based on a 7-point scale.
-Clark-2004-ImageryFamiliarity	ENGLISH_FAMILIARITY_MEAN	mean	familiarity	ratings	user	en		Mean value of familiarity ratings based on a 7-point scale.
-Abdaoui-2017-EmoLex	FRENCH_EMOTION_POLARITY	semantic	polarity	norms	corpus	fr		Polarity associated with a word (positive/negative) based on a sentiment analysis of texts.
-Abdaoui-2017-EmoLex	FRENCH_JOY_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
-Abdaoui-2017-EmoLex	FRENCH_FEAR_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
-Abdaoui-2017-EmoLex	FRENCH_SADNESS_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
-Abdaoui-2017-EmoLex	FRENCH_ANGER_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
-Abdaoui-2017-EmoLex	FRENCH_SURPRISE_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
-Abdaoui-2017-EmoLex	FRENCH_DISGUST_ASSOCIATION	numeric	discrete emotion	norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
-Dellert-2018-1016	LGC	numeric	stability	relations	corpus	de		The stability measure for a concept is called local-global distance correlation (lgc).
-Dellert-2018-1016	INF	numeric	basicness	relations	corpus	de		The average information content (inf) is the measure for basicness.
-Dellert-2018-1016	RANK	numeric	stability	relations	corpus	de		The rank is based on the suitability of a given word for inclusion in Swadesh-style lists of basic stable concepts.
-Baroni-2011-200	SEMANTIC_CLASS	linguistic	semantic field	relations	corpus	en		The semantic field of a given word. The words are grouped into 17 broader classes (amphibian or reptile, appliance, bird, building, clothing, container, fruit, furniture, ground_mammal, insect, musical_instrument, tool, tree, vegetable, vehicle, water_animal, weapon).
-Baroni-2011-200	TYPICAL_ATTRIBUTE	linguistic	attribute	relations	corpus	en		This is a list of adjectives expressing an attribute of the concept.
-Baroni-2011-200	COHYPONYMY	linguistic	cohyponymy	relations	corpus	en		This is a list of nouns that are a co-hyponym (coordinate) of the concept, i.e., they belong to the same (narrowly or broadly defined) semantic class.
-Baroni-2011-200	TYPICAL_EVENT	linguistic	event	relations	corpus	en		This is a list of verbs referring to an action/activity/happening/event the concept is involved in or is performed by/with the concept.
-Baroni-2011-200	HYPERONYM	linguistic	hyperonym	relations	corpus	en		This is a list of nouns that are a hypernym of the concept.
-Baroni-2011-200	MERONYM	linguistic	meronym	relations	corpus	en		This is a list of nouns referring to a part/component/organ/member of the concept, or something that the concept contains or is made of.
-Baroni-2011-200	RANDOM_ADJECTIVE	linguistic	adjective	relations	corpus	en		This is a list of adjectives related to the concept. Random relata were chosen to approximately match the frequency of occurrence of the true relata (frequencies computed on the concatenated WaCkypedia_EN and ukWaC corpora.
-Baroni-2011-200	RANDOM_NOUN	linguistic	noun	relations	corpus	en		This is a list of nouns related to the concept. Random relata were chosen to approximately match the frequency of occurrence of the true relata (frequencies computed on the concatenated WaCkypedia_EN and ukWaC corpora.
-Baroni-2011-200	RANDOM_VERB	linguistic	verb	relations	corpus	en		This is a list of verbs related to the concept. Random relata were chosen to approximately match the frequency of occurrence of the true relata (frequencies computed on the concatenated WaCkypedia_EN and ukWaC corpora.
-Matisoff-2015-STEDT	SEMANTIC_CATEGORY	linguistic	semantic field	relations	user	en		This is the semantic key (semkey) which is a unique identification string given to each semantic category, with the semkey taking the form of a string x, x.x, x.x.x, or x.x.x.x. The first digit in the semkey indicates the broad semantic category to which it belongs, as described above, where '1' is used for 'Body Parts', '2' is used for 'Animals (and Animal Verbs)', and so on. Each of the following 'x's in the semkey (x.x, x.x.x, etc.) denotes a more fine-grained semantic categorization; for example, 1.5 is 'Limbs, Joints, & Body Measures', 1.5.1 is 'Hand, Arm, Wing', and 1.5.1.1 is 'Hand'.
-Kiss-1973-EAT	WEIGHTED_DEGREE	numeric	associations	relations	user	en		This is the weighted degree we computed from the association data (the sum of all association weights per word).
-Kiss-1973-EAT	DEGREE	numeric	associations	relations	user	en		This is the degree we computed from the association data (the number of association edges per word).
-Wikidata	WIKIDATA_DESCRIPTION	semantic	description	relations	corpus	en		This is the decription of the Wikidata item. It is meant to disambiguate the items.
-Hill-2015-999	SIM_LEX_999	semantic	similarity	relations	corpus	en		The SimLex999 similarity rating. Note that average annotator scores have been (linearly) mapped from the range [0,6] to the range [0,10] to match other datasets such as WordSim-353.
-Hill-2015-999	CONCRETENESS_WORD1	mean	concreteness	ratings	corpus	en	Nelson1998	The concreteness rating of word1 on a scale of 1-7. Taken from the University of South Florida Free Association Norms database [(Nelson et al. 1998)](:bib:Nelson1998).
-Hill-2015-999	CONCRETENESS_WORD2	mean	concreteness	ratings	corpus	en	Nelson1998	The concreteness rating of word1 on a scale of 1-7. Taken from the University of South Florida Free Association Norms database [(Nelson et al. 1998)](:bib:Nelson1998).
-Hill-2015-999	CONCRETENESS	mean	concreteness	ratings	corpus	en		The quartile the pair occupies based on the two concreteness ratings.
-Hill-2015-999	ASSOCIATION_STRENGTH	numeric	associations	relations	corpus	en		The strength of free association from word1 to word2. Values are taken from the University of South Florida Free Association Dataset [(Nelson et al. 1998)](:bib:Nelson1998).
-Hill-2015-999	SIM_ASSOCIATION_333	numeric	associations	relations	corpus	en		Binary indicator of whether the pair is one of the 333 most associated in the dataset (according to ASSOCIATION_STRENGTH). This subset of SimLex999 is often the hardest for computational models to capture because the noise from high association can confound the similarity rating.
-Babelnet	BABELNET_DEFINITION	semantic	description	relations	corpus	en		This is the decription of the Babelnet item.
+DATASET	NAME	STRUCTURE	TYPE	OTHER	NORARE	RATING	LANGUAGE	SOURCE	NOTE
+Bond-2013-OMW	IN_DEGREE	numeric	semantic	in degree	relations	user	en		The number of hypernyms of a given concept.
+Bond-2013-OMW	OUT_DEGREE	numeric	semantic	out degree	relations	user	en		The number of hyponyms of a given concept.
+Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA		ratings	user	es		Average score of AoA ratings on a scale from 1 to 11.
+Alonso-2015-AoA	SPANISH_AOA_MIN	numeric	AoA	minimum	ratings	user	es		The minimum age of acquisition indicated by participants.
+Alonso-2015-AoA	SPANISH_AOA_MAX	numeric	AoA	maximum	ratings	user	es		The maximum age of acquisition indicated by participants.
+Brysbaert-2009-Frequency	ENGLISH_FREQUENCY	tokens	frequency		norms	corpus	en		The number of times the word appears in the corpus (i.e., on the total of 51 million words).
+Brysbaert-2009-Frequency	ENGLISH_CD	tokens	contextual diversity		norms	corpus	en		The number of films in which the word appears (i.e., it has a maximum value of 8,388).
+Brysbaert-2009-Frequency	ENGLISH_SUBTITLE_FREQUENCY	numeric	frequency	subtitle	norms	corpus	en		The word frequency per million words. It is the measure one would preferably use in ones manuscripts, because it is a standard measure of word frequency independent of the corpus size. It is given with two-digit precision, in order not to lose precision of the frequency counts.
+Brysbaert-2009-Frequency	ENGLISH_SUBTITLE_CD	numeric	contextual diversity	subtitle	norms	corpus	en		This  indicates in what percentage of the films the word appears.
+Brysbaert-2009-Frequency	ENGLISH_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	en		This value is based on log10(FREQcount+1) and has four-digit precision. Calculating the log frequency on the raw frequencies is the most straightforward transformation, because it allows one to give words that are not in the corpus a value of 0. One can easily lose 5% of the variance explained by taking log(frequency per million # 1), because, in this case, one is not making much of a distinction between words with low frequencies. Similarly, adding values lower than 1 (e.g., #1E#10) is dangerous, because one may end up with a big gap between the words in oneÕs corpus and words for which one does not have a frequency measure (which will get a log value of #10). In addition, if one uses log(frequency per million), one will have negative values for words with a frequency lower than 1 per million, and one will have to enter negative values for missing words. The downside of using log10(FREQcount # 1) is that there is no intuitive relationship between Lg10WF and SUBTLWF (frequency per million).
+Brysbaert-2009-Frequency	ENGLISH_CD_LOG	logarithmic	contextual diversity		norms	corpus	en		This value is based on log10(CDcount+1) and has four-digit precision.
+Brysbaert-2011-Frequency	GERMAN_FREQUENCY	tokens	frequency		norms	corpus	de		This is the number of times the word as written in column 1 is encountered in the subtitle corpus.
+Brysbaert-2011-Frequency	GERMAN_SUBTITLE_FREQUENCY	tokens	frequency	subtitle	norms	corpus	de		This is the frequency per million based on CUMfreqcount (i.e., it equals CUMfreqcount / 25.399).
+Brysbaert-2011-Frequency	GERMAN_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	de		This is log10(CUMfreqcount+1). It is the value to use when you want to match stimuli in various conditions. When a stimulus is not present in the corpus, lgSUBTLEX gets a value of 0.
+Brysbaert-2014-Concreteness	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	en		The mean concreteness rating on a 5-point rating scale going from abstract to concrete.
+Brysbaert-2014-Concreteness	ENGLISH_DUNNO	percentage	familiarity	dunno	ratings	user	en		The number of persons indicating they did not know the word.
+Brysbaert-2019-Prevalence	ENGLISH_KNOWN_PERCENTAGE	percentage	familiarity	known	ratings	user	en		The percentages of words known across 220,000 participants.
+Brysbaert-2019-Prevalence	ENGLISH_PREVALENCE	normalized	familiarity	prevalence	ratings	user	en		The word prevalence (number of people who know the word) across 220,000 participants.
+Cai-2010-Frequency	CHINESE_FREQUENCY	tokens	frequency		norms	corpus	zh		The number of times the word appears in the corpus.
+Cai-2010-Frequency	CHINESE_FREQUENCY_PM	numeric	frequency	per million	norms	corpus	zh		The word frequency per million words. It is the measure one would preferably use in ones manuscripts, because it is a standard measure of word frequency independent of the corpus size. It is given with two-digit precision, in order not to lose precision of the frequency counts.
+Cai-2010-Frequency	CHINESE_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	zh		This value is based on log10(FREQcount+1) and has four-digit precision. Calculating the log frequency on the raw frequencies is the most straightforward transformation, because it allows one to give words that are not in the corpus a value of 0.
+Cai-2010-Frequency	CHINESE_CD	tokens	contextual diversity		norms	corpus	zh		The number of films in which the word appears.
+Cai-2010-Frequency	CHINESE_CD_PERCENTAGE	percentage	contextual diversity		norms	corpus	zh		This  indicates in what percentage of the films the word appears.
+Cai-2010-Frequency	CHINESE_CD_LOG	logarithmic	contextual diversity		norms	corpus	zh		This value is based on log10(CDcount+1) and has four-digit precision.
+Cuetos-2011-Frequency	SPANISH_FREQUENCY	tokens	frequency		norms	corpus	es		This is the number of times the word appears in the corpus.
+Cuetos-2011-Frequency	SPANISH_FREQUENCY_PM	normalized	frequency	per million	norms	corpus	es		Word frequency per million  of subtitles.
+Cuetos-2011-Frequency	SPANISH_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	es		Log10 of subtitle word frequency.
+Desrochers-2009-SubjFrequency	FRENCH_SUBJECTIVE_FREQUENCY	mean	frequency	subjective	ratings	user	fr		Subjective frequencies estimates were based on a 7-point rating scale.
+Desrochers-2009-SubjFrequency	FRENCH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	fr		Imageability estimates were based on a 7-point rating scale.
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN	mean	humor		ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for all participants.
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_MALE	mean	humor	male	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for male participants.
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_FEMALE	mean	humor	female	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for female participants.
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_YOUNG	mean	humor	young	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for young participants (with age above 32).
+Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_OLD	mean	humor	old	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for old participants (with age under 32).
+Juhasz-2013-SER	ENGLISH_SER_MEAN	mean	sensory experience		ratings	user	en		Sensory experience ratings on a 7-point scale.
+Keuleers-2010-Frequency	DUTCH_FREQUENCY	tokens	frequency		norms	corpus	nl		This is the number of times the word appears in the corpus.
+Keuleers-2010-Frequency	DUTCH_CD	numeric	contextual diversity		norms	corpus	nl		This  is the number of films in which the word appears.
+Keuleers-2010-Frequency	DUTCH_SUBTITLE_FREQUENCY	tokens	frequency	subtitle	norms	corpus	nl		This is the WF per million words and has 4-digit precision.
+Keuleers-2010-Frequency	DUTCH_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	nl		This is a value based on log10(FREQcount+1) and with 4-digit precision.
+Keuleers-2010-Frequency	DUTCH_SUBTITLE_CD	numeric	contextual diversity	subtitle	norms	corpus	nl		This value indicates in what percent of the films the word appears, with 4-digit precision.
+Keuleers-2010-Frequency	DUTCH_CD_LOG	logarithmic	contextual diversity		norms	corpus	nl		This value is based on log10(CDcount +1) and has 4-digit precision.
+Kuperman-2012-AoA	ENGLISH_OCCURRENCES_TOTAL	numeric	AoA	total	ratings	user	en		This is the number of valid age of acquisition-ratings of the word.
+Kuperman-2012-AoA	ENGLISH_OCCURRENCES_NUM	numeric	AoA	number	ratings	user	en		This is the number of valid age of acquisition-ratings of the word, counting only numeric ratings, not 'don't know's.
+Kuperman-2012-AoA	ENGLISH_AOA_MEAN	mean	AoA		ratings	user	en		This is the mean of the age of acquisition-ratings of the word. A total of 696,048 valid ratings, including 76,211 'don't know's, were collected from 1,729 inhabitants of the US.
+Kuperman-2012-AoA	ENGLISH_DUNNO	percentage	familiarity	dunno	ratings	user	en		This is the proportion of valid responses that are a rating and not a 'don't know'.
+Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_MALE	mean	valence	male	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of men on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_FEMALE	mean	valence	female	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of women on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN	mean	valence		ratings	user	pl		This is the mean of the valence ratings for each word obtained in the whole group on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	male	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of men on a 5-point scale.
+Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	female	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of women on a 5-point scale.
+Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN	mean	arousal		ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the whole group on a 5-point scale.
+Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	male	ratings	user	pl		This is the mean of the imageability ratings for each word obtained in the group of men on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	female	ratings	user	pl		This is the mean of the imageanility ratings for each word obtained in the group of women on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	pl		This is the mean of the imageability ratings for each word obtained in the whole group on a 7-point scale.
+Scott-2019-Ratings	ENGLISH_AROUSAL_MEAN	mean	arousal		ratings	user	en		Number of Scale Points: 9 Arousal is a measure of excitement versus calmness.
+Scott-2019-Ratings	ENGLISH_VALENCE_MEAN	mean	valence		ratings	user	en		Number of Scale Points: 9 Valence is a measure of value or worth.
+Scott-2019-Ratings	ENGLISH_DOMINANCE_MEAN	mean	dominance		ratings	user	en		Number of Scale Points: 9 Dominance is a measure of the degree of control you feel.
+Scott-2019-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	en		Number of Scale Points: 7 Concreteness is a measure of how concrete or abstract something is. A word is CONCRETE if it represents something that exists in a definite physical form in the real world. In contrast, a word is ABSTRACT if it represents more of a concept or idea.
+Scott-2019-Ratings	ENGLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	en		Number of Scale Points: 7 Imageability is a measure of how easy or difficult something is to imagine.
+Scott-2019-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		Number of Scale Points: 7 Familiarity is a measure of how familiar something is.
+Scott-2019-Ratings	ENGLISH_AOA_MEAN	mean	AoA		ratings	user	en		Number of Scale Points: 7 A words age of acquisition is the age at which that word was initially learned.
+Scott-2019-Ratings	ENGLISH_SEM_SIZE_MEAN	mean	semantic size		ratings	user	en		Number of Scale Points: 7 Size is a measure of somethings dimensions, magnitude, or extent. A word represents something BIG if it refers to things or concepts that are large. A word represents something SMALL if it refers to things or concepts that are little.
+Scott-2019-Ratings	ENGLISH_GENDER_ASSOCIATION_MEAN	mean	gender association		ratings	user	en		Number of Scale Points: 7 A words gender is how strongly its meaning is associated with male or female behaviour.
+StadthagenGonzalez-2017-ValenceArousal	SPANISH_VALENCE_MEAN	mean	valence		ratings	user	es		This is the mean value of valence across all participants. Participants rated the words on a 9-point scale.
+StadthagenGonzalez-2017-ValenceArousal	SPANISH_AROUSAL_MEAN	mean	arousal		ratings	user	es		This is the mean value of arousal across all participants. Participants rated the words on a 9-point scale.
+Starostin-2000-Sense	SENSES	linguistic	sense relation		relations	other	en		The relations to a sense for a given word.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN	mean	valence		ratings	user	en		Mean value of valence ratings on a 9-point scale across all participants.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN	mean	arousal		ratings	user	en		Mean value of arousal ratings on a 9-point scale across all participants.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN	mean	dominance		ratings	user	en		Mean value of dominance ratings on a 9-point scale across all participants.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_MALE	mean	valence	male	ratings	user	en		Mean value of valence ratings on a 9-point scale across male participants.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_FEMALE	mean	valence	female	ratings	user	en		Mean value of valence ratings on a 9-point scale across female participants.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_MALE	mean	arousal	male	ratings	user	en		Mean value of arousal ratings on a 9-point scale across male participants.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_FEMALE	mean	arousal	female	ratings	user	en		Mean value of arousal ratings on a 9-point scale across female participants.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_MALE	mean	dominance	male	ratings	user	en		Mean value of dominance ratings on a 9-point scale across male participants.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	female	ratings	user	en		Mean value of dominance ratings on a 9-point scale across female participants.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_YOUNG	mean	valence	young	ratings	user	en		Mean value of valence ratings on a 9-point scale across young participants (less than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_OLD	mean	valence	old	ratings	user	en		Mean value of valence ratings on a 9-point scale across old participants (greater than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_YOUNG	mean	arousal	young	ratings	user	en		Mean value of arousal ratings on a 9-point scale across young participants (less than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_OLD	mean	arousal	old	ratings	user	en		Mean value of arousal ratings on a 9-point scale across old participants (greater than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_YOUNG	mean	dominance	young	ratings	user	en		Mean value of dominance ratings on a 9-point scale across young participants (less than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_OLD	mean	dominance	old	ratings	user	en		Mean value of dominance ratings on a 9-point scale across old participants (greater than 30 years old).
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_HIGH	mean	valence	high education	ratings	user	en		Mean value of valence ratings on a 9-point scale across participants with a high education.
+Warriner-2013-AffectiveRatings	ENGLISH_VALENCE_MEAN_LOW	mean	valence	low education	ratings	user	en		Mean value of valence ratings on a 9-point scale across participants with a low education.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_HIGH	mean	arousal	high education	ratings	user	en		Mean value of arousal ratings on a 9-point scale across participants with a high education.
+Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_LOW	mean	arousal	low education	ratings	user	en		Mean value of arousal ratings on a 9-point scale across participants with a low education.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_HIGH	mean	dominance	high education	ratings	user	en		Mean value of dominance ratings on a 9-point scale across participants with a high education.
+Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	low education	ratings	user	en		Mean value of dominance ratings on a 9-point scale across participants with a low education.
+Cortese-2008-AoA	ENGLISH_AOA_MEAN	mean	AoA		ratings	user	en		This is the mean value of age-of-acquisition ratings on a 7-point scale.
+Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	reaction time		norms	user	en		The average RT to the stimulus (correct trials only).
+Keuleers-2012-LexicalDecision	ENGLISH_RT_ZSCORE	standardized	reaction time	z-score	norms	user	en		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
+Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_PERCENTAGE	percentage	accuracy		norms	user	en		Average accuracy for the stimulus.
+Ferrand-2010-LexicalDecision	FRENCH_RT_MEAN	mean	reaction time		norms	user	fr		The average RT to the stimulus (correct trials only).
+Ferrand-2010-LexicalDecision	FRENCH_RT_ZSCORE	standardized	reaction time	z-score	norms	user	fr		The average standardized RT. Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
+GonzalezNosti-2014-LexicalDecision	SPANISH_AOA_MEAN	mean	AoA		ratings	user	es		Mean value of AoA ratings on a 7-point Likert scale in which 1 corresponded to ages between 0 and 2 years old, 2 to ages between 2 and 4, and so on up to 7, which corresponded to ages over 12 years old.
+GonzalezNosti-2014-LexicalDecision	SPANISH_RT_MEAN	mean	reaction time		norms	user	es		The average RT to the stimulus (correct trials only).
+Tsang-2018-LexicalDecision	CHINESE_RT_MEAN	mean	reaction time		norms	user	zh		Mean reaction time across participants.
+Tsang-2018-LexicalDecision	CHINESE_RT_ZSCORE	standardized	reaction time	z-score	norms	user	zh		Mean standardized reaction time across participants.
+Tsang-2018-LexicalDecision	CHINESE_STROKE	numeric	descriptive	stroke	norms	meta	zh		Total number of strokes of the whole-word.
+Keuleers-2015-Prevalence	DUTCH_ACCURACY_PERCENTAGE	percentage	accuracy		ratings	user	nl		Average accuracy for the stimulus.
+Keuleers-2015-Prevalence	DUTCH_PREVALENCE	normalized	familiarity	prevalence	ratings	user	nl		The word prevalence (number of people who know the word) across nearly 300,000 participants.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	happiness		ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category happiness.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	disgust		ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category disgust.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	anger		ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category anger.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	fear		ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category fear.
+StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	sadness		ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category sadness.
+Alonso-2016-AoA	SPANISH_AOA_MEAN	mean	AoA		ratings	user	es		Average score of AoA ratings. A predefined age scale was not used, and participants were required to directly enter the number corresponding to a particular age, in years.
+Alonso-2016-AoA	SPANISH_AOA_MIN	numeric	AoA	minimum	ratings	user	es		The minimum age of acquisition indicated by participants.
+Alonso-2016-AoA	SPANISH_AOA_MAX	numeric	AoA	maximum	ratings	user	es		The maximum age of acquisition indicated by participants.
+Alonso-2016-AoA	SPANISH_AOA_ZSCORE	standardized	AoA	z-score	ratings	user	es		The average standardized AoA ratings.
+Imbir-2016-Ratings	POLISH_POS	tokens	PoS		relations	meta	pl		The dominant part of speech category.
+Imbir-2016-Ratings	POLISH_VALENCE_MEAN	mean	valence		ratings	user	pl		Mean value of valence ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_AROUSAL_MEAN	mean	arousal		ratings	user	pl		Mean value of arousal ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN	mean	dominance		ratings	user	pl		Mean value of dominance ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_ORIGIN_MEAN	mean	origin		ratings	user	pl		Mean value of origin ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN	mean	significance		ratings	user	pl		Mean value of significance ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	pl		Mean value of concreteness ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	pl		Mean value of imageability ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_AOA_MEAN	mean	AoA		ratings	user	pl		Mean value of age-of-acquisition ratings on SAM scale across all participants.
+Imbir-2016-Ratings	POLISH_VALENCE_MEAN_FEMALE	mean	valence	female	ratings	user	pl		Mean value of valence ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	female	ratings	user	pl		Mean value of arousal ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	female	ratings	user	pl		Mean value of dominance ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_FEMALE	mean	origin	female	ratings	user	pl		Mean value of origin ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_FEMALE	mean	significance	female	ratings	user	pl		Mean value of significance ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_FEMALE	mean	concreteness	female	ratings	user	pl		Mean value of concreteness ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	female	ratings	user	pl		Mean value of imageability ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_AOA_MEAN_FEMALE	mean	AoA	female	ratings	user	pl		Mean value of age-of-acquisition ratings on SAM scale across female participants.
+Imbir-2016-Ratings	POLISH_VALENCE_MEAN_MALE	mean	valence	male	ratings	user	pl		Mean value of valence ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	male	ratings	user	pl		Mean value of arousal ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_MALE	mean	dominance	male	ratings	user	pl		Mean value of dominance ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_MALE	mean	origin	male	ratings	user	pl		Mean value of origin ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_MALE	mean	significance	male	ratings	user	pl		Mean value of significance ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_MALE	mean	concreteness	male	ratings	user	pl		Mean value of concreteness ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	male	ratings	user	pl		Mean value of imageability ratings on SAM scale across male participants.
+Imbir-2016-Ratings	POLISH_AOA_MEAN_MALE	mean	AoA	male	ratings	user	pl		Mean value of age-of-acquisition ratings on SAM scale across male participants.
+Ferre-2017-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	happiness		ratings	user	es		The mean value of the ratings for the discrete emotion happiness on a 5-point scale.
+Ferre-2017-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	anger		ratings	user	es		The mean value of the ratings for the discrete emotion anger on a 5-point scale.
+Ferre-2017-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	sadness		ratings	user	es		The mean value of the ratings for the discrete emotion sadness on a 5-point scale.
+Ferre-2017-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	fear		ratings	user	es		The mean value of the ratings for the discrete emotion fear on a 5-point scale.
+Ferre-2017-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	disgust		ratings	user	es		The mean value of the ratings for the discrete emotion disgust on a 5-point scale.
+Rzymski-2020-1624	FAMILY_FREQUENCY	numeric	colexifications	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
+Rzymski-2020-1624	LANGUAGE_FREQUENCY	numeric	colexifications	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
+Rzymski-2020-1624	WORD_FREQUENCY	numeric	colexifications	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
+Rzymski-2020-1624	RANK	numeric	colexifications	rank	relations	concept lists	en		This is the rank based on the degree.
+Rzymski-2020-1624	COMMUNITY	numeric	colexifications	community	relations	concept lists	en		This is the community identifier.
+Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	colexifications	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
+Rzymski-2020-1624	DEGREE	numeric	colexifications	degree	relations	concept lists	en		This is the unweighted and weighted degree for each node.
+Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	colexifications	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
+Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	colexifications	weigthed language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
+Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN	mean	happiness		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category happiness.
+Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN	mean	anger		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category anger.
+Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN	mean	sadness		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category sadness.
+Wierzba-2015-DiscreteEmotions	POLISH_FEAR_MEAN	mean	fear		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category fear.
+Wierzba-2015-DiscreteEmotions	POLISH_DISGUST_MEAN	mean	disgust		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category disgust.
+Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN_FEMALE	mean	happiness	female	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category happiness (only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN_FEMALE	mean	anger	female	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category anger (only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN_FEMALE	mean	sadness	female	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_FEAR_MEAN_FEMALE	mean	fear	female	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category fear (only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_DISGUST_MEAN_FEMALE	mean	disgust	female	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category disgust (only female participants).
+Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN_MALE	mean	happiness	male	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category happiness (only male participants).
+Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN_MALE	mean	anger	male	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category anger (only male participants).
+Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN_MALE	mean	sadness	male	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category sadness(only male participants).
+Wierzba-2015-DiscreteEmotions	POLISH_FEAR_MEAN_MALE	mean	fear	male	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category fear (only male participants).
+Wierzba-2015-DiscreteEmotions	POLISH_DISGUST_MEAN_MALE	mean	disgust	male	ratings	user	pl		Mean value for ratings on a 7-point scale in the emotional category disgust (only male participants).
+Alonso-2011-OralFrequency	SPANISH_FREQUENCY	tokens	frequency		norms	corpus	es		This is the number of times the spoken word appears in the corpus.
+Alonso-2011-OralFrequency	SPANISH_FREQUENCY_PM	normalized	frequency	per million	norms	corpus	es		The frequency per million for spoken words.
+Alonso-2011-OralFrequency	SPANISH_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	es		The log10 of spoken word frequency.
+Lynott-2019-Sensorimotor	ENGLISH_AUDITORY_MEAN	mean	perceptual modalities	auditory	ratings	user	en		Auditory strength: mean rating (0–5) of how strongly the concept is experienced by hearing.
+Lynott-2019-Sensorimotor	ENGLISH_GUSTATORY_MEAN	mean	perceptual modalities	gustatory	ratings	user	en		Gustatory strength: mean rating (0–5) of how strongly the concept is experienced by tasting.
+Lynott-2019-Sensorimotor	ENGLISH_HAPTIC_MEAN	mean	perceptual modalities	haptic	ratings	user	en		Haptic strength: mean rating (0–5) of how strongly the concept is experienced by feeling through touch.
+Lynott-2019-Sensorimotor	ENGLISH_INTEROCEPTIVE_MEAN	mean	perceptual modalities	interoceptive	ratings	user	en		Interoceptive strength: mean rating (0–5) of how strongly the concept is experienced by sensations inside the body.
+Lynott-2019-Sensorimotor	ENGLISH_OLFACTORY_MEAN	mean	perceptual modalities	olfactory	ratings	user	en		Olfactory strength: mean rating (0–5) of how strongly the concept is experienced by smelling.
+Lynott-2019-Sensorimotor	ENGLISH_VISUAL_MEAN	mean	perceptual modalities	visual	ratings	user	en		Visual strength: mean rating (0–5) of how strongly the concept is experienced by seeing.
+Lynott-2019-Sensorimotor	ENGLISH_FOOT_ACTION_MEAN	mean	action effector	foot	ratings	user	en		Foot action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the foot / leg.
+Lynott-2019-Sensorimotor	ENGLISH_HAND_ACTION_MEAN	mean	action effector	hand	ratings	user	en		Hand action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the hand / arm.
+Lynott-2019-Sensorimotor	ENGLISH_HEAD_ACTION_MEAN	mean	action effector	head	ratings	user	en		Head action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the head excluding mouth.
+Lynott-2019-Sensorimotor	ENGLISH_MOUTH_ACTION_MEAN	mean	action effector	mouth	ratings	user	en		Mouth action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the mouth / throat.
+Lynott-2019-Sensorimotor	ENGLISH_TORSO_ACTION_MEAN	mean	action effector	torso	ratings	user	en		Torso action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the torso.
+Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_STRENGTH_MAX	numeric	perceptual modalities	maximum strength	ratings	user	en		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
+Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_STRENGTH_AGGREGATED	normalized	perceptual modalities	aggregated strength	ratings	user	en		Aggregated perceptual strength in all modalities where the influence of weaker modalities is attenuated, calculated as Minkowski distance (with exponent 3) of the 6-dimension vector of perceptual strength from the origin.
+Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_EXCLUSIVITY	percentage	perceptual modalities	exclusivity	ratings	user	en		"Modality exclusivity of the concept; the extent to which a concept is experienced though a single perceptual modality (0–1, typically expressed as %), calculated as the range of perceptual strength values divided by their sum."
+Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_DOMINANT	linguistic	perceptual modalities	dominant	ratings	user	en		Perceptual modality through which the concept is experienced most strongly (i.e., with highest perceptual strength rating).
+Lynott-2019-Sensorimotor	ENGLISH_ACTION_STRENGTH_MAX	numeric	action effector	maximum strength	ratings	user	en		Action strength in the dominant effector (i.e., highest strength rating across five action effectors).
+Lynott-2019-Sensorimotor	ENGLISH_ACTION_STRENGTH_AGGREGATED	normalized	action effector	aggregated strength	ratings	user	en		Aggregated action strength in all effectors where the influence of weaker effectors is attenuated, calculated as Minkowski distance (with exponent 3) of the 5-dimension vector of action strength from the origin.
+Lynott-2019-Sensorimotor	ENGLISH_ACTION_EXCLUSIVITY	percentage	action effector	exclusivity	ratings	user	en		"Effector exclusivity of the concept; the extent to which a concept is experienced though a single action effector (0–1, typically expressed as %), calculated as the range of action strength values divided by their sum ."
+Lynott-2019-Sensorimotor	ENGLISH_ACTION_DOMINANT	linguistic	action effector	dominant	ratings	user	en		Action effector through which the concept is experienced most strongly (i.e., with highest action strength rating).
+Lynott-2019-Sensorimotor	ENGLISH_SENSORIMOTOR_STRENGTH_MAX	numeric	sensorimotor dimensions	maximum strength	ratings	user	en		Sensorimotor strength in the dominant dimension (i.e., highest strength rating across 11 sensorimotor dimensions).
+Lynott-2019-Sensorimotor	ENGLISH_SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensorimotor dimensions	aggregated strength	ratings	user	en		Aggregated sensorimotor strength in all dimensions where the influence of weaker dimensions is attenuated, calculated as Minkowski distance (with exponent 3) of the 11-dimension vector of sensorimotor strength from the origin.
+Lynott-2019-Sensorimotor	ENGLISH_SENSORIMOTOR_EXCLUSIVITY	percentage	sensorimotor dimensions	exclusivity	ratings	user	en		"Sensorimotor exclusivity of the concept; the extent to which a concept is experienced though a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum ."
+Lynott-2019-Sensorimotor	ENGLISH_SENSORIMOTOR_DOMINANT	linguistic	sensorimotor dimensions	dominant	ratings	user	en		Sensorimotor dimension through which the concept is experienced most strongly (i.e., with highest sensorimotor strength rating).
+Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_KNOWN_PERCENTAGE	percentage	familiarity	perceptual	ratings	user	en		Percentage of participants (0–1) in perceptual strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.perceptual divided by List_N.perceptual.
+Lynott-2019-Sensorimotor	ENGLISH_ACTION_KNOWN_PERCENTAGE	percentage	familiarity	action	ratings	user	en		Percentage of participants (0–1) in action strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.action divided by List_N.action.
+Lynott-2019-Sensorimotor	ENGLISH_PERCEPTUAL_AOA_MEAN	mean	AoA	perceptual	ratings	user	en		Average age of participants in perceptual strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
+Lynott-2019-Sensorimotor	ENGLISH_ACTION_AOA_MEAN	mean	AoA	action	ratings	user	en		Average age of participants in action strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
+Kapucu-2018-EmotionRatings	TURKISH_VALENCE_MEAN	mean	valence		ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM scale for valence.
+Kapucu-2018-EmotionRatings	TURKISH_AROUSAL_MEAN	mean	arousal		ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM for arousal.
+Kapucu-2018-EmotionRatings	TURKISH_HAPPINESS_MEAN	mean	happiness		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category happiness.
+Kapucu-2018-EmotionRatings	TURKISH_ANGER_MEAN	mean	anger		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category anger.
+Kapucu-2018-EmotionRatings	TURKISH_SADNESS_MEAN	mean	sadness		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category sadness.
+Kapucu-2018-EmotionRatings	TURKISH_FEAR_MEAN	mean	fear		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category fear.
+Kapucu-2018-EmotionRatings	TURKISH_DISGUST_MEAN	mean	disgust		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category disgust.
+Kapucu-2018-EmotionRatings	TURKISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for concreteness.
+Lewis-2016-499	COMPLEXITY	mean	complexity		ratings	user	en		This is the intuitive complexity of the word on a scale from 1 to 7 based on a survey with 240 valid participants.
+Gampe-2017-48	MEAN_SWISS_GERMAN	mean	familiarity	in Swiss German	ratings	user	de		Mean of whether children understand the word for this concept in Swiss German.
+Gampe-2017-48	MEAN_SECOND_L1	mean	familiarity	in second L1	ratings	user	de		Mean of whether children understand the word for this concept in their other native language.
+Gampe-2017-48	MEAN_TRANSLATIONAL_EQUIV	mean	familiarity	in both L1	ratings	user	de		Mean of whether children understand the word for this concept in both languages.
+Gampe-2017-48	MEAN_CONCEP_VOCAB	mean	familiarity	in any L1	ratings	user	en		Mean of whether children understand the word for this concept in any of their native languages.
+Luniewska-2016-299	AFRIKAANS_AOA	mean	AoA		ratings	user	af		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	CATALAN_AOA	mean	AoA		ratings	user	ca		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	DANISH_AOA	mean	AoA		ratings	user	da		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	DUTCH_AOA	mean	AoA		ratings	user	nl		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	ENGLISH_AOA	mean	AoA		ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	FINNISH_AOA	mean	AoA		ratings	user	fi		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	GERMAN_AOA	mean	AoA		ratings	user	de		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	GREEK_AOA	mean	AoA		ratings	user	el		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	HEBREW_AOA	mean	AoA		ratings	user	he		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	HUNGARIAN_AOA	mean	AoA		ratings	user	hu		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	ICELANDIC_AOA	mean	AoA		ratings	user	is		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	IRISH_AOA	mean	AoA		ratings	user	ga		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	XHOSA_AOA	mean	AoA		ratings	user	xh		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	ITALIAN_AOA	mean	AoA		ratings	user	it		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	LITHUANIAN_AOA	mean	AoA		ratings	user	lt		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	LUXEMBOURGISH_AOA	mean	AoA		ratings	user	lb		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	MALTESE_AOA	mean	AoA		ratings	user	mt		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	POLISH_AOA	mean	AoA		ratings	user	pl		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	RUSSIAN_AOA	mean	AoA		ratings	user	ru		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	SOUTHAFRICANENGLISH_AOA	mean	AoA		ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	SERBIAN_AOA	mean	AoA		ratings	user	sr		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	SLOVAK_AOA	mean	AoA		ratings	user	sk		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	SPANISH_AOA	mean	AoA		ratings	user	es		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	SWEDISH_AOA	mean	AoA		ratings	user	sv		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2016-299	TURKISH_AOA	mean	AoA		ratings	user	tr		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	AFRIKAANS_AOA	mean	AoA		ratings	user	af		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	AMERICANENGLISH_AOA	mean	AoA		ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	CATALAN_AOA	mean	AoA		ratings	user	ca		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	CZECH_AOA	mean	AoA		ratings	user	cs		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	DANISH_AOA	mean	AoA		ratings	user	da		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	DUTCH_AOA	mean	AoA		ratings	user	nl		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	ENGLISH_AOA	mean	AoA		ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	FINNISH_AOA	mean	AoA		ratings	user	fi		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	GAELIC_AOA	mean	AoA		ratings	user	gd		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	GERMAN_AOA	mean	AoA		ratings	user	de		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	GREEK_AOA	mean	AoA		ratings	user	el		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	HEBREW_AOA	mean	AoA		ratings	user	he		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	HUNGARIAN_AOA	mean	AoA		ratings	user	hu		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	ICELANDIC_AOA	mean	AoA		ratings	user	is		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	IRISH_AOA	mean	AoA		ratings	user	ga		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	XHOSA_AOA	mean	AoA		ratings	user	xh		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	ITALIAN_AOA	mean	AoA		ratings	user	it		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	LEBANESEARABIC_AOA	mean	AoA		ratings	user	ar		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	LITHUANIAN_AOA	mean	AoA		ratings	user	lt		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	LUXEMBOURGISH_AOA	mean	AoA		ratings	user	lb		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	MALAY_AOA	mean	AoA		ratings	user	ms		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	MALTESE_AOA	mean	AoA		ratings	user	mt		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	PERSIAN_AOA	mean	AoA		ratings	user	fa		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	POLISH_AOA	mean	AoA		ratings	user	pl		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	RUSSIAN_AOA	mean	AoA		ratings	user	ru		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	SOUTHAFRICANENGLISH_AOA	mean	AoA		ratings	user	en		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	SERBIAN_AOA	mean	AoA		ratings	user	sr		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	SLOVAK_AOA	mean	AoA		ratings	user	sk		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	SPANISH_AOA	mean	AoA		ratings	user	es		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	SWEDISH_AOA	mean	AoA		ratings	user	sv		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	TURKISH_AOA	mean	AoA		ratings	user	tr		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Luniewska-2019-299	WESTERNARMENIAN_AOA	mean	AoA		ratings	user	hy		Native speakers were asked to estimate at which age (between 1 and 18 years) they learnt the respective word.
+Lynott-2013-400	KNOWN_PROPORTION	percentage	familiarity	known	ratings	user	en		Proportion of participants that were familiar with the meaning of the noun (0-100%).
+Lynott-2013-400	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by hearing.
+Lynott-2013-400	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
+Lynott-2013-400	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
+Lynott-2013-400	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by smelling.
+Lynott-2013-400	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
+Lynott-2013-400	DOMINANT_MODALITY	linguistic	sensory modality	dominant	ratings	meta	en		Modality through which noun concept is experienced most strongly (i.e., with highest strength rating).
+Lynott-2013-400	EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	meta	en		Extent to which noun concept is experienced though a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
+Winter-2016-300	DOMINANT_MODALITY	linguistic	sensory modality	dominant	ratings	meta	en		Modality through which noun concept is experienced most strongly (i.e., with highest strength rating).
+Winter-2016-300	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
+Winter-2016-300	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
+Winter-2016-300	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by hearing.
+Winter-2016-300	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	en		Standard deviation of gustatory strength ratings.
+Winter-2016-300	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
+Winter-2016-300	EXCLUSIVITY	percentage	sensory modality	exclusivity	norms	meta	en		Extent to which verbs concept is experienced though a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
+Lynott-2009-423	FAMILARITY	percentage	familiarity		ratings	user	en		The values represent the proportion of participants who believed that they knew the word’s meaning.
+Lynott-2009-423	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
+Lynott-2009-423	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
+Lynott-2009-423	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by hearing.
+Lynott-2009-423	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by smelling.
+Lynott-2009-423	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
+Lynott-2009-423	DOMINANT_MODALITY	linguistic	sensory modality	dominant	ratings	meta	en		Modality through which property is experienced most strongly (i.e., with highest strength rating).
+Lynott-2009-423	EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	meta	en		Extent to which property is experienced though a single perceptual modality (0%–100%), calculated as range of strength values divided by their sum.
+Izura-2005-499	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	es	Hernandez2002	One hundred words were selected per category from the study by [Hernández-Muñoz (2002)](:bib:Hernandez2002), which is an exploration of the common vocabulary shared by the Spanish community of Cuenca. The first 100 words with the highest LA scores in each category were selected for the present study.
+Izura-2005-499	TYPICALITY	mean	typicality		ratings	user	es		Typicality refers to the degree to which a concept (e.g., dog) is representative of a given category (e.g., animals).
+Izura-2005-499	FAMILIARITY	mean	familiarity		ratings	user	es		The participants were asked to estimate the degree to which they thought about or came into contact with a concept, using a 7-point scale (from 1  less than once a month to 7  many times a day).
+Izura-2005-499	AOA	mean	AoA		ratings	user	es		50 monolingual native Spanish speakers with a mean age of 23 years (range, 18–42) were asked to indicate the age at which they believed they had first learned each word.
+Izura-2005-499	IMAGEABILITY	mean	imageability		ratings	user	es		Ratings were obtained on a scale ranging from 1 (very difficult to arouse a mental image) to 7 (very easy to arouse a mental image).
+Izura-2005-499	LEXICAL_AVAILABILITY	mean	lexical availability		ratings	user	es	Hernandez2002	LA denotes the readiness with which a word is produced as a member of a given category. The LA values presented here were taken from [Hernández-Muñoz (2002)](:bib:Hernandez2002), who collected written category generation data from 117 Spanish native speakers 17 to 18 years of age.
+Izura-2005-499	FREQUENCY	numeric	frequency		norms	corpus	es	Alameda1995	Frequency values were taken from [Alameda and Cuetos (1995)](:bib:Alameda1995), which is a corpus of written Spanish text comprising 2 million words.
+Schroeder-2012-824	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	de		A group of 20 participants (15 female, 5 male) took part in the exemplar generation study. Participants were provided with a booklet containing a list of 11 category labels (VEGETABLES, VEHICLES, TOOLS, CLOTHING, FURNITURE, SPORTS, BIRDS, FRUITS, ANIMALS, PROFESSIONS, and MUSICAL INSTRUMENTS1). Each category label was presented on a separate sheet of paper. Participants were asked by written instructions to write down as many examples as they could think of for each semantic category.
+Schroeder-2012-824	TYPICALITY_MEAN	mean	typicality		ratings	user	de		The participants were asked to rate the typicality of the category exemplar on a 7-point scale from 1 (very good example of the category/typical) to 7 (bad example of the category/atypical)
+Schroeder-2012-824	AOA_MEAN	mean	AoA		ratings	user	de		Participants were asked to indicate on a 7-point scale when they thought they had learned the words.
+Schroeder-2012-824	FAMILIARITY_MEAN	mean	familiarity		ratings	user	de		Participants were asked to estimate the degree to which they thought about or came in contact with a concept, using a 5-point scale ranging from 1 (very unfamiliar) to 5 (very familiar).
+Verheyen-2019-1000	AOA_MEAN	mean	AoA		ratings	user	nl		For each word, the participants were asked to enter the age (in years) at which they thought they had learned the word.
+Verheyen-2019-1000	AROUSAL_MEAN	mean	arousal		ratings	user	nl		Participants were asked to indicate the degree to which a word refers to something very passive/calm (1) or very active/arousing (7), and to something very weak/submissive (1) or very strong/dominant (7) for arousal and dominance, respectively.
+Verheyen-2019-1000	CONCRETENESS_MEAN	mean	concreteness		ratings	user	nl		Participants rated each word’s level of abstraction on a 7-point scale ranging from very abstract (1) to very concrete (7).
+Verheyen-2019-1000	DOMINANCE_MEAN	mean	dominance		ratings	user	nl		Participants were asked to indicate the degree to which a word refers to something very passive/calm (1) or very active/arousing (7), and to something very weak/submissive (1) or very strong/dominant (7) for arousal and dominance, respectively.
+Verheyen-2019-1000	FAMILIARITY_MEAN	mean	familiarity		ratings	user	nl		Participants rated how familiar they were with each word in the list by indicating how often they had encountered or used the word. Ratings were performed on 7-point scales.
+Verheyen-2019-1000	IMAGEABILITY_MEAN	mean	imageability		ratings	user	nl		Participants rated each word’s capacity to arouse a mental image by indicating how easily they could form a mental image of the word on a 7-point scale with the ends labeled difficult (1) and easy (7).
+Verheyen-2019-1000	VALENCE_MEAN	mean	valence		ratings	user	nl		Participants rated the valence of each word by indicating on a 7-point scale the extent to which it evoked a very bad (1) or a very good (7) feeling.
+Verheyen-2019-1000	INSTRENGTH	numeric	network	instrength	relations	user	nl	DeDeyne2019	The in-strength si of a word i reflects the number of links that go into the node representing the word in the word association network and as such provides an indication of the word’s importance in the mental lexicon. The variables in-strength and betweenness were taken from the Small World of Words project (https://smallworldofword.org/), a large-scale study that aims to build a map of the human lexicon in the major languages of the world (including Dutch) using word association data [(De Deyne et al. 2019)](:bib:DeDeyne2019).
+Verheyen-2019-1000	BETWEENNESS	numeric	network	betweenness	relations	user	nl	DeDeyne2019	Betweenness is another indicator of the centrality of a node in the network. It takes the global structure of the word association network more in account than in-strength does in that it captures how often a node is located on the shortest path between other nodes in the network. The variables in-strength and betweenness were taken from the Small World of Words project (https://smallworldofword.org/), a large-scale study that aims to build a map of the human lexicon in the major languages of the world (including Dutch) using word association data [(De Deyne et al. 2019)](:bib:DeDeyne2019).
+Desrochers-2010-330	WORD_TYPE	linguistic	PoS		relations	meta	es		The list includes deverbal compounds, nouns and verbs.
+Desrochers-2010-330	SUBJECTIVE_FREQ_MEAN	mean	frequency	subjective	norms	user	es		Ratings were collected from 102 native speakers of Spanish on the subjective frequency of occurrence of 330 Spanish words.
+DiezAlamo-2018-750	COLOR_MEAN	mean	sensory modality	color	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
+DiezAlamo-2018-750	MOTION_MEAN	mean	sensory modality	motion	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
+DiezAlamo-2018-750	GRASP_MEAN	mean	sensory modality	grasp	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
+DiezAlamo-2018-750	PAIN_MEAN	mean	sensory modality	pain	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
+DiezAlamo-2018-750	SOUND_MEAN	mean	sensory modality	sound	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
+DiezAlamo-2018-750	TASTE_MEAN	mean	sensory modality	taste	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
+DiezAlamo-2018-750	SMELL_MEAN	mean	sensory modality	smell	ratings	user	es		Participants were randomly assigned to rate words on a scale from 1 to 8 in only one of the seven dimensions (color, motion, sound, smell, taste, graspability and pain) for the 250 words in a given set.
+Monnier-2014-1031	VALENCE_ALL_MEAN	mean	valence		ratings	user	fr		Mean valence values for all participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
+Monnier-2014-1031	AROUSAL_ALL_MEAN	mean	arousal		ratings	user	fr		Mean arousal values for all participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
+Monnier-2014-1031	VALENCE_MALE_MEAN	mean	valence	male	ratings	user	fr		Mean valence values for male participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
+Monnier-2014-1031	AROUSAL_MALE_MEAN	mean	arousal	male	ratings	user	fr		Mean arousal values for male participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
+Monnier-2014-1031	VALENCE_FEMALE_MEAN	mean	valence	female	ratings	user	fr		Mean valence values for female participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
+Monnier-2014-1031	AROUSAL_FEMALE_MEAN	mean	arousal	female	ratings	user	fr		Mean arousal values for female participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
+Maciejewski-2016-100	DEFINITION	linguistic	polysemy	definition	relations	meta	en		Definition of the meanings in the Wordsmyth dictionary.
+Maciejewski-2016-100	SUBJECTIVE_FREQ	mean	frequency	subjective	norms	user	en		Mean subjective frequency ratings of the meanings.
+Maciejewski-2016-100	DOMINANCE_SCORE	numeric	polysemy	dominant	relations	meta	en		Dominance score (B), first calculated for each subject and then averaged across subjects (0 - completely balanced, 1 - completely unbalanced homonym).
+Maciejewski-2016-100	NUMBER_WORD_SENSE_WORDSMYTH	numeric	polysemy	number	relations	meta	en	Parks1998	Number of word senses in the Wordsmyth Online Dictionary [(Parks et al., 1998)](:bib:Parks1998).
+Yao-2017-1100	VALENCE_MEAN	mean	valence		ratings	user	zh		Valence rating on a 9-point Likert scale by 960 university students.
+Yao-2017-1100	AROUSAL_MEAN	mean	arousal		ratings	user	zh		Arousal rating on a 9-point Likert scale 960 university students.
+Yao-2017-1100	CONCRETENESS_MEAN	mean	concreteness		ratings	user	zh		Concreteness rating on a 9-point Likert scale 960 university students.
+Yao-2017-1100	FAMILIARITY_MEAN	mean	familiarity		ratings	user	zh		Familiarity rating on a 9-point Likert scale 960 university students.
+Yao-2017-1100	IMAGEABILITY_MEAN	mean	imageability		ratings	user	zh		Imageability rating on a 9-point Likert scale 960 university students.
+Yao-2017-1100	CONTEXT_AVAILABILITY_MEAN	mean	semantic	contect availability	ratings	user	zh		Context availability rating on a 9-point Likert scale 960 university students.
+Xiao-2012-213	PEN_STROKES	numeric	descriptive	stroke	norms	meta	zh		Total number of strokes of the whole-word.
+Xiao-2012-213	ICONICITY	mean	iconicity		ratings	user	zh		40 U.S. adults with no knowledge of Chinese were given an English word or short phrase together with two Chinese characters and were asked which character matched the meaning of the English word.
+Xiao-2012-213	PICTURABILITY	mean	picturability		ratings	user	zh		31 English speaking students were shown the English translations of Chinese characters used in the experiment and had to rate each translation on a 7-point scale to indicate the extent to which the concept could be expressed easily in a simple black-on-white line drawing or diagram.
+Pagel-2018-200	RATE	numeric	stability	rate	relations	concept lists	en		Stability (rate of lexical change) measured for concepts based on a sample from Indo-European languages.
+Pagel-2007-200	RANK	numeric	stability	rate	relations	concept lists	en	Dyen1992	Ranks for the 200 basic concepts, which are retrieved from the calculation of evolutionary rates from phylogenetic analyses on the database by Dyen et al (1992).
+Briesemeister-2011-DiscreteEmotions	GERMAN_HAPPINESS_MEAN	mean	happiness		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category happiness.
+Briesemeister-2011-DiscreteEmotions	GERMAN_ANGER_MEAN	mean	anger		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category anger.
+Briesemeister-2011-DiscreteEmotions	GERMAN_SADNESS_MEAN	mean	sadness		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category sadness.
+Briesemeister-2011-DiscreteEmotions	GERMAN_FEAR_MEAN	mean	fear		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category fear.
+Briesemeister-2011-DiscreteEmotions	GERMAN_DISGUST_MEAN	mean	disgust		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category disgust.
+Briesemeister-2011-DiscreteEmotions	GERMAN_EMOTION_DOMINANT	linguistic	discrete emotions	dominant	ratings	user	de		A more conservative classification criterion was applied, assigning words to a specific discrete emotion category only in cases in which the averaged rating in one discrete emotion was more than one standard deviation higher than in any other discrete emotion.
+Mandera-2015-Frequency	POLISH_FREQUENCY	tokens	frequency		norms	corpus	pl		This is the number of times the word appears in the corpus.
+Mandera-2015-Frequency	POLISH_CD	numeric	contextual diversity		norms	corpus	pl		This  is the number of films in which the word appears.
+Mandera-2015-Frequency	POLISH_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	pl		This is a value based on log10(FREQcount+1).
+Mandera-2015-Frequency	POLISH_CD_LOG	logarithmic	contextual diversity		norms	corpus	pl		This value is based on log10(CDcount +1).
+Moors-2013-Ratings	DUTCH_VALENCE_MEAN	mean	valence		ratings	user	nl		Mean valence values for all participants (224 students) on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AROUSAL_MEAN	mean	arousal		ratings	user	nl		Mean arousal values for all participants (224 students) on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_VALENCE_MALE_MEAN	mean	valence	male	ratings	user	nl		Mean valence values for male participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AROUSAL_MALE_MEAN	mean	arousal	male	ratings	user	nl		Mean arousal values for male participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_VALENCE_FEMALE_MEAN	mean	valence	female	ratings	user	nl		Mean valence values for female participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AROUSAL_FEMALE_MEAN	mean	arousal	female	ratings	user	nl		Mean arousal values for female participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AOA_MEAN	mean	AoA		ratings	user	nl		Mean age-of-acquisition values for all participants (224 students) on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AOA_MALE_MEAN	mean	AoA	male	ratings	user	nl		Mean age-of-acquisition values for male participants on a 7-point Likert scale.
+Moors-2013-Ratings	DUTCH_AOA_FEMALE_MEAN	mean	AoA	female	ratings	user	nl		Mean age-of-acquisition values for female participants on a 7-point Likert scale.
+Wu-2020-CoreVocabulary	TRANSLATION_COUNT	numeric	core vocabulary	translation count	relations	corpus	en		This value represents the number of languages in which a word occurred. It is the relative coverage of a target concept in 1895 bilingual dictionaries.
+Mohammad-2018-AffectiveRatings	ENGLISH_VALENCE_MEAN	mean	valence		ratings	user	en		Mean value of valence ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest valence and the word with the lowest valence.
+Mohammad-2018-AffectiveRatings	ENGLISH_AROUSAL_MEAN	mean	arousal		ratings	user	en		Mean value of arousal ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest arousal and the word with the lowest arousal.
+Mohammad-2018-AffectiveRatings	ENGLISH_DOMINANCE_MEAN	mean	dominance		ratings	user	en		Mean value of dominance ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest dominance and the word with the lowest dominance.
+Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_DOMINANT	linguistic	discrete emotions	dominant	ratings	user	en		The most dominant emotion based on pointwise mutual information (PMI) with PMI > 1 in the Hashtag Emotion Corpus [(Mohammad 2012)](:bib:Mohammad2012).
+Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_INTENSITY	mean	emotion	intensity	ratings	user	en		Mean value of emotion intensity based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word that conveys the highest emotion intensity and the word that conveys the lowest emotion intensity.
+Clark-2004-ImageryFamiliarity	ENGLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	en		Mean value of imageability ratings based on a 7-point scale.
+Clark-2004-ImageryFamiliarity	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		Mean value of familiarity ratings based on a 7-point scale.
+Abdaoui-2017-EmoLex	FRENCH_EMOTION_POLARITY	semantic	emotion	polarity	norms	corpus	fr		Polarity associated with a word (positive/negative) based on a sentiment analysis of texts.
+Abdaoui-2017-EmoLex	FRENCH_JOY_ASSOCIATION	numeric	joy		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_FEAR_ASSOCIATION	numeric	fear		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_SADNESS_ASSOCIATION	numeric	sadness		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_ANGER_ASSOCIATION	numeric	anger		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_SURPRISE_ASSOCIATION	numeric	surprise		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Abdaoui-2017-EmoLex	FRENCH_DISGUST_ASSOCIATION	numeric	disgust		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
+Dellert-2018-1016	LGC	numeric	stability	local-global distance correlation	relations	corpus	de		The stability measure for a concept is called local-global distance correlation (lgc).
+Dellert-2018-1016	INF	mean	basicness	information content	relations	corpus	de		The average information content (inf) is the measure for basicness.
+Dellert-2018-1016	RANK	numeric	stability	rank	relations	corpus	de		The rank is based on the suitability of a given word for inclusion in Swadesh-style lists of basic stable concepts.
+Baroni-2011-200	SEMANTIC_CLASS	linguistic	semantic field		relations	corpus	en		The semantic field of a given word. The words are grouped into 17 broader classes (amphibian or reptile, appliance, bird, building, clothing, container, fruit, furniture, ground_mammal, insect, musical_instrument, tool, tree, vegetable, vehicle, water_animal, weapon).
+Baroni-2011-200	TYPICAL_ATTRIBUTE	linguistic	attribute	dominant	relations	corpus	en		This is a list of adjectives expressing an attribute of the concept.
+Baroni-2011-200	COHYPONYMY	linguistic	cohyponymy		relations	corpus	en		This is a list of nouns that are a co-hyponym (coordinate) of the concept, i.e., they belong to the same (narrowly or broadly defined) semantic class.
+Baroni-2011-200	TYPICAL_EVENT	linguistic	event	dominant	relations	corpus	en		This is a list of verbs referring to an action/activity/happening/event the concept is involved in or is performed by/with the concept.
+Baroni-2011-200	HYPERONYM	linguistic	hyperonym		relations	corpus	en		This is a list of nouns that are a hypernym of the concept.
+Baroni-2011-200	MERONYM	linguistic	meronym		relations	corpus	en		This is a list of nouns referring to a part/component/organ/member of the concept, or something that the concept contains or is made of.
+Baroni-2011-200	RANDOM_ADJECTIVE	linguistic	adjective	random	relations	corpus	en		This is a list of adjectives related to the concept. Random relata were chosen to approximately match the frequency of occurrence of the true relata (frequencies computed on the concatenated WaCkypedia_EN and ukWaC corpora.
+Baroni-2011-200	RANDOM_NOUN	linguistic	noun	random	relations	corpus	en		This is a list of nouns related to the concept. Random relata were chosen to approximately match the frequency of occurrence of the true relata (frequencies computed on the concatenated WaCkypedia_EN and ukWaC corpora.
+Baroni-2011-200	RANDOM_VERB	linguistic	verb	random	relations	corpus	en		This is a list of verbs related to the concept. Random relata were chosen to approximately match the frequency of occurrence of the true relata (frequencies computed on the concatenated WaCkypedia_EN and ukWaC corpora.
+Matisoff-2015-STEDT	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	en		"This is the semantic key (semkey) which is a unique identification string given to each semantic category, with the semkey taking the form of a string x, x.x, x.x.x, or x.x.x.x. The first digit in the semkey indicates the broad semantic category to which it belongs, as described above, where '1' is used for 'Body Parts', '2' is used for 'Animals (and Animal Verbs)', and so on. Each of the following 'x's in the semkey (x.x, x.x.x, etc.) denotes a more fine-grained semantic categorization; for example, 1.5 is 'Limbs, Joints, & Body Measures', 1.5.1 is 'Hand, Arm, Wing', and 1.5.1.1 is 'Hand'."
+Kiss-1973-EAT	WEIGHTED_DEGREE	numeric	associations	weighted degree	relations	user	en		This is the weighted degree we computed from the association data (the sum of all association weights per word).
+Kiss-1973-EAT	DEGREE	numeric	associations	degree	relations	user	en		This is the degree we computed from the association data (the number of association edges per word).
+Wikidata	WIKIDATA_DESCRIPTION	semantic	description	definition	relations	corpus	en		This is the decription of the Wikidata item. It is meant to disambiguate the items.
+Hill-2015-999	SIM_LEX_999	semantic	similarity		relations	corpus	en		The SimLex999 similarity rating. Note that average annotator scores have been (linearly) mapped from the range [0,6] to the range [0,10] to match other datasets such as WordSim-353.
+Hill-2015-999	CONCRETENESS_WORD1	mean	concreteness	word1	ratings	corpus	en	Nelson1998	The concreteness rating of word1 on a scale of 1-7. Taken from the University of South Florida Free Association Norms database [(Nelson et al. 1998)](:bib:Nelson1998).
+Hill-2015-999	CONCRETENESS_WORD2	mean	concreteness	word2	ratings	corpus	en	Nelson1998	The concreteness rating of word1 on a scale of 1-7. Taken from the University of South Florida Free Association Norms database [(Nelson et al. 1998)](:bib:Nelson1998).
+Hill-2015-999	CONCRETENESS	mean	concreteness		ratings	corpus	en		The quartile the pair occupies based on the two concreteness ratings.
+Hill-2015-999	ASSOCIATION_STRENGTH	numeric	associations	strength	relations	corpus	en		The strength of free association from word1 to word2. Values are taken from the University of South Florida Free Association Dataset [(Nelson et al. 1998)](:bib:Nelson1998).
+Hill-2015-999	SIM_ASSOCIATION_333	numeric	associations	binary indicator	relations	corpus	en		Binary indicator of whether the pair is one of the 333 most associated in the dataset (according to ASSOCIATION_STRENGTH). This subset of SimLex999 is often the hardest for computational models to capture because the noise from high association can confound the similarity rating.
+Babelnet	BABELNET_DEFINITION	semantic	description	definition	relations	corpus	en		This is the decription of the Babelnet item.
