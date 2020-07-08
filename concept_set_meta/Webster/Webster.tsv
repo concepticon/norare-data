@@ -1,38 +1,37 @@
 CONCEPTICON_GLOSS	CONCEPTICON_ID	WEBSTER_ID
-	2867	calculate
-	2868	drive
-	2869	harass
-	2870	recognize
-	2871	swing
-	2882	add
-	2883	disturb
-	2884	hang
-	2885	herd
-	2886	produce
-	2887	thaw
-	2888	tinkle
-	2889	twinkle
-	1963	immediately
-	2915	at first
-	2916	instantly
-	2917	next to
-	2918	rot
-	2919	still
-	2920	suddenly
-	2921	then
-	2943	bundle
-	2944	call
-	2945	count
-	2946	cradle
-	2947	damage
-	2948	gap
-	2949	lair
-	2950	meaning
-	2951	pouch
-	2952	slab
-	2953	sleeve
-	2954	slice
-	2955	state
-	2956	tube
-	2957	ware
-	3004	former
+CALCULATE	2867	calculate
+DRIVE	741	drive
+RECOGNIZE (SOMEBODY)	2870	recognize
+SWING (MOVEMENT)	2871	swing
+ADD	2882	add
+DISTURB	2883	disturb
+HANG	2884	hang
+HERD (SOMETHING)	2885	herd
+PRODUCE	2886	produce
+THAW (DEW)	2887	thaw
+TINKLE	2888	tinkle
+TWINKLE	2889	twinkle
+IMMEDIATELY	1963	immediately
+AT FIRST	2915	at first
+INSTANTLY (IMMEDIATELY)	2916	instantly
+NEXT TO	2917	next to
+ROT	2907	rot
+STILL (CONTINUING)	2919	still
+SUDDENLY	2920	suddenly
+THEN	2921	then
+BUNDLE	2943	bundle
+CALL (APPEAL)	2944	call
+COUNT (QUANTITY)	2945	count
+CRADLE	2946	cradle
+DAMAGE (INJURY)	2947	damage
+GAP (DISTANCE)	2948	gap
+LAIR	2949	lair
+MEANING	2950	meaning
+POUCH	2951	pouch
+SLAB	2952	slab
+SLEEVE	2953	sleeve
+SLICE	2954	slice
+STATE (POLITICS)	2955	state
+TUBE	2956	tube
+WARE	2957	ware
+FORMER	3004	former
