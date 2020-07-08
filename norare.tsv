@@ -392,3 +392,8 @@ Hill-2015-999	CONCRETENESS	mean	concreteness		ratings	corpus	en		The quartile th
 Hill-2015-999	ASSOCIATION_STRENGTH	numeric	associations	strength	relations	corpus	en		The strength of free association from word1 to word2. Values are taken from the University of South Florida Free Association Dataset [(Nelson et al. 1998)](:bib:Nelson1998).
 Hill-2015-999	SIM_ASSOCIATION_333	numeric	associations	binary indicator	relations	corpus	en		Binary indicator of whether the pair is one of the 333 most associated in the dataset (according to ASSOCIATION_STRENGTH). This subset of SimLex999 is often the hardest for computational models to capture because the noise from high association can confound the similarity rating.
 Babelnet	BABELNET_DEFINITION	semantic	description	definition	relations	corpus	en		This is the decription of the Babelnet item.
+Haspelmath-2009-1460	SEMANTIC_FIELD	linguistic	semantic field		relations	user	en		The semantic field of a given word.
+Haspelmath-2009-1460	AGE_SCORE	numeric	word age		relations	user	en		This gives the average age score of all words corresponding to this meaning.
+Haspelmath-2009-1460	BORROWING_SCORE	numeric	boworring score		relations	user	en		This gives the average borrowed score of all words corresponding to this meaning.
+Haspelmath-2009-1460	SIMPLICITY_SCORE	numeric	word simplicity		relations	user	en		This gives the average simplicity score of all words corresponding to this meaning.
+Haspelmath-2009-1460	RANK	numeric	stability	rank	relations	user	en		This value indicates the stability of a word and its resistance to borrowing across languages.
