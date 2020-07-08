@@ -392,3 +392,25 @@ Hill-2015-999	CONCRETENESS	mean	concreteness		ratings	corpus	en		The quartile th
 Hill-2015-999	ASSOCIATION_STRENGTH	numeric	associations	strength	relations	corpus	en		The strength of free association from word1 to word2. Values are taken from the University of South Florida Free Association Dataset [(Nelson et al. 1998)](:bib:Nelson1998).
 Hill-2015-999	SIM_ASSOCIATION_333	numeric	associations	binary indicator	relations	corpus	en		Binary indicator of whether the pair is one of the 333 most associated in the dataset (according to ASSOCIATION_STRENGTH). This subset of SimLex999 is often the hardest for computational models to capture because the noise from high association can confound the similarity rating.
 Babelnet	BABELNET_DEFINITION	semantic	description	definition	relations	corpus	en		This is the decription of the Babelnet item.
+Haspelmath-2009-1460	SEMANTIC_FIELD	linguistic	semantic field		relations	user	en		The semantic field of a given word.
+Haspelmath-2009-1460	AGE_SCORE	numeric	word age		relations	user	en		This gives the average age score of all words corresponding to this meaning.
+Haspelmath-2009-1460	BORROWING_SCORE	numeric	boworring score		relations	user	en		This gives the average borrowed score of all words corresponding to this meaning.
+Haspelmath-2009-1460	SIMPLICITY_SCORE	numeric	word simplicity		relations	user	en		This gives the average simplicity score of all words corresponding to this meaning.
+Haspelmath-2009-1460	RANK	numeric	stability	rank	relations	user	en		This value indicates the stability of a word and its resistance to borrowing across languages.
+Calude-2011-200	ENGLISH_FREQUENCY	logarithmic	frequency		norms	corpus	en		Log10 frequency of basic words.
+Calude-2011-200	SPANISH_FREQUENCY	logarithmic	frequency		norms	corpus	es		Log10 frequency of basic words.
+Calude-2011-200	RUSSIAN_FREQUENCY	logarithmic	frequency		norms	corpus	ru		Log10 frequency of basic words.
+Calude-2011-200	GREEK_FREQUENCY	logarithmic	frequency		norms	corpus	el		Log10 frequency of basic words.
+Calude-2011-200	PORTUGUESE_FREQUENCY	logarithmic	frequency		norms	corpus	pt		Log10 frequency of basic words.
+Calude-2011-200	CHINESE_FREQUENCY	logarithmic	frequency		norms	corpus	zh		Log10 frequency of basic words.
+Calude-2011-200	SWAHILI_FREQUENCY	logarithmic	frequency		norms	corpus	sw		Log10 frequency of basic words.
+Calude-2011-200	CHILEAN_FREQUENCY	logarithmic	frequency	Chilean Spanish	norms	corpus	es		Log10 frequency of basic words.
+Calude-2011-200	FINNISH_FREQUENCY	logarithmic	frequency		norms	corpus	fi		Log10 frequency of basic words.
+Calude-2011-200	ESTONIAN_FREQUENCY	logarithmic	frequency		norms	corpus	et		Log10 frequency of basic words.
+Calude-2011-200	FRENCH_FREQUENCY	logarithmic	frequency		norms	corpus	fr		Log10 frequency of basic words.
+Calude-2011-200	TURKISH_FREQUENCY	logarithmic	frequency		norms	corpus	tr		Log10 frequency of basic words.
+Calude-2011-200	CZECH_FREQUENCY	logarithmic	frequency		norms	corpus	cs		Log10 frequency of basic words.
+Calude-2011-200	POLISH_FREQUENCY	logarithmic	frequency		norms	corpus	pl		Log10 frequency of basic words.
+Calude-2011-200	BASQUE_FREQUENCY	logarithmic	frequency		norms	corpus	eu		Log10 frequency of basic words.
+Calude-2011-200	MAORI_FREQUENCY	logarithmic	frequency		norms	corpus	mi		Log10 frequency of basic words.
+Calude-2011-200	TOK_PISIN_FREQUENCY	logarithmic	frequency		norms	corpus	tpi		Log10 frequency of basic words.
