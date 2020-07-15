@@ -29,5 +29,5 @@ class Dataset(NormDataSet):
                     "qub": "Other"},
                 pos_name = "POLISH_POS",
                 gloss='POLISH',
-                language='pl',
-                write_file=write_file)
+                language='pl'
+                )
