@@ -1,5 +1,4 @@
 from pynorare.dataset import NormDataSet
-from sys import argv
 
 class Dataset(NormDataSet):
 
@@ -17,9 +16,7 @@ class Dataset(NormDataSet):
         self.extract_data(
                 sheet,
                 gloss='SPANISH',
-                language='es',
-                write_file=write_file)
+                language='es'
+                )
 
                 
-if __name__ == '__main__':
-    Dataset().run(argv)

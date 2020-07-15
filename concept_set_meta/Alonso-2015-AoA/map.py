@@ -31,8 +31,8 @@ class Dataset(NormDataSet):
                     " ": "Other"},
                 pos_name = "SPANISH_POS",
                 gloss='SPANISH',
-                language='es',
-                write_file=write_file)
+                language='es'
+                )
 
                 
 
