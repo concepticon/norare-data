@@ -11,6 +11,7 @@ library(ggthemes)
 # Set working directory to Concepticon repository (please adapt the path accordingly)
 setwd("~/GitHub/Repos/concepticon/concepticon-data/concepticondata/conceptlists/")
 
+# Import data set from Concepticon
 Lynott_2013_400 <- read_delim("Lynott-2013-400.tsv", 
                               "\t", escape_double = FALSE, col_types = cols(NUMBER = col_integer(), 
                                                                             CONCEPTICON_ID = col_integer()), 
@@ -21,42 +22,26 @@ try(setwd(dirname(rstudioapi::getActiveDocumentContext()$path)))
 dir <- setwd(system("git rev-parse --show-toplevel", intern=T))
 
 
-# Import data sets
+# Import data set
 Lynott_2019_Sensorimotor <- read_delim("./concept_set_meta/Lynott-2019-Sensorimotor/Lynott-2019-Sensorimotor.tsv", 
                                        "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer(), 
                                                                                      LINE_IN_SOURCE = col_integer()), 
                                        trim_ws = TRUE)
 
-
-
 # Merge data sets 
 overlap_LL <- merge(Lynott_2019_Sensorimotor, Lynott_2013_400, by = "CONCEPTICON_ID", suffixes = c(".Lynott_2019",".Lynott_2013"))
-
 
 # Show overlap between the data sets
 nrow(overlap_LL)
 
-
 # Test correlations of the variables in the data sets
-
 cor.test(overlap_LL$ENGLISH_AUDITORY_MEAN, overlap_LL$AUDITORY_MEAN, method="pearson")
-# p-value is < 0.0001
-
 cor.test(overlap_LL$ENGLISH_GUSTATORY_MEAN, overlap_LL$GUSTATORY_MEAN, method="pearson")
-# p-value is < 0.0001
-
 cor.test(overlap_LL$ENGLISH_HAPTIC_MEAN, overlap_LL$HAPTIC_MEAN, method="pearson")
-# p-value is < 0.0001
-
 cor.test(overlap_LL$ENGLISH_OLFACTORY_MEAN, overlap_LL$OLFACTORY_MEAN, method="pearson")
-# p-value is < 0.0001
-
 cor.test(overlap_LL$ENGLISH_VISUAL_MEAN, overlap_LL$VISUAL_MEAN, method="pearson")
-# p-value is < 0.0001
-
 
 # Create plots
-
 a <- ggplot(overlap_LL, aes(x=ENGLISH_AUDITORY_MEAN, y=AUDITORY_MEAN)) + 
   geom_point() + 
   scale_x_continuous(limits=c(0, 6)) +
@@ -97,16 +82,9 @@ e <- ggplot(overlap_LL, aes(x=ENGLISH_VISUAL_MEAN, y=VISUAL_MEAN)) +
   labs(title= "Distribution of Visual Ratings",  y="Automated mapping", x = "Hand-curated mapping") +
   theme_hc(base_size = 28)
 
-
 # Save plots
-
 ggsave("./examples/auditory.pdf", a, width=11, height=8.5)
-
 ggsave("./examples/gustatory.pdf", b, width=11, height=8.5)
-
 ggsave("./examples/haptic.pdf", c, width=11, height=8.5)
-
 ggsave("./examples/olfactory.pdf", d, width=11, height=8.5)
-
 ggsave("./examples/visual.pdf", e, width=11, height=8.5)
-

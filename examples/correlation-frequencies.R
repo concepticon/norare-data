@@ -10,7 +10,7 @@ library(ggthemes)
 # Set working directory (this should automatically set the working directory to the norare-data repository)
 dir <- setwd(system("git rev-parse --show-toplevel", intern=T))
 
-
+# Import data sets
 Brysbaert_2009_Frequency <- read_delim("./concept_set_meta/Brysbaert-2009-Frequency/Brysbaert-2009-Frequency.tsv", 
                                        "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer(), 
                                                                                      ENGLISH_FREQUENCY = col_double()), 
@@ -26,11 +26,8 @@ Cai_2010_Frequency <- read_delim("concept_set_meta/Cai-2010-Frequency/Cai-2010-F
                                  trim_ws = TRUE)
 
 # Merge data sets 
-
 overlap_BCu <- merge(Brysbaert_2009_Frequency, Cuetos_2011_Frequency, by = "CONCEPTICON_ID")
-
 overlap_BCa <- merge(Brysbaert_2009_Frequency, Cai_2010_Frequency, by = "CONCEPTICON_ID")
-
 overlap_CuCa <- merge(Cuetos_2011_Frequency, Cai_2010_Frequency, by = "CONCEPTICON_ID")
 
 # Show length of data sets
@@ -44,19 +41,11 @@ nrow(overlap_BCa)
 nrow(overlap_CuCa)
 
 # Test correlations of the variables in the data sets
-
 cor.test(overlap_BCu$ENGLISH_FREQUENCY_LOG, overlap_BCu$SPANISH_FREQUENCY_LOG, method="pearson")
-# p-value is < 0.0001
-
 cor.test(overlap_BCa$ENGLISH_FREQUENCY_LOG, overlap_BCa$CHINESE_FREQUENCY_LOG, method="pearson")
-# p-value is < 0.0001
-
 cor.test(overlap_CuCa$SPANISH_FREQUENCY_LOG, overlap_CuCa$CHINESE_FREQUENCY_LOG, method="pearson")
-# p-value is < 0.0001
-
 
 # Create plots
-
 a <- ggplot(overlap_BCu, aes(x=ENGLISH_FREQUENCY_LOG, y=SPANISH_FREQUENCY_LOG)) + 
   geom_point() + 
   scale_x_continuous(limits=c(0, 7)) +
@@ -83,7 +72,5 @@ c <- ggplot(overlap_CuCa, aes(x=SPANISH_FREQUENCY_LOG, y=CHINESE_FREQUENCY_LOG))
 
 # Save plots 
 ggsave("./examples/log10-english-spanish.pdf", a, width=11, height=8.5)
-
 ggsave("./examples/log10-english-chinese.pdf", b, width=11, height=8.5)
-
 ggsave("./examples/log10-spanish-chinese.pdf", c, width=11, height=8.5)

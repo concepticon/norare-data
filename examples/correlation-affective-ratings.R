@@ -30,19 +30,11 @@ nrow(Warriner_2013_AffectiveRatings)
 nrow(overlap_WS)
 
 # Test correlations of the variables in the data sets
-
 cor.test(overlap_WS$ENGLISH_AROUSAL_MEAN.Scott, overlap_WS$ENGLISH_AROUSAL_MEAN.Warriner, method="pearson")
-# p-value is < 0.0001
-
 cor.test(overlap_WS$ENGLISH_VALENCE_MEAN.Scott, overlap_WS$ENGLISH_VALENCE_MEAN.Warriner, method="pearson")
-# p-value is < 0.0001
-
 cor.test(overlap_WS$ENGLISH_DOMINANCE_MEAN.Scott, overlap_WS$ENGLISH_DOMINANCE_MEAN.Warriner, method="pearson")
-# p-value is < 0.0001
-
 
 # Create plots
-
 a <- ggplot(overlap_WS, aes(x=ENGLISH_AROUSAL_MEAN.Scott, y=ENGLISH_AROUSAL_MEAN.Warriner)) + 
   geom_point() + 
   scale_x_continuous(limits=c(0, 9)) +
@@ -68,9 +60,6 @@ c <- ggplot(overlap_WS, aes(x=ENGLISH_DOMINANCE_MEAN.Scott, y=ENGLISH_DOMINANCE_
   theme_hc(base_size = 24) 
   
 # Save plots
-
 ggsave("./examples/arousal.pdf", a, width=11, height=8.5)
-
 ggsave("./examples/valence.pdf", b, width=11, height=8.5)
-
 ggsave("./examples/dominance.pdf", c, width=11, height=8.5)
