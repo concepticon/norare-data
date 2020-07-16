@@ -1,10 +1,6 @@
 from pynorare.dataset import NormDataSet
-import attr
-from pathlib import Path
 
-@attr.s
 class Dataset(NormDataSet):
-    repos = attr.ib(default=Path('.'))
     id = 'Kiss-1973-EAT'
     
     def download(self):
@@ -41,13 +37,13 @@ class Dataset(NormDataSet):
                     'Stimulus': stimulus,
                     'DEGREE': len(edges),
                     'WEIGHTED_DEGREE': sum([x[1] for x in edges]),
-                    'EDGES': ';'.join([
-                        '{0}:{1}'.format(x[0], x[1]) for x in edges])
+                    'EDGES': [
+                        '{0}:{1}'.format(x[0], x[1]) for x in edges]
                     }]
         self.extract_data(
                 sheet,
                 gloss='ENGLISH',
-                language='en',
-                write_file=write_file)
+                language='en'
+                )
 
 
