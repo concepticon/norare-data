@@ -46,7 +46,8 @@
           {
             "name": "EDGES",
             "datatype": "string",
-            "titles": "EDGES"
+            "titles": "EDGES",
+            "separator": ";"
           },
           {
             "name": "LINE_IN_SOURCE",

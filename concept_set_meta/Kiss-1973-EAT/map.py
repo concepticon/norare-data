@@ -37,8 +37,8 @@ class Dataset(NormDataSet):
                     'Stimulus': stimulus,
                     'DEGREE': len(edges),
                     'WEIGHTED_DEGREE': sum([x[1] for x in edges]),
-                    'EDGES': ';'.join([
-                        '{0}:{1}'.format(x[0], x[1]) for x in edges])
+                    'EDGES': [
+                        '{0}:{1}'.format(x[0], x[1]) for x in edges]
                     }]
         self.extract_data(
                 sheet,
