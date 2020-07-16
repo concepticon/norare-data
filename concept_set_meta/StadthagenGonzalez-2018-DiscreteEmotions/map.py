@@ -27,5 +27,5 @@ class Dataset(NormDataSet):
                     "PRONOUN": "Other"},
                 pos_name = "SPANISH_POS",
                 gloss='SPANISH',
-                language='es',
-                write_file=write_file)
+                language='es'
+                )
