@@ -30,7 +30,7 @@ overlap_BCu <- merge(Brysbaert_2009_Frequency, Cuetos_2011_Frequency, by = "CONC
 overlap_BCa <- merge(Brysbaert_2009_Frequency, Cai_2010_Frequency, by = "CONCEPTICON_ID")
 overlap_CuCa <- merge(Cuetos_2011_Frequency, Cai_2010_Frequency, by = "CONCEPTICON_ID")
 
-# Show length of data sets
+# Show size of data sets
 nrow(Brysbaert_2009_Frequency)
 nrow(Cuetos_2011_Frequency)
 nrow(Cai_2010_Frequency)
