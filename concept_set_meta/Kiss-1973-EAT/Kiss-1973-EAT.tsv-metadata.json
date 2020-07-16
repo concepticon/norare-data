@@ -46,7 +46,6 @@
           {
             "name": "EDGES",
             "datatype": "string",
-            "separator": ";",
             "titles": "EDGES"
           },
           {
