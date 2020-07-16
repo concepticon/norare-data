@@ -1,10 +1,6 @@
 from pynorare.dataset import NormDataSet
-import attr
-from pathlib import Path
 
-@attr.s
 class Dataset(NormDataSet):
-    repos = attr.ib(default=Path('.'))
     id = 'Kiss-1973-EAT'
     
     def download(self):
@@ -47,7 +43,7 @@ class Dataset(NormDataSet):
         self.extract_data(
                 sheet,
                 gloss='ENGLISH',
-                language='en',
-                write_file=write_file)
+                language='en'
+                )
 
 
