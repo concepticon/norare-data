@@ -61,6 +61,5 @@ class Dataset(NormDataSet):
                 ]]
         self._header = header
         self._table = table
-        if write_file:
-            self.writefile()
+
 
