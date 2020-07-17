@@ -3,7 +3,7 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Automatic mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) and five action effectors (mouth/throat, hand/arm, foot/leg, head excluding mouth/throat, and torso) ratings by Lynott et al. (2019).",
   "dc:source": "https://osf.io/7emr6/",
-  "dc:references" : "Lynott2019",
+  "dc:references" : "Lynott2020",
   "dcat:keyword": ["ratings", "monolingual", "auditory", "gustatory", "haptic", "interoceptive", "olfactory", "visual", "action", "perceptual", "sensorimotor", "age-of-acquisition", "English"],
   "dc:description": "An automated mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) and five action effectors (mouth/throat, hand/arm, foot/leg, head excluding mouth/throat, and torso) ratings submitted with the study of Lynott et al. (2019) to the concept sets in Concepticon.",
   "dialect": {
@@ -179,7 +179,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Lynott-2019-Sensorimotor.tsv"
+      "url": "Lynott-2020-Sensorimotor.tsv"
     }
   ]
 }

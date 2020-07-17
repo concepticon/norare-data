@@ -2,7 +2,7 @@ from pynorare.dataset import NormDataSet
 
 class Dataset(NormDataSet):
 
-    id = "Lynott-2019-Sensorimotor"
+    id = "Lynott-2020-Sensorimotor"
 
     def download(self):
         self.download_file(
