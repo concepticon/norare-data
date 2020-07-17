@@ -16,5 +16,5 @@ class Dataset(NormDataSet):
         self.extract_data(
                 sheet,
                 gloss='POLISH',
-                language='pl',
-                write_file=write_file)
+                language='pl'
+                )

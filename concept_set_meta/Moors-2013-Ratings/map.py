@@ -36,5 +36,5 @@ class Dataset(NormDataSet):
                     'V': 'Action/Process',
                     'A/R': 'Other',
                     'N/A': 'Other'},
-                pos_name="DUTCH_POS",
-                write_file=write_file)
+                pos_name="DUTCH_POS"
+                )

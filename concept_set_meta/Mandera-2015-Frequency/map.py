@@ -35,5 +35,5 @@ class Dataset(NormDataSet):
                     "num": "Number",
                     "pron": "Other",
                     "xxx": "Other"},
-                pos_name = "POLISH_POS",
-                write_file=write_file)
+                pos_name = "POLISH_POS"
+                )
