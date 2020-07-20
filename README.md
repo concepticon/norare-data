@@ -4,11 +4,19 @@
 
 ### Get started
 
-We recommend using your terminal to carry out the following instructions. Depending on your preferences, you might also want to install a [virtual environment](https://docs.python.org/3/library/venv.html). For the installation, you need GIT and Python (version 3) on your system.
+We recommend using your terminal to carry out the following instructions. Depending on your preferences, you might also want to install a [virtual environment](https://docs.python.org/3/tutorial/venv.html). For the installation, you need GIT and Python (version 3) on your system.
 
-### Clone pynorare GIT repository
+### Install pynorare
 
-Navigate or create into a folder where you want to store the pynorare repository.
+The NoRaRe database uses a Python package called `pynorare`. It can be installed with [PyPi](https://pypi.org/project/pynorare/). Use either `pip` or `pip3`.
+
+```
+$ pip install pynorare
+```
+
+### Clone norare-data GIT repository
+
+To access the NoRaRe data sets, you need to clone the `norare-data` GIT repository into a folder of your choice. Navigate or create a folder where you want to store the `norare-data` repository.
 
 ```
 $ mkdir PATH/TO/NAME-NEW-FOLDER
@@ -20,16 +28,7 @@ $ cd PATH/TO/FOLDER
 Clone the repository by typing:
 
 ```
-$ git clone https://github.com/concepticon/pynorare.git
-```
-
-### Set up pynorare
-
-Change into the main folder of the repository and run the Python script that sets up the pynorare package. You can use either `python` or `python3` depending on the Python version on your system.
-
-```
-$ cd pynorare
-$ python setup.py develop
+$ git clone https://github.com/concepticon/norare-data.git
 ```
 
 ### Commands
@@ -40,17 +39,9 @@ To check if the installation worked and see the available commands of the pynora
 $ norare
 ```
 
-### Clone norare-data GIT repository
-
-If you like to have the complete data which is available in NoRaRe, you need to clone the `norare-data` GIT repository into a folder of your choice.
-
-```
-$ git clone https://github.com/concepticon/norare-data.git
-```
-
 ### Set up Concepticon
 
-The NoRaRe database is linked to [Concepticon](https://concepticon.clld.org/). To access all data sets and perform the mapping of your own data, you need to install 'pyconcepticon' and download the `concepticon-data` GIT repository. The Python package can be installed with [PyPi](https://pypi.org/). Use either `pip` or `pip3`.
+The NoRaRe database is linked to [Concepticon](https://concepticon.clld.org/). To access all data sets and perform the mapping of your own data, you need to install 'pyconcepticon' and download the `concepticon-data` GIT repository.
 
 ```
 $ pip install pyconcepticon
@@ -139,13 +130,13 @@ After that, you define a `map` function:
 Data sets are often stored in different file formats. To define the sheet, change the following line according to the file format of your target data set. Use either `.get_excel` or `.get_csv` for text files. 
 
 ```python
-		sheet = self.get_excel('DATASET.xlsx', 0, dicts=True)
+    sheet = self.get_excel('DATASET.xlsx', 0, dicts=True)
 ```
 
 If the data comes in a straightforward structure with table headers in the first row, you only need to define the mappings depending on the language of the words in your data set.
 
 ```python
-		self.extract_data(
+    self.extract_data(
                 sheet,
                 gloss='ENGLISH',
                 language='en'
@@ -197,4 +188,3 @@ You can validate your data set by typing:
 ```
 $ norare validate YOUR-DATASET-ID
 ```
-
