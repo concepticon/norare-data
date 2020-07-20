@@ -28,7 +28,8 @@
       <label for="tabreiter-0-0">Introduction</label>
       <label for="tabreiter-0-1">Concepts</label>
       <label for="tabreiter-0-2">Datasets</label>
-      <label for="tabreiter-0-3">Impressum</label>
+      <label for="tabreiter-0-3">About</label>
+      <label for="tabreiter-0-4">Back2CALC</label>
     </div>
   </div>
   <h2>NoRaRe</h2>
@@ -37,9 +38,11 @@
 	<li class="reiter">
 	  <input type="radio" name="tabreiter-0" checked="checked" id="tabreiter-0-0" />
 	  <label class="main" for="tabreiter-0-0">Introduction</label>
-	  <div style="padding:10px;">
+    <div>
+	  <div class="base">
 	    <h3>Welcome to NoRaRe</h3>
 	    <p>
+      <img style="float:right;width:50%;" alt="norare-logo" src="img/norare-logo.png" />
 	    Welcome to NoRaRe, the cross-linguistic database of norms, ratings, and relations of
 	    words and concepts. In order to browse through the data, just navigate to the
 	    <i>Concepts</i> tab, and type in the name of any concept you can think of. The tool will
@@ -48,12 +51,38 @@
 	    you to search all the metadata which we have so far accumulated on the respective
 	    concept. 
 	    </p>
+      <p>
+      <table>
+        <tr>
+          <th style="background-color:DarkOrange">Release</th>
+          <td>0.1.0</td>
+        </tr>
+        <tr>
+          <th style="background-color:DarkOrange">Date</th>
+          <td>+++</td>
+        </tr>
+        <tr>
+          <th style="background-color:DarkOrange">DOI</th>
+          <td>+++</td>
+        </tr>
+        <tr>
+          <th style="background-color:DarkOrange">Authors</th>
+          <td>Annika Tjuka, Robert Forkel, and Johann-Mattis List</td>
+        </tr>
+      </table>
+      </p>
 	  </div>
+    <div class="footer"> 
+        <div class="footerchild"> <a href="https://cordis.europa.eu/project/rcn/206320_en.html"><img src="img/eu-logo.png" alt="erc-logo" style="width:280px;"/></a></div> 
+        <div class="footerchild"> <p> Last updated on 2020-07-20.  </p> <p> <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">This website</span> by <span xmlns:cc="https://creativecommons.org/ns#" property="cc:attributionName">Annika Tjuka, Robert Forkel, and Johann-Mattis List</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" style="color:white">Creative Commons Attribution 4.0 International License</a>.  </p><p><a style="color:white;" href="https://www.shh.mpg.de/2417/imprint">IMPRINT</a></p> </div> 
+        <div class="footerchild"> <a href="https://www.shh.mpg.de/375796/calc"> <img src="img/max-planck-logo.svg" alt="mpi-logo" style="width:100px;"/></a></div> 
+    </div>
+    </div>
 	</li>
 	<li class="reiter">
 	  <input type="radio" name="tabreiter-0" id="tabreiter-0-1" />
 	  <label class="main" for="tabreiter-0-1">Concepts</label>
-	  <div style="padding:10px;">
+    <div><div class="base">
   <h3>Concept Lookup in NoRaRe</h3>
   <p>To browse the data on norms, ratings, and relations for individual concepts, just type in the
   gloss of a given concept you want to investigate. 
@@ -72,11 +101,18 @@
   <br><br>
   <div id="output"></div></div>
   </div>
+      <div class="footer"> 
+        <div class="footerchild"> <a href="https://cordis.europa.eu/project/rcn/206320_en.html"><img src="img/eu-logo.png" alt="erc-logo" style="width:280px;"/></a></div> 
+        <div class="footerchild"> <p> Last updated on 2020-07-20.  </p> <p> <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">This website</span> by <span xmlns:cc="https://creativecommons.org/ns#" property="cc:attributionName">Annika Tjuka, Robert Forkel, and Johann-Mattis List</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" style="color:white">Creative Commons Attribution 4.0 International License</a>.  </p><p><a style="color:white;" href="https://www.shh.mpg.de/2417/imprint">IMPRINT</a></p> </div> 
+        <div class="footerchild"> <a href="https://www.shh.mpg.de/375796/calc"> <img src="img/max-planck-logo.svg" alt="mpi-logo" style="width:100px;"/></a></div> 
+      </div>
+    </div>
+
 	</li>
 	<li class="reiter">
 	  <input type="radio" name="tabreiter-0" id="tabreiter-0-2" />
 	  <label class="main" for="tabreiter-0-2">Datasets</label>
-	  <div style="padding:10px">
+    <div><div class="base">
 	    <h3>Datasets in NoRaRe</h3>
 	    The datasets in NoRaRe come from two basic types of sources. On the one hand, we have
 	    datasets curated as part of the <a href="https://concepticon.clld.org">Concepticon</a>
@@ -85,21 +121,37 @@
 	    <input type="text" style="width:300px;" onkeyup="showDatasets(this.value)" placeholder="search for keywords"/>
 	    <div id="datasets"></div>
 	  </div>
+      <div class="footer"> 
+        <div class="footerchild"> <a href="https://cordis.europa.eu/project/rcn/206320_en.html"><img src="img/eu-logo.png" alt="erc-logo" style="width:280px;"/></a></div> 
+        <div class="footerchild"> <p> Last updated on 2020-07-20.  </p> <p> <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">This website</span> by <span xmlns:cc="https://creativecommons.org/ns#" property="cc:attributionName">Annika Tjuka, Robert Forkel, and Johann-Mattis List</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" style="color:white">Creative Commons Attribution 4.0 International License</a>.  </p><p><a style="color:white;" href="https://www.shh.mpg.de/2417/imprint">IMPRINT</a></p> </div> 
+        <div class="footerchild"> <a href="https://www.shh.mpg.de/375796/calc"> <img src="img/max-planck-logo.svg" alt="mpi-logo" style="width:100px;"/></a></div> 
+      </div>
+    </div>
+
 	</li>
 	<li class="reiter">
 	  <input type="radio" name="tabreiter-0" id="tabreiter-0-3" />
-	  <label class="main" for="tabreiter-0-3">Impressum</label>
-	  <div style="padding:10px;">
+	  <label class="main" for="tabreiter-0-3">About</label>
+	  <div><div class="base">
 	    <h3>Impressum</h3>
 	    This web application has been produced as a demo-tool for a publication, which is
 	    currently under review. Upon acceptance, an online version of the application will be
 	    published and distributed under a free license.
 	  </div>
+      <div class="footer"> 
+        <div class="footerchild"> <a href="https://cordis.europa.eu/project/rcn/206320_en.html"><img src="img/eu-logo.png" alt="erc-logo" style="width:280px;"/></a></div> 
+        <div class="footerchild"> <p> Last updated on 2020-07-20.  </p> <p> <a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br><span xmlns:dct="https://purl.org/dc/terms/" href="https://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">This website</span> by <span xmlns:cc="https://creativecommons.org/ns#" property="cc:attributionName">Annika Tjuka, Robert Forkel, and Johann-Mattis List</span> is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" style="color:white">Creative Commons Attribution 4.0 International License</a>.  </p><p><a style="color:white;" href="https://www.shh.mpg.de/2417/imprint">IMPRINT</a></p> </div> 
+        <div class="footerchild"> <a href="https://www.shh.mpg.de/375796/calc"> <img src="img/max-planck-logo.svg" alt="mpi-logo" style="width:100px;"/></a></div> 
+      </div>
+    </div>
 	</li>
+  <li class="reiter">
+	  <input type="radio" name="tabreiter-0" id="tabreiter-0-4" />
+  <label class="main" for="tabreiter-0-5" onclick="window.location.href
+          = 'https://digling.org/calc/';">Back2CALC</label>
+  </li>
       </ul>
     </div>
-    <!--<script>showresource('data');</script>-->
-    <!--<script>checkfornews();</script>-->
 </body>
 <script>showDatasets('');</script>
 </html>
