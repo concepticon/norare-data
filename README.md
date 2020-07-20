@@ -1,12 +1,12 @@
 # Database of Cross-Linguistic Norms, Ratings, and Relations for Words and Concepts
 
-## Installation of the Python code
+## Installation of the database
 
 ### Get started
 
 We recommend using your terminal to carry out the following instructions. Depending on your preferences, you might also want to install a [virtual environment](https://docs.python.org/3/library/venv.html). For the installation, you need GIT and Python (version 3) on your system.
 
-### Set up the GIT repository
+### Clone pynorare GIT repository
 
 Navigate or create into a folder where you want to store the pynorare repository.
 
@@ -32,7 +32,7 @@ $ cd pynorare
 $ python setup.py develop
 ```
 
-## Commands
+### Commands
 
 To check if the installation worked and see the available commands of the pynorare package, type:
 
@@ -40,7 +40,7 @@ To check if the installation worked and see the available commands of the pynora
 $ norare
 ```
 
-## Set up norare-data
+### Clone norare-data GIT repository
 
 If you like to have the complete data which is available in NoRaRe, you need to clone the `norare-data` GIT repository into a folder of your choice.
 
@@ -48,7 +48,7 @@ If you like to have the complete data which is available in NoRaRe, you need to 
 $ git clone https://github.com/concepticon/norare-data.git
 ```
 
-## Set up Concepticon
+### Set up Concepticon
 
 The NoRaRe database is linked to [Concepticon](https://concepticon.clld.org/). To access all data sets and perform the mapping of your own data, you need to install 'pyconcepticon' and download the `concepticon-data` GIT repository. The Python package can be installed with [PyPi](https://pypi.org/). Use either `pip` or `pip3`.
 
@@ -96,7 +96,7 @@ To see all available data sets, navigate into the `norare-data` folder and type:
 $ norare ls
 ```
 
-## Download a data set
+## Download a NoRaRe data set
 
 By typing the following command, the original data set will be downloaded into the `raw` folder. It is only locally stored.
 
@@ -104,9 +104,9 @@ By typing the following command, the original data set will be downloaded into t
 $ norare download Abdaoui-2017-EmoLex
 ```
 
-# Mapping procedure
+## Mapping procedure
 
-## Create a map.py file
+### Create a map.py file
 
 You need to derive a dataset first:
 
@@ -152,7 +152,7 @@ If the data comes in a straightforward structure with table headers in the first
                 )
 ```
 
-## Create a metadata.json file
+### Create a metadata.json file
 
 The metadata file is meant to provide additional information to your data set. It is also used to define the column names. For a comprehensive description of the possible namespace terms see the [CSVW](https://www.w3.org/ns/csvw) documentation. You can also follow the standards of the metadata.json files for other data sets. Note that you can specify the old `"titles"` and new column names with `"name"` as follows:
 
@@ -179,7 +179,7 @@ Don't forget to add the Conceticon columns:
           } 
 ```
 
-## Download and map
+### Download and map
 
 Make sure that you have stored the map.py and metadata.json files according to the schema provided for the other data sets and created a `raw` folder in your data set folder. If you are not already, navigate to the `norare-data` folder and type the following commands into your terminal:
 
@@ -190,7 +190,7 @@ $ norare map YOUR-DATASET-ID
 
 The raw file should be stored in the `raw` folder and a new .tsv should occur in your data set folder.
 
-## Validate
+### Validate
 
 You can validate your data set by typing:
 
