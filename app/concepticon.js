@@ -188,7 +188,7 @@ function showMeta(node) {
   var ds, nrr, idx, table, text, md, keys, col, color;
   idx = node.dataset['norare'];
   nrr = NRRDATA[idx];
-  text = '<p><b> <span style="background-color:CornFlowerBlue">Norms</span>, <span style="background-color:LightGray">Ratings</span>, and <span style="background-color:LightSalmon">Relations</span> for '+idx+'</b></p>';
+  text = '<p><b> <span class="norms">Norms</span>, <span class="ratings">Ratings</span>, and <span class="relations">Relations</span> for '+idx+'</b></p>';
   text += '<table style="table-layout:fixed;width:100%;"><tr>';
   text += '<th>DTS</th>' +
     '<th>LNG</th>' +
@@ -199,13 +199,13 @@ function showMeta(node) {
   for (ds in nrr) {
     for (col in nrr[ds]) {
       if (nrr[ds][col]['norare'] == 'relations'){
-        color = 'LightSalmon';
+        color = '#00c2cb';
       }
       else if (nrr[ds][col]['norare'] == 'norms'){
-        color = 'lightgray';
+        color = '#00568c';
       }
       else {
-        color = 'white';
+        color = '#03989e';
       }
       text += '<tr>' +
         '<td class="'+nrr[ds][col]['norare']+'"><span title="'+col.split('_').join(' ')+'">'+ds.split('-').join(' ')+'</span></td>'+

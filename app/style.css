@@ -544,12 +544,15 @@ span.lchoice {
   white-space: nowrap;
 }
 
-td.relations {
-	background-color: LightSalmon;
+.relations {
+	background-color: #00c2cb;
+  color: white;
 }
-td.norms {
-	background-color: CornFlowerBlue;
+.norms {
+	background-color: #00568c;
+  color: white;
 }
-td.ratings {
-	background-color: LightGray;
+.ratings {
+	background-color: #03989e;
+  color: white;
 }
