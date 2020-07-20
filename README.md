@@ -33,7 +33,7 @@ $ git clone https://github.com/concepticon/norare-data.git
 
 ### Commands
 
-To check if the installation worked and see the available commands of the pynorare package, type:
+To check if the installation worked and see the available commands of the `pynorare` package, type:
 
 ```
 $ norare
@@ -41,7 +41,7 @@ $ norare
 
 ### Set up Concepticon
 
-The NoRaRe database is linked to [Concepticon](https://concepticon.clld.org/). To access all data sets and perform the mapping of your own data, you need to install 'pyconcepticon' and download the `concepticon-data` GIT repository.
+The NoRaRe database is linked to [Concepticon](https://concepticon.clld.org/). To access all data sets and perform the mapping of your own data, you need to install `pyconcepticon` and download the `concepticon-data` GIT repository.
 
 ```
 $ pip install pyconcepticon
