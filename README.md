@@ -4,7 +4,7 @@
 
 ### Get started
 
-We recommend using your terminal to carry out the following instructions. Depending on your preferences, you might also want to install a [virtual environment](https://docs.python.org/3/tutorial/venv.html). For the installation, you need GIT and Python (version 3) on your system.
+We recommend using your terminal to carry out the following instructions. We (strongly) advise you to install a [virtual environment](https://docs.python.org/3/tutorial/venv.html). In addition, you need GIT and Python (version 3) on your system.
 
 ### Install pynorare
 
