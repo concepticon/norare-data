@@ -8,7 +8,7 @@ We recommend using your terminal to carry out the following instructions. We (st
 
 ### Install pynorare
 
-The NoRaRe database uses a Python package called `pynorare`. It can be installed with [PyPi](https://pypi.org/project/pynorare/). Use either `pip` or `pip3`.
+The NoRaRe database uses a Python package called `pynorare` (as a dependency `pyconcepticon` will be installed automatically). The Python pachage can be installed with [PyPi](https://pypi.org/project/pynorare/). Use either `pip` or `pip3`.
 
 ```
 $ pip install pynorare
@@ -31,7 +31,15 @@ Clone the repository by typing:
 $ git clone https://github.com/concepticon/norare-data.git
 ```
 
-### Commands
+### Clone concepticon-data GIT repository
+
+The NoRaRe database is linked to [Concepticon](https://concepticon.clld.org/). To access all data sets and perform the mapping of your own data, you need to download the `concepticon-data` GIT repository.
+
+```
+$ git clone https://github.com/concepticon/concepticon-data.git
+```
+
+## Commands
 
 To check if the installation worked and see the available commands of the `pynorare` package, type:
 
@@ -39,61 +47,43 @@ To check if the installation worked and see the available commands of the `pynor
 $ norare
 ```
 
-### Set up Concepticon
+### Show NoRaRe statistics
 
-The NoRaRe database is linked to [Concepticon](https://concepticon.clld.org/). To access all data sets and perform the mapping of your own data, you need to install `pyconcepticon` and download the `concepticon-data` GIT repository.
-
-```
-$ pip install pyconcepticon
-```
-
-Clone the package.
+For example, you can get statistic of the distribution of the Concepticon identifiers by typing the following command. Note that you should add the path to a specific clone of concepticon-data, because you are not within the root of the concepticon-data. The same is possible for the norare-data repository if you are working with multiple clones. You can also use the `catalog.ini` file to specify the path (see 'Define repository paths' section).
 
 ```
-$ git clone https://github.com/concepticon/concepticon-data.git
+$ norare --repos=/PATH/TO/concepticon-data --norarepo==/PATH/TO/norare-data stats
 ```
 
-To make your live easier, you should define the default path to concepticon-data in a `catalog.ini` file. Otherwise you need to use the `--repos` argument in combination with `norare` commands.
+### List NoRaRe data sets
 
-Open a file in the terminal text editor.
-
-For Mac users:
+To see all available data sets, navigate into the `norare-data` folder and type:
 
 ```
-nano /Users/YOURNAME/Library/Application\ Support/cldf/catalog.ini
+$ norare --repos=/PATH/TO/concepticon-data ls
 ```
 
-For Linux users:
+### Download a NoRaRe data set
+
+By typing the following command, the original data set will be downloaded into the `raw` folder. It is only locally stored.
 
 ```
-$ nano /home/USER/.config/cldf/catalog.ini
+$ norare --repos=/PATH/TO/concepticon-data download Abdaoui-2017-EmoLex
 ```
 
-Insert the following lines to the text file.
+### Define repository paths
+
+To make your live easier, you can define the default path to concepticon-data in a `catalog.ini` file (Linux users can follow the desciption in this [blog post](https://calc.hypotheses.org/2225)).
+
+For Mac users: Open the `catalog.ini` file in a text editor of your choice and add the following lines.  
 
 ```
 [clones]
 concepticon = /PATH/TO/concepticon-data 
 ```
 
-Exit with `CTRL + X` and save the file by typing `y` and then press `Enter`.
+If you can't find the `catalog.ini` file, create a directory `mkdir /Users/YOURNAME/Library/Application\ Support/cldf/` and add it to the `cldf` folder.
 
-
-## List NoRaRe data sets
-
-To see all available data sets, navigate into the `norare-data` folder and type:
-
-```
-$ norare ls
-```
-
-## Download a NoRaRe data set
-
-By typing the following command, the original data set will be downloaded into the `raw` folder. It is only locally stored.
-
-```
-$ norare download Abdaoui-2017-EmoLex
-```
 
 ## Mapping procedure
 
