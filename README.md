@@ -52,7 +52,7 @@ $ norare
 For example, you can get statistic of the distribution of the Concepticon identifiers by typing the following command. Note that you should add the path to a specific clone of concepticon-data, because you are not within the root of the concepticon-data. The same is possible for the norare-data repository if you are working with multiple clones. You can also use the `catalog.ini` file to specify the path (see 'Define repository paths' section).
 
 ```
-$ norare --repos=/PATH/TO/concepticon-data --norarepo==/PATH/TO/norare-data stats
+$ norare --repos=/PATH/TO/concepticon-data --norarepo=/PATH/TO/norare-data stats
 ```
 
 ### List NoRaRe data sets
