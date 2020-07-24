@@ -23,13 +23,13 @@ dir <- setwd(system("git rev-parse --show-toplevel", intern=T))
 
 
 # Import data set
-Lynott_2019_Sensorimotor <- read_delim("./concept_set_meta/Lynott-2019-Sensorimotor/Lynott-2019-Sensorimotor.tsv", 
+Lynott_2020_Sensorimotor <- read_delim("concept_set_meta/Lynott-2020-Sensorimotor/Lynott-2020-Sensorimotor.tsv", 
                                        "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer(), 
                                                                                      LINE_IN_SOURCE = col_integer()), 
                                        trim_ws = TRUE)
 
 # Merge data sets 
-overlap_LL <- merge(Lynott_2019_Sensorimotor, Lynott_2013_400, by = "CONCEPTICON_ID", suffixes = c(".Lynott_2019",".Lynott_2013"))
+overlap_LL <- merge(Lynott_2020_Sensorimotor, Lynott_2013_400, by = "CONCEPTICON_ID", suffixes = c(".Lynott_2020",".Lynott_2013"))
 
 # Show overlap between the data sets
 nrow(overlap_LL)
@@ -47,7 +47,7 @@ a <- ggplot(overlap_LL, aes(x=ENGLISH_AUDITORY_MEAN, y=AUDITORY_MEAN)) +
   scale_x_continuous(limits=c(0, 6)) +
   scale_y_continuous(limits=c(0, 6)) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Auditory Ratings", y="Automatic mapping", x = "Hand-curated mapping") +
+  labs(title= "Distribution of Auditory Ratings", y="Automated mapping", x = "Manual mapping") +
   theme_hc(base_size = 28)
 
 b <- ggplot(overlap_LL, aes(x=ENGLISH_GUSTATORY_MEAN, y=GUSTATORY_MEAN)) + 
@@ -55,7 +55,7 @@ b <- ggplot(overlap_LL, aes(x=ENGLISH_GUSTATORY_MEAN, y=GUSTATORY_MEAN)) +
   scale_x_continuous(limits=c(0, 6)) +
   scale_y_continuous(limits=c(0, 6)) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Gustatory Ratings",  y="Automated mapping", x = "Hand-curated mapping") +
+  labs(title= "Distribution of Gustatory Ratings",  y="Automated mapping", x = "Manual mapping") +
   theme_hc(base_size = 28)
 
 c <- ggplot(overlap_LL, aes(x=ENGLISH_HAPTIC_MEAN, y=HAPTIC_MEAN)) + 
@@ -63,7 +63,7 @@ c <- ggplot(overlap_LL, aes(x=ENGLISH_HAPTIC_MEAN, y=HAPTIC_MEAN)) +
   scale_x_continuous(limits=c(0, 6)) +
   scale_y_continuous(limits=c(0, 6)) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Haptic Ratings",  y="Automated mapping", x = "Hand-curated mapping") +
+  labs(title= "Distribution of Haptic Ratings",  y="Automated mapping", x = "Manual mapping") +
   theme_hc(base_size = 28)
 
 d <- ggplot(overlap_LL, aes(x=ENGLISH_OLFACTORY_MEAN, y=OLFACTORY_MEAN)) + 
@@ -71,7 +71,7 @@ d <- ggplot(overlap_LL, aes(x=ENGLISH_OLFACTORY_MEAN, y=OLFACTORY_MEAN)) +
   scale_x_continuous(limits=c(0, 6)) +
   scale_y_continuous(limits=c(0, 6)) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Olfactory Ratings",  y="Automated mapping", x = "Hand-curated mapping") +
+  labs(title= "Distribution of Olfactory Ratings",  y="Automated mapping", x = "Manual mapping") +
   theme_hc(base_size = 28)
 
 e <- ggplot(overlap_LL, aes(x=ENGLISH_VISUAL_MEAN, y=VISUAL_MEAN)) + 
@@ -79,7 +79,7 @@ e <- ggplot(overlap_LL, aes(x=ENGLISH_VISUAL_MEAN, y=VISUAL_MEAN)) +
   scale_x_continuous(limits=c(0, 6)) +
   scale_y_continuous(limits=c(0, 6)) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Visual Ratings",  y="Automated mapping", x = "Hand-curated mapping") +
+  labs(title= "Distribution of Visual Ratings",  y="Automated mapping", x = "Manual mapping") +
   theme_hc(base_size = 28)
 
 # Save plots
