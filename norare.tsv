@@ -414,3 +414,5 @@ Calude-2011-200	POLISH_FREQUENCY	logarithmic	frequency		norms	corpus	pl		Log10 f
 Calude-2011-200	BASQUE_FREQUENCY	logarithmic	frequency		norms	corpus	eu		Log10 frequency of basic words.
 Calude-2011-200	MAORI_FREQUENCY	logarithmic	frequency		norms	corpus	mi		Log10 frequency of basic words.
 Calude-2011-200	TOK_PISIN_FREQUENCY	logarithmic	frequency		norms	corpus	tpi		Log10 frequency of basic words.
+Crepaldi-2015-Frequency	ITALIAN_FREQUENCY	tokens	frequency		norms	corpus	it		This is the number of times the word appears in the corpus.
+Crepaldi-2015-Frequency	ITALIAN_CD	numeric	contextual diversity		norms	corpus	it		This is the number of films in which the word appears.
