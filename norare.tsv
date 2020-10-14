@@ -463,3 +463,6 @@ Speed-2017-485	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity	ra
 Speed-2017-485	AROUSAL_MEAN	mean	arousal		ratings	user	nl		This is the mean of the arousal ratings for each word on a 7-point scale (0-7).
 Speed-2017-485	DOMINANCE_MEAN	mean	dominance		ratings	user	nl		This is the mean of the dominance ratings for each word on a 7-point scale (0-7).
 Speed-2017-485	VALENCE_MEAN	mean	valence		ratings	user	nl		This is the mean of the valence ratings for each word on a 7-point scale (0-7).
+Crepaldi-2015-Frequency	ITALIAN_FREQUENCY	tokens	frequency		norms	corpus	it		This is the number of times the word appears in the corpus.
+Crepaldi-2015-Frequency	ITALIAN_CD	numeric	contextual diversity		norms	corpus	it		This is the number of films in which the word appears.
+Johansson-2020-344	SOUND_SYMBOLIC	numeric	sound symbolism		norms	user	en		The value indicates if an item is potentially sound symbolic or not, where «1» indicates the concepts with sound-meaning associations whereas «0» means the lack thereof. The analysis of sound symbolic patterns is based on data across 245 language families.
