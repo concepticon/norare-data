@@ -466,3 +466,14 @@ Speed-2017-485	VALENCE_MEAN	mean	valence		ratings	user	nl		This is the mean of t
 Crepaldi-2015-Frequency	ITALIAN_FREQUENCY	tokens	frequency		norms	corpus	it		This is the number of times the word appears in the corpus.
 Crepaldi-2015-Frequency	ITALIAN_CD	numeric	contextual diversity		norms	corpus	it		This is the number of films in which the word appears.
 Johansson-2020-344	SOUND_SYMBOLIC	numeric	sound symbolism		norms	user	en		The value indicates if an item is potentially sound symbolic or not, where «1» indicates the concepts with sound-meaning associations whereas «0» means the lack thereof. The analysis of sound symbolic patterns is based on data across 245 language families.
+VanHeuven-2014-Frequency	ENGLISH_FREQUENCY	tokens	frequency		norms	corpus	en		This is the number of times the word appears in the corpus.
+VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_CBEEBIES	tokens	frequency		norms	corpus	en		This is the number of times the word appears in the Cbeebies corpus (a channel for pre-school children, age 0-6).
+VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_CBBC	tokens	frequency		norms	corpus	en		This is the number of times the word appears in the CBBC corpus (a channel for primary school children, age 6-12).
+VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_BNC	tokens	frequency		norms	corpus	en		This is the number of times the word appears in the British National Corpus.
+VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG	logarithmic	frequency	zipf	norms	corpus	en		This value is logarithmic word frequency based on the Zipf scale.
+VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_CBEEBIES	logarithmic	frequency	zipf	norms	corpus	en		This value is logarithmic word frequency based on the Zipf scale in the Cbeebies corpus (a channel for pre-school children, age 0-6).
+VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_CBBC	logarithmic	frequency	zipf	norms	corpus	en		This value is logarithmic word frequency based on the Zipf scale in the CBBC corpus (a channel for primary school children, age 6-12).
+VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_BNC	logarithmic	frequency	zipf	norms	corpus	en		This value is logarithmic word frequency based on the Zipf scale in the British National Corpus.
+VanHeuven-2014-Frequency	ENGLISH_CD	numeric	contextual diversity		norms	corpus	en		This is the number of films in which the word appears.
+VanHeuven-2014-Frequency	ENGLISH_CD_CBEEBIES	numeric	contextual diversity		norms	corpus	en		This is the number of films of the Cbeebies corpus (a channel for pre-school children, age 0-6) in which the word appears.
+VanHeuven-2014-Frequency	ENGLISH_CD_CBBC	numeric	contextual diversity		norms	corpus	en		This is the number of films of the CBBC corpus (a channel for primary school children, age 6-12) in which the word appears.
