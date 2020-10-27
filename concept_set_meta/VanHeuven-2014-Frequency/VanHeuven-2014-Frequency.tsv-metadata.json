@@ -1,0 +1,143 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of frequency norms by Van Heuven et al. (2014).",
+  "dc:source": "http://crr.ugent.be/programs-data/subtitle-frequencies",
+  "dc:references" : "VanHeuven2014",
+  "dcat:keyword": ["word frequency", "monolingual", "English", "UK"],
+  "dc:description": "An automated mapping of the frequency norms submitted with the study of Van Heuven et al. (2014) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Spelling"
+          }, 
+          {
+            "name": "ENGLISH_FREQUENCY",
+            "datatype": "integer",
+            "titles": "FreqCount"
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_CBEEBIES",
+            "titles": "Cbeebies_freq",
+            "null": "NA",
+              "datatype": {
+                  "base": "integer"
+              }
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_CBBC",
+            "titles": "CBBC_freq",
+            "null": "NA",
+              "datatype": {
+                  "base": "integer"
+              }
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_BNC",
+            "datatype": "integer",
+            "titles": "BNC_freq"
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_LOG",
+            "datatype": "float",
+            "titles": "LogFreq(Zipf)"
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_LOG_CBEEBIES",
+            "titles": "LogFreqCbeebies(Zipf)",
+            "null": "NA",
+              "datatype": {
+                  "base": "float"
+              }
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_LOG_CBBC",
+            "titles": "LogFreqCBBC(Zipf)",
+            "null": "NA",
+              "datatype": {
+                  "base": "float"
+              }
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_LOG_BNC",
+            "datatype": "float",
+            "titles": "LogFreqBNC(Zipf)"
+          },
+          {
+            "name": "ENGLISH_CD",
+            "datatype": "integer",
+            "titles": "CD_count"
+          },
+          {
+            "name": "ENGLISH_CD_CBEEBIES",
+            "titles": "CD_count_Cbeebies",
+            "null": "NA",
+              "datatype": {
+                  "base": "integer"
+              }
+          },
+          {
+            "name": "ENGLISH_CD_CBBC",
+            "titles": "CD_count_CBBC",
+            "null": "NA",
+              "datatype": {
+                  "base": "integer"
+              }
+          },
+          {
+            "name": "ENGLISH_POS",
+            "datatype": "string",
+            "titles": "DomPoS"
+          },
+          {
+            "name": "ENGLISH_WORD_HOMOPHONIC",
+            "datatype": "string",
+            "titles": "Homophonic_entry"
+          },
+          {
+            "name": "ENGLISH_WORD_DOUBLE",
+            "datatype": "string",
+            "titles": "Double_word_entry"
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_DOUBLE",
+            "datatype": "integer",
+            "titles": "Freq_double_entry"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "VanHeuven-2014-Frequency.tsv"
+    }
+  ]
+}
