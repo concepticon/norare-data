@@ -477,17 +477,17 @@ VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_BNC	logarithmic	frequency	zipf, B
 VanHeuven-2014-Frequency	ENGLISH_CD	numeric	contextual diversity		norms	corpus	en		This is the number of films in which the word appears.
 VanHeuven-2014-Frequency	ENGLISH_CD_CBEEBIES	numeric	contextual diversity	Cbeebies	norms	corpus	en		This is the number of films of the Cbeebies corpus (a channel for pre-school children, age 0-6) in which the word appears.
 VanHeuven-2014-Frequency	ENGLISH_CD_CBBC	numeric	contextual diversity	CBBC	norms	corpus	en		This is the number of films of the CBBC corpus (a channel for primary school children, age 6-12) in which the word appears.
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_ARABIC	mean	similarity		relation	user	ar		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_CHINESE	mean	similarity		relation	user	zh		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_WELSH	mean	similarity		relation	user	cy		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_ENGLISH	mean	similarity		relation	user	en		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_ESTONIAN	mean	similarity		relation	user	et		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_FINNISH	mean	similarity		relation	user	fi		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_FRENCH	mean	similarity		relation	user	fr		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_HEBREW	mean	similarity		relation	user	he		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_POLISH	mean	similarity		relation	user	pl		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_RUSSIAN	mean	similarity		relation	user	ru		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_SPANISH	mean	similarity		relation	user	es		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_KISWAHILI	mean	similarity		relation	user	sw		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_YUE_CHINESE	mean	similarity		relation	user	yue		This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
-Vulic-2020-MultiSimLex	SIMILARITY_SCORE_MEAN	mean	similarity		relation	user			This is the score based on human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_ARABIC	mean	similarity		relations	user	ar		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_CHINESE	mean	similarity		relations	user	zh		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_WELSH	mean	similarity		relations	user	cy		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_ENGLISH	mean	similarity		relations	user	en		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_ESTONIAN	mean	similarity		relations	user	et		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_FINNISH	mean	similarity		relations	user	fi		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_FRENCH	mean	similarity		relations	user	fr		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_HEBREW	mean	similarity		relations	user	he		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_POLISH	mean	similarity		relations	user	pl		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_RUSSIAN	mean	similarity		relations	user	ru		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_SPANISH	mean	similarity		relations	user	es		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_KISWAHILI	mean	similarity		relations	user	sw		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_YUE_CHINESE	mean	similarity		relations	user	yue		This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).
+Vulic-2020-MultiSimLex	SIMILARITY_SCORE_MEAN	mean	similarity		relations	user			This is the score of human judgments on the semantic similarity of word pairs (rating scale 0 and 6).

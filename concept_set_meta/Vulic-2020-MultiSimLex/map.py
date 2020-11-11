@@ -9,6 +9,10 @@ class Dataset(NormDataSet):
             'https://multisimlex.com/data/scores.xlsx',
             'scores.xlsx',
         )
+        self.download_file(
+            'https://multisimlex.com/data/translation.xlsx',
+            'translation.xlsx',
+        )
 
     def map(self, write_file=True):
         
