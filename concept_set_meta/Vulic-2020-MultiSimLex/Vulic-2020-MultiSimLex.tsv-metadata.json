@@ -1,0 +1,161 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of similarity scores from the Multi-SimLex project.",
+  "dc:source": "https://multisimlex.com/",
+  "dc:references" : "Vulic2020",
+  "dcat:keyword": ["Multi-SimLex", "multilingual", "similarity"],
+  "dc:description": "An automated mapping of the similarity scores from the Multi-SimLex project to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string"
+          },
+          {
+            "name": "WORDPAIR",
+            "datatype": "string"
+          },
+          {
+              "name": "WORDPAIR_GLOSS",
+              "datatype": "string"
+          },
+          {
+            "name": "POS",
+            "datatype": "string"
+          },
+          {
+            "name": "SIMILARITY_SCORE_ARABIC",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_CHINESE",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_WELSH",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_ENGLISH",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_ESTONIAN",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_FINNISH",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_FRENCH",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_HEBREW",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_POLISH",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_RUSSIAN",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_SPANISH",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_KISWAHILI",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_YUE_CHINESE",
+            "datatype": "float"
+          },
+          {
+            "name": "SIMILARITY_SCORE_MEAN",
+            "datatype": "float"
+          },
+          {
+            "name": "ARABIC",
+            "datatype": "string"
+          },
+          {
+            "name": "CHINESE",
+            "datatype": "string"
+          },
+          {
+            "name": "WELSH",
+            "datatype": "string"
+          },
+          {
+            "name": "ESTONIAN",
+            "datatype": "string"
+          },
+          {
+            "name": "FINNISH",
+            "datatype": "string"
+          },
+          {
+            "name": "FRENCH",
+            "datatype": "string"
+          },
+          {
+            "name": "HEBREW",
+            "datatype": "string"
+          },
+          {
+            "name": "POLISH",
+            "datatype": "string"
+          },
+          {
+            "name": "RUSSIAN",
+            "datatype": "string"
+          },
+          {
+            "name": "SPANISH",
+            "datatype": "string"
+          },
+          {
+            "name": "KISWAHILI",
+            "datatype": "string"
+          },
+          {
+            "name": "YUE_CHINESE",
+            "datatype": "string"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Vulic-2020-MultiSimLex.tsv"
+    }
+  ]
+}
