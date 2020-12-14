@@ -268,23 +268,23 @@ Lynott-2013-400	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	en		
 Lynott-2013-400	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
 Lynott-2013-400	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by smelling.
 Lynott-2013-400	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
-Lynott-2013-400	DOMINANT_MODALITY	linguistic	sensory modality	dominant	ratings	meta	en		Modality through which noun concept is experienced most strongly (i.e., with highest strength rating).
-Lynott-2013-400	EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	meta	en		Extent to which noun concept is experienced though a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
-Winter-2016-300	DOMINANT_MODALITY	linguistic	sensory modality	dominant	ratings	meta	en		Modality through which noun concept is experienced most strongly (i.e., with highest strength rating).
+Lynott-2013-400	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant	ratings	meta	en		Modality through which noun concept is experienced most strongly (i.e., with highest strength rating).
+Lynott-2013-400	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	meta	en		Extent to which noun concept is experienced though a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
+Winter-2016-300	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant	ratings	meta	en		Modality through which noun concept is experienced most strongly (i.e., with highest strength rating).
 Winter-2016-300	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
 Winter-2016-300	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
 Winter-2016-300	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by hearing.
 Winter-2016-300	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	en		Standard deviation of gustatory strength ratings.
 Winter-2016-300	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
-Winter-2016-300	EXCLUSIVITY	percentage	sensory modality	exclusivity	norms	meta	en		Extent to which verbs concept is experienced though a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
+Winter-2016-300	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity	norms	meta	en		Extent to which verbs concept is experienced though a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
 Lynott-2009-423	FAMILARITY	percentage	familiarity		ratings	user	en		The values represent the proportion of participants who believed that they knew the word’s meaning.
 Lynott-2009-423	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
 Lynott-2009-423	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
 Lynott-2009-423	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by hearing.
 Lynott-2009-423	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by smelling.
 Lynott-2009-423	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
-Lynott-2009-423	DOMINANT_MODALITY	linguistic	sensory modality	dominant	ratings	meta	en		Modality through which property is experienced most strongly (i.e., with highest strength rating).
-Lynott-2009-423	EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	meta	en		Extent to which property is experienced though a single perceptual modality (0%–100%), calculated as range of strength values divided by their sum.
+Lynott-2009-423	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant	ratings	meta	en		Modality through which property is experienced most strongly (i.e., with highest strength rating).
+Lynott-2009-423	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	meta	en		Extent to which property is experienced though a single perceptual modality (0%–100%), calculated as range of strength values divided by their sum.
 Izura-2005-499	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	es	Hernandez2002	One hundred words were selected per category from the study by [Hernández-Muñoz (2002)](:bib:Hernandez2002), which is an exploration of the common vocabulary shared by the Spanish community of Cuenca. The first 100 words with the highest LA scores in each category were selected for the present study.
 Izura-2005-499	TYPICALITY	mean	typicality		ratings	user	es		Typicality refers to the degree to which a concept (e.g., dog) is representative of a given category (e.g., animals).
 Izura-2005-499	FAMILIARITY	mean	familiarity		ratings	user	es		The participants were asked to estimate the degree to which they thought about or came into contact with a concept, using a 7-point scale (from 1  less than once a month to 7  many times a day).
@@ -420,11 +420,11 @@ Morucci-2019-643	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	it		Mean 
 Morucci-2019-643	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	it		Mean rating (0-5) of how strongly adjective concept is experienced by smelling.
 Morucci-2019-643	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	it		Mean rating (0-5) of how strongly adjective concept is experienced by seeing.
 Morucci-2019-643	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant	ratings	meta	it		Modality through which adjective concept is experienced most strongly (i.e., with highest strength rating).
-Morucci-2019-643	EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	meta	it		Extent to which adjective concept is experienced through a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
+Morucci-2019-643	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	meta	it		Extent to which adjective concept is experienced through a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
 Morucci-2019-643	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum	ratings	user	it		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
 Morucci-2019-643	PERCEPTUAL_STRENGTH_SUM	numeric	sensory modality	sum	ratings	user	it		The sum of the perceptual scores related to the five sensory modalities.
 Morucci-2019-643	PERCEPTUAL_STRENGTH_ENTROPY	numeric	sensory modality	entropy	ratings	user	it		The variability of the scores across the five sensory modalities.
-Morucci-2019-643	FAMILIARITY	mean	familiarity		ratings	user	en		The frequency (1-7) with which a word occurs in everyday life.
+Morucci-2019-643	FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		The frequency (1-7) with which a word occurs in everyday life.
 Morucci-2019-643	AOA_MEAN	mean	AoA		ratings	user	en		The age at which a word was learnt. The rating scale goes from one (0–2 years) to seven (13 and older) with intervening points spanning two years. 
 Miklashevsky-2018-506	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by hearing.
 Miklashevsky-2018-506	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by tasting.
@@ -432,7 +432,7 @@ Miklashevsky-2018-506	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	ru		
 Miklashevsky-2018-506	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by smelling.
 Miklashevsky-2018-506	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by seeing.
 Miklashevsky-2018-506	AOA_MEAN	mean	AoA		ratings	user	ru		The mean of age of acquisition rating (1—the lowest; 7—the highest).
-Miklashevsky-2018-506	CATEGORY	linguistic	semantic field		relations	user	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
+Miklashevsky-2018-506	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
 Miklashevsky-2018-506	ABSTRACTNESS	linguistic	semantic		relations	user	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
 Miklashevsky-2018-506	OBJECTIVE_WORD_FREQUENCY	logarithmic	frequency		norms	corpus	ru	Ljashevskaja2009	The decimal logarithm of objective word frequency (based on [Ljashevskaja and Sharov 2009](:bib:Ljashevskaja2009)).
 Miklashevsky-2018-506	IMAGEABILITY_MEAN	mean	imageability		ratings	user	ru		Imageability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
