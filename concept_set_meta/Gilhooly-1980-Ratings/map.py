@@ -2,7 +2,7 @@ from pynorare.dataset import NormDataSet
 
 class Dataset(NormDataSet):
 
-    id = "Gilhooly-1980-AoA"
+    id = "Gilhooly-1980-Ratings"
 
     def map(self, write_file=True):
         

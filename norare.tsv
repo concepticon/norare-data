@@ -499,9 +499,9 @@ Medler-2005-Perceptual	ENGLISH_COLOR_MEAN	mean	sensory modality	color	ratings	us
 Medler-2005-Perceptual	ENGLISH_MANIPULATION_MEAN	mean	sensory modality	manipulation	ratings	user	en		This is the mean rating in the manipulation modality on a scale from 0 (NO manipulation associated) to 6 (DOES VERY MUCH have manipulation associated).
 Medler-2005-Perceptual	ENGLISH_MOTION_MEAN	mean	sensory modality	motion	ratings	user	en		This is the mean rating in the motion modality on a scale from 0 (NO motion associated) to 6 (DOES VERY MUCH have motion associated).
 Medler-2005-Perceptual	ENGLISH_EMOTION_MEAN	mean	sensory modality	emotion	ratings	user	en		This is the mean rating in the emotion modality on a scale from 0 (NO emotion associated) to 6 (DOES VERY MUCH have emotion associated).
-Gilhooly-1980-AoA	ENGLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	en		Mean value of imageability ratings based on a 7-point scale.
-Gilhooly-1980-AoA	ENGLISH_AOA_MEAN	mean	AoA		ratings	user	en		Mean value of age-of-acquisition ratings based on a 7-point scale.
-Gilhooly-1980-AoA	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		Mean value of familiarity ratings based on a 7-point scale.
-Gilhooly-1980-AoA	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	en		Mean value of concreteness ratings based on a 7-point scale.
-Gilhooly-1980-AoA	ENGLISH_MEANING_UNCERTAINTY	numeric	ambiguity	degree	ratings	user	en		An information theory measure of the average uncertainty of which meaning would be dominant was derived from the response data for each word. This measure of meaning uncertainty (U) provides a numerical index of degree of ambiguity.
-Gilhooly-1980-AoA	ENGLISH_FREQUENCY	tokens	frequency		ratings	corpus	en	Thorndike1944	Frequencies of English words based on the Thorndike–Lorge list ([Thorndike and Lorge 1944](:bib:Thorndike1944)).
+Gilhooly-1980-Ratings	ENGLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	en		Mean value of imageability ratings based on a 7-point scale.
+Gilhooly-1980-Ratings	ENGLISH_AOA_MEAN	mean	AoA		ratings	user	en		Mean value of age-of-acquisition ratings based on a 7-point scale.
+Gilhooly-1980-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		Mean value of familiarity ratings based on a 7-point scale.
+Gilhooly-1980-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	en		Mean value of concreteness ratings based on a 7-point scale.
+Gilhooly-1980-Ratings	ENGLISH_MEANING_UNCERTAINTY	numeric	ambiguity	degree	ratings	user	en		An information theory measure of the average uncertainty of which meaning would be dominant was derived from the response data for each word. This measure of meaning uncertainty (U) provides a numerical index of degree of ambiguity.
+Gilhooly-1980-Ratings	ENGLISH_FREQUENCY	tokens	frequency		ratings	corpus	en	Thorndike1944	Frequencies of English words based on the Thorndike–Lorge list ([Thorndike and Lorge 1944](:bib:Thorndike1944)).
