@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of various ratings by Gilhooly and Logie (1980).",
   "dc:source": "https://link.springer.com/content/pdf/10.3758/BF03201693.pdf",
   "dc:references" : "Gilhooly1980",
-  "dcat:keyword": ["AoA", "monolingual", "English", "concreteness", "imagery", "familiarity"],
+  "dcat:keyword": ["AoA", "monolingual", "English", "concreteness", "imageability", "familiarity"],
   "dc:description": "An automated mapping of age-of-acquisition, imagery, concreteness, familiarity, and ambiguity measures submitted with the study of Gilhooly and Logie (1980) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
