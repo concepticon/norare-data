@@ -3,8 +3,8 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Automatic mapping of perceptual attribute ratings by Medler et al. (2005).",
   "dc:source": "http://www.neuro.mcw.edu/ratings/",
-  "dc:references" : "Mandera2015",
-  "dcat:keyword": ["word frequency", "monolingual", "Polish"],
+  "dc:references" : "Medler2005",
+  "dcat:keyword": ["sensorimotor", "monolingual", "English"],
   "dc:description": "An automated mapping of the Wisconsin Perceptual Attribute Rating Database submitted with the study of Medler et al. (2005) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",

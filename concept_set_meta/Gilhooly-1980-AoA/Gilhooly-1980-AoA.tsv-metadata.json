@@ -1,0 +1,100 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of various ratings by Gilhooly and Logie (1980).",
+  "dc:source": "https://link.springer.com/content/pdf/10.3758/BF03201693.pdf",
+  "dc:references" : "Gilhooly1980",
+  "dcat:keyword": ["AoA", "monolingual", "English", "concreteness", "imagery", "familiarity"],
+  "dc:description": "An automated mapping of age-of-acquisition, imagery, concreteness, familiarity, and ambiguity measures submitted with the study of Gilhooly and Logie (1980) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "ENGLISH"
+          }, 
+          {
+            "name": "ENGLISH_IMAGEABILITY_MEAN",
+            "datatype": "float",
+            "titles": "Imagery mean"
+          },
+          {
+            "name": "ENGLISH_IMAGEABILITY_SD",
+            "datatype": "float",
+            "titles": "Imagery SD"
+          },
+          {
+            "name": "ENGLISH_AOA_MEAN",
+            "datatype": "float",
+            "titles": "AOA mean"
+          },
+          {
+            "name": "ENGLISH_AOA_SD",
+            "datatype": "float",
+            "titles": "AOA SD"
+          },
+          {
+            "name": "ENGLISH_FAMILIARITY_MEAN",
+            "datatype": "float",
+            "titles": "Familiarity mean"
+          },
+          {
+            "name": "ENGLISH_FAMILIARITY_SD",
+            "datatype": "float",
+            "titles": "Familiarity SD"
+          },
+          {
+            "name": "ENGLISH_CONCRETENESS_MEAN",
+            "datatype": "float",
+            "titles": "Concreteness mean"
+          },
+          {
+            "name": "ENGLISH_CONCRETENESS_SD",
+            "datatype": "float",
+            "titles": "Concreteness SD"
+          },
+          {
+            "name": "ENGLISH_MEANING_UNCERTAINTY",
+            "datatype": "float",
+            "titles": "Meaning uncertainty"
+          },
+          {
+            "name": "ENGLISH_FREQUENCY",
+            "datatype": "integer",
+            "titles": "Thorndike-Lorge frequency"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Gilhooly-1980-AoA.tsv"
+    }
+  ]
+}
