@@ -505,14 +505,14 @@ Gilhooly-1980-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en
 Gilhooly-1980-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	en		Mean value of concreteness ratings based on a 7-point scale.
 Gilhooly-1980-Ratings	ENGLISH_MEANING_UNCERTAINTY	numeric	ambiguity	degree	ratings	user	en		An information theory measure of the average uncertainty of which meaning would be dominant was derived from the response data for each word. This measure of meaning uncertainty (U) provides a numerical index of degree of ambiguity.
 Gilhooly-1980-Ratings	ENGLISH_FREQUENCY	tokens	frequency		ratings	corpus	en	Thorndike1944	Frequencies of English words based on the Thorndike–Lorge list ([Thorndike and Lorge 1944](:bib:Thorndike1944)).
-Scheible-2014-1755a	RELATION_TYPE	linguistic	semantic class		relation	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
-Scheible-2014-1755a	SCORES	semantic	similarity		relation	users	de		The mean of similarity judgments to word pairs on a 5-point scale.
-Scheible-2014-772b	POLYSEMY_CLASS	linguistic	polysemy		relation	users	en		The degree of polysemy (1-3).
-Scheible-2014-772b	FREQUENCY_CLASS	linguistic	frequency		relation	users	en		The degree of frequency (high, medium, low).
-Scheible-2014-772b	DEGREE_CLASS	linguistic	degree		relation	users	en		The class of degree (low, high, not).
-Scheible-2014-772b	RELATION_TYPE	linguistic	semantic class		relation	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
-Scheible-2014-772b	FORWARD_SCORES	semantic	similarity	forward	relation	users	de		The mean of similarity judgments to word pairs on a 5-point scale (forward calculation: 0-5).
-Scheible-2014-772b	BACKWARD_SCORES	semantic	similarity	backward	relation	users	de		The mean of similarity judgments to word pairs on a 5-point scale (backward calculation: 5-0).
+Scheible-2014-1755a	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
+Scheible-2014-1755a	SCORES	semantic	similarity		relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale.
+Scheible-2014-772b	POLYSEMY_CLASS	linguistic	polysemy		relations	users	en		The degree of polysemy (1-3).
+Scheible-2014-772b	FREQUENCY_CLASS	linguistic	frequency		relations	users	en		The degree of frequency (high, medium, low).
+Scheible-2014-772b	DEGREE_CLASS	linguistic	degree		relations	users	en		The class of degree (low, high, not).
+Scheible-2014-772b	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
+Scheible-2014-772b	FORWARD_SCORES	semantic	similarity	forward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (forward calculation: 0-5).
+Scheible-2014-772b	BACKWARD_SCORES	semantic	similarity	backward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (backward calculation: 5-0).
 Zalizniak-2020-2590	RANK	numeric	stability	rate	relations	concept lists	en		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
 Carling-2019-99	LOAN	numeric	boworring score		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
 Carling-2019-99	NO_LOAN	numeric	boworring score	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
