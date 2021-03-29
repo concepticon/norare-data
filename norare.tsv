@@ -138,15 +138,15 @@ Ferre-2017-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	anger		ratings	user	es		The 
 Ferre-2017-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	sadness		ratings	user	es		The mean value of the ratings for the discrete emotion sadness on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	fear		ratings	user	es		The mean value of the ratings for the discrete emotion fear on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	disgust		ratings	user	es		The mean value of the ratings for the discrete emotion disgust on a 5-point scale.
-Rzymski-2020-1624	FAMILY_FREQUENCY	numeric	colexifications	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
-Rzymski-2020-1624	LANGUAGE_FREQUENCY	numeric	colexifications	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
-Rzymski-2020-1624	WORD_FREQUENCY	numeric	colexifications	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
-Rzymski-2020-1624	RANK	numeric	colexifications	rank	relations	concept lists	en		This is the rank based on the degree.
-Rzymski-2020-1624	COMMUNITY	numeric	colexifications	community	relations	concept lists	en		This is the community identifier.
-Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	colexifications	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
-Rzymski-2020-1624	DEGREE	numeric	colexifications	degree	relations	concept lists	en		This is the unweighted and weighted degree for each node.
-Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	colexifications	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
-Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	colexifications	weigthed language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
+Rzymski-2020-1624	FAMILY_FREQUENCY	numeric	polysemy	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
+Rzymski-2020-1624	LANGUAGE_FREQUENCY	numeric	polysemy	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
+Rzymski-2020-1624	WORD_FREQUENCY	numeric	polysemy	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
+Rzymski-2020-1624	RANK	numeric	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
+Rzymski-2020-1624	COMMUNITY	numeric	polysemy	community	relations	concept lists	en		This is the community identifier.
+Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
+Rzymski-2020-1624	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the unweighted and weighted degree for each node.
+Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	polysemy	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
+Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weigthed language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
 Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN	mean	happiness		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category happiness.
 Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN	mean	anger		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category anger.
 Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN	mean	sadness		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category sadness.
@@ -505,3 +505,42 @@ Gilhooly-1980-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en
 Gilhooly-1980-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	en		Mean value of concreteness ratings based on a 7-point scale.
 Gilhooly-1980-Ratings	ENGLISH_MEANING_UNCERTAINTY	numeric	ambiguity	degree	ratings	user	en		An information theory measure of the average uncertainty of which meaning would be dominant was derived from the response data for each word. This measure of meaning uncertainty (U) provides a numerical index of degree of ambiguity.
 Gilhooly-1980-Ratings	ENGLISH_FREQUENCY	tokens	frequency		ratings	corpus	en	Thorndike1944	Frequencies of English words based on the Thorndike–Lorge list ([Thorndike and Lorge 1944](:bib:Thorndike1944)).
+Scheible-2014-1755a	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
+Scheible-2014-1755a	SCORES	semantic	similarity		relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale.
+Scheible-2014-772b	POLYSEMY_CLASS	linguistic	polysemy		relations	users	en		The degree of polysemy (1-3).
+Scheible-2014-772b	FREQUENCY_CLASS	linguistic	frequency		relations	users	en		The degree of frequency (high, medium, low).
+Scheible-2014-772b	DEGREE_CLASS	linguistic	degree		relations	users	en		The class of degree (low, high, not).
+Scheible-2014-772b	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
+Scheible-2014-772b	FORWARD_SCORES	mean	similarity	forward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (forward calculation: 0-5).
+Scheible-2014-772b	BACKWARD_SCORES	mean	similarity	backward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (backward calculation: 5-0).
+Zalizniak-2020-2590	RANK	numeric	stability	rate	relations	concept lists	en		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
+Carling-2019-99	LOAN	percentage	boworring score		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
+Carling-2019-99	NO_LOAN	percentage	boworring score	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
+Carling-2019-99	RANK	numeric	stability	rate	relations	concept lists	en		The data in the list are ranked from the highest to the lowest degree of borrowability.
+Pozdniakov-2014-100b	RANK	numeric	stability	rate	relations	concept lists	en		The data for the Atlantic languages are ranked from the highest to the lowest degree of borrowability.
+Pozdniakov-2014-100b	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability score for a given concept in Atlantic languages.
+Wu-2020-150	RANK	numeric	frequency		relations	dictionaries	en		The relative coverage of each target concept across 1895 bilingual dictionaries.
+Thomas-1960-168	RANK	numeric	stability	rate	relations	concept lists	en		The stability ranks for four Mon-Khmer languages.
+Thomas-1960-168	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability score for a given concept in four Mon-Khmer languages.
+Dyen-1964-196	RANK	numeric	stability	rate	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 89 Malayo-Polynesian languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
+Dyen-1964-154	RANK	numeric	stability	rate	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 39 Indo-European languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
+Tadmor-2009-100	RANK	numeric	stability	rate	relations	concept lists	en		This value indicates the stability of a word and its resistance to borrowing across languages.
+Tadmor-2009-100	BORROWED_SCORE	numeric	boworring score		relations	concept lists	en		This gives the average borrowed score of all words corresponding to this meaning.
+Tadmor-2009-100	AGE_SCORE	numeric	age		relations	concept lists	en		This gives the average age score of all words corresponding to this meaning.
+Starostin-2007-110	RANK	numeric	stability	rate	relations	concept lists	ru		This value indicates the stability of a word and its resistance to borrowing across languages.
+Swadesh-1955-215	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability percentages for a given concept in the languages of the world.
+Swadesh-1955-215	RANK	numeric	stability	rate	relations	concept lists	en		This value indicates the stability rank of a word and its resistance to borrowing across languages.
+Vejdemo-2016-167	RANK	numeric	stability	rate	relations	corpus	en		This value indicates the stability rank of a word and its resistance to borrowing across languages.
+Vejdemo-2016-167	RATE	numeric	stability	score	relations	corpus	en		The rate of lexical replacement for the specified concepts in English, Danish, Dutch, German and Swedish, according to word class, frequency, age of acquisition, synonyms, arousal, imageability and average mutual information either from published databases or from corpora and lexica.
+Vulic-2020-2244	ENGLISH_SCORE	mean	similarity		relations	users	en		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	ARABIC_SCORE	mean	similarity		relations	users	ar		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	CHINESE_SCORE	mean	similarity		relations	users	zh		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	WELSH_SCORE	mean	similarity		relations	users	cy		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	ESTONIAN_SCORE	mean	similarity		relations	users	et		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	FINNISH_SCORE	mean	similarity		relations	users	fi		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	FRENCH_SCORE	mean	similarity		relations	users	fr		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	HEBREW_SCORE	mean	similarity		relations	users	he		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	POLISH_SCORE	mean	similarity		relations	users	pl		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	RUSSIAN_SCORE	mean	similarity		relations	users	ru		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	SPANISH_SCORE	mean	similarity		relations	users	es		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	CANTONESE_SCORE	mean	similarity	Cantonese	relations	users	zh		The similarity of a word pair was rated on a scale from 0-6.
