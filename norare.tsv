@@ -532,3 +532,15 @@ Swadesh-1955-215	STABILITY_SCORE	numeric	stability	score	relations	concept lists
 Swadesh-1955-215	RANK	numeric	stability	rate	relations	concept lists	en		This value indicates the stability rank of a word and its resistance to borrowing across languages.
 Vejdemo-2016-167	RANK	numeric	stability	rate	relations	corpus	en		This value indicates the stability rank of a word and its resistance to borrowing across languages.
 Vejdemo-2016-167	RATE	numeric	stability	score	relations	corpus	en		The rate of lexical replacement for the specified concepts in English, Danish, Dutch, German and Swedish, according to word class, frequency, age of acquisition, synonyms, arousal, imageability and average mutual information either from published databases or from corpora and lexica.
+Vulic-2020-2244	ENGLISH_SCORE	mean	similarity		relations	users	en		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	ARABIC_SCORE	mean	similarity		relations	users	ar		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	CHINESE_SCORE	mean	similarity		relations	users	zh		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	WELSH_SCORE	mean	similarity		relations	users	cy		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	ESTONIAN_SCORE	mean	similarity		relations	users	et		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	FINNISH_SCORE	mean	similarity		relations	users	fi		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	FRENCH_SCORE	mean	similarity		relations	users	fr		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	HEBREW_SCORE	mean	similarity		relations	users	he		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	POLISH_SCORE	mean	similarity		relations	users	pl		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	RUSSIAN_SCORE	mean	similarity		relations	users	ru		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	SPANISH_SCORE	mean	similarity		relations	users	es		The similarity of a word pair was rated on a scale from 0-6.
+Vulic-2020-2244	CANTONESE_SCORE	mean	similarity	Cantonese	relations	users	zh		The similarity of a word pair was rated on a scale from 0-6.
