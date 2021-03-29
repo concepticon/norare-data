@@ -511,11 +511,11 @@ Scheible-2014-772b	POLYSEMY_CLASS	linguistic	polysemy		relations	users	en		The d
 Scheible-2014-772b	FREQUENCY_CLASS	linguistic	frequency		relations	users	en		The degree of frequency (high, medium, low).
 Scheible-2014-772b	DEGREE_CLASS	linguistic	degree		relations	users	en		The class of degree (low, high, not).
 Scheible-2014-772b	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
-Scheible-2014-772b	FORWARD_SCORES	semantic	similarity	forward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (forward calculation: 0-5).
-Scheible-2014-772b	BACKWARD_SCORES	semantic	similarity	backward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (backward calculation: 5-0).
+Scheible-2014-772b	FORWARD_SCORES	mean	similarity	forward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (forward calculation: 0-5).
+Scheible-2014-772b	BACKWARD_SCORES	mean	similarity	backward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (backward calculation: 5-0).
 Zalizniak-2020-2590	RANK	numeric	stability	rate	relations	concept lists	en		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
-Carling-2019-99	LOAN	numeric	boworring score		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
-Carling-2019-99	NO_LOAN	numeric	boworring score	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
+Carling-2019-99	LOAN	percentage	boworring score		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
+Carling-2019-99	NO_LOAN	percentage	boworring score	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
 Carling-2019-99	RANK	numeric	stability	rate	relations	concept lists	en		The data in the list are ranked from the highest to the lowest degree of borrowability.
 Pozdniakov-2014-100b	RANK	numeric	stability	rate	relations	concept lists	en		The data for the Atlantic languages are ranked from the highest to the lowest degree of borrowability.
 Pozdniakov-2014-100b	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability score for a given concept in Atlantic languages.
