@@ -34,21 +34,21 @@ G2 = igraph.read('infomap-1-families.gml')
 graph_lookup2 = {}
 for edge in G2.es:
     nA, nB = G2.vs[edge.source].attributes()["label"], G2.vs[edge.target].attributes()["label"]
-    graph_lookup2[nA, nB] = edge.attributes()["LanguageWeight"]
+    graph_lookup2[nA, nB] = edge.attributes()["FamilyWeight"]
 
 # igraph for clics1
 G1 = igraph.read('clics.gml')  # clics1 graph
 graph_lookup1 = {}
 for edge in G1.es:
     nA, nB = G1.vs[edge.source].attributes()["label"], G1.vs[edge.target].attributes()["label"]
-    graph_lookup1[clics1[nA], clics1[nB]] = edge.attributes()["languages"]
+    graph_lookup1[clics1[nA], clics1[nB]] = edge.attributes()["families"]
 
 # igraph for clics3
 G3 = igraph.read('network-3-families.gml')
 graph_lookup3 = {}
 for edge in G3.es:
     nA, nB = G3.vs[edge.source].attributes()["label"], G3.vs[edge.target].attributes()["label"]
-    graph_lookup3[nA, nB] = edge.attributes()["LanguageWeight"]
+    graph_lookup3[nA, nB] = edge.attributes()["FamilyWeight"]
 
 # load multisimlex, this is a bit more complex, since we have to get the
 # information on the pairings
