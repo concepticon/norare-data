@@ -119,11 +119,6 @@
             "titles": "ageOfAquisition_M_Female"
           },
           {
-            "name": "POLISH_AOA_MEAN_FEMALE",
-            "datatype": "float",
-            "titles": "ageOfAquisition_M_Female"
-          },
-          {
             "name": "POLISH_VALENCE_MEAN_MALE",
             "datatype": "float",
             "titles": "Valence_M_Male"
@@ -157,11 +152,6 @@
             "name": "POLISH_IMAGEABILITY_MEAN_MALE",
             "datatype": "float",
             "titles": "imegability_M_Male"
-          },
-          {
-            "name": "POLISH_AOA_MEAN_MALE",
-            "datatype": "float",
-            "titles": "ageOfAquisition_M_Male"
           },
           {
             "name": "POLISH_AOA_MEAN_MALE",
