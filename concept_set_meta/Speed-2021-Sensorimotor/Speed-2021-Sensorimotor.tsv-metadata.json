@@ -34,6 +34,56 @@
             "titles": "Horen"
           },
           {
+            "name": "DUTCH_GUSTATORY_MEAN",
+            "datatype": "float",
+            "titles": "Proeven"
+          },
+          {
+            "name": "DUTCH_HAPTIC_MEAN",
+            "datatype": "float",
+            "titles": "Voelen"
+          },
+          {
+            "name": "DUTCH_INTEROCEPTIVE_MEAN",
+            "datatype": "float",
+            "titles": "Sensaties"
+          },
+          {
+            "name": "DUTCH_OLFACTORY_MEAN",
+            "datatype": "float",
+            "titles": "Ruiken"
+          },
+          {
+            "name": "DUTCH_VISUAL_MEAN",
+            "datatype": "float",
+            "titles": "Zien"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_DOMINANT",
+            "datatype": "float",
+            "titles": "Modality"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_EXCLUSIVITY",
+            "datatype": "float",
+            "titles": "ModalityExclusivity"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_STRENGTH_MAX",
+            "datatype": "float",
+            "titles": "MaxPercStrength"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_STRENGTH_MEAN",
+            "datatype": "float",
+            "titles": "AvModalityStrength"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_STRENGTH_AGGREGATED",
+            "datatype": "float",
+            "titles": "Minkowksi3"
+          },
+          {
             "name": "DUTCH_POS",
             "datatype": "string",
             "titles": "PoS"
