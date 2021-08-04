@@ -552,3 +552,4 @@ Goz-2017-600	AOA_MEAN_OLD	mean	AoA	old	ratings	users	tr		This value includes the
 Goz-2017-600	MEAN_IMAGEABILITY	mean	imageability		ratings	users	tr	Tekcan2005	Imageability estimates were based on a scale from 1 to 7.
 Goz-2017-600	MEAN_CONCRETENESS	mean	concreteness		ratings	users	tr	Tekcan2005	Concreteness estimates were based on a scale from 1 to 7.
 Goz-2017-600	FREQUENCY	token	frequency		norms	corpus	tr	Goz2003	This value is taken from a frequency dictionary of written Turkish based on 1,016,000 words obtained from a variety of written sources, published between 1995 and 2000.
+Speed-2021-Sensorimotor	DUTCH_AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	nl		Mean rating (0-5) of how strongly the concept is experienced by hearing.
