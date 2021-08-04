@@ -1,0 +1,110 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) ratings by Speed and Brysbaert (2021).",
+  "dc:source": "https://osf.io/ubvy2/",
+  "dc:references" : "Speed2021",
+  "dcat:keyword": ["ratings", "monolingual", "auditory", "gustatory", "haptic", "interoceptive", "olfactory", "visual", "action", "perceptual", "sensorimotor", "Dutch"],
+  "dc:description": "An automated mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) ratings submitted with the study of Speed and Brysbaert (2021) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "DUTCH",
+            "datatype": "string",
+            "titles": "Woord"
+          },
+          {
+            "name": "DUTCH_AUDITORY_MEAN",
+            "datatype": "float",
+            "titles": "Horen"
+          },
+          {
+            "name": "DUTCH_GUSTATORY_MEAN",
+            "datatype": "float",
+            "titles": "Proeven"
+          },
+          {
+            "name": "DUTCH_HAPTIC_MEAN",
+            "datatype": "float",
+            "titles": "Voelen"
+          },
+          {
+            "name": "DUTCH_INTEROCEPTIVE_MEAN",
+            "datatype": "float",
+            "titles": "Sensaties"
+          },
+          {
+            "name": "DUTCH_OLFACTORY_MEAN",
+            "datatype": "float",
+            "titles": "Ruiken"
+          },
+          {
+            "name": "DUTCH_VISUAL_MEAN",
+            "datatype": "float",
+            "titles": "Zien"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_DOMINANT",
+            "datatype": "float",
+            "titles": "Modality"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_EXCLUSIVITY",
+            "datatype": "float",
+            "titles": "ModalityExclusivity"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_STRENGTH_MAX",
+            "datatype": "float",
+            "titles": "MaxPercStrength"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_STRENGTH_MEAN",
+            "datatype": "float",
+            "titles": "AvModalityStrength"
+          },
+          {
+            "name": "DUTCH_PERCEPTUAL_STRENGTH_AGGREGATED",
+            "datatype": "float",
+            "titles": "Minkowksi3"
+          },
+          {
+            "name": "DUTCH_POS",
+            "datatype": "string",
+            "titles": "PoS"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Speed-2021-Sensorimotor.tsv"
+    }
+  ]
+}
