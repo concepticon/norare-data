@@ -6,6 +6,7 @@ rm(list = ls())
 library(readr)
 library(ggplot2)
 library(ggthemes)
+library(plyr)
 
 
 # Set working directory to Concepticon repository (please adapt the path accordingly)
@@ -16,6 +17,20 @@ Lynott_2013_400 <- read_delim("Lynott-2013-400.tsv",
                               "\t", escape_double = FALSE, col_types = cols(NUMBER = col_integer(), 
                                                                             CONCEPTICON_ID = col_integer()), 
                               trim_ws = TRUE)
+
+Lynott_2009_423 <- read_delim("Lynott-2009-423.tsv", 
+                              "\t", escape_double = FALSE, col_types = cols(NUMBER = col_integer(), 
+                                                                            CONCEPTICON_ID = col_integer()), 
+                              trim_ws = TRUE)
+
+Winter_2016_300 <- read_delim("Winter-2016-300.tsv", 
+                              "\t", escape_double = FALSE, col_types = cols(NUMBER = col_integer(), 
+                                                                            CONCEPTICON_ID = col_integer()), 
+                              trim_ws = TRUE)
+
+# Use rbind to merge all three data sets
+
+LLW <- rbind.fill(Lynott_2013_400, Lynott_2009_423, Winter_2016_300)
 
 # Set working directory (this should automatically set the working directory to the norare-data repository)
 try(setwd(dirname(rstudioapi::getActiveDocumentContext()$path)))
@@ -29,7 +44,7 @@ Lynott_2020_Sensorimotor <- read_delim("concept_set_meta/Lynott-2020-Sensorimoto
                                        trim_ws = TRUE)
 
 # Merge data sets 
-overlap_LL <- merge(Lynott_2020_Sensorimotor, Lynott_2013_400, by = "CONCEPTICON_ID", suffixes = c(".Lynott_2020",".Lynott_2013"))
+overlap_LL <- merge(Lynott_2020_Sensorimotor, LLW, by = "CONCEPTICON_ID", suffixes = c(".Lynott_2020",".Lynott_2013"))
 
 # Show overlap between the data sets
 nrow(overlap_LL)
