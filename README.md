@@ -87,11 +87,6 @@ If you can't find the `catalog.ini` file, create a directory `mkdir /Users/YOURN
 
 ## Mapping procedure
 
-A detailed description of how to add a new data set to NoRaRe:
-
-Tjuka, Annika. “Adding data sets to NoRaRe: A guide for beginners,” in _Computer-Assisted Language Comparison in Practice_, 11/08/2021, https://calc.hypotheses.org/2890.
-
-
 ### Create a map.py file
 
 You need to derive a dataset first:
@@ -183,3 +178,10 @@ You can validate your data set by typing:
 ```
 $ norare validate YOUR-DATASET-ID
 ```
+
+## References
+
+Tjuka, Annika, Robert Forkel, and Johann-Mattis List (2021): Linking norms, ratings, and relations of words and concepts across multiple language varieties. Behavior Research Methods. 1-21. DOI: https://doi.org/10.3758/s13428-021-01650-1.
+
+Tjuka, Annika. “Adding data sets to NoRaRe: A guide for beginners,” in _Computer-Assisted Language Comparison in Practice_, 11/08/2021, https://calc.hypotheses.org/2890.
+
