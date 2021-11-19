@@ -87,6 +87,11 @@ If you can't find the `catalog.ini` file, create a directory `mkdir /Users/YOURN
 
 ## Mapping procedure
 
+A detailed description of how to add a new data set to NoRaRe:
+
+Tjuka, Annika. “Adding data sets to NoRaRe: A guide for beginners,” in Computer-Assisted Language Comparison in Practice, 11/08/2021, https://calc.hypotheses.org/2890.
+
+
 ### Create a map.py file
 
 You need to derive a dataset first:
