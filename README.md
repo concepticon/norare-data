@@ -185,3 +185,4 @@ Tjuka, Annika, Robert Forkel, and Johann-Mattis List (2021): Linking norms, rati
 
 Tjuka, Annika. “Adding data sets to NoRaRe: A guide for beginners,” in _Computer-Assisted Language Comparison in Practice_, 11/08/2021, https://calc.hypotheses.org/2890.
 
+Tjuka, Annika. “Comparing NoRaRe data sets: Calculation of correlations and creation of plots in R,” in _Computer-Assisted Language Comparison in Practice_, 24/11/2021, https://calc.hypotheses.org/3109.
