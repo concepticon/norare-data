@@ -60,7 +60,7 @@
           },
           {
             "name": "DUTCH_PERCEPTUAL_DOMINANT",
-            "datatype": "float",
+            "datatype": "string",
             "titles": "Modality"
           },
           {
