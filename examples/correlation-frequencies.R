@@ -2,21 +2,23 @@
 # Empty work space
 rm(list = ls())
 
-# Load libraries
-library(readr)
-library(ggplot2)
-library(ggthemes)
+# R version: R-4.1.
 
-# Set working directory (this should automatically set the working directory to the norare-data repository)
-dir <- setwd(system("git rev-parse --show-toplevel", intern=T))
+# Load libraries
+library(groundhog) # Version 1.5.0
+pkgs <- c("readr","ggplot2", "ggthemes")
+groundhog.library(pkgs, "2021-11-27")
+
+# Set working directory to NoRaRe repository (please adapt the path accordingly)
+setwd("./concepticon/norare-data/")
 
 # Import data sets
-Brysbaert_2009_Frequency <- read_delim("./concept_set_meta/Brysbaert-2009-Frequency/Brysbaert-2009-Frequency.tsv", 
+Brysbaert_2009_Frequency <- read_delim("concept_set_meta/Brysbaert-2009-Frequency/Brysbaert-2009-Frequency.tsv", 
                                        "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer(), 
                                                                                      ENGLISH_FREQUENCY = col_double()), 
                                        trim_ws = TRUE)
 
-Cuetos_2011_Frequency <- read_delim("./concept_set_meta/Cuetos-2011-Frequency/Cuetos-2011-Frequency.tsv", 
+Cuetos_2011_Frequency <- read_delim("concept_set_meta/Cuetos-2011-Frequency/Cuetos-2011-Frequency.tsv", 
                                     "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer(), 
                                                                                   SPANISH_FREQUENCY = col_double()), 
                                     trim_ws = TRUE)
@@ -71,6 +73,6 @@ c <- ggplot(overlap_CuCa, aes(x=SPANISH_FREQUENCY_LOG, y=CHINESE_FREQUENCY_LOG))
   theme_hc(base_size = 24)
 
 # Save plots 
-ggsave("./examples/log10-english-spanish.pdf", a, width=11, height=8.5)
-ggsave("./examples/log10-english-chinese.pdf", b, width=11, height=8.5)
-ggsave("./examples/log10-spanish-chinese.pdf", c, width=11, height=8.5)
+ggsave("examples/log10-english-spanish.pdf", a, width=11, height=8.5)
+ggsave("examples/log10-english-chinese.pdf", b, width=11, height=8.5)
+ggsave("examples/log10-spanish-chinese.pdf", c, width=11, height=8.5)

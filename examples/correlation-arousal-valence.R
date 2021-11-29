@@ -2,25 +2,27 @@
 # Empty work space
 rm(list = ls())
 
+# R version: R-4.1.
+
 # Load libraries
-library(readr)
-library(ggplot2)
-library(ggthemes)
-library(ggpubr)
-library(gridExtra)
+library(groundhog) # Version 1.5.0
+pkgs <- c("readr","ggplot2", "ggthemes", "ggpubr", "gridExtra")
+groundhog.library(pkgs, "2021-11-27")
 
 
+# Set working directory to NoRaRe repository (please adapt the path accordingly)
+setwd("./concepticon/norare-data/")
 
 # Import data sets
-English_Scott_2019 <- read_delim("./concepticon/norare-data/concept_set_meta/Scott-2019-Ratings/Scott-2019-Ratings.tsv", 
+English_Scott_2019 <- read_delim("concept_set_meta/Scott-2019-Ratings/Scott-2019-Ratings.tsv", 
                                  "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer()), 
                                  trim_ws = TRUE)
 
-Dutch_Moors_2013 <- read_delim("./concepticon/norare-data/concept_set_meta/Moors-2013-Ratings/Moors-2013-Ratings.tsv", 
+Dutch_Moors_2013 <- read_delim("concept_set_meta/Moors-2013-Ratings/Moors-2013-Ratings.tsv", 
                                             "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer()), 
                                             trim_ws = TRUE)
 
-Spanish_Stadthagen_2017 <- read_delim("./concepticon/norare-data/concept_set_meta/StadthagenGonzalez-2017-ValenceArousal/StadthagenGonzalez-2017-ValenceArousal.tsv", 
+Spanish_Stadthagen_2017 <- read_delim("concept_set_meta/StadthagenGonzalez-2017-ValenceArousal/StadthagenGonzalez-2017-ValenceArousal.tsv", 
                                     "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer()), 
                                     trim_ws = TRUE)
 
@@ -82,7 +84,7 @@ c_arousal
 
 g_arousal = grid.arrange(a_arousal, b_arousal, c_arousal, nrow=1)
 
-ggsave("arousal.png", g_arousal, width=33, height=10)
+ggsave("examples/arousal.png", g_arousal, width=33, height=10)
 
 
 # Create and save plots for valence
@@ -119,4 +121,4 @@ c_valence
 
 g_valence = grid.arrange(a_valence, b_valence, c_valence, nrow=1)
 
-ggsave("valence.png", g_valence, width=33, height=10, limitsize = FALSE)
+ggsave("examples/valence.png", g_valence, width=33, height=10, limitsize = FALSE)

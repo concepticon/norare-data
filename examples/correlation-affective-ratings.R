@@ -2,21 +2,23 @@
 # Empty work space
 rm(list = ls())
 
+# R version: R-4.1.
+
 # Load libraries
-library(readr)
-library(ggplot2)
-library(ggthemes)
+library(groundhog) # Version 1.5.0
+pkgs <- c("readr","ggplot2", "ggthemes")
+groundhog.library(pkgs, "2021-11-27")
 
 
-# Set working directory (this should automatically set the working directory to the norare-data repository)
-dir <- setwd(system("git rev-parse --show-toplevel", intern=T))
+# Set working directory to NoRaRe repository (please adapt the path accordingly)
+setwd("./concepticon/norare-data/")
 
 # Import data sets
-Scott_2019_Ratings <- read_delim("./concept_set_meta/Scott-2019-Ratings/Scott-2019-Ratings.tsv", 
+Scott_2019_Ratings <- read_delim("concept_set_meta/Scott-2019-Ratings/Scott-2019-Ratings.tsv", 
                                  "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer()), 
                                  trim_ws = TRUE)
 
-Warriner_2013_AffectiveRatings <- read_delim("./concept_set_meta/Warriner-2013-AffectiveRatings/Warriner-2013-AffectiveRatings.tsv", 
+Warriner_2013_AffectiveRatings <- read_delim("concept_set_meta/Warriner-2013-AffectiveRatings/Warriner-2013-AffectiveRatings.tsv", 
                                              "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer(), 
                                                                                            LINE_IN_SOURCE = col_integer()), 
                                              trim_ws = TRUE)
@@ -60,6 +62,6 @@ c <- ggplot(overlap_WS, aes(x=ENGLISH_DOMINANCE_MEAN.Scott, y=ENGLISH_DOMINANCE_
   theme_hc(base_size = 24) 
   
 # Save plots
-ggsave("./examples/arousal.pdf", a, width=11, height=8.5)
-ggsave("./examples/valence.pdf", b, width=11, height=8.5)
-ggsave("./examples/dominance.pdf", c, width=11, height=8.5)
+ggsave("examples/arousal.pdf", a, width=11, height=8.5)
+ggsave("examples/valence.pdf", b, width=11, height=8.5)
+ggsave("examples/dominance.pdf", c, width=11, height=8.5)
