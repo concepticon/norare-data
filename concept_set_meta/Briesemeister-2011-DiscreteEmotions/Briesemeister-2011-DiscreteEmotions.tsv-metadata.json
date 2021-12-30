@@ -51,7 +51,7 @@
           {
             "name": "GERMAN_DISGUST_MEAN",
             "datatype": "float",
-            "titles": "FEA_MEAN"
+            "titles": "DIS_MEAN"
           },
           {
             "name": "GERMAN_EMOTION_DOMINANT",
