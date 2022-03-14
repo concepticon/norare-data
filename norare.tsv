@@ -597,3 +597,9 @@ Zhong-2022-664	SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensorimotor dimensio
 Zhong-2022-664	SENSORIMOTOR_STRENGTH_SUM	sum	sensorimotor dimensions		ratings	user	zh		This value represents the summarized sensorimotor strength in all dimensions.
 Zhong-2022-664	SENSORIMOTOR_EXCLUSIVITY	percentage	sensorimotor dimensions	exclusivity	ratings	user	zh		Sensorimotor exclusivity of the concept; the extent to which a concept is experienced through a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum.
 Zhong-2022-664	CONCRETE_ABSTRACT	semantic	concrete/abstract		ratings	user	zh		This value represents the categorical distinction of whether the word is abstract or concrete.
+Jackson-2019-24	VALENCE	mean	valence		ratings	user	en	Jackson2019	Valency ratings for emotion concepts based on a 10-point likert scale.
+Jackson-2019-24	ACTIVATION	mean	activation		ratings	user	en	Jackson2019	Activation ratings for emotion concepts based on a 10-point likert scale.
+Jackson-2019-24	DOMINANCE	mean	dominance		ratings	user	en	Jackson2019	Dominance ratings for emotion concepts based on a 10-point likert scale.
+Jackson-2019-24	CERTAINTY	mean	certainty		ratings	user	en	Jackson2019	Certainty ratings for emotion concepts based on a 10-point likert scale.
+Jackson-2019-24	APPROACH_AVOIDANCE	mean	approach avoidance		ratings	user	en	Jackson2019	Approach avoidance ratings for emotion concepts based on a 10-point likert scale.
+Jackson-2019-24	SOCIALITY	mean	sociality		ratings	user	en	Jackson2019	Sociality ratings for emotion concepts based on a 10-point likert scale.
