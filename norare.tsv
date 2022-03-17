@@ -287,7 +287,7 @@ Lynott-2009-423	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant	ratings
 Lynott-2009-423	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	meta	en		Extent to which property is experienced through a single perceptual modality (0%–100%), calculated as range of strength values divided by their sum.
 Izura-2005-499	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	es	Hernandez2002	One hundred words were selected per category from the study by [Hernández-Muñoz (2002)](:bib:Hernandez2002), which is an exploration of the common vocabulary shared by the Spanish community of Cuenca. The first 100 words with the highest LA scores in each category were selected for the present study.
 Izura-2005-499	TYPICALITY	mean	typicality		ratings	user	es		Typicality refers to the degree to which a concept (e.g., dog) is representative of a given category (e.g., animals).
-Izura-2005-499	FAMILIARITY	mean	familiarity		ratings	user	es		The participants were asked to estimate the degree to which they thought about or came into contact with a concept, using a 7-point scale (from 1  less than once a month to 7  many times a day).
+Izura-2005-499	FAMILIARITY	mean	familiarity		ratings	user	es		The participants were asked to estimate the degree to which they thought about or came into contact with a concept, using a 7-point scale (from 1 less than once a month to 7 many times a day).
 Izura-2005-499	AOA	mean	AoA		ratings	user	es		50 monolingual native Spanish speakers with a mean age of 23 years (range, 18–42) were asked to indicate the age at which they believed they had first learned each word.
 Izura-2005-499	IMAGEABILITY	mean	imageability		ratings	user	es		Ratings were obtained on a scale ranging from 1 (very difficult to arouse a mental image) to 7 (very easy to arouse a mental image).
 Izura-2005-499	LEXICAL_AVAILABILITY	mean	lexical availability		ratings	user	es	Hernandez2002	LA denotes the readiness with which a word is produced as a member of a given category. The LA values presented here were taken from [Hernández-Muñoz (2002)](:bib:Hernandez2002), who collected written category generation data from 117 Spanish native speakers 17 to 18 years of age.
@@ -603,3 +603,18 @@ Jackson-2019-24	DOMINANCE	mean	dominance		ratings	user	en		Dominance ratings for
 Jackson-2019-24	CERTAINTY	mean	certainty		ratings	user	en		Certainty ratings for emotion concepts based on a 10-point Likert scale.
 Jackson-2019-24	APPROACH_AVOIDANCE	mean	approach avoidance		ratings	user	en		Approach avoidance ratings for emotion concepts based on a 10-point Likert scale.
 Jackson-2019-24	SOCIALITY	mean	sociality		ratings	user	en		Sociality ratings for emotion concepts based on a 10-point Likert scale.
+Wang-2021-90	ISC_BRAIN_OBJNOBJ	numeric	intersubject consistency		norms	user	zh		Intersubject consistency (ISC) values from brain data, calculated from the brain mask defined by contrasting object words with nonobject words.
+Wang-2021-90	ISC_BRAIN_WORDNEUROSYNTH	numeric	intersubject consistency	term word	norms	user	zh		Intersubject consistency (ISC) values from brain data, calculated from the brain mask associated with the term word in the Neurosynth platform.
+Wang-2021-90	ISC_BRAIN_OBJEMONOBJNENOBJ	numeric	intersubject consistency	object contrast	norms	user	zh		Intersubject consistency (ISC) values from brain data, calculated from the brain mask defined by contrasting objects versus emotional nonobjects versus nonemotional nonobjects.
+Wang-2021-90	ISC_BRAIN_OBJNOBJ_LEAVE2_TOP300	numeric	intersubject consistency	individual-subject	norms	user	zh		Intersubject consistency (ISC) values from brain data, calculated from the individual-subject brain mask defined by contrasting object words with nonobject words; there were 300 voxels in each subject mask.
+Wang-2021-90	ISC_BEHAVIORAL	numeric	intersubject consistency	behavioral	norms	user	zh		Intersubject consistency (ISC) values from behavioral data.
+Wang-2021-90	SER_ZSCORE	standardized	sensory experience		ratings	user	zh		The averge of z-scores of language and sensory-experience rating means.
+Wang-2021-90	LANGUAGE_DESCRIPTIVENESS_MEAN	mean	descriptiveness		ratings	user	zh		The rating mean of language descriptiveness on a 7-point scale.
+Wang-2021-90	SER_MEAN	mean	sensory experience		ratings	user	zh		The rating mean of sensory experience on a 7-point scale.
+Wang-2021-90	NAVIGATION_MEAN	mean	navigation		ratings	user	zh		The rating mean of navigation on a 7-point scale.
+Wang-2021-90	MANIPULATION_MEAN	mean	manipulation		ratings	user	zh		The rating mean of manipulation on a 7-point scale.
+Wang-2021-90	STRESS_ACTION_MEAN	mean	action	stress-related	ratings	user	zh		The rating mean of stress-related action on a 7-point scale.
+Wang-2021-90	AROUSAL_MEAN	mean	arousal		ratings	user	zh		The rating mean of arousal on a 7-point scale.
+Wang-2021-90	VALENCE_MEAN	mean	valence		ratings	user	zh		The rating mean of emotional valence on a 7-point scale.
+Wang-2021-90	STROKE	numeric	descriptive	stroke	norms	meta	zh		Total number of strokes of the whole-word.
+Wang-2021-90	FAMILIARITY_MEAN	mean	familiarity		ratings	user	zh		The rating mean of familiarity on a 7-point scale.
