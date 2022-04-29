@@ -181,8 +181,8 @@ $ norare validate YOUR-DATASET-ID
 
 ## References
 
-Tjuka, Annika, Robert Forkel, and Johann-Mattis List (2021): Linking norms, ratings, and relations of words and concepts across multiple language varieties. Behavior Research Methods. 1-21. DOI: https://doi.org/10.3758/s13428-021-01650-1.
+Tjuka, Annika, Robert Forkel, and Johann-Mattis List. 2022. Linking Norms, Ratings, and Relations of Words and Concepts Across Multiple Language Varieties. _Behavior Research Methods_ 54. 864–884. https://doi.org/10.3758/s13428-021-01650-1.
 
-Tjuka, Annika. “Adding data sets to NoRaRe: A guide for beginners,” in _Computer-Assisted Language Comparison in Practice_, 11/08/2021, https://calc.hypotheses.org/2890.
+Tjuka, Annika. “Adding Data Sets to NoRaRe: A Guide for Beginners,” in _Computer-Assisted Language Comparison in Practice_, 11/08/2021, https://calc.hypotheses.org/2890.
 
-Tjuka, Annika. “Comparing NoRaRe data sets: Calculation of correlations and creation of plots in R,” in _Computer-Assisted Language Comparison in Practice_, 24/11/2021, https://calc.hypotheses.org/3109.
+Tjuka, Annika. “Comparing NoRaRe Data Sets: Calculation of Correlations and Creation of Plots in R,” in _Computer-Assisted Language Comparison in Practice_, 24/11/2021, https://calc.hypotheses.org/3109.
