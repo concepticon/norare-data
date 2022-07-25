@@ -277,7 +277,7 @@ Winter-2016-300	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	en		Me
 Winter-2016-300	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	en		Standard deviation of gustatory strength ratings.
 Winter-2016-300	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
 Winter-2016-300	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity	norms	meta	en		Extent to which verbs concept is experienced through a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
-Lynott-2009-423	FAMILARITY	percentage	familiarity		ratings	user	en		The values represent the proportion of participants who believed that they knew the word’s meaning.
+Lynott-2009-423	FAMILIARITY	percentage	familiarity		ratings	user	en		The values represent the proportion of participants who believed that they knew the word’s meaning.
 Lynott-2009-423	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by seeing.
 Lynott-2009-423	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by feeling through touch.
 Lynott-2009-423	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	en		Mean rating (0-5) of how strongly noun concept is experienced by hearing.

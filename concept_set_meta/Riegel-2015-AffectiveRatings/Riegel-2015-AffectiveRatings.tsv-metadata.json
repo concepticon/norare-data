@@ -34,7 +34,7 @@
             "titles": "BAWL_word"
           },
           {
-            "name": "POLISH_VALENCE_MEAN_MALE",
+            "name": "POLISH_VALENCY_MEAN_MALE",
             "datatype": "float",
             "titles": "val_M_men"
           },

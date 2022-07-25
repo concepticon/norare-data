@@ -39,7 +39,7 @@
             "titles": "zscore"
           },
           {
-            "name": "ENGLISH_ACCURACY_MEAN",
+            "name": "ENGLISH_ACCURACY_PERCENTAGE",
             "datatype": "float",
             "titles": "accuracy"
           },
