@@ -44,9 +44,9 @@ Kuperman-2012-AoA	ENGLISH_OCCURRENCES_TOTAL	numeric	AoA	total	ratings	user	en		T
 Kuperman-2012-AoA	ENGLISH_OCCURRENCES_NUM	numeric	AoA	number	ratings	user	en		This is the number of valid age of acquisition-ratings of the word, counting only numeric ratings, not 'don't know's.
 Kuperman-2012-AoA	ENGLISH_AOA_MEAN	mean	AoA		ratings	user	en		This is the mean of the age of acquisition-ratings of the word. A total of 696,048 valid ratings, including 76,211 'don't know's, were collected from 1,729 inhabitants of the US.
 Kuperman-2012-AoA	ENGLISH_DUNNO	percentage	familiarity	dunno	ratings	user	en		This is the proportion of valid responses that are a rating and not a 'don't know'.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_MALE	mean	valence	male	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of men on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN_FEMALE	mean	valence	female	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of women on a 7-point scale.
-Riegel-2015-AffectiveRatings	POLISH_VALENCY_MEAN	mean	valence		ratings	user	pl		This is the mean of the valence ratings for each word obtained in the whole group on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_VALENCE_MEAN_MALE	mean	valence	male	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of men on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_VALENCE_MEAN_FEMALE	mean	valence	female	ratings	user	pl		This is the mean of the valence ratings for each word obtained in the group of women on a 7-point scale.
+Riegel-2015-AffectiveRatings	POLISH_VALENCE_MEAN	mean	valence		ratings	user	pl		This is the mean of the valence ratings for each word obtained in the whole group on a 7-point scale.
 Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	male	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of men on a 7-point scale.
 Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	female	ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the group of women on a 7-point scale.
 Riegel-2015-AffectiveRatings	POLISH_AROUSAL_MEAN	mean	arousal		ratings	user	pl		This is the mean of the arousal ratings for each word obtained in the whole group on a 7-point scale.
