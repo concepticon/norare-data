@@ -39,12 +39,12 @@
             "titles": "val_M_men"
           },
           {
-            "name": "POLISH_VALENCY_MEAN_FEMALE",
+            "name": "POLISH_VALENCE_MEAN_FEMALE",
             "datatype": "float",
             "titles": "val_M_women"
           },
           {
-            "name": "POLISH_VALENCY_MEAN",
+            "name": "POLISH_VALENCE_MEAN",
             "datatype": "float",
             "titles": "val_M_all"
           },
