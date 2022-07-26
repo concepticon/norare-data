@@ -565,7 +565,6 @@ Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_MEAN	mean	sensory modality	str
 Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated strength	ratings	user	nl		Sensory strength across modalities with the effect of weaker modalities attenuated.
 Chedid-2019-Familiarity	FRENCH_RT_MEAN	mean	reaction time	lexical decision	norms	user	fr		Mean of the response time for French nouns.
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	fr		Mean of the conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
-Chedid-2019-Familiarity	FRENCH_RT_MEAN	mean	reaction time	lexical decision	norms	user	fr		Mean of the response time for French nouns.
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MAX	numeric	familiarity	maximum	ratings	user	fr		The maximum of conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MIN	numeric	familiarity	minimum	ratings	user	fr		The minimum of conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
 Zhong-2022-664	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	zh		Visual strength: mean rating (0–5) of how strongly the concept is experienced by seeing.
