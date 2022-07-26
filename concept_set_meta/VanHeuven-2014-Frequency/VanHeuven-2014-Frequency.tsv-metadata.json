@@ -38,7 +38,7 @@
             "titles": "Cbeebies_freq",
             "null": "NA",
               "datatype": {
-                  "base": "integer"
+                  "base": "decimal"
               }
           },
           {
