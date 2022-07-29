@@ -361,7 +361,7 @@ Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_DOMINANT	linguistic	emotion	domin
 Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_INTENSITY	mean	emotion	intensity	ratings	user	en		Mean value of emotion intensity based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word that conveys the highest emotion intensity and the word that conveys the lowest emotion intensity.
 Clark-2004-ImageryFamiliarity	ENGLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	en		Mean value of imageability ratings based on a 7-point scale.
 Clark-2004-ImageryFamiliarity	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		Mean value of familiarity ratings based on a 7-point scale.
-Abdaoui-2017-EmoLex	FRENCH_EMOTION_POLARITY	semantic	emotion	polarity	norms	corpus	fr		Polarity associated with a word (positive/negative) based on a sentiment analysis of texts.
+Abdaoui-2017-EmoLex	FRENCH_EMOTION_POLARITY	linguistic	emotion	polarity	norms	corpus	fr		Polarity associated with a word (positive/negative) based on a sentiment analysis of texts.
 Abdaoui-2017-EmoLex	FRENCH_JOY_ASSOCIATION	numeric	joy		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
 Abdaoui-2017-EmoLex	FRENCH_FEAR_ASSOCIATION	numeric	fear		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
 Abdaoui-2017-EmoLex	FRENCH_SADNESS_ASSOCIATION	numeric	sadness		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
@@ -384,7 +384,7 @@ Matisoff-2015-STEDT	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	
 Kiss-1973-EAT	WEIGHTED_DEGREE	numeric	associations	weighted degree	relations	user	en		This is the weighted degree we computed from the association data (the sum of all association weights per word).
 Kiss-1973-EAT	DEGREE	numeric	associations	degree	relations	user	en		This is the degree we computed from the association data (the number of association edges per word).
 Wikidata	WIKIDATA_DESCRIPTION	semantic	definition		relations	corpus	en		This is the decription of the Wikidata item. It is meant to disambiguate the items.
-Hill-2015-999	SIM_LEX_999	semantic	similarity		relations	corpus	en		The SimLex999 similarity rating. Note that average annotator scores have been (linearly) mapped from the range [0,6] to the range [0,10] to match other datasets such as WordSim-353.
+Hill-2015-999	SIM_LEX_999	numeric	similarity		relations	corpus	en		The SimLex999 similarity rating. Note that average annotator scores have been (linearly) mapped from the range [0,6] to the range [0,10] to match other datasets such as WordSim-353.
 Hill-2015-999	CONCRETENESS_WORD1	mean	concreteness	word1	ratings	corpus	en	Nelson1998	The concreteness rating of word1 on a scale of 1-7. Taken from the University of South Florida Free Association Norms database [(Nelson et al. 1998)](:bib:Nelson1998).
 Hill-2015-999	CONCRETENESS_WORD2	mean	concreteness	word2	ratings	corpus	en	Nelson1998	The concreteness rating of word1 on a scale of 1-7. Taken from the University of South Florida Free Association Norms database [(Nelson et al. 1998)](:bib:Nelson1998).
 Hill-2015-999	CONCRETENESS	mean	concreteness		ratings	corpus	en		The quartile the pair occupies based on the two concreteness ratings.
@@ -505,7 +505,7 @@ Gilhooly-1980-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	
 Gilhooly-1980-Ratings	ENGLISH_MEANING_UNCERTAINTY	numeric	ambiguity	degree	ratings	user	en		An information theory measure of the average uncertainty of which meaning would be dominant was derived from the response data for each word. This measure of meaning uncertainty (U) provides a numerical index of degree of ambiguity.
 Gilhooly-1980-Ratings	ENGLISH_FREQUENCY	tokens	frequency		ratings	corpus	en	Thorndike1944	Frequencies of English words based on the Thorndike–Lorge list of 30,000 words ([Thorndike and Lorge 1944](:bib:Thorndike1944)).
 Scheible-2014-1755	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
-Scheible-2014-1755	SCORES	semantic	similarity		relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale.
+Scheible-2014-1755	SCORES	mean	similarity		relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale.
 Lapesa-2014-772	POLYSEMY_CLASS	numeric	polysemy	degree	relations	users	en		The degree of polysemy (1-3).
 Lapesa-2014-772	FREQUENCY_CLASS	linguistic	frequency	degree	relations	users	en		The degree of frequency (high, medium, low).
 Lapesa-2014-772	DEGREE_CLASS	linguistic	degree		relations	users	en		The class of degree (low, high, not).
@@ -594,7 +594,7 @@ Zhong-2022-664	SENSORIMOTOR_DOMINANT	linguistic	sensory modality	dominant	rating
 Zhong-2022-664	SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated strength	ratings	user	zh		Aggregated sensorimotor strength in all dimensions where the influence of weaker dimensions is attenuated, calculated as Minkowski distance (with exponent 3) of the 11-dimension vector of sensorimotor strength from the origin.
 Zhong-2022-664	SENSORIMOTOR_STRENGTH_SUM	sum	sensory modality		ratings	user	zh		This value represents the summarized sensorimotor strength in all dimensions.
 Zhong-2022-664	SENSORIMOTOR_EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	user	zh		Sensorimotor exclusivity of the concept; the extent to which a concept is experienced through a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum.
-Zhong-2022-664	CONCRETE_ABSTRACT	semantic	concrete/abstract		ratings	user	zh		This value represents the categorical distinction of whether the word is abstract or concrete.
+Zhong-2022-664	CONCRETE_ABSTRACT	linguistic	concrete/abstract		ratings	user	zh		This value represents the categorical distinction of whether the word is abstract or concrete.
 Jackson-2019-24	VALENCE	mean	valence		ratings	user	en		Valence ratings for emotion concepts based on a 10-point Likert scale.
 Jackson-2019-24	ACTIVATION	mean	arousal		ratings	user	en		Arousal ratings for emotion concepts based on a 10-point Likert scale.
 Jackson-2019-24	DOMINANCE	mean	dominance		ratings	user	en		Dominance ratings for emotion concepts based on a 10-point Likert scale.
