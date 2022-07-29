@@ -191,8 +191,8 @@ Lynott-2020-Sensorimotor	ENGLISH_PERCEPTUAL_KNOWN_PERCENTAGE	percentage	familiar
 Lynott-2020-Sensorimotor	ENGLISH_ACTION_KNOWN_PERCENTAGE	percentage	familiarity	action	ratings	user	en		Percentage of participants (0–1) in action strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.action divided by List_N.action.
 Lynott-2020-Sensorimotor	ENGLISH_PERCEPTUAL_AOA_MEAN	mean	AoA	perceptual	ratings	user	en		Average age of participants in perceptual strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
 Lynott-2020-Sensorimotor	ENGLISH_ACTION_AOA_MEAN	mean	AoA	action	ratings	user	en		Average age of participants in action strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
-Kapucu-2018-EmotionRatings	TURKISH_VALENCE_MEAN	mean	valence		ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM scale  for valence.
-Kapucu-2018-EmotionRatings	TURKISH_AROUSAL_MEAN	mean	arousal		ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM scalefor arousal.
+Kapucu-2018-EmotionRatings	TURKISH_VALENCE_MEAN	mean	valence		ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM scale for valence.
+Kapucu-2018-EmotionRatings	TURKISH_AROUSAL_MEAN	mean	arousal		ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM scale for arousal.
 Kapucu-2018-EmotionRatings	TURKISH_HAPPINESS_MEAN	mean	happiness		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category happiness.
 Kapucu-2018-EmotionRatings	TURKISH_ANGER_MEAN	mean	anger		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category anger.
 Kapucu-2018-EmotionRatings	TURKISH_SADNESS_MEAN	mean	sadness		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category sadness.
