@@ -1,6 +1,6 @@
 DATASET	NAME	STRUCTURE	TYPE	OTHER	NORARE	RATING	LANGUAGE	SOURCE	NOTE
-Bond-2013-OMW	IN_DEGREE	numeric	semantic	in degree	relations	user	en		The number of hypernyms of a given concept.
-Bond-2013-OMW	OUT_DEGREE	numeric	semantic	out degree	relations	user	en		The number of hyponyms of a given concept.
+Bond-2013-OMW	IN_DEGREE	numeric	hyperonym	in degree	relations	user	en		The number of hypernyms of a given concept.
+Bond-2013-OMW	OUT_DEGREE	numeric	hyponym	out degree	relations	user	en		The number of hyponyms of a given concept.
 Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA		ratings	user	es		Average score of AoA ratings on a scale from 1 to 11.
 Alonso-2015-AoA	SPANISH_AOA_MIN	numeric	AoA	minimum	ratings	user	es		The minimum age of acquisition indicated by participants.
 Alonso-2015-AoA	SPANISH_AOA_MAX	numeric	AoA	maximum	ratings	user	es		The maximum age of acquisition indicated by participants.
@@ -87,17 +87,17 @@ Warriner-2013-AffectiveRatings	ENGLISH_AROUSAL_MEAN_LOW	mean	arousal	low educati
 Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_HIGH	mean	dominance	high education	ratings	user	en		Mean value of dominance ratings on a 9-point scale across participants with a high education.
 Warriner-2013-AffectiveRatings	ENGLISH_DOMINANCE_MEAN_LOW	mean	dominance	low education	ratings	user	en		Mean value of dominance ratings on a 9-point scale across participants with a low education.
 Cortese-2008-AoA	ENGLISH_AOA_MEAN	mean	AoA		ratings	user	en		This is the mean value of age-of-acquisition ratings on a 7-point scale.
-Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	reaction time	lexical decision	norms	user	en		The average reaction time to the stimulus (correct trials only).
-Keuleers-2012-LexicalDecision	ENGLISH_RT_ZSCORE	standardized	reaction time	lexical decision	norms	user	en		The average standardized reaction time (RT). Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
-Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_PERCENTAGE	percentage	accuracy	lexical decision	norms	user	en		Average accuracy for the stimulus.
-Ferrand-2010-LexicalDecision	FRENCH_RT_MEAN	mean	reaction time	lexical decision	norms	user	fr		The average reaction time to the stimulus (correct trials only).
-Ferrand-2010-LexicalDecision	FRENCH_RT_ZSCORE	standardized	reaction time	lexical decision	norms	user	fr		The average standardized reaction time (RT). Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
+Keuleers-2012-LexicalDecision	ENGLISH_RT_MEAN	mean	lexical decision	reaction time	norms	user	en		The average reaction time to the stimulus (correct trials only).
+Keuleers-2012-LexicalDecision	ENGLISH_RT_ZSCORE	standardized	lexical decision	reaction time	norms	user	en		The average standardized reaction time (RT). Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
+Keuleers-2012-LexicalDecision	ENGLISH_ACCURACY_PERCENTAGE	percentage	lexical decision	accuracy	norms	user	en		Average accuracy for the stimulus.
+Ferrand-2010-LexicalDecision	FRENCH_RT_MEAN	mean	lexical decision	reaction time	norms	user	fr		The average reaction time to the stimulus (correct trials only).
+Ferrand-2010-LexicalDecision	FRENCH_RT_ZSCORE	standardized	lexical decision	reaction time	norms	user	fr		The average standardized reaction time (RT). Standardized RTs were calculated separately for all levels of participant, block, and lexicality (e.g., all RTs to correct word trials in block 1 by participant 1).
 GonzalezNosti-2014-LexicalDecision	SPANISH_AOA_MEAN	mean	AoA		ratings	user	es		Mean value of AoA ratings on a 7-point Likert scale in which 1 corresponded to ages between 0 and 2 years old, 2 to ages between 2 and 4, and so on up to 7, which corresponded to ages over 12 years old.
-GonzalezNosti-2014-LexicalDecision	SPANISH_RT_MEAN	mean	reaction time	lexical decision	norms	user	es		The average reaction time to the stimulus (correct trials only).
-Tsang-2018-LexicalDecision	CHINESE_RT_MEAN	mean	reaction time	lexical decision	norms	user	zh		Mean reaction time across participants.
-Tsang-2018-LexicalDecision	CHINESE_RT_ZSCORE	standardized	reaction time	lexical decision	norms	user	zh		Mean standardized reaction time across participants.
-Tsang-2018-LexicalDecision	CHINESE_STROKE	numeric	descriptive	stroke	norms	meta	zh		Total number of strokes of the whole-word.
-Keuleers-2015-Prevalence	DUTCH_ACCURACY_PERCENTAGE	percentage	accuracy		ratings	user	nl		Average accuracy for the stimulus.
+GonzalezNosti-2014-LexicalDecision	SPANISH_RT_MEAN	mean	lexical decision	reaction time	norms	user	es		The average reaction time to the stimulus (correct trials only).
+Tsang-2018-LexicalDecision	CHINESE_RT_MEAN	mean	lexical decision	reaction time	norms	user	zh		Mean reaction time across participants.
+Tsang-2018-LexicalDecision	CHINESE_RT_ZSCORE	standardized	lexical decision	reaction time	norms	user	zh		Mean standardized reaction time across participants.
+Tsang-2018-LexicalDecision	CHINESE_STROKE	numeric	strokes		norms	meta	zh		Total number of strokes of the whole-word.
+Keuleers-2015-Prevalence	DUTCH_ACCURACY_PERCENTAGE	percentage	familiarity	accuracy	ratings	user	nl		Average accuracy for the stimulus.
 Keuleers-2015-Prevalence	DUTCH_PREVALENCE	normalized	familiarity	prevalence	ratings	user	nl		The word prevalence (number of people who know the word) across nearly 300,000 participants.
 StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	happiness		ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category happiness.
 StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	disgust		ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category disgust.
@@ -183,14 +183,14 @@ Lynott-2020-Sensorimotor	ENGLISH_ACTION_STRENGTH_MAX	numeric	action effector	max
 Lynott-2020-Sensorimotor	ENGLISH_ACTION_STRENGTH_AGGREGATED	normalized	action effector	aggregated strength	ratings	user	en		Aggregated action strength in all effectors where the influence of weaker effectors is attenuated, calculated as Minkowski distance (with exponent 3) of the 5-dimension vector of action strength from the origin.
 Lynott-2020-Sensorimotor	ENGLISH_ACTION_EXCLUSIVITY	percentage	action effector	exclusivity	ratings	user	en		Effector exclusivity of the concept; the extent to which a concept is experienced through a single action effector (0–1, typically expressed as %), calculated as the range of action strength values divided by their sum.
 Lynott-2020-Sensorimotor	ENGLISH_ACTION_DOMINANT	linguistic	action effector	dominant	ratings	user	en		Action effector through which the concept is experienced most strongly (i.e., with highest action strength rating).
-Lynott-2020-Sensorimotor	ENGLISH_SENSORIMOTOR_STRENGTH_MAX	numeric	sensorimotor dimensions	maximum strength	ratings	user	en		Sensorimotor strength in the dominant dimension (i.e., highest strength rating across 11 sensorimotor dimensions).
-Lynott-2020-Sensorimotor	ENGLISH_SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensorimotor dimensions	aggregated strength	ratings	user	en		Aggregated sensorimotor strength in all dimensions where the influence of weaker dimensions is attenuated, calculated as Minkowski distance (with exponent 3) of the 11-dimension vector of sensorimotor strength from the origin.
-Lynott-2020-Sensorimotor	ENGLISH_SENSORIMOTOR_EXCLUSIVITY	percentage	sensorimotor dimensions	exclusivity	ratings	user	en		Sensorimotor exclusivity of the concept; the extent to which a concept is experienced through a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum.
-Lynott-2020-Sensorimotor	ENGLISH_SENSORIMOTOR_DOMINANT	linguistic	sensorimotor dimensions	dominant	ratings	user	en		Sensorimotor dimension through which the concept is experienced most strongly (i.e., with highest sensorimotor strength rating).
-Lynott-2020-Sensorimotor	ENGLISH_PERCEPTUAL_KNOWN_PERCENTAGE	percentage	familiarity	perceptual	ratings	user	en		Percentage of participants (0–1) in perceptual strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.perceptual divided by List_N.perceptual.
-Lynott-2020-Sensorimotor	ENGLISH_ACTION_KNOWN_PERCENTAGE	percentage	familiarity	action	ratings	user	en		Percentage of participants (0–1) in action strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.action divided by List_N.action.
-Lynott-2020-Sensorimotor	ENGLISH_PERCEPTUAL_AOA_MEAN	mean	AoA	perceptual	ratings	user	en		Average age of participants in perceptual strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
-Lynott-2020-Sensorimotor	ENGLISH_ACTION_AOA_MEAN	mean	AoA	action	ratings	user	en		Average age of participants in action strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
+Lynott-2020-Sensorimotor	ENGLISH_SENSORIMOTOR_STRENGTH_MAX	numeric	sensory modality	maximum strength	ratings	user	en		Sensorimotor strength in the dominant dimension (i.e., highest strength rating across 11 sensorimotor dimensions).
+Lynott-2020-Sensorimotor	ENGLISH_SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated strength	ratings	user	en		Aggregated sensorimotor strength in all dimensions where the influence of weaker dimensions is attenuated, calculated as Minkowski distance (with exponent 3) of the 11-dimension vector of sensorimotor strength from the origin.
+Lynott-2020-Sensorimotor	ENGLISH_SENSORIMOTOR_EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	user	en		Sensorimotor exclusivity of the concept; the extent to which a concept is experienced through a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum.
+Lynott-2020-Sensorimotor	ENGLISH_SENSORIMOTOR_DOMINANT	linguistic	sensory modality	dominant	ratings	user	en		Sensorimotor dimension through which the concept is experienced most strongly (i.e., with highest sensorimotor strength rating).
+Lynott-2020-Sensorimotor	ENGLISH_PERCEPTUAL_KNOWN_PERCENTAGE	percentage	familiarity	perceptual strength	ratings	user	en		Percentage of participants (0–1) in perceptual strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.perceptual divided by List_N.perceptual.
+Lynott-2020-Sensorimotor	ENGLISH_ACTION_KNOWN_PERCENTAGE	percentage	familiarity	action strength	ratings	user	en		Percentage of participants (0–1) in action strength norming who knew the concept well enough to provide valid ratings, calculated as N_known.action divided by List_N.action.
+Lynott-2020-Sensorimotor	ENGLISH_PERCEPTUAL_AOA_MEAN	mean	AoA	perceptual strength	ratings	user	en		Average age of participants in perceptual strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
+Lynott-2020-Sensorimotor	ENGLISH_ACTION_AOA_MEAN	mean	AoA	action strength	ratings	user	en		Average age of participants in action strength norming who completed the item list featuring the concept (i.e., who were presented with the concept for rating).
 Kapucu-2018-EmotionRatings	TURKISH_VALENCE_MEAN	mean	valence		ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM scale for valence.
 Kapucu-2018-EmotionRatings	TURKISH_AROUSAL_MEAN	mean	arousal		ratings	user	tr		Mean value for all valid responses on a 9-point Likert SAM scale for arousal.
 Kapucu-2018-EmotionRatings	TURKISH_HAPPINESS_MEAN	mean	happiness		ratings	user	tr		Mean value for all valid responses on a scale ranging from 0 (low intensity) to 100 (strong intensity) for the emotional category happiness.
@@ -319,7 +319,7 @@ Monnier-2014-1031	VALENCE_MALE_MEAN	mean	valence	male	ratings	user	fr		Mean vale
 Monnier-2014-1031	AROUSAL_MALE_MEAN	mean	arousal	male	ratings	user	fr		Mean arousal values for male participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
 Monnier-2014-1031	VALENCE_FEMALE_MEAN	mean	valence	female	ratings	user	fr		Mean valence values for female participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
 Monnier-2014-1031	AROUSAL_FEMALE_MEAN	mean	arousal	female	ratings	user	fr		Mean arousal values for female participants. The valence and arousal scales from the paperand-pencil version of the 9-point SAM scale (Lang, 1980).
-Maciejewski-2016-100	DEFINITION	linguistic	polysemy	definition	relations	meta	en		Definition of the meanings in the Wordsmyth dictionary.
+Maciejewski-2016-100	DEFINITION	semantic	definition		relations	meta	en		Definition of the meanings in the Wordsmyth dictionary.
 Maciejewski-2016-100	SUBJECTIVE_FREQ	mean	frequency	subjective	norms	user	en		Mean subjective frequency ratings of the meanings made by two raters.
 Maciejewski-2016-100	DOMINANCE_SCORE	numeric	polysemy	dominant	relations	meta	en		Dominance score (B), first calculated for each subject and then averaged across subjects (0 - completely balanced, 1 - completely unbalanced homonym).
 Maciejewski-2016-100	NUMBER_WORD_SENSE_WORDSMYTH	numeric	polysemy	number	relations	meta	en	Parks1998	Number of word senses in the Wordsmyth Online Dictionary [(Parks et al., 1998)](:bib:Parks1998).
@@ -328,8 +328,8 @@ Yao-2017-1100	AROUSAL_MEAN	mean	arousal		ratings	user	zh		Arousal rating on a 9-
 Yao-2017-1100	CONCRETENESS_MEAN	mean	concreteness		ratings	user	zh		Concreteness rating on a 9-point Likert scale 960 university students.
 Yao-2017-1100	FAMILIARITY_MEAN	mean	familiarity		ratings	user	zh		Familiarity rating on a 9-point Likert scale 960 university students.
 Yao-2017-1100	IMAGEABILITY_MEAN	mean	imageability		ratings	user	zh		Imageability rating on a 9-point Likert scale 960 university students.
-Yao-2017-1100	CONTEXT_AVAILABILITY_MEAN	mean	semantic	contect availability	ratings	user	zh		Context availability rating on a 9-point Likert scale 960 university students.
-Xiao-2012-213	PEN_STROKES	numeric	descriptive	stroke	norms	meta	zh		Total number of strokes of the whole-word.
+Yao-2017-1100	CONTEXT_AVAILABILITY_MEAN	mean	contect availability		ratings	user	zh		Context availability rating on a 9-point Likert scale 960 university students.
+Xiao-2012-213	PEN_STROKES	numeric	strokes		norms	meta	zh		Total number of strokes of the whole-word.
 Xiao-2012-213	ICONICITY	mean	iconicity		ratings	user	zh		40 U.S. adults with no knowledge of Chinese were given an English word or short phrase together with two Chinese characters and were asked which character matched the meaning of the English word.
 Xiao-2012-213	PICTURABILITY	mean	picturability		ratings	user	zh		31 English speaking students were shown the English translations of Chinese characters used in the experiment and had to rate each translation on a 7-point scale to indicate the extent to which the concept could be expressed easily in a simple black-on-white line drawing or diagram.
 Pagel-2018-200	RATE	numeric	stability	rate	relations	concept lists	en		Stability (rate of lexical change) measured for concepts based on a sample from Indo-European languages.
@@ -339,7 +339,7 @@ Briesemeister-2011-DiscreteEmotions	GERMAN_ANGER_MEAN	mean	anger		ratings	user	d
 Briesemeister-2011-DiscreteEmotions	GERMAN_SADNESS_MEAN	mean	sadness		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category sadness.
 Briesemeister-2011-DiscreteEmotions	GERMAN_FEAR_MEAN	mean	fear		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category fear.
 Briesemeister-2011-DiscreteEmotions	GERMAN_DISGUST_MEAN	mean	disgust		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category disgust.
-Briesemeister-2011-DiscreteEmotions	GERMAN_EMOTION_DOMINANT	linguistic	discrete emotions	dominant	ratings	user	de		A more conservative classification criterion was applied, assigning words to a specific discrete emotion category only in cases in which the averaged rating in one discrete emotion was more than one standard deviation higher than in any other discrete emotion.
+Briesemeister-2011-DiscreteEmotions	GERMAN_EMOTION_DOMINANT	linguistic	emotion	dominant	ratings	user	de		A more conservative classification criterion was applied, assigning words to a specific discrete emotion category only in cases in which the averaged rating in one discrete emotion was more than one standard deviation higher than in any other discrete emotion.
 Mandera-2015-Frequency	POLISH_FREQUENCY	tokens	frequency		norms	corpus	pl		This is the number of times the word appears in the corpus of 101 million tokens (449,300 types).
 Mandera-2015-Frequency	POLISH_CD	numeric	contextual diversity		norms	corpus	pl		This  is the number of films (max. 99,635) in which the word appears.
 Mandera-2015-Frequency	POLISH_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	pl		This is a value based on log10(FREQcount+1).
@@ -357,7 +357,7 @@ Wu-2020-CoreVocabulary	TRANSLATION_COUNT	numeric	core vocabulary	translation cou
 Mohammad-2018-AffectiveRatings	ENGLISH_VALENCE_MEAN	mean	valence		ratings	user	en		Mean value of valence ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest valence and the word with the lowest valence.
 Mohammad-2018-AffectiveRatings	ENGLISH_AROUSAL_MEAN	mean	arousal		ratings	user	en		Mean value of arousal ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest arousal and the word with the lowest arousal.
 Mohammad-2018-AffectiveRatings	ENGLISH_DOMINANCE_MEAN	mean	dominance		ratings	user	en		Mean value of dominance ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest dominance and the word with the lowest dominance.
-Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_DOMINANT	linguistic	discrete emotions	dominant	ratings	user	en		The most dominant emotion based on pointwise mutual information (PMI) with PMI > 1 in the Hashtag Emotion Corpus [(Mohammad 2012)](:bib:Mohammad2012).
+Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_DOMINANT	linguistic	emotion	dominant	ratings	user	en		The most dominant emotion based on pointwise mutual information (PMI) with PMI > 1 in the Hashtag Emotion Corpus [(Mohammad 2012)](:bib:Mohammad2012).
 Mohammad-2018-EmotionIntensity	ENGLISH_EMOTION_INTENSITY	mean	emotion	intensity	ratings	user	en		Mean value of emotion intensity based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word that conveys the highest emotion intensity and the word that conveys the lowest emotion intensity.
 Clark-2004-ImageryFamiliarity	ENGLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	en		Mean value of imageability ratings based on a 7-point scale.
 Clark-2004-ImageryFamiliarity	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		Mean value of familiarity ratings based on a 7-point scale.
@@ -383,17 +383,17 @@ Baroni-2011-200	RANDOM_VERB	linguistic	verb	random	relations	corpus	en		This is 
 Matisoff-2015-STEDT	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	en		This is the semantic key (semkey) which is a unique identification string given to each semantic category, with the semkey taking the form of a string x, x.x, x.x.x, or x.x.x.x. The first digit in the semkey indicates the broad semantic category to which it belongs, as described above, where «1» is used for «Body Parts», «2» is used for «Animals (and Animal Verbs)», and so on. Each of the following «x»s in the semkey (x.x, x.x.x, etc.) denotes a more fine-grained semantic categorization; for example, 1.5 is «Limbs, Joints, & Body Measures», 1.5.1 is «Hand, Arm, Wing», and 1.5.1.1 is «Hand».
 Kiss-1973-EAT	WEIGHTED_DEGREE	numeric	associations	weighted degree	relations	user	en		This is the weighted degree we computed from the association data (the sum of all association weights per word).
 Kiss-1973-EAT	DEGREE	numeric	associations	degree	relations	user	en		This is the degree we computed from the association data (the number of association edges per word).
-Wikidata	WIKIDATA_DESCRIPTION	semantic	description	definition	relations	corpus	en		This is the decription of the Wikidata item. It is meant to disambiguate the items.
+Wikidata	WIKIDATA_DESCRIPTION	semantic	definition		relations	corpus	en		This is the decription of the Wikidata item. It is meant to disambiguate the items.
 Hill-2015-999	SIM_LEX_999	semantic	similarity		relations	corpus	en		The SimLex999 similarity rating. Note that average annotator scores have been (linearly) mapped from the range [0,6] to the range [0,10] to match other datasets such as WordSim-353.
 Hill-2015-999	CONCRETENESS_WORD1	mean	concreteness	word1	ratings	corpus	en	Nelson1998	The concreteness rating of word1 on a scale of 1-7. Taken from the University of South Florida Free Association Norms database [(Nelson et al. 1998)](:bib:Nelson1998).
 Hill-2015-999	CONCRETENESS_WORD2	mean	concreteness	word2	ratings	corpus	en	Nelson1998	The concreteness rating of word1 on a scale of 1-7. Taken from the University of South Florida Free Association Norms database [(Nelson et al. 1998)](:bib:Nelson1998).
 Hill-2015-999	CONCRETENESS	mean	concreteness		ratings	corpus	en		The quartile the pair occupies based on the two concreteness ratings.
 Hill-2015-999	ASSOCIATION_STRENGTH	numeric	associations	strength	relations	corpus	en		The strength of free association from word1 to word2. Values are taken from the University of South Florida Free Association Dataset [(Nelson et al. 1998)](:bib:Nelson1998).
 Hill-2015-999	SIM_ASSOCIATION_333	numeric	associations	binary indicator	relations	corpus	en		Binary indicator of whether the pair is one of the 333 most associated in the dataset (according to ASSOCIATION_STRENGTH). This subset of SimLex999 is often the hardest for computational models to capture because the noise from high association can confound the similarity rating.
-Babelnet	BABELNET_DEFINITION	semantic	description	definition	relations	corpus	en		This is the decription of the Babelnet item.
+Babelnet	BABELNET_DEFINITION	semantic	definition		relations	corpus	en		This is the description of the BabelNet item.
 Haspelmath-2009-1460	SEMANTIC_FIELD	linguistic	semantic field		relations	user	en		The semantic field of a given word.
 Haspelmath-2009-1460	AGE_SCORE	numeric	word age		relations	user	en		This gives the average age score of all words corresponding to this meaning.
-Haspelmath-2009-1460	BORROWING_SCORE	numeric	boworring score		relations	user	en		This gives the average borrowed score of all words corresponding to this meaning.
+Haspelmath-2009-1460	BORROWING_SCORE	percentage	boworring		relations	user	en		This gives the average borrowed score of all words corresponding to this meaning.
 Haspelmath-2009-1460	SIMPLICITY_SCORE	numeric	word simplicity		relations	user	en		This gives the average simplicity score of all words corresponding to this meaning.
 Haspelmath-2009-1460	RANK	numeric	stability	rank	relations	user	en		This value indicates the stability of a word and its resistance to borrowing across languages.
 Calude-2011-200	ENGLISH_FREQUENCY	logarithmic	frequency		norms	corpus	en		Log10 frequency of basic words.
@@ -432,10 +432,10 @@ Miklashevsky-2018-506	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	use
 Miklashevsky-2018-506	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by seeing.
 Miklashevsky-2018-506	AOA_MEAN	mean	AoA		ratings	user	ru		The mean of age of acquisition rating. Participants were asked to indicate the age in years from 0 to 15 in which they had acquired the word.
 Miklashevsky-2018-506	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
-Miklashevsky-2018-506	ABSTRACTNESS	linguistic	semantic		relations	user	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
+Miklashevsky-2018-506	ABSTRACTNESS	linguistic	abstractness		relations	user	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
 Miklashevsky-2018-506	OBJECTIVE_WORD_FREQUENCY	logarithmic	frequency		norms	corpus	ru	Ljashevskaja2009	The decimal logarithm of objective word frequency (based on [Ljashevskaja and Sharov 2009](:bib:Ljashevskaja2009)).
 Miklashevsky-2018-506	IMAGEABILITY_MEAN	mean	imageability		ratings	user	ru		Imageability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
-Miklashevsky-2018-506	MANIPULABILITY_MEAN	mean	manipulability		ratings	user	ru		Manipulability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
+Miklashevsky-2018-506	MANIPULABILITY_MEAN	mean	sensory modality	manipulability	ratings	user	ru		Manipulability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
 Miklashevsky-2018-506	SPATIAL_LOCALIZATION_MEAN	mean	spatial localization		ratings	user	ru		Spatial localization estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
 Miklashevsky-2018-506	SUBJECTIVE_FREQ_MEAN	mean	frequency	subjective	norms	user	ru		 Subjective frequency estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
 Chen-2019-171	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	zh		Mean rating (0-5) of how strongly adjective concept is experienced by hearing.
@@ -476,11 +476,11 @@ VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_BNC	logarithmic	frequency	zipf, B
 VanHeuven-2014-Frequency	ENGLISH_CD	numeric	contextual diversity		norms	corpus	en		This is the number of films in which the word appears (max. 45,099 BBC broadcasts).
 VanHeuven-2014-Frequency	ENGLISH_CD_CBEEBIES	numeric	contextual diversity	Cbeebies	norms	corpus	en		This is the number of films of the Cbeebies corpus (a channel for pre-school children, age 0-6) in which the word appears.
 VanHeuven-2014-Frequency	ENGLISH_CD_CBBC	numeric	contextual diversity	CBBC	norms	corpus	en		This is the number of films of the CBBC corpus (a channel for primary school children, age 6-12) in which the word appears.
-Vergallito-2020-1121	LD_ACCURACY_PERCENTAGE	percentage	accuracy	lexical decision	ratings	users	it		This is the average accuracy of the responses in the lexical decision task.
-Vergallito-2020-1121	LD_RT_MEAN	mean	reaction time	lexical decision	ratings	users	it		This is the mean raw reaction times in the lexical decision task.
-Vergallito-2020-1121	NAMING_ACCURACY_PERCENTAGE	percentage	accuracy	naming	ratings	users	it		This is the average accuracy of the responses in the naming task.
+Vergallito-2020-1121	LD_ACCURACY_PERCENTAGE	percentage	lexical decision	accuracy	ratings	users	it		This is the average accuracy of the responses in the lexical decision task.
+Vergallito-2020-1121	LD_RT_MEAN	mean	lexical decision	reaction time	ratings	users	it		This is the mean raw reaction times in the lexical decision task.
+Vergallito-2020-1121	NAMING_ACCURACY_PERCENTAGE	percentage	naming	accuracy	ratings	users	it		This is the average accuracy of the responses in the naming task.
 Vergallito-2020-1121	NAMING_RT_MEAN	mean	reaction time	naming	ratings	users	it		This is the mean raw reaction times in the naming task.
-Vergallito-2020-1121	LD_RT_ZSCORE	standardized	reaction time	lexical decision	ratings	users	it		This is the reaction times scaled for participant and session, lexical decision task.
+Vergallito-2020-1121	LD_RT_ZSCORE	standardized	lexical decision	reaction time	ratings	users	it		This is the reaction times scaled for participant and session, lexical decision task.
 Vergallito-2020-1121	NAMING_RT_ZSCORE	standardized	reaction time	naming	ratings	users	it		This is the reaction times scaled for participant and session, naming task.
 Vergallito-2020-1121	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	it		This is the mean rating in the auditory modality on a scale from 0 (not at all) to 5 (greatly).
 Vergallito-2020-1121	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	it		This is the mean rating in the gustatory modality on a scale from 0 (not at all) to 5 (greatly).
@@ -495,9 +495,9 @@ Vergallito-2020-1121	VECTOR_MAGNITUDE	magnitude	sensory modality	 vector	ratings
 Blomberg-2020-160	SEMANTIC_CATEGORY	linguistic	semantic field		relations		se		The semantic category of the word (categories: specific, general, emotional, abstract).
 Medler-2005-Perceptual	ENGLISH_SOUND_MEAN	mean	sensory modality	sound	ratings	user	en		This is the mean rating in the sound modality on a scale from 0 (NO sound associated) to 6 (DOES VERY MUCH have sound associated).
 Medler-2005-Perceptual	ENGLISH_COLOR_MEAN	mean	sensory modality	color	ratings	user	en		This is the mean rating in the color modality on a scale from 0 (NO color associated) to 6 (DOES VERY MUCH have color associated).
-Medler-2005-Perceptual	ENGLISH_MANIPULATION_MEAN	mean	sensory modality	manipulation	ratings	user	en		This is the mean rating in the manipulation modality on a scale from 0 (NO manipulation associated) to 6 (DOES VERY MUCH have manipulation associated).
+Medler-2005-Perceptual	ENGLISH_MANIPULATION_MEAN	mean	sensory modality	manipulability	ratings	user	en		This is the mean rating in the manipulation modality on a scale from 0 (NO manipulation associated) to 6 (DOES VERY MUCH have manipulation associated).
 Medler-2005-Perceptual	ENGLISH_MOTION_MEAN	mean	sensory modality	motion	ratings	user	en		This is the mean rating in the motion modality on a scale from 0 (NO motion associated) to 6 (DOES VERY MUCH have motion associated).
-Medler-2005-Perceptual	ENGLISH_EMOTION_MEAN	mean	sensory modality	emotion	ratings	user	en		This is the mean rating in the emotion modality on a scale from 0 (NO emotion associated) to 6 (DOES VERY MUCH have emotion associated).
+Medler-2005-Perceptual	ENGLISH_EMOTION_MEAN	mean	sensory modality	emotion association	ratings	user	en		This is the mean rating in the emotion modality on a scale from 0 (NO emotion associated) to 6 (DOES VERY MUCH have emotion associated).
 Gilhooly-1980-Ratings	ENGLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	en		Mean value of imageability ratings based on a 7-point scale.
 Gilhooly-1980-Ratings	ENGLISH_AOA_MEAN	mean	AoA		ratings	user	en		Mean value of age-of-acquisition ratings based on a 7-point scale.
 Gilhooly-1980-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		Mean value of familiarity ratings based on a 7-point scale.
@@ -513,8 +513,8 @@ Lapesa-2014-772	RELATION_TYPE	linguistic	semantic class		relations	users	de		The
 Lapesa-2014-772	FORWARD_SCORES	mean	similarity	forward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (forward calculation: 0-5).
 Lapesa-2014-772	BACKWARD_SCORES	mean	similarity	backward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (backward calculation: 5-0).
 Zalizniak-2020-2590	RANK	numeric	stability	rate	relations	concept lists	en		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
-Carling-2019-99	LOAN	percentage	boworring score		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
-Carling-2019-99	NO_LOAN	percentage	boworring score	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
+Carling-2019-99	LOAN	percentage	boworring		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
+Carling-2019-99	NO_LOAN	percentage	boworring	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
 Carling-2019-99	RANK	numeric	stability	rate	relations	concept lists	en		The data in the list are ranked from the highest to the lowest degree of borrowability.
 Pozdniakov-2014-100b	RANK	numeric	stability	rate	relations	concept lists	en		The data for the Atlantic languages are ranked from the highest to the lowest degree of borrowability.
 Pozdniakov-2014-100b	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability score for a given concept in Atlantic languages.
@@ -524,7 +524,7 @@ Thomas-1960-168	STABILITY_SCORE	numeric	stability	score	relations	concept lists	
 Dyen-1964-196	RANK	numeric	stability	rate	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 89 Malayo-Polynesian languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
 Dyen-1964-154	RANK	numeric	stability	rate	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 39 Indo-European languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
 Tadmor-2009-100	RANK	numeric	stability	rate	relations	concept lists	en		This value indicates the stability of a word and its resistance to borrowing across languages.
-Tadmor-2009-100	BORROWED_SCORE	numeric	boworring score		relations	concept lists	en		This gives the average borrowed score of all words corresponding to this meaning.
+Tadmor-2009-100	BORROWED_SCORE	percentage	boworring		relations	concept lists	en		This gives the average borrowed score of all words corresponding to this meaning.
 Tadmor-2009-100	AGE_SCORE	numeric	age		relations	concept lists	en		This gives the average age score of all words corresponding to this meaning.
 Starostin-2007-110	RANK	numeric	stability	rate	relations	concept lists	ru		This value indicates the stability of a word and its resistance to borrowing across languages.
 Swadesh-1955-215	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability percentages for a given concept in the languages of the world.
@@ -562,7 +562,7 @@ Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality
 Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum strength	ratings	user	nl		Maximum perceptual strength.
 Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_MEAN	mean	sensory modality	strength	ratings	user	nl		Average perceptual strength.
 Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated strength	ratings	user	nl		Sensory strength across modalities with the effect of weaker modalities attenuated.
-Chedid-2019-Familiarity	FRENCH_RT_MEAN	mean	reaction time	lexical decision	norms	user	fr		Mean of the response time for French nouns.
+Chedid-2019-Familiarity	FRENCH_RT_MEAN	mean	lexical decision	reaction time	norms	user	fr		Mean of the response time for French nouns.
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	fr		Mean of the conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MAX	numeric	familiarity	maximum	ratings	user	fr		The maximum of conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MIN	numeric	familiarity	minimum	ratings	user	fr		The minimum of conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
@@ -589,11 +589,11 @@ Zhong-2022-664	ACTION_STRENGTH_MAX	numeric	action effector	maximum strength	rati
 Zhong-2022-664	ACTION_STRENGTH_AGGREGATED	normalized	action effector	aggregated strength	ratings	user	zh		Aggregated action strength in all effectors where the influence of weaker effectors is attenuated, calculated as Minkowski distance (with exponent 3) of the 5-dimension vector of action strength from the origin.
 Zhong-2022-664	ACTION_EXCLUSIVITY	percentage	action effector	exclusivity	ratings	user	zh		Effector exclusivity of the concept; the extent to which a concept is experienced through a single action effector (0–1, typically expressed as %), calculated as the range of action strength values divided by their sum.
 Zhong-2022-664	ACTION_DOMINANT	linguistic	action effector	dominant	ratings	user	zh		Action effector through which the concept is experienced most strongly (i.e., with highest action strength rating).
-Zhong-2022-664	SENSORIMOTOR_STRENGTH_MAX	numeric	sensorimotor dimensions	maximum strength	ratings	user	zh		Sensorimotor strength in the dominant dimension (i.e., highest strength rating across 11 sensorimotor dimensions).
-Zhong-2022-664	SENSORIMOTOR_DOMINANT	linguistic	sensorimotor dimensions	dominant	ratings	user	zh		Sensorimotor dimension through which the concept is experienced most strongly (i.e., with highest sensorimotor strength rating).
-Zhong-2022-664	SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensorimotor dimensions	aggregated strength	ratings	user	zh		Aggregated sensorimotor strength in all dimensions where the influence of weaker dimensions is attenuated, calculated as Minkowski distance (with exponent 3) of the 11-dimension vector of sensorimotor strength from the origin.
-Zhong-2022-664	SENSORIMOTOR_STRENGTH_SUM	sum	sensorimotor dimensions		ratings	user	zh		This value represents the summarized sensorimotor strength in all dimensions.
-Zhong-2022-664	SENSORIMOTOR_EXCLUSIVITY	percentage	sensorimotor dimensions	exclusivity	ratings	user	zh		Sensorimotor exclusivity of the concept; the extent to which a concept is experienced through a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum.
+Zhong-2022-664	SENSORIMOTOR_STRENGTH_MAX	numeric	sensory modality	maximum strength	ratings	user	zh		Sensorimotor strength in the dominant dimension (i.e., highest strength rating across 11 sensorimotor dimensions).
+Zhong-2022-664	SENSORIMOTOR_DOMINANT	linguistic	sensory modality	dominant	ratings	user	zh		Sensorimotor dimension through which the concept is experienced most strongly (i.e., with highest sensorimotor strength rating).
+Zhong-2022-664	SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated strength	ratings	user	zh		Aggregated sensorimotor strength in all dimensions where the influence of weaker dimensions is attenuated, calculated as Minkowski distance (with exponent 3) of the 11-dimension vector of sensorimotor strength from the origin.
+Zhong-2022-664	SENSORIMOTOR_STRENGTH_SUM	sum	sensory modality		ratings	user	zh		This value represents the summarized sensorimotor strength in all dimensions.
+Zhong-2022-664	SENSORIMOTOR_EXCLUSIVITY	percentage	sensory modality	exclusivity	ratings	user	zh		Sensorimotor exclusivity of the concept; the extent to which a concept is experienced through a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum.
 Zhong-2022-664	CONCRETE_ABSTRACT	semantic	concrete/abstract		ratings	user	zh		This value represents the categorical distinction of whether the word is abstract or concrete.
 Jackson-2019-24	VALENCE	mean	valence		ratings	user	en		Valence ratings for emotion concepts based on a 10-point Likert scale.
 Jackson-2019-24	ACTIVATION	mean	arousal		ratings	user	en		Arousal ratings for emotion concepts based on a 10-point Likert scale.
@@ -610,9 +610,9 @@ Wang-2021-90	SER_ZSCORE	standardized	sensory experience		ratings	user	zh		The av
 Wang-2021-90	LANGUAGE_DESCRIPTIVENESS_MEAN	mean	descriptiveness		ratings	user	zh		The rating mean of language descriptiveness on a 7-point scale.
 Wang-2021-90	SER_MEAN	mean	sensory experience		ratings	user	zh		The rating mean of sensory experience on a 7-point scale.
 Wang-2021-90	NAVIGATION_MEAN	mean	navigation		ratings	user	zh		The rating mean of navigation on a 7-point scale.
-Wang-2021-90	MANIPULATION_MEAN	mean	manipulation		ratings	user	zh		The rating mean of manipulation on a 7-point scale.
+Wang-2021-90	MANIPULATION_MEAN	mean	sensory modality	manipulability	ratings	user	zh		The rating mean of manipulation on a 7-point scale.
 Wang-2021-90	STRESS_ACTION_MEAN	mean	action	stress-related	ratings	user	zh		The rating mean of stress-related action on a 7-point scale.
 Wang-2021-90	AROUSAL_MEAN	mean	arousal		ratings	user	zh		The rating mean of arousal on a 7-point scale.
 Wang-2021-90	VALENCE_MEAN	mean	valence		ratings	user	zh		The rating mean of emotional valence on a 7-point scale.
-Wang-2021-90	STROKE	numeric	descriptive	stroke	norms	meta	zh		Total number of strokes of the whole-word.
+Wang-2021-90	STROKE	numeric	strokes		norms	meta	zh		Total number of strokes of the whole-word.
 Wang-2021-90	FAMILIARITY_MEAN	mean	familiarity		ratings	user	zh		The rating mean of familiarity on a 7-point scale.
