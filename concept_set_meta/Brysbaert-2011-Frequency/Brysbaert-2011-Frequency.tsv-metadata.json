@@ -34,7 +34,7 @@
             "titles": "WFfreqcount"
           },
           {
-            "name": "GERMAN_SUBTITLE_FREQUENCY",
+            "name": "GERMAN_FREQUENCY_PM",
             "datatype": "float",
             "titles": "SUBTLEX"
           },
