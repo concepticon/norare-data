@@ -506,8 +506,8 @@ Gilhooly-1980-Ratings	ENGLISH_MEANING_UNCERTAINTY	numeric	ambiguity	degree	ratin
 Gilhooly-1980-Ratings	ENGLISH_FREQUENCY	tokens	frequency		ratings	corpus	en	Thorndike1944	Frequencies of English words based on the Thorndike–Lorge list of 30,000 words ([Thorndike and Lorge 1944](:bib:Thorndike1944)).
 Scheible-2014-1755	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
 Scheible-2014-1755	SCORES	semantic	similarity		relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale.
-Lapesa-2014-772	POLYSEMY_CLASS	linguistic	polysemy		relations	users	en		The degree of polysemy (1-3).
-Lapesa-2014-772	FREQUENCY_CLASS	linguistic	frequency		relations	users	en		The degree of frequency (high, medium, low).
+Lapesa-2014-772	POLYSEMY_CLASS	numeric	polysemy	degree	relations	users	en		The degree of polysemy (1-3).
+Lapesa-2014-772	FREQUENCY_CLASS	linguistic	frequency	degree	relations	users	en		The degree of frequency (high, medium, low).
 Lapesa-2014-772	DEGREE_CLASS	linguistic	degree		relations	users	en		The class of degree (low, high, not).
 Lapesa-2014-772	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
 Lapesa-2014-772	FORWARD_SCORES	mean	similarity	forward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (forward calculation: 0-5).
