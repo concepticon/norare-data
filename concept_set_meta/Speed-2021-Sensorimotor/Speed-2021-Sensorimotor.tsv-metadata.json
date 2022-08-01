@@ -81,7 +81,7 @@
           {
             "name": "DUTCH_PERCEPTUAL_STRENGTH_AGGREGATED",
             "datatype": "float",
-            "titles": "Minkowksi3"
+            "titles": "Minkowski3"
           },
           {
             "name": "DUTCH_POS",
