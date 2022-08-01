@@ -140,7 +140,7 @@ Ferre-2017-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	disgust		ratings	user	es		
 Rzymski-2020-1624	FAMILY_FREQUENCY	numeric	polysemy	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
 Rzymski-2020-1624	LANGUAGE_FREQUENCY	numeric	polysemy	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
 Rzymski-2020-1624	WORD_FREQUENCY	numeric	polysemy	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
-Rzymski-2020-1624	RANK	numeric	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
+Rzymski-2020-1624	RANK	ordinality	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
 Rzymski-2020-1624	COMMUNITY	numeric	polysemy	community	relations	concept lists	en		This is the community identifier.
 Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
 Rzymski-2020-1624	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the unweighted and weighted degree for each node.
@@ -333,7 +333,7 @@ Xiao-2012-213	PEN_STROKES	numeric	strokes		norms	meta	zh		Total number of stroke
 Xiao-2012-213	ICONICITY	mean	iconicity		ratings	user	zh		40 U.S. adults with no knowledge of Chinese were given an English word or short phrase together with two Chinese characters and were asked which character matched the meaning of the English word.
 Xiao-2012-213	PICTURABILITY	mean	picturability		ratings	user	zh		31 English speaking students were shown the English translations of Chinese characters used in the experiment and had to rate each translation on a 7-point scale to indicate the extent to which the concept could be expressed easily in a simple black-on-white line drawing or diagram.
 Pagel-2018-200	RATE	numeric	stability	rate	relations	concept lists	en		Stability (rate of lexical change) measured for concepts based on a sample from Indo-European languages.
-Pagel-2007-200	RANK	numeric	stability	rate	relations	concept lists	en	Dyen1992	Ranks for the 200 basic concepts, which are retrieved from the calculation of evolutionary rates from phylogenetic analyses on the database by Dyen et al (1992).
+Pagel-2007-200	RANK	ordinality	stability	rank	relations	concept lists	en	Dyen1992	Ranks for the 200 basic concepts, which are retrieved from the calculation of evolutionary rates from phylogenetic analyses on the database by Dyen et al (1992).
 Briesemeister-2011-DiscreteEmotions	GERMAN_HAPPINESS_MEAN	mean	happiness		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category happiness.
 Briesemeister-2011-DiscreteEmotions	GERMAN_ANGER_MEAN	mean	anger		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category anger.
 Briesemeister-2011-DiscreteEmotions	GERMAN_SADNESS_MEAN	mean	sadness		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category sadness.
@@ -370,7 +370,7 @@ Abdaoui-2017-EmoLex	FRENCH_SURPRISE_ASSOCIATION	numeric	surprise		norms	corpus	f
 Abdaoui-2017-EmoLex	FRENCH_DISGUST_ASSOCIATION	numeric	disgust		norms	corpus	fr		The emotion associated with the word based on a sentiment analysis of texts: 1 (associated) and 0 (not associated).
 Dellert-2018-1016	LGC	numeric	stability	local-global distance correlation	relations	corpus	de		The stability measure for a concept is called local-global distance correlation (lgc).
 Dellert-2018-1016	INF	mean	basicness	information content	relations	corpus	de		The average information content (inf) is the measure for basicness.
-Dellert-2018-1016	RANK	numeric	stability	rank	relations	corpus	de		The rank is based on the suitability of a given word for inclusion in Swadesh-style lists of basic stable concepts.
+Dellert-2018-1016	RANK	ordinality	stability	rank	relations	corpus	de		The rank is based on the suitability of a given word for inclusion in Swadesh-style lists of basic stable concepts.
 Baroni-2011-200	SEMANTIC_CLASS	linguistic	semantic field		relations	corpus	en		The semantic field of a given word. The words are grouped into 17 broader classes (amphibian or reptile, appliance, bird, building, clothing, container, fruit, furniture, ground_mammal, insect, musical_instrument, tool, tree, vegetable, vehicle, water_animal, weapon).
 Baroni-2011-200	TYPICAL_ATTRIBUTE	linguistic	attribute	dominant	relations	corpus	en		This is a list of adjectives expressing an attribute of the concept.
 Baroni-2011-200	COHYPONYMY	linguistic	cohyponymy		relations	corpus	en		This is a list of nouns that are a co-hyponym (coordinate) of the concept, i.e., they belong to the same (narrowly or broadly defined) semantic class.
@@ -395,7 +395,7 @@ Haspelmath-2009-1460	SEMANTIC_FIELD	linguistic	semantic field		relations	user	en
 Haspelmath-2009-1460	AGE_SCORE	numeric	word age		relations	user	en		This gives the average age score of all words corresponding to this meaning.
 Haspelmath-2009-1460	BORROWING_SCORE	percentage	boworring		relations	user	en		This gives the average borrowed score of all words corresponding to this meaning.
 Haspelmath-2009-1460	SIMPLICITY_SCORE	numeric	word simplicity		relations	user	en		This gives the average simplicity score of all words corresponding to this meaning.
-Haspelmath-2009-1460	RANK	numeric	stability	rank	relations	user	en		This value indicates the stability of a word and its resistance to borrowing across languages.
+Haspelmath-2009-1460	RANK	ordinality	stability	rank	relations	user	en		This value indicates the stability of a word and its resistance to borrowing across languages.
 Calude-2011-200	ENGLISH_FREQUENCY	logarithmic	frequency		norms	corpus	en		Log10 frequency of basic words.
 Calude-2011-200	SPANISH_FREQUENCY	logarithmic	frequency		norms	corpus	es		Log10 frequency of basic words.
 Calude-2011-200	RUSSIAN_FREQUENCY	logarithmic	frequency		norms	corpus	ru		Log10 frequency of basic words.
@@ -512,24 +512,24 @@ Lapesa-2014-772	DEGREE_CLASS	linguistic	degree		relations	users	en		The class of
 Lapesa-2014-772	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
 Lapesa-2014-772	FORWARD_SCORES	mean	similarity	forward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (forward calculation: 0-5).
 Lapesa-2014-772	BACKWARD_SCORES	mean	similarity	backward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (backward calculation: 5-0).
-Zalizniak-2020-2590	RANK	numeric	stability	rate	relations	concept lists	en		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
+Zalizniak-2020-2590	RANK	ordinality	stability	rank	relations	concept lists	en		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
 Carling-2019-99	LOAN	percentage	boworring		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
 Carling-2019-99	NO_LOAN	percentage	boworring	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
-Carling-2019-99	RANK	numeric	stability	rate	relations	concept lists	en		The data in the list are ranked from the highest to the lowest degree of borrowability.
-Pozdniakov-2014-100b	RANK	numeric	stability	rate	relations	concept lists	en		The data for the Atlantic languages are ranked from the highest to the lowest degree of borrowability.
+Carling-2019-99	RANK	ordinality	stability	rank	relations	concept lists	en		The data in the list are ranked from the highest to the lowest degree of borrowability.
+Pozdniakov-2014-100b	RANK	ordinality	stability	rank	relations	concept lists	en		The data for the Atlantic languages are ranked from the highest to the lowest degree of borrowability.
 Pozdniakov-2014-100b	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability score for a given concept in Atlantic languages.
 Wu-2020-150	RANK	numeric	frequency		relations	dictionaries	en		The relative coverage of each the 150 target concepts across 1895 bilingual dictionaries.
-Thomas-1960-168	RANK	numeric	stability	rate	relations	concept lists	en		The stability ranks for four Mon-Khmer languages.
+Thomas-1960-168	RANK	ordinality	stability	rank	relations	concept lists	en		The stability ranks for four Mon-Khmer languages.
 Thomas-1960-168	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability score for a given concept in four Mon-Khmer languages.
-Dyen-1964-196	RANK	numeric	stability	rate	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 89 Malayo-Polynesian languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
-Dyen-1964-154	RANK	numeric	stability	rate	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 39 Indo-European languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
-Tadmor-2009-100	RANK	numeric	stability	rate	relations	concept lists	en		This value indicates the stability of a word and its resistance to borrowing across languages.
+Dyen-1964-196	RANK	ordinality	stability	rank	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 89 Malayo-Polynesian languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
+Dyen-1964-154	RANK	ordinality	stability	rank	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 39 Indo-European languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
+Tadmor-2009-100	RANK	numeric	stability	rank	relations	concept lists	en		This value indicates the stability of a word and its resistance to borrowing across languages.
 Tadmor-2009-100	BORROWED_SCORE	percentage	boworring		relations	concept lists	en		This gives the average borrowed score of all words corresponding to this meaning.
 Tadmor-2009-100	AGE_SCORE	numeric	age		relations	concept lists	en		This gives the average age score of all words corresponding to this meaning.
-Starostin-2007-110	RANK	numeric	stability	rate	relations	concept lists	ru		This value indicates the stability of a word and its resistance to borrowing across languages.
+Starostin-2007-110	RANK	ordinality	stability	rank	relations	concept lists	ru		This value indicates the stability of a word and its resistance to borrowing across languages.
 Swadesh-1955-215	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability percentages for a given concept in the languages of the world.
-Swadesh-1955-215	RANK	numeric	stability	rate	relations	concept lists	en		This value indicates the stability rank of a word and its resistance to borrowing across languages.
-Vejdemo-2016-167	RANK	numeric	stability	rate	relations	corpus	en		This value indicates the stability rank of a word and its resistance to borrowing across languages.
+Swadesh-1955-215	RANK	ordinality	stability	rank	relations	concept lists	en		This value indicates the stability rank of a word and its resistance to borrowing across languages.
+Vejdemo-2016-167	RANK	ordinality	stability	rank	relations	corpus	en		This value indicates the stability rank of a word and its resistance to borrowing across languages.
 Vejdemo-2016-167	RATE	numeric	stability	score	relations	corpus	en		The rate of lexical replacement for the specified concepts in English, Danish, Dutch, German and Swedish, according to word class, frequency, age of acquisition, synonyms, arousal, imageability and average mutual information either from published databases or from corpora and lexica.
 Vulic-2020-2244	ENGLISH_SCORE	mean	similarity		relations	users	en		The similarity of a word pair was rated on a scale from 0-6.
 Vulic-2020-2244	ARABIC_SCORE	mean	similarity		relations	users	ar		The similarity of a word pair was rated on a scale from 0-6.
