@@ -1,6 +1,6 @@
 DATASET	NAME	STRUCTURE	TYPE	OTHER	NORARE	RATING	LANGUAGE	SOURCE	NOTE
-Bond-2013-OMW	IN_DEGREE	numeric	hyperonym	in degree	relations	user	en		The number of hypernyms of a given concept.
-Bond-2013-OMW	OUT_DEGREE	numeric	hyponym	out degree	relations	user	en		The number of hyponyms of a given concept.
+Bond-2013-OMW	IN_DEGREE	cardinality	hyperonym	in degree	relations	user	en		The number of hypernyms of a given concept.
+Bond-2013-OMW	OUT_DEGREE	cardinality	hyponym	out degree	relations	user	en		The number of hyponyms of a given concept.
 Alonso-2015-AoA	SPANISH_AOA_MEAN	mean	AoA		ratings	user	es		Average score of AoA ratings on a scale from 1 to 11.
 Alonso-2015-AoA	SPANISH_AOA_MIN	numeric	AoA	minimum	ratings	user	es		The minimum age of acquisition indicated by participants.
 Alonso-2015-AoA	SPANISH_AOA_MAX	numeric	AoA	maximum	ratings	user	es		The maximum age of acquisition indicated by participants.
@@ -14,7 +14,7 @@ Brysbaert-2011-Frequency	GERMAN_FREQUENCY	tokens	frequency		norms	corpus	de		Thi
 Brysbaert-2011-Frequency	GERMAN_FREQUENCY_PM	tokens	frequency	per million	norms	corpus	de		This is the frequency per million words based on CUMfreqcount (i.e., it equals CUMfreqcount / 25.399).
 Brysbaert-2011-Frequency	GERMAN_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	de		This is log10(CUMfreqcount+1). It is the value to use when you want to match stimuli in various conditions. When a stimulus is not present in the corpus, lgSUBTLEX gets a value of 0.
 Brysbaert-2014-Concreteness	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	en		The mean concreteness rating on a 5-point rating scale going from abstract to concrete.
-Brysbaert-2014-Concreteness	ENGLISH_DUNNO	numeric	familiarity	dunno	ratings	user	en		The number of persons indicating they did not know the word.
+Brysbaert-2014-Concreteness	ENGLISH_DUNNO	cardinality	familiarity	dunno	ratings	user	en		The number of persons indicating they did not know the word.
 Brysbaert-2019-Prevalence	ENGLISH_KNOWN_PERCENTAGE	percentage	familiarity	known	ratings	user	en		The percentages of words known across 220,000 participants.
 Brysbaert-2019-Prevalence	ENGLISH_PREVALENCE	normalized	familiarity	prevalence	ratings	user	en		The word prevalence (number of people who know the word) across 220,000 participants.
 Cai-2010-Frequency	CHINESE_FREQUENCY	tokens	frequency		norms	corpus	zh		The number of times the word appears in the corpus of 1.3 million words.
@@ -35,7 +35,7 @@ Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_YOUNG	mean	humor	young	ratings	user	en
 Engelthaler-2018-Humor	ENGLISH_HUMOR_MEAN_OLD	mean	humor	old	ratings	user	en		This is the mean value of the ratings on a 5-point scale (1 (humorless) to 5 (humorous)) for old participants (with age under 32).
 Juhasz-2013-SER	ENGLISH_SER_MEAN	mean	sensory experience		ratings	user	en		Sensory experience ratings on a 7-point scale.
 Keuleers-2010-Frequency	DUTCH_FREQUENCY	tokens	frequency		norms	corpus	nl		This is the number of times the word appears in the corpus of 42 million words.
-Keuleers-2010-Frequency	DUTCH_CD	numeric	contextual diversity		norms	corpus	nl		This  is the number of films in which the word appears.
+Keuleers-2010-Frequency	DUTCH_CD	tokens	contextual diversity		norms	corpus	nl		This  is the number of films in which the word appears.
 Keuleers-2010-Frequency	DUTCH_FREQUENCY_PM	tokens	frequency	per million	norms	corpus	nl		This is the word frequency per million words and has 4-digit precision.
 Keuleers-2010-Frequency	DUTCH_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	nl		This is a value based on log10(FREQcount+1) and with 4-digit precision.
 Keuleers-2010-Frequency	DUTCH_SUBTITLE_CD	numeric	contextual diversity	subtitle	norms	corpus	nl		This value indicates in what percent of the films the word appears (on a maximum of 8,070), with 4-digit precision.
@@ -96,7 +96,7 @@ GonzalezNosti-2014-LexicalDecision	SPANISH_AOA_MEAN	mean	AoA		ratings	user	es		M
 GonzalezNosti-2014-LexicalDecision	SPANISH_RT_MEAN	mean	lexical decision	reaction time	norms	user	es		The average reaction time to the stimulus (correct trials only).
 Tsang-2018-LexicalDecision	CHINESE_RT_MEAN	mean	lexical decision	reaction time	norms	user	zh		Mean reaction time across participants.
 Tsang-2018-LexicalDecision	CHINESE_RT_ZSCORE	standardized	lexical decision	reaction time	norms	user	zh		Mean standardized reaction time across participants.
-Tsang-2018-LexicalDecision	CHINESE_STROKE	numeric	strokes		norms	meta	zh		Total number of strokes of the whole-word.
+Tsang-2018-LexicalDecision	CHINESE_STROKE	cardinality	strokes		norms	meta	zh		Total number of strokes of the whole-word.
 Keuleers-2015-Prevalence	DUTCH_ACCURACY_PERCENTAGE	percentage	familiarity	accuracy	ratings	user	nl		Average accuracy for the stimulus.
 Keuleers-2015-Prevalence	DUTCH_PREVALENCE	normalized	familiarity	prevalence	ratings	user	nl		The word prevalence (number of people who know the word) across nearly 300,000 participants.
 StadthagenGonzalez-2018-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	happiness		ratings	user	es		Mean value for all valid responses a 5-point scale with 1 (not at all) and 5 (extremely) in the emotional category happiness.
@@ -137,9 +137,9 @@ Ferre-2017-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	anger		ratings	user	es		The 
 Ferre-2017-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	sadness		ratings	user	es		The mean value of the ratings for the discrete emotion sadness on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	fear		ratings	user	es		The mean value of the ratings for the discrete emotion fear on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	disgust		ratings	user	es		The mean value of the ratings for the discrete emotion disgust on a 5-point scale.
-Rzymski-2020-1624	FAMILY_FREQUENCY	numeric	polysemy	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
-Rzymski-2020-1624	LANGUAGE_FREQUENCY	numeric	polysemy	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
-Rzymski-2020-1624	WORD_FREQUENCY	numeric	polysemy	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
+Rzymski-2020-1624	FAMILY_FREQUENCY	cardinality	polysemy	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
+Rzymski-2020-1624	LANGUAGE_FREQUENCY	cardinality	polysemy	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
+Rzymski-2020-1624	WORD_FREQUENCY	cardinality	polysemy	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
 Rzymski-2020-1624	RANK	ordinality	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
 Rzymski-2020-1624	COMMUNITY	numeric	polysemy	community	relations	concept lists	en		This is the community identifier.
 Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
@@ -302,7 +302,7 @@ Verheyen-2020-1000	DOMINANCE_MEAN	mean	dominance		ratings	user	nl		Participants 
 Verheyen-2020-1000	FAMILIARITY_MEAN	mean	familiarity		ratings	user	nl		Participants rated how familiar they were with each word in the list by indicating how often they had encountered or used the word. Ratings were performed on 7-point scales.
 Verheyen-2020-1000	IMAGEABILITY_MEAN	mean	imageability		ratings	user	nl		Participants rated each word’s capacity to arouse a mental image by indicating how easily they could form a mental image of the word on a 7-point scale with the ends labeled difficult (1) and easy (7).
 Verheyen-2020-1000	VALENCE_MEAN	mean	valence		ratings	user	nl		Participants rated the valence of each word by indicating on a 7-point scale the extent to which it evoked a very bad (1) or a very good (7) feeling.
-Verheyen-2020-1000	INSTRENGTH	numeric	network	instrength	relations	user	nl	DeDeyne2019	The in-strength si of a word i reflects the number of links that go into the node representing the word in the word association network and as such provides an indication of the word’s importance in the mental lexicon. The variables in-strength and betweenness were taken from the Small World of Words project (https://smallworldofword.org/), a large-scale study that aims to build a map of the human lexicon in the major languages of the world (including Dutch) using word association data [(De Deyne et al. 2019)](:bib:DeDeyne2019).
+Verheyen-2020-1000	INSTRENGTH	cardinality	network	instrength	relations	user	nl	DeDeyne2019	The in-strength si of a word i reflects the number of links that go into the node representing the word in the word association network and as such provides an indication of the word’s importance in the mental lexicon. The variables in-strength and betweenness were taken from the Small World of Words project (https://smallworldofword.org/), a large-scale study that aims to build a map of the human lexicon in the major languages of the world (including Dutch) using word association data [(De Deyne et al. 2019)](:bib:DeDeyne2019).
 Verheyen-2020-1000	BETWEENNESS	numeric	network	betweenness	relations	user	nl	DeDeyne2019	Betweenness is another indicator of the centrality of a node in the network. It takes the global structure of the word association network more in account than in-strength does in that it captures how often a node is located on the shortest path between other nodes in the network. The variables in-strength and betweenness were taken from the Small World of Words project (https://smallworldofword.org/), a large-scale study that aims to build a map of the human lexicon in the major languages of the world (including Dutch) using word association data [(De Deyne et al. 2019)](:bib:DeDeyne2019).
 Desrochers-2010-330	WORD_TYPE	linguistic	PoS		relations	meta	es		The list includes deverbal compounds, nouns and verbs.
 Desrochers-2010-330	SUBJECTIVE_FREQ_MEAN	mean	frequency	subjective	norms	user	es		Ratings were collected on a 7-point scale from 102 native speakers of Spanish on the subjective frequency of occurrence of 330 Spanish words.
@@ -329,7 +329,7 @@ Yao-2017-1100	CONCRETENESS_MEAN	mean	concreteness		ratings	user	zh		Concreteness
 Yao-2017-1100	FAMILIARITY_MEAN	mean	familiarity		ratings	user	zh		Familiarity rating on a 9-point Likert scale 960 university students.
 Yao-2017-1100	IMAGEABILITY_MEAN	mean	imageability		ratings	user	zh		Imageability rating on a 9-point Likert scale 960 university students.
 Yao-2017-1100	CONTEXT_AVAILABILITY_MEAN	mean	contect availability		ratings	user	zh		Context availability rating on a 9-point Likert scale 960 university students.
-Xiao-2012-213	PEN_STROKES	numeric	strokes		norms	meta	zh		Total number of strokes of the whole-word.
+Xiao-2012-213	PEN_STROKES	cardinality	strokes		norms	meta	zh		Total number of strokes of the whole-word.
 Xiao-2012-213	ICONICITY	mean	iconicity		ratings	user	zh		40 U.S. adults with no knowledge of Chinese were given an English word or short phrase together with two Chinese characters and were asked which character matched the meaning of the English word.
 Xiao-2012-213	PICTURABILITY	mean	picturability		ratings	user	zh		31 English speaking students were shown the English translations of Chinese characters used in the experiment and had to rate each translation on a 7-point scale to indicate the extent to which the concept could be expressed easily in a simple black-on-white line drawing or diagram.
 Pagel-2018-200	RATE	numeric	stability	rate	relations	concept lists	en		Stability (rate of lexical change) measured for concepts based on a sample from Indo-European languages.
@@ -341,7 +341,7 @@ Briesemeister-2011-DiscreteEmotions	GERMAN_FEAR_MEAN	mean	fear		ratings	user	de	
 Briesemeister-2011-DiscreteEmotions	GERMAN_DISGUST_MEAN	mean	disgust		ratings	user	de		Mean value for all valid responses a 5-point scale in the emotional category disgust.
 Briesemeister-2011-DiscreteEmotions	GERMAN_EMOTION_DOMINANT	linguistic	emotion	dominant	ratings	user	de		A more conservative classification criterion was applied, assigning words to a specific discrete emotion category only in cases in which the averaged rating in one discrete emotion was more than one standard deviation higher than in any other discrete emotion.
 Mandera-2015-Frequency	POLISH_FREQUENCY	tokens	frequency		norms	corpus	pl		This is the number of times the word appears in the corpus of 101 million tokens (449,300 types).
-Mandera-2015-Frequency	POLISH_CD	numeric	contextual diversity		norms	corpus	pl		This  is the number of films (max. 99,635) in which the word appears.
+Mandera-2015-Frequency	POLISH_CD	tokens	contextual diversity		norms	corpus	pl		This  is the number of films (max. 99,635) in which the word appears.
 Mandera-2015-Frequency	POLISH_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	pl		This is a value based on log10(FREQcount+1).
 Mandera-2015-Frequency	POLISH_CD_LOG	logarithmic	contextual diversity		norms	corpus	pl		This value is based on log10(CDcount +1).
 Moors-2013-Ratings	DUTCH_VALENCE_MEAN	mean	valence		ratings	user	nl		Mean valence values for all participants (224 students) on a 7-point Likert scale.
@@ -353,7 +353,7 @@ Moors-2013-Ratings	DUTCH_AROUSAL_FEMALE_MEAN	mean	arousal	female	ratings	user	nl
 Moors-2013-Ratings	DUTCH_AOA_MEAN	mean	AoA		ratings	user	nl		Mean age-of-acquisition values for all participants (224 students). Participants were asked to enter the age at which they thought they had learned the word.
 Moors-2013-Ratings	DUTCH_AOA_MALE_MEAN	mean	AoA	male	ratings	user	nl		Mean age-of-acquisition values for male participants (224 students). Participants were asked to enter the age at which they thought they had learned the word.
 Moors-2013-Ratings	DUTCH_AOA_FEMALE_MEAN	mean	AoA	female	ratings	user	nl		Mean age-of-acquisition values for female participants (224 students). Participants were asked to enter the age at which they thought they had learned the word.
-Wu-2020-CoreVocabulary	TRANSLATION_COUNT	numeric	core vocabulary	translation count	relations	corpus	en		This value represents the number of languages in which a word occurred. It is the relative coverage of a target concept in 1895 bilingual dictionaries.
+Wu-2020-CoreVocabulary	TRANSLATION_COUNT	cardinality	core vocabulary	translation count	relations	corpus	en		This value represents the number of languages in which a word occurred. It is the relative coverage of a target concept in 1895 bilingual dictionaries.
 Mohammad-2018-AffectiveRatings	ENGLISH_VALENCE_MEAN	mean	valence		ratings	user	en		Mean value of valence ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest valence and the word with the lowest valence.
 Mohammad-2018-AffectiveRatings	ENGLISH_AROUSAL_MEAN	mean	arousal		ratings	user	en		Mean value of arousal ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest arousal and the word with the lowest arousal.
 Mohammad-2018-AffectiveRatings	ENGLISH_DOMINANCE_MEAN	mean	dominance		ratings	user	en		Mean value of dominance ratings based on best-worst scaling. The participants were presented with four words at a time (4-tuples) and asked to select the word with the highest dominance and the word with the lowest dominance.
@@ -463,7 +463,7 @@ Speed-2017-485	AROUSAL_MEAN	mean	arousal		ratings	user	nl		This is the mean of t
 Speed-2017-485	DOMINANCE_MEAN	mean	dominance		ratings	user	nl		This is the mean of the dominance ratings for each word on a 7-point scale (0-7).
 Speed-2017-485	VALENCE_MEAN	mean	valence		ratings	user	nl		This is the mean of the valence ratings for each word on a 7-point scale (0-7).
 Crepaldi-2015-Frequency	ITALIAN_FREQUENCY	tokens	frequency		norms	corpus	it		This is the number of times the word appears in the corpus (number of words in the corpus not specified).
-Crepaldi-2015-Frequency	ITALIAN_CD	numeric	contextual diversity		norms	corpus	it		This is the number of films in which the word appears.
+Crepaldi-2015-Frequency	ITALIAN_CD	tokens	contextual diversity		norms	corpus	it		This is the number of films in which the word appears.
 Johansson-2020-344	SOUND_SYMBOLIC	numeric	sound symbolism		norms	user	en		The value indicates if an item is potentially sound symbolic or not, where «1» indicates the concepts with sound-meaning associations whereas «0» means the lack thereof. The analysis of sound symbolic patterns is based on data across 245 language families.
 VanHeuven-2014-Frequency	ENGLISH_FREQUENCY	tokens	frequency		norms	corpus	en		This is the number of times the word appears in the corpus of 201.3 million words (160,022 word types) from 45,099 BBC broadcasts.
 VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_CBEEBIES	tokens	frequency	Cbeebies	norms	corpus	en		This is the number of times the word appears in the Cbeebies corpus (a channel for pre-school children, age 0-6).
@@ -473,9 +473,9 @@ VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG	logarithmic	frequency	zipf	norms	
 VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_CBEEBIES	logarithmic	frequency	zipf, Cbeebies	norms	corpus	en		This value is logarithmic word frequency based on the Zipf scale in the Cbeebies corpus (a channel for pre-school children, age 0-6).
 VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_CBBC	logarithmic	frequency	zipf, CBBC	norms	corpus	en		This value is logarithmic word frequency based on the Zipf scale in the CBBC corpus (a channel for primary school children, age 6-12).
 VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_BNC	logarithmic	frequency	zipf, BNC	norms	corpus	en		This value is logarithmic word frequency based on the Zipf scale in the British National Corpus.
-VanHeuven-2014-Frequency	ENGLISH_CD	numeric	contextual diversity		norms	corpus	en		This is the number of films in which the word appears (max. 45,099 BBC broadcasts).
-VanHeuven-2014-Frequency	ENGLISH_CD_CBEEBIES	numeric	contextual diversity	Cbeebies	norms	corpus	en		This is the number of films of the Cbeebies corpus (a channel for pre-school children, age 0-6) in which the word appears.
-VanHeuven-2014-Frequency	ENGLISH_CD_CBBC	numeric	contextual diversity	CBBC	norms	corpus	en		This is the number of films of the CBBC corpus (a channel for primary school children, age 6-12) in which the word appears.
+VanHeuven-2014-Frequency	ENGLISH_CD	tokens	contextual diversity		norms	corpus	en		This is the number of films in which the word appears (max. 45,099 BBC broadcasts).
+VanHeuven-2014-Frequency	ENGLISH_CD_CBEEBIES	tokens	contextual diversity	Cbeebies	norms	corpus	en		This is the number of films of the Cbeebies corpus (a channel for pre-school children, age 0-6) in which the word appears.
+VanHeuven-2014-Frequency	ENGLISH_CD_CBBC	tokens	contextual diversity	CBBC	norms	corpus	en		This is the number of films of the CBBC corpus (a channel for primary school children, age 6-12) in which the word appears.
 Vergallito-2020-1121	LD_ACCURACY_PERCENTAGE	percentage	lexical decision	accuracy	ratings	users	it		This is the average accuracy of the responses in the lexical decision task.
 Vergallito-2020-1121	LD_RT_MEAN	mean	lexical decision	reaction time	ratings	users	it		This is the mean raw reaction times in the lexical decision task.
 Vergallito-2020-1121	NAMING_ACCURACY_PERCENTAGE	percentage	naming	accuracy	ratings	users	it		This is the average accuracy of the responses in the naming task.
@@ -614,5 +614,5 @@ Wang-2021-90	MANIPULATION_MEAN	mean	sensory modality	manipulability	ratings	user
 Wang-2021-90	STRESS_ACTION_MEAN	mean	action	stress-related	ratings	user	zh		The rating mean of stress-related action on a 7-point scale.
 Wang-2021-90	AROUSAL_MEAN	mean	arousal		ratings	user	zh		The rating mean of arousal on a 7-point scale.
 Wang-2021-90	VALENCE_MEAN	mean	valence		ratings	user	zh		The rating mean of emotional valence on a 7-point scale.
-Wang-2021-90	STROKE	numeric	strokes		norms	meta	zh		Total number of strokes of the whole-word.
+Wang-2021-90	STROKE	cardinality	strokes		norms	meta	zh		Total number of strokes of the whole-word.
 Wang-2021-90	FAMILIARITY_MEAN	mean	familiarity		ratings	user	zh		The rating mean of familiarity on a 7-point scale.
