@@ -39,7 +39,7 @@
             "titles": "CDcount"
           },
           {
-            "name": "DUTCH_SUBTITLE_FREQUENCY",
+            "name": "DUTCH_FREQUENCY_PM",
             "datatype": "float",
             "titles": "SUBTLEXWF"
           },
