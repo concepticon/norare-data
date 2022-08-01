@@ -1,7 +1,3 @@
-import subprocess
-
-from csvw.dsv import reader, UnicodeWriter
-
 from pynorare.dataset import NormDataSet
 
 
@@ -14,13 +10,9 @@ class Dataset(NormDataSet):
             'https://osf.io/wzfpd/download',
             'SpeedBrysbaert_Norms.xlsx',
         )
-        subprocess.check_call('libreoffice --headless --convert-to csv {0}/SpeedBrysbaert_Norms.xlsx --outdir {0}'.format(self.raw_dir).split())
-        rows = list(reader(self.raw_dir / 'SpeedBrysbaert_Norms.csv', encoding='cp1252'))
-        with UnicodeWriter(self.raw_dir / 'SpeedBrysbaert_Norms.csv') as w:
-            w.writerows(rows)
 
     def map(self, write_file=True):
-        sheet = self.get_csv('SpeedBrysbaert_Norms.csv', ',', dicts=True)
+        sheet = self.get_excel('SpeedBrysbaert_Norms.xlsx', 0, dicts=True)
         self.extract_data(
             sheet,
             gloss='DUTCH',
