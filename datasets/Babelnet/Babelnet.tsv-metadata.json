@@ -1,0 +1,54 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of Babelnet.",
+  "dc:source": "http://babelnet.org",
+  "dcat:keyword": ["Babelnet", "dictionary", "multilingual"],
+  "dc:description": "An automated mapping of Babelnet to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "BABELNET_GLOSS",
+            "datatype": "string"
+          },
+          {
+            "name": "BABELNET_ID",
+            "datatype": "string",
+            "propertyUrl": "dc:relation",
+            "valueUrl": "http://babelnet.org/synset?word=bn:{BABELNET_ID}"
+          },
+          {
+            "name": "BABELNET_DEFINITION",
+            "datatype": "string"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Babelnet.tsv"
+    }
+  ]
+}

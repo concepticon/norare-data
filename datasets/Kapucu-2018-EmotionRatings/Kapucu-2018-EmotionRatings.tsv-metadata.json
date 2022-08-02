@@ -1,0 +1,90 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of affective ratings (valence, arousal, concreteness) and discrete emotion ratings (happiness, sadness, anger, fear, and disgust) by Kapucu et al. (2018).",
+  "dc:source": "https://osf.io/86a4g/",
+  "dc:references" : "Kapucu2018",
+  "dcat:keyword": ["valence", "arousal", "concreteness", "discrete emotions", "ratings", "happiness", "sadness", "anger", "fear", "disgust", "Turkish"],
+  "dc:description": "An automated mapping of the affective ratings (valence, arousal, concreteness) and discrete emotion ratings (happiness, sadness, anger, fear, and disgust) submitted with the study of Kapucu et al. (2018) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "TURKISH",
+            "datatype": "string",
+            "titles": "word"
+          }, 
+          {
+            "name": "TURKISH_VALENCE_MEAN",
+            "datatype": "float",
+            "titles": "ValenceM"
+          },
+          {
+            "name": "TURKISH_AROUSAL_MEAN",
+            "datatype": "float",
+            "titles": "ArousalM"
+          },
+          {
+            "name": "TURKISH_HAPPINESS_MEAN",
+            "datatype": "float",
+            "titles": "HappyM"
+          },
+          {
+            "name": "TURKISH_ANGER_MEAN",
+            "datatype": "float",
+            "titles": "AngerM"
+          },
+          {
+            "name": "TURKISH_SADNESS_MEAN",
+            "datatype": "float",
+            "titles": "SadM"
+          },
+          {
+            "name": "TURKISH_FEAR_MEAN",
+            "datatype": "float",
+            "titles": "FearM"
+          },
+          {
+            "name": "TURKISH_DISGUST_MEAN",
+            "datatype": "float",
+            "titles": "DisgustM"
+          },
+          {
+            "name": "TURKISH_CONCRETENESS_MEAN",
+            "datatype": "float",
+            "titles": "ConcretenessM"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Kapucu-2018-EmotionRatings.tsv"
+    }
+  ]
+}

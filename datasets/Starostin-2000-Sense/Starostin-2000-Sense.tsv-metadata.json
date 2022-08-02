@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of Sense Relations by Starostin (2000)",
+  "dc:source": "http://starling.rinet.ru/program.php?lan=en",
+  "dc:references" : "Starostin2000",
+  "dcat:keyword": ["sense relations", "monolingual", "English"],
+  "dc:description": "An automated mapping of the sense relations submitted with the STARLING database program by Starostin (2000) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "GLOSS"
+          }, 
+          {
+            "name": "SENSES",
+            "datatype": "string",
+            "titles": "SENSES"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Starostin-2000-Sense.tsv"
+    }
+  ]
+}

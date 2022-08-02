@@ -1,0 +1,46 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of Merriam-Webster's dictionary entries.",
+  "dc:source": "https://www.merriam-webster.com",
+  "dcat:keyword": ["Merriam-Webster", "encyclopedia", "multilingual"],
+  "dc:description": "An automated mapping of the Merriam-Webster's dictionary entries to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "WEBSTER_ID",
+            "datatype": "string",
+            "propertyUrl": "dc:relation",
+            "valueUrl": "https://www.merriam-webster.com/dictionary/{WEBSTER_ID}"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Webster.tsv"
+    }
+  ]
+}

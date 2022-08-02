@@ -1,0 +1,185 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) and five action effectors (mouth/throat, hand/arm, foot/leg, head excluding mouth/throat, and torso) ratings by Lynott et al. (2019).",
+  "dc:source": "https://osf.io/7emr6/",
+  "dc:references" : "Lynott2020",
+  "dcat:keyword": ["ratings", "monolingual", "auditory", "gustatory", "haptic", "interoceptive", "olfactory", "visual", "action", "perceptual", "sensorimotor", "age-of-acquisition", "English"],
+  "dc:description": "An automated mapping of six perceptual modalities (touch, hearing, smell, taste, vision, and interoception) and five action effectors (mouth/throat, hand/arm, foot/leg, head excluding mouth/throat, and torso) ratings submitted with the study of Lynott et al. (2019) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "ENGLISH_AUDITORY_MEAN",
+            "datatype": "float",
+            "titles": "Auditory.mean"
+          },
+          {
+            "name": "ENGLISH_GUSTATORY_MEAN",
+            "datatype": "float",
+            "titles": "Gustatory.mean"
+          },
+          {
+            "name": "ENGLISH_HAPTIC_MEAN",
+            "datatype": "float",
+            "titles": "Haptic.mean"
+          },
+          {
+            "name": "ENGLISH_INTEROCEPTIVE_MEAN",
+            "datatype": "float",
+            "titles": "Interoceptive.mean"
+          },
+          {
+            "name": "ENGLISH_OLFACTORY_MEAN",
+            "datatype": "float",
+            "titles": "Olfactory.mean"
+          },
+          {
+            "name": "ENGLISH_VISUAL_MEAN",
+            "datatype": "float",
+            "titles": "Visual.mean"
+          },
+          {
+            "name": "ENGLISH_FOOT_ACTION_MEAN",
+            "datatype": "float",
+            "titles": "Foot_leg.mean"
+          },
+          {
+            "name": "ENGLISH_HAND_ACTION_MEAN",
+            "datatype": "float",
+            "titles": "Hand_arm.mean"
+          },
+          {
+            "name": "ENGLISH_HEAD_ACTION_MEAN",
+            "datatype": "float",
+            "titles": "Head.mean"
+          },
+          {
+            "name": "ENGLISH_MOUTH_ACTION_MEAN",
+            "datatype": "float",
+            "titles": "Mouth.mean"
+          },
+          {
+            "name": "ENGLISH_TORSO_ACTION_MEAN",
+            "datatype": "float",
+            "titles": "Torso.mean"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_STRENGTH_MAX",
+            "datatype": "float",
+            "titles": "Max_strength.perceptual"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_STRENGTH_AGGREGATED",
+            "datatype": "float",
+            "titles": "Minkowski3.perceptual"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_EXCLUSIVITY",
+            "datatype": "float",
+            "titles": "Exclusivity.perceptual"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_DOMINANT",
+            "datatype": "string",
+            "titles": "Dominant.perceptual"
+          },
+          {
+            "name": "ENGLISH_ACTION_STRENGTH_MAX",
+            "datatype": "float",
+            "titles": "Max_strength.action"
+          },
+          {
+            "name": "ENGLISH_ACTION_STRENGTH_AGGREGATED",
+            "datatype": "float",
+            "titles": "Minkowski3.action"
+          },
+          {
+            "name": "ENGLISH_ACTION_EXCLUSIVITY",
+            "datatype": "float",
+            "titles": "Exclusivity.action"
+          },
+          {
+            "name": "ENGLISH_ACTION_DOMINANT",
+            "datatype": "string",
+            "titles": "Dominant.action"
+          },
+          {
+            "name": "ENGLISH_SENSORIMOTOR_STRENGTH_MAX",
+            "datatype": "float",
+            "titles": "Max_strength.sensorimotor"
+          },
+          {
+            "name": "ENGLISH_SENSORIMOTOR_STRENGTH_AGGREGATED",
+            "datatype": "float",
+            "titles": "Minkowski3.sensorimotor"
+          },
+          {
+            "name": "ENGLISH_SENSORIMOTOR_EXCLUSIVITY",
+            "datatype": "float",
+            "titles": "Exclusivity.sensorimotor"
+          },
+          {
+            "name": "ENGLISH_SENSORIMOTOR_DOMINANT",
+            "datatype": "string",
+            "titles": "Dominant.sensorimotor"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_KNOWN_PERCENTAGE",
+            "datatype": "float",
+            "titles": "Percent_known.perceptual"
+          },
+          {
+            "name": "ENGLISH_ACTION_KNOWN_PERCENTAGE",
+            "datatype": "float",
+            "titles": "Percent_known.action"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_AOA_MEAN",
+            "datatype": "float",
+            "titles": "Mean_age.perceptual"
+          },
+          {
+            "name": "ENGLISH_ACTION_AOA_MEAN",
+            "datatype": "float",
+            "titles": "Mean_age.action"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Lynott-2020-Sensorimotor.tsv"
+    }
+  ]
+}

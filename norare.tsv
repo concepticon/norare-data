@@ -476,9 +476,9 @@ VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_BNC	logarithmic	frequency	zipf, B
 VanHeuven-2014-Frequency	ENGLISH_CD	tokens	contextual diversity		norms	corpus	en		This is the number of films in which the word appears (max. 45,099 BBC broadcasts).
 VanHeuven-2014-Frequency	ENGLISH_CD_CBEEBIES	tokens	contextual diversity	Cbeebies	norms	corpus	en		This is the number of films of the Cbeebies corpus (a channel for pre-school children, age 0-6) in which the word appears.
 VanHeuven-2014-Frequency	ENGLISH_CD_CBBC	tokens	contextual diversity	CBBC	norms	corpus	en		This is the number of films of the CBBC corpus (a channel for primary school children, age 6-12) in which the word appears.
-Vergallito-2020-1121	LD_ACCURACY_PERCENTAGE	percentage	lexical decision	accuracy	ratings	users	it		This is the average accuracy of the responses in the lexical decision task.
+Vergallito-2020-1121	ACCURACY_LD_MEAN	percentage	lexical decision	accuracy	ratings	users	it		This is the average accuracy of the responses in the lexical decision task.
 Vergallito-2020-1121	LD_RT_MEAN	mean	lexical decision	reaction time	ratings	users	it		This is the mean raw reaction times in the lexical decision task.
-Vergallito-2020-1121	NAMING_ACCURACY_PERCENTAGE	percentage	naming	accuracy	ratings	users	it		This is the average accuracy of the responses in the naming task.
+Vergallito-2020-1121	ACCURACY_NAMING_MEAN	percentage	naming	accuracy	ratings	users	it		This is the average accuracy of the responses in the naming task.
 Vergallito-2020-1121	NAMING_RT_MEAN	mean	reaction time	naming	ratings	users	it		This is the mean raw reaction times in the naming task.
 Vergallito-2020-1121	LD_RT_ZSCORE	standardized	lexical decision	reaction time	ratings	users	it		This is the reaction times scaled for participant and session, lexical decision task.
 Vergallito-2020-1121	NAMING_RT_ZSCORE	standardized	reaction time	naming	ratings	users	it		This is the reaction times scaled for participant and session, naming task.
@@ -504,8 +504,7 @@ Gilhooly-1980-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en
 Gilhooly-1980-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	en		Mean value of concreteness ratings based on a 7-point scale.
 Gilhooly-1980-Ratings	ENGLISH_MEANING_UNCERTAINTY	numeric	ambiguity	degree	ratings	user	en		An information theory measure of the average uncertainty of which meaning would be dominant was derived from the response data for each word. This measure of meaning uncertainty (U) provides a numerical index of degree of ambiguity.
 Gilhooly-1980-Ratings	ENGLISH_FREQUENCY	tokens	frequency		ratings	corpus	en	Thorndike1944	Frequencies of English words based on the Thorndike–Lorge list of 30,000 words ([Thorndike and Lorge 1944](:bib:Thorndike1944)).
-Scheible-2014-1755	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
-Scheible-2014-1755	SCORES	mean	similarity		relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale.
+Scheible-2014-1755	SCORED_RELATIONS	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN), scored as the mean of similarity judgments on a 5-point scale.
 Lapesa-2014-772	POLYSEMY_CLASS	numeric	polysemy	degree	relations	users	en		The degree of polysemy (1-3).
 Lapesa-2014-772	FREQUENCY_CLASS	linguistic	frequency	degree	relations	users	en		The degree of frequency (high, medium, low).
 Lapesa-2014-772	DEGREE_CLASS	linguistic	degree		relations	users	en		The class of degree (low, high, not).

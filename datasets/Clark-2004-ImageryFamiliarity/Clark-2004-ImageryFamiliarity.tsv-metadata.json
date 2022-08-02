@@ -1,0 +1,65 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of ratings for imageability and familiarity by Clark and Paivio (2004).",
+  "dc:source": "https://doi.org/10.3758/BF03195584",
+  "dc:references" : "Clark2004",
+  "dcat:keyword": ["imageability", "familiarity", "English"],
+  "dc:description": "An automated mapping of the ratings for imageability and familiarity submitted with the study of Clark and Paivio (2004) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          },
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "WORD"
+          },
+          {
+            "name": "PAVIO_NORMS",
+            "datatype": "integer",
+            "titles": "PYM"
+          },
+          {
+            "name": "ENGLISH_IMAGEABILITY_MEAN",
+            "datatype": "float",
+            "titles": "IMG"
+          },
+          {
+            "name": "ENGLISH_FAMILIARITY_MEAN",
+            "datatype": "float",
+            "titles": "FAM"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Clark-2004-ImageryFamiliarity.tsv"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of frequency norms by Crepaldi et al. (2015).",
+  "dc:source": "http://crr.ugent.be/programs-data/subtitle-frequencies",
+  "dc:references" : "Crepaldi2015",
+  "dcat:keyword": ["word frequency", "monolingual", "Italian"],
+  "dc:description": "An automated mapping of the frequency norms submitted with the study of Crepaldi et al. (2015) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ITALIAN",
+            "datatype": "string",
+            "titles": "spelling"
+          }, 
+          {
+            "name": "ITALIAN_FREQUENCY",
+            "datatype": "integer",
+            "titles": "FREQcount"
+          },
+          {
+            "name": "ITALIAN_CD",
+            "datatype": "integer",
+            "titles": "CDcount"
+          },
+          {
+            "name": "ITALIAN_POS",
+            "datatype": "string",
+            "titles": "dom_pos"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Crepaldi-2015-Frequency.tsv"
+    }
+  ]
+}
