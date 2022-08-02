@@ -1,0 +1,75 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of perceptual attribute ratings by Medler et al. (2005).",
+  "dc:source": "http://www.neuro.mcw.edu/ratings/",
+  "dc:references" : "Medler2005",
+  "dcat:keyword": ["sensorimotor", "monolingual", "English"],
+  "dc:description": "An automated mapping of the Wisconsin Perceptual Attribute Rating Database submitted with the study of Medler et al. (2005) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "spelling"
+          }, 
+          {
+            "name": "ENGLISH_SOUND_MEAN",
+            "datatype": "float",
+            "titles": "Sound mean"
+          },
+          {
+            "name": "ENGLISH_COLOR_MEAN",
+            "datatype": "float",
+            "titles": "Color mean"
+          },
+          {
+            "name": "ENGLISH_MANIPULATION_MEAN",
+            "datatype": "float",
+            "titles": "Manipulation mean"
+          },
+          {
+            "name": "ENGLISH_MOTION_MEAN",
+            "datatype": "float",
+            "titles": "Motion mean"
+          },
+          {
+            "name": "ENGLISH_EMOTION_MEAN",
+            "datatype": "float",
+            "titles": "Emotion mean"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Medler-2005-Perceptual.tsv"
+    }
+  ]
+}

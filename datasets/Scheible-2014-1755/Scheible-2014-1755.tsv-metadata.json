@@ -1,0 +1,95 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GERMAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "([0-9]+)(:[a-zA-Z\u00c0-\u017e]+)(-[a-zA-Z\u00c0-\u017e]+)?(-[a-zA-Z\u00c0-\u017e]+)?(-[a-zA-Z\u00c0-\u017e]+)(:[0-9]+)*"
+                        },
+                        "separator": " ",
+                        "name": "IDS_IN_SOURCE"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "([\u2192\u2190][0-9]+)*"
+                        },
+                        "separator": " ",
+                        "name": "LINKS"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "RELATION_TYPE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "SCORES"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"ANT\",\"HYP\",\"SYN\"],\"properties\": {\"ANT\": {\"type\": \"number\"},\"HYP\": {\"type\": \"number\"}, \"SYN\": {\"type\": \"number\"}}}}}"
+                        },
+                        "name": "SCORED_RELATIONS"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Scheible-2014-1755.tsv"
+        }
+    ]
+}

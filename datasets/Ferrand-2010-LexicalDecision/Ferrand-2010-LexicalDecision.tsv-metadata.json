@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of lexical decision data by Ferrand et al. (2010).",
+  "dc:source": "https://doi.org/10.3758/BRM.42.2.488",
+  "dc:references" : "Ferrand2010",
+  "dcat:keyword": ["lexical decision", "monolingual", "French"],
+  "dc:description": "An automated mapping of lexical decision data submitted with the study of Ferrand et al. (2010) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "FRENCH",
+            "datatype": "string",
+            "titles": "item"
+          }, 
+          {
+            "name": "FRENCH_RT_MEAN",
+            "datatype": "float",
+            "titles": "rt"
+          },
+          {
+            "name": "FRENCH_RT_ZSCORE",
+            "datatype": "float",
+            "titles": "rtz"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Ferrand-2010-LexicalDecision.tsv"
+    }
+  ]
+}

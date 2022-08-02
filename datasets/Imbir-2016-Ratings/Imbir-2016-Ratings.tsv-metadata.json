@@ -1,0 +1,180 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of psycholinguistic measures (Valence, Arousal, Dominance, Origin, Significance, Concreteness, Imageability, and subjective Age of Acquisition) ratings by Imbir (2016).",
+  "dc:source": "https://doi.org/10.3389/fpsyg.2016.01081",
+  "dc:references" : "Imbir2016",
+  "dcat:keyword": ["ratings", "monolingual", "valence", "arousal", "dominance", "origin", "significance", "concreteness", "imageability", "age-of-acquisition", "Polish"],
+  "dc:description": "An automated mapping of psycholinguistic measures (Valence, Arousal, Dominance, Origin, Significance, Concreteness, Imageability, and subjective Age of Acquisition) ratings submitted with the study of Imbir (2016) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "POLISH",
+            "datatype": "string",
+            "titles": "polish word"
+          },
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "english word"
+          },
+          {
+            "name": "POLISH_POS",
+            "datatype": "string",
+            "titles": "part of speach"
+          },
+          {
+            "name": "POLISH_VALENCE_MEAN",
+            "datatype": "float",
+            "titles": "Valence_M"
+          },
+          {
+            "name": "POLISH_AROUSAL_MEAN",
+            "datatype": "float",
+            "titles": "arousal_M"
+          },
+          {
+            "name": "POLISH_DOMINANCE_MEAN",
+            "datatype": "float",
+            "titles": "dominance_M"
+          },
+          {
+            "name": "POLISH_ORIGIN_MEAN",
+            "datatype": "float",
+            "titles": "origin_M"
+          },
+          {
+            "name": "POLISH_SIGNIFICANCE_MEAN",
+            "datatype": "float",
+            "titles": "significance_M"
+          },
+          {
+            "name": "POLISH_CONCRETENESS_MEAN",
+            "datatype": "float",
+            "titles": "concretness_M"
+          },
+          {
+            "name": "POLISH_IMAGEABILITY_MEAN",
+            "datatype": "float",
+            "titles": "imegability_M"
+          },
+          {
+            "name": "POLISH_AOA_MEAN",
+            "datatype": "float",
+            "titles": "ageOfAquisition_M"
+          },
+          {
+            "name": "POLISH_VALENCE_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "Valence_M_Female"
+          },
+          {
+            "name": "POLISH_AROUSAL_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "arousal_M_Female"
+          },
+          {
+            "name": "POLISH_DOMINANCE_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "dominance_M_Female"
+          },
+          {
+            "name": "POLISH_ORIGIN_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "origin_M_Female"
+          },
+          {
+            "name": "POLISH_SIGNIFICANCE_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "significance_M_Female"
+          },
+          {
+            "name": "POLISH_CONCRETENESS_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "concretness_M_Female"
+          },
+          {
+            "name": "POLISH_IMAGEABILITY_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "imegability_M_Female"
+          },
+          {
+            "name": "POLISH_AOA_MEAN_FEMALE",
+            "datatype": "float",
+            "titles": "ageOfAquisition_M_Female"
+          },
+          {
+            "name": "POLISH_VALENCE_MEAN_MALE",
+            "datatype": "float",
+            "titles": "Valence_M_Male"
+          },
+          {
+            "name": "POLISH_AROUSAL_MEAN_MALE",
+            "datatype": "float",
+            "titles": "arousal_M_Male"
+          },
+          {
+            "name": "POLISH_DOMINANCE_MEAN_MALE",
+            "datatype": "float",
+            "titles": "dominance_M_Male"
+          },
+          {
+            "name": "POLISH_ORIGIN_MEAN_MALE",
+            "datatype": "float",
+            "titles": "origin_M_Male"
+          },
+          {
+            "name": "POLISH_SIGNIFICANCE_MEAN_MALE",
+            "datatype": "float",
+            "titles": "significance_M_Male"
+          },
+          {
+            "name": "POLISH_CONCRETENESS_MEAN_MALE",
+            "datatype": "float",
+            "titles": "concretness_M_Male"
+          },
+          {
+            "name": "POLISH_IMAGEABILITY_MEAN_MALE",
+            "datatype": "float",
+            "titles": "imegability_M_Male"
+          },
+          {
+            "name": "POLISH_AOA_MEAN_MALE",
+            "datatype": "float",
+            "titles": "ageOfAquisition_M_Male"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Imbir-2016-Ratings.tsv"
+    }
+  ]
+}
