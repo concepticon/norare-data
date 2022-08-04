@@ -30,12 +30,12 @@
           }, 
           {
             "name": "DUTCH_ACCURACY_PERCENTAGE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "accuracy"
           },
           {
             "name": "DUTCH_PREVALENCE",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "prevalence"
           },
           {

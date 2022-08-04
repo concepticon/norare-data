@@ -30,17 +30,17 @@
           }, 
           {
             "name": "GERMAN_FREQUENCY",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "WFfreqcount"
           },
           {
             "name": "GERMAN_FREQUENCY_PM",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1000000},
             "titles": "SUBTLEX"
           },
           {
             "name": "GERMAN_FREQUENCY_LOG",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "lgSUBTLEX"
           },
           {

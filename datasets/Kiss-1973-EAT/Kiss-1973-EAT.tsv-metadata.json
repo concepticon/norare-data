@@ -35,12 +35,12 @@
           },
           {
             "name": "DEGREE",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "DEGREE"
           },
           {
             "name": "WEIGHTED_DEGREE",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "WEIGHTED_DEGREE"
           },
           {

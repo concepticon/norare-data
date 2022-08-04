@@ -30,137 +30,137 @@
           },
           {
             "name": "ENGLISH_AUDITORY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Auditory.mean"
           },
           {
             "name": "ENGLISH_GUSTATORY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Gustatory.mean"
           },
           {
             "name": "ENGLISH_HAPTIC_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Haptic.mean"
           },
           {
             "name": "ENGLISH_INTEROCEPTIVE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Interoceptive.mean"
           },
           {
             "name": "ENGLISH_OLFACTORY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Olfactory.mean"
           },
           {
             "name": "ENGLISH_VISUAL_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Visual.mean"
           },
           {
             "name": "ENGLISH_FOOT_ACTION_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Foot_leg.mean"
           },
           {
             "name": "ENGLISH_HAND_ACTION_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Hand_arm.mean"
           },
           {
             "name": "ENGLISH_HEAD_ACTION_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Head.mean"
           },
           {
             "name": "ENGLISH_MOUTH_ACTION_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Mouth.mean"
           },
           {
             "name": "ENGLISH_TORSO_ACTION_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Torso.mean"
           },
           {
             "name": "ENGLISH_PERCEPTUAL_STRENGTH_MAX",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Max_strength.perceptual"
           },
           {
             "name": "ENGLISH_PERCEPTUAL_STRENGTH_AGGREGATED",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Minkowski3.perceptual"
           },
           {
             "name": "ENGLISH_PERCEPTUAL_EXCLUSIVITY",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Exclusivity.perceptual"
           },
           {
             "name": "ENGLISH_PERCEPTUAL_DOMINANT",
-            "datatype": "string",
+            "datatype": {"base": "string", "format": "Auditory|Gustatory|Haptic|Interoceptive|Olfactory|Visual"},
             "titles": "Dominant.perceptual"
           },
           {
             "name": "ENGLISH_ACTION_STRENGTH_MAX",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Max_strength.action"
           },
           {
             "name": "ENGLISH_ACTION_STRENGTH_AGGREGATED",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Minkowski3.action"
           },
           {
             "name": "ENGLISH_ACTION_EXCLUSIVITY",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Exclusivity.action"
           },
           {
             "name": "ENGLISH_ACTION_DOMINANT",
-            "datatype": "string",
+            "datatype": {"base": "string", "format": "Foot_leg|Hand_arm|Head|Mouth|Torso"},
             "titles": "Dominant.action"
           },
           {
             "name": "ENGLISH_SENSORIMOTOR_STRENGTH_MAX",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Max_strength.sensorimotor"
           },
           {
             "name": "ENGLISH_SENSORIMOTOR_STRENGTH_AGGREGATED",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Minkowski3.sensorimotor"
           },
           {
             "name": "ENGLISH_SENSORIMOTOR_EXCLUSIVITY",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Exclusivity.sensorimotor"
           },
           {
             "name": "ENGLISH_SENSORIMOTOR_DOMINANT",
-            "datatype": "string",
+            "datatype": {"base": "string", "format": "Auditory|Foot_leg|Gustatory|Hand_arm|Haptic|Head|Interoceptive|Mouth|Olfactory|Torso|Visual"},
             "titles": "Dominant.sensorimotor"
           },
           {
             "name": "ENGLISH_PERCEPTUAL_KNOWN_PERCENTAGE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Percent_known.perceptual"
           },
           {
             "name": "ENGLISH_ACTION_KNOWN_PERCENTAGE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Percent_known.action"
           },
           {
             "name": "ENGLISH_PERCEPTUAL_AOA_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Mean_age.perceptual"
           },
           {
             "name": "ENGLISH_ACTION_AOA_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Mean_age.action"
           },
           {

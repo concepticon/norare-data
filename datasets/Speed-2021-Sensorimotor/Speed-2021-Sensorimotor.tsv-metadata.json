@@ -30,57 +30,57 @@
           },
           {
             "name": "DUTCH_AUDITORY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Horen"
           },
           {
             "name": "DUTCH_GUSTATORY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Proeven"
           },
           {
             "name": "DUTCH_HAPTIC_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Voelen"
           },
           {
             "name": "DUTCH_INTEROCEPTIVE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Sensaties"
           },
           {
             "name": "DUTCH_OLFACTORY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Ruiken"
           },
           {
             "name": "DUTCH_VISUAL_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
             "titles": "Zien"
           },
           {
             "name": "DUTCH_PERCEPTUAL_DOMINANT",
-            "datatype": "string",
+            "datatype": {"base": "string", "format": "Horen|Joint|Proeven|Ruiken|Sensaties|Voelen|Zien"},
             "titles": "Modality"
           },
           {
             "name": "DUTCH_PERCEPTUAL_EXCLUSIVITY",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "ModalityExclusivity"
           },
           {
             "name": "DUTCH_PERCEPTUAL_STRENGTH_MAX",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "MaxPercStrength"
           },
           {
             "name": "DUTCH_PERCEPTUAL_STRENGTH_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "AvModalityStrength"
           },
           {
             "name": "DUTCH_PERCEPTUAL_STRENGTH_AGGREGATED",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Minkowski3"
           },
           {

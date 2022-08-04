@@ -30,42 +30,42 @@
           }, 
           {
             "name": "TURKISH_VALENCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "ValenceM"
           },
           {
             "name": "TURKISH_AROUSAL_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "ArousalM"
           },
           {
             "name": "TURKISH_HAPPINESS_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "HappyM"
           },
           {
             "name": "TURKISH_ANGER_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "AngerM"
           },
           {
             "name": "TURKISH_SADNESS_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "SadM"
           },
           {
             "name": "TURKISH_FEAR_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "FearM"
           },
           {
             "name": "TURKISH_DISGUST_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "DisgustM"
           },
           {
             "name": "TURKISH_CONCRETENESS_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "ConcretenessM"
           },
           {

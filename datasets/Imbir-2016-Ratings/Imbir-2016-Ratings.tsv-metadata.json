@@ -40,122 +40,122 @@
           },
           {
             "name": "POLISH_VALENCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "Valence_M"
           },
           {
             "name": "POLISH_AROUSAL_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "arousal_M"
           },
           {
             "name": "POLISH_DOMINANCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "dominance_M"
           },
           {
             "name": "POLISH_ORIGIN_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "origin_M"
           },
           {
             "name": "POLISH_SIGNIFICANCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "significance_M"
           },
           {
             "name": "POLISH_CONCRETENESS_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "concretness_M"
           },
           {
             "name": "POLISH_IMAGEABILITY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "imegability_M"
           },
           {
             "name": "POLISH_AOA_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 3, "maximum": 18},
             "titles": "ageOfAquisition_M"
           },
           {
             "name": "POLISH_VALENCE_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "Valence_M_Female"
           },
           {
             "name": "POLISH_AROUSAL_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "arousal_M_Female"
           },
           {
             "name": "POLISH_DOMINANCE_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "dominance_M_Female"
           },
           {
             "name": "POLISH_ORIGIN_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "origin_M_Female"
           },
           {
             "name": "POLISH_SIGNIFICANCE_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "significance_M_Female"
           },
           {
             "name": "POLISH_CONCRETENESS_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "concretness_M_Female"
           },
           {
             "name": "POLISH_IMAGEABILITY_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "imegability_M_Female"
           },
           {
             "name": "POLISH_AOA_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 3, "maximum": 18},
             "titles": "ageOfAquisition_M_Female"
           },
           {
             "name": "POLISH_VALENCE_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "Valence_M_Male"
           },
           {
             "name": "POLISH_AROUSAL_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "arousal_M_Male"
           },
           {
             "name": "POLISH_DOMINANCE_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "dominance_M_Male"
           },
           {
             "name": "POLISH_ORIGIN_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "origin_M_Male"
           },
           {
             "name": "POLISH_SIGNIFICANCE_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "significance_M_Male"
           },
           {
             "name": "POLISH_CONCRETENESS_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "concretness_M_Male"
           },
           {
             "name": "POLISH_IMAGEABILITY_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "imegability_M_Male"
           },
           {
             "name": "POLISH_AOA_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 3, "maximum": 18},
             "titles": "ageOfAquisition_M_Male"
           },
           {

@@ -30,17 +30,17 @@
           }, 
           {
             "name": "ITALIAN_FREQUENCY",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "FREQcount"
           },
           {
             "name": "ITALIAN_CD",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "CDcount"
           },
           {
             "name": "ITALIAN_POS",
-            "datatype": "string",
+            "datatype": {"base": "string", "format": "ADJ|ADV|CON|DET|NOM|PRE|PRO|VER"},
             "titles": "dom_pos"
           },
           {

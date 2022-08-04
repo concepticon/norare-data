@@ -30,12 +30,12 @@
           }, 
           {
             "name": "ENGLISH_KNOWN_PERCENTAGE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Pknown"
           },
           {
             "name": "ENGLISH_PREVALENCE",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Prevalence"
           },
           {

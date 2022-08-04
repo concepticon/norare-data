@@ -30,7 +30,7 @@
           }, 
           {
             "name": "ENGLISH_IMAGEABILITY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "Imagery mean"
           },
           {
@@ -40,7 +40,7 @@
           },
           {
             "name": "ENGLISH_AOA_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "AOA mean"
           },
           {
@@ -50,7 +50,7 @@
           },
           {
             "name": "ENGLISH_FAMILIARITY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "Familiarity mean"
           },
           {
@@ -60,7 +60,7 @@
           },
           {
             "name": "ENGLISH_CONCRETENESS_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "Concreteness mean"
           },
           {
@@ -75,7 +75,7 @@
           },
           {
             "name": "ENGLISH_FREQUENCY",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 30000},
             "titles": "Thorndike-Lorge frequency"
           },
           {

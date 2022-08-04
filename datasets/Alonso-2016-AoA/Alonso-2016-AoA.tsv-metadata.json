@@ -30,22 +30,22 @@
           }, 
           {
             "name": "SPANISH_AOA_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "AoA_average"
           },
           {
             "name": "SPANISH_AOA_MIN",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "Min"
           },
           {
             "name": "SPANISH_AOA_MAX",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "Max"
           },
           {
             "name": "SPANISH_AOA_ZSCORE",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Z_Score"
           },
           {

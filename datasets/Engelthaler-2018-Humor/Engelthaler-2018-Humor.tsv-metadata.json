@@ -30,27 +30,27 @@
           }, 
           {
             "name": "ENGLISH_HUMOR_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
             "titles": "mean"
           },
           {
             "name": "ENGLISH_HUMOR_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
             "titles": "mean_M"
           },
           {
             "name": "ENGLISH_HUMOR_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
             "titles": "mean_F"
           },
           {
             "name": "ENGLISH_HUMOR_MEAN_YOUNG",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
             "titles": "mean_young"
           },
           {
             "name": "ENGLISH_HUMOR_MEAN_OLD",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
             "titles": "mean_old"
           },
           {

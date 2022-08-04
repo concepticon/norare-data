@@ -35,12 +35,12 @@
           },
           {
             "name": "ENGLISH_IMAGEABILITY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 7},
             "titles": "IMG"
           },
           {
             "name": "ENGLISH_FAMILIARITY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 7},
             "titles": "FAM"
           },
           {

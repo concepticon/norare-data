@@ -30,7 +30,7 @@
           }, 
           {
             "name": "ENGLISH_FREQUENCY",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 201300000},
             "titles": "FreqCount"
           },
           {
@@ -46,12 +46,12 @@
             "titles": "CBBC_freq",
             "null": "NA",
               "datatype": {
-                  "base": "integer"
+                  "base": "nonNegativeInteger"
               }
           },
           {
             "name": "ENGLISH_FREQUENCY_BNC",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "BNC_freq"
           },
           {
@@ -82,7 +82,7 @@
           },
           {
             "name": "ENGLISH_CD",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 45099},
             "titles": "CD_count"
           },
           {
@@ -90,7 +90,7 @@
             "titles": "CD_count_Cbeebies",
             "null": "NA",
               "datatype": {
-                  "base": "integer"
+                  "base": "nonNegativeInteger"
               }
           },
           {
@@ -98,7 +98,7 @@
             "titles": "CD_count_CBBC",
             "null": "NA",
               "datatype": {
-                  "base": "integer"
+                  "base": "nonNegativeInteger"
               }
           },
           {

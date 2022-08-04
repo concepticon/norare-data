@@ -30,12 +30,12 @@
           }, 
           {
             "name": "SPANISH_AOA_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "AoA"
           },
           {
             "name": "SPANISH_RT_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "RTs"
           },
           {

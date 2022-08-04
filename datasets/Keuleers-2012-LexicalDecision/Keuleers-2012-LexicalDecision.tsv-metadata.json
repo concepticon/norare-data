@@ -30,17 +30,17 @@
           }, 
           {
             "name": "ENGLISH_RT_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "rt"
           },
           {
             "name": "ENGLISH_RT_ZSCORE",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "zscore"
           },
           {
             "name": "ENGLISH_ACCURACY_PERCENTAGE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "accuracy"
           },
           {

@@ -30,12 +30,12 @@
           }, 
           {
             "name": "ENGLISH_EMOTION_DOMINANT",
-            "datatype": "string",
+            "datatype": {"base": "string", "format": "anger|anticipation|disgust|fear|joy|sadness|surprise|trust"},
             "titles": "emotion"
           },
           {
             "name": "ENGLISH_EMOTION_INTENSITY",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "emotion-intensity-score"
           },
           {

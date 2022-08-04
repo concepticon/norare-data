@@ -30,7 +30,7 @@
           }, 
           {
             "name": "ENGLISH_AOA_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "rating"
           },
           {

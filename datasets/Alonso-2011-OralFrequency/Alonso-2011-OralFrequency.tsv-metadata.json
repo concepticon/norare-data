@@ -30,17 +30,17 @@
           }, 
           {
             "name": "SPANISH_FREQUENCY",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 10000000},
             "titles": "Frequency"
           },
           {
             "name": "SPANISH_FREQUENCY_PM",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "maximum": 1000000},
             "titles": "Frequency per million"
           },
           {
             "name": "SPANISH_FREQUENCY_LOG",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Log10(freq count+1)"
           }
         ],
