@@ -1,10 +1,6 @@
 def download(dataset):
-    #dataset.download_file(
-    #    'https://www.frontiersin.org/articles/file/downloadfile/174568_supplementary-materials_datasheets_1_xlsx/octet-stream/Data%20Sheet%201.XLSX/1/174568',
-    #    'data sheet 1.xlsx',
-    #)
     dataset.download_file(
-        'https://ndownloader.figstatic.com/files/30426825',
+        'https://ndownloader.figstatic.com/files/30470925',
         'data sheet 1.xlsx',
     )
 
