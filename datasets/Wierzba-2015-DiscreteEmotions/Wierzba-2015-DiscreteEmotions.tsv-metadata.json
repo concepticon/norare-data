@@ -35,77 +35,77 @@
           }, 
           {
             "name": "POLISH_HAPPINESS_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "hap_M_all"
           },
           {
             "name": "POLISH_ANGER_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "ang_M_all"
           },
           {
             "name": "POLISH_SADNESS_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "sad_M_all"
           },
           {
             "name": "POLISH_FEAR_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "fea_M_all"
           },
           {
             "name": "POLISH_DISGUST_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "dis_M_all"
           },
           {
             "name": "POLISH_HAPPINESS_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "hap_M_women"
           },
           {
             "name": "POLISH_ANGER_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "ang_M_women"
           },
           {
             "name": "POLISH_SADNESS_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "sad_M_women"
           },
           {
             "name": "POLISH_FEAR_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "fea_M_women"
           },
           {
             "name": "POLISH_DISGUST_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "dis_M_women"
           },
           {
             "name": "POLISH_HAPPINESS_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "hap_M_men"
           },
           {
             "name": "POLISH_ANGER_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "ang_M_men"
           },
           {
             "name": "POLISH_SADNESS_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "sad_M_men"
           },
           {
             "name": "POLISH_FEAR_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "fea_M_men"
           },
           {
             "name": "POLISH_DISGUST_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "dis_M_men"
           },
           {

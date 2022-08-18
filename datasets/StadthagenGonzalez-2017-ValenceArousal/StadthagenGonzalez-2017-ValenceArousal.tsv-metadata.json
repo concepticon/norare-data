@@ -30,12 +30,12 @@
           }, 
           {
             "name": "SPANISH_VALENCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "ValenceMean"
           },
           {
             "name": "SPANISH_AROUSAL_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "ArousalMean"
           },
           {

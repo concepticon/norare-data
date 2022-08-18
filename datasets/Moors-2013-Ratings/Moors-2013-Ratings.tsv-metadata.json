@@ -35,62 +35,62 @@
           },
           {
             "name": "DUTCH_VALENCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "M V"
           },
           {
             "name": "DUTCH_AROUSAL_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "M A"
           },
           {
             "name": "DUTCH_DOMINANCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "M P"
           },
           {
             "name": "DUTCH_AOA_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "M AoA"
           },
           {
             "name": "DUTCH_VALENCE_MALE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "M V Men"
           },
           {
             "name": "DUTCH_AROUSAL_MALE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "M A Men"
           },
           {
             "name": "DUTCH_DOMINANCE_MALE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "M P Men"
           },
           {
             "name": "DUTCH_AOA_MALE_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "M AoA Men"
           },
-                    {
+          {
             "name": "DUTCH_VALENCE_FEMALE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "M V Women"
           },
-                    {
+          {
             "name": "DUTCH_AROUSAL_FEMALE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "M A Women"
           },
           {
             "name": "DUTCH_DOMINANCE_FEMALE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "M P Women"
           },
           {
             "name": "DUTCH_AOA_FEMALE_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "M AoA Women"
           },
           {

@@ -30,32 +30,32 @@
           }, 
           {
             "name": "ENGLISH_FREQUENCY",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 51000000},
             "titles": "FREQcount"
           },
           {
             "name": "ENGLISH_CD",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 8388},
             "titles": "CDcount"
           },
           {
             "name": "ENGLISH_FREQUENCY_PM",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1000000},
             "titles": "SUBTLWF"
           },
           {
             "name": "ENGLISH_SUBTITLE_CD",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "SUBTLCD"
           },
           {
             "name": "ENGLISH_FREQUENCY_LOG",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Lg10WF"
           },
           {
             "name": "ENGLISH_CD_LOG",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Lg10CD"
           },
           {

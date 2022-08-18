@@ -30,22 +30,22 @@
           },
           {
             "name": "FRENCH_FAMILIARITY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "Mean_Word"
           },
           {
             "name": "FRENCH_RT_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Mean_RT"
           },
           {
             "name": "FRENCH_FAMILIARITY_MAX",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "MAX"
           },
           {
             "name": "FRENCH_FAMILIARITY_MIN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "MIN"
           },
           {

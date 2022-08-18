@@ -30,17 +30,17 @@
           }, 
           {
             "name": "CHINESE_RT_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "RT"
           },
           {
             "name": "CHINESE_RT_ZSCORE",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "zRT"
           },
           {
             "name": "CHINESE_STROKE",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "tstroke"
           },
           {

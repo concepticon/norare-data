@@ -108,30 +108,30 @@ Alonso-2016-AoA	SPANISH_AOA_MEAN	mean	AoA		ratings	user	es		Average score of AoA
 Alonso-2016-AoA	SPANISH_AOA_MIN	numeric	AoA	minimum	ratings	user	es		The minimum age of acquisition indicated by participants.
 Alonso-2016-AoA	SPANISH_AOA_MAX	numeric	AoA	maximum	ratings	user	es		The maximum age of acquisition indicated by participants.
 Alonso-2016-AoA	SPANISH_AOA_ZSCORE	standardized	AoA	z-score	ratings	user	es		The average standardized AoA ratings.
-Imbir-2016-Ratings	POLISH_VALENCE_MEAN	mean	valence		ratings	user	pl		Mean value of valence ratings on a SAM scale underlaid with a 9-point scale across all participants.
-Imbir-2016-Ratings	POLISH_AROUSAL_MEAN	mean	arousal		ratings	user	pl		Mean value of arousal ratings on a SAM scale underlaid with a 9-point scale across all participants.
-Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN	mean	dominance		ratings	user	pl		Mean value of dominance ratings on a SAM scale underlaid with a 9-point scale across all participants.
-Imbir-2016-Ratings	POLISH_ORIGIN_MEAN	mean	origin		ratings	user	pl		Mean value of origin ratings on a SAM scale underlaid with a 9-point scale across all participants.
-Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN	mean	significance		ratings	user	pl		Mean value of significance ratings on a SAM scale underlaid with a 9-point scale across all participants.
-Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	pl		Mean value of concreteness ratings on a SAM scale underlaid with a 9-point scale across all participants.
-Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	pl		Mean value of imageability ratings on a SAM scale underlaid with a 9-point scale across all participants.
-Imbir-2016-Ratings	POLISH_AOA_MEAN	mean	AoA		ratings	user	pl		Mean value of age-of-acquisition ratings on a SAM scale underlaid with a 9-point scale across all participants.
-Imbir-2016-Ratings	POLISH_VALENCE_MEAN_FEMALE	mean	valence	female	ratings	user	pl		Mean value of valence ratings on a SAM scale underlaid with a 9-point scale across female participants.
-Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	female	ratings	user	pl		Mean value of arousal ratings on a SAM scale underlaid with a 9-point scale across female participants.
-Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	female	ratings	user	pl		Mean value of dominance ratings on a SAM scale underlaid with a 9-point scale across female participants.
-Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_FEMALE	mean	origin	female	ratings	user	pl		Mean value of origin ratings on a SAM scale underlaid with a 9-point scale across female participants.
-Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_FEMALE	mean	significance	female	ratings	user	pl		Mean value of significance ratings on a SAM scale underlaid with a 9-point scale across female participants.
-Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_FEMALE	mean	concreteness	female	ratings	user	pl		Mean value of concreteness ratings on a SAM scale underlaid with a 9-point scale across female participants.
-Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	female	ratings	user	pl		Mean value of imageability ratings on a SAM scale underlaid with a 9-point scale across female participants.
-Imbir-2016-Ratings	POLISH_AOA_MEAN_FEMALE	mean	AoA	female	ratings	user	pl		Mean value of age-of-acquisition ratings on a SAM scale underlaid with a 9-point scale across female participants.
-Imbir-2016-Ratings	POLISH_VALENCE_MEAN_MALE	mean	valence	male	ratings	user	pl		Mean value of valence ratings on a SAM scale underlaid with a 9-point scale across male participants.
-Imbir-2016-Ratings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	male	ratings	user	pl		Mean value of arousal ratings on a SAM scale underlaid with a 9-point scale across male participants.
-Imbir-2016-Ratings	POLISH_DOMINANCE_MEAN_MALE	mean	dominance	male	ratings	user	pl		Mean value of dominance ratings on a SAM scale underlaid with a 9-point scale across male participants.
-Imbir-2016-Ratings	POLISH_ORIGIN_MEAN_MALE	mean	origin	male	ratings	user	pl		Mean value of origin ratings on a SAM scale underlaid with a 9-point scale across male participants.
-Imbir-2016-Ratings	POLISH_SIGNIFICANCE_MEAN_MALE	mean	significance	male	ratings	user	pl		Mean value of significance ratings on a SAM scale underlaid with a 9-point scale across male participants.
-Imbir-2016-Ratings	POLISH_CONCRETENESS_MEAN_MALE	mean	concreteness	male	ratings	user	pl		Mean value of concreteness ratings on a SAM scale underlaid with a 9-point scale across male participants.
-Imbir-2016-Ratings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	male	ratings	user	pl		Mean value of imageability ratings on a SAM scale underlaid with a 9-point scale across male participants.
-Imbir-2016-Ratings	POLISH_AOA_MEAN_MALE	mean	AoA	male	ratings	user	pl		Mean value of age-of-acquisition ratings on a SAM scale underlaid with a 9-point scale across male participants.
+Imbir-2021-Ratings	POLISH_VALENCE_MEAN	mean	valence		ratings	user	pl		Mean value of valence ratings on a SAM scale underlaid with a 9-point scale across all participants.
+Imbir-2021-Ratings	POLISH_AROUSAL_MEAN	mean	arousal		ratings	user	pl		Mean value of arousal ratings on a SAM scale underlaid with a 9-point scale across all participants.
+Imbir-2021-Ratings	POLISH_DOMINANCE_MEAN	mean	dominance		ratings	user	pl		Mean value of dominance ratings on a SAM scale underlaid with a 9-point scale across all participants.
+Imbir-2021-Ratings	POLISH_ORIGIN_MEAN	mean	origin		ratings	user	pl		Mean value of origin ratings on a SAM scale underlaid with a 9-point scale across all participants.
+Imbir-2021-Ratings	POLISH_SIGNIFICANCE_MEAN	mean	significance		ratings	user	pl		Mean value of significance ratings on a SAM scale underlaid with a 9-point scale across all participants.
+Imbir-2021-Ratings	POLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	pl		Mean value of concreteness ratings on a SAM scale underlaid with a 9-point scale across all participants.
+Imbir-2021-Ratings	POLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	pl		Mean value of imageability ratings on a SAM scale underlaid with a 9-point scale across all participants.
+Imbir-2021-Ratings	POLISH_AOA_MEAN	mean	AoA		ratings	user	pl		Mean value of age-of-acquisition ratings on a SAM scale underlaid with a 3-18 scale across all participants.
+Imbir-2021-Ratings	POLISH_VALENCE_MEAN_FEMALE	mean	valence	female	ratings	user	pl		Mean value of valence ratings on a SAM scale underlaid with a 9-point scale across female participants.
+Imbir-2021-Ratings	POLISH_AROUSAL_MEAN_FEMALE	mean	arousal	female	ratings	user	pl		Mean value of arousal ratings on a SAM scale underlaid with a 9-point scale across female participants.
+Imbir-2021-Ratings	POLISH_DOMINANCE_MEAN_FEMALE	mean	dominance	female	ratings	user	pl		Mean value of dominance ratings on a SAM scale underlaid with a 9-point scale across female participants.
+Imbir-2021-Ratings	POLISH_ORIGIN_MEAN_FEMALE	mean	origin	female	ratings	user	pl		Mean value of origin ratings on a SAM scale underlaid with a 9-point scale across female participants.
+Imbir-2021-Ratings	POLISH_SIGNIFICANCE_MEAN_FEMALE	mean	significance	female	ratings	user	pl		Mean value of significance ratings on a SAM scale underlaid with a 9-point scale across female participants.
+Imbir-2021-Ratings	POLISH_CONCRETENESS_MEAN_FEMALE	mean	concreteness	female	ratings	user	pl		Mean value of concreteness ratings on a SAM scale underlaid with a 9-point scale across female participants.
+Imbir-2021-Ratings	POLISH_IMAGEABILITY_MEAN_FEMALE	mean	imageability	female	ratings	user	pl		Mean value of imageability ratings on a SAM scale underlaid with a 9-point scale across female participants.
+Imbir-2021-Ratings	POLISH_AOA_MEAN_FEMALE	mean	AoA	female	ratings	user	pl		Mean value of age-of-acquisition ratings on a SAM scale underlaid with a 3-18 scale across female participants.
+Imbir-2021-Ratings	POLISH_VALENCE_MEAN_MALE	mean	valence	male	ratings	user	pl		Mean value of valence ratings on a SAM scale underlaid with a 9-point scale across male participants.
+Imbir-2021-Ratings	POLISH_AROUSAL_MEAN_MALE	mean	arousal	male	ratings	user	pl		Mean value of arousal ratings on a SAM scale underlaid with a 9-point scale across male participants.
+Imbir-2021-Ratings	POLISH_DOMINANCE_MEAN_MALE	mean	dominance	male	ratings	user	pl		Mean value of dominance ratings on a SAM scale underlaid with a 9-point scale across male participants.
+Imbir-2021-Ratings	POLISH_ORIGIN_MEAN_MALE	mean	origin	male	ratings	user	pl		Mean value of origin ratings on a SAM scale underlaid with a 9-point scale across male participants.
+Imbir-2021-Ratings	POLISH_SIGNIFICANCE_MEAN_MALE	mean	significance	male	ratings	user	pl		Mean value of significance ratings on a SAM scale underlaid with a 9-point scale across male participants.
+Imbir-2021-Ratings	POLISH_CONCRETENESS_MEAN_MALE	mean	concreteness	male	ratings	user	pl		Mean value of concreteness ratings on a SAM scale underlaid with a 9-point scale across male participants.
+Imbir-2021-Ratings	POLISH_IMAGEABILITY_MEAN_MALE	mean	imageability	male	ratings	user	pl		Mean value of imageability ratings on a SAM scale underlaid with a 9-point scale across male participants.
+Imbir-2021-Ratings	POLISH_AOA_MEAN_MALE	mean	AoA	male	ratings	user	pl		Mean value of age-of-acquisition ratings on a SAM scale underlaid with a 3-18 scale across male participants.
 Ferre-2017-DiscreteEmotions	SPANISH_HAPPINESS_MEAN	mean	happiness		ratings	user	es		The mean value of the ratings for the discrete emotion happiness on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	anger		ratings	user	es		The mean value of the ratings for the discrete emotion anger on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	sadness		ratings	user	es		The mean value of the ratings for the discrete emotion sadness on a 5-point scale.
@@ -497,7 +497,7 @@ Medler-2005-Perceptual	ENGLISH_SOUND_MEAN	mean	sensory modality	sound	ratings	us
 Medler-2005-Perceptual	ENGLISH_COLOR_MEAN	mean	sensory modality	color	ratings	user	en		This is the mean rating in the color modality on a scale from 0 (NO color associated) to 6 (DOES VERY MUCH have color associated).
 Medler-2005-Perceptual	ENGLISH_MANIPULATION_MEAN	mean	sensory modality	manipulability	ratings	user	en		This is the mean rating in the manipulation modality on a scale from 0 (NO manipulation associated) to 6 (DOES VERY MUCH have manipulation associated).
 Medler-2005-Perceptual	ENGLISH_MOTION_MEAN	mean	sensory modality	motion	ratings	user	en		This is the mean rating in the motion modality on a scale from 0 (NO motion associated) to 6 (DOES VERY MUCH have motion associated).
-Medler-2005-Perceptual	ENGLISH_EMOTION_MEAN	mean	sensory modality	emotion association	ratings	user	en		This is the mean rating in the emotion modality on a scale from 0 (NO emotion associated) to 6 (DOES VERY MUCH have emotion associated).
+Medler-2005-Perceptual	ENGLISH_EMOTION_MEAN	mean	sensory modality	emotion association	ratings	user	en		This is the mean rating in the emotion modality on a scale from -6 (VERY STRONG NEGATIVE emotion associated) to 6 (VERY STRONG POSITIVE emotion associated).
 Gilhooly-1980-Ratings	ENGLISH_IMAGEABILITY_MEAN	mean	imageability		ratings	user	en		Mean value of imageability ratings based on a 7-point scale.
 Gilhooly-1980-Ratings	ENGLISH_AOA_MEAN	mean	AoA		ratings	user	en		Mean value of age-of-acquisition ratings based on a 7-point scale.
 Gilhooly-1980-Ratings	ENGLISH_FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		Mean value of familiarity ratings based on a 7-point scale.
@@ -505,12 +505,7 @@ Gilhooly-1980-Ratings	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	user	
 Gilhooly-1980-Ratings	ENGLISH_MEANING_UNCERTAINTY	numeric	ambiguity	degree	ratings	user	en		An information theory measure of the average uncertainty of which meaning would be dominant was derived from the response data for each word. This measure of meaning uncertainty (U) provides a numerical index of degree of ambiguity.
 Gilhooly-1980-Ratings	ENGLISH_FREQUENCY	tokens	frequency		ratings	corpus	en	Thorndike1944	Frequencies of English words based on the Thorndike–Lorge list of 30,000 words ([Thorndike and Lorge 1944](:bib:Thorndike1944)).
 Scheible-2014-1755	SCORED_RELATIONS	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN), scored as the mean of similarity judgments on a 5-point scale.
-Lapesa-2014-772	POLYSEMY_CLASS	numeric	polysemy	degree	relations	users	en		The degree of polysemy (1-3).
-Lapesa-2014-772	FREQUENCY_CLASS	linguistic	frequency	degree	relations	users	en		The degree of frequency (high, medium, low).
-Lapesa-2014-772	DEGREE_CLASS	linguistic	degree		relations	users	en		The class of degree (low, high, not).
-Lapesa-2014-772	RELATION_TYPE	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN).
-Lapesa-2014-772	FORWARD_SCORES	mean	similarity	forward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (forward calculation: 0-5).
-Lapesa-2014-772	BACKWARD_SCORES	mean	similarity	backward	relations	users	de		The mean of similarity judgments to word pairs on a 5-point scale (backward calculation: 5-0).
+Lapesa-2014-772	SCORED_RELATIONS	object	polysemy	degree	relations	users	en		Scored polysemy relations.
 Zalizniak-2020-2590	RANK	ordinality	stability	rank	relations	concept lists	en		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
 Carling-2019-99	LOAN	percentage	boworring		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
 Carling-2019-99	NO_LOAN	percentage	boworring	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.

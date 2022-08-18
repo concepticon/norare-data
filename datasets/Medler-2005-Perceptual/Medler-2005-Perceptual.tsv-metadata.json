@@ -30,27 +30,27 @@
           }, 
           {
             "name": "ENGLISH_SOUND_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 6},
             "titles": "Sound mean"
           },
           {
             "name": "ENGLISH_COLOR_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 6},
             "titles": "Color mean"
           },
           {
             "name": "ENGLISH_MANIPULATION_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 6},
             "titles": "Manipulation mean"
           },
           {
             "name": "ENGLISH_MOTION_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 6},
             "titles": "Motion mean"
           },
           {
             "name": "ENGLISH_EMOTION_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": -6, "maximum": 6},
             "titles": "Emotion mean"
           },
           {

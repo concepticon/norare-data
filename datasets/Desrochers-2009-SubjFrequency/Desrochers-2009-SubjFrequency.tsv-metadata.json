@@ -30,12 +30,12 @@
           }, 
           {
             "name": "FRENCH_SUBJECTIVE_FREQUENCY",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "FREQ_Mean"
           },
           {
             "name": "FRENCH_IMAGEABILITY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "IMAGE_Mean"
           },
           {

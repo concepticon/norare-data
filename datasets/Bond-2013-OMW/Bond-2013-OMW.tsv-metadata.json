@@ -65,12 +65,12 @@
           }, 
           {
             "name": "IN_DEGREE",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "in_degree"
           }, 
           {
             "name": "OUT_DEGREE",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "out_degree"
           }, 
           {

@@ -30,7 +30,7 @@
           }, 
           {
             "name": "DUTCH_FREQUENCY",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 42000000},
             "titles": "FREQcount"
           },
           {
@@ -40,22 +40,22 @@
           },
           {
             "name": "DUTCH_FREQUENCY_PM",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1000000},
             "titles": "SUBTLEXWF"
           },
           {
             "name": "DUTCH_FREQUENCY_LOG",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Lg10WF"
           },
           {
             "name": "DUTCH_SUBTITLE_CD",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "SUBTLEXCD"
           },
           {
             "name": "DUTCH_CD_LOG",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Lg10CD"
           },
           {

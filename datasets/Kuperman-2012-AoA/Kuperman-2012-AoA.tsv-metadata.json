@@ -30,17 +30,17 @@
           }, 
           {
             "name": "ENGLISH_OCCURRENCES_TOTAL",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "OccurTotal"
           },
           {
             "name": "ENGLISH_OCCURRENCES_NUM",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "OccurNum"
           },
           {
             "name": "ENGLISH_AOA_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "Rating.Mean"
           },
           {

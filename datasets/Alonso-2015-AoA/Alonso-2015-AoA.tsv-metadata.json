@@ -30,17 +30,17 @@
           }, 
           {
             "name": "SPANISH_AOA_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 11},
             "titles": "averageAoA"
           },
           {
             "name": "SPANISH_AOA_MIN",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "Min"
           },
           {
             "name": "SPANISH_AOA_MAX",
-            "datatype": "integer",
+            "datatype": "nonNegativeInteger",
             "titles": "Max"
           },
           {

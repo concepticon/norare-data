@@ -30,7 +30,7 @@
           }, 
           {
             "name": "TRANSLATION_COUNT",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 1895},
             "titles": "count"
           }, 
           {

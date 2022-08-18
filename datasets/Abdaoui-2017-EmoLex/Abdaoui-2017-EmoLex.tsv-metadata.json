@@ -30,37 +30,37 @@
           }, 
           {
             "name": "FRENCH_EMOTION_POLARITY",
-            "datatype": "string",
+            "datatype": {"base": "string", "format": "positive|negative"},
             "titles": "polarity"
           },
           {
             "name": "FRENCH_JOY_ASSOCIATION",
-            "datatype": "integer",
+            "datatype": {"base": "boolean", "format": "1|0"},
             "titles": "joy"
           },
           {
             "name": "FRENCH_FEAR_ASSOCIATION",
-            "datatype": "integer",
+            "datatype": {"base": "boolean", "format": "1|0"},
             "titles": "fear"
           },
           {
             "name": "FRENCH_SADNESS_ASSOCIATION",
-            "datatype": "integer",
+            "datatype": {"base": "boolean", "format": "1|0"},
             "titles": "sadness"
           },
           {
             "name": "FRENCH_ANGER_ASSOCIATION",
-            "datatype": "integer",
+            "datatype": {"base": "boolean", "format": "1|0"},
             "titles": "anger"
           },
           {
             "name": "FRENCH_SURPRISE_ASSOCIATION",
-            "datatype": "integer",
+            "datatype": {"base": "boolean", "format": "1|0"},
             "titles": "surprise"
           },
           {
             "name": "FRENCH_DISGUST_ASSOCIATION",
-            "datatype": "integer",
+            "datatype": {"base": "boolean", "format": "1|0"},
             "titles": "disgust"
           },
           {

@@ -30,107 +30,107 @@
           }, 
           {
             "name": "ENGLISH_VALENCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "V.Mean.Sum"
           },
           {
             "name": "ENGLISH_AROUSAL_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "A.Mean.Sum"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "D.Mean.Sum"
           },
           {
             "name": "ENGLISH_VALENCE_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "V.Mean.M"
           },
           {
             "name": "ENGLISH_VALENCE_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "V.Mean.F"
           },
           {
             "name": "ENGLISH_AROUSAL_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "A.Mean.M"
           },
           {
             "name": "ENGLISH_AROUSAL_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "A.Mean.F"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN_MALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "D.Mean.M"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN_FEMALE",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "D.Mean.F"
           },
           {
             "name": "ENGLISH_VALENCE_MEAN_YOUNG",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "V.Mean.Y"
           },
           {
             "name": "ENGLISH_VALENCE_MEAN_OLD",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "V.Mean.O"
           },
           {
             "name": "ENGLISH_AROUSAL_MEAN_YOUNG",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "A.Mean.Y"
           },
           {
             "name": "ENGLISH_AROUSAL_MEAN_OLD",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "A.Mean.O"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN_YOUNG",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "D.Mean.Y"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN_OLD",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "D.Mean.O"
           },
           {
             "name": "ENGLISH_VALENCE_MEAN_HIGH",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "V.Mean.H"
           },
           {
             "name": "ENGLISH_VALENCE_MEAN_LOW",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "V.Mean.L"
           },
           {
             "name": "ENGLISH_AROUSAL_MEAN_HIGH",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "A.Mean.H"
           },
           {
             "name": "ENGLISH_AROUSAL_MEAN_LOW",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "A.Mean.L"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN_HIGH",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "D.Mean.H"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN_LOW",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "D.Mean.L"
           },
           {

@@ -30,12 +30,12 @@
           }, 
           {
             "name": "FRENCH_RT_MEAN",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "rt"
           },
           {
             "name": "FRENCH_RT_ZSCORE",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "rtz"
           },
           {

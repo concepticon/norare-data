@@ -30,17 +30,17 @@
           }, 
           {
             "name": "ENGLISH_VALENCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Valence"
           },
           {
             "name": "ENGLISH_AROUSAL_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Arousal"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Dominance"
           },
           {

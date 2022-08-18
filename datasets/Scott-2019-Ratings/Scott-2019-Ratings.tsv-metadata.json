@@ -30,48 +30,48 @@
           }, 
           {
             "name": "ENGLISH_AROUSAL_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "AROU"
           },
           {
             "name": "ENGLISH_VALENCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "VAL"
           },
           {
             "name": "ENGLISH_DOMINANCE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "DOM"
           },
           {
             "name": "ENGLISH_CONCRETENESS_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "CNC"
           },
 
           {
             "name": "ENGLISH_IMAGEABILITY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "IMAG"
           },
           {
             "name": "ENGLISH_FAMILIARITY_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "FAM"
           },
           {
             "name": "ENGLISH_AOA_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "AOA"
           },
           {
             "name": "ENGLISH_SEM_SIZE_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "SIZE"
           },
           {
             "name": "ENGLISH_GENDER_ASSOCIATION_MEAN",
-            "datatype": "float",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "GEND"
           }
         ],

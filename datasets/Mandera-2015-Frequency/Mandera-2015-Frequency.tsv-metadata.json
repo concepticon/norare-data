@@ -30,22 +30,22 @@
           }, 
           {
             "name": "POLISH_FREQUENCY",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 101000000},
             "titles": "freq"
           },
           {
             "name": "POLISH_CD",
-            "datatype": "integer",
+            "datatype": {"base": "nonNegativeInteger", "maximum": 99635},
             "titles": "cd.count"
           },
           {
             "name": "POLISH_FREQUENCY_LOG",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "lg.freq"
           },
           {
             "name": "POLISH_CD_LOG",
-            "datatype": "float",
+            "datatype": "decimal",
             "titles": "lg.cd"
           },
           {
