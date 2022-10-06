@@ -611,13 +611,14 @@ Wang-2021-90	VALENCE_MEAN	mean	valence		ratings	user	zh		The rating mean of emot
 Wang-2021-90	STROKE	cardinality	strokes		norms	meta	zh		Total number of strokes of the whole-word.
 Wang-2021-90	FAMILIARITY_MEAN	mean	familiarity		ratings	user	zh		The rating mean of familiarity on a 7-point scale.
 List-2014-1280	COMMUNITY_LABEL	linguistic	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS1.
-List-2014-1280	COMMUNITY_ID	linguistic	polysemy	community	relations	concept lists	en		This is the community identifier.
+List-2014-1280	COMMUNITY_ID	numeric	polysemy	community	relations	concept lists	en		This is the community identifier.
 List-2014-1280	COMMUNITY_URL	linguistic	polysemy	community	relations	concept lists	en		This is the community URL.
-List-2014-1280	SUBGRAPH_ID	linguistic	polysemy	subgraph	relations	concept lists	en		This is the subgraph identifier.
+List-2014-1280	SUBGRAPH_ID	numeric	polysemy	subgraph	relations	concept lists	en		This is the subgraph identifier.
 List-2014-1280	SUBGRAPH_URL	linguistic	polysemy	subgraph	relations	concept lists	en		This is the subgraph URL.
 List-2014-1280	FREQUENCY	cardinality	polysemy	frequency	relations	concept lists	en		This is the number of times a translation for a given concept occurs in the CLICS1 data.
 List-2014-1280	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the number of concepts to which a given concept links.
 List-2014-1280	WEIGHTED_DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the number of languages in which the concept links to any other concept.
+List-2014-1280	RANK	ordinality	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
 List-2018-1105	FAMILY_FREQUENCY	cardinality	polysemy	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
 List-2018-1105	LANGUAGE_FREQUENCY	cardinality	polysemy	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
 List-2018-1105	WORD_FREQUENCY	cardinality	polysemy	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
