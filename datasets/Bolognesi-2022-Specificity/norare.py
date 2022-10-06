@@ -7,7 +7,7 @@ def download(dataset):
 
 def map(dataset, concepticon, mappings):
     dataset.extract_data(
-        'ANEW-ITA_specificity_ratings_all_POS.csv',
+        dataset.get_csv('ANEW-ITA_specificity_ratings_all_POS.csv', delimiter=";"),
         concepticon,
         mappings,
         pos=True,
