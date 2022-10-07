@@ -450,7 +450,7 @@ Chen-2019-61	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	zh		Mea
 Chen-2019-61	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	zh		Mean rating (0-5) of how strongly adjective concept is experienced by feeling through touch.
 Chen-2019-61	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	zh		Mean rating (0-5) of how strongly adjective concept is experienced by smelling.
 Chen-2019-61	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	zh		Mean rating (0-5) of how strongly adjective concept is experienced by seeing.
-Chen-2019-61	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant perceptual strength perceptual strength	ratings	meta	zh		Modality through which adjective concept is experienced most strongly (i.e., with highest strength rating).
+Chen-2019-61	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant perceptual strength	ratings	meta	zh		Modality through which adjective concept is experienced most strongly (i.e., with highest strength rating).
 Chen-2019-61	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity perceptual strength	ratings	user	zh		Modality exclusivity of the concept; the extent to which a concept is experienced through a single perceptual modality (0–1, typically expressed as %), calculated as the range of perceptual strength values divided by their sum.
 Speed-2017-485	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	nl		Mean rating (0-5) of how strongly noun concept is experienced by hearing.
 Speed-2017-485	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	nl		Mean rating (0-5) of how strongly noun concept is experienced by tasting.
