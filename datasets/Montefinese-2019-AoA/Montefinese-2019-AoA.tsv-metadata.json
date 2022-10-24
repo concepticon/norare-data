@@ -1,0 +1,65 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of age-of-acquisition ratings by Montefinese et al. (2019).",
+  "dc:source": "hhttps://doi.org/10.3389/fpsyg.2019.00278",
+  "dc:references" : "Montefinese2019",
+  "dcat:keyword": ["AoA", "monolingual", "Italian"],
+  "dc:description": "An automated mapping of age-of-acquisition ratings submitted with the study of Montefinese et al. (2019) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ITALIAN",
+            "datatype": "string",
+            "titles": "Ita_Word"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Eng_Word"
+          }, 
+          {
+            "name": "ITALIAN_SPECIFICITY_MEAN",
+            "datatype": "decimal",
+            "titles": "M_AoA"
+          },
+          {
+            "name": "ITALIAN_POS",
+            "datatype": "string",
+            "titles": "WordClass"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Montefinese-2019-AoA.tsv"
+    }
+  ]
+}
