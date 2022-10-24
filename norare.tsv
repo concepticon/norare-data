@@ -629,3 +629,15 @@ List-2018-1105	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This i
 List-2018-1105	WEIGHTED_FAMILY_DEGREE	numeric	polysemy	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
 List-2018-1105	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weigthed language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
 Bolognesi-2022-Specificity	ITALIAN_SPECIFICITY_MEAN	mean	specificity		ratings	users	it		The values are based on specificity ratings collected from Italian speakers using the Best-Worst Scaling method and then converted into a 5-point scale (1-5) for better comparability.
+Montefinese-2014-AffectiveRatings	ITALIAN_FAMILIARITY_MEAN	mean	familiarity		ratings	users	it		Mean familiarity ratings, with 1 being unfamiliar and 9 highly familiar.
+Montefinese-2014-AffectiveRatings	ITALIAN_IMAGEABILITY_MEAN	mean	imageability		ratings	users	it		Mean imageability ratings, with 1 being unimaginable and 9 highly imaginable.
+Montefinese-2014-AffectiveRatings	ITALIAN_CONCRETENESS_MEAN	mean	concreteness		ratings	users	it		Mean concreteness ratings, with 1 being abstract and 9 highly concrete.
+Montefinese-2014-AffectiveRatings	ITALIAN_VALENCE_ALL_MEAN	mean	valence		ratings	users	it		Mean valence ratings across all participants, with 1 being very unpleasant and 9 very pleasant.
+Montefinese-2014-AffectiveRatings	ITALIAN_AROUSAL_ALL_MEAN	mean	arousal		ratings	users	it		Mean arousal ratings across all participants, with 1 being very calm and 9 very aroused.
+Montefinese-2014-AffectiveRatings	ITALIAN_DOMINANCE_ALL_MEAN	mean	dominance		ratings	users	it		Mean dominance ratings across all participants, with 1 being very submissive and 9 very dominant.
+Montefinese-2014-AffectiveRatings	ITALIAN_VALENCE_FEMALE_MEAN	mean	valence	female	ratings	users	it		Mean valence ratings across female participants, with 1 being very unpleasant and 9 very pleasant.
+Montefinese-2014-AffectiveRatings	ITALIAN_AROUSAL_FEMALE_MEAN	mean	arousal	female	ratings	users	it		Mean arousal ratings across female participants, with 1 being very calm and 9 very aroused.
+Montefinese-2014-AffectiveRatings	ITALIAN_DOMINANCE_FEMALE_MEAN	mean	dominance	female	ratings	users	it		Mean dominance ratings across female participants, with 1 being very submissive and 9 very dominant.
+Montefinese-2014-AffectiveRatings	ITALIAN_VALENCE_MALE_MEAN	mean	valence	male	ratings	users	it		Mean valence ratings across male participants, with 1 being very unpleasant and 9 very pleasant.
+Montefinese-2014-AffectiveRatings	ITALIAN_AROUSAL_MALE_MEAN	mean	arousal	male	ratings	users	it		Mean arousal ratings across male participants, with 1 being very calm and 9 very aroused.
+Montefinese-2014-AffectiveRatings	ITALIAN_DOMINANCE_MALE_MEAN	mean	dominance	male	ratings	users	it		Mean dominance ratings across male participants, with 1 being very submissive and 9 very dominant.
