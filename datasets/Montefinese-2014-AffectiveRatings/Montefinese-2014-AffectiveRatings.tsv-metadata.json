@@ -1,0 +1,120 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of affective ratings by Montefinese et al. (2014).",
+  "dc:source": "https://osf.io/cdu3b",
+  "dc:references" : "Montefinese2014",
+  "dcat:keyword": ["ratings", "monolingual", "valence", "arousal", "dominance", "concreteness", "familiarity", "imageability", "Italian"],
+  "dc:description": "An automated mapping of affective ratings submitted with the study of Montefinese et al. (2014) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ITALIAN",
+            "datatype": "string",
+            "titles": "Ita_Word"
+          },
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Eng_Word"
+          },
+          {
+            "name": "ITALIAN_FAMILIARITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Fam"
+          },
+          {
+            "name": "ITALIAN_IMAGEABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Ima"
+          },
+          {
+            "name": "ITALIAN_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Con"
+          },
+          {
+            "name": "ITALIAN_VALENCE_ALL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Val_all"
+          },
+          {
+            "name": "ITALIAN_AROUSAL_ALL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Aro_all"
+          },
+          {
+            "name": "ITALIAN_DOMINANCE_ALL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Dom_all"
+          },
+          {
+            "name": "ITALIAN_VALENCE_FEMALE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Val_f"
+          },
+          {
+            "name": "ITALIAN_AROUSAL_FEMALE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Aro_f"
+          },
+          {
+            "name": "ITALIAN_DOMINANCE_FEMALE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Dom_f"
+          },
+          {
+            "name": "ITALIAN_VALENCE_MALE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Val_m"
+          },
+          {
+            "name": "ITALIAN_AROUSAL_MALE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Aro_m'"
+          },
+          {
+            "name": "ITALIAN_DOMINANCE_MALE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Dom_m"
+          },
+          {
+            "name": "ITALIAN_POS",
+            "datatype": "string",
+            "titles": "WordClass"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Montefinese-2014-AffectiveRatings.tsv"
+    }
+  ]
+}
