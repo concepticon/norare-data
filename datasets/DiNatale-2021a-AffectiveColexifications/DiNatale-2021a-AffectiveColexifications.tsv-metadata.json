@@ -1,0 +1,95 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of affective ratings based on colexification networks by Di Natale et al. (2021).",
+  "dc:source": "https://github.com/AnnaDiNatale/colex_affective",
+  "dc:references" : "DiNatale2021",
+  "dcat:keyword": ["arousal", "valence", "dominance", "colexification", "global"],
+  "dc:description": "An automated mapping of affective ratings based on colexification networks submitted with the study of Di Natale et al. (2021) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "VALENCE_LANGUAGE_CLICS3_NRCVAD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 9},
+            "titles": "Valence_lang"
+          },
+          {
+            "name": "AROUSAL_LANGUAGE_CLICS3_NRCVAD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 9},
+            "titles": "Arousal_lang"
+          },
+          {
+            "name": "DOMINANCE_LANGUAGE_CLICS3_NRCVAD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 9},
+            "titles": "Dominance_lang"
+          },
+          {
+            "name": "VALENCE_LANGUAGE_FAMILY_CLICS3_NRCVAD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 9},
+            "titles": "Valence_fam"
+          },
+          {
+            "name": "AROUSAL_LANGUAGE_FAMILY_CLICS3_NRCVAD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 9},
+            "titles": "Arousal_fam"
+          },          
+          {
+            "name": "DOMINANCE_LANGUAGE_FAMILY_CLICS3_NRCVAD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 9},
+            "titles": "Dominance_fam"
+          },
+          {
+            "name": "VALENCE_MEAN_CLICS3_NRCVAD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 9},
+            "titles": "Valence_mean"
+          },
+          {
+            "name": "AROUSAL_MEAN_CLICS3_NRCVAD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 9},
+            "titles": "Arousal_mean"
+          },          
+          {
+            "name": "DOMINANCE_MEAN_CLICS3_NRCVAD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 9},
+            "titles": "Dominance_mean"
+          },                                    
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "DiNatale-2021a-AffectiveColexifications.tsv"
+    }
+  ]
+}
