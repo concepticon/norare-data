@@ -34,7 +34,7 @@
             "titles": "Eng_Word"
           }, 
           {
-            "name": "ITALIAN_SPECIFICITY_MEAN",
+            "name": "ITALIAN_AOA_MEAN",
             "datatype": "decimal",
             "titles": "M_AoA"
           },

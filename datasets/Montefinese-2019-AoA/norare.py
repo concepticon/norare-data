@@ -5,10 +5,10 @@ def download(dataset):
     )
 
 
-def map(dataset, concepticon, mappings):
+def map(dataset, concepticon, mappings):    
+    sheet = dataset.get_excel('ItAoA.xlsx', 1, dicts=False)
     dataset.extract_data(
-        'ItAoA.xlsx',
-        sheet=1,
+        sheet,
         concepticon,
         mappings,
         pos=True,
