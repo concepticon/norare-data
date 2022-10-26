@@ -707,3 +707,4 @@ Ferre-2022-160	EMOTION_TYPE	numeric	emotion	type	ratings	users	en		Conditions re
 Ferre-2022-160	EMOTION_POLARITY	numeric	emotion	valence	ratings	users	en		Conditions regarding valence; 0 neutral words, 1 positive words, 2 negative words.
 Ferre-2022-160	EMOTION_CONDITION	numeric	emotion	condition	ratings	users	en		Conditions regarding emotionality; 0 neutral words, 1 emotional words.
 Ferre-2022-160	ORTHOGRAPHIC_SIMILARITY	normalized	similarity	orthography	ratings	users	en		Normalized Levensthein Distance: Orthographic similarity between the English word and its Portuguese translation.
+Montefinese-2019-AoA	ITALIAN_AOA_MEAN	mean	AoA		ratings	users	it		The mean of age of acquisition ratings. Participants were asked to provide an approximate estimate of the age at which words have been learned in their written or spoken form for the first time.

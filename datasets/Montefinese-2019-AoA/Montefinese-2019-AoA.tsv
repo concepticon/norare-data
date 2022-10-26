@@ -1,0 +1,994 @@
+CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LINE_IN_SOURCE
+1002	STATUE	statua	statue	5.72	n	1700
+1007	COW	mucca	cow	4	n	1104
+1008	BULL	toro	bull	5.08	n	1802
+1011	BRIDGE	ponte	bridge	5	n	1355
+1013	FRESHWATER EEL	anguilla	eel	7.68	n	78
+1018	MEMORY	memoria	memory	5.84	n	1049
+1020	HANDKERCHIEF	fazzoletto	handkerchief	3.96	n	638
+1021	TOWEL	asciugamano	towel	3.92	n	117
+1024	CHARACTER	carattere	character	6.68	n	310
+1025	WHISTLE	fischio	whistle	4.52	n	676
+1029	JEWEL	gioiello	jewel	5.56	n	772
+1035	GOOD	buono	good	3.48	a	247
+1038	TEACHER	insegnante	teacher	4.36	n	884
+1040	HAIR	capello	hair	3.2	n	299
+1044	PILLOW	cuscino	pillow	3.48	n	489
+1046	SHUT	chiudere	to close	3.48	v	367
+105	MATTRESS	materasso	mattress	5.44	n	1034
+1054	SMALLPOX	vaiolo	smallpox	12	n	1870
+1057	DAUGHTER-IN-LAW	nuora	daughter in law	9.76	n	1152
+1064	SHIELD	scudo	shield	7.88	n	1585
+1066	CRIME	crimine	crime	9.56	n	471
+1070	BUS	autobus	bus	5.96	n	147
+1075	TRAP (PITFALL)	trappola	trap	5.76	n	1818
+1086	WORK (ACTIVITY)	lavorare	to work	7	v	932
+1088	SINK (DESCEND)	lavandino	sink	4.32	n	929
+1091	SALTY	salato	salty	4.28	a	1519
+1092	HOPE	speranza	hope	7.2	n	1671
+1096	SONG	canzone	song	4.28	n	295
+11	DARKNESS	tenebra	darkness	8.96	n	1769
+1100	COOK (SOMETHING)	cucinare	to cook	5.72	v	481
+1102	CLIMB	arrampicarsi	to climb	5.8	v	109
+1104	NURSE	infermiere	nurse	6.68	n	870
+1107	GO OUT	uscire	to go out	4.28	v	1862
+1110	SHARK	squalo	shark	5.04	n	1690
+1111	CAR	automobile	car	4.36	n	148
+1114	BULLET	pallottola	bullet	7.64	n	1227
+112	TURTLE	tartaruga	turtle	4.16	n	1751
+1120	HONEST	onesto	honest	6.84	a	1179
+1124	PIPE	pipa	pipe	7.24	n	1332
+113	SHORE	riva	shore	5.84	n	1491
+1132	BEAM	trave	beam	7.92	n	1821
+1134	DIVORCE	divorzio	divorce	10.36	n	548
+1135	KICK	calciare	to kick	5.2	v	261
+1136	RABBIT	coniglio	rabbit	3.32	n	432
+1138	FAIRY	fata	fairy	4.24	n	633
+1141	PITY	pietà	pity	7.68	n	1322
+1142	URINE	urina	urine	7.16	n	1858
+1143	OVEN	forno	oven	4.92	n	698
+1145	SWAMP	palude	swamp	7.8	n	1230
+1146	AUBERGINE	melanzana	aubergine	5.04	n	1044
+1156	OPEN	aprire	to open	3.92	v	93
+1160	THIEF	ladro	thief	4.92	n	915
+1171	MIRROR	specchio	mirror	4.64	n	1668
+1175	GHOST	fantasma	ghost	5.76	n	624
+1181	PALM TREE	palma	palm tree	5.72	n	1228
+1182	NOISE	rumore	noise	4.64	n	1512
+1185	VULTURE	avvoltoio	vulture	7.88	n	158
+1187	GOOSE	oca	goose	5.8	n	1162
+1189	ULCER	ulcera	ulcer	12.44	n	1847
+1190	HARE	lepre	hare	5	n	945
+1199	WIFE	moglie	wife	5.48	n	1082
+1200	HUSBAND	marito	husband	5.76	n	1026
+1201	FEATHER	piuma	feather	4.56	n	1339
+1202	BIG	grande	great	4.64	a	802
+1203	LONG	lungo	long	4.12	a	977
+1205	TONGUE	lingua	tongue	4.25	n	958
+1207	YOUNG	giovane	young	6.44	a	777
+1208	CAT	gatto	cat	2.56	n	741
+1210	HEAVY	pesante	heavy	6.08	a	1299
+1216	MOTHER	madre	mother	2.68	n	985
+1217	FATHER	papà	dad	2.2	n	1243
+1218	ROPE	corda	cord	5.28	n	446
+1219	WORM	verme	worm	4.92	n	1899
+122	CART	carro	wagon	7.16	n	323
+1221	NOSE	naso	nose	3.24	n	1123
+1222	PENIS	pene	penis	10.28	n	1281
+1223	HEART	cuore	heart	3.8	n	486
+1225	DAY (NOT NIGHT)	giorno	day	3.8	n	775
+1226	YEAR	anno	year	3.84	n	82
+1227	BOARD	bordo	board	6.4	n	224
+1228	EARTH (SOIL)	suolo	soil	7.56	n	1730
+1229	OLD	vecchio	old	5.44	a	1883
+1230	DIRTY	immondizia	dirty	5	n	844
+1231	NEW	nuovo	new	3.72	a	1155
+1233	NIGHT	notte	night	3.28	n	1149
+1234	SMOOTH	liscio	smooth	4.32	a	959
+124	THORN	spina	thorn	6	n	1677
+1245	BUTTER	burro	butter	5.08	n	249
+1246	SMALL	piccolo	small	4.12	a	1318
+1247	EAR	orecchio	ear	3.96	n	1189
+1248	EYE	occhio	eye	3.64	n	1164
+1250	JAGUAR	giaguaro	jaguar	8.16	n	760
+1251	BELLY	pancia	belly	4.92	n	1232
+1256	HEAD	testa	head	3.32	n	1785
+1259	WEDDING	matrimonio	wedding	5.96	n	1037
+1261	SING	cantare	to sing	4.12	v	292
+1262	BROTHER	fratello	brother	3.08	n	707
+1263	SISTER	sorella	sister	2.8	n	1652
+1266	BRIDE	sposa	bride	5.32	n	1684
+1271	DELIGHT	delizia	delight	7.52	n	500
+1272	AUNT	zia	aunt	3.04	n	1948
+1273	CANDLE	candela	candle	3.96	n	285
+1274	SALT	sale	salt	5.08	n	1520
+1275	ANSWER	risposta	answer	4.92	n	1483
+1276	AUTUMN	autunno	autumn	4.76	n	150
+1277	HAND	mano	hand	3.08	n	1016
+1278	VOMIT	vomito	vomit	6.08	n	1937
+1280	FALL	caduta	fall	5.16	n	257
+1281	PRISON	carcere	jail	7.08	n	312
+1286	HOT	caldo	hot	3.88	a	262
+1287	COLD	freddo	cold	3.68	a	709
+1289	BABY	neonato	infant	5.8	a	1132
+1290	ELEPHANT	elefante	elephant	4.04	n	574
+1291	BACK	schiena	back	4.4	n	1558
+1293	MISTAKE	errore	mistake	5.76	n	592
+1297	LEG	gamba	leg	3.48	n	734
+1298	NEWSPAPER	giornale	newspaper	5.08	n	774
+1299	COFFEE	caffè	coffee	7.2	n	258
+13	DECEIT	inganno	deceit	7.84	n	875
+1301	FOOT	piede	foot	3.16	n	1320
+1302	FORK	forchetta	fork	3.64	n	692
+1303	FINGER	dito	finger	3.44	n	545
+1305	CHIMNEY	camino	chimney	4.56	n	271
+1306	QUEEN	regina	queen	4.84	n	1451
+131	FESTIVAL	festa	party	4.92	n	652
+1312	FOX	volpe	fox	4.32	n	1936
+1313	MOON	luna	moon	4.56	n	975
+1314	QUIET	silenzioso	quiet	5.28	a	1622
+1315	RADIO	radio	radio	5.72	n	1427
+1318	CHICKEN	pollo	chicken	3.72	n	1346
+1319	COWARD	codardo	coward	8.64	a	402
+132	SAUCE	sugo	sauce	4.84	n	1728
+1320	APPLE	mela	apple	3.84	n	1043
+1321	BOTTLE	bottiglia	bottle	3.84	n	229
+1323	CLOCK	orologio	clock	4.72	n	1198
+1325	FRIEND	amico	friend	3.96	n	67
+1327	UNCLE	zio	uncle	3.12	n	1950
+1331	SHEEP	pecora	sheep	3.28	n	1275
+1333	NECK	collo	neck	4.08	n	408
+1335	WHITE	bianco	white	3.64	a	202
+1336	EAT	mangiare	to eat	3.24	v	1013
+1338	PEACE	pace	peace	5.04	n	1215
+1339	MORNING	mattina	morning	4.08	n	1038
+134	FAULT	colpa	fault	6.04	n	413
+1342	SUMMER	estate	summer	4.28	n	597
+1343	SUN	sole	sun	3.64	n	1640
+1346	THROAT	gola	throat	4.04	n	792
+1347	NAPE (OF NECK)	nuca	nape	8.68	n	1150
+1348	BOAR (MALE PIG)	cinghiale	boar	5.48	n	382
+1349	CHURCH	chiesa	church	5.04	n	364
+1350	MONKEY	scimmia	monkey	4.64	n	1564
+1352	KNIFE	coltello	knife	5.2	n	416
+1355	LAUGH	ridere	to laugh	4	v	1467
+1360	DUCK	anatra	duck	5.12	n	72
+1361	TOOL	arnese	instrument	10.8	n	106
+1362	STREET	strada	street	4.92	n	1707
+1363	VOICE	voce	voice	3.88	n	1933
+1364	HEALTHY	salute	health	5.88	n	1525
+1365	KITCHEN	cucina	kitchen	3.84	n	480
+1366	BOY	ragazzo	boy	5.24	n	1432
+1368	BREAD	pane	bread	2.88	n	1233
+1369	GOLD	oro	gold	5.84	n	1197
+1370	MONTH	mese	month	4.64	n	1059
+1371	KNEE	ginocchio	knee	4	n	767
+1372	MEDICINE	medicina	medicine	4.44	n	1042
+1375	WINDOW	finestra	window	3.84	n	668
+1378	SPOON	cucchiaio	spoon	3.76	n	478
+1379	TELEPHONE	telefono	phone	5.52	n	1761
+138	BATHE	lavare	to bath	3.76	v	930
+1380	TOOTH	denti	teeth	3.48	n	504
+1381	SHOE	scarpa	shoe	4.28	n	1549
+1382	NEEDLE (FOR SEWING)	ago	needle	5.36	n	42
+1383	GRANDFATHER	nonno	grandfather	2.88	n	1146
+1385	PEPPER	pepe	pepper	6.2	n	1288
+1386	LION	leone	lion	3.8	n	944
+1388	SHADE	ombra	shadow	5.16	n	1176
+1392	LOUSE	pidocchio	lice	6	n	1319
+1398	DRY	asciugare	to dry	4.48	v	118
+1401	DRINK	bere	to drink	3.76	v	198
+1402	BREAST	seno	breast	6.48	n	1600
+1403	BITE	mordere	to bite	3.52	v	1096
+1405	NAME	nome	name	3.64	n	1144
+1408	HEAR	sentire	to hear	4.24	v	1603
+1409	SEE	vedere	to see	4.6	v	1885
+1411	LIE (REST)	bugia	lie	4.64	n	245
+1412	RUDE	maleducato	rude	5.84	a	1003
+1413	PLAY	giocare	to play	2.96	v	768
+1416	SIT	sedersi	to sit	3.28	v	1595
+1419	FEAR (BE AFRAID)	impaurito	afraid	6.48	a	846
+1422	BE ALIVE	vivo	alive	4.68	a	1931
+1423	FIGHT	lotta	fight	6.88	n	968
+1424	YELLOW	giallo	yellow	3.24	a	761
+1425	GREEN	verde	green	3.84	a	1895
+1427	BEAUTIFUL	bello	beautiful	3.8	a	193
+1429	FULL	pieno	full	4.56	a	1321
+1430	STAR	stella	star	4.16	n	1701
+1432	CUT	taglio	cut	6.2	n	1741
+1433	HIT	colpire	to hit	5.28	v	415
+1434	STAB	puntura	prick	4.48	n	1410
+1439	SWIM	nuotare	to swim	5.28	v	1153
+144	MACHINE	macchina	machine	5.76	n	983
+1440	SPIT	spiedo	spit	9.4	n	1674
+1441	FLY (MOVE THROUGH AIR)	volare	to fly	4.52	v	1935
+1443	WALK	camminare	to walk	3.68	v	274
+1446	COME	venire	to come	4.8	v	1893
+1447	GIVE	dare	to give	4.6	v	494
+1448	HOLD	tenere	to hold	4.4	v	1770
+1450	ROOM	stanza	room	4.12	n	1698
+1451	SMILE	sorriso	smile	3.48	n	1655
+1452	PUSH	spingere	to push	4.88	v	1679
+1455	PULL	tirare	to pull	4.44	v	1794
+1456	THROW	buttare	to throw	4.2	v	252
+1458	SAY	dire	to say	4.08	v	522
+146	SUGAR CANE	bastone	cane	5.04	n	182
+1462	POT	pentola	pot	4.72	n	1287
+1465	BOX	bossolo	case	10.952380952380953	n	227
+1467	CIRCLE	cerchio	circle	3.88	n	352
+1471	WINTER	inverno	winter	4.8	n	898
+1472	KEY	chiave	key	6.04	n	363
+1473	FIST	pugno	fist	5.24	n	1402
+1474	SEA	mare	sea	3.72	n	1023
+1475	COMB	pettine	comb	4.72	n	1307
+1476	CHAIR	sedile	seat	4.24	n	1597
+1480	BODY	corpo	body	5.56	n	451
+1481	HAMMER	martello	hammer	5.08	n	1030
+1482	SHOULDER	spalla	shoulder	5.04	n	1660
+1484	OIL (ORGANIC SUBSTANCE)	olio	oil	4.36	n	1174
+1487	POUR	versare	to pour	5.76	v	1901
+1488	FAUCET	rubinetto	tap	5.96	n	1509
+1489	CLOUD	nuvola	cloud	3.68	n	1157
+1490	RAT	ratto	rat	6.52	n	1446
+1491	MOUSE	topo	mouse	3.4	n	1799
+1495	HAPPY	contento	glad	4.12	a	437
+1496	GRANDMOTHER	nonna	grandmother	3.08	n	1145
+1502	GOAT	capra	goat	3.52	n	304
+1508	KING	re	king	4.24	n	1448
+1509	MOSQUITO	zanzara	mosquito	4.68	n	1945
+151	RAZOR	rasoio	razor	8.76	n	1443
+1510	CHIN	mento	chin	5	n	1053
+1511	ROOSTER	gallo	cock	4.36	n	733
+1512	RISE (ONESELF)	alzarsi	to get up	3.92	v	60
+1514	HEN	gallina	hen	3.64	n	732
+1517	WASP	vespa	wasp	6.04	n	1905
+1518	STUPID	stupido	stupid	5.36	a	1722
+1519	RUN	correre	to run	3.92	v	452
+1522	SOCK	calzino	sock	4.12	n	268
+1524	WINE	vino	wine	6.12	n	1921
+1525	COAST	costa	coast	6.72	n	460
+1529	LAST (FINAL)	ultimo	last	5.04	a	1849
+1530	BOWL	scodella	bowl	6.6	n	1570
+1533	BE HUNGRY	affamato	hungry	4.84	a	27
+1534	FEVER	febbre	fever	3.44	n	639
+1535	SWORD	spada	sword	5.24	n	1658
+1537	SPRINGTIME	primavera	spring	4.28	n	1384
+1538	SCORPION	scorpione	scorpion	5.96	n	1580
+1539	BASKET	cesto	basket	5.84	n	359
+1543	SNAIL	lumaca	snail	4.6	n	973
+1547	SOUP	brodo	broth	4.48	n	238
+1548	UGLY	brutto	ugly	3.28	a	241
+1551	FEMALE	femmina	female	3.88	n	643
+1554	MAN	uomo	man	4.12	n	1855
+1559	MONEY	denaro	money	5.56	n	503
+156	RED	rosso	red	3.12	a	1503
+1560	FACE	faccia	face	3.68	n	604
+1561	ARMY	esercito	army	7.56	n	594
+1562	MIND	mente	mind	7.28	n	1052
+1563	PYTHON	pitone	python	7.8	n	1337
+1564	LAZY	pigro	lazy	7.96	a	1325
+1565	HEAVEN	cielo	heaven	3.92	n	376
+1566	GUN	carabina	rifle	9.833333333333334	n	307
+1567	DOOR	porta	door	4.64	n	1357
+1569	CHEESE	formaggio	cheese	4.64	n	696
+1572	SURPRISED	sorpreso	surprised	6.4	a	1654
+1575	COCKROACH	blatta	cockroach	12.45	n	217
+1583	BRAIN	cervello	brain	6.88	n	356
+1584	BLISTER	vescica	blister	9.4	n	1903
+1585	SLEEP	sonno	sleep	3.56	n	1649
+1587	SMELL (STINK)	puzza	stink	4.16	n	1415
+1588	TURN	girare	to turn	4.64	v	782
+1590	WAIT (FOR)	aspettare	to wait	4.48	v	125
+1594	FLOUR	farina	flour	5.48	n	628
+1597	AIRPLANE	aereo	plane	5.44	n	26
+1599	WORD	parola	word	4.44	n	1251
+16	SLED	slitta	sled	5.48	n	1628
+1600	SKIRT	gonna	skirt	4.76	n	798
+1601	WEAK	debole	feeble	5.52	a	496
+1602	WAKE UP	svegliarsi	to wake up	3.08	v	1734
+1605	SKULL	cranio	skull	8.44	n	463
+1607	HATE	odio	hate	6.8	n	1168
+1609	IDEA	idea	idea	6.24	n	831
+1610	PROSTITUTE	puttana	hooker	9.76	n	1414
+1612	LETTER	lettera	letter	5.12	n	948
+1614	SUMMIT	vetta	summit	8.16	n	1908
+1616	CLOTH	panno	cloth	5.88	n	1238
+1618	GRANDSON	nipote	grandson	4.08	n	1139
+1620	SON	figlio	son	3.92	n	666
+1622	SHIRT	camicia	shirt	5.04	n	270
+1623	SPEAK	parlare	to speak	3.64	v	1250
+1624	EMPTY	vuoto	empty	4.72	a	1939
+1625	DEAD	morto	dead	5.68	a	1098
+1628	SQUIRREL	scoiattolo	squirrel	5.04	n	1571
+1629	EVENING	sera	evening	4.6	n	1605
+163	BLACK	nero	black	4.24	a	1133
+1631	FAST	rapido	swift	8.04	a	1439
+1632	FLOOR	pavimento	floor	4.2	n	1269
+1635	OBEY	obbedire	to obey	5.16	v	1159
+1638	TRUTH	verità	truth	6	n	1898
+164	KANGAROO	canguro	kangaroo	4.88	n	289
+1641	SILK	tessuto	fabric	7.52	n	1784
+1643	COUSIN	cugino	cousin	3.44	n	482
+1645	SHORT	corto	short	4.56	a	458
+1646	GIRL	ragazza	girl	4.88	n	1430
+1648	ANVIL	incudine	anvil	8.32	n	858
+1650	WATCH	guardia	watch	5.88	n	821
+1653	BLIND	cieco	blind	5.96	a	375
+1654	LIGHTNING	fulmine	lightning	5.88	n	718
+1655	BLINK	occhiolino	wink	6.6	n	1165
+1659	DOLL	bambola	doll	3	n	170
+1663	BED	letto	bed	3.36	n	949
+1664	RAFT	zattera	raft	6.36	n	1946
+1668	GRIEF	afflizione	grief	10.826086956521738	n	31
+167	MAIL	posta	mail	6.28	n	1364
+1671	TOWER	torre	tower	5.28	n	1803
+1672	WRITE	scrivere	to write	4.76	v	1583
+1673	ARM	braccio	arm	3.84	n	232
+1674	POOR	povero	poor	5.48	a	1368
+1680	HELMET	elmo	helmet	9.44	n	580
+1682	GUILTY	colpevole	guilty	7.64	a	414
+1687	PRAISE	lode	praise	7.68	n	967
+1711	TELL	raccontare	to tell	4.8	v	1425
+1726	WET	bagnato	wet	3.32	a	163
+1728	ROTTEN	marcio	rotten	8.76	a	1022
+1730	CHEEK	guancia	cheek	3.64	n	818
+1732	SKY	firmamento	sky	10.84	n	674
+1733	RAINBOW	arcobaleno	rainbow	4.64	n	100
+1739	DECORATE	decorare	to decorate	6	v	498
+174	PROUD	orgoglioso	proud	9.92	a	1193
+1740	PINE	pino	pine	6.04	n	1328
+1747	CUSTOM	usanza	custom	9.04	n	1861
+1749	TAKE	prendere	to take	4.36	v	1377
+175	BLOW (OF WIND)	soffiare	to blow	4.4	v	1632
+1757	TIRED	stanco	tired	5.8	a	1697
+1766	FINISH	finire	to end	5.32	v	669
+1768	FOAM	schiuma	foam	5.4	n	1560
+1770	CARCASS	carcassa	carcass	9.28	n	311
+1773	GRAVE	tomba	tomb	7.04	n	1797
+1775	TABLE	scrivania	desk	4.92	n	1582
+1781	THUMB	pollice	thumb	4.72	n	1345
+1782	GUEST	ospite	guest	7.16	n	1207
+1783	PAIN	pena	pain	7.52	n	1279
+1784	WANT	desiderio	wish	6.08	n	510
+1788	TELEVISION	televisione	television	4.72	n	1762
+1790	LICENSE PLATE	targa	license plate	7.4	n	1749
+1791	BUTTERFLY	farfalla	butterfly	3.64	n	627
+1793	BAT	mazza	bat	6.12	n	1040
+1803	WOOD	bosco	wood	4.52	n	226
+1804	BOMB	bomba	bomb	7.375	n	223
+1807	AFTERNOON	pomeriggio	afternoon	4	n	1352
+1808	PUS	pus	pus	7.5	n	1412
+1810	DANGER	pericolo	danger	4.28	n	1293
+1812	TRY	provare	to try	7	v	1396
+1815	ACHE	dolore	ache	5.24	n	553
+1817	WEST	occidente	west	8.92	n	1166
+1819	LOOK	guardare	to look	5.08	v	820
+1820	BEAR	orso	bear	4.48	n	1201
+1821	BRUSH	pennello	brush	6.36	n	1283
+1826	ANGRY	arrabbiato	angry	5.04	a	108
+1829	JUMP	saltare	to jump	3.48	v	1523
+183	BAKE	infornare	to bake	6.72	v	873
+1830	CRANE	gru	crane	7.8	n	814
+1833	DINNER (SUPPER)	cena	dinner	4.04	n	346
+1836	VAGINA	vagina	vagina	10.04	n	1868
+1838	NAVEL	ombelico	belly button	3.88	n	1175
+1839	CRY	piangere	to cry	3.6	v	1310
+1840	BUILD	costruire	to build	5.4	v	461
+1844	BOAT	battello	boat	7.708333333333333	n	183
+1845	BALL	sfera	sphere	6.28	n	1614
+1847	SICK	malato	sick	4.36	a	1001
+1848	QUARREL	lite	quarrel	6.12	n	961
+1853	DOVE	piccione	pigeon	5.96	n	1316
+1854	SPARROW	passero	sparrow	5.36	n	1257
+1856	SOFT	morbido	soft	4.64	a	1093
+1857	CROCODILE	coccodrillo	crocodile	4.8	n	399
+1862	DONKEY	asino	donkey	4.36	n	122
+1864	HUNGER	fame	hunger	3.12	n	614
+1867	COIN	moneta	coin	5.12	n	1087
+1869	BUY	comprare	to buy	5.32	v	426
+1871	CAMEL	cammello	camel	4.92	n	273
+1879	DANCE	ballare	to dance	4.92	v	167
+1884	HARD	duro	hard	4.68	a	565
+1888	PAIR	coppia	couple	7.08	n	442
+1892	TOUCH	tatto	touch	7	n	1753
+1896	FINGERNAIL OR TOENAIL	unghia	nail	3.96	n	1853
+1897	HELP	aiutare	to help	4.48	v	44
+1898	SPECTACLES	occhiali	glasses	5.64	n	1163
+1899	MAD	pazzo	insane	5.48	a	1272
+1901	SHOVEL	pala	shovel	6.24	n	1219
+1902	BETRAY	tradire	to betray	9.68	v	1810
+1904	DROWN	affogare	to drown	5.92	v	32
+1905	EAGLE	aquila	eagle	4.36	n	94
+1906	SOUR	aspro	sour	6.04	a	127
+1907	MOLE	talpa	mole	5.72	n	1743
+191	NUT	nocciolina	nut	5.72	n	1140
+1914	DEBT	debito	debt	10.2	n	495
+1915	FIR	abete	fir	6.24	n	6
+192	CORNER	angolo	corner	5.6	n	75
+1923	ROUGH	ruvido	rough	6.68	a	1514
+1926	OINTMENT	pomata	ointment	6.32	n	1351
+1931	BEESWAX	cera	wax	6.92	n	349
+1934	BEGGAR	mendicante	beggar	7.8	a	1050
+1936	DEER	cervo	deer	5.96	n	357
+1938	FORTRESS	castello	castle	4.32	n	335
+194	FAMILY	famiglia	family	3.6	n	616
+1941	SOLDIER	soldato	soldier	6.68	n	1638
+1943	CROWN (OF HEAD)	corona	crown	4.68	n	450
+1944	GOD	dio	god	5.76	n	519
+1945	IDOL	idolo	idol	8.4	n	834
+1947	BASTARD	bastardo	bastard	9.32	a	181
+1952	TORTURE	tortura	torture	7.16	n	1806
+1953	ABUSE	abuso	abuse	10.88	n	13
+1954	GENTLE	mite	meek	9.208333333333334	a	1075
+196	DONATE	regalare	to donate	4.76	v	1449
+1961	NECKLACE	collana	necklace	4.44	n	405
+1964	ALONE	solo	alone	4.6	a	1645
+1972	YOUNG GOAT (KID)	ragazzino	kid	5.32	n	1431
+1973	DEMON	diavolo	devil	5.72	n	515
+1976	MERRY	allegro	merry	4.16	a	51
+1981	WIDOWER	vedovo	widower	9.44	a	1886
+1986	DISEASE	malanno	illness	7.36	n	999
+1991	INTESTINES	intestino	intestine	9.16	n	893
+1997	PRESERVE	salvare	to save	6.12	v	1527
+2	DUST	polvere	dust	5.4	n	1350
+2001	PAINTING	pitturare	to paint	5.04	v	1338
+2008	RESCUE	salvataggio	rescue	7.56	n	1528
+2009	DOG	cane	dog	2.76	n	288
+201	FARM	fattoria	farm	4.56	n	634
+2011	COFFIN	bara	coffin	7.68	n	175
+2016	JEALOUSY	gelosia	jealousy	6.6	n	745
+2018	GREEDY	famelico	starving	10.619047619047619	a	615
+2019	HAMMOCK	amaca	hammock	6.84	n	61
+2023	CROWD	folla	crowd	6.72	n	687
+2025	PEA	pisello	pea	4.04	n	1335
+2038	DRAGON	drago	dragon	4.04	n	562
+2039	MAGPIE	gazza	magpie	6.833333333333333	n	742
+2041	HEMP	canapa	hemp	10.04	n	281
+2042	WALNUT	noce	walnut	4.12	n	1141
+2045	COLUMN	colonna	column	6.56	n	410
+2046	APRON	grembiule	apron	4.84	n	810
+2051	DUSTPAN	paletta	dustpan	4.88	n	1224
+2052	BUCKET	secchiello	bucket	3.64	n	1590
+2057	DUNG (ANIMAL FAECES)	letame	manure	7.88	n	947
+2058	STOOL	sgabello	stool	5.72	n	1615
+2062	INTEREST	interesse	interest	8.44	n	892
+2070	COMB (VERB)	pettinare	to comb	4.08	v	1306
+208	NASAL MUCUS (SNOT)	muco	mucus	4.72	n	1106
+2099	CHILD	bimbi	children	3.28	n	210
+21	TASTE (SOMETHING)	gusto	taste	4.96	n	826
+210	LIFE	vita	life	6.68	n	1927
+2102	BURN	bruciatura	burn	6.04	n	239
+2115	CEASE OR FINISH	fermarsi	to stop	4.64	v	650
+2117	DESIRE	voglia	desire	6.56	n	1934
+212	FIELD	campo	field	4.52	n	280
+2124	SMELL	odore	smell	4.44	n	1170
+2137	MAGICIAN	mago	magician	5.04	n	993
+2151	COARSE	grossolano	coarse	9.44	a	813
+216	MOVIE	film	movie	4.64	n	667
+2181	LIGHT (IN TASTE)	insipido	bland	8.4	a	887
+2205	PEAK	picco	peak	8.16	n	1317
+2206	RABIES	rabbia	rabies	6.32	n	1423
+221	FIRE	fuoco	fire	4.4	n	724
+2214	AFFAIR	faccenda	affair	6.88	n	603
+222	LAVISH	sontuoso	lavish	10.32	a	1650
+2235	CLEAN (SOMETHING)	pulire	to clean	5.28	v	1404
+2244	METAL	metallo	metal	8.2	n	1062
+2246	BELL	campana	bell	5.04	n	277
+227	FISH	pesce	fish	4	n	1301
+2287	HORIZON	orizzonte	horizon	6.48	n	1195
+2291	VOLCANO	vulcano	volcano	6.56	n	1938
+2294	WRINKLE	ruga	wrinkle	9.12	n	1510
+2295	SUNSET	tramonto	sunset	5.8	n	1814
+2296	SUNRISE	alba	sunrise	6.88	n	45
+2297	DUSK	crepuscolo	twilight	9.76	n	468
+2298	VIRGIN	vergine	virgin	10.76	a	1896
+230	SWEEP	spazzare	to sweep	6.52	v	1665
+2316	FREE	libero	free	5.92	a	952
+2318	CHESTNUT	castagna	chestnut	5.2	n	334
+2319	LID (COVER, CAP)	coperchio	lid	5.6	n	440
+2340	SUNNY	soleggiato	sunny	6.36	a	1641
+2341	CLOUDY	nuvoloso	cloudy	5	a	1158
+2343	STEEL	acciaio	steel	8.2	n	17
+2344	PETROL	benzina	petrol	7.68	n	197
+2348	CRAB	granchio	crab	4.56	n	801
+2353	CICADA	cicala	cicada	8.4	n	370
+2366	ONION	cipolla	onion	5.92	n	387
+2367	MANDARINE	mandarino	tangerine	4.72	n	1009
+2368	GARLIC	aglio	garlic	5.84	n	40
+2374	DREAM	sogno	dream	4.68	n	1636
+2386	TURKEY	tacchino	turkey	5.08	n	1738
+239	FLOWER	fiore	flower	3	n	672
+2396	KNOCK	bussare	to knock	4.24	v	250
+2397	LOBSTER	aragosta	lobster	7.84	n	95
+2403	TOY	giocattolo	toy	3.2	n	769
+2405	CHRISTMAS	natale	christmas	3.36	n	1124
+2406	HOME	casa	home	3.4	n	327
+2407	BIRTHDAY	compleanno	birthday	2.76	n	425
+2408	CAKE	torta	cake	2.96	n	1804
+2409	BROWN	marrone	brown	3.64	a	1029
+2410	GOOD-LOOKING	grazioso	pretty	8.92	a	809
+2411	HURT (SOMEBODY)	ferito	hurt	5.68	a	649
+2426	CLIMATE	clima	climate	8.2	n	397
+2430	OFFICE	ufficio	office	7.64	n	1846
+2433	THEORY	teoria	theory	9.76	n	1773
+2434	TRAGEDY	tragedia	tragedy	9.68	n	1812
+2440	PINEAPPLE	ananas	pineapple	5.64	n	71
+2447	WOODPECKER	picchio	woodpecker	7.24	n	1315
+245	BROOM	ginestra	broom	9.84	n	765
+2467	GAME	gioco	game	3.28	n	770
+2468	BAG	borsa	bag	4.28	n	225
+2486	HIDE	nascondere	to hide	5.28	v	1122
+249	FOG	nebbia	fog	5.6	n	1129
+25	DIRT	sporcizia	dirt	6.4	n	1682
+2505	BEDROOM	camera	bedroom	4.24	n	269
+2507	DISGUSTING	schifoso	disgusting	6.32	a	1559
+2512	CHICK	pulcino	chick	4.28	n	1403
+2514	SPOUSE	sposo	spouse	5.36	n	1685
+2524	JOY	gioia	joy	5.6	n	771
+2526	POWER	potenza	power	7.6	n	1367
+2532	TORNADO	tornado	tornado	7.48	n	1801
+2541	MIRACLE	miracolo	miracle	6.96	n	1071
+2547	CITY	città	city	4.72	n	392
+2548	BARREL	barile	barrel	10.44	n	179
+2549	VEHICLE	veicolo	vehicle	5.96	n	1887
+2553	MISERY	miseria	misery	7.96	n	1072
+2554	PRINCE (RULER)	principe	prince	4.16	n	1385
+256	FOOD	pizza	pizza	4.2	n	1340
+2562	SEX (GENDER)	sesso	sex	10.32	n	1611
+2565	CASTRATED BOAR	carretto	barrow	6.88	n	320
+2568	BAKER	panettiere	baker	6.32	n	1234
+2570	BEEF	manzo	beef	7.28	n	1019
+2578	PENCIL	matita	pencil	3.56	n	1036
+258	CALM	calmo	calm	5.68	a	263
+2580	HELICOPTER	elicottero	helicopter	4.48	n	579
+2584	BENCH	panca	bench	6	n	1231
+2588	GLOBE	globo	globe	8	n	786
+2591	RHINOCEROS	rinoceronte	rhinoceros	6.76	n	1475
+2595	CACTUS	cactus	cactus	7.16	n	254
+2597	HARP	arpa	harp	8.24	n	107
+2600	PYRAMID	piramide	pyramid	6.8	n	1333
+2602	FUNNEL	imbuto	funnel	4.8	n	840
+2603	ACCORDION	fisarmonica	accordion	7.12	n	675
+2604	NOOSE	cappio	noose	10.875	n	302
+2605	ASPARAGUS	asparago	asparagus	7.36	n	124
+2606	COMPASS	bussola	compass	7.88	n	251
+2620	CARRIAGE	carrozza	carriage	6.64	n	324
+2621	CURTAIN	tenda	curtain	5.92	n	1768
+2622	ENGINE	motore	engine	7.28	n	1102
+2623	FLAG	bandiera	flag	4.96	n	173
+2624	FRAME	cornice	frame	5.68	n	448
+2625	MAP	mappa	map	6.16	n	1020
+2627	ORANGE (FRUIT)	arancia	orange	3.2	n	96
+2629	TRAY	vassoio	tray	6.36	n	1882
+2630	WHIP	frusta	whip	7.12	n	715
+2638	FISHING	pesca	fishing	4.24	n	1300
+2640	LARVA	baco	maggot	9.75	n	162
+2643	INK	inchiostro	ink	5.84	n	854
+2657	LADLE	mestolo	ladle	5.88	n	1061
+2666	SOLE (FOOT)	sogliola	sole	6.4	n	1635
+2668	SKELETON	scheletro	skeleton	7.32	n	1553
+27	AIR	aria	air	4.4	n	102
+270	JUG	caraffa	jug	8.88	n	308
+2715	DESPISE	disprezzare	to despise	7.32	v	537
+275	PEEL	buccia	peel	4.6	n	242
+2758	CAREFUL	attento	careful	6.08	a	139
+2765	CHERRY	ciliegia	cherry	5.88	n	378
+2766	WATERMELON	anguria	watermelon	4.4	n	79
+2769	PORK	maiale	pork	4.2	n	994
+2770	JACKET	giacca	jacket	5.96	n	759
+281	POST	palo	pole	4.92	n	1229
+2819	GRASSLAND	prateria	prairie	7.32	n	1371
+2831	PENGUIN	pinguino	penguin	5.48	n	1327
+2837	SWAN	cigno	swan	5.12	n	377
+2872	IMPROVE (SOMETHING)	migliorare	to improve	6.48	v	1066
+2883	DISTURB	disturbare	to disturb	6.24	v	543
+289	MOLD	muffa	mold	7.76	n	1107
+2902	BRAWL (FIGHT)	rissa	brawl	8.32	n	1484
+292	RUG	tappeto	carpet	5.6	n	1747
+2929	BENEFIT	profitto	profit	10.56	n	1389
+2940	GATE	cancello	gate	5.16	n	282
+2947	DAMAGE (INJURY)	ferita	injury	4.2	n	647
+2954	SLICE	fetta	slice	4.88	n	656
+2956	TUBE	tubo	tube	5.12	n	1837
+2958	LAUGHTER	risata	laughter	5.6	n	1477
+2964	NEWS	notizia	news	6.56	n	1148
+2965	PAW	zampa	paw	4.44	n	1944
+2968	REASON	motivo	tune	6.4	n	1100
+2971	SIN	peccato	sin	7.56	n	1274
+2975	THOUGHT	pensiero	thought	8.48	n	1284
+298	SHRIEK	strillo	shriek	4.52	n	1715
+2980	AREA	zona	area	7.44	n	1951
+2981	ITEM	elemento	item	7.88	n	576
+2982	GIFT	dono	present	5.28	n	558
+2984	HEAP	mucchio	pile	7.12	n	1105
+2992	TIP (OF OBJECT)	mancia	tip	9.76	n	1008
+3	BRAVE	coraggioso	brave	6.76	a	444
+300	RATTLE	sonaglio	rattle	6.52	n	1648
+3001	POWERFUL	potente	powerful	5.84	a	1366
+3006	SPACE (AVAILABLE)	spazio	space	5.76	n	1664
+3033	SCARED	spaventato	scared	6.52	a	1662
+3059	MALARIA	malaria	malaria	10.32	n	1000
+3060	PHEASANT	fagiano	pheasant	8.04	n	606
+3062	TURNIP	rapa	turnip	7.8	n	1438
+3064	RUST	ruggine	rust	8	n	1511
+3066	SCARF OR TURBAN	sciarpa	scarf	4.56	n	1562
+3069	FALSE	truffa	fraud	9.92	n	1835
+307	HAWK	falco	hawk	6.44	n	610
+308	TOUCAN	tucano	toucan	9.391304347826088	n	1838
+3083	BALLOON	palloncino	balloon	3.08	n	1226
+3085	CARROT	carota	carrot	4.56	n	319
+3086	COMPUTER	computer	computer	6.4	n	427
+3087	PACIFIER	ciuccio	pacifier	2.96	n	393
+3089	GIRAFFE	giraffa	giraffe	4.12	n	781
+3090	GUITAR	chitarra	guitar	5.24	n	366
+3091	LEMON	limone	lemon	4.2	n	957
+3096	RACKET	racchetta	racket	4.84	n	1424
+3099	SOFA	divano	sofa	5.16	n	546
+31	PAN	padella	pan	5.2	n	1216
+3102	TANK	cisterna	tank	8.48	n	391
+3104	THERMOMETER	termometro	thermometer	5.48	n	1775
+3105	UMBRELLA	ombrello	umbrella	3.96	n	1177
+3106	WARDROBE	armadio	wardrobe	4.16	n	105
+3128	SHOWER (ACTION)	doccia	shower	4.44	n	549
+3134	TYPE (ON SOMETHING)	tipo	type	6	n	1792
+3138	STRAWBERRY	fragola	strawberry	4.4	n	703
+3145	HIPPOPOTAMUS	ippopotamo	hippopotamus	4.92	n	900
+3153	LORD	signore	lord	5.16	n	1620
+3160	SLAP	schiaffo	slap	3.76	n	1556
+3179	CORAL ROCK	corallo	coral	8.36	n	445
+318	FOOTPRINT	orma	footprint	6.92	n	1196
+3188	MIGHTY OR POWERFUL OR STRONG	possente	mighty	8.44	a	1362
+319	LICK	leccare	to lick	5.16	v	938
+3193	CROSSBOW	balestra	crossbow	9.590909090909092	n	166
+3200	COUNTRYSIDE	campagna	countryside	4.52	n	276
+3202	CANNON	cannone	cannon	7.2	n	290
+3204	INSULT	insulto	insult	7	n	889
+322	FIG	fico	fig	5.8	n	661
+323	FAT (ORGANIC SUBSTANCE)	grasso	fat	5.88	a	804
+3243	CYPRESS	cipresso	cypress	7.68	n	388
+3247	KIWIFRUIT	kiwi	kiwi	5.28	n	911
+3268	QUESTION	questione	question	9.2	n	1422
+3283	CAGE	gabbia	cage	5.88	n	728
+3284	GRAVEYARD	cimitero	cemetery	4.8	n	380
+3287	BLOOM	fiorire	to blossom	5.8	v	673
+3299	KIND	cortese	kind	7.72	a	456
+33	NETTLE	ortica	nettle	7.04	n	1202
+3303	PICTURE (PAINTING)	quadro	painting	4.96	n	1418
+332	RAG	straccio	rag	6.48	n	1706
+3325	PEARL	perla	pearl	6.52	n	1294
+3334	RITE	rito	rite	8.08	n	1489
+3336	FUNERAL	funerale	funeral	6.08	n	721
+3357	CUPBOARD	mobile	cabinet	5.28	n	1077
+336	PADLOCK	lucchetto	padlock	6.2	n	970
+3375	PATIENT (SICK PERSON)	paziente	patient	8.56	a	1271
+3376	ROBBER	rapinatore	robber	7.72	n	1441
+338	RAKE	rastrello	rake	5.76	n	1444
+3382	PEACOCK	pavone	peacock	6.76	n	1270
+3389	MEASLES	morbillo	measles	6.4	n	1094
+3396	BUILDING	edificio	building	7.16	n	572
+3399	WAREHOUSE	magazzino	warehouse	5.92	n	987
+34	STAIRS	scala	stairs	4.64	n	1544
+3403	HORSE BARN	stalla	stable	5.12	n	1694
+3404	TILE	tassello	tile	8.68	n	1752
+3405	RULER	righello	ruler	4.84	n	1470
+341	SICKLE	falce	sickle	9.4	n	609
+342	HAY	fieno	hay	6.24	n	665
+3423	DRILL	trapano	drill	8.44	n	1817
+3425	JOKE	scherzo	joke	4.8	n	1554
+344	TREE TRUNK	tronco	trunk	5.44	n	1830
+3446	PINK	rosa	rose	4.04	n	1501
+3458	SILENCE	silenzio	silence	4.48	n	1621
+3460	BEACH	spiaggia	beach	3.96	n	1673
+3468	KINDNESS	gentilezza	kindness	6.32	n	751
+3474	BE THIRSTY	aver sete	to be thirsty	3.84	v	152
+3535	BE DEFEATED	sconfitto	defeated	7.64	a	1574
+3552	GREET	salutare	to greet	3.6	v	1524
+356	SHEARS	forbici	scissors	4.8	n	691
+3620	SLEEPY	aver sonno	to be sleepy	4.24	v	153
+3624	LEPROSY	lebbra	leprosy	10.12	n	936
+3625	HEADACHE	emicrania	headache	11.44	n	581
+3626	KNOW	conoscere	to know	6	v	434
+3633	CURIOUS	curioso	curious	5.96	a	488
+3635	ADULT	adulto	adult	5.32	a	25
+3640	GOSSIP	pettegolezzo	gossip	9.08	n	1305
+3644	AGREEMENT	accordo	agreement	7.96	n	20
+3646	PROVERB	proverbio	proverb	6.52	n	1397
+3665	TRAVEL	viaggiare	to travel	5.92	v	1909
+3667	LOST	perso	lost	4.72	a	1295
+367	RIDE	giostra	ride	4.08	n	776
+3675	ZEBRA	zebra	zebra	4.44	n	1947
+3719	MARMOT	marmotta	marmot	7.32	n	1028
+3722	FLAMINGO	fenicottero	flamingo	7.92	n	645
+3723	NIGHTINGALE	usignolo	nightingale	7.04	n	1863
+3724	STORK	cicogna	stork	4.36	n	374
+3727	CELERY	sedano	celery	8.64	n	1592
+3728	COURGETTE	zucchina	courgette	5.44	n	1955
+3729	LETTUCE	lattuga	lettuce	5.041666666666667	n	927
+3730	APRICOT	albicocca	apricot	5	n	48
+3732	POMEGRANATE	melograno	pomegranate	7.12	n	1047
+3746	VASE	vaso	vase	5.72	n	1881
+3762	SAFE	sicuro	safe	5.8	a	1617
+378	PINCH	pizzicotto	pinch	4.88	n	1341
+3780	PET	animale domestico	pet	4.28	n	81
+3797	OSTRICH	struzzo	ostrich	5.12	n	1718
+3809	SCREAM (PRODUCE A CRY)	urlo	scream	5	n	1859
+3813	DISOBEDIENT	disubbidiente	disobedient	4.64	a	544
+3814	HANDSOME	attraente	handsome	9.88	a	142
+3815	ALMOND	mandorla	almond	6.28	n	1011
+3841	WINDMILL	mulino	windmill	6.32	n	1109
+3844	CONTEMPT	disprezzo	contempt	9.36	n	538
+3846	EXCITEMENT	eccitazione	excitement	10	n	569
+3848	SURPRISE (FEELING)	sorpresa	surprise	5.68	n	1653
+3849	TRIUMPH	trionfo	triumph	8.2	n	1826
+385	RESPECT (SOMEBODY)	rispetto	respect	7.84	n	1480
+3858	CONFUSED	confuso	confused	7.24	a	430
+3866	ABORTION	aborto	abortion	11.72	n	12
+3867	ALCOHOLIC (PERSON)	alcolista	alcoholic	9.96	n	49
+3869	ANXIOUS	ansioso	anxious	8.28	a	84
+387	SLING	fionda	sling	7.2	n	671
+3870	RUSTY	arrugginito	rusty	7.48	a	111
+3871	MURDERER	assassino	assassin	7.4	n	128
+3872	BLOND	biondo	blond	5.08	a	212
+3873	CHOCOLATE	cioccolata	chocolate	4	n	385
+3874	KNOWLEDGE	conoscenza	knowledge	6.64	n	433
+3875	CRIMINAL	criminale	criminal	9.56	a	470
+3876	DENTIST	dentista	dentist	5.36	n	506
+3877	DEPRESSION	depressione	depression	10.92	n	507
+3878	DIAMOND	diamante	diamond	6.92	n	514
+3879	IMAGINE	immaginare	to imagine	5.96	v	841
+3881	PISTOL	pistola	pistol	5.48	n	1336
+3883	NOISY	rumoroso	noisy	5.44	a	1513
+3888	SKUNK	puzzola	skunk	6.92	n	1416
+3897	NATURE	natura	nature	4.2	n	1125
+390	PUNISHMENT	punizione	punishment	4.72	n	1409
+3902	TRUST (SOMEBODY)	fiducia	trust	8.2	n	663
+391	BLESS	benedire	to bless	7.24	v	196
+3915	PRIDE	orgoglio	pride	9.76	n	1192
+3916	PLEASURE	piacere	pleasure	7.64	n	1308
+3948	SHOTGUN	fucile	shotgun	6.68	n	717
+395	PILL	pillola	pill	7.16	n	1326
+3960	IDENTITY	identità	identity	9.12	n	832
+3965	TRAUMA	trauma	trauma	8.68	n	1820
+3967	CONTENT	contenuto	contents	8.2	n	438
+3969	RESULT	risultato	result	6.52	n	1486
+3971	METHOD	metodo	method	9.52	n	1063
+3972	EXCITED	eccitato	excited	10	a	568
+3973	DEPRESSED	depresso	depressed	11.4	a	508
+3974	UNHAPPY	infelice	unhappy	6.28	a	868
+3975	NERVOUS	nervoso	nervous	6.88	a	1134
+419	SEVERE	grave	severe	6.76	a	808
+420	FOREST	foresta	forest	5.44	n	694
+425	BE LATE	ritardato	delayed	9.92	a	1487
+43	LEAD (GUIDE)	piombo	lead	9.88	n	1331
+45	EVIL	malvagio	wicked	5.64	a	1006
+472	PELICAN	pellicano	pelican	8.12	n	1277
+474	DRESS	abito	dress	5.04	n	10
+476	CUP	tazza	cup	4.36	n	1757
+478	LIP	labbra	lips	4.76	n	912
+480	PLATE	piatto	plate	3.36	n	1313
+486	MINISTER	ministro	minister	9.64	n	1070
+487	SHY	timido	timid	5.56	a	1790
+488	MANNER	modo	manner	6.44	n	1081
+494	FLIRT	flirtare	to flirt	11.24	v	681
+496	CUCUMBER	cetriolo	cucumber	5.96	n	360
+497	SCAR	cicatrice	scar	6.08	n	371
+499	CURE	guarire	to heal	5.28	v	822
+500	CRUEL	crudele	cruel	8.56	a	476
+501	LIFT	levare	to lift	4.96	v	950
+503	FROG	rana	frog	4.4	n	1436
+504	LEARN	apprendere	to learn	7.56	v	92
+506	MAIZE	mais	corn	6.12	n	996
+507	MELON	melone	melon	5.08	n	1048
+522	WOLF	lupo	wolf	3.92	n	979
+528	DREADFUL	spaventoso	fearful	5.24	a	1663
+53	SPIRIT	spirito	spirit	7.4	n	1680
+534	HUMP	gobba	hump	7.04	n	788
+539	NEST	nido	nest	5.12	n	1138
+540	PALATE	palato	palate	6.4	n	1220
+541	POETRY	poesia	poetry	5.2	n	1343
+557	OFFEND	offendere	to offend	6.6	v	1171
+576	DANDRUFF	forfora	dandruff	9.08	n	695
+578	KISS	bacio	kiss	4.76	n	161
+580	FUR	pelliccia	fur	7.56	n	1278
+585	BOOT	stivale	boot	4.92	n	1703
+586	GARDEN	orto	vegetable garden	6.16	n	1203
+587	ANT	formica	ant	3.92	n	697
+588	BROKEN	rotto	broken	4.88	a	1504
+590	NAKED	svestito	naked	6.96	a	1736
+593	POTATO	patata	potato	3.8	n	1262
+597	PHYSICIAN	dottore	doctor	3.56	n	561
+600	STRANGE	strano	odd	5.88	a	1709
+603	COAT	cappotto	coat	5.28	n	303
+604	GLASS	bicchiere	glass	3.8	n	205
+606	GRASS	erba	grass	3.88	n	586
+608	GULF	golfo	gulf	8.24	n	794
+613	HIGH TIDE	alluvione	flood	8.08	n	55
+615	HORSE	cavallo	horse	3.92	n	342
+616	HOSPITAL	ospedale	hospital	5.68	n	1206
+617	ICE	ghiaccio	ice	5.08	n	755
+619	ANIMAL	animale	animal	3.24	n	80
+620	INSECT	insetto	insect	6.36	n	885
+621	IRON	ferro	iron	6.56	n	651
+624	LAKE	lago	lake	4.92	n	916
+625	LAMP	lampada	lamp	4.28	n	918
+628	LEAF	foglia	leaf	4.08	n	684
+629	LEATHER	cuoio	leather	7.72	n	485
+630	LIGHT (RADIATION)	luce	daylight	4	n	971
+632	LIZARD	lucertola	lizard	4.24	n	972
+633	MARKET	mercato	market	6.12	n	1056
+634	MEAT	carne	meat	4.44	n	316
+635	MILK	latte	milk	3.24	n	926
+638	MOTORCYCLE	motocicletta	motorcycle	7.24	n	1101
+639	MOUNTAIN	montagna	mountain	4.24	n	1089
+640	MUD	fango	mud	5.2	n	621
+641	MUSHROOM	fungo	mushroom	4.6	n	722
+642	MUSIC	musica	music	4.12	n	1116
+644	OAK	quercia	oak	6.2	n	1421
+645	OCEAN	oceano	ocean	5.92	n	1167
+646	ASH	cenere	ash	5.88	n	347
+647	PAINT (PIGMENTS)	vernice	paint	7.04	n	1900
+648	PAPER	carta	paper	4.28	n	326
+65	AMBUSH	agguato	ambush	9.88	n	36
+651	SEAL	foca	seal	4.08	n	683
+652	PLAIN	evidente	plain	7.96	a	601
+653	PLANT (VEGETATION)	pianta	plant	4.24	n	1312
+655	POISON	veleno	poison	6.2	n	1889
+658	RAIN (PRECIPITATION)	pioggia	rain	4.24	n	1330
+661	RELIGION	religione	religion	5.96	n	1453
+662	BATTERY	batteria	battery	6.56	n	184
+665	BEE	ape	bees	4.32	n	87
+666	RIVER	fiume	river	4.8	n	677
+668	ROCK	roccia	rock	5.92	n	1496
+671	SAND	sabbia	sand	4.64	n	1515
+673	SCHOOL	scuola	school	4.4	n	1587
+674	MOUTH	bocca	mouth	2.44	n	219
+677	AXE	ascia	ax	9.16	n	115
+678	BEARD	barba	beard	5.72	n	176
+679	BRIGHT	luminoso	bright	5.64	a	974
+680	BREAK (DESTROY OR GET DESTROYED)	rompere	to break	4.08	v	1499
+681	DESTROY	distruggere	to destroy	7.28	v	541
+682	SIDE	lato	side	6	n	925
+683	PERSON	persona	person	3.52	n	1296
+686	EASY	facile	easy	4.52	a	605
+690	BOTTOM	sederino	bottom	4.52	n	1594
+691	SEASON	stagione	season	4.92	n	1692
+692	BRING	portare	to bring	4.52	v	1358
+695	GO	andare	to go	4.2	v	73
+698	WISE	saggio	wise	8.56	a	1518
+699	SAD	triste	sad	5.68	a	1827
+701	SLOW	lento	slow	4.92	a	943
+702	CATCH	acchiappare	to catch	4.84	v	16
+704	CLEAN	pulito	clean	5.44	a	1405
+706	DARK	buio	dark	3.72	a	246
+711	TALL	alto	tall	4.04	a	58
+712	RICH	ricco	wealthy	6.666666666666667	a	1463
+714	SEED	seme	seed	5.92	n	1599
+715	SHOUT	gridare	to shout	4.44	v	812
+717	SWEET	dolce	sweet	5.08	a	551
+719	FIND	trovare	to find	4.24	v	1834
+723	PLACE (POSITION)	luogo	place	5.76	n	978
+724	READ	leggere	to read	5.56	v	940
+729	DAWN	aurora	dawn	7.72	n	146
+730	SNAKE	serpente	snake	4.56	n	1610
+731	BEVERAGE	bibita	beverage	4.56	n	204
+735	OWL	gufo	owl	6	n	824
+739	FEED	nutrire	to feed	7.56	v	1156
+74	PUPPY	cucciolo	puppy	4.12	n	479
+740	SHIP	nave	ship	4.36	n	1127
+741	DRIVE	guidare	to drive	6.24	v	825
+744	EGG	uovo	egg	4.52	n	1856
+745	SHELF	mensola	shelf	5.96	n	1051
+746	SHOP	negozio	shop	4.24	n	1131
+747	BICYCLE	bicicletta	bicycle	4.4	n	206
+750	DROP	goccia	drop	4.56	n	789
+753	PUPIL (STUDENT)	alunno	student	5.28	n	59
+754	HURRY	fretta	hurry	6.08	n	711
+757	BUTTON	bottone	button	6.24	n	230
+759	SILVER	argento	silver	7.2	n	101
+760	KNOT	nodo	knot	5.04	n	1142
+761	COVER	coprire	to cover	5.8	v	443
+767	CORPSE	cadavere	corpse	9.6	n	255
+769	ROOF	tetto	roof	3.8	n	1787
+770	EARRING	orecchino	earring	5.44	n	1188
+771	HAT	cappello	hat	4.04	n	301
+772	BELT	cinta	belt	5.291666666666667	n	383
+775	TRUMPET	tromba	trumpet	5.08	n	1829
+777	FLUTE	flauto	flute	6.36	n	680
+778	SMOKE (EXHAUST)	fumo	smoke	7.04	n	719
+779	PART	parte	part	7.52	n	1254
+783	VICTORY	vittoria	victory	5.52	n	1929
+784	SNOW	neve	snow	4.32	n	1136
+785	STRONG	forte	strong	4.68	a	699
+787	SAIL	vela	sail	5.76	n	1888
+788	SOAP	sapone	soap	4	n	1534
+789	PEOPLE	nazione	nation	7.96	n	1128
+794	PEN	penna	pen	3.68	n	1282
+795	TROUT	trota	trout	7.68	n	1832
+796	NIPPLE	capezzolo	nipple	9.48	n	300
+803	ANKLE	caviglia	ankle	6	n	343
+806	BLANKET	coperta	blanket	4.04	n	441
+809	TROUSERS	pantaloni	trousers	3.84	n	1241
+812	SLAVE	schiavo	slave	8.16	n	1557
+813	DO	fare	to do	4.4	v	626
+818	WILLOW	salice	willow	8.4	n	1521
+819	STOMACH	stomaco	stomach	5.84	n	1704
+82	ANGER	collera	anger	8.4	n	406
+820	LAMB	agnello	lamb	4.68	n	41
+825	AWAKE	sveglio	awake	4.24	a	1735
+832	BEAN	fagiolo	bean	4.84	n	607
+837	BLUE	blu	blue	3.32	a	218
+843	SPIDER	ragno	spider	4.48	n	1434
+846	TIGER	tigre	tiger	5.08	n	1789
+849	SPRING (OF WATER)	fontana	fountain	4.6	n	690
+850	SQUARE	piazza	square	5.24	n	1314
+852	PRIEST	prete	priest	5.12	n	1381
+853	ALTAR	altare	altar	7.16	n	57
+854	KETTLE	bollitore	kettle	7.64	n	222
+857	STONE	pietra	stone	4.08	n	1323
+858	STORM	bufera	storm	8.56	n	244
+859	STOVE	stufa	stove	7.08	n	1720
+860	CAUSE	causa	lawsuit	8.32	n	341
+861	JUDGE	giudice	judge	8.08	n	784
+862	SUGAR	zucchero	sugar	4.28	n	1954
+864	PUMPKIN	batuffolo	pumpkin	7.4	n	186
+865	FAME	fama	fame	8.96	n	613
+866	WIN	vincere	to win	4.52	v	1919
+867	GLOVE	guanto	glove	5.92	n	819
+868	BANANA	banana	banana	4.08	n	171
+874	CANDY	caramella	candy	3.44	n	309
+878	HELL	inferno	hell	6.88	n	871
+879	COUGH	tosse	cough	3.88	n	1807
+882	PARROT	pappagallo	parrot	5.04	n	1246
+883	TERMITE	termite	termite	9.727272727272727	n	1774
+887	BITTER	amaro	bitter	4.24	a	62
+889	FLAME	fiamma	flame	5	n	657
+890	MULE	mulo	mule	6.16	n	1110
+892	TIME	tempo	time	4.96	n	1766
+894	TOAD	rospo	toad	4.68	n	1502
+897	SWALLOW	rondine	swallow	4.52	n	1500
+90	INNOCENT	innocente	innocent	7.08	a	878
+900	TRAIN	treno	train	4.52	n	1823
+905	BORING	annoiato	bored	5.36	a	83
+906	TREE	albero	tree	3.56	n	47
+908	DRUM	tamburo	drum	4.84	n	1744
+909	GARBAGE	rifiuto	trash	5.583333333333333	n	1469
+91	INSOLENT	insolente	insolent	9.6	a	888
+910	DEATH	morte	death	5.8	n	1097
+913	CROW	corvo	crow	5.92	n	459
+915	SINK (BASIN)	catino	basin	8.15	n	338
+920	GRAPE	uva	grapes	4.2	n	1866
+922	PEAR	pera	pear	3.96	n	1290
+923	LOVE	amore	love	6.32	n	70
+926	RICE	riso	rice	5.68	n	1479
+928	EMBRACE	abbraccio	hug	4.2	n	5
+930	VILLAGE	villaggio	village	5.96	n	1917
+932	BARLEY	orzo	barley	5.6	n	1204
+933	WALL (OF HOUSE)	muro	wall	4.08	n	1113
+935	WAR	guerra	war	6.64	n	823
+937	BIRD	uccello	bird	2.96	n	1845
+942	HONEY	miele	honey	4.32	n	1065
+943	WATERFALL	cascata	waterfall	6.52	n	328
+946	BLOOD	sangue	blood	4.32	n	1531
+948	WATER	acqua	water	2.96	n	22
+950	SEAGULL	gabbiano	seagull	5.04	n	729
+951	WEAPONS	arma	weapon	5.76	n	103
+953	RAPE	stupro	rape	11.28	n	1724
+954	WELL	pozzo	well	6.48	n	1370
+958	WILD ANIMAL	bestia	beast	7.16	n	201
+960	WIND	vento	wind	4.64	n	1894
+962	WOMAN	donna	woman	4.36	n	557
+963	BOOK	libro	book	4.2	n	955
+964	WOOL	lana	wool	5.64	n	920
+965	WORLD	mondo	world	4.72	n	1086
+968	ACORN	ghianda	acorn	7.84	n	756
+974	TOBACCO	tabacco	tobacco	9.04	n	1737
+975	SPINACH	spinacio	spinach	4.88	n	1678
+977	ARROW	freccia	arrow	5.44	n	708
+980	HEEL	calcagno	heel	9.91304347826087	n	260
+981	ELBOW	gomito	elbow	5.88	n	795
+985	VINEGAR	aceto	vinegar	6.44	n	21
+986	TOMATO	pomodoro	tomato	4.4	n	1353
+987	REMAIN	restare	to remain	5.52	v	1456
+992	CLIFF	precipizio	cliff	8.24	n	1373
+994	BOW	arco	bow	5.84	n	99
+998	PUT	mettere	to put	4.28	v	1064
