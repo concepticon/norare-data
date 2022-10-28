@@ -393,7 +393,7 @@ Hill-2015-999	SIM_ASSOCIATION_333	numeric	associations	binary indicator	relation
 Babelnet	BABELNET_DEFINITION	semantic	definition		relations	corpus	en		This is the description of the BabelNet item.
 Haspelmath-2009-1460	SEMANTIC_FIELD	linguistic	semantic field		relations	user	en		The semantic field of a given word.
 Haspelmath-2009-1460	AGE_SCORE	numeric	word age		relations	user	en		This gives the average age score of all words corresponding to this meaning.
-Haspelmath-2009-1460	BORROWING_SCORE	percentage	boworring		relations	user	en		This gives the average borrowed score of all words corresponding to this meaning.
+Haspelmath-2009-1460	BORROWING_SCORE	percentage	borrowing		relations	user	en		This gives the average borrowed score of all words corresponding to this meaning.
 Haspelmath-2009-1460	SIMPLICITY_SCORE	numeric	word simplicity		relations	user	en		This gives the average simplicity score of all words corresponding to this meaning.
 Haspelmath-2009-1460	RANK	ordinality	stability	rank	relations	user	en		This value indicates the stability of a word and its resistance to borrowing across languages.
 Calude-2011-200	ENGLISH_FREQUENCY	logarithmic	frequency		norms	corpus	en		Log10 frequency of basic words.
@@ -507,8 +507,8 @@ Gilhooly-1980-Ratings	ENGLISH_FREQUENCY	tokens	frequency		ratings	corpus	en	Thor
 Scheible-2014-1755	SCORED_RELATIONS	linguistic	semantic class		relations	users	de		The targeted relation between a word pair: antonym (ANT), hyponym (HYP), synonym (SYN), scored as the mean of similarity judgments on a 5-point scale.
 Lapesa-2014-772	SCORED_RELATIONS	object	polysemy	degree	relations	users	en		Scored polysemy relations.
 Zalizniak-2020-2590	RANK	ordinality	stability	rank	relations	concept lists	en		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
-Carling-2019-99	LOAN	percentage	boworring		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
-Carling-2019-99	NO_LOAN	percentage	boworring	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
+Carling-2019-99	LOAN	percentage	borrowing		relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the the percentage of the concept being borrowed.
+Carling-2019-99	NO_LOAN	percentage	borrowing	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
 Carling-2019-99	RANK	ordinality	stability	rank	relations	concept lists	en		The data in the list are ranked from the highest to the lowest degree of borrowability.
 Pozdniakov-2014-100b	RANK	ordinality	stability	rank	relations	concept lists	en		The data for the Atlantic languages are ranked from the highest to the lowest degree of borrowability.
 Pozdniakov-2014-100b	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability score for a given concept in Atlantic languages.
@@ -518,7 +518,7 @@ Thomas-1960-168	STABILITY_SCORE	numeric	stability	score	relations	concept lists	
 Dyen-1964-196	RANK	ordinality	stability	rank	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 89 Malayo-Polynesian languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
 Dyen-1964-154	RANK	ordinality	stability	rank	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 39 Indo-European languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
 Tadmor-2009-100	RANK	numeric	stability	rank	relations	concept lists	en		This value indicates the stability of a word and its resistance to borrowing across languages.
-Tadmor-2009-100	BORROWED_SCORE	percentage	boworring		relations	concept lists	en		This gives the average borrowed score of all words corresponding to this meaning.
+Tadmor-2009-100	BORROWED_SCORE	percentage	borrowing		relations	concept lists	en		This gives the average borrowed score of all words corresponding to this meaning.
 Tadmor-2009-100	AGE_SCORE	numeric	age		relations	concept lists	en		This gives the average age score of all words corresponding to this meaning.
 Starostin-2007-110	RANK	ordinality	stability	rank	relations	concept lists	ru		This value indicates the stability of a word and its resistance to borrowing across languages.
 Swadesh-1955-215	STABILITY_SCORE	numeric	stability	score	relations	concept lists	en		The stability percentages for a given concept in the languages of the world.
