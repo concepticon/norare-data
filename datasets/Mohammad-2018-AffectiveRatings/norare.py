@@ -9,7 +9,7 @@ def download(dataset):
 def map(dataset, concepticon, mappings):
     items = [
         dict(zip(['Word', 'Valence', 'Arousal', 'Dominance'], row)) for row in
-        dataset.get_csv('NRC-VAD-Lexicon-Aug2018Release/NRC-VAD-Lexicon.txt', delimiter="\t")]
+        dataset.get_csv('NRC-VAD-Lexicon-Aug2018Release/NRC-VAD-Lexicon.txt', delimiter="\t", dicts=False)]
     dataset.extract_data(
         items,
         concepticon,
