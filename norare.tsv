@@ -145,7 +145,7 @@ Rzymski-2020-1624	COMMUNITY	numeric	polysemy	community	relations	concept lists	e
 Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
 Rzymski-2020-1624	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the unweighted and weighted degree for each node.
 Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	polysemy	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
-Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weigthed language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
+Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weighted language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
 Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN	mean	happiness		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category happiness.
 Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN	mean	anger		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category anger.
 Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN	mean	sadness		ratings	user	pl		Mean value for all valid responses on a 7-point scale in the emotional category sadness.
@@ -627,7 +627,7 @@ List-2018-1105	COMMUNITY	numeric	polysemy	community	relations	concept lists	en		
 List-2018-1105	CENTRAL_CONCEPT	linguistic	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
 List-2018-1105	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the number of concepts to which a given concept links.
 List-2018-1105	WEIGHTED_FAMILY_DEGREE	numeric	polysemy	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
-List-2018-1105	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weigthed language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
+List-2018-1105	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weighted language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
 Bolognesi-2022-Specificity	ITALIAN_SPECIFICITY_MEAN	mean	specificity		ratings	users	it		The values are based on specificity ratings collected from Italian speakers using the Best-Worst Scaling method and then converted into a 5-point scale (1-5) for better comparability.
 Montefinese-2014-AffectiveRatings	ITALIAN_FAMILIARITY_MEAN	mean	familiarity		ratings	users	it		Mean familiarity ratings, with 1 being unfamiliar and 9 highly familiar.
 Montefinese-2014-AffectiveRatings	ITALIAN_IMAGEABILITY_MEAN	mean	imageability		ratings	users	it		Mean imageability ratings, with 1 being unimaginable and 9 highly imaginable.
