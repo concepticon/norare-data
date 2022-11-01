@@ -1,0 +1,348 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
+                        },
+                        "name": "ID"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "[0-9\\.]+([a-z\\\u2013]+)?$"
+                        },
+                        "name": "NUMBER"
+                    },
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": "1"
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "GLOSS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ENGLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POS"
+                    },
+                    {
+                        "datatype": {
+                            "base": "string",
+                            "format": "([0-9]+)(:[0-9]+)*"
+                        },
+                        "separator": " ",
+                        "name": "SIMLEX_IDS"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "SIMLEX_GLOSSES"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "LINKS"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ARABIC"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CHINESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "WELSH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "ESTONIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FINNISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "FRENCH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "HEBREW"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "POLISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "RUSSIAN"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "SPANISH"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CANTONESE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "ENGLISH_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "ARABIC_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "CHINESE_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "WELSH_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "ESTONIAN_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "FINNISH_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "FRENCH_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "HEBREW_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "POLISH_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "RUSSIAN_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "SPANISH_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "string",
+                        "separator": " ",
+                        "name": "CANTONESE_IN_SOURCE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "ENGLISH_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "ARABIC_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "CHINESE_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "WELSH_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "ESTONIAN_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "FINNISH_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "FRENCH_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "HEBREW_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "POLISH_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "RUSSIAN_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "SPANISH_SCORE"
+                    },
+                    {
+                        "datatype": "float",
+                        "separator": " ",
+                        "name": "CANTONESE_SCORE"
+                    },
+                    {
+                        "datatype": "integer",
+                        "separator": " ",
+                        "name": "MANDARIN_ERRATUM"
+                    },
+                    {
+                        "datatype": "integer",
+                        "separator": " ",
+                        "name": "FRENCH_ERRATUM"
+                    },
+                    {
+                        "datatype": "integer",
+                        "separator": " ",
+                        "name": "RUSSIAN_ERRATUM"
+                    },
+                    {
+                        "datatype": "integer",
+                        "separator": " ",
+                        "name": "SPANISH_ERRATUM"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "ARABIC_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "CANTONESE_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "CHINESE_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "ENGLISH_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "ESTONIAN_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "FINNISH_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "FRENCH_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "HEBREW_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "POLISH_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "RUSSIAN_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "SPANISH_SIMILARITY"
+                    },
+                    {
+                        "datatype": {
+                            "base": "json",
+                            "format": "{\"type\":\"object\",\"patternProperties\":{\".+\": {\"type\": \"object\", \"required\":[\"Score\",\"Concepticon_ID\"],\"properties\":{\"Score\":{\"type\":\"number\"},\"Concepticon_ID\":\"oneOf\":[{\"type\":\"number\"},{\"type\":\"null\"}]}}}}"
+                        },
+                        "name": "WELSH_SIMILARITY"
+                    }
+                ],
+                "primaryKey": [
+                    "ID"
+                ]
+            },
+            "url": "Vulic-2020-2244.tsv"
+        }
+    ]
+}
