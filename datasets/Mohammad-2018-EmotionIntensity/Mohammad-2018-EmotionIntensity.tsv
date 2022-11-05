@@ -1,742 +1,823 @@
 CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	ENGLISH_EMOTION_DOMINANT	ENGLISH_EMOTION_INTENSITY	LINE_IN_SOURCE
 1	CONTEMPTIBLE	contemptible	anger	0.764	179
-100	FAITHFUL	faithful	joy	0.529	5780
+100	FAITHFUL	faithful	joy	0.529	5772
 1000	ANXIETY	anxiety	anger	0.344	1137
-1001	BLACKSMITH	smith	trust	0.312	9736
-1013	FRESHWATER EEL	eel	fear	0.344	4753
-1027	BUG	bug	disgust	0.359	3194
-1028	YAWN	gape	surprise	0.633	7934
-1034	DEFENDANT	defendant	anger	0.266	1264
-1035	GOOD	goodness	anticipation	0.438	2080
-1038	TEACHER	teacher	trust	0.641	8619
-1039	SHOW	show	trust	0.352	9664
-1047	PURSUE	pursue	trust	0.398	9548
-1052	LIGHT (WEIGHT)	light	joy	0.297	6213
-1053	HUNTER	hunter	anticipation	0.523	1856
-1061	ARMOUR	armor	fear	0.484	4377
-1062	LAW	law	trust	0.547	8973
+1001	BLACKSMITH	smith	trust	0.312	9714
+1013	FRESHWATER EEL	eel	fear	0.344	4745
+1027	BUG	bug	disgust	0.359	3190
+1028	YAWN	gape	surprise	0.633	7918
+1034	DEFENDANT	defendant	anger	0.266	1263
+1035	GOOD	good	anticipation	0.383	2197
+1038	TEACHER	teacher	trust	0.641	8601
+1039	SHOW	show	trust	0.352	9644
+1047	PURSUE	pursue	trust	0.398	9530
+1053	HUNTER	hunter	anticipation	0.523	1854
+1061	ARMOUR	armor	fear	0.484	4370
+1062	LAW	law	trust	0.547	8955
 1066	CRIME	crime	anger	0.672	316
-1067	JUDGMENT	judgment	surprise	0.422	8157
-1068	COURT	court	anger	0.199	1359
-107	OMEN	omen	anticipation	0.570	1732
+1067	JUDGMENT	judgment	surprise	0.422	8140
+1068	COURT	court	anger	0.199	1358
+107	OMEN	omen	anticipation	0.570	1730
 1072	PRISONER	prisoner	anger	0.516	684
-1080	VULGAR	vulgar	disgust	0.719	2496
-1082	MERCHANT	merchant	trust	0.242	9849
-1085	FOLLOW	follow	trust	0.477	9258
-1092	HOPE	hope	anticipation	0.773	1492
-1094	FASTEN	tighten	anger	0.328	1169
-1097	ABANDON	abandon	fear	0.531	4258
-1098	WEIGH	weigh	anticipation	0.414	2117
-11	DARKNESS	darkness	anger	0.227	1323
-1103	SACRIFICE	offering	trust	0.414	9494
-1104	NURSE	nurse	trust	0.594	8766
-1108	UNCOVER	uncover	surprise	0.562	8002
+1080	VULGAR	vulgar	disgust	0.719	2492
+1082	MERCHANT	merchant	trust	0.242	9827
+1085	FOLLOW	follow	trust	0.477	9240
+1092	HOPE	hope	anticipation	0.773	1490
+1094	FASTEN	tighten	anger	0.328	1168
+1097	ABANDON	abandon	fear	0.531	4251
+1098	WEIGH	weigh	anticipation	0.414	2114
+11	DARKNESS	darkness	anger	0.227	1322
+1103	SACRIFICE	offering	trust	0.414	9476
+1104	NURSE	nurse	trust	0.594	8748
+1108	UNCOVER	uncover	surprise	0.562	7985
 1109	WOUND	wound	anger	0.636	387
-1112	SUCCEED	succeed	anticipation	0.633	1622
-1117	LIKE	like	trust	0.484	9241
-1120	HONEST	honest	anger	0.087	1454
-1121	SECRET	secret	trust	0.305	9752
-1122	WAGES	wages	joy	0.169	6398
+1112	SUCCEED	succeed	anticipation	0.633	1620
+1117	LIKE	like	trust	0.484	9223
+1120	HONEST	honest	anger	0.087	1452
+1121	SECRET	secret	trust	0.305	9730
+1122	WAGES	salary	anticipation	0.516	1859
 1129	PAINFUL	hurting	anger	0.712	263
-1132	BEAM	beam	joy	0.456	5931
+1132	BEAM	beam	joy	0.456	5923
 1134	DIVORCE	divorce	anger	0.516	682
 1135	KICK	kick	anger	0.667	336
-1141	PITY	pity	sadness	0.547	7018
-1144	WITNESS	witness	trust	0.602	8742
-1145	SWAMP	swamp	disgust	0.570	2739
-1147	PURE	pure	joy	0.364	6094
-1148	BRUISE	bruise	anticipation	0.289	2307
-1149	ORPHAN	orphan	fear	0.453	4471
+1141	PITY	pity	sadness	0.547	7005
+1144	WITNESS	witness	trust	0.602	8724
+1145	SWAMP	swamp	disgust	0.570	2735
+1147	PURE	pure	joy	0.364	6085
+1148	BRUISE	bruise	anticipation	0.289	2304
+1149	ORPHAN	orphan	fear	0.453	4464
 1150	THUNDER	thundering	anger	0.625	415
 1160	THIEF	thief	anger	0.561	574
 1172	SHOOT	shoot	anger	0.672	323
-1175	GHOST	ghost	fear	0.672	3818
-1177	DIARRHEA	diarrhoea	disgust	0.820	2386
-1184	DIMINISH	diminish	sadness	0.438	7295
-1185	VULTURE	vulture	disgust	0.516	2848
+1175	GHOST	ghost	fear	0.672	3811
+1177	DIARRHEA	diarrhoea	disgust	0.820	2382
+1184	DIMINISH	diminish	sadness	0.438	7282
+1185	VULTURE	vulture	disgust	0.516	2844
 1189	ULCER	ulcer	anger	0.348	1119
 1192	THREATEN	threaten	anger	0.818	116
-1197	BABOON	baboon	disgust	0.250	3339
-1200	HUSBAND	husband	joy	0.438	5972
-1203	LONG	long	anticipation	0.406	2144
+1197	BABOON	baboon	disgust	0.250	3334
+1200	HUSBAND	husband	joy	0.438	5964
+1203	LONG	long	anticipation	0.406	2141
 1204	BARK	bark	anger	0.365	1082
-1207	YOUNG	young	anticipation	0.500	1910
-1216	MOTHER	mother	anticipation	0.406	2137
-1217	FATHER	father	trust	0.586	8804
-1219	WORM	worm	anticipation	0.203	2343
-1221	NOSE	nose	disgust	0.180	3400
-1223	HEART	heart	joy	0.547	5733
-1227	BOARD	board	anticipation	0.234	2338
-1228	EARTH (SOIL)	soil	disgust	0.312	3269
-1230	DIRTY	dirty	disgust	0.727	2481
-1232	WARM	warm	joy	0.429	5980
-1259	WEDDING	wedding	joy	0.641	5567
-1261	SING	sing	anticipation	0.411	2135
-1262	BROTHER	brother	trust	0.648	8606
-1264	CHANGE	change	fear	0.198	5058
-1266	BRIDE	bride	anticipation	0.641	1591
+1216	MOTHER	mother	anticipation	0.406	2134
+1217	FATHER	father	trust	0.586	8786
+1219	WORM	worm	anticipation	0.203	2339
+1221	NOSE	nose	disgust	0.180	3395
+1223	HEART	heart	joy	0.547	5725
+1227	BOARD	board	anticipation	0.234	2334
+1228	EARTH (SOIL)	soil	disgust	0.312	3265
+1230	DIRTY	dirty	disgust	0.727	2477
+1232	WARM	warm	joy	0.429	5972
+125	SWEAT (SUBSTANCE)	sweat	fear	0.219	5018
+1259	WEDDING	wedding	joy	0.641	5559
+1261	SING	sing	anticipation	0.411	2132
+1262	BROTHER	brother	trust	0.648	8588
+1264	CHANGE	change	fear	0.198	5050
+1266	BRIDE	bride	anticipation	0.641	1589
 127	EXTINGUISH	extinguish	anger	0.394	1026
-1272	AUNT	aunt	trust	0.461	9312
-1273	CANDLE	candle	joy	0.234	6320
-1276	AUTUMN	autumn	joy	0.254	6284
-1278	VOMIT	puke	disgust	0.789	2417
-1280	FALL	fall	sadness	0.418	7331
-1281	PRISON	jail	fear	0.578	4101
-1284	BANK	bank	trust	0.461	9316
-1285	IMPORTANT	important	trust	0.633	8643
+1271	DELIGHT	gratify	joy	0.750	5384
+1272	AUNT	aunt	trust	0.461	9294
+1273	CANDLE	candle	joy	0.234	6309
+1276	AUTUMN	autumn	joy	0.254	6273
+1278	VOMIT	puke	disgust	0.789	2413
+1280	FALL	fall	sadness	0.418	7318
+1281	PRISON	jail	fear	0.578	4094
+1284	BANK	bank	trust	0.461	9298
+1285	IMPORTANT	important	trust	0.633	8625
 1286	HOT	hot	anger	0.529	675
 1287	COLD	coldness	anger	0.477	805
-1288	CAP	cap	anticipation	0.297	2300
-1289	BABY	infant	anticipation	0.508	1879
+1288	CAP	cap	anticipation	0.297	2297
+1289	BABY	infant	anticipation	0.508	1877
 129	CHOKE	choke	anger	0.719	235
 1292	BAD	bad	anger	0.453	875
-1293	MISTAKE	error	sadness	0.250	7613
-1296	WALKING STICK	cane	anger	0.250	1291
-1299	COFFEE	coffee	joy	0.333	6150
+1293	MISTAKE	error	sadness	0.250	7598
+1299	COFFEE	coffee	joy	0.333	6140
 13	DECEIT	deceit	anger	0.484	793
-1308	DOUBT	doubt	fear	0.250	4975
-131	FESTIVAL	party	joy	0.765	5378
-1314	QUIET	quiet	joy	0.188	6379
-1318	CHICKEN	chicken	fear	0.234	4996
-1319	COWARD	coward	disgust	0.555	2763
-1322	BREAKFAST	breakfast	joy	0.242	6309
-1323	CLOCK	clock	anticipation	0.375	2209
-1324	SLIP	slip	surprise	0.461	8119
-1325	FRIEND	friend	joy	0.471	5900
-1326	DOWN	down	sadness	0.281	7562
-1329	TOMORROW	tomorrow	anticipation	0.648	1586
+1308	DOUBT	doubt	fear	0.250	4967
+131	FESTIVAL	party	joy	0.765	5370
+1314	QUIET	quiet	joy	0.188	6368
+1318	CHICKEN	chicken	fear	0.234	4988
+1319	COWARD	coward	disgust	0.555	2759
+1322	BREAKFAST	breakfast	joy	0.242	6298
+1323	CLOCK	clock	anticipation	0.375	2206
+1324	SLIP	slip	surprise	0.461	8102
+1325	FRIEND	friend	joy	0.471	5892
+1326	DOWN	down	sadness	0.281	7548
+1329	TOMORROW	tomorrow	anticipation	0.648	1584
 1330	DEFEND	defense	anger	0.425	929
-1332	NEIGHBOUR	neighbor	anticipation	0.281	2315
-1334	GUTS	gut	disgust	0.594	2693
-1335	WHITE	white	anticipation	0.234	2335
-1337	PIG	hog	disgust	0.438	3024
-1338	PEACE	peace	anticipation	0.430	2087
-1339	MORNING	morning	joy	0.250	6299
-134	FAULT	guilt	disgust	0.383	3141
-1342	SUMMER	summer	joy	0.591	5661
-1343	SUN	sun	anticipation	0.445	2059
+1332	NEIGHBOUR	neighbor	anticipation	0.281	2312
+1334	GUTS	gut	disgust	0.594	2689
+1337	PIG	hog	disgust	0.438	3020
+1338	PEACE	peace	anticipation	0.430	2084
+1339	MORNING	morning	joy	0.250	6288
+134	FAULT	guilt	disgust	0.383	3137
+1342	SUMMER	summer	joy	0.591	5653
+1343	SUN	sun	anticipation	0.445	2056
 1344	RAM	ram	anger	0.470	814
-1349	CHURCH	church	anticipation	0.312	2290
-135	BOOMERANG	boomerang	anticipation	0.602	1666
-1355	LAUGH	laugh	joy	0.891	5247
-1357	DAUGHTER	daughter	joy	0.547	5728
+1349	CHURCH	church	anticipation	0.312	2287
+135	BOOMERANG	boomerang	anticipation	0.602	1664
+1355	LAUGH	laugh	joy	0.891	5239
+1357	DAUGHTER	daughter	joy	0.547	5720
 1358	ENEMY	enemy	anger	0.667	340
-1361	TOOL	tool	anger	0.219	1333
-1364	HEALTHY	health	joy	0.493	5860
-1366	BOY	boy	disgust	0.117	3426
+1361	TOOL	tool	anger	0.219	1332
+1364	HEALTHY	health	joy	0.493	5852
 1367	CROSS	cross	anger	0.561	579
-1372	MEDICINE	medication	fear	0.156	5111
-1373	TEA	tea	joy	0.188	6380
-138	BATHE	bath	joy	0.182	6383
-1383	GRANDFATHER	grandfather	trust	0.680	8517
-1386	LION	lion	fear	0.484	4386
-1387	ARRIVE	arrive	anticipation	0.594	1673
-1392	LOUSE	louse	disgust	0.617	2644
-1400	THIN (SLIM)	slimy	disgust	0.703	2512
+1372	MEDICINE	medication	fear	0.156	5103
+1373	TEA	tea	joy	0.188	6369
+138	BATHE	bath	joy	0.182	6372
+1383	GRANDFATHER	grandfather	trust	0.680	8499
+1386	LION	lion	fear	0.484	4379
+1387	ARRIVE	arrive	anticipation	0.594	1671
+1392	LOUSE	louse	disgust	0.617	2640
+1400	THIN (SLIM)	slimy	disgust	0.703	2508
 1411	LIE (REST)	lie	anger	0.348	1113
-1414	SQUEEZE	wring	anger	0.415	966
-1417	KILL	kill	fear	0.962	3448
-1419	FEAR (BE AFRAID)	afraid	fear	0.844	3525
-1420	COUNT	count	trust	0.430	9414
-1422	BE ALIVE	living	joy	0.312	6192
+1417	KILL	kill	fear	0.962	3442
+1419	FEAR (BE AFRAID)	afraid	fear	0.844	3518
+1420	COUNT	count	trust	0.430	9396
+1422	BE ALIVE	living	joy	0.312	6182
 1423	FIGHT	fight	anger	0.667	339
-1425	GREEN	green	joy	0.137	6424
-1427	BEAUTIFUL	beautiful	joy	0.781	5352
-1429	FULL	full	joy	0.375	6072
-1430	STAR	star	anticipation	0.469	1992
+1425	GREEN	green	joy	0.137	6413
+1427	BEAUTIFUL	beautiful	joy	0.781	5344
+1429	FULL	full	joy	0.375	6063
+1430	STAR	star	anticipation	0.469	1989
 1433	HIT	hit	anger	0.667	338
 1434	STAB	prick	anger	0.835	90
 1435	HUNT	hunting	anger	0.411	974
-1438	FOOL	fool	disgust	0.461	2978
-1439	SWIM	swim	anticipation	0.500	1917
-144	MACHINE	machine	trust	0.289	9788
-1440	SPIT	spit	disgust	0.570	2735
-1441	FLY (MOVE THROUGH AIR)	flying	fear	0.281	4911
-145	SORROWFUL	sorrowful	sadness	0.750	6632
-1451	SMILE	smiling	joy	0.828	5296
-1463	DRUNK	intoxicated	disgust	0.594	2689
-1465	BOX	case	fear	0.094	5172
-1467	CIRCLE	circle	trust	0.430	9420
-1468	LOOK FOR	seek	anticipation	0.586	1701
-1479	DOLPHIN	dolphin	joy	0.348	6117
-1482	SHOULDER	shoulder	trust	0.336	9702
-1489	CLOUD	clouds	sadness	0.125	7723
-1490	RAT	rat	disgust	0.633	2619
-1494	DIE	die	fear	0.766	3646
-1495	HAPPY	glad	anticipation	0.536	1821
-150	WORRY	worry	anticipation	0.492	1937
-1503	SALIVA	saliva	anticipation	0.297	2297
-1506	MEASURE	measure	trust	0.516	9118
-1509	MOSQUITO	mosquito	anger	0.219	1335
-151	RAZOR	razor	fear	0.303	4863
-1517	WASP	wasp	fear	0.500	4315
-1519	RUN	run	fear	0.250	4964
-1524	WINE	wine	joy	0.125	6432
-1528	FORGIVE	forgive	trust	0.547	8962
-153	GREY	gray	disgust	0.133	3418
-1533	BE HUNGRY	hungry	anticipation	0.547	1803
-1534	FEVER	fever	fear	0.469	4418
+1438	FOOL	fool	disgust	0.461	2974
+1439	SWIM	swim	anticipation	0.500	1914
+144	MACHINE	machine	trust	0.289	9766
+1440	SPIT	spit	disgust	0.570	2731
+1441	FLY (MOVE THROUGH AIR)	flying	fear	0.281	4903
+145	SORROWFUL	sorrowful	sadness	0.750	6620
+1451	SMILE	smiling	joy	0.828	5288
+146	SUGAR CANE	cane	anger	0.250	1290
+1463	DRUNK	intoxicated	disgust	0.594	2685
+1465	BOX	case	fear	0.094	5164
+1467	CIRCLE	circle	trust	0.430	9402
+1468	LOOK FOR	seek	anticipation	0.586	1699
+1479	DOLPHIN	dolphin	joy	0.348	6108
+1482	SHOULDER	shoulder	trust	0.336	9681
+1489	CLOUD	clouds	sadness	0.125	7707
+1490	RAT	rat	disgust	0.633	2615
+1494	DIE	die	fear	0.766	3639
+1495	HAPPY	glad	anticipation	0.536	1819
+150	WORRY	worry	anticipation	0.492	1934
+1503	SALIVA	saliva	anticipation	0.297	2294
+1506	MEASURE	measure	trust	0.516	9100
+1509	MOSQUITO	mosquito	anger	0.219	1334
+151	RAZOR	razor	fear	0.303	4855
+1517	WASP	wasp	fear	0.500	4308
+1519	RUN	run	fear	0.250	4956
+1524	WINE	wine	joy	0.125	6421
+1528	FORGIVE	forgive	trust	0.547	8944
+153	GREY	gray	disgust	0.133	3413
+1530	BOWL	mug	anger	0.467	850
+1533	BE HUNGRY	hungry	anticipation	0.547	1801
+1534	FEVER	fever	fear	0.469	4411
 1538	SCORPION	scorpion	anger	0.333	1153
-1541	CULTIVATE	cultivate	anticipation	0.508	1889
-1548	UGLY	ugly	disgust	0.648	2602
-1549	TRIBE	tribe	trust	0.586	8834
-1550	PREVENT	prevent	fear	0.125	5147
-1552	GLOOMY	gloomy	sadness	0.578	6964
-1559	MONEY	money	anger	0.074	1458
-1562	MIND	mind	disgust	0.086	3434
-1565	HEAVEN	heaven	joy	0.721	5443
-1566	GUN	rifle	anger	0.379	1057
-1572	SURPRISED	surprised	surprise	0.867	7786
-1573	SWELL	swell	trust	0.367	9622
-1581	ALLIGATOR	alligator	fear	0.727	3712
-1584	BLISTER	blister	disgust	0.594	2692
-1587	SMELL (STINK)	stink	disgust	0.516	2849
-1588	TURN	turn	disgust	0.133	3417
-1590	WAIT (FOR)	await	anticipation	0.633	1606
-1599	WORD	words	anger	0.062	1461
-1601	WEAK	weak	sadness	0.297	7544
-1603	MOSQUE	mosque	anger	0.122	1440
+1541	CULTIVATE	cultivate	anticipation	0.508	1887
+1548	UGLY	ugly	disgust	0.648	2598
+1549	TRIBE	tribe	trust	0.586	8816
+1550	PREVENT	prevent	fear	0.125	5139
+1552	GLOOMY	gloomy	sadness	0.578	6951
+1559	MONEY	money	anger	0.074	1456
+1562	MIND	mind	disgust	0.086	3428
+1565	HEAVEN	heaven	joy	0.721	5435
+1566	GUN	gun	anger	0.576	525
+1572	SURPRISED	surprised	surprise	0.867	7770
+1573	SWELL	swell	trust	0.367	9603
+1581	ALLIGATOR	alligator	fear	0.727	3705
+1584	BLISTER	blister	disgust	0.594	2688
+1587	SMELL (STINK)	stink	disgust	0.516	2845
+1588	TURN	turn	disgust	0.133	3412
+1590	WAIT (FOR)	await	anticipation	0.633	1604
+1599	WORD	words	anger	0.062	1459
+1601	WEAK	feeble	sadness	0.391	7355
+1606	INSIDE	interior	disgust	0.086	3427
 1607	HATE	hate	anger	0.828	97
-161	MISS (A TARGET)	miss	sadness	0.379	7390
-1610	PROSTITUTE	whore	disgust	0.766	2443
-1611	INVITE	invite	anticipation	0.570	1736
-1612	LETTER	letter	anticipation	0.484	1951
-1615	ESCAPE	escape	anticipation	0.625	1632
-1621	SNEEZE	sneeze	disgust	0.312	3268
-1624	EMPTY	empty	sadness	0.364	7424
-1626	EXPLAIN	explain	trust	0.398	9551
-163	BLACK	black	sadness	0.281	7556
-1635	OBEY	obey	fear	0.016	5206
-1638	TRUTH	truth	trust	0.844	8361
-1639	BEER	beer	joy	0.141	6423
-1644	RELATIVES	relative	trust	0.570	8887
-1647	FOAL	pony	joy	0.312	6175
-1650	WATCH	watch	anticipation	0.523	1853
-1654	LIGHTNING	lightning	anger	0.189	1368
-1657	TRUE	real	trust	0.641	8630
-1659	DOLL	doll	joy	0.234	6326
-1668	GRIEF	sorrow	fear	0.344	4761
-1675	PROMISE	promise	joy	0.415	6011
-1678	HUT	shelter	trust	0.578	8841
-1679	LOAD	burden	trust	0.234	9867
-168	REST	relax	joy	0.562	5693
-1680	HELMET	helmet	fear	0.094	5175
+161	MISS (A TARGET)	miss	sadness	0.379	7377
+1610	PROSTITUTE	harlot	disgust	0.562	2745
+1611	INVITE	invite	anticipation	0.570	1734
+1612	LETTER	letter	anticipation	0.484	1948
+1615	ESCAPE	escape	anticipation	0.625	1630
+1621	SNEEZE	sneeze	disgust	0.312	3264
+1624	EMPTY	empty	sadness	0.364	7411
+1626	EXPLAIN	explain	trust	0.398	9533
+1635	OBEY	obey	fear	0.016	5198
+1637	AUTHORITY	authority	trust	0.664	8533
+1638	TRUTH	truth	trust	0.844	8343
+1639	BEER	beer	joy	0.141	6412
+1644	RELATIVES	relative	trust	0.570	8869
+1647	FOAL	pony	joy	0.312	6165
+1650	WATCH	watch	anticipation	0.523	1851
+1654	LIGHTNING	lightning	anger	0.189	1367
+1657	TRUE	real	trust	0.641	8612
+1659	DOLL	doll	joy	0.234	6315
+1668	GRIEF	sorrow	fear	0.344	4753
+167	MAIL	mail	anticipation	0.461	2017
+1675	PROMISE	promise	joy	0.415	6003
+1678	HUT	shelter	trust	0.578	8823
+1679	LOAD	burden	trust	0.234	9845
+168	REST	relax	joy	0.562	5685
+1680	HELMET	helmet	fear	0.094	5167
 1682	GUILTY	guilty	anger	0.591	485
-1688	FATE	fate	anticipation	0.555	1776
-1696	SURRENDER	surrender	fear	0.500	4320
-1712	OATH	oath	trust	0.781	8384
-1718	SIXTY	sixty	joy	0.016	6474
-1719	BURY	bury	sadness	0.781	6600
-1726	WET	wet	sadness	0.078	7746
-1733	RAINBOW	rainbow	joy	0.531	5764
-1735	TEAR (SHRED)	tear	sadness	0.656	6799
-174	PROUD	proud	anticipation	0.406	2140
-1740	PINE	pine	sadness	0.250	7602
-1747	CUSTOM	custom	joy	0.188	6374
-1752	LEAVE	depart	anticipation	0.500	1913
-1753	TOP	top	anticipation	0.398	2167
-1756	WIDOW	widow	sadness	0.697	6725
-1771	TASTELESS	tasteless	disgust	0.422	3056
-1773	GRAVE	tomb	sadness	0.562	7011
+1688	FATE	fate	anticipation	0.555	1774
+1692	FRIDAY	friday	joy	0.455	5925
+1696	SURRENDER	surrender	fear	0.500	4313
+1699	SUNDAY	sunday	joy	0.266	6250
+1712	OATH	oath	trust	0.781	8366
+1718	SIXTY	sixty	joy	0.016	6462
+1719	BURY	bury	sadness	0.781	6588
+1726	WET	wet	sadness	0.078	7730
+1733	RAINBOW	rainbow	joy	0.531	5756
+1735	TEAR (SHRED)	tear	sadness	0.656	6786
+174	PROUD	proud	anticipation	0.406	2137
+1740	PINE	pine	sadness	0.250	7588
+1747	CUSTOM	custom	joy	0.188	6363
+1752	LEAVE	depart	anticipation	0.500	1910
+1753	TOP	top	anticipation	0.398	2164
+1756	WIDOW	widow	sadness	0.697	6712
+1770	CARCASS	carcass	disgust	0.795	2407
+1771	TASTELESS	tasteless	disgust	0.422	3052
+1773	GRAVE	tomb	sadness	0.562	6998
 1774	STINGY	stingy	anger	0.344	1139
-1776	SHAME	shame	disgust	0.539	2812
-1779	DARE	dare	anticipation	0.570	1738
-1780	BILE	bile	anger	0.515	698
-1783	PAIN	suffering	disgust	0.625	2638
-1787	LOOM	loom	anticipation	0.516	1863
-179	RIPEN	ripen	anticipation	0.625	1624
-1792	PERJURY	perjury	fear	0.484	4366
-1794	FURROW	furrow	sadness	0.344	7476
+1776	SHAME	shame	disgust	0.539	2808
+1779	DARE	dare	anticipation	0.570	1736
+1780	BILE	gall	anger	0.470	818
+1783	PAIN	suffering	disgust	0.625	2634
+1787	LOOM	loom	anticipation	0.516	1861
+179	RIPEN	ripen	anticipation	0.625	1622
+1792	PERJURY	perjury	fear	0.484	4359
+1794	FURROW	furrow	sadness	0.344	7463
 1796	SLAUGHTER	slaughter	anger	0.844	83
-1798	GUNPOWDER	gunpowder	fear	0.562	4157
+1798	GUNPOWDER	gunpowder	fear	0.562	4150
 1804	BOMB	bomb	anger	0.766	173
-1806	BEGIN	start	anticipation	0.750	1497
-1808	PUS	pus	disgust	0.773	2431
-1809	PIMPLE	pimple	disgust	0.641	2608
-1810	DANGER	danger	fear	0.802	3589
-1813	TASTY	delicious	joy	0.579	5669
-1815	ACHE	ache	sadness	0.531	7074
-1820	BEAR	bear	anger	0.266	1261
+1806	BEGIN	start	anticipation	0.750	1495
+1808	PUS	pus	disgust	0.773	2427
+1809	PIMPLE	pimple	disgust	0.641	2604
+1810	DANGER	danger	fear	0.802	3582
+1813	TASTY	delicious	joy	0.579	5661
+1815	ACHE	ache	sadness	0.531	7061
+1820	BEAR	bear	anger	0.266	1260
 1826	ANGRY	angry	anger	0.824	108
-1829	JUMP	jump	joy	0.379	6069
-1835	MARROW	marrow	joy	0.078	6459
-1839	CRY	weep	sadness	0.656	6793
-1841	SUSPECT	suspect	fear	0.516	4294
-1846	RULE	rule	fear	0.188	5066
-1847	SICK	ill	anger	0.333	1155
+1829	JUMP	jump	joy	0.379	6060
+1835	MARROW	marrow	joy	0.078	6447
+1839	CRY	weep	sadness	0.656	6780
+1841	SUSPECT	suspect	fear	0.516	4287
+1845	BALL	football	anticipation	0.469	2006
+1846	RULE	rule	fear	0.188	5058
+1847	SICK	ill	anger	0.333	1154
 1848	QUARREL	quarrel	anger	0.781	161
 1849	ROW	row	anger	0.337	1149
-185	FIREPLACE	fireplace	joy	0.273	6251
-1853	DOVE	dove	anticipation	0.328	2274
-1855	BIRCH	birch	anger	0.135	1433
-1857	CROCODILE	crocodile	fear	0.700	3781
-1862	DONKEY	donkey	disgust	0.211	3370
-1864	HUNGER	hunger	anger	0.235	1308
-1875	REGRET	repent	fear	0.250	4961
-1879	DANCE	dance	joy	0.545	5741
-1880	PASSIONATE	passionate	anticipation	0.633	1613
+185	FIREPLACE	fireplace	joy	0.273	6240
+1853	DOVE	dove	anticipation	0.328	2271
+1855	BIRCH	birch	anger	0.135	1432
+1857	CROCODILE	crocodile	fear	0.700	3774
+1862	DONKEY	donkey	disgust	0.211	3365
+1864	HUNGER	hunger	anger	0.235	1307
+1875	REGRET	repent	fear	0.250	4953
+1879	DANCE	dance	joy	0.545	5733
+1880	PASSIONATE	passionate	anticipation	0.633	1611
 1889	ARSON	arson	anger	0.641	373
-1890	BELIEVE	faith	anticipation	0.438	2069
-1891	PUMA	puma	fear	0.465	4440
-1893	QUAIL	quail	fear	0.203	5051
-1894	ASHAMED	ashamed	disgust	0.438	3018
-1897	HELP	help	fear	0.203	5047
+1890	BELIEVE	believes	trust	0.672	8526
+1891	PUMA	puma	fear	0.465	4433
+1893	QUAIL	quail	fear	0.203	5043
+1894	ASHAMED	ashamed	disgust	0.438	3014
+1897	HELP	help	fear	0.203	5039
 1899	MAD	insane	anger	0.621	422
-1902	BETRAY	cheat	anger	0.630	400
-1903	SWELLING	swelling	fear	0.281	4903
-1904	DROWN	drown	fear	0.844	3527
-1905	EAGLE	eagle	trust	0.453	9356
-1906	SOUR	sour	disgust	0.414	3083
-1908	ATTENTIVE	attentive	trust	0.617	8696
-1914	DEBT	debt	sadness	0.391	7369
-1930	RAVINE	ravine	fear	0.484	4368
-1932	GUESS	guess	surprise	0.398	8175
-1934	BEGGAR	beggar	sadness	0.422	7327
-1938	FORTRESS	castle	joy	0.219	6340
-1939	SWEAR	swear	trust	0.328	9713
-194	FAMILY	family	joy	0.500	5834
-1940	GUARD	guard	fear	0.250	4980
-1941	SOLDIER	soldier	anger	0.258	1277
-1947	BASTARD	bastard	disgust	0.570	2733
+1902	BETRAY	betray	anger	0.625	414
+1903	SWELLING	swelling	fear	0.281	4895
+1904	DROWN	drown	fear	0.844	3520
+1905	EAGLE	eagle	trust	0.453	9338
+1906	SOUR	sour	disgust	0.414	3079
+1908	ATTENTIVE	attentive	trust	0.617	8678
+1914	DEBT	debt	sadness	0.391	7356
+1930	RAVINE	ravine	fear	0.484	4361
+1932	GUESS	guess	surprise	0.398	8158
+1934	BEGGAR	beggar	sadness	0.422	7314
+1938	FORTRESS	castle	joy	0.219	6329
+1939	SWEAR	swear	trust	0.328	9692
+194	FAMILY	family	joy	0.500	5826
+1940	GUARD	guard	fear	0.250	4972
+1941	SOLDIER	soldier	anger	0.258	1276
+1944	GOD	god	anticipation	0.484	1954
+1947	BASTARD	bastard	disgust	0.570	2729
 1952	TORTURE	torture	anger	0.833	95
 1953	ABUSE	abuse	anger	0.812	127
-1954	GENTLE	meek	sadness	0.125	7716
-1955	GRIEVE	mourn	sadness	0.828	6552
-1963	IMMEDIATELY	immediately	anticipation	0.469	1997
-1964	ALONE	alone	sadness	0.600	6911
-1972	KID	kid	joy	0.515	5812
-1973	DEMON	devil	anger	0.719	237
-1976	MERRY	merry	joy	0.727	5429
-1981	WIDOWER	widower	sadness	0.688	6743
-1982	WHIRLPOOL	whirlpool	fear	0.375	4687
-1983	SNORE	snort	sadness	0.154	7703
-1986	DISEASE	illness	fear	0.609	4019
-1989	CALF	calf	joy	0.040	6471
-199	FAMINE	famine	sadness	0.812	6571
-1991	INTESTINES	bowels	disgust	0.719	2491
+1954	GENTLE	meek	sadness	0.125	7700
+1955	GRIEVE	mourn	sadness	0.828	6540
+1963	IMMEDIATELY	immediately	anticipation	0.469	1994
+1964	ALONE	alone	sadness	0.600	6898
+1972	YOUNG GOAT (KID)	kid	joy	0.515	5804
+1973	DEMON	demon	anger	0.735	213
+1976	MERRY	merry	joy	0.727	5421
+1981	WIDOWER	widower	sadness	0.688	6730
+1982	WHIRLPOOL	whirlpool	fear	0.375	4680
+1983	SNORE	snort	sadness	0.154	7688
+1986	DISEASE	illness	fear	0.609	4012
+1989	CALF	calf	joy	0.040	6459
+199	FAMINE	famine	sadness	0.812	6559
+1991	INTESTINES	bowels	disgust	0.719	2487
 1995	DEFECT	defect	anger	0.348	1114
-1999	OVERCOME	overcome	fear	0.203	5056
-2006	FILL	fill	trust	0.320	9721
-2008	RESCUE	rescue	anticipation	0.664	1564
-201	FARM	farm	anticipation	0.352	2249
-2011	COFFIN	coffin	fear	0.684	3813
-2013	BAIT	bait	fear	0.219	5023
+1999	OVERCOME	overcome	fear	0.203	5048
+2006	FILL	fill	trust	0.320	9700
+2008	RESCUE	save	joy	0.200	6352
+201	FARM	farm	anticipation	0.352	2246
+2011	COFFIN	coffin	fear	0.684	3806
+2013	BAIT	bait	fear	0.219	5015
 2016	JEALOUSY	jealousy	anger	0.587	495
-2018	GREEDY	greedy	disgust	0.539	2804
-2019	HAMMOCK	hammock	joy	0.394	6043
-202	STRENGTH	strength	joy	0.438	5976
-2022	ADMIT	admit	trust	0.562	8920
-203	MARRY	marry	anticipation	0.594	1682
-2035	POND	pond	joy	0.089	6457
-2038	DRAGON	dragon	fear	0.594	4052
-2057	DUNG (ANIMAL FAECES)	manure	disgust	0.820	2388
-206	FIREFLY	firefly	joy	0.227	6329
-2069	SOAK (VERB)	soak	joy	0.121	6440
+2018	GREEDY	greedy	disgust	0.539	2800
+2019	HAMMOCK	hammock	joy	0.394	6034
+202	STRENGTH	strength	joy	0.438	5968
+2022	ADMIT	admit	trust	0.562	8902
+203	MARRY	marry	anticipation	0.594	1680
+2035	POND	pond	joy	0.089	6445
+2038	DRAGON	dragon	fear	0.594	4045
+2057	DUNG (ANIMAL FAECES)	manure	disgust	0.820	2384
+206	FIREFLY	firefly	joy	0.227	6318
+2069	SOAK (VERB)	soak	joy	0.121	6429
 2073	ROB (VERB)	rob	anger	0.431	918
-2076	SPROUT (VERB)	bloom	anticipation	0.617	1640
-208	NASAL MUCUS (SNOT)	mucus	disgust	0.742	2462
-2090	MY	mine	joy	0.297	6211
-2099	CHILD	child	anticipation	0.523	1845
-210	LIFE	life	joy	0.438	5971
-2101	BE DEAD OR DIE	died	sadness	0.906	6494
-2112	OLD (AGED)	elder	trust	0.656	8582
-2117	DESIRE	desire	joy	0.484	5881
-2124	SMELL	smell	anger	0.061	1462
-2137	MAGICIAN	magician	surprise	0.484	8095
-2150	MATTER	matters	trust	0.445	9371
-2159	GROUND	ground	trust	0.398	9549
-219	TOILET	lavatory	disgust	0.586	2708
-2190	TASTE	savor	anticipation	0.375	2213
-2192	REJOICE	rejoice	anticipation	0.562	1757
-220	INTACT	intact	trust	0.508	9136
-2200	SNOUT	muzzle	fear	0.312	4855
+208	NASAL MUCUS (SNOT)	mucus	disgust	0.742	2458
+2090	MY	mine	joy	0.297	6201
+2099	CHILD	child	anticipation	0.523	1843
+210	LIFE	life	joy	0.438	5963
+2101	BE DEAD OR DIE	died	sadness	0.906	6482
+2112	OLD (AGED)	elder	trust	0.656	8564
+2124	SMELL	smell	anger	0.061	1460
+2137	MAGICIAN	magician	surprise	0.484	8078
+215	LIE DOWN	lying	anger	0.408	992
+2150	MATTER	matters	trust	0.445	9353
+2159	GROUND	ground	trust	0.398	9531
+219	TOILET	lavatory	disgust	0.586	2704
+2190	TASTE	savor	anticipation	0.375	2210
+2192	REJOICE	rejoice	anticipation	0.562	1755
+220	INTACT	intact	trust	0.508	9118
+2200	SNOUT	muzzle	fear	0.312	4847
 2203	RABID	rabid	anger	0.833	94
-221	FIRE	fire	fear	0.636	3945
-2218	EXPERIENCED	experienced	trust	0.602	8743
-2219	LEAN (MEAT)	lean	trust	0.383	9587
-2230	UNTAMED OR WILD	wild	surprise	0.586	7982
-2233	LOVELY	lovely	anticipation	0.555	1777
-2252	PATH	path	trust	0.484	9234
-2259	FLESH	flesh	disgust	0.352	3208
-2287	HORIZON	horizon	anticipation	0.508	1892
-2291	VOLCANO	volcano	fear	0.663	3861
-2295	SUNSET	sunset	anticipation	0.453	2037
-2296	SUNRISE	sunrise	joy	0.600	5640
-2298	VIRGIN	virgin	trust	0.508	9137
-2316	FREE	free	joy	0.544	5748
-232	FLEA	flea	disgust	0.578	2722
+221	FIRE	fire	fear	0.636	3938
+2218	EXPERIENCED	experienced	trust	0.602	8725
+2219	LEAN (MEAT)	lean	trust	0.383	9568
+2230	UNTAMED OR WILD	wild	surprise	0.586	7965
+2233	LOVELY	lovely	anticipation	0.555	1775
+2252	PATH	path	trust	0.484	9216
+2259	FLESH	flesh	disgust	0.352	3204
+2287	HORIZON	horizon	anticipation	0.508	1890
+2291	VOLCANO	volcano	fear	0.663	3854
+2295	SUNSET	sunset	anticipation	0.453	2034
+2296	SUNRISE	sunrise	joy	0.600	5632
+2298	VIRGIN	virgin	trust	0.508	9119
+2316	FREE	free	joy	0.544	5740
+232	FLEA	flea	disgust	0.578	2718
 2321	MAD PERSON	lunatic	anger	0.688	289
-234	PADDLE	paddle	anticipation	0.320	2280
-2340	SUNNY	sunny	anticipation	0.500	1905
-2341	CLOUDY	overcast	sadness	0.375	7404
-2362	BRAN	bran	disgust	0.125	3422
-2363	CHAFF (HUSK)	chaff	anger	0.312	1196
-2367	MANDARINE	mandarin	trust	0.297	9766
-2374	DREAM	dream	joy	0.484	5893
-239	FLOWER	flowers	joy	0.406	6030
-2393	JOURNEY	journey	anticipation	0.711	1520
-24	PRAY	pray	anticipation	0.547	1799
-2406	HOME	home	joy	0.559	5714
-2407	BIRTHDAY	birthday	anticipation	0.633	1610
-2410	GOOD-LOOKING	pretty	anticipation	0.414	2118
+234	PADDLE	paddle	anticipation	0.320	2277
+2340	SUNNY	sunny	anticipation	0.500	1903
+2341	CLOUDY	overcast	sadness	0.375	7391
+2362	BRAN	bran	disgust	0.125	3417
+2363	CHAFF (HUSK)	chaff	anger	0.312	1195
+2367	MANDARINE	mandarin	trust	0.297	9744
+2374	DREAM	dream	joy	0.484	5885
+239	FLOWER	flowers	joy	0.406	6022
+2393	JOURNEY	journey	anticipation	0.711	1518
+24	PRAY	pray	anticipation	0.547	1797
+2405	CHRISTMAS	christmas	joy	0.609	5613
+2406	HOME	home	joy	0.559	5706
+2407	BIRTHDAY	birthday	anticipation	0.633	1608
+2410	GOOD-LOOKING	pretty	anticipation	0.414	2115
 2411	HURT (SOMEBODY)	hurt	anger	0.561	572
-2425	PROBLEM	problem	fear	0.266	4929
+2425	PROBLEM	problem	fear	0.266	4921
 2431	REVOLUTION	revolution	anger	0.606	454
-2432	MARRIAGE	marriage	anticipation	0.656	1575
-2433	THEORY	theory	anticipation	0.359	2233
-2434	TRAGEDY	tragedy	fear	0.859	3503
-2435	UNIVERSITY	university	anticipation	0.406	2156
-2449	FAT (OF MEAT AND FOOD)	fatty	disgust	0.539	2807
-2458	PERSPIRE OR SWEAT	sweat	fear	0.219	5026
+2432	MARRIAGE	marriage	anticipation	0.656	1573
+2433	THEORY	theory	anticipation	0.359	2230
+2434	TRAGEDY	tragedy	fear	0.859	3496
+2435	UNIVERSITY	university	anticipation	0.406	2153
+2446	SLOTH	sloth	disgust	0.539	2797
+2449	FAT (OF MEAT AND FOOD)	fatty	disgust	0.539	2803
 2465	DISGUST	disgust	anger	0.602	464
-2466	WEIGHT	weight	anticipation	0.258	2328
-248	HAPPEN	happen	anticipation	0.484	1955
-2482	TOGETHER	together	joy	0.394	6046
-2486	HIDE	hiding	fear	0.524	4268
-2489	ABACUS	abacus	trust	0.406	9525
-2493	BOIL	boil	disgust	0.492	2912
-2498	OPIUM	opium	anger	0.180	1380
-25	DIRT	dirt	disgust	0.500	2890
+2466	WEIGHT	weight	anticipation	0.258	2325
+248	HAPPEN	happen	anticipation	0.484	1952
+2482	TOGETHER	together	joy	0.394	6037
+2486	HIDE	hiding	fear	0.524	4261
+2489	ABACUS	abacus	trust	0.406	9507
+2493	BOIL	boil	disgust	0.492	2908
+2498	OPIUM	opium	anger	0.180	1379
+25	DIRT	filth	disgust	0.859	2358
 2507	DISGUSTING	disgusting	anger	0.636	391
-2509	EXCHANGE	exchange	trust	0.453	9351
-251	SHARPEN (SOMETHING)	sharpen	anger	0.288	1230
-2514	SPOUSE	spouse	joy	0.507	5824
-252	FRIGHTEN	frighten	fear	0.828	3547
-2521	FEELING (HAPTIC SENSE)	feeling	anger	0.147	1418
-2522	SCREAMING	scream	anger	0.719	238
-2524	JOY	pleasure	joy	0.803	5327
-2530	SMART	intelligent	trust	0.672	8543
-2534	DEPTH	depth	trust	0.484	9237
-2541	MIRACLE	miracle	anticipation	0.633	1615
-2544	SHEPHERD	shepherd	joy	0.058	6468
-255	SERVANT	servant	trust	0.344	9685
-256	FOOD	food	joy	0.258	6277
-2562	SEX (GENDER)	sex	anticipation	0.695	1547
-2565	CASTRATED BOAR	barrow	disgust	0.258	3329
+2509	EXCHANGE	exchange	trust	0.453	9333
+251	SHARPEN (SOMETHING)	sharpen	anger	0.288	1229
+2514	SPOUSE	spouse	joy	0.507	5816
+2518	HEARING (AURAL SENSE)	hearing	fear	0.156	5104
+252	FRIGHTEN	frighten	fear	0.828	3540
+2521	FEELING (HAPTIC SENSE)	feeling	anger	0.147	1417
+2524	JOY	joy	joy	0.924	5211
+2530	SMART	intelligent	trust	0.672	8525
+2532	TORNADO	tornado	fear	0.734	3701
+2534	DEPTH	depth	trust	0.484	9219
+2541	MIRACLE	miracle	anticipation	0.633	1613
+2544	SHEPHERD	shepherd	joy	0.058	6456
+255	SERVANT	servant	trust	0.344	9665
+2553	MISERY	misery	anger	0.547	610
+256	FOOD	food	joy	0.258	6266
+2562	SEX (GENDER)	sex	anticipation	0.695	1545
+2565	CASTRATED BOAR	barrow	disgust	0.258	3324
 2569	BUTCHER	butcher	anger	0.578	509
-257	WORSHIP	worship	anticipation	0.422	2101
-258	CALM	calm	joy	0.394	6041
-2581	OCTOPUS	octopus	disgust	0.258	3323
-2587	DARTS	dart	fear	0.359	4706
-26	UNPLEASANT	unpleasant	disgust	0.477	2947
-2604	NOOSE	noose	sadness	0.391	7367
-2606	COMPASS	compass	trust	0.570	8865
-2628	PLANT STEM	stalk	fear	0.531	4260
+257	WORSHIP	worship	anticipation	0.422	2098
+258	CALM	calm	joy	0.394	6032
+2581	OCTOPUS	octopus	disgust	0.258	3318
+2587	DARTS	dart	fear	0.359	4699
+26	UNPLEASANT	unpleasant	disgust	0.477	2943
+2604	NOOSE	noose	sadness	0.391	7354
+2606	COMPASS	compass	trust	0.570	8847
+2628	PLANT STEM	stalk	fear	0.531	4253
 2630	WHIP	whip	anger	0.531	659
-2640	LARVA	maggot	disgust	0.844	2371
-2651	BE IGNORANT	ignorant	disgust	0.406	3088
-2665	WART	wart	disgust	0.695	2534
-2704	FADE (LOOSE COLOR)	fade	trust	0.359	9653
-2709	FLATTER	flatter	trust	0.297	9763
+2640	LARVA	maggot	disgust	0.844	2367
+2651	BE IGNORANT	ignorant	disgust	0.406	3084
+2665	WART	wart	disgust	0.695	2530
+2691	PATERNAL AUNT (FATHER'S SISTER)	satisfy	joy	0.656	5531
+2704	FADE (LOOSE COLOR)	fade	trust	0.359	9633
+2709	FLATTER	flatter	trust	0.297	9741
 2715	DESPISE	despise	anger	0.750	196
-2758	CAREFUL	cautious	anticipation	0.469	1998
-2805	BIRTH (ACCOUCHEMENT)	birth	anticipation	0.734	1507
+2758	CAREFUL	cautious	anticipation	0.469	1995
+2759	RECOMMEND	recommend	trust	0.609	8716
+2762	BLOCK (THE WAY)	obstruct	anger	0.500	722
+2805	BIRTH (ACCOUCHEMENT)	birth	anticipation	0.734	1505
+2806	BLACK MAN	negro	sadness	0.281	7543
 2821	JEALOUS	jealous	anger	0.470	810
 285	THRESH	thresh	anger	0.484	790
-2860	BOLT (MOVE IN HASTE)	rush	fear	0.281	4899
-2865	DIE (FROM ACCIDENT)	perish	fear	0.784	3615
-2872	IMPROVE (SOMETHING)	improve	anticipation	0.453	2047
-2876	ROAR (OF SEA)	roar	anger	0.515	699
+2860	BOLT (MOVE IN HASTE)	rush	fear	0.281	4891
+2865	DIE (FROM ACCIDENT)	perish	fear	0.784	3608
+2872	IMPROVE (SOMETHING)	improve	anticipation	0.453	2044
+2889	TWINKLE	sparkle	anticipation	0.484	1957
 2892	MAKE ANGRY (ANNOY)	annoy	anger	0.520	678
 29	GELD	castrate	anger	0.727	229
 2902	BRAWL (FIGHT)	brawl	anger	0.861	59
-2907	ROT	decay	fear	0.557	4177
-2909	PREPARE	prepare	anticipation	0.633	1618
-2911	BACKWARD	backwards	disgust	0.297	3291
-2920	SUDDENLY	suddenly	surprise	0.828	7801
-2932	COLD (CHILL)	chill	joy	0.281	6246
-2936	ELEVATION	elevation	anticipation	0.508	1886
-2940	GATE	gate	trust	0.414	9491
-2941	HAPPINESS	happiness	anticipation	0.641	1598
-2946	CRADLE	cradle	anticipation	0.375	2218
+2907	ROT	decay	fear	0.557	4170
+2909	PREPARE	prepare	anticipation	0.633	1616
+2911	BACKWARD	backwards	disgust	0.297	3287
+2920	SUDDENLY	suddenly	surprise	0.828	7785
+2932	COLD (CHILL)	chill	joy	0.281	6235
+2936	ELEVATION	elevation	anticipation	0.508	1884
+2940	GATE	gate	trust	0.414	9473
+2941	HAPPINESS	happiness	anticipation	0.641	1596
+2946	CRADLE	cradle	anticipation	0.375	2215
 2947	DAMAGE (INJURY)	injury	anger	0.469	828
-2957	WARE	ware	fear	0.198	5059
-2958	LAUGHTER	laughter	anticipation	0.422	2116
-296	CROUCH	crouch	fear	0.266	4943
-2969	RIBBON	ribbon	anger	0.047	1471
-2970	RIDDLE	riddle	surprise	0.422	8155
+2957	WARE	ware	fear	0.198	5051
+2958	LAUGHTER	laughter	anticipation	0.422	2113
+296	CROUCH	crouch	fear	0.266	4935
+2960	LONGING (WISH)	desire	joy	0.484	5873
+2969	RIBBON	ribbon	anger	0.047	1469
+2970	RIDDLE	riddle	surprise	0.422	8138
 2971	SIN	sin	anger	0.547	597
-2974	SWARM (OF BIRDS)	swarm	disgust	0.422	3053
-2975	THOUGHT	thought	anticipation	0.414	2133
+2974	SWARM (OF BIRDS)	swarm	disgust	0.422	3049
+2975	THOUGHT	thought	anticipation	0.414	2130
 2976	VIOLENCE	violence	anger	0.742	203
-298	SHRIEK	shriek	anger	0.316	1189
-2982	GIFT	present	anticipation	0.516	1875
+298	SHRIEK	shriek	anger	0.316	1188
+2982	GIFT	present	anticipation	0.516	1873
 299	SCOLD	scold	anger	0.515	705
-2993	STROKE (OF PEN)	stroke	fear	0.656	3873
-2996	WEALTH	wealth	joy	0.422	6006
-3	BRAVE	courageous	fear	0.154	5119
+2993	STROKE (OF PEN)	stroke	fear	0.656	3866
+2996	WEALTH	wealth	joy	0.422	5998
+3	BRAVE	courageous	fear	0.154	5111
 3001	POWERFUL	powerful	anger	0.424	935
-3002	PRECIOUS	precious	anticipation	0.516	1871
-3005	FAMILIAR	familiar	trust	0.656	8581
-302	CLAN	clan	trust	0.398	9532
-3033	SCARED	scared	fear	0.734	3700
-3044	BOVINE	bovine	disgust	0.422	3066
-3049	COURAGE	courage	trust	0.695	8486
-3059	MALARIA	malaria	disgust	0.781	2427
-3061	PHLEGM	phlegm	disgust	0.758	2453
-3064	RUST	stain	disgust	0.484	2919
+3002	PRECIOUS	precious	anticipation	0.516	1869
+3005	FAMILIAR	familiar	trust	0.656	8563
+302	CLAN	clan	trust	0.398	9514
+3033	SCARED	scared	fear	0.734	3693
+3044	BOVINE	bovine	disgust	0.422	3062
+3049	COURAGE	courage	trust	0.695	8468
+3055	SWINDLE	cheat	anger	0.630	400
+3059	MALARIA	malaria	disgust	0.781	2423
+3061	PHLEGM	phlegm	disgust	0.758	2449
+3064	RUST	stain	disgust	0.484	2915
 3069	FALSE	fraud	anger	0.394	1029
-307	HAWK	kite	disgust	0.055	3438
-3072	MISPLACE	lose	anger	0.261	1272
-3073	MANAGE	manage	trust	0.461	9310
-3091	LEMON	lemon	disgust	0.109	3430
-3099	SOFA	couch	sadness	0.060	7757
-3104	THERMOMETER	thermometer	trust	0.305	9755
-3110	CLAP	clap	anticipation	0.430	2092
+307	HAWK	kite	disgust	0.055	3432
+3072	MISPLACE	lose	anger	0.261	1271
+3073	MANAGE	manage	trust	0.461	9292
+3091	LEMON	lemon	disgust	0.109	3424
+3099	SOFA	couch	sadness	0.060	7741
+3104	THERMOMETER	thermometer	trust	0.305	9733
+3110	CLAP	clap	anticipation	0.430	2089
 3112	ERUPT	erupt	anger	0.742	202
-3119	MASSAGE (SOMEBODY)	massage	joy	0.470	5903
-3153	LORD	lord	disgust	0.125	3423
-318	FOOTPRINT	track	anticipation	0.375	2217
-319	LICK	lick	disgust	0.398	3119
-3197	SUSPICION	suspicion	fear	0.391	4627
-3200	COUNTRYSIDE	countryside	joy	0.250	6292
+3119	MASSAGE (SOMEBODY)	massage	joy	0.470	5895
+3153	LORD	lord	disgust	0.125	3418
+3160	SLAP	slap	anger	0.791	146
+3167	SERMON	sermon	trust	0.477	9252
+3176	RACK (FOR STORING FOOD)	rack	sadness	0.188	7660
+318	FOOTPRINT	track	anticipation	0.375	2214
+3188	MIGHTY OR POWERFUL OR STRONG	mighty	anger	0.172	1386
+319	LICK	lick	disgust	0.398	3115
+3197	SUSPICION	suspicion	fear	0.391	4620
+3200	COUNTRYSIDE	countryside	joy	0.250	6281
 3202	CANNON	cannon	anger	0.375	1071
 3204	INSULT	insult	anger	0.603	461
-3213	HIRE OR RENT	hire	anticipation	0.469	2012
-323	FAT (ORGANIC SUBSTANCE)	fat	disgust	0.617	2655
+3213	HIRE OR RENT	hire	anticipation	0.469	2009
+3224	WRING	wring	anger	0.415	966
+323	FAT (ORGANIC SUBSTANCE)	fat	disgust	0.617	2651
 3230	DECEIVE	deceive	anger	0.547	601
-3231	DEITY	god	anticipation	0.484	1957
-326	CLOAK	cloak	fear	0.266	4939
-3274	ENCIRCLE	surround	anticipation	0.445	2062
-3276	SUNSHINE	sunshine	joy	0.551	5721
-3283	CAGE	cage	sadness	0.391	7385
-3284	GRAVEYARD	cemetery	fear	0.541	4219
-3288	WEED	weeds	sadness	0.156	7699
-3299	KIND	kind	joy	0.621	5602
+326	CLOAK	cloak	fear	0.266	4931
+3274	ENCIRCLE	surround	anticipation	0.445	2059
+3276	SUNSHINE	sunshine	joy	0.551	5713
+3282	GROOM	bridegroom	anticipation	0.656	1566
+3283	CAGE	cage	sadness	0.391	7372
+3284	GRAVEYARD	cemetery	fear	0.541	4212
+3287	BLOOM	blossom	joy	0.530	5769
+3288	WEED	weeds	sadness	0.156	7684
+3299	KIND	kind	joy	0.621	5594
 33	NETTLE	nettle	anger	0.422	954
 3302	QUARREL (VERB)	argue	anger	0.734	214
-3320	SNARE (TRAP)	snare	fear	0.391	4624
-3327	AUTUMN OR HARVEST SEASON	harvest	anticipation	0.578	1714
-3336	FUNERAL	funeral	sadness	0.844	6523
-3357	CUPBOARD	cabinet	trust	0.438	9410
-3361	OFFICIAL	official	trust	0.680	8528
-3375	PATIENT (SICK PERSON)	patient	anticipation	0.328	2269
-3376	ROBBER	robber	disgust	0.492	2910
-3389	MEASLES	measles	disgust	0.696	2528
-3401	HENHOUSE	coop	anger	0.156	1407
-3403	HORSE BARN	stable	trust	0.750	8412
-345	SAP	sap	sadness	0.172	7685
-3455	COMMEND	praise	joy	0.578	5671
-3458	SILENCE	silence	joy	0.127	6431
-3460	BEACH	beach	joy	0.500	5849
-3466	DANGEROUS	dangerous	fear	0.750	3658
-3468	KINDNESS	kindness	joy	0.606	5633
-3469	LEVEL	level	trust	0.453	9353
-3470	LIAR	liar	disgust	0.539	2798
-352	UNTIE	untie	joy	0.109	6443
+3320	SNARE (TRAP)	snare	fear	0.391	4617
+3327	AUTUMN OR HARVEST SEASON	harvest	anticipation	0.578	1712
+3336	FUNERAL	funeral	sadness	0.844	6511
+3356	INCENSE	incense	anger	0.656	352
+3357	CUPBOARD	cabinet	trust	0.438	9392
+3361	OFFICIAL	official	trust	0.680	8510
+3375	PATIENT (SICK PERSON)	patient	anticipation	0.328	2266
+3376	ROBBER	robber	disgust	0.492	2906
+3389	MEASLES	measles	disgust	0.696	2524
+3401	HENHOUSE	coop	anger	0.156	1406
+3403	HORSE BARN	stable	trust	0.750	8394
+345	SAP	sap	sadness	0.172	7670
+3455	COMMEND	praise	joy	0.578	5663
+3458	SILENCE	silence	joy	0.127	6420
+3460	BEACH	beach	joy	0.500	5841
+3466	DANGEROUS	dangerous	fear	0.750	3651
+3468	KINDNESS	kindness	joy	0.606	5625
+3469	LEVEL	level	trust	0.453	9335
+3470	LIAR	liar	disgust	0.539	2794
+352	UNTIE	untie	joy	0.109	6432
 353	STRIKE	strike	anger	0.721	230
-3534	BEG	beg	sadness	0.484	7164
+3534	BEG	beg	sadness	0.484	7151
+3535	BE DEFEATED	defeated	sadness	0.750	6613
 354	POUND	pound	anger	0.481	804
-355	CUT DOWN	fell	sadness	0.453	7247
-3554	GOODBYE	farewell	sadness	0.438	7288
+355	CUT DOWN	fell	sadness	0.453	7234
+3554	GOODBYE	farewell	sadness	0.438	7275
 3608	WARRIOR	warrior	anger	0.364	1083
-3621	DISABLED PERSON	cripple	fear	0.703	3776
-3624	LEPROSY	leprosy	disgust	0.773	2435
-3628	HONOR (SOMEBODY)	honor	trust	0.844	8362
-3630	PLAN	plan	anticipation	0.570	1737
-3632	GENEROUS	generous	joy	0.609	5619
-3633	CURIOUS	curious	anticipation	0.633	1607
-3639	AVOID	avoid	disgust	0.188	3391
+3621	DISABLED PERSON	cripple	fear	0.703	3769
+3624	LEPROSY	leprosy	disgust	0.773	2431
+3628	HONOR (SOMEBODY)	honor	trust	0.844	8344
+3630	PLAN	plan	anticipation	0.570	1735
+3632	GENEROUS	generous	joy	0.609	5611
+3633	CURIOUS	curious	anticipation	0.633	1605
+3639	AVOID	avoid	disgust	0.188	3386
 3642	COMPLAIN	complain	anger	0.469	827
-3644	AGREEMENT	agreement	trust	0.727	8436
-3645	PERSUADE	persuade	trust	0.430	9425
-3647	TICKLE (SOMEBODY)	tickle	anticipation	0.438	2077
-3648	SERVE (SOMEONE)	serve	trust	0.414	9510
-3649	PUNISH	punish	fear	0.531	4240
-365	SPLASH	splash	surprise	0.609	7956
+3644	AGREEMENT	agreement	trust	0.727	8418
+3645	PERSUADE	persuade	trust	0.430	9407
+3647	TICKLE (SOMEBODY)	tickle	anticipation	0.438	2074
+3648	SERVE (SOMEONE)	serve	trust	0.414	9492
+3649	PUNISH	punish	fear	0.531	4233
+365	SPLASH	splash	surprise	0.609	7940
 3658	BELLOWS	bellows	anger	0.562	568
-3665	TRAVEL	travel	joy	0.409	6020
-3667	LOST	lost	sadness	0.625	6847
+3665	TRAVEL	travel	joy	0.409	6012
+3667	LOST	lost	sadness	0.625	6834
 3670	PLUNDER	plunder	anger	0.469	822
-3673	MOURNING	mourning	sadness	0.969	6476
+3673	MOURNING	mourning	sadness	0.969	6464
 3679	GROWL	growl	anger	0.652	358
-3685	HISS	hiss	anger	0.328	1162
-3687	DESERT	desert	anger	0.206	1347
-3689	BUBBLE	bubble	joy	0.141	6420
-370	BARTER	barter	trust	0.398	9539
-3701	HOLLOW	hollow	sadness	0.234	7637
-3702	SLIPPERY	slippery	fear	0.181	5083
-3703	STICKY	sticky	disgust	0.438	3020
-3709	BRILLIANT	brilliant	anticipation	0.461	2026
+3685	HISS	hiss	anger	0.328	1161
+3687	DESERT	desert	anger	0.206	1346
+3689	BUBBLE	bubble	joy	0.141	6409
+370	BARTER	barter	trust	0.398	9521
+3701	HOLLOW	hollow	sadness	0.234	7622
+3702	SLIPPERY	slippery	fear	0.181	5075
+3703	STICKY	sticky	disgust	0.438	3016
+3709	BRILLIANT	brilliant	anticipation	0.461	2023
 3717	BADGER	badger	anger	0.406	993
-3740	WHIRLWIND	whirlwind	fear	0.312	4845
-3759	FOGGY	foggy	sadness	0.234	7634
-3761	EMOTIONAL	emotional	sadness	0.438	7297
-3762	SAFE	safe	joy	0.422	6003
-379	BLUNT	dull	sadness	0.297	7543
-380	WRINKLED	wrinkled	sadness	0.297	7542
+3740	WHIRLWIND	whirlwind	fear	0.312	4837
+3759	FOGGY	foggy	sadness	0.234	7619
+3761	EMOTIONAL	emotional	sadness	0.438	7284
+3762	SAFE	safe	joy	0.422	5995
+379	BLUNT	dull	sadness	0.297	7530
+380	WRINKLED	wrinkled	sadness	0.297	7529
+3801	DATE (FRUIT)	date	joy	0.344	6120
+3808	JUNGLE	jungle	fear	0.219	5020
+3809	SCREAM (PRODUCE A CRY)	scream	anger	0.719	238
 381	BLAME	blame	anger	0.484	792
-382	GOVERN	govern	trust	0.547	8987
-385	RESPECT (SOMEBODY)	respect	anticipation	0.438	2074
-391	BLESS	bless	anticipation	0.492	1936
-392	MAGIC	witchcraft	anger	0.333	1151
-395	PILL	pill	trust	0.312	9742
-40	ENVY	envy	trust	0.219	9876
-42	STINKING	stinking	disgust	0.742	2458
-420	FOREST	jungle	fear	0.219	5028
-43	LEAD (GUIDE)	guide	trust	0.570	8873
-446	LOWER ARM	forearm	anger	0.156	1404
-45	EVIL	wicked	fear	0.625	3985
-477	LATE	late	sadness	0.125	7726
-479	GROW	grow	anticipation	0.555	1782
+3812	COWARDLY	cowardly	fear	0.531	4234
+3813	DISOBEDIENT	disobedient	anger	0.485	780
+382	GOVERN	govern	trust	0.547	8969
+3844	CONTEMPT	contempt	anger	0.672	315
+3845	DISAPPOINTMENT	disappointment	disgust	0.297	3281
+3846	EXCITEMENT	excitement	anticipation	0.820	1484
+3848	SURPRISE (FEELING)	surprise	fear	0.172	5086
+3849	TRIUMPH	triumph	anticipation	0.664	1563
+385	RESPECT (SOMEBODY)	respect	anticipation	0.438	2071
+3854	SADNESS	sadness	sadness	0.864	6497
+3859	MIDWIFE	midwife	anticipation	0.406	2146
+3866	ABORTION	abortion	disgust	0.656	2587
+3869	ANXIOUS	anxious	anticipation	0.641	1602
+3871	MURDERER	assassin	anger	0.703	269
+3873	CHOCOLATE	chocolate	anticipation	0.516	1864
+3875	CRIMINAL	criminal	anger	0.714	253
+3876	DENTIST	dentist	fear	0.312	4845
+3877	DEPRESSION	depression	fear	0.508	4305
+3878	DIAMOND	diamond	joy	0.500	5829
+3881	PISTOL	rifle	anger	0.379	1057
+3883	NOISY	noisy	anger	0.250	1286
+3885	IMPATIENT	impatient	anticipation	0.586	1688
+3886	TARANTULA	tarantula	fear	0.672	3841
+3896	ROAR	roar	anger	0.515	699
+3897	NATURE	nature	joy	0.500	5820
+390	PUNISHMENT	punishment	anger	0.547	603
+3902	TRUST (SOMEBODY)	trust	anticipation	0.391	2187
+3903	SYMPATHIZE	sympathize	sadness	0.438	7264
+391	BLESS	bless	anticipation	0.492	1933
+3915	PRIDE	pride	joy	0.516	5782
+3916	PLEASURE	pleasure	joy	0.803	5319
+3917	DEVIL	devil	anger	0.719	237
+392	MAGIC	sorcery	anticipation	0.547	1784
+395	PILL	pill	trust	0.312	9720
+3953	CHARITY	charity	joy	0.406	6016
+3954	FRIENDSHIP	friendship	joy	0.591	5647
+3955	HOSTILITY	hostility	anger	0.859	66
+3956	DISPUTE	dispute	anger	0.531	655
+3957	SYSTEM	system	trust	0.406	9510
+3959	RELATIONSHIP	relationship	joy	0.514	5814
+3961	TEAM	team	trust	0.664	8532
+3962	DISCIPLINE	discipline	fear	0.344	4762
+3963	SCENERY	scenery	joy	0.453	5947
+3964	SPLENDOR	splendor	anticipation	0.555	1767
+3965	TRAUMA	trauma	fear	0.828	3549
+3967	CONTENT	content	joy	0.688	5494
+3969	RESULT	result	anticipation	0.594	1674
+3972	EXCITED	excited	anticipation	0.859	1482
+3973	DEPRESSED	depressed	anger	0.297	1215
+3974	UNHAPPY	unhappy	anger	0.364	1087
+3975	NERVOUS	nervous	anticipation	0.602	1658
+3976	EXPLODE	explode	anger	0.859	63
+3978	COMPANION	companion	joy	0.406	6021
+40	ENVY	envy	trust	0.219	9854
+42	STINKING	stinking	disgust	0.742	2454
+420	FOREST	woods	joy	0.312	6174
+43	LEAD (GUIDE)	guide	trust	0.570	8855
+44	INJURE	harm	fear	0.719	3724
+446	LOWER ARM	forearm	anger	0.156	1403
+45	EVIL	wicked	fear	0.625	3978
+477	LATE	late	sadness	0.125	7710
+479	GROW	grow	anticipation	0.555	1780
+482	NOBLE	noble	trust	0.648	8575
 484	CONDEMN	condemn	anger	0.825	104
-485	DISAPPEAR	disappear	fear	0.422	4552
-487	SHY	shy	fear	0.140	5137
-491	CENTER	center	trust	0.531	9044
-494	FLIRT	flirt	anticipation	0.586	1697
+485	DISAPPEAR	disappear	fear	0.422	4545
+487	SHY	timid	fear	0.359	4724
+491	CENTER	center	trust	0.531	9026
+494	FLIRT	flirt	anticipation	0.586	1695
 495	REVENGE	revenge	anger	0.738	208
 497	SCAR	scar	anger	0.422	955
 500	CRUEL	cruel	anger	0.758	185
 51	SORE	sore	anger	0.379	1048
-52	SHIVER	quiver	fear	0.469	4409
+52	SHIVER	shiver	anger	0.281	1243
 526	HOWL	howl	anger	0.394	1034
-528	DREADFUL	fearful	fear	0.766	3635
-53	SPIRIT	spirit	joy	0.515	5804
-539	NEST	nest	trust	0.398	9554
-56	BAD LUCK	misfortune	fear	0.562	4158
-569	SPOIL (BECOME SPOILED)	rot	disgust	0.891	2355
+528	DREADFUL	dreadful	anger	0.562	552
+53	SPIRIT	spirit	joy	0.515	5796
+539	NEST	nest	trust	0.398	9536
+54	SHRINK	shrink	fear	0.234	4979
+557	OFFEND	offend	anger	0.750	193
+56	BAD LUCK	misfortune	fear	0.562	4151
+569	SPOIL (BECOME SPOILED)	rot	disgust	0.891	2351
 571	STING	sting	anger	0.544	633
-578	KISS	kiss	anticipation	0.711	1521
+578	KISS	kiss	anticipation	0.711	1519
 579	BATTLE	battle	anger	0.697	282
-584	DIFFICULT	difficult	fear	0.359	4707
-586	GARDEN	garden	joy	0.333	6152
+584	DIFFICULT	difficult	fear	0.359	4700
+586	GARDEN	garden	joy	0.333	6142
 588	BROKEN	broken	anger	0.359	1096
-597	PHYSICIAN	physician	trust	0.633	8654
-598	SHELL	shell	anger	0.234	1310
+597	PHYSICIAN	physician	trust	0.633	8636
+598	SHELL	shell	anger	0.234	1309
 6	EARTHQUAKE	earthquake	anger	0.391	1039
-600	STRANGE	strange	surprise	0.477	8108
-602	HIDE (CONCEAL)	conceal	sadness	0.311	7526
-609	HAIL	hail	trust	0.430	9447
-613	HIGH TIDE	flood	fear	0.547	4183
-615	HORSE	horse	trust	0.391	9577
-616	HOSPITAL	hospital	fear	0.484	4393
-618	PRECIPICE	precipice	fear	0.469	4403
-620	INSECT	insect	fear	0.250	4976
-621	IRON	iron	trust	0.398	9542
-624	LAKE	lake	joy	0.103	6452
-628	LEAF	leaf	joy	0.065	6463
-636	MILL	mill	anticipation	0.305	2293
-639	MOUNTAIN	mountain	anticipation	0.375	2216
-64	PIN	pin	trust	0.297	9777
-641	MUSHROOM	fungus	disgust	0.625	2640
-642	MUSIC	music	joy	0.531	5755
-645	OCEAN	ocean	joy	0.286	6233
-646	ASH	ashes	sadness	0.377	7392
+600	STRANGE	strange	surprise	0.477	8091
+602	HIDE (CONCEAL)	conceal	sadness	0.311	7513
+609	HAIL	hail	trust	0.430	9429
+610	PORT	harbor	trust	0.492	9169
+613	HIGH TIDE	flood	fear	0.547	4176
+615	HORSE	horse	trust	0.391	9558
+616	HOSPITAL	hospital	fear	0.484	4386
+618	PRECIPICE	precipice	fear	0.469	4396
+620	INSECT	insect	fear	0.250	4968
+621	IRON	iron	trust	0.398	9524
+624	LAKE	lake	joy	0.103	6440
+628	LEAF	leaf	joy	0.065	6451
+630	LIGHT (RADIATION)	light	joy	0.297	6203
+636	MILL	mill	anticipation	0.305	2290
+639	MOUNTAIN	mountain	anticipation	0.375	2213
+64	PIN	pin	trust	0.297	9755
+641	MUSHROOM	fungus	disgust	0.625	2636
+642	MUSIC	music	joy	0.531	5747
+645	OCEAN	ocean	joy	0.286	6223
+646	ASH	ashes	sadness	0.377	7379
 65	AMBUSH	ambush	anger	0.661	345
-650	PETROLEUM	petroleum	disgust	0.219	3364
-651	SEAL	seal	trust	0.531	9033
+650	PETROLEUM	petroleum	disgust	0.219	3359
+651	SEAL	seal	trust	0.531	9015
 655	POISON	poison	anger	0.697	279
-658	RAIN (PRECIPITATION)	rain	sadness	0.163	7696
-661	RELIGION	religion	trust	0.469	9288
+656	POLICE	police	fear	0.328	4786
+658	RAIN (PRECIPITATION)	rain	sadness	0.163	7681
+661	RELIGION	religion	trust	0.469	9270
 662	BATTERY	battery	anger	0.609	431
-665	BEE	bee	anger	0.152	1414
-671	SAND	sand	joy	0.109	6446
-673	SCHOOL	school	trust	0.531	9039
-674	MOUTH	mouth	surprise	0.172	8324
+665	BEE	bee	anger	0.152	1413
+671	SAND	sand	joy	0.109	6435
+673	SCHOOL	school	trust	0.531	9021
+674	MOUTH	mouth	surprise	0.172	8307
 675	FAECES (EXCREMENT)	shit	anger	0.573	543
-680	BREAK (DESTROY OR GET DESTROYED)	break	joy	0.156	6407
+680	BREAK (DESTROY OR GET DESTROYED)	break	joy	0.156	6396
 681	DESTROY	demolish	anger	0.824	109
-686	EASY	simple	joy	0.141	6422
-690	BOTTOM	bottom	sadness	0.223	7642
-699	SAD	unhappy	anger	0.364	1087
-702	CATCH	catch	surprise	0.320	8234
-704	CLEAN	clean	joy	0.260	6276
-706	DARK	dark	sadness	0.545	7044
-709	TEACH	teach	joy	0.212	6349
-713	STEAL	stealing	disgust	0.562	2755
+686	EASY	simple	joy	0.141	6411
+690	BOTTOM	bottom	sadness	0.223	7627
+699	SAD	sad	sadness	0.844	6519
+702	CATCH	catch	surprise	0.320	8217
+704	CLEAN	clean	joy	0.260	6265
+706	DARK	dark	sadness	0.545	7031
+709	TEACH	teach	joy	0.212	6338
+713	STEAL	stealing	disgust	0.562	2751
 715	SHOUT	yell	anger	0.661	344
-716	GROAN	groan	disgust	0.320	3250
-717	SWEET	sweetness	joy	0.833	5289
-718	PAY	salary	anticipation	0.516	1861
-719	FIND	found	joy	0.258	6280
+716	GROAN	groan	disgust	0.320	3246
+717	SWEET	sweetness	joy	0.833	5281
+718	PAY	pay	anticipation	0.461	2020
+719	FIND	found	joy	0.258	6269
 72	CLAW	claw	anger	0.485	768
-720	GOOD LUCK	luck	anticipation	0.594	1671
+720	GOOD LUCK	luck	anticipation	0.594	1669
 722	ATTACK	attack	anger	0.853	68
-729	DAWN	dawn	anticipation	0.469	1994
-730	SNAKE	snake	disgust	0.562	2758
-733	EARN	earn	trust	0.562	8910
-74	PUPPY	puppy	anticipation	0.500	1901
-740	SHIP	ship	anticipation	0.383	2198
+729	DAWN	dawn	anticipation	0.469	1991
+730	SNAKE	snake	disgust	0.562	2754
+733	EARN	earn	trust	0.562	8892
+74	PUPPY	puppy	anticipation	0.500	1899
+740	SHIP	ship	anticipation	0.383	2195
 75	DISGRACE	disgrace	anger	0.484	797
-752	STORE	store	anticipation	0.352	2250
-754	HURRY	hurry	anticipation	0.695	1539
+752	STORE	store	anticipation	0.352	2247
+754	HURRY	hurry	anticipation	0.695	1537
 755	DENY	deny	anger	0.438	903
-756	DEPEND	depend	anticipation	0.383	2199
-760	KNOT	knot	fear	0.109	5158
-761	COVER	cover	trust	0.375	9613
-767	CORPSE	corpse	disgust	0.883	2356
+756	DEPEND	depend	anticipation	0.383	2196
+760	KNOT	knot	fear	0.109	5150
+761	COVER	cover	trust	0.375	9594
+767	CORPSE	corpse	disgust	0.883	2352
 772	BELT	belt	anger	0.364	1090
-775	TRUMPET	trumpet	anger	0.059	1466
-783	VICTORY	victory	anticipation	0.656	1576
-785	STRONG	strong	trust	0.562	8912
-789	PEOPLE	nation	trust	0.406	9519
-79	WASTE	waste	disgust	0.695	2537
-790	READY	ready	anticipation	0.500	1925
-791	STRANGER	stranger	fear	0.453	4462
+775	TRUMPET	trumpet	anger	0.059	1464
+783	VICTORY	victory	anticipation	0.656	1574
+785	STRONG	strong	trust	0.562	8894
+789	PEOPLE	nation	trust	0.406	9501
+79	WASTE	waste	disgust	0.695	2533
+790	READY	ready	anticipation	0.500	1922
+791	STRANGER	stranger	fear	0.453	4455
 8	CURSE	curse	anger	0.688	295
-805	SPINE	spine	anger	0.288	1226
-806	BLANKET	blanket	trust	0.430	9417
-810	LOCUST	locust	fear	0.375	4680
-811	SOUL	soul	joy	0.401	6035
+805	SPINE	backbone	anger	0.203	1354
+806	BLANKET	blanket	trust	0.430	9399
+810	LOCUST	locust	fear	0.375	4673
+811	SOUL	soul	joy	0.401	6027
 812	SLAVE	slave	anger	0.652	357
-815	GOVERNMENT	government	fear	0.359	4700
-819	STOMACH	stomach	disgust	0.312	3265
+815	GOVERNMENT	government	fear	0.359	4693
+819	STOMACH	stomach	disgust	0.312	3261
 82	ANGER	anger	anger	0.811	135
-820	LAMB	lamb	joy	0.219	6337
-824	WITCH	witch	anger	0.242	1305
-828	RACCOON	raccoon	fear	0.127	5140
-83	FORBID	forbid	sadness	0.438	7275
-830	SOOT	soot	disgust	0.320	3254
-831	BASE	base	trust	0.430	9426
-837	BLUE	blue	sadness	0.400	7356
-838	REMAINS	remains	disgust	0.516	2844
-842	LIQUOR	liquor	anger	0.075	1457
-843	SPIDER	spider	disgust	0.461	2969
-845	MURDER	murder	anger	0.897	31
-848	THIRST	thirst	anticipation	0.578	1708
-851	STABLE	stall	disgust	0.133	3421
-852	PRIEST	priest	trust	0.508	9147
+820	LAMB	lamb	joy	0.219	6326
+824	WITCH	witch	anger	0.242	1304
+828	RACCOON	raccoon	fear	0.127	5132
+83	FORBID	forbid	sadness	0.438	7262
+830	SOOT	soot	disgust	0.320	3250
+831	BASE	base	trust	0.430	9408
+837	BLUE	blue	sadness	0.400	7343
+838	REMAINS	remains	disgust	0.516	2840
+842	LIQUOR	liquor	anger	0.075	1455
+843	SPIDER	spider	disgust	0.461	2965
+845	MURDER	homicide	anger	0.803	139
+848	THIRST	thirst	anticipation	0.578	1706
+851	STABLE	stall	disgust	0.133	3416
+852	PRIEST	priest	trust	0.508	9129
 855	SEIZE	grab	anger	0.557	589
-857	STONE	stone	anger	0.258	1273
+857	STONE	stone	anger	0.258	1272
 858	STORM	storm	anger	0.507	720
-861	JUDGE	judge	trust	0.578	8849
-866	WIN	win	joy	0.727	5431
-871	RATTLESNAKE	rattlesnake	fear	0.641	3927
-873	TAX	tax	sadness	0.142	7706
+860	CAUSE	lawsuit	anger	0.386	1044
+861	JUDGE	judge	trust	0.578	8831
+866	WIN	win	joy	0.727	5423
+871	RATTLESNAKE	rattlesnake	fear	0.641	3920
+873	TAX	tax	sadness	0.142	7691
 878	HELL	hell	anger	0.853	69
-879	COUGH	cough	disgust	0.469	2960
-882	PARROT	parrot	disgust	0.156	3407
-883	TERMITE	termite	disgust	0.617	2656
-884	SHARE	share	anticipation	0.445	2063
+879	COUGH	cough	disgust	0.469	2956
+882	PARROT	parrot	disgust	0.156	3402
+883	TERMITE	termite	disgust	0.617	2652
+884	SHARE	share	anticipation	0.445	2060
 887	BITTER	bitterness	anger	0.594	469
 888	POISONOUS	poisonous	anger	0.672	317
-890	MULE	mule	anger	0.167	1398
-892	TIME	time	anticipation	0.516	1864
-894	TOAD	toad	disgust	0.367	3180
-898	TRADE	trade	trust	0.461	9317
-899	PRESIDENT	president	trust	0.453	9340
-90	INNOCENT	innocent	trust	0.703	8467
-902	ADULTERY	adultery	disgust	0.727	2479
-906	TREE	tree	anger	0.000	1483
-909	GARBAGE	rubbish	disgust	0.523	2834
+890	MULE	mule	anger	0.167	1397
+892	TIME	time	anticipation	0.516	1862
+894	TOAD	toad	disgust	0.367	3176
+896	ANACONDA (WATER BOA)	anaconda	disgust	0.383	3151
+898	TRADE	trade	trust	0.461	9299
+899	PRESIDENT	president	trust	0.453	9322
+90	INNOCENT	innocent	trust	0.703	8449
+902	ADULTERY	adultery	disgust	0.727	2475
+906	TREE	tree	anger	0.000	1481
+909	GARBAGE	trash	disgust	0.656	2591
 910	DEATH	death	anger	0.574	542
-912	COYOTE	coyote	fear	0.422	4545
-92	SPOIL (SOMEBODY OR SOMETHING)	spoil	disgust	0.617	2658
-923	LOVE	love	joy	0.828	5294
-928	EMBRACE	embrace	anticipation	0.617	1635
-935	WAR	war	fear	0.942	3455
-943	WATERFALL	waterfall	joy	0.453	5952
+912	COYOTE	coyote	fear	0.422	4538
+92	SPOIL (SOMEBODY OR SOMETHING)	spoil	disgust	0.617	2654
+923	LOVE	love	joy	0.828	5286
+928	EMBRACE	embrace	anticipation	0.617	1633
+935	WAR	war	fear	0.942	3449
+943	WATERFALL	waterfall	joy	0.453	5944
 945	SPEAR	spear	anger	0.500	749
-946	BLOOD	blood	fear	0.525	4267
+946	BLOOD	blood	fear	0.525	4260
 953	RAPE	rape	anger	0.894	35
-955	GREASY	greasy	disgust	0.672	2569
-956	FLEE	flee	fear	0.594	4042
+955	GREASY	greasy	disgust	0.672	2565
+956	FLEE	flee	fear	0.594	4035
 958	WILD ANIMAL	beast	anger	0.562	555
-96	CRAWL	crawl	disgust	0.266	3316
-960	WIND	wind	joy	0.109	6449
-967	YEAST	ferment	anticipation	0.438	2072
-976	WEAR	wear	trust	0.328	9706
-978	WAVE	waves	joy	0.266	6268
-981	ELBOW	elbow	anger	0.117	1444
+96	CRAWL	crawl	disgust	0.266	3311
+960	WIND	wind	joy	0.109	6437
+967	YEAST	ferment	anticipation	0.438	2069
+976	WEAR	wear	trust	0.328	9685
+978	WAVE	waves	joy	0.266	6257
+981	ELBOW	elbow	anger	0.117	1442
 983	CONVICT	convict	anger	0.621	425
-992	CLIFF	cliff	fear	0.500	4340
+992	CLIFF	cliff	fear	0.500	4333
+995	QUIVER (FOR ARROWS)	quiver	fear	0.469	4402
