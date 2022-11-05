@@ -30,7 +30,7 @@
             "name": "BABELNET_ID",
             "datatype": "string",
             "propertyUrl": "dc:relation",
-            "valueUrl": "http://babelnet.org/synset?word=bn:{BABELNET_ID}"
+            "valueUrl": "http://babelnet.org/synset?id=bn:{BABELNET_ID}&lang=EN"
           },
           {
             "name": "BABELNET_DEFINITION",
