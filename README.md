@@ -91,7 +91,7 @@ If you can't find the `catalog.ini` file, create a directory `mkdir /Users/YOURN
 "Mapping a dataset" refers to the process of mapping the words or concepts described in a dataset to Concepticon's
 concept sets and extracting associated norms, ratings or relations from a dataset's "raw" data.
 
-This is facilitated small python modules (one per dataset), located at `datasets/<dataset-ID>/norare.py`. These
+This is facilitated with small Python modules (one per dataset), located at `datasets/<dataset-ID>/norare.py`. These
 python modules may provide two functions, `download` and `map` with signatures as shown below, which will be called
 when the respective command is run with `norare`.
 
@@ -136,8 +136,7 @@ Don't forget to add the Concepticon columns:
 
 ### Download and map
 
-Make sure that you have stored the `norare.py` and metadata.json files according to the schema provided for the other 
-data sets and created a `raw` folder in your data set folder. If you are ready, navigate to the 
+Make sure that you have stored the `norare.py` and `<YOUR-DATASET-ID>.tsv-metadata.json` files and created a `raw` folder in your data set folder. If you are ready, navigate to the 
 `norare-data` folder and type the following commands into your terminal:
 
 ```
@@ -145,7 +144,8 @@ $ norare download YOUR-DATASET-ID
 $ norare map YOUR-DATASET-ID
 ```
 
-The raw file should be stored in the `raw` folder and a new `<dataset-ID>.tsv` should occur in your data set folder.
+The raw file should be stored in the `raw` folder and a new `<YOUR-DATASET-ID>.tsv` should occur in your data set folder.
+
 
 ### Validate
 
