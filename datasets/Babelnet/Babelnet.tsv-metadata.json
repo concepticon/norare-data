@@ -23,7 +23,7 @@
             "datatype": "integer"
           }, 
           {
-            "name": "BABELNET_GLOSS",
+            "name": "ENGLISH",
             "datatype": "string"
           },
           {
