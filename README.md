@@ -8,7 +8,8 @@ We recommend using your terminal to carry out the following instructions. We (st
 
 ### Install pynorare
 
-The NoRaRe database uses a Python package called `pynorare` (as a dependency `pyconcepticon` will be installed automatically). The Python pachage can be installed with [PyPi](https://pypi.org/project/pynorare/). Use either `pip` or `pip3`.
+The NoRaRe database uses a Python package called `pynorare` for data curation (as a dependency `pyconcepticon` will be installed automatically). 
+The Python package can be installed from [PyPi](https://pypi.org/project/pynorare/).
 
 ```
 $ pip install pynorare
@@ -87,69 +88,42 @@ If you can't find the `catalog.ini` file, create a directory `mkdir /Users/YOURN
 
 ## Mapping procedure
 
-### Create a map.py file
+"Mapping a dataset" refers to the process of mapping the words or concepts described in a dataset to Concepticon's
+concept sets and extracting associated norms, ratings or relations from a dataset's "raw" data.
 
-You need to derive a dataset first:
-
-```python
-from pynorare.dataset import NormDataSet
-class Dataset(NormDataSet):
-    id = "Author-Year-Keyword"
-    ...
-```
-
-Note that the `id` is important, as it will determine the name of your file.
-
-Then you can define a download function for this dataset:
+This is facilitated with small Python modules (one per dataset), located at `datasets/<dataset-ID>/norare.py`. These
+python modules may provide two functions, `download` and `map` with signatures as shown below, which will be called
+when the respective command is run with `norare`.
 
 ```python
+def download(dataset: pynorare.api.Dataset):
+    """use methods of `dataset` to download or manipulate data"""
 
-    def download(self):
-        ....
+def map(dataset: pynorare.api.Dataset, concepticon: pyconcepticon.Concepticon, mappings: dict):
+    """eventually call `dataset.extract_data` to write the extracted data to files."""
 ```
 
-Note that there different options how data sets are usually stored. Use either `self.download_file` or `self.download_zip` after you defined the function.
-
-After that, you define a `map` function:
-
-```python
-    def map(self, write_file=True):
-        ....
-```
-
-Data sets are often stored in different file formats. To define the sheet, change the following line according to the file format of your target data set. Use either `.get_excel` or `.get_csv` for text files. 
-
-```python
-    sheet = self.get_excel('DATASET.xlsx', 0, dicts=True)
-```
-
-If the data comes in a straightforward structure with table headers in the first row, you only need to define the mappings depending on the language of the words in your data set.
-
-```python
-    self.extract_data(
-                sheet,
-                gloss='ENGLISH',
-                language='en'
-                )
-```
 
 ### Create a metadata.json file
 
-The metadata file is meant to provide additional information to your data set. It is also used to define the column names. For a comprehensive description of the possible namespace terms see the [CSVW](https://www.w3.org/ns/csvw) documentation. You can also follow the standards of the metadata.json files for other data sets. Note that you can specify the old `"titles"` and new column names with `"name"` as follows:
+The metadata file is meant to provide additional information to your data set. It is also used to define the column names. 
+For a comprehensive description of the possible namespace terms see the [CSVW](https://www.w3.org/ns/csvw) documentation. 
+You can also follow the standards of the metadata.json files for other data sets. Note that you can specify the old 
+`"titles"` and new column names with `"name"` as follows:
 
-```
+```json
           {
             "name": "ENGLISH",
             "datatype": "string",
             "titles": "word"
-          }, 
+          }
 ```
 
 Indicate the data `"datatype"` of each column:  `integer`, `float`, `string`.
 
-Don't forget to add the Conceticon columns:
+Don't forget to add the Concepticon columns:
 
-```
+```json
           {
             "name": "CONCEPTICON_ID",
             "datatype": "integer"
@@ -162,14 +136,16 @@ Don't forget to add the Conceticon columns:
 
 ### Download and map
 
-Make sure that you have stored the map.py and metadata.json files according to the schema provided for the other data sets and created a `raw` folder in your data set folder. If you are not already, navigate to the `norare-data` folder and type the following commands into your terminal:
+Make sure that you have stored the `norare.py` and `<YOUR-DATASET-ID>.tsv-metadata.json` files and created a `raw` folder in your data set folder. If you are ready, navigate to the 
+`norare-data` folder and type the following commands into your terminal:
 
 ```
 $ norare download YOUR-DATASET-ID
 $ norare map YOUR-DATASET-ID
 ```
 
-The raw file should be stored in the `raw` folder and a new .tsv should occur in your data set folder.
+The raw file should be stored in the `raw` folder and a new `<YOUR-DATASET-ID>.tsv` should occur in your data set folder.
+
 
 ### Validate
 

@@ -1,1267 +1,1272 @@
 CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOCIATION	FRENCH_FEAR_ASSOCIATION	FRENCH_SADNESS_ASSOCIATION	FRENCH_ANGER_ASSOCIATION	FRENCH_SURPRISE_ASSOCIATION	FRENCH_DISGUST_ASSOCIATION	LINE_IN_SOURCE
-10	FIREWOOD	bois de chauffage	positive	0	0	0	0	0	0	2920
-100	FAITHFUL	fidèle	positive	0	0	0	0	0	0	639
-1000	ANXIETY	anxiété	negative	0	1	1	1	0	0	2181
-1001	BLACKSMITH	forgeron	positive	0	0	0	0	0	0	6760
-1002	STATUE	statue	positive	0	0	0	0	0	0	12853
-1004	MUSCLE	muscle	positive	0	0	0	0	0	0	9355
-1005	TWINS	jumeau	positive	0	0	0	0	0	0	8307
-1006	BRICK	brique	positive	0	0	0	0	0	0	3069
-1007	COW	vache	positive	0	0	0	0	0	0	13768
-1008	BULL	taureau	negative	0	1	0	0	0	0	13179
-101	BOAST	se vanter	negative	0	0	0	0	0	0	12405
-1011	BRIDGE	pont	positive	0	0	0	0	0	0	10589
-1012	LATCH	verrou	positive	0	0	0	0	0	0	13889
-1013	FRESHWATER EEL	anguille	negative	0	1	0	0	0	1	2127
-1016	DRIZZLE	bruine	negative	0	0	1	0	0	1	3095
-1017	APPEARANCE	aspect	positive	0	0	0	0	0	0	2361
-1018	MEMORY	mémoire	positive	0	0	0	0	0	0	8979
-102	COMMON COLD (DISEASE)	rhume	negative	0	0	1	0	0	0	11836
-1021	TOWEL	serviette	positive	0	0	0	0	0	0	12525
-1025	WHISTLE	siffler	negative	0	1	0	1	1	0	12557
-1028	YAWN	bâiller	negative	0	0	0	0	0	0	2656
-1032	CITIZEN	citoyen	positive	0	0	0	0	0	0	238
-1033	GRIND	moudre	negative	0	0	0	1	0	0	9303
-1035	GOOD	bien	positive	1	0	0	0	0	0	147
-1038	TEACHER	professeur	positive	0	0	0	0	0	0	10906
-1039	SHOW	montrer	positive	0	1	0	0	0	0	9257
-1042	CARPENTER	charpentier	positive	0	0	0	0	0	0	3527
-1043	BRAID	tresser	positive	0	0	0	0	0	0	13599
-1044	PILLOW	oreiller	positive	0	0	0	0	0	0	9778
-1045	POET	poète	positive	0	0	0	0	0	0	10527
-1046	SHUT	fermer	positive	0	0	0	0	0	0	6578
-1047	PURSUE	poursuivre	negative	0	1	1	1	0	0	10703
-1048	LINE	ligne	positive	0	0	0	1	0	0	8536
-1049	MOLAR TOOTH	molaire	positive	0	0	0	0	0	0	9220
-1052	LIGHT (WEIGHT)	léger	positive	0	0	0	0	0	0	887
-1053	HUNTER	chasseur	negative	0	1	1	1	0	0	226
-1061	ARMOUR	armure	positive	0	1	0	0	0	0	2303
-1062	LAW	loi	positive	0	0	0	0	0	0	8624
-1063	NEPHEW	neveu	positive	0	0	0	0	0	0	9478
-1064	SHIELD	bouclier	positive	0	0	0	0	0	0	2977
-1068	COURT	tribunal	positive	0	1	0	1	0	1	13611
-1069	GLUE	colle	positive	0	0	0	0	0	0	3806
-1070	BUS	autobus	positive	0	0	0	0	0	0	2527
-1071	HOOK	crochet	positive	0	0	0	0	0	0	4454
-1074	FISHHOOK	hameçon	negative	0	1	0	0	1	0	7338
-1075	TRAP (PITFALL)	piège	negative	0	1	0	0	1	0	10369
-1079	FEEL	ressentir	positive	0	0	0	0	0	0	11741
-108	RUDDER	gouvernail	positive	0	0	0	0	0	0	7161
-1081	BILL	compte	positive	0	0	0	0	0	0	3962
-1084	CALL	appeler	positive	0	0	0	0	0	0	2210
-1085	FOLLOW	suivre	positive	0	0	0	0	0	0	12976
-1087	CONCEIVE	concevoir	positive	0	0	0	0	0	0	277
-1090	BE BORN	naître	positive	1	0	0	0	0	0	9389
-1092	HOPE	espérance	positive	0	0	0	0	0	0	6086
-1095	LET GO OR SET FREE	libérer	positive	1	0	0	0	0	0	8512
-1096	SONG	chanson	positive	0	0	0	0	0	0	3490
-1098	WEIGH	peser	negative	0	0	1	0	0	0	1138
-11	DARKNESS	obscurité	negative	0	1	1	1	0	0	9638
-110	MOTOR	moteur	positive	0	0	0	0	0	0	9290
-1100	COOK (SOMETHING)	cuisiner	positive	0	0	0	0	0	0	4498
-1101	SUFFER	souffrir	negative	0	1	1	0	0	1	12718
-1102	CLIMB	grimper	positive	0	1	0	0	0	0	7250
-1103	SACRIFICE	sacrifice	negative	0	1	1	0	0	1	12033
-1104	NURSE	infirmier	positive	0	0	0	0	0	0	7915
-1105	CAMP	campement	positive	0	0	0	0	0	0	3238
-1107	GO OUT	sortir	positive	0	0	0	0	0	0	12698
-1108	UNCOVER	découvrir	positive	0	0	0	0	0	0	4739
-1109	WOUND	plaie	negative	0	1	1	1	0	1	10434
-1110	SHARK	requin	negative	0	1	0	0	0	0	11698
-1111	CAR	voiture	positive	0	0	0	0	0	0	14028
-1112	SUCCEED	réussir	positive	1	0	0	0	0	0	1347
-1115	SPEECH	discours	positive	0	0	0	0	0	0	5156
-1119	DIVIDE	diviser	negative	0	0	0	0	0	0	5233
-112	TURTLE	tortue	positive	0	0	0	0	0	0	13415
-1121	SECRET	secret	negative	0	1	0	0	1	0	12425
-1122	WAGES	salaire	positive	0	0	0	0	0	0	12050
-1123	PREGNANT	enceinte	positive	0	0	0	0	0	0	5804
-1124	PIPE	tuyau	positive	0	0	0	0	0	0	13703
-1125	BALD	chauve	negative	0	0	1	0	0	1	3564
-1127	SEND	envoyer	positive	0	0	0	0	0	0	555
-1129	PAINFUL	douloureux	negative	0	1	1	1	0	1	485
-113	SHORE	rive	positive	0	0	0	0	0	0	11871
-1132	BEAM	poutre	positive	0	0	0	0	0	0	10716
-1133	MATCH	allumette	positive	0	0	0	0	0	0	2000
-1135	KICK	donner un coup de pied	negative	0	0	0	1	0	0	5291
-1136	RABBIT	lapin	positive	0	0	0	0	0	0	8419
-1137	TENDON	tendon	positive	0	0	0	0	0	0	13227
-1139	LEOPARD	panthère	negative	0	1	0	0	0	0	9913
-1141	PITY	pitié	negative	0	0	1	0	0	0	10420
-1143	OVEN	four	positive	0	0	0	0	0	0	6797
-1144	WITNESS	témoin	positive	0	0	0	0	0	0	13212
-1145	SWAMP	marais	negative	0	1	0	0	0	1	937
-1147	PURE	pur	positive	0	0	0	1	0	0	1254
-1149	ORPHAN	orphelin	negative	0	1	1	0	0	0	9803
-1150	THUNDER	tonnerre	negative	0	1	0	1	1	0	13398
-1153	CATTLE	bétail	positive	0	0	0	0	0	0	2816
-1154	OLIVE	olive	positive	0	0	0	0	0	0	9703
-1155	CAVE	grotte	negative	0	1	1	0	0	0	7272
-1156	OPEN	ouvrir	positive	0	0	0	0	0	0	9835
-1159	FART	péter	positive	0	0	0	0	0	0	10254
-1160	THIEF	voleur	negative	0	1	1	1	1	1	1579
-1162	INTENTION	but	positive	0	0	0	0	0	0	3144
-117	IMITATE	imiter	negative	0	0	0	0	0	0	7604
-1175	GHOST	fantôme	negative	0	1	0	0	1	0	6511
-1176	SPADE	bêche	positive	0	0	0	0	0	0	2782
-1178	NOSTRIL	narine	negative	0	0	0	0	0	1	9393
-118	BEWITCH	ensorceler	negative	0	1	0	0	0	0	5909
-1181	PALM TREE	palmier	positive	0	0	0	0	0	0	9886
-1183	PALM OF HAND	paume	positive	0	0	0	0	0	0	10079
-1184	DIMINISH	diminuer	negative	0	0	1	0	0	0	459
-1185	VULTURE	vautour	negative	0	1	0	0	0	1	13818
-1187	GOOSE	oie	negative	0	0	0	0	0	0	9695
-1188	CHARCOAL	charbon de bois	negative	0	0	0	0	0	1	3507
-1189	ULCER	ulcère	negative	0	1	1	1	0	1	13714
-119	DIVE	plonger	positive	0	1	0	0	1	0	1168
-1190	HARE	lièvre	negative	0	1	0	0	0	0	8533
-1192	THREATEN	menacer	negative	0	1	0	1	0	1	8985
-1197	BABOON	babouin	negative	0	0	0	0	0	1	2631
-1198	MANY	nombreux	positive	0	0	0	0	0	0	9509
-1199	WIFE	épouse	positive	0	0	0	0	0	0	561
-12	MIDDAY	midi	positive	0	0	0	0	0	0	9115
-1200	HUSBAND	époux	positive	0	0	0	0	0	0	6019
-1201	FEATHER	plume	positive	0	0	0	0	0	0	10500
-1202	BIG	grand	positive	0	0	0	0	0	0	7180
-1203	LONG	long	positive	0	0	0	0	0	0	8629
-1204	BARK	écorce	negative	0	1	0	1	0	1	5468
-1205	TONGUE	langue	positive	0	0	0	0	0	0	8414
-1206	BARKING	aboyer	negative	0	1	0	1	0	0	1679
-1207	YOUNG	jeune	positive	0	0	0	0	1	0	8260
-1208	CAT	chat	positive	0	0	0	0	0	0	3537
-1210	HEAVY	lourd	negative	0	0	1	1	0	0	906
-1216	MOTHER	mère	positive	0	0	1	0	0	0	9019
-1217	FATHER	papa	positive	0	0	0	0	0	0	9918
-1219	WORM	virus	negative	0	1	0	0	0	1	13991
-122	CART	chariot	positive	0	0	0	0	0	0	3516
-1220	TAIL	queue	negative	0	0	1	0	0	0	11118
-1221	NOSE	nez	positive	0	0	0	0	0	1	9482
-1225	DAY (NOT NIGHT)	journée	positive	0	0	0	0	0	0	8297
-1226	YEAR	année	positive	0	0	0	0	0	0	2135
-1227	BOARD	planche	positive	0	0	0	0	0	0	10441
-1228	EARTH (SOIL)	terre	positive	0	0	0	0	0	0	13257
-1229	OLD	ancien	negative	0	0	0	0	0	0	60
-1230	DIRTY	sale	negative	0	0	0	0	0	1	12052
-1231	NEW	nouveau	positive	0	0	0	0	0	0	1050
-1232	WARM	chaud	positive	0	0	0	1	0	0	3551
-1233	NIGHT	nuit	negative	0	1	1	0	0	0	9609
-1234	SMOOTH	lisse	positive	0	0	0	0	0	0	8574
-124	THORN	épine	negative	0	1	0	0	0	1	6000
-1241	SOME	un peu	positive	0	0	0	0	0	0	13722
-1243	WIDE	large	positive	0	0	0	0	0	0	8424
-1244	THICK	épais	negative	0	0	0	0	0	0	5974
-1245	BUTTER	beurre	positive	0	0	0	0	0	0	2819
-1246	SMALL	petit	negative	0	0	1	0	0	0	10266
-1247	EAR	oreille	positive	0	0	0	0	0	0	9777
-125	SWEAT (SUBSTANCE)	sueur	negative	0	1	0	0	0	1	12957
-1251	BELLY	ventre	positive	0	0	0	0	0	0	13862
-1252	HOUSE	maison	positive	0	0	0	0	0	0	8729
-1256	HEAD	tête	positive	0	0	0	0	0	0	13278
-1257	WING	aile	positive	0	0	0	0	0	0	1928
-1258	FINGERNAIL	ongle	negative	0	0	0	0	0	1	9726
-1259	WEDDING	mariage	positive	0	0	0	0	0	0	8848
-1262	BROTHER	frère	positive	0	0	0	0	0	0	6867
-1264	CHANGE	changer	positive	0	1	0	0	0	0	3488
-1265	HIGH	haut	negative	0	0	0	0	0	0	733
-1267	NARROW	étroit	negative	0	1	1	0	0	0	6200
-127	EXTINGUISH	éteindre	negative	0	0	1	1	0	0	6141
-1272	AUNT	tante	positive	0	0	0	0	0	0	13157
-1273	CANDLE	bougie	positive	0	0	0	0	0	0	2985
-1274	SALT	sel	negative	0	0	0	0	0	1	12455
-1275	ANSWER	répondre	positive	0	0	0	0	0	0	11659
-1276	AUTUMN	automne	negative	0	1	1	0	0	0	2532
-1277	HAND	main	positive	0	0	0	0	0	0	8723
-1278	VOMIT	vomir	negative	0	0	0	0	0	1	14054
-1279	FAT (OBESE)	gras	negative	0	0	0	0	0	1	710
-1280	FALL	tomber	negative	0	1	1	0	0	0	13371
-1281	PRISON	prison	negative	0	1	1	1	0	0	10863
-1284	BANK	banque	positive	0	0	0	0	0	0	2703
-1285	IMPORTANT	important	positive	0	0	0	0	0	0	7665
-1287	COLD	froid	negative	0	0	1	1	0	0	670
-1288	CAP	casquette	positive	0	0	0	0	0	0	3347
-1289	BABY	bébé	positive	1	0	0	0	0	0	2779
-129	CHOKE	étouffer	negative	0	1	1	1	0	0	576
-1291	BACK	dos	positive	0	0	0	0	0	0	5307
-1292	BAD	mal	negative	0	0	1	0	0	0	8925
-1294	ZERO	zéro	negative	0	0	1	0	0	0	1584
-1297	LEG	jambe	positive	0	0	0	0	0	0	8223
-1298	NEWSPAPER	journal	positive	0	0	0	0	0	0	8292
-1299	COFFEE	café	positive	0	0	0	0	0	0	3182
-13	DECEIT	tromperie	negative	0	0	0	1	0	1	1520
-1300	COUNTRY	pays	positive	0	0	0	0	0	0	10091
-1301	FOOT	pied	positive	0	0	0	0	0	0	10363
-1302	FORK	fourchette	positive	0	0	0	0	0	0	6800
-1303	FINGER	doigt	positive	0	0	0	0	0	0	5255
-1306	QUEEN	reine	positive	0	0	0	0	0	0	11555
-1307	LANGUAGE	langage	positive	0	0	0	0	0	0	8411
-1308	DOUBT	douter	negative	0	1	0	0	0	0	5327
-1309	ASK (INQUIRE)	interroger	negative	0	1	0	0	0	0	8108
-1310	CLEVER	intelligent	positive	0	0	0	0	0	0	8065
-1312	FOX	renard	positive	0	0	0	0	0	0	11605
-1313	MOON	lune	positive	0	0	0	0	0	0	8670
-1314	QUIET	tranquille	positive	0	0	1	0	0	0	13507
-1315	RADIO	radio	positive	0	0	0	0	0	0	11245
-1316	TENT	tente	positive	0	0	0	0	0	0	13243
-1318	CHICKEN	poulet	positive	0	1	0	0	0	0	10683
-132	SAUCE	sauce	positive	0	0	0	0	0	0	12177
-1320	APPLE	pomme	positive	0	0	0	0	0	0	10574
-1321	BOTTLE	bouteille	positive	0	0	0	0	0	0	3016
-1322	BREAKFAST	petit déjeuner	positive	0	0	0	0	0	0	10260
-1323	CLOCK	horloge	positive	0	0	0	0	0	0	7480
-1324	SLIP	glisser	negative	0	0	0	0	0	0	7097
-1325	FRIEND	ami	positive	0	0	0	0	0	0	57
-1327	UNCLE	oncle	positive	0	0	0	0	0	0	9720
-133	WEAVE	tisser	positive	0	0	0	0	0	0	13350
-1330	DEFEND	défendre	positive	0	0	0	1	0	0	4766
-1331	SHEEP	mouton	positive	0	0	0	0	0	0	9321
-1332	NEIGHBOUR	voisin	positive	0	0	0	0	0	0	1578
-1333	NECK	cou	positive	0	0	0	0	0	0	4289
-1334	GUTS	entrailles	negative	0	0	0	0	0	1	5929
-1335	WHITE	blanc	positive	0	0	0	0	0	0	156
-1336	EAT	manger	positive	0	0	0	0	0	0	8798
-1337	PIG	cochon	negative	0	0	0	0	0	1	3768
-1338	PEACE	paix	positive	0	0	0	0	0	0	9874
-1339	MORNING	matin	positive	0	0	0	0	0	0	8905
-134	FAULT	faute	negative	0	0	1	0	0	1	6536
-1343	SUN	soleil	positive	0	0	0	0	1	0	12643
-1344	RAM	bélier	negative	0	0	0	1	0	0	2789
-1345	EWE	brebis	positive	0	0	0	0	0	0	3053
-1346	THROAT	gorge	negative	0	1	0	0	0	1	7133
-1347	NAPE (OF NECK)	nuque	positive	0	0	0	0	0	0	9617
-1348	BOAR (MALE PIG)	sanglier	negative	0	1	0	0	0	1	12088
-1349	CHURCH	église	positive	0	0	0	0	0	0	5536
-1350	MONKEY	singe	positive	0	0	0	0	0	0	12589
-1351	SOW (FEMALE PIG)	truie	negative	0	0	0	0	0	1	13676
-1352	KNIFE	couteau	negative	0	1	0	1	0	0	4362
-1353	HOUR	heure	positive	0	0	0	0	0	0	7418
-1355	LAUGH	rire	positive	0	0	0	0	1	0	11860
-1356	NUMBER	chiffre	positive	0	0	0	0	0	0	3607
-1357	DAUGHTER	fille	positive	1	0	0	0	0	0	6637
-1358	ENEMY	ennemi	negative	0	1	1	1	0	1	542
-1359	SEPARATE	séparer	negative	0	1	1	1	0	1	12491
-1360	DUCK	canard	positive	0	0	0	0	0	0	3244
-1362	STREET	rue	positive	0	0	0	0	0	0	11952
-1363	VOICE	voix	positive	0	0	0	0	0	0	14030
-1365	KITCHEN	cuisine	positive	0	0	0	0	0	0	4499
-1366	BOY	garçon	positive	0	0	0	0	0	1	6968
-1367	CROSS	croix	positive	0	1	1	1	0	0	4465
-1368	BREAD	pain	positive	0	0	0	0	0	0	9870
-1371	KNEE	genou	positive	0	0	0	0	0	0	7045
-1372	MEDICINE	médicament	negative	0	0	0	0	0	0	8950
-1373	TEA	thé	positive	0	0	0	0	0	0	13299
-1374	RING	bague	positive	0	0	0	0	0	0	2648
-1375	WINDOW	vitre	positive	0	0	0	0	0	0	14012
-1378	SPOON	cuillère	positive	0	0	0	0	0	0	4490
-1379	TELEPHONE	téléphone	positive	0	0	0	0	0	0	13200
-138	BATHE	se baigner	positive	0	0	0	0	0	0	12251
-1380	TOOTH	dent	negative	0	1	0	0	0	0	4880
-1381	SHOE	chaussure	positive	0	0	0	0	0	0	3563
-1382	NEEDLE (FOR SEWING)	aiguille	negative	0	1	0	0	0	0	1923
-1385	PEPPER	poivre	negative	0	0	0	0	0	0	10551
-1386	LION	lion	positive	0	1	0	0	0	0	8560
-1387	ARRIVE	arriver	positive	0	0	0	0	0	0	2326
-1388	SHADE	ombre	positive	0	0	0	0	0	0	9709
-1389	TOE	orteil	negative	0	0	0	0	0	1	9805
-1390	WRONG	incorrect	negative	0	0	0	0	0	0	7791
-1391	TOWN	ville	positive	0	0	0	0	0	0	13965
-1392	LOUSE	pou	negative	0	1	0	0	0	1	10673
-1393	HORN (ANATOMY)	corne	negative	0	1	0	0	0	0	4240
-1394	BONE	os	negative	0	0	0	0	0	0	9811
-1395	ROUND	rond	positive	0	0	0	0	0	0	11895
-1396	SHARP	tranchant	negative	0	1	1	1	0	1	13504
-1398	DRY	sec	negative	0	1	0	1	1	0	12410
-1399	CLAY	argile	positive	0	0	0	0	0	0	2286
-14	YOKE	joug	positive	0	0	0	0	0	0	8289
-1400	THIN (SLIM)	mince	negative	0	1	1	0	0	0	984
-1401	DRINK	boire	positive	0	0	0	0	0	0	2918
-1402	BREAST	sein	positive	0	0	0	0	0	0	12452
-1403	BITE	mordre	negative	0	0	0	1	0	0	9270
-1404	STRAIGHT	droit	positive	0	0	0	0	0	0	5352
-1405	NAME	nom	positive	0	0	0	0	0	0	9503
-1407	BREATHE	respirer	positive	0	0	0	0	0	0	11734
-1408	HEAR	entendre	positive	0	0	0	0	0	0	5914
-1410	KNOW (SOMETHING)	connaître	positive	0	0	0	0	0	0	294
-1412	RUDE	grossier	negative	0	0	0	0	0	1	717
-1413	PLAY	jouer	positive	1	0	0	0	0	0	8282
-1414	SQUEEZE	presser	negative	0	1	0	0	0	0	10811
-1417	KILL	tuer	negative	0	1	1	1	0	0	13681
-1418	DIG	creuser	negative	0	0	0	0	0	0	4427
-1419	FEAR (BE AFRAID)	craindre	negative	0	1	0	0	0	0	4383
-1420	COUNT	compter	positive	0	0	0	0	0	0	3960
-1421	SUCK	sucer	negative	0	0	0	0	0	0	12943
-1422	BE ALIVE	vivant	positive	0	0	0	0	0	0	14015
-1423	FIGHT	combattre	negative	0	1	0	1	0	0	3842
-1424	YELLOW	jaune	positive	0	0	0	0	0	0	8247
-1425	GREEN	vert	positive	0	0	0	0	0	0	13902
-1426	EXPENSIVE	coûteux	negative	0	0	1	0	0	0	4364
-1427	BEAUTIFUL	beau	positive	0	0	0	0	0	0	141
-1429	FULL	plein	positive	0	0	0	0	0	0	10474
-1430	STAR	étoile	positive	0	0	0	0	0	0	6159
-1431	FREEZE	geler	negative	0	0	1	0	0	0	7019
-1432	CUT	couper	negative	0	1	0	1	0	0	4326
-1434	STAB	poignarder	negative	0	1	1	1	1	0	10531
-1435	HUNT	chasser	negative	0	1	0	1	0	0	3534
-1436	SCRATCH	gratter	negative	0	1	1	1	1	0	7205
-1437	SPLIT	fendre	negative	0	1	0	1	0	0	6570
-1439	SWIM	nager	positive	0	0	0	0	0	0	9385
-144	MACHINE	machine	positive	0	0	0	0	0	0	8695
-1440	SPIT	cracher	negative	0	0	0	0	0	1	4379
-1441	FLY (MOVE THROUGH AIR)	voler	negative	0	1	1	1	1	0	14041
-1442	STAND	se tenir debout	positive	0	0	0	0	0	0	12400
-1443	WALK	marcher	positive	0	0	0	0	0	0	8839
-1447	GIVE	donner	positive	0	0	0	0	0	0	5281
-1448	HOLD	tenir	positive	0	0	0	0	0	0	13233
-1449	RUB	frotter	negative	0	0	0	0	0	0	6895
-1450	ROOM	chambre	positive	0	0	0	0	0	0	3470
-1451	SMILE	sourire	positive	1	0	0	0	0	0	12748
-1452	PUSH	pousser	negative	0	1	0	0	1	0	10707
-1453	WASH	laver	positive	0	0	0	0	0	0	8442
-1454	WIPE	essuyer	positive	0	0	0	0	0	0	6107
-1455	PULL	tirer	positive	0	1	1	1	1	0	1499
-1456	THROW	jeter	negative	0	1	0	1	0	0	862
-1457	SEW	coudre	positive	0	0	0	0	0	0	4298
-1463	DRUNK	ivre	negative	0	0	0	0	0	1	8209
-1464	LADDER	échelle	positive	0	0	0	0	0	0	5432
-1465	BOX	boîte	positive	0	0	0	0	0	0	2926
-1467	CIRCLE	cercle	positive	0	0	0	0	0	0	3432
-1468	LOOK FOR	chercher	positive	0	0	0	0	0	0	3581
-1469	WEEK	semaine	positive	0	0	0	0	0	0	12459
-1470	FOLD	plier	negative	0	0	1	0	0	0	10492
-1471	WINTER	hiver	negative	0	0	1	0	0	0	7442
-1472	KEY	clé	positive	0	0	0	0	0	0	3721
-1473	FIST	poing	positive	0	0	0	0	0	0	10533
-1474	SEA	mer	positive	0	0	0	0	0	0	9015
-1475	COMB	peigne	positive	0	0	0	0	0	0	10109
-1476	CHAIR	chaise	positive	0	0	0	0	0	0	3459
-1477	KEEP	garder	positive	0	0	0	0	0	0	6976
-1479	DOLPHIN	dauphin	positive	0	0	0	0	1	0	4564
-148	ITCH	démangeaison	negative	0	0	0	1	1	0	4839
-1481	HAMMER	marteau	negative	0	1	0	1	0	0	8868
-1482	SHOULDER	épaule	positive	0	0	0	0	0	0	5987
-1483	NINE	neuf	positive	0	0	0	0	0	0	9472
-1484	OIL (ORGANIC SUBSTANCE)	huile	negative	0	0	0	0	0	1	7504
-1485	BELOW OR UNDER	en dessous	negative	0	0	0	0	0	0	5712
-1487	POUR	verser	positive	0	0	0	0	0	0	13896
-1488	FAUCET	robinet	positive	0	0	0	0	0	0	11881
-1489	CLOUD	nuage	negative	0	0	1	0	0	0	9601
-1490	RAT	rat	negative	0	1	0	0	0	1	11317
-1491	MOUSE	souris	negative	0	1	0	0	0	0	12752
-1494	DIE	mourir	negative	0	0	1	0	0	1	9279
-1495	HAPPY	heureux	positive	1	0	0	0	0	0	736
-1499	JUICE	jus	positive	0	0	0	0	0	0	8319
-150	WORRY	inquiéter	negative	0	1	1	0	1	0	7992
-1502	GOAT	chèvre	positive	0	0	0	0	0	0	3595
-1503	SALIVA	salive	positive	0	0	0	0	0	1	12060
-1504	FLY (INSECT)	mouche	positive	0	0	0	0	0	0	9298
-1505	SPERM	sperme	positive	0	0	0	0	0	1	12808
-1506	MEASURE	mesurer	positive	0	0	0	0	0	0	9034
-1507	FRUIT	fruit	positive	0	0	0	0	0	0	6900
-1508	KING	roi	positive	0	0	0	0	0	0	11890
-1509	MOSQUITO	moustique	negative	0	1	0	1	0	1	9319
-151	RAZOR	rasoir	negative	0	1	0	0	0	0	11310
-1511	ROOSTER	coq	negative	0	1	0	0	0	0	4229
-1514	HEN	poule	positive	0	0	0	0	0	0	10681
-1515	TEN	dix	positive	0	0	0	0	0	0	5239
-1517	WASP	guêpe	negative	0	1	0	0	0	0	7281
-1518	STUPID	idiot	negative	0	0	0	1	0	1	746
-1519	RUN	courir	positive	0	0	0	0	0	0	4344
-152	HOOF	sabot	negative	0	0	0	0	0	0	12016
-1520	CRUSH	écraser	negative	0	0	1	0	0	0	505
-1521	SEEM	sembler	positive	0	0	0	0	0	0	12462
-1522	SOCK	chaussette	positive	0	0	0	0	0	0	3560
-1523	FORGET	oublier	negative	0	1	1	0	0	0	9825
-1524	WINE	vin	positive	0	0	0	0	0	0	13966
-1526	MEAL	repas	positive	0	0	0	0	0	0	11650
-1527	TICK	tique	negative	0	0	0	0	0	0	13338
-1528	FORGIVE	pardonner	positive	0	0	0	0	0	0	9976
-1529	LAST (FINAL)	dernier	negative	0	1	1	0	0	0	4936
-1530	BOWL	boule	positive	0	0	0	0	0	0	2993
-1531	BRANCH	branche	positive	0	0	0	0	0	0	3036
-1532	SHEAR	tondre	negative	0	1	0	0	0	0	13387
-1534	FEVER	fièvre	negative	0	1	0	0	0	0	6621
-1535	SWORD	épée	negative	0	1	0	0	0	0	5988
-1536	UNDERSTAND	comprendre	positive	0	0	0	0	0	0	3950
-1538	SCORPION	scorpion	negative	0	1	0	1	1	1	12239
-1539	BASKET	panier	positive	0	0	0	0	0	0	9903
-1540	EYELASH	cil	negative	0	1	0	1	0	0	3657
-1541	CULTIVATE	cultiver	positive	0	0	0	0	0	0	366
-1542	ACCOMPANY	accompagner	positive	0	0	0	0	0	0	1730
-1543	SNAIL	escargot	negative	0	0	0	0	0	1	6074
-1545	HOST	hôte	positive	0	0	0	0	0	0	7496
-1547	SOUP	soupe	positive	0	0	0	0	0	0	12740
-1548	UGLY	laid	negative	0	0	0	0	0	1	8379
-1550	PREVENT	empêcher	negative	0	1	0	0	0	0	5653
-1551	FEMALE	femelle	positive	0	0	0	0	0	0	6562
-1554	MAN	homme	positive	0	0	0	0	0	0	7455
-1555	CHAMELEON	caméléon	positive	0	0	0	0	0	0	3228
-1558	SIMILAR	semblable	positive	0	0	0	0	0	0	1402
-1559	MONEY	argent	positive	0	0	0	1	1	0	2281
-156	RED	rouge	negative	0	0	0	0	0	0	11925
-1560	FACE	visage	positive	0	0	0	0	0	0	13995
-1564	LAZY	paresseux	negative	0	0	1	0	0	1	1096
-1566	GUN	pistolet	negative	0	1	0	1	0	0	10418
-1567	DOOR	porte	positive	0	0	0	0	0	0	10617
-1568	ARRANGE	organiser	positive	0	0	0	0	0	0	9782
-157	DYE	teindre	positive	0	0	0	0	0	0	13194
-1571	SELL	vendre	positive	0	0	0	0	0	0	13847
-1573	SWELL	gonfler	negative	0	1	0	1	0	1	7129
-1574	FLOAT	flotter	positive	0	0	0	0	0	0	6709
-1576	PILE UP	entasser	negative	0	0	0	0	0	0	5912
-1581	ALLIGATOR	alligator	negative	0	1	0	0	0	0	1992
-1583	BRAIN	cerveau	positive	0	0	0	0	0	0	3447
-1585	SLEEP	dormir	positive	0	0	0	0	0	0	5303
-1586	SMELL (PERCEIVE)	sentir	positive	0	0	0	0	0	0	12483
-1587	SMELL (STINK)	puer	negative	0	0	0	0	0	1	11026
-1588	TURN	tourner	positive	0	1	0	1	1	0	1507
-1590	WAIT (FOR)	attendre	negative	0	0	0	0	0	0	2460
-1591	UP	en haut	positive	0	0	0	0	0	0	5734
-1592	CHEST	poitrine	positive	0	0	0	0	0	0	10550
-1594	FLOUR	farine	positive	0	0	0	0	0	0	6516
-1596	LOCK	serrure	positive	0	0	0	0	0	0	12519
-1597	AIRPLANE	avion	positive	0	0	0	0	0	0	2599
-1599	WORD	mot	positive	0	0	0	0	0	0	9288
-16	SLED	luge	positive	1	0	0	0	0	0	8661
-1600	SKIRT	jupe	positive	0	0	0	0	0	0	8312
-1601	WEAK	faible	negative	0	0	1	1	0	1	6387
-1602	WAKE UP	se réveiller	positive	0	0	0	0	0	0	12391
-1607	HATE	haïr	negative	0	1	1	1	0	1	7324
-1609	IDEA	idée	positive	0	0	0	0	0	0	7556
-161	MISS (A TARGET)	manquer	negative	0	1	1	0	0	0	8821
-1611	INVITE	inviter	positive	0	0	0	0	1	0	8160
-1612	LETTER	lettre	positive	0	0	0	0	0	0	8498
-1613	COLOR	couleur	positive	0	0	0	0	0	0	4305
-1616	CLOTH	tissu	positive	0	0	1	0	0	1	13351
-162	HICCOUGH	hoqueter	negative	0	1	0	0	1	0	7474
-1621	SNEEZE	éternuer	negative	0	0	0	0	1	0	6144
-1622	SHIRT	chemise	positive	0	0	0	0	0	0	3575
-1623	SPEAK	parler	positive	0	0	0	0	0	0	9997
-1624	EMPTY	vide	negative	0	1	1	0	0	1	13942
-1626	EXPLAIN	expliquer	positive	0	0	0	0	0	0	6317
-1627	CHAIN	chaîne	negative	0	1	1	1	0	1	3456
-1628	SQUIRREL	écureuil	positive	0	0	0	0	0	0	5487
-1629	EVENING	soir	positive	0	0	0	0	0	0	12634
-163	BLACK	noir	negative	0	1	1	1	0	1	9499
-1631	FAST	rapide	positive	0	0	0	0	1	0	11299
-1632	FLOOR	sol	positive	0	0	0	0	0	1	12638
-1634	HUNDRED	cent	positive	0	0	0	0	0	0	3407
-1635	OBEY	obéir	positive	0	1	0	0	0	0	9621
-1638	TRUTH	vérité	positive	0	0	0	0	0	0	13880
-1639	BEER	bière	positive	1	0	0	0	0	0	2840
-164	KANGAROO	kangourou	positive	0	0	0	0	0	0	8338
-1641	SILK	soie	positive	0	0	0	0	0	0	12628
-1642	NIECE	nièce	positive	0	0	0	0	0	0	9490
-1645	SHORT	court	negative	0	0	0	0	0	0	4355
-1647	FOAL	poulain	positive	0	0	0	0	0	0	10680
-1648	ANVIL	enclume	positive	0	0	0	0	0	0	5821
-1651	TEAR (OF EYE)	larme	negative	0	0	1	0	0	0	8430
-1654	LIGHTNING	foudre	negative	0	1	0	1	1	0	6787
-1657	TRUE	réel	positive	0	0	0	0	0	0	11464
-1659	DOLL	poupée	positive	1	0	0	0	0	0	10689
-166	MAINLAND	continent	positive	0	0	0	0	0	0	4151
-1660	LOSE	perdre	negative	0	1	1	0	1	0	10178
-1663	BED	lit	positive	0	0	0	0	0	0	8580
-1664	RAFT	radeau	negative	0	1	1	0	0	0	11240
-1665	BEAT	battre	negative	0	1	1	1	0	0	2764
-1666	MUTE	muet	negative	0	1	1	0	1	1	9330
-1667	HOLE	trou	negative	0	1	1	0	0	0	13665
-1668	GRIEF	chagrin	negative	0	1	1	0	0	0	3455
-1669	ANCESTORS	ancêtre	positive	0	0	0	0	0	0	2104
-1671	TOWER	tour	positive	0	0	0	1	1	1	13427
-1672	WRITE	écrire	positive	0	0	0	0	0	0	5480
-1673	ARM	bras	positive	0	0	0	0	0	0	3045
-1674	POOR	pauvre	negative	0	1	1	0	0	0	10080
-1675	PROMISE	promettre	positive	0	0	0	0	0	0	10944
-1678	HUT	cabane	positive	0	0	1	0	0	1	3150
-1679	LOAD	fardeau	negative	0	1	1	1	0	0	6514
-168	REST	se reposer	positive	1	0	0	0	0	0	12384
-1680	HELMET	casque	positive	0	1	0	0	0	0	3346
-1681	WAIST	taille	positive	0	0	0	0	0	0	13134
-1682	GUILTY	coupable	negative	0	1	1	1	0	1	4322
-1683	BUSH	buisson	positive	0	0	0	0	0	0	3129
-1687	PRAISE	louange	positive	0	0	0	0	0	0	8644
-1688	FATE	sort	negative	0	1	0	0	0	0	12695
-1689	SMOKE (INHALE)	fumer	negative	0	0	0	0	0	1	6909
-1690	FENCE	palissade	positive	0	0	0	0	0	0	1092
-1691	FLEXIBLE	flexible	positive	0	0	0	0	0	0	6692
-1702	HOLY	sacré	positive	0	0	0	0	0	0	12030
-1706	ELEVEN	onze	positive	0	0	0	0	0	0	9729
-1707	TWELVE	douze	positive	0	0	0	0	0	0	5332
-1710	TWENTY	vingt	positive	0	0	0	0	0	0	13969
-1712	OATH	serment	positive	0	0	0	0	0	0	1414
-1719	BURY	enterrer	negative	0	1	1	0	0	0	5915
-1720	SIGN	signe	positive	0	0	0	0	0	0	1417
-1726	WET	humide	negative	0	0	0	0	0	1	7517
-1730	CHEEK	joue	positive	0	0	0	0	0	0	8281
-1732	SKY	ciel	positive	0	0	0	0	0	0	3651
-1735	TEAR (SHRED)	déchirer	negative	0	1	1	1	0	0	4697
-1739	DECORATE	décorer	positive	0	0	0	0	0	0	4730
-174	PROUD	fier	positive	0	0	0	0	0	0	640
-1740	PINE	pin	positive	0	0	1	0	0	0	10388
-1742	TRAVERSE	traverser	positive	0	0	0	0	0	0	13566
-1743	JOIN	unir	positive	0	0	0	0	0	0	13726
-1744	SPLEEN	rate	negative	0	0	1	0	0	0	11318
-1745	HIP	hanche	positive	0	0	0	0	0	0	7339
-1746	BLADDER	vessie	negative	0	0	0	0	0	1	13914
-1747	CUSTOM	tradition	positive	0	0	0	0	0	0	13477
-1749	TAKE	prendre	negative	0	1	0	0	1	0	10780
-175	BLOW (OF WIND)	souffler	negative	0	0	1	0	0	0	12714
-1750	CHOOSE	choisir	positive	0	0	0	0	0	0	3622
-1754	BRACELET	bracelet	positive	0	0	0	0	0	0	3029
-1755	UNDRESS	se déshabiller	positive	0	0	0	0	0	0	12298
-1762	STONE (OF FRUIT)	noyau	positive	0	0	0	0	0	0	9599
-1763	CLUB	club	positive	0	0	0	0	0	0	3754
-1764	OBSCURE	obscur	negative	0	1	1	0	0	0	9636
-1766	FINISH	terminer	positive	1	0	0	0	0	0	1495
-1768	FOAM	écume	positive	0	0	0	0	0	1	506
-1769	AXLE	essieu	positive	0	0	0	0	0	0	6104
-1773	GRAVE	tombe	negative	0	1	1	0	0	0	13373
-1774	STINGY	avare	negative	0	1	1	1	0	1	2564
-1775	TABLE	bureau	positive	0	0	0	0	0	0	3137
-1776	SHAME	honte	negative	0	1	1	1	0	1	7471
-1777	RESEMBLE	ressembler	positive	0	0	0	0	0	0	11739
-1778	APPROACH	approcher	positive	0	0	0	0	0	0	73
-1779	DARE	oser	negative	0	0	0	1	0	0	9816
-178	RIPE	mûr	positive	0	0	0	0	0	0	9352
-1780	BILE	bile	negative	0	0	1	1	0	1	2847
-1781	THUMB	pouce	positive	0	0	0	0	0	0	10675
-1783	PAIN	souffrance	negative	0	1	1	1	0	1	12717
-1784	WANT	vouloir	negative	0	1	1	0	0	0	14065
-1787	LOOM	métier à tisser	negative	0	1	0	0	0	0	9054
-1788	TELEVISION	télévision	positive	0	0	0	0	0	0	13206
-1789	AGE	âge	negative	0	1	1	0	0	0	1889
-179	RIPEN	mûrir	positive	0	0	0	0	0	0	9349
-1791	BUTTERFLY	papillon	positive	0	0	0	0	0	0	9926
-1792	PERJURY	parjure	negative	0	1	0	1	1	0	9995
-1794	FURROW	sillon	negative	0	1	1	0	0	1	12575
-1802	SCREW	vis	positive	0	0	0	1	0	0	13993
-1803	WOOD	bûche	positive	0	0	0	0	0	0	3124
-1806	BEGIN	commencer	positive	0	0	0	0	0	0	3859
-1810	DANGER	danger	negative	0	1	1	0	0	0	4554
-1813	TASTY	délicieux	positive	1	0	0	0	0	0	411
-1814	ACCUSE	accuser	negative	0	1	1	1	0	1	16
-1818	ADJUDICATE	juger	negative	0	0	0	0	0	0	8305
-1819	LOOK	regarder	positive	0	0	0	0	0	0	11506
-1821	BRUSH	brosse	positive	0	0	0	0	0	0	3084
-1823	BORROW	emprunter	positive	0	0	0	0	0	0	5679
-1825	COPPER	cuivre	positive	0	0	0	0	0	0	4504
-1828	ASK (REQUEST)	mendier	negative	0	0	1	0	0	1	8994
-1829	JUMP	sauter	negative	0	1	0	0	0	1	12186
-183	BAKE	cuire	positive	0	0	0	0	0	0	4496
-1831	MEET	rencontrer	positive	0	0	0	0	1	0	11608
-1833	DINNER (SUPPER)	dîner	positive	0	0	0	0	0	0	5128
-1838	NAVEL	nombril	positive	0	0	0	0	0	0	9510
-1839	CRY	pleurer	negative	0	0	1	1	0	0	10486
-1840	BUILD	bâtir	positive	0	0	0	0	0	0	2757
-1841	SUSPECT	soupçonner	negative	0	1	0	0	0	0	12737
-1843	THOUSAND	mille	positive	0	0	0	0	0	0	9131
-1844	BOAT	bateau	positive	0	0	0	0	0	0	2753
-1845	BALL	sphère	positive	0	0	0	0	0	0	12809
-1846	RULE	règle	positive	0	1	0	0	0	0	11526
-1847	SICK	malade	negative	0	1	1	0	0	0	922
-1848	QUARREL	querelle	negative	0	1	1	1	0	1	11113
-185	FIREPLACE	foyer	positive	0	0	0	0	0	0	6820
-1850	COTTON	coton	positive	0	0	0	0	0	0	4286
-1851	POCKET	poche	positive	0	0	0	0	0	0	10518
-1853	DOVE	colombe	positive	0	0	0	0	0	0	3821
-1855	BIRCH	bouleau	negative	0	1	0	1	0	1	2996
-1856	SOFT	doux	positive	0	0	1	0	0	0	483
-1857	CROCODILE	crocodile	negative	0	1	0	0	0	0	4455
-1859	THIRD	troisième	positive	0	0	0	0	0	0	13645
-186	SHIN	tibia	positive	0	0	0	0	0	0	13322
-1860	BEAD	perle	positive	0	0	0	0	0	0	10197
-1862	DONKEY	âne	negative	0	1	0	1	0	1	2109
-1863	AMAZING	incroyable	negative	0	0	0	0	1	0	7795
-1864	HUNGER	faim	negative	0	0	1	0	0	0	6395
-1867	COIN	pièce de monnaie	positive	0	0	0	0	0	0	10359
-1869	BUY	acheter	positive	0	0	0	0	0	0	1761
-1870	ANCHOR	ancre	positive	0	0	0	0	0	0	2108
-1871	CAMEL	chameau	positive	0	0	0	0	0	0	3474
-1875	REGRET	regretter	negative	0	0	1	0	0	0	11538
-1876	REINDEER	renne	positive	0	0	0	0	0	0	11627
-1879	DANCE	danser	positive	0	0	0	0	0	0	4560
-1884	HARD	dur	negative	0	1	1	1	0	1	5382
-1888	PAIR	paire	positive	0	0	0	0	0	0	9872
-1889	ARSON	incendie volontaire	negative	0	1	0	1	0	0	7743
-1890	BELIEVE	croire	positive	0	0	0	0	0	0	4456
-1892	TOUCH	toucher	positive	0	0	1	0	0	0	13423
-1894	ASHAMED	honteux	negative	0	1	1	1	0	1	740
-1895	CLOTHES	vêtement	positive	0	0	0	0	0	0	13916
-1897	HELP	aider	positive	0	0	0	0	0	0	1919
-190	MOW	récolter	positive	0	0	0	0	0	0	11399
-1901	SHOVEL	pelle	positive	0	0	0	0	0	0	10123
-1902	BETRAY	trahir	negative	0	0	1	1	1	1	13487
-1903	SWELLING	enflure	negative	0	1	0	0	0	1	5856
-1904	DROWN	se noyer	negative	0	1	1	0	0	0	12343
-1905	EAGLE	aigle	positive	0	0	0	0	0	0	1920
-1906	SOUR	aigre	negative	0	0	0	0	0	1	1921
-1909	SHAKE	secouer	negative	0	1	0	0	0	0	12421
-1914	DEBT	dette	negative	0	0	1	0	0	0	5046
-1917	TIE	lier	positive	0	0	0	0	0	0	8523
-1918	MANE	crinière	positive	0	0	0	0	0	0	4441
-1920	DREAM (SOMETHING)	rêver	positive	1	0	0	0	0	0	11800
-1922	LAND (DESCEND)	débarquer	positive	0	0	0	0	0	0	4651
-1923	ROUGH	rugueux	negative	0	1	0	0	0	0	11959
-1924	VEIN	veine	positive	0	0	0	0	0	1	13834
-1929	STUDY	étudier	positive	0	0	0	0	0	0	6206
-1932	GUESS	deviner	positive	0	0	0	0	1	0	5060
-1934	BEGGAR	mendiant	negative	0	0	1	0	0	0	967
-1936	DEER	cerf	positive	0	0	0	0	0	0	3439
-1938	FORTRESS	château	positive	0	0	0	0	0	0	3543
-194	FAMILY	famille	positive	0	0	0	0	0	0	6495
-1941	SOLDIER	soldat	positive	0	0	1	1	0	0	12640
-1944	GOD	dieu	positive	0	1	0	0	0	0	5104
-1945	IDOL	idole	positive	1	0	0	0	0	0	7570
-1949	BEDBUG	punaise	negative	0	0	0	0	0	0	11051
-195	MAT	natte	positive	0	0	0	0	0	0	9405
-1961	NECKLACE	collier	positive	0	0	0	0	0	0	3815
-1962	ROAST (SOMETHING)	rôtir	negative	0	0	0	0	0	0	11912
-1963	IMMEDIATELY	immédiatement	positive	0	0	0	0	1	0	7610
-1964	ALONE	seul	negative	0	1	1	1	0	1	12535
-1967	CALENDAR	calendrier	positive	0	0	0	0	0	0	3204
-1971	FAN (OBJECT)	éventail	positive	0	0	0	0	0	0	6229
-1979	CHISEL	burin	negative	0	1	0	1	0	0	3140
-1981	WIDOWER	veuf	negative	0	0	1	0	0	0	13921
-1983	SNORE	ronfler	negative	0	0	0	1	0	1	11900
-1986	DISEASE	maladie	negative	0	1	1	1	0	1	8751
-1989	CALF	veau	positive	0	0	1	0	0	0	13819
-1990	BECOME	devenir	positive	0	0	0	0	0	0	5055
-1991	INTESTINES	intestin	negative	0	0	0	0	0	1	8117
-1996	GET TIRED	fatiguer	negative	0	0	1	1	0	0	6525
-1997	PRESERVE	préserver	positive	1	0	0	0	0	0	1213
-2	DUST	poussière	negative	0	0	0	0	0	1	10715
-2001	PAINTING	peindre	positive	0	0	0	0	0	0	10112
-2003	FLOW	couler	negative	0	1	1	0	0	1	4304
-2005	MASK	masque	negative	0	1	0	0	0	0	8878
-2006	FILL	remplir	positive	0	0	0	0	0	0	11598
-2008	RESCUE	sauver	positive	0	0	0	0	0	0	12193
-2009	DOG	chien	positive	0	0	0	0	0	0	3603
-2012	COLLAR	col	positive	0	0	0	0	0	0	3795
-2013	BAIT	appât	negative	0	1	0	0	1	0	2208
-2015	MAKE DRY	sécher	negative	0	0	0	0	0	0	12414
-2016	JEALOUSY	jalousie	negative	0	1	1	1	0	1	8222
-2017	MIX	mélanger	positive	0	0	0	0	0	0	965
-2020	PLAINTIFF	plaignant	negative	0	0	1	0	0	0	1164
-2022	ADMIT	admettre	positive	0	0	0	0	0	0	1814
-2023	CROWD	foule	negative	0	1	0	1	1	1	6794
-2045	COLUMN	colonne	positive	0	0	0	0	0	0	3829
-2052	BUCKET	seau	positive	0	0	0	0	0	0	12409
-2058	STOOL	tabouret	positive	0	0	0	0	0	0	13115
-2071	LAY (VERB)	coucher	negative	0	0	0	0	0	0	4292
-2075	BROOD (VERB)	couver	positive	0	0	0	0	0	0	4368
-2099	CHILD	enfant	positive	1	0	0	0	0	0	5848
-21	TASTE (SOMETHING)	goûter	positive	0	0	0	0	0	0	7153
-210	LIFE	vie	positive	1	0	0	0	0	0	13944
-2102	BURN	brûler	negative	0	1	0	1	0	0	3102
-2114	BELLY OR STOMACH	abdomen	positive	0	0	0	0	0	0	1660
-212	FIELD	champ	positive	0	0	0	0	0	0	3475
-213	FIN	nageoire	positive	0	0	0	0	0	0	9386
-2134	RAISE (BRING UP)	élever	positive	0	0	0	0	0	0	5569
-2135	TRADE OR BARTER	échange	positive	0	0	0	0	0	0	5422
-215	LIE DOWN	se coucher	positive	0	0	0	0	0	0	12276
-216	MOVIE	film	positive	0	0	0	0	0	0	6639
-2189	DUGOUT	pirogue	positive	0	0	0	0	0	0	10415
-2190	TASTE	goût	positive	0	0	1	0	0	1	7151
-2192	REJOICE	se réjouir	positive	0	0	0	0	1	0	12379
-223	THRESHING-FLOOR	aire	positive	0	0	0	0	0	0	1934
-2239	DENSE	dense	positive	0	0	0	0	0	0	4878
-224	MORTAR	mortier	negative	0	1	0	1	0	0	9280
-2243	REPAIR	réparer	positive	0	0	0	0	0	0	11647
-2244	METAL	métal	positive	0	0	0	0	0	0	9037
-2246	BELL	cloche	positive	0	0	0	0	0	0	3744
-2247	CATERPILLAR	chenille	negative	0	0	0	0	0	1	3579
-2252	PATH	sentier	positive	0	0	0	0	0	0	1409
-2259	FLESH	chair	negative	0	0	0	0	0	1	3457
-227	FISH	poisson	positive	0	0	0	0	0	0	10548
-2271	THINK	penser	positive	0	0	0	0	0	0	10151
-2273	LEECH	sangsue	negative	0	0	0	0	0	1	12091
-228	CARVE	sculpter	positive	0	0	0	0	0	0	12247
-2284	CLEARING	clairière	positive	0	0	0	0	0	0	3699
-2291	VOLCANO	volcan	negative	0	1	0	0	1	0	14039
-2295	SUNSET	coucher du soleil	positive	0	0	0	0	0	0	4294
-2296	SUNRISE	lever du soleil	positive	0	0	0	0	0	0	8503
-2298	VIRGIN	vierge	negative	0	1	1	0	0	0	13951
-2299	STRAW	paille	positive	0	0	0	0	0	0	9868
-23	RYE	seigle	positive	0	0	0	0	0	0	12449
-231	SHAVE	raser	negative	0	0	0	0	0	0	1283
-2316	FREE	libre	positive	1	0	0	0	0	0	8517
-2318	CHESTNUT	châtaigne	positive	0	0	0	0	0	0	3540
-2334	MELT	fondre	negative	0	0	0	0	0	0	6747
-234	PADDLE	pagaie	positive	0	0	0	0	0	0	9856
-2343	STEEL	acier	positive	0	0	0	0	0	0	1766
-2348	CRAB	crabe	negative	0	1	0	0	0	1	4378
-2349	SHRIMP	crevette	negative	0	0	0	0	0	0	4430
-2354	CRICKET	cricket	positive	0	0	0	0	0	0	4437
-2366	ONION	oignon	negative	0	0	0	0	0	1	9696
-2368	GARLIC	ail	negative	0	0	0	0	0	1	1927
-2374	DREAM	songe	positive	1	0	0	0	0	0	12680
-239	FLOWER	fleur	positive	1	0	0	0	0	0	6686
-2393	JOURNEY	voyage	positive	0	1	0	0	1	0	14068
-24	PRAY	prier	positive	0	1	0	0	1	0	10842
-240	ELECTION	élection	positive	0	0	0	0	0	0	5557
-2401	PICTURE	tableau	positive	0	0	0	0	0	0	13109
-2403	TOY	jouet	positive	1	0	0	0	0	0	8286
-2408	CAKE	gâteau	positive	0	0	0	0	0	0	6993
-2409	BROWN	brun	positive	0	0	0	0	0	0	3109
-241	TREE STUMP	souche	positive	0	0	0	0	0	1	12702
-2410	GOOD-LOOKING	joli	positive	0	0	0	0	0	0	8275
-2411	HURT (SOMEBODY)	blesser	negative	0	1	1	1	0	1	2892
-2412	THANK (SOMEBODY)	remercier	positive	1	0	0	0	0	0	14125
-2427	FUTURE	avenir	positive	0	0	0	0	0	0	2583
-2429	LOGIC	logique	positive	0	0	0	0	0	0	8620
-2433	THEORY	théorie	positive	0	0	0	0	0	0	13310
-2434	TRAGEDY	tragédie	negative	0	1	1	0	1	0	13485
-2435	UNIVERSITY	université	positive	0	0	0	0	0	0	13739
-244	LEFT	gauche	negative	0	1	0	0	0	1	6995
-2440	PINEAPPLE	ananas	positive	0	0	0	0	0	0	2095
-245	BROOM	balai	positive	0	0	0	0	0	0	2669
-2468	BAG	sac	positive	0	0	0	1	0	0	12021
-2469	AGAINST	contre	negative	0	0	0	1	0	0	4174
-2471	LADY	madame	positive	0	0	0	0	0	0	8702
-2475	MALE GOAT	bouc	negative	0	0	0	0	0	0	2968
-2486	HIDE	se cacher	negative	0	1	1	0	0	0	1393
-249	FOG	brouillard	negative	0	1	1	0	0	0	3087
-25	DIRT	saleté	negative	0	0	0	0	0	1	12055
-250	LIGHT (COLOR)	clair	positive	0	0	0	0	0	0	3696
-2504	DIFFERENT	différent	negative	0	0	0	0	0	0	5110
-2506	LOOSE	lâche	negative	0	1	1	1	0	1	8370
-251	SHARPEN (SOMETHING)	aiguiser	positive	0	1	0	1	0	0	42
-2524	JOY	joie	positive	1	0	0	0	0	0	8271
-2526	POWER	puissance	positive	0	0	0	0	0	0	11043
-2527	ABILITY	aptitude	positive	0	0	0	0	0	0	2247
-2531	BROAD	vaste	positive	0	0	0	0	0	0	13814
-2534	DEPTH	profondeur	negative	0	1	0	0	0	0	10914
-2541	MIRACLE	miracle	positive	0	0	0	0	1	0	9160
-2546	BORDER	limite	negative	0	0	0	0	0	0	896
-2547	CITY	cité	positive	0	0	0	0	0	0	3686
-2548	BARREL	tonneau	positive	0	0	0	0	0	0	13394
-2549	VEHICLE	véhicule	positive	0	0	0	0	0	0	13829
-255	SERVANT	serviteur	positive	0	0	0	0	0	0	12530
-2554	PRINCE (RULER)	prince	positive	0	0	0	0	0	0	10849
-2558	BREAK (CLEAVE)	casser	negative	0	1	0	0	1	0	3349
-256	FOOD	alimentation	positive	0	0	0	0	0	0	1970
-2569	BUTCHER	boucher	negative	0	1	1	1	1	0	2972
-2575	DO OR MAKE	faire	positive	0	0	0	0	0	0	6396
-2578	PENCIL	crayon	positive	0	0	0	0	0	0	4396
-258	CALM	calme	positive	0	0	0	0	0	0	191
-2584	BENCH	banc	positive	0	0	0	0	0	0	2690
-2587	DARTS	fléchette	negative	0	1	0	0	0	0	6682
-2588	GLOBE	globe	positive	0	0	0	0	0	0	7101
-2597	HARP	harpe	positive	0	0	0	0	0	0	7352
-26	UNPLEASANT	désagréable	negative	0	0	1	0	0	1	4947
-2603	ACCORDION	accordéon	positive	0	0	0	0	0	0	1736
-2606	COMPASS	boussole	positive	0	0	0	0	0	0	3014
-2617	BULB	bulbe	negative	0	0	0	0	0	1	3130
-2619	CARD	carte	positive	0	0	0	0	0	0	3334
-2621	CURTAIN	rideau	positive	0	0	0	0	0	0	11843
-2623	FLAG	drapeau	positive	0	0	0	0	0	0	5343
-2624	FRAME	cadre	positive	0	0	0	0	0	0	3180
-2626	NERVE	nerf	positive	0	0	0	0	0	0	9464
-2627	ORANGE (FRUIT)	orange	positive	0	0	0	0	0	0	9764
-2630	WHIP	fouet	negative	0	1	0	1	0	0	6788
-2631	WIRE	câble	positive	0	0	0	0	1	0	182
-2648	HAIR (HEAD)	cheveu	positive	0	0	0	0	0	0	3593
-265	FOWL	volaille	positive	0	1	0	0	0	0	14034
-2651	BE IGNORANT	ignorant	negative	0	0	1	0	0	1	7578
-2657	LADLE	louche	negative	0	1	1	0	0	0	8646
-2658	COAL	charbon	negative	0	1	1	0	0	1	3506
-266	SCALE	écaille	positive	0	0	0	0	0	0	5409
-2666	SOLE (FOOT)	plante du pied	negative	0	0	0	0	0	1	10451
-2668	SKELETON	squelette	negative	0	1	1	0	0	0	12831
-267	NIT	lente	negative	0	0	1	0	0	1	8483
-27	AIR	air	negative	0	0	0	0	0	1	1936
-2704	FADE (LOOSE COLOR)	pâlir	negative	0	0	1	0	0	0	1091
-271	SAUCER	soucoupe	positive	0	0	0	0	0	0	12706
-2715	DESPISE	mépriser	negative	0	0	0	1	0	1	9012
-274	KNEAD	pétrir	positive	0	0	0	0	0	0	10281
-275	PEEL	peler	negative	0	0	0	0	0	0	10120
-2765	CHERRY	cerise	positive	0	0	0	0	0	0	3441
-277	SPINDLE	fuseau	positive	0	0	0	0	0	0	6919
-2783	SCALES (MEASURE INSTRUMENT)	balance	positive	0	0	0	0	0	0	2670
-2818	FORD (CROSSING)	gué	positive	0	0	0	0	0	0	7279
-2819	GRASSLAND	pâturage	positive	0	0	0	0	0	0	10077
-2826	LIE (FALSEHOOD)	mensonge	negative	0	0	1	1	0	1	8998
-2830	OYSTERS	huître	negative	0	0	0	0	0	1	7507
-2837	SWAN	cygne	positive	0	0	0	0	0	0	4530
-284	HOE	houe	negative	0	1	0	0	0	0	7499
-2856	CHANGE (SOMETHING)	altérer	negative	0	0	1	1	0	1	2011
-2866	DROP (SOMETHING)	laisser tomber	negative	0	1	1	0	0	0	8388
-2879	SOUND (OF INSTRUMENT OR VOICE)	son	positive	0	0	0	0	0	1	12674
-288	FORGE	forger	positive	0	0	0	0	0	0	6759
-2880	HALT (STOP)	arrêter	negative	0	1	0	0	1	0	2316
-2882	ADD	ajouter	positive	0	0	0	0	0	0	1942
-289	MOLD	mouler	positive	0	0	0	0	0	0	9308
-2896	CAUSE TO (LET)	laisser	negative	0	0	0	0	0	0	8385
-2900	PROTECT	protéger	positive	0	0	0	0	0	0	10990
-2904	RINSE	rincer	positive	0	0	0	0	0	0	11857
-2907	ROT	pourrir	negative	0	0	1	0	0	1	10698
-2909	PREPARE	préparer	positive	0	0	0	0	0	0	1212
-2912	FORWARD	en avant	positive	0	0	0	0	0	0	528
-2930	BOSS	patron	positive	0	0	0	0	0	0	10072
-2931	BUSINESS	affaire	positive	0	0	0	0	0	0	31
-2933	CONVERSATION	conversation	positive	0	0	0	0	0	0	4205
-2935	CURRENT (STREAM)	courant	positive	0	0	0	0	0	0	4341
-2937	FAIRY TALE	conte	positive	1	0	0	0	0	0	308
-2940	GATE	portail	positive	0	0	0	0	0	0	10614
-2941	HAPPINESS	bonheur	positive	1	0	0	0	0	0	2944
-2946	CRADLE	berceau	positive	0	0	0	1	0	0	2804
-2948	GAP (DISTANCE)	brèche	negative	0	1	0	0	0	0	3054
-2953	SLEEVE	manche	positive	0	0	0	0	0	0	8785
-2954	SLICE	trancher	negative	0	1	0	0	0	0	13506
-2955	STATE (POLITICS)	état	positive	0	0	0	0	0	0	6138
-2972	SLEEP (STATE)	sommeil	positive	0	0	0	0	0	0	12667
-2977	WORKER	ouvrier	positive	0	0	0	0	0	0	1090
-2978	DISTANCE	distance	negative	0	0	0	0	0	0	5207
-2982	GIFT	don	positive	0	0	0	0	1	0	5277
-2984	HEAP	tas	positive	0	0	0	0	0	1	13171
-2991	SKI	ski	positive	0	0	0	0	0	0	12608
-2996	WEALTH	fortune	positive	0	0	0	0	1	0	6779
-3	BRAVE	courageux	positive	0	1	0	0	0	0	340
-300	RATTLE	hochet	negative	0	1	0	0	1	0	7447
-3002	PRECIOUS	précieux	positive	1	0	0	0	0	0	1204
-3003	SOLID	solide	positive	0	1	1	0	1	0	12646
-302	CLAN	clan	positive	0	0	0	0	0	0	3704
-3028	GRAVEL	gravier	negative	0	0	0	0	0	0	7210
-304	PREACH	prêcher	positive	0	0	0	0	0	0	10735
-3050	SEEDLING	semis	positive	0	0	0	0	0	0	12468
-3055	SWINDLE	tricher	negative	0	0	1	1	1	1	13614
-3064	RUST	rouille	negative	0	1	1	0	0	1	11929
-3065	SADDLE	selle	positive	0	0	0	0	0	0	12457
-307	HAWK	faucon	negative	0	1	0	0	0	0	6528
-3083	BALLOON	ballon	positive	0	0	0	0	0	0	2683
-3086	COMPUTER	ordinateur	positive	0	0	0	0	0	0	9769
-3088	ENVELOPE	enveloppe	positive	0	0	0	0	0	0	5962
-3089	GIRAFFE	girafe	positive	0	0	0	0	0	0	7075
-3090	GUITAR	guitare	positive	0	0	0	0	0	0	7302
-3091	LEMON	citron	negative	0	0	0	0	0	1	3689
-3094	PAINTBRUSH	pinceau	positive	0	0	0	0	0	0	10393
-3096	RACKET	raquette	negative	0	1	0	0	0	0	11305
-3099	SOFA	canapé	positive	0	0	1	0	0	0	3243
-31	PAN	casserole	positive	0	0	0	0	0	0	3354
-3101	SWING	balançoire	positive	0	0	0	0	0	0	2672
-3102	TANK	réservoir	positive	0	0	0	0	0	0	11706
-3104	THERMOMETER	thermomètre	positive	0	0	0	0	0	0	13316
-3105	UMBRELLA	parapluie	positive	0	0	0	0	0	0	9965
-3107	WHISTLE (INSTRUMENT)	sifflet	positive	0	0	0	0	0	0	12558
-3116	HATCH (OUT)	éclore	positive	0	0	0	0	0	0	5456
-3138	STRAWBERRY	fraise	positive	0	0	0	0	0	0	6834
-3140	VEST	gilet	positive	0	0	0	0	0	0	7072
-3141	TAMBOURINE	tambourin	negative	0	0	0	0	0	0	13145
-3144	GORILLA	gorille	negative	0	1	0	1	0	0	7135
-3172	SCABIES	gale	negative	0	1	0	0	0	1	6948
-3181	MUSTARD	moutarde	negative	0	0	0	0	0	0	9320
-319	LICK	lécher	negative	0	0	0	0	0	1	8453
-32	EARWAX	cérumen	negative	0	0	0	0	0	1	3446
-320	LAME	boiteux	negative	0	0	1	0	0	0	158
-3202	CANNON	canon	negative	0	1	0	1	0	0	3259
-3204	INSULT	insulter	negative	0	1	1	1	0	1	8044
-3206	ELF OR FAIRY	fée	positive	0	0	0	0	0	0	6555
-321	CHEW	mâcher	negative	0	0	0	0	0	1	8694
-3212	HOPE (SOMETHING)	espérer	positive	0	0	0	0	0	0	6088
-3213	HIRE OR RENT	louer	positive	0	0	0	0	0	0	8647
-323	FAT (ORGANIC SUBSTANCE)	graisse	negative	0	0	1	0	0	1	7175
-3230	DECEIVE	tromper	negative	0	0	1	0	0	1	13648
-3237	ALLOW OR PERMIT	permettre	positive	0	0	0	0	0	0	1128
-3251	MOLD (GET ROTTEN)	moisissure	negative	0	0	0	0	0	1	9217
-3255	POINT (POINTED END)	pointe	positive	0	0	0	0	0	0	1181
-327	PONCHO	poncho	positive	0	0	0	0	0	0	10582
-3274	ENCIRCLE	entourer	positive	0	0	0	0	0	0	5927
-3276	SUNSHINE	lumière du soleil	positive	1	0	0	0	0	0	8666
-3283	CAGE	cage	negative	0	1	1	0	0	0	3185
-3284	GRAVEYARD	cimetière	negative	0	1	1	0	0	0	3661
-33	NETTLE	ortie	negative	0	0	1	1	0	1	9810
-3302	QUARREL (VERB)	débattre	positive	0	0	0	0	0	0	4655
-3333	BELIEF (RELIGIOUS)	croyance	positive	0	0	0	0	0	0	4479
-3336	FUNERAL	funérailles	negative	0	0	1	0	0	0	6913
-3357	CUPBOARD	placard	positive	0	0	0	0	0	0	10425
-336	PADLOCK	cadenas	negative	0	1	0	0	0	0	3173
-3375	PATIENT (SICK PERSON)	patient	negative	0	1	1	0	0	0	10058
-3377	EMPEROR	empereur	positive	0	0	0	0	0	0	5654
-338	RAKE	râteau	negative	0	0	0	0	0	0	11320
-341	SICKLE	faucille	negative	0	1	0	0	0	0	6527
-3425	JOKE	blague	positive	1	0	0	0	0	0	2878
-343	VINE	vigne	positive	0	0	0	0	0	0	13956
-345	SAP	sève	positive	0	0	1	0	0	0	12536
-3456	CRAWL OR CREEP	ramper	negative	0	0	1	0	0	1	11285
-3458	SILENCE	silence	negative	1	0	0	0	0	0	12571
-3460	BEACH	plage	positive	1	0	0	0	0	0	10429
-3466	DANGEROUS	dangereux	negative	0	1	1	1	1	0	375
-3467	HELP (ASSISTANCE)	aide	positive	0	0	0	0	0	0	1918
-3468	KINDNESS	gentillesse	positive	0	0	0	0	0	0	7049
-3469	LEVEL	niveau	positive	0	0	0	0	0	0	9492
-3472	DANCE (MOVEMENT)	danse	positive	0	0	0	0	0	0	4559
-353	STRIKE	frapper	negative	0	1	0	0	1	0	6843
-3534	BEG	supplier	negative	0	0	1	0	0	0	1473
-355	CUT DOWN	abattre	negative	0	1	1	1	1	0	1656
-3552	GREET	saluer	positive	1	0	0	0	0	0	12069
-357	HANG UP	accrocher	negative	0	1	0	0	1	0	1742
-359	POTTER	potier	positive	0	0	0	0	0	0	10671
-360	FAN (ACTION)	éventer	positive	0	0	0	0	0	0	6230
-3608	WARRIOR	guerrier	negative	0	1	0	1	0	0	721
-3614	PANT	haleter	negative	0	1	1	0	1	0	7329
-3617	STUMBLE	trébucher	negative	0	1	0	0	1	0	13569
-3618	STAMP	timbre	positive	0	0	0	0	0	0	13332
-3622	BURN (INJURY)	brûlure	negative	0	1	0	0	0	0	3105
-3624	LEPROSY	lèpre	negative	0	1	1	0	0	1	8487
-3627	SURPRISE (SOMEBODY)	surprendre	negative	0	1	0	0	1	0	1481
-3628	HONOR (SOMEBODY)	honneur	positive	0	0	0	0	0	0	7468
-3629	HESITATE	hésiter	negative	0	1	1	0	0	0	7412
-363	DWELL (LIVE, RESIDE)	habiter	positive	0	0	0	0	0	0	7315
-3631	PRETEND	faire semblant	negative	0	0	0	1	0	1	6453
-3632	GENEROUS	généreux	positive	0	0	0	0	0	0	695
-3635	ADULT	adulte	positive	0	0	0	0	0	0	1838
-3638	ASSEMBLE (GET TOGETHER)	se rassembler	positive	0	0	0	0	0	0	12373
-3639	AVOID	éviter	negative	0	1	0	0	0	1	6237
-364	SMEAR	enduire	positive	0	0	0	0	0	0	538
-3641	SLANDER	calomnier	negative	0	1	1	1	0	1	3213
-3642	COMPLAIN	se plaindre	negative	0	0	1	1	0	0	12351
-3644	AGREEMENT	accord	positive	0	0	0	0	0	0	1737
-3646	PROVERB	proverbe	positive	0	0	0	0	0	0	11002
-3647	TICKLE (SOMEBODY)	chatouiller	positive	0	0	0	0	1	0	3548
-3648	SERVE (SOMEONE)	servir	negative	0	0	0	0	0	0	12528
-3649	PUNISH	punir	negative	0	1	1	1	0	0	1253
-365	SPLASH	éclabousser	negative	0	0	0	0	1	0	5440
-3652	FERMENT	fermenter	negative	0	0	0	0	0	1	6582
-3653	COOKING POT	marmite	positive	0	0	0	0	0	0	8856
-3657	GRANARY	grange	positive	0	0	0	0	0	0	7193
-3658	BELLOWS	soufflet	negative	0	0	0	1	0	0	12716
-3659	POLISH (SOMETHING)	polir	positive	0	0	0	0	0	0	1183
-366	LIMP	boiter	negative	0	0	1	0	0	0	2930
-3664	INHERIT	héritier	positive	0	0	0	0	0	0	7402
-3665	TRAVEL	voyager	positive	1	0	0	0	0	0	14069
-3666	WANDER	errer	negative	0	1	1	0	0	0	6060
-3669	LOAD (SOMETHING)	charger	negative	0	1	1	0	0	0	3512
-367	RIDE	chevaucher	positive	0	0	0	0	0	0	3591
-3673	MOURNING	deuil	negative	0	0	1	0	0	0	5047
-3674	ANTELOPE	antilope	positive	0	0	0	0	0	0	2170
-3675	ZEBRA	zèbre	positive	0	0	0	0	0	0	14101
-3682	PERCH (OF BIRD)	se percher	positive	0	0	0	0	0	0	12348
-3684	PECK	picorer	negative	0	0	0	1	0	0	10354
-3687	DESERT	désert	negative	0	1	1	1	0	1	4960
-3689	BUBBLE	bulle	positive	0	0	0	0	0	0	3133
-369	OWE	devoir	positive	0	0	0	0	0	0	5065
-3695	MOVEMENT	geste	positive	0	0	0	0	0	0	7064
-3709	BRILLIANT	brillant	positive	0	0	0	0	0	0	174
-3711	TIE (NOUN)	cravate	positive	0	0	0	0	0	0	4395
-372	POINTED	pointu	negative	0	1	0	0	0	0	10543
-3729	LETTUCE	laitue	positive	0	0	0	0	0	0	8393
-3745	CRANE (DEVICE)	grue	positive	0	0	0	0	0	0	7277
-3746	VASE	vase	negative	0	1	0	0	0	1	13812
-3747	SHAPE	forme	positive	0	0	0	0	0	0	658
-377	LOUD	bruyant	negative	0	1	0	1	1	0	3122
-378	PINCH	pincer	negative	0	1	0	1	0	0	10396
-3780	PET	animal de compagnie	negative	0	0	0	0	0	0	2130
-3797	OSTRICH	autruche	negative	0	1	0	0	0	0	2541
-38	SPREAD OUT	étendre	negative	0	1	1	1	0	1	573
-3808	JUNGLE	jungle	negative	0	1	0	0	0	0	8309
-381	BLAME	blâme	negative	0	0	0	1	0	1	2881
-383	MASTER	maître	positive	0	0	0	0	0	0	8734
-3847	INTEREST (FEELING)	intérêt	positive	0	0	0	0	0	0	8085
-385	RESPECT (SOMEBODY)	respecter	positive	0	0	0	0	0	0	11730
-3855	ITCH (CAUSE ITCHING OR FEEL ITCHY)	démanger	negative	0	0	0	1	1	0	4840
-3861	FAIL	échouer	negative	0	1	1	0	0	0	5439
-387	SLING	fronde	negative	0	1	0	1	0	0	6891
-390	PUNISHMENT	punition	negative	0	1	1	1	0	1	11055
-391	BLESS	bénir	positive	0	0	0	0	0	0	2800
-392	MAGIC	sorcellerie	negative	0	1	1	1	1	0	12690
-398	PIERCE	percer	negative	0	1	0	1	0	0	10168
-402	SURPASS	dépasser	negative	0	0	1	0	0	1	4888
-404	ALCOHOL (FERMENTED DRINK)	alcool	negative	0	0	0	0	0	0	1955
-41	IGNORE	ignorer	negative	0	0	1	0	0	1	7577
-410	YAM	igname	positive	0	0	0	0	0	0	7573
-418	FOR A LONG TIME	longue	positive	0	0	0	0	0	0	904
-419	SEVERE	méchant	negative	0	1	1	1	0	1	8933
-430	TWIST	tordre	negative	0	1	0	1	0	0	13406
-457	BLIND PERSON	aveugle	negative	0	1	0	0	0	0	2593
-474	DRESS	robe	positive	0	0	0	0	0	0	11880
-476	CUP	tasse	positive	0	0	0	0	0	0	13172
-478	LIP	lèvre	positive	0	0	0	0	0	0	8505
-479	GROW	grandir	positive	0	0	0	0	0	0	7192
-48	BE SILENT	silencieux	negative	0	1	1	0	0	0	1418
-480	PLATE	assiette	positive	0	0	0	0	0	0	2390
-481	DISH	vaisselle	positive	0	0	0	0	0	0	13781
-482	NOBLE	noble	negative	0	0	0	0	0	0	1030
-484	CONDEMN	condamner	negative	0	1	1	0	0	0	3999
-485	DISAPPEAR	disparaître	negative	0	1	0	0	0	0	5174
-486	MINISTER	ministre	positive	0	0	0	0	0	0	9154
-487	SHY	timide	negative	0	1	1	0	0	0	13334
-488	MANNER	manière	negative	0	0	0	1	0	1	933
-49	REFUSE	refuser	negative	0	0	0	0	0	0	11499
-490	DESCENDANTS	descendant	positive	0	0	0	0	0	0	434
-495	REVENGE	se venger	negative	0	1	0	1	1	0	12407
-497	SCAR	cicatrice	negative	0	1	1	1	0	1	3647
-499	CURE	guérir	positive	0	0	0	0	0	0	7283
-500	CRUEL	cruel	negative	0	1	1	1	0	1	363
-501	LIFT	soulever	positive	0	0	0	0	0	0	12729
-502	NAIL (TOOL)	clou	negative	0	0	0	0	0	0	3749
-503	FROG	grenouille	negative	0	0	0	0	0	1	7229
-504	LEARN	apprendre	positive	0	0	0	0	1	0	2231
-518	SPARK	étincelle	positive	0	0	0	0	1	0	6153
-519	SPOT	tache	negative	0	1	1	1	0	1	13119
-52	SHIVER	frissonner	negative	0	1	0	0	0	0	6882
-53	SPIRIT	esprit	positive	0	0	0	0	0	0	6093
-539	NEST	nid	positive	0	0	0	0	0	0	9489
-55	WHISPER	chuchoter	negative	0	1	0	0	0	0	3639
-56	BAD LUCK	malheur	negative	0	1	1	0	0	1	8763
-576	DANDRUFF	pellicule	positive	0	0	0	0	0	0	10125
-579	BATTLE	bataille	negative	0	1	1	1	0	0	2750
-580	FUR	fourrure	positive	0	0	0	0	0	0	6816
-581	COME BACK	revenir	positive	0	0	1	0	0	0	11809
-582	LEND	prêter	positive	0	0	0	0	0	0	10823
-584	DIFFICULT	difficile	negative	0	0	1	0	0	0	455
-585	BOOT	botte	positive	0	0	0	0	0	0	2967
-586	GARDEN	jardin	positive	1	0	0	0	0	0	8231
-587	ANT	fourmi	negative	0	1	0	0	0	1	6803
-59	ELECTRICITY	électricité	positive	0	0	0	0	0	0	5560
-590	NAKED	nu	negative	0	1	1	0	0	0	9600
-594	PIECE	pièce	positive	0	0	0	0	0	0	10362
-597	PHYSICIAN	docteur	positive	0	0	0	0	0	0	5245
-6	EARTHQUAKE	tremblement de terre	negative	0	1	1	1	1	0	13579
-600	STRANGE	étrange	negative	0	1	0	0	1	1	577
-601	LIE (MISLEAD)	mentir	negative	0	0	1	1	0	1	9008
-602	HIDE (CONCEAL)	cacher	negative	0	1	1	0	1	0	3166
-603	COAT	manteau	positive	0	0	0	0	0	0	8827
-604	GLASS	verre	positive	0	0	0	0	0	0	13887
-606	GRASS	herbe	negative	0	0	0	0	0	1	7391
-607	GRASSHOPPER	sauterelle	positive	0	1	0	0	0	1	12188
-611	HARVEST	moisson	positive	0	0	0	0	0	0	9218
-612	HEAT	chaleur	positive	0	0	0	0	0	0	3462
-614	HILL	colline	positive	0	0	0	0	0	0	3816
-615	HORSE	cheval	positive	0	0	0	0	0	0	3585
-616	HOSPITAL	hôpital	negative	0	1	1	0	0	0	7472
-617	ICE	glace	negative	0	0	0	0	0	0	7081
-619	ANIMAL	animal	negative	0	1	0	0	0	1	63
-620	INSECT	insecte	negative	0	1	0	0	0	1	8001
-621	IRON	fer	positive	0	0	0	0	0	0	6576
-622	ISLAND	île	positive	0	0	0	0	0	0	7580
-624	LAKE	lac	positive	0	0	0	0	0	0	8368
-625	LAMP	lampe	positive	0	0	0	0	0	0	8401
-627	LEAD (CHEMICAL ELEMENT)	plomb	positive	0	0	0	0	0	0	10496
-628	LEAF	feuille	positive	0	0	0	0	0	0	6601
-629	LEATHER	cuir	positive	0	0	0	0	0	0	4493
-630	LIGHT (RADIATION)	lumière	positive	0	0	0	0	0	0	8664
-634	MEAT	viande	positive	0	0	0	0	0	0	13928
-635	MILK	lait	positive	0	0	0	0	0	0	8389
-637	MOSS	mousse	negative	0	0	0	0	0	1	1006
-638	MOTORCYCLE	moto	positive	0	0	0	0	0	0	9295
-639	MOUNTAIN	montagne	positive	0	0	0	0	0	0	9252
-64	PIN	épingle	positive	0	0	0	0	0	0	6001
-640	MUD	boue	negative	0	0	0	0	0	1	2978
-642	MUSIC	musique	positive	0	0	1	0	0	0	9362
-644	OAK	chêne	positive	0	0	0	0	0	0	3577
-645	OCEAN	océan	positive	0	0	0	0	0	0	9666
-646	ASH	cendre	negative	0	1	1	0	0	1	3403
-647	PAINT (PIGMENTS)	peinture	positive	0	0	0	0	0	0	10115
-648	PAPER	papier	positive	0	0	0	0	0	0	9924
-651	SEAL	phoque	positive	0	0	0	0	0	0	10334
-653	PLANT (VEGETATION)	planter	positive	0	0	0	0	0	0	10452
-655	POISON	poison	negative	0	1	1	1	0	1	10546
-658	RAIN (PRECIPITATION)	pluie	negative	0	0	1	0	0	0	10498
-659	REED	roseau	positive	0	0	0	0	0	0	11907
-660	REEF	récif	positive	0	0	0	0	0	0	11389
-661	RELIGION	religion	positive	0	0	0	0	0	0	11575
-662	BATTERY	batterie	positive	0	0	0	1	0	0	2763
-665	BEE	abeille	negative	0	1	0	1	0	0	1662
-666	RIVER	fleuve	positive	0	0	0	0	0	0	6690
-667	ROAD	chemin	positive	0	0	0	0	0	0	228
-67	EMBERS	braise	negative	0	1	0	0	0	0	3034
-670	ROOT	racine	positive	0	0	0	0	0	0	11232
-671	SAND	sable	negative	0	0	0	0	0	0	12011
-673	SCHOOL	école	positive	0	0	0	0	0	0	5461
-675	FAECES (EXCREMENT)	excrément	negative	0	0	0	0	0	1	6277
-68	TATTOO	tatouage	positive	0	0	0	0	0	0	13176
-681	DESTROY	détruire	negative	0	1	1	1	0	0	5045
-683	PERSON	humain	positive	0	0	0	0	0	0	7510
-684	OWN	posséder	negative	0	1	0	1	0	1	10636
-686	EASY	facile	positive	0	0	0	0	0	0	613
-688	LUNG	poumon	positive	0	0	0	0	0	0	10688
-690	BOTTOM	bas	negative	0	1	1	1	0	0	2735
-691	SEASON	saison	positive	0	0	0	0	0	0	12048
-692	BRING	apporter	positive	0	0	0	0	0	0	2224
-694	GET	obtenir	positive	1	0	0	0	0	0	9654
-695	GO	aller	positive	0	0	0	0	0	0	1978
-698	WISE	sage	positive	0	0	0	0	0	0	12036
-699	SAD	malheureux	negative	0	0	1	1	0	1	927
-7	GATHER	cueillir	positive	1	0	0	0	0	0	4489
-70	BRACKISH	saumâtre	negative	0	0	0	0	0	1	12180
-700	CARRY	porter	positive	0	0	1	0	0	0	10615
-701	SLOW	lent	negative	0	0	1	0	0	1	8481
-702	CATCH	attraper	negative	0	1	0	0	1	0	2475
-704	CLEAN	propre	positive	0	0	0	0	0	0	10972
-705	GO UP (ASCEND)	monter	positive	0	0	0	0	0	0	998
-706	DARK	sombre	negative	0	1	1	0	0	0	1427
-707	REMEMBER	se souvenir	positive	0	0	0	0	0	0	12395
-708	SHINE	luire	positive	0	0	0	0	1	0	8663
-709	TEACH	enseigner	positive	0	0	0	0	0	0	5904
-710	WHEEL	roue	positive	0	0	0	0	0	0	11920
-712	RICH	riche	positive	0	0	1	0	0	1	11839
-713	STEAL	dérober	negative	0	1	1	1	1	0	4937
-714	SEED	graine	positive	0	0	0	0	0	0	7173
-715	SHOUT	crier	negative	0	1	1	1	0	1	4432
-719	FIND	trouver	positive	0	0	0	0	0	0	13673
-72	CLAW	griffe	negative	0	1	0	1	0	0	7238
-720	GOOD LUCK	chance	positive	0	0	0	0	1	0	3479
-722	ATTACK	attaquer	negative	0	1	0	1	1	0	2453
-724	READ	lire	positive	0	0	0	0	0	0	8569
-728	FIRST	premier	positive	1	0	0	0	0	0	1209
-729	DAWN	aube	positive	0	0	0	0	1	0	2499
-730	SNAKE	serpent	negative	0	1	0	0	0	1	12510
-731	BEVERAGE	boisson	positive	0	0	0	0	0	0	2923
-733	EARN	gagner	positive	1	0	0	0	0	0	6936
-738	THING	chose	negative	0	1	0	1	0	1	3628
-74	PUPPY	chiot	positive	0	0	0	0	0	0	3614
-741	DRIVE	conduire	positive	0	0	0	0	0	0	4013
-743	END (OF TIME)	fin	negative	0	1	1	0	0	0	644
-745	SHELF	étagère	positive	0	0	0	0	0	0	6127
-747	BICYCLE	vélo	positive	0	0	0	0	0	0	13838
-749	ENTER	entrer	positive	0	0	0	0	0	0	5933
-753	PUPIL (STUDENT)	étudiant	positive	0	0	0	0	0	0	583
-754	HURRY	se dépêcher	negative	0	1	0	1	1	0	12293
-755	DENY	nier	negative	0	0	0	1	0	0	9485
-756	DEPEND	dépendre	negative	0	0	0	0	0	0	4893
-757	BUTTON	touche	positive	0	0	0	0	0	0	13422
-76	YOUNG MAN	jeune homme	positive	0	0	0	0	0	1	8263
-761	COVER	couvrir	positive	0	0	0	0	0	0	4371
-767	CORPSE	cadavre	negative	0	1	1	0	1	1	3170
-768	LUNCH	déjeuner	positive	0	0	0	0	0	0	4809
-769	ROOF	toit	positive	0	0	0	0	0	0	13366
-77	YOUNG WOMAN	jeune fille	positive	0	0	0	1	0	1	8262
-771	HAT	chapeau	positive	0	0	0	0	0	0	3498
-772	BELT	ceinture	negative	0	1	1	1	0	0	3392
-774	CABBAGE	chou	positive	0	0	0	0	0	0	3629
-775	TRUMPET	trompette	positive	0	0	0	0	0	0	13650
-777	FLUTE	flûte	positive	0	0	0	0	0	0	6722
-781	FEAR (FRIGHT)	crainte	negative	0	1	0	0	0	0	347
-782	DEFEAT	vaincre	positive	1	0	0	0	0	0	13775
-783	VICTORY	victoire	positive	0	0	0	0	0	0	13939
-784	SNOW	neige	positive	0	0	0	0	0	0	9457
-785	STRONG	fort	positive	0	0	0	0	0	0	659
-786	SAILCLOTH	voile	negative	0	1	1	0	0	0	14025
-787	SAIL	naviguer	positive	0	0	0	0	0	0	9424
-788	SOAP	savon	positive	0	0	0	0	0	0	12197
-789	PEOPLE	gens	positive	0	0	0	0	0	0	7046
-79	WASTE	gaspiller	negative	0	0	1	1	0	1	6989
-790	READY	prêt	positive	0	0	0	0	0	0	10820
-791	STRANGER	étranger	negative	0	1	1	0	0	1	578
-792	BOIL (OF LIQUID)	bouillir	negative	0	0	0	0	0	1	2988
-794	PEN	stylo	positive	0	0	0	0	0	0	12911
-795	TROUT	truite	negative	0	0	0	0	0	1	13678
-798	JAW	mâchoire	positive	0	0	0	0	0	0	8699
-799	WRIST	poignet	positive	0	0	0	0	0	0	10532
-8	CURSE	maudire	negative	0	0	0	1	0	0	955
-803	ANKLE	cheville	positive	0	0	0	0	0	0	3594
-804	WOMB	utérus	positive	0	0	0	0	0	0	13754
-809	TROUSERS	pantalon	positive	0	0	0	0	0	0	9911
-810	LOCUST	criquet	negative	0	1	0	0	0	1	4443
-812	SLAVE	esclave	negative	0	1	1	1	0	1	6078
-815	GOVERNMENT	gouvernement	positive	0	1	0	0	0	0	7163
-819	STOMACH	estomac	positive	0	0	0	0	0	1	6115
-82	ANGER	colère	negative	0	1	0	1	0	1	3797
-820	LAMB	agneau	positive	0	0	0	0	0	0	1905
-823	SORCERER	sorcier	negative	0	1	0	0	0	0	12691
-827	ROLL	rouler	negative	0	0	0	0	0	0	11931
-83	FORBID	interdire	negative	0	1	1	1	0	0	8083
-830	SOOT	suie	negative	0	0	0	0	0	1	12970
-833	ENDURE	supporter	negative	0	1	1	0	0	0	1475
-834	BUTTOCKS	fesse	positive	0	0	0	0	0	0	6593
-836	SCREWDRIVER	tournevis	positive	0	0	0	0	0	0	13446
-837	BLUE	bleu	negative	0	1	1	0	0	0	2895
-843	SPIDER	araignée	negative	0	1	0	0	0	1	2254
-846	TIGER	tigre	negative	0	1	0	0	0	0	13329
-848	THIRST	soif	negative	0	0	1	0	1	0	12629
-849	SPRING (OF WATER)	source	positive	0	0	0	0	0	0	12746
-85	GIVE BACK	rendre	positive	0	0	0	0	0	0	11611
-852	PRIEST	prêtre	positive	0	0	0	0	0	0	10828
-853	ALTAR	autel	positive	0	0	0	0	0	0	2520
-854	KETTLE	bouilloire	positive	0	0	0	0	0	0	2989
-855	SEIZE	saisir	negative	0	1	0	1	1	0	1366
-857	STONE	caillou	positive	0	0	0	1	0	0	3191
-861	JUDGE	juge	positive	0	0	0	0	0	0	8304
-862	SUGAR	sucre	positive	0	0	0	0	0	0	12953
-865	FAME	gloire	positive	0	0	0	0	0	0	7103
-867	GLOVE	gant	positive	0	0	0	0	0	0	6963
-868	BANANA	banane	positive	0	0	0	0	0	0	2689
-870	BREATH	haleine	positive	0	0	0	0	0	0	7327
-873	TAX	impôt	negative	0	0	1	1	0	0	7676
-875	SHOEMAKER	cordonnier	positive	0	0	0	0	0	0	4239
-876	ARCH	arche	positive	0	0	0	0	0	0	2263
-877	MASON	maçon	positive	0	0	0	0	0	0	8701
-878	HELL	enfer	negative	0	1	1	1	0	1	5852
-879	COUGH	tousser	negative	0	0	0	0	0	1	13452
-88	BEEHIVE	ruche	negative	0	1	0	1	0	0	11948
-880	REPEAT	répéter	negative	0	0	0	0	0	0	11655
-881	TAILOR	tailleur	positive	0	0	0	0	0	0	13137
-882	PARROT	perroquet	negative	0	0	0	0	0	1	10214
-883	TERMITE	termite	negative	0	0	0	0	0	1	13251
-884	SHARE	partager	positive	0	0	0	0	0	0	10009
-885	OPPOSITE	contraire	negative	0	1	1	1	0	0	4169
-891	TIDE	marée	negative	0	1	0	0	0	0	8845
-892	TIME	temps	positive	0	0	0	0	0	0	13225
-893	TIN (METAL)	étain	positive	0	0	0	0	0	0	6129
-894	TOAD	crapaud	negative	0	0	0	0	0	1	4388
-897	SWALLOW	avaler	positive	0	1	0	0	1	0	2550
-899	PRESIDENT	président	positive	0	0	0	0	0	0	1214
-9	ANNOUNCE	annoncer	positive	0	0	0	0	0	0	2143
-90	INNOCENT	innocent	positive	0	0	0	0	0	0	816
-900	TRAIN	train	positive	0	0	0	0	0	0	13489
-901	ADOBE	adobe	positive	0	0	0	0	0	0	1823
-902	ADULTERY	adultère	negative	0	0	1	1	0	1	1839
-905	BORING	ennuyeux	negative	0	1	1	1	0	1	543
-908	DRUM	tambour	positive	0	0	0	0	0	0	13144
-910	DEATH	mort	negative	0	0	1	0	0	1	9282
-913	CROW	corbeau	negative	0	0	0	1	0	1	331
-914	SCULPTOR	sculpteur	positive	0	0	0	0	0	0	12248
-915	SINK (BASIN)	bassine	positive	0	0	0	0	0	0	2747
-916	LINEN	lin	positive	0	0	0	0	0	0	8550
-917	ORNAMENT	ornement	positive	0	0	0	0	0	0	9799
-92	SPOIL (SOMEBODY OR SOMETHING)	gâcher	negative	0	1	1	1	0	1	6931
-920	GRAPE	raisin	positive	0	0	0	0	0	0	11270
-921	VALLEY	vallée	positive	0	0	0	0	0	0	13785
-923	LOVE	amour	positive	0	0	0	0	0	0	2064
-924	VEGETABLES	légume	positive	0	0	0	0	0	0	8477
-926	RICE	riz	positive	0	0	0	0	0	0	11877
-928	EMBRACE	étreindre	positive	0	0	0	0	1	0	581
-93	DRAW MILK	serrer	negative	0	1	0	1	0	0	12517
-930	VILLAGE	village	positive	0	0	0	0	0	0	13964
-934	BUFFALO	buffle	negative	0	1	0	0	0	0	3128
-935	WAR	guerre	negative	0	1	1	1	0	0	7285
-936	STALLION	étalon	positive	0	0	0	0	0	0	6133
-937	BIRD	oiseau	positive	0	0	0	0	0	0	9697
-938	MARE	jument	positive	0	0	0	0	0	0	8308
-939	HORN (INSTRUMENT)	cor	negative	0	1	0	0	0	0	4234
-941	MEAD	hydromel	positive	0	0	0	0	0	0	7535
-942	HONEY	miel	positive	0	0	0	0	0	0	9116
-945	SPEAR	lance	negative	0	1	1	1	0	0	8404
-946	BLOOD	sang	negative	0	1	1	1	0	1	12083
-947	STREAM	ruisseau	positive	0	0	0	0	0	0	1362
-948	WATER	eau	positive	0	0	0	0	0	0	5396
-950	SEAGULL	mouette	negative	0	1	0	0	0	1	9304
-951	WEAPONS	arme	positive	0	0	0	0	0	0	2301
-952	WEATHER	météo	positive	0	0	0	0	0	0	9044
-953	RAPE	viol	negative	0	1	1	1	0	1	13971
-954	WELL	puits	positive	0	0	0	0	0	0	11044
-956	FLEE	fuir	negative	0	1	1	1	0	1	6905
-957	WHALE	baleine	negative	0	1	0	0	0	0	2677
-958	WILD ANIMAL	bête	negative	0	0	0	1	0	1	144
-960	WIND	vent	positive	0	1	1	1	0	1	13854
-962	WOMAN	femme	positive	0	0	0	0	0	0	6565
-963	BOOK	livre	positive	0	0	0	0	0	0	8600
-964	WOOL	laine	positive	0	0	0	0	0	0	8381
-965	WORLD	monde	positive	0	0	0	0	0	0	9232
-968	ACORN	gland	positive	0	0	0	0	0	0	7091
-969	CIGARETTE	cigarette	negative	0	0	0	0	0	1	3655
-974	TOBACCO	tabac	negative	0	0	0	0	0	1	13104
-977	ARROW	flèche	positive	0	1	0	0	1	0	6681
-978	WAVE	vague	negative	0	1	1	1	1	0	13773
-979	FARMER	fermier	positive	0	0	0	0	0	0	632
-980	HEEL	talon	positive	0	0	0	0	0	0	13142
-981	ELBOW	coude	negative	0	0	0	1	0	0	4297
-983	CONVICT	inculper	negative	0	1	0	1	0	1	7800
-984	WORK (LABOUR)	travailler	positive	0	0	0	0	0	0	13562
-985	VINEGAR	vinaigre	negative	0	1	0	0	0	1	13967
-987	REMAIN	rester	positive	0	0	0	0	0	0	11750
-991	FRY	frire	negative	0	0	0	0	0	1	6879
-992	CLIFF	falaise	negative	0	1	0	0	0	0	6488
-994	BOW	arc	positive	0	0	0	0	0	0	2260
-995	QUIVER (FOR ARROWS)	carquois	negative	0	1	0	0	0	0	3324
-996	DEAF	sourd	negative	0	0	1	0	0	1	12747
-998	PUT	mettre	positive	0	0	0	0	0	0	9061
+10	FIREWOOD	bois de chauffage	positive	1	1	1	1	1	1	2920
+100	FAITHFUL	fidèle	positive	1	1	1	1	1	1	639
+1000	ANXIETY	anxiété	negative	1	1	1	1	1	1	2181
+1001	BLACKSMITH	forgeron	positive	1	1	1	1	1	1	6760
+1002	STATUE	statue	positive	1	1	1	1	1	1	12853
+1004	MUSCLE	muscle	positive	1	1	1	1	1	1	9355
+1005	TWINS	jumeau	positive	1	1	1	1	1	1	8307
+1006	BRICK	brique	positive	1	1	1	1	1	1	3069
+1007	COW	vache	positive	1	1	1	1	1	1	13768
+1008	BULL	taureau	negative	1	1	1	1	1	1	13179
+101	BOAST	se vanter	negative	1	1	1	1	1	1	12405
+1011	BRIDGE	pont	positive	1	1	1	1	1	1	10589
+1012	LATCH	verrou	positive	1	1	1	1	1	1	13889
+1013	FRESHWATER EEL	anguille	negative	1	1	1	1	1	1	2127
+1016	DRIZZLE	bruine	negative	1	1	1	1	1	1	3095
+1017	APPEARANCE	aspect	positive	1	1	1	1	1	1	2361
+1018	MEMORY	mémoire	positive	1	1	1	1	1	1	8979
+102	COMMON COLD (DISEASE)	rhume	negative	1	1	1	1	1	1	11836
+1021	TOWEL	serviette	positive	1	1	1	1	1	1	12525
+1025	WHISTLE	siffler	negative	1	1	1	1	1	1	12557
+1028	YAWN	bâiller	negative	1	1	1	1	1	1	2656
+1032	CITIZEN	citoyen	positive	1	1	1	1	1	1	238
+1033	GRIND	moudre	negative	1	1	1	1	1	1	9303
+1035	GOOD	bon	positive	1	1	1	1	1	1	2938
+1038	TEACHER	professeur	positive	1	1	1	1	1	1	10906
+1039	SHOW	montrer	positive	1	1	1	1	1	1	9257
+1042	CARPENTER	charpentier	positive	1	1	1	1	1	1	3527
+1043	BRAID	tresser	positive	1	1	1	1	1	1	13599
+1044	PILLOW	oreiller	positive	1	1	1	1	1	1	9778
+1045	POET	poète	positive	1	1	1	1	1	1	10527
+1046	SHUT	fermer	positive	1	1	1	1	1	1	6578
+1047	PURSUE	poursuivre	negative	1	1	1	1	1	1	10703
+1048	LINE	ligne	positive	1	1	1	1	1	1	8536
+1049	MOLAR TOOTH	molaire	positive	1	1	1	1	1	1	9220
+1052	LIGHT (WEIGHT)	léger	positive	1	1	1	1	1	1	887
+1053	HUNTER	chasseur	negative	1	1	1	1	1	1	226
+1061	ARMOUR	armure	positive	1	1	1	1	1	1	2303
+1062	LAW	loi	positive	1	1	1	1	1	1	8624
+1063	NEPHEW	neveu	positive	1	1	1	1	1	1	9478
+1064	SHIELD	bouclier	positive	1	1	1	1	1	1	2977
+1068	COURT	tribunal	positive	1	1	1	1	1	1	13611
+1069	GLUE	colle	positive	1	1	1	1	1	1	3806
+1070	BUS	autobus	positive	1	1	1	1	1	1	2527
+1071	HOOK	crochet	positive	1	1	1	1	1	1	4454
+1074	FISHHOOK	hameçon	negative	1	1	1	1	1	1	7338
+1075	TRAP (PITFALL)	piège	negative	1	1	1	1	1	1	10369
+1079	FEEL	ressentir	positive	1	1	1	1	1	1	11741
+108	RUDDER	gouvernail	positive	1	1	1	1	1	1	7161
+1081	BILL	compte	positive	1	1	1	1	1	1	3962
+1084	CALL	appeler	positive	1	1	1	1	1	1	2210
+1085	FOLLOW	suivre	positive	1	1	1	1	1	1	12976
+1087	CONCEIVE	concevoir	positive	1	1	1	1	1	1	277
+1090	BE BORN	naître	positive	1	1	1	1	1	1	9389
+1092	HOPE	espoir	positive	1	1	1	1	1	1	6092
+1095	LET GO OR SET FREE	libérer	positive	1	1	1	1	1	1	8512
+1096	SONG	chanson	positive	1	1	1	1	1	1	3490
+1098	WEIGH	peser	negative	1	1	1	1	1	1	1138
+11	DARKNESS	obscurité	negative	1	1	1	1	1	1	9638
+110	MOTOR	moteur	positive	1	1	1	1	1	1	9290
+1100	COOK (SOMETHING)	cuisiner	positive	1	1	1	1	1	1	4498
+1101	SUFFER	souffrir	negative	1	1	1	1	1	1	12718
+1102	CLIMB	grimper	positive	1	1	1	1	1	1	7250
+1103	SACRIFICE	sacrifice	negative	1	1	1	1	1	1	12033
+1104	NURSE	infirmier	positive	1	1	1	1	1	1	7915
+1105	CAMP	campement	positive	1	1	1	1	1	1	3238
+1107	GO OUT	sortir	positive	1	1	1	1	1	1	12698
+1108	UNCOVER	découvrir	positive	1	1	1	1	1	1	4739
+1109	WOUND	plaie	negative	1	1	1	1	1	1	10434
+1110	SHARK	requin	negative	1	1	1	1	1	1	11698
+1111	CAR	voiture	positive	1	1	1	1	1	1	14028
+1112	SUCCEED	réussir	positive	1	1	1	1	1	1	1347
+1115	SPEECH	discours	positive	1	1	1	1	1	1	5156
+1119	DIVIDE	diviser	negative	1	1	1	1	1	1	5233
+112	TURTLE	tortue	positive	1	1	1	1	1	1	13415
+1121	SECRET	secret	negative	1	1	1	1	1	1	12425
+1122	WAGES	salaire	positive	1	1	1	1	1	1	12050
+1123	PREGNANT	enceinte	positive	1	1	1	1	1	1	5804
+1124	PIPE	tuyau	positive	1	1	1	1	1	1	13703
+1125	BALD	chauve	negative	1	1	1	1	1	1	3564
+1127	SEND	envoyer	positive	1	1	1	1	1	1	555
+1129	PAINFUL	douloureux	negative	1	1	1	1	1	1	485
+113	SHORE	rive	positive	1	1	1	1	1	1	11871
+1132	BEAM	poutre	positive	1	1	1	1	1	1	10716
+1133	MATCH	allumette	positive	1	1	1	1	1	1	2000
+1135	KICK	donner un coup de pied	negative	1	1	1	1	1	1	5291
+1136	RABBIT	lapin	positive	1	1	1	1	1	1	8419
+1137	TENDON	tendon	positive	1	1	1	1	1	1	13227
+1139	LEOPARD	léopard	negative	1	1	1	1	1	1	8486
+1141	PITY	pitié	negative	1	1	1	1	1	1	10420
+1143	OVEN	four	positive	1	1	1	1	1	1	6797
+1144	WITNESS	témoin	positive	1	1	1	1	1	1	13212
+1145	SWAMP	marais	negative	1	1	1	1	1	1	937
+1147	PURE	pur	positive	1	1	1	1	1	1	1254
+1149	ORPHAN	orphelin	negative	1	1	1	1	1	1	9803
+1150	THUNDER	tonnerre	negative	1	1	1	1	1	1	13398
+1153	CATTLE	bétail	positive	1	1	1	1	1	1	2816
+1154	OLIVE	olive	positive	1	1	1	1	1	1	9703
+1155	CAVE	grotte	negative	1	1	1	1	1	1	7272
+1156	OPEN	ouvrir	positive	1	1	1	1	1	1	9835
+1159	FART	péter	positive	1	1	1	1	1	1	10254
+1160	THIEF	voleur	negative	1	1	1	1	1	1	1579
+1162	INTENTION	but	positive	1	1	1	1	1	1	3144
+117	IMITATE	imiter	negative	1	1	1	1	1	1	7604
+1175	GHOST	fantôme	negative	1	1	1	1	1	1	6511
+1176	SPADE	bêche	positive	1	1	1	1	1	1	2782
+1178	NOSTRIL	narine	negative	1	1	1	1	1	1	9393
+118	BEWITCH	ensorceler	negative	1	1	1	1	1	1	5909
+1181	PALM TREE	palmier	positive	1	1	1	1	1	1	9886
+1183	PALM OF HAND	paume	positive	1	1	1	1	1	1	10079
+1184	DIMINISH	diminuer	negative	1	1	1	1	1	1	459
+1185	VULTURE	vautour	negative	1	1	1	1	1	1	13818
+1187	GOOSE	oie	negative	1	1	1	1	1	1	9695
+1188	CHARCOAL	charbon de bois	negative	1	1	1	1	1	1	3507
+1189	ULCER	ulcère	negative	1	1	1	1	1	1	13714
+119	DIVE	plonger	positive	1	1	1	1	1	1	1168
+1190	HARE	lièvre	negative	1	1	1	1	1	1	8533
+1192	THREATEN	menacer	negative	1	1	1	1	1	1	8985
+1197	BABOON	babouin	negative	1	1	1	1	1	1	2631
+1198	MANY	nombreux	positive	1	1	1	1	1	1	9509
+1199	WIFE	épouse	positive	1	1	1	1	1	1	561
+12	MIDDAY	midi	positive	1	1	1	1	1	1	9115
+1200	HUSBAND	époux	positive	1	1	1	1	1	1	6019
+1201	FEATHER	plume	positive	1	1	1	1	1	1	10500
+1202	BIG	grand	positive	1	1	1	1	1	1	7180
+1203	LONG	long	positive	1	1	1	1	1	1	8629
+1204	BARK	écorce	negative	1	1	1	1	1	1	5468
+1205	TONGUE	langue	positive	1	1	1	1	1	1	8414
+1206	BARKING	aboyer	negative	1	1	1	1	1	1	1679
+1207	YOUNG	jeune	positive	1	1	1	1	1	1	8260
+1208	CAT	chat	positive	1	1	1	1	1	1	3537
+1210	HEAVY	lourd	negative	1	1	1	1	1	1	906
+1216	MOTHER	mère	positive	1	1	1	1	1	1	9019
+1217	FATHER	père	positive	1	1	1	1	1	1	1122
+1219	WORM	ver	negative	1	1	1	1	1	1	13864
+122	CART	chariot	positive	1	1	1	1	1	1	3516
+1220	TAIL	queue	negative	1	1	1	1	1	1	11118
+1221	NOSE	nez	positive	1	1	1	1	1	1	9482
+1225	DAY (NOT NIGHT)	jour	positive	1	1	1	1	1	1	8291
+1226	YEAR	année	positive	1	1	1	1	1	1	2135
+1227	BOARD	planche	positive	1	1	1	1	1	1	10441
+1228	EARTH (SOIL)	terre	positive	1	1	1	1	1	1	13257
+1229	OLD	ancien	negative	1	1	1	1	1	1	60
+1230	DIRTY	sale	negative	1	1	1	1	1	1	12052
+1231	NEW	nouveau	positive	1	1	1	1	1	1	1050
+1232	WARM	chaud	positive	1	1	1	1	1	1	3551
+1233	NIGHT	nuit	negative	1	1	1	1	1	1	9609
+1234	SMOOTH	lisse	positive	1	1	1	1	1	1	8574
+124	THORN	épine	negative	1	1	1	1	1	1	6000
+1241	SOME	un peu	positive	1	1	1	1	1	1	13722
+1243	WIDE	large	positive	1	1	1	1	1	1	8424
+1244	THICK	épais	negative	1	1	1	1	1	1	5974
+1245	BUTTER	beurre	positive	1	1	1	1	1	1	2819
+1246	SMALL	petit	negative	1	1	1	1	1	1	10266
+1247	EAR	oreille	positive	1	1	1	1	1	1	9777
+125	SWEAT (SUBSTANCE)	sueur	negative	1	1	1	1	1	1	12957
+1251	BELLY	ventre	positive	1	1	1	1	1	1	13862
+1252	HOUSE	maison	positive	1	1	1	1	1	1	8729
+1256	HEAD	tête	positive	1	1	1	1	1	1	13278
+1257	WING	aile	positive	1	1	1	1	1	1	1928
+1258	FINGERNAIL	ongle	negative	1	1	1	1	1	1	9726
+1259	WEDDING	mariage	positive	1	1	1	1	1	1	8848
+1262	BROTHER	frère	positive	1	1	1	1	1	1	6867
+1264	CHANGE	changer	positive	1	1	1	1	1	1	3488
+1265	HIGH	haut	negative	1	1	1	1	1	1	733
+1267	NARROW	étroit	negative	1	1	1	1	1	1	6200
+127	EXTINGUISH	éteindre	negative	1	1	1	1	1	1	6141
+1272	AUNT	tante	positive	1	1	1	1	1	1	13157
+1273	CANDLE	bougie	positive	1	1	1	1	1	1	2985
+1274	SALT	sel	negative	1	1	1	1	1	1	12455
+1275	ANSWER	répondre	positive	1	1	1	1	1	1	11659
+1276	AUTUMN	automne	negative	1	1	1	1	1	1	2532
+1277	HAND	main	positive	1	1	1	1	1	1	8723
+1278	VOMIT	vomir	negative	1	1	1	1	1	1	14054
+1279	FAT (OBESE)	gras	negative	1	1	1	1	1	1	710
+1280	FALL	tomber	negative	1	1	1	1	1	1	13371
+1281	PRISON	prison	negative	1	1	1	1	1	1	10863
+1284	BANK	banque	positive	1	1	1	1	1	1	2703
+1285	IMPORTANT	important	positive	1	1	1	1	1	1	7665
+1287	COLD	froid	negative	1	1	1	1	1	1	670
+1288	CAP	casquette	positive	1	1	1	1	1	1	3347
+1289	BABY	bébé	positive	1	1	1	1	1	1	2779
+129	CHOKE	étouffer	negative	1	1	1	1	1	1	576
+1291	BACK	dos	positive	1	1	1	1	1	1	5307
+1292	BAD	mauvais	negative	1	1	1	1	1	1	8916
+1294	ZERO	zéro	negative	1	1	1	1	1	1	1584
+1297	LEG	jambe	positive	1	1	1	1	1	1	8223
+1298	NEWSPAPER	journal	positive	1	1	1	1	1	1	8292
+1299	COFFEE	café	positive	1	1	1	1	1	1	3182
+13	DECEIT	tromperie	negative	1	1	1	1	1	1	1520
+1300	COUNTRY	pays	positive	1	1	1	1	1	1	10091
+1301	FOOT	pied	positive	1	1	1	1	1	1	10363
+1302	FORK	fourchette	positive	1	1	1	1	1	1	6800
+1303	FINGER	doigt	positive	1	1	1	1	1	1	5255
+1306	QUEEN	reine	positive	1	1	1	1	1	1	11555
+1307	LANGUAGE	langage	positive	1	1	1	1	1	1	8411
+1308	DOUBT	douter	negative	1	1	1	1	1	1	5327
+1309	ASK (INQUIRE)	interroger	negative	1	1	1	1	1	1	8108
+1310	CLEVER	intelligent	positive	1	1	1	1	1	1	8065
+1312	FOX	renard	positive	1	1	1	1	1	1	11605
+1313	MOON	lune	positive	1	1	1	1	1	1	8670
+1314	QUIET	tranquille	positive	1	1	1	1	1	1	13507
+1315	RADIO	radio	positive	1	1	1	1	1	1	11245
+1316	TENT	tente	positive	1	1	1	1	1	1	13243
+1318	CHICKEN	poulet	positive	1	1	1	1	1	1	10683
+132	SAUCE	sauce	positive	1	1	1	1	1	1	12177
+1320	APPLE	pomme	positive	1	1	1	1	1	1	10574
+1321	BOTTLE	bouteille	positive	1	1	1	1	1	1	3016
+1322	BREAKFAST	petit déjeuner	positive	1	1	1	1	1	1	10260
+1323	CLOCK	horloge	positive	1	1	1	1	1	1	7480
+1324	SLIP	glisser	negative	1	1	1	1	1	1	7097
+1325	FRIEND	ami	positive	1	1	1	1	1	1	57
+1327	UNCLE	oncle	positive	1	1	1	1	1	1	9720
+133	WEAVE	tisser	positive	1	1	1	1	1	1	13350
+1330	DEFEND	défendre	positive	1	1	1	1	1	1	4766
+1331	SHEEP	mouton	positive	1	1	1	1	1	1	9321
+1332	NEIGHBOUR	voisin	positive	1	1	1	1	1	1	1578
+1333	NECK	cou	positive	1	1	1	1	1	1	4289
+1334	GUTS	entrailles	negative	1	1	1	1	1	1	5929
+1335	WHITE	blanc	positive	1	1	1	1	1	1	156
+1336	EAT	manger	positive	1	1	1	1	1	1	8798
+1337	PIG	cochon	negative	1	1	1	1	1	1	3768
+1338	PEACE	paix	positive	1	1	1	1	1	1	9874
+1339	MORNING	matin	positive	1	1	1	1	1	1	8905
+134	FAULT	faute	negative	1	1	1	1	1	1	6536
+1343	SUN	soleil	positive	1	1	1	1	1	1	12643
+1344	RAM	bélier	negative	1	1	1	1	1	1	2789
+1345	EWE	brebis	positive	1	1	1	1	1	1	3053
+1346	THROAT	gorge	negative	1	1	1	1	1	1	7133
+1347	NAPE (OF NECK)	nuque	positive	1	1	1	1	1	1	9617
+1348	BOAR (MALE PIG)	sanglier	negative	1	1	1	1	1	1	12088
+1349	CHURCH	église	positive	1	1	1	1	1	1	5536
+1350	MONKEY	singe	positive	1	1	1	1	1	1	12589
+1351	SOW (FEMALE PIG)	truie	negative	1	1	1	1	1	1	13676
+1352	KNIFE	couteau	negative	1	1	1	1	1	1	4362
+1353	HOUR	heure	positive	1	1	1	1	1	1	7418
+1355	LAUGH	rire	positive	1	1	1	1	1	1	11860
+1356	NUMBER	chiffre	positive	1	1	1	1	1	1	3607
+1357	DAUGHTER	fille	positive	1	1	1	1	1	1	6637
+1358	ENEMY	ennemi	negative	1	1	1	1	1	1	542
+1359	SEPARATE	séparer	negative	1	1	1	1	1	1	12491
+1360	DUCK	canard	positive	1	1	1	1	1	1	3244
+1362	STREET	rue	positive	1	1	1	1	1	1	11952
+1363	VOICE	voix	positive	1	1	1	1	1	1	14030
+1365	KITCHEN	cuisine	positive	1	1	1	1	1	1	4499
+1366	BOY	garçon	positive	1	1	1	1	1	1	6968
+1367	CROSS	croix	positive	1	1	1	1	1	1	4465
+1368	BREAD	pain	positive	1	1	1	1	1	1	9870
+1371	KNEE	genou	positive	1	1	1	1	1	1	7045
+1372	MEDICINE	médicament	negative	1	1	1	1	1	1	8950
+1373	TEA	thé	positive	1	1	1	1	1	1	13299
+1374	RING	bague	positive	1	1	1	1	1	1	2648
+1375	WINDOW	fenêtre	positive	1	1	1	1	1	1	6571
+1378	SPOON	cuillère	positive	1	1	1	1	1	1	4490
+1379	TELEPHONE	téléphone	positive	1	1	1	1	1	1	13200
+138	BATHE	se baigner	positive	1	1	1	1	1	1	12251
+1380	TOOTH	dent	negative	1	1	1	1	1	1	4880
+1381	SHOE	chaussure	positive	1	1	1	1	1	1	3563
+1382	NEEDLE (FOR SEWING)	aiguille	negative	1	1	1	1	1	1	1923
+1385	PEPPER	poivre	negative	1	1	1	1	1	1	10551
+1386	LION	lion	positive	1	1	1	1	1	1	8560
+1387	ARRIVE	arriver	positive	1	1	1	1	1	1	2326
+1388	SHADE	ombre	positive	1	1	1	1	1	1	9709
+1389	TOE	orteil	negative	1	1	1	1	1	1	9805
+1390	WRONG	incorrect	negative	1	1	1	1	1	1	7791
+1391	TOWN	ville	positive	1	1	1	1	1	1	13965
+1392	LOUSE	pou	negative	1	1	1	1	1	1	10673
+1393	HORN (ANATOMY)	corne	negative	1	1	1	1	1	1	4240
+1394	BONE	os	negative	1	1	1	1	1	1	9811
+1395	ROUND	rond	positive	1	1	1	1	1	1	11895
+1396	SHARP	tranchant	negative	1	1	1	1	1	1	13504
+1398	DRY	sec	negative	1	1	1	1	1	1	12410
+1399	CLAY	argile	positive	1	1	1	1	1	1	2286
+14	YOKE	joug	positive	1	1	1	1	1	1	8289
+1400	THIN (SLIM)	mince	negative	1	1	1	1	1	1	984
+1401	DRINK	boire	positive	1	1	1	1	1	1	2918
+1402	BREAST	sein	positive	1	1	1	1	1	1	12452
+1403	BITE	mordre	negative	1	1	1	1	1	1	9270
+1404	STRAIGHT	droit	positive	1	1	1	1	1	1	5352
+1405	NAME	nom	positive	1	1	1	1	1	1	9503
+1407	BREATHE	respirer	positive	1	1	1	1	1	1	11734
+1408	HEAR	entendre	positive	1	1	1	1	1	1	5914
+1410	KNOW (SOMETHING)	savoir	positive	1	1	1	1	1	1	12028
+1412	RUDE	grossier	negative	1	1	1	1	1	1	717
+1413	PLAY	jouer	positive	1	1	1	1	1	1	8282
+1414	SQUEEZE	presser	negative	1	1	1	1	1	1	10811
+1417	KILL	tuer	negative	1	1	1	1	1	1	13681
+1418	DIG	creuser	negative	1	1	1	1	1	1	4427
+1419	FEAR (BE AFRAID)	craindre	negative	1	1	1	1	1	1	4383
+1420	COUNT	compter	positive	1	1	1	1	1	1	3960
+1421	SUCK	sucer	negative	1	1	1	1	1	1	12943
+1422	BE ALIVE	vivant	positive	1	1	1	1	1	1	14015
+1423	FIGHT	se battre	negative	1	1	1	1	1	1	12255
+1424	YELLOW	jaune	positive	1	1	1	1	1	1	8247
+1425	GREEN	vert	positive	1	1	1	1	1	1	13902
+1426	EXPENSIVE	cher	negative	1	1	1	1	1	1	3584
+1427	BEAUTIFUL	beau	positive	1	1	1	1	1	1	141
+1429	FULL	plein	positive	1	1	1	1	1	1	10474
+1430	STAR	étoile	positive	1	1	1	1	1	1	6159
+1431	FREEZE	geler	negative	1	1	1	1	1	1	7019
+1432	CUT	couper	negative	1	1	1	1	1	1	4326
+1434	STAB	poignarder	negative	1	1	1	1	1	1	10531
+1435	HUNT	chasser	negative	1	1	1	1	1	1	3534
+1436	SCRATCH	gratter	negative	1	1	1	1	1	1	7205
+1437	SPLIT	fendre	negative	1	1	1	1	1	1	6570
+1439	SWIM	nager	positive	1	1	1	1	1	1	9385
+144	MACHINE	machine	positive	1	1	1	1	1	1	8695
+1440	SPIT	cracher	negative	1	1	1	1	1	1	4379
+1441	FLY (MOVE THROUGH AIR)	voler	negative	1	1	1	1	1	1	14041
+1442	STAND	se tenir debout	positive	1	1	1	1	1	1	12400
+1443	WALK	marcher	positive	1	1	1	1	1	1	8839
+1447	GIVE	donner	positive	1	1	1	1	1	1	5281
+1448	HOLD	tenir	positive	1	1	1	1	1	1	13233
+1449	RUB	frotter	negative	1	1	1	1	1	1	6895
+1450	ROOM	chambre	positive	1	1	1	1	1	1	3470
+1451	SMILE	sourire	positive	1	1	1	1	1	1	12748
+1452	PUSH	pousser	negative	1	1	1	1	1	1	10707
+1453	WASH	laver	positive	1	1	1	1	1	1	8442
+1454	WIPE	essuyer	positive	1	1	1	1	1	1	6107
+1455	PULL	tirer	positive	1	1	1	1	1	1	1499
+1456	THROW	jeter	negative	1	1	1	1	1	1	862
+1457	SEW	coudre	positive	1	1	1	1	1	1	4298
+1463	DRUNK	ivre	negative	1	1	1	1	1	1	8209
+1464	LADDER	échelle	positive	1	1	1	1	1	1	5432
+1465	BOX	boîte	positive	1	1	1	1	1	1	2926
+1467	CIRCLE	cercle	positive	1	1	1	1	1	1	3432
+1468	LOOK FOR	chercher	positive	1	1	1	1	1	1	3581
+1469	WEEK	semaine	positive	1	1	1	1	1	1	12459
+1470	FOLD	plier	negative	1	1	1	1	1	1	10492
+1471	WINTER	hiver	negative	1	1	1	1	1	1	7442
+1472	KEY	clef	positive	1	1	1	1	1	1	243
+1473	FIST	poing	positive	1	1	1	1	1	1	10533
+1474	SEA	mer	positive	1	1	1	1	1	1	9015
+1475	COMB	peigne	positive	1	1	1	1	1	1	10109
+1476	CHAIR	chaise	positive	1	1	1	1	1	1	3459
+1477	KEEP	garder	positive	1	1	1	1	1	1	6976
+1479	DOLPHIN	dauphin	positive	1	1	1	1	1	1	4564
+148	ITCH	démangeaison	negative	1	1	1	1	1	1	4839
+1481	HAMMER	marteau	negative	1	1	1	1	1	1	8868
+1482	SHOULDER	épaule	positive	1	1	1	1	1	1	5987
+1483	NINE	neuf	positive	1	1	1	1	1	1	9472
+1484	OIL (ORGANIC SUBSTANCE)	huile	negative	1	1	1	1	1	1	7504
+1485	BELOW OR UNDER	en dessous	negative	1	1	1	1	1	1	5712
+1487	POUR	verser	positive	1	1	1	1	1	1	13896
+1488	FAUCET	robinet	positive	1	1	1	1	1	1	11881
+1489	CLOUD	nuage	negative	1	1	1	1	1	1	9601
+1490	RAT	rat	negative	1	1	1	1	1	1	11317
+1491	MOUSE	souris	negative	1	1	1	1	1	1	12752
+1494	DIE	mourir	negative	1	1	1	1	1	1	9279
+1495	HAPPY	heureux	positive	1	1	1	1	1	1	736
+1499	JUICE	jus	positive	1	1	1	1	1	1	8319
+150	WORRY	inquiéter	negative	1	1	1	1	1	1	7992
+1502	GOAT	chèvre	positive	1	1	1	1	1	1	3595
+1503	SALIVA	salive	positive	1	1	1	1	1	1	12060
+1504	FLY (INSECT)	mouche	positive	1	1	1	1	1	1	9298
+1505	SPERM	sperme	positive	1	1	1	1	1	1	12808
+1506	MEASURE	mesurer	positive	1	1	1	1	1	1	9034
+1507	FRUIT	fruit	positive	1	1	1	1	1	1	6900
+1508	KING	roi	positive	1	1	1	1	1	1	11890
+1509	MOSQUITO	moustique	negative	1	1	1	1	1	1	9319
+151	RAZOR	rasoir	negative	1	1	1	1	1	1	11310
+1511	ROOSTER	coq	negative	1	1	1	1	1	1	4229
+1514	HEN	poule	positive	1	1	1	1	1	1	10681
+1515	TEN	dix	positive	1	1	1	1	1	1	5239
+1517	WASP	guêpe	negative	1	1	1	1	1	1	7281
+1518	STUPID	idiot	negative	1	1	1	1	1	1	746
+1519	RUN	courir	positive	1	1	1	1	1	1	4344
+152	HOOF	sabot	negative	1	1	1	1	1	1	12016
+1520	CRUSH	écraser	negative	1	1	1	1	1	1	505
+1521	SEEM	sembler	positive	1	1	1	1	1	1	12462
+1522	SOCK	chaussette	positive	1	1	1	1	1	1	3560
+1523	FORGET	oublier	negative	1	1	1	1	1	1	9825
+1524	WINE	vin	positive	1	1	1	1	1	1	13966
+1526	MEAL	repas	positive	1	1	1	1	1	1	11650
+1527	TICK	tique	negative	1	1	1	1	1	1	13338
+1528	FORGIVE	pardonner	positive	1	1	1	1	1	1	9976
+1529	LAST (FINAL)	dernier	negative	1	1	1	1	1	1	4936
+1530	BOWL	bol	positive	1	1	1	1	1	1	2932
+1531	BRANCH	branche	positive	1	1	1	1	1	1	3036
+1532	SHEAR	tondre	negative	1	1	1	1	1	1	13387
+1534	FEVER	fièvre	negative	1	1	1	1	1	1	6621
+1535	SWORD	épée	negative	1	1	1	1	1	1	5988
+1536	UNDERSTAND	comprendre	positive	1	1	1	1	1	1	3950
+1538	SCORPION	scorpion	negative	1	1	1	1	1	1	12239
+1539	BASKET	panier	positive	1	1	1	1	1	1	9903
+1540	EYELASH	cil	negative	1	1	1	1	1	1	3657
+1541	CULTIVATE	cultiver	positive	1	1	1	1	1	1	366
+1542	ACCOMPANY	accompagner	positive	1	1	1	1	1	1	1730
+1543	SNAIL	escargot	negative	1	1	1	1	1	1	6074
+1545	HOST	hôte	positive	1	1	1	1	1	1	7496
+1547	SOUP	soupe	positive	1	1	1	1	1	1	12740
+1548	UGLY	laid	negative	1	1	1	1	1	1	8379
+1550	PREVENT	empêcher	negative	1	1	1	1	1	1	5653
+1551	FEMALE	femelle	positive	1	1	1	1	1	1	6562
+1554	MAN	homme	positive	1	1	1	1	1	1	7455
+1555	CHAMELEON	caméléon	positive	1	1	1	1	1	1	3228
+1558	SIMILAR	semblable	positive	1	1	1	1	1	1	1402
+1559	MONEY	argent	positive	1	1	1	1	1	1	2281
+156	RED	rouge	negative	1	1	1	1	1	1	11925
+1560	FACE	visage	positive	1	1	1	1	1	1	13995
+1564	LAZY	paresseux	negative	1	1	1	1	1	1	1096
+1566	GUN	fusil	negative	1	1	1	1	1	1	6923
+1567	DOOR	porte	positive	1	1	1	1	1	1	10617
+1568	ARRANGE	organiser	positive	1	1	1	1	1	1	9782
+157	DYE	teindre	positive	1	1	1	1	1	1	13194
+1571	SELL	vendre	positive	1	1	1	1	1	1	13847
+1573	SWELL	enfler	negative	1	1	1	1	1	1	5855
+1574	FLOAT	flotter	positive	1	1	1	1	1	1	6709
+1576	PILE UP	entasser	negative	1	1	1	1	1	1	5912
+1581	ALLIGATOR	alligator	negative	1	1	1	1	1	1	1992
+1583	BRAIN	cerveau	positive	1	1	1	1	1	1	3447
+1585	SLEEP	dormir	positive	1	1	1	1	1	1	5303
+1586	SMELL (PERCEIVE)	sentir	positive	1	1	1	1	1	1	12483
+1587	SMELL (STINK)	puer	negative	1	1	1	1	1	1	11026
+1588	TURN	tourner	positive	1	1	1	1	1	1	1507
+1590	WAIT (FOR)	attendre	negative	1	1	1	1	1	1	2460
+1591	UP	en haut	positive	1	1	1	1	1	1	5734
+1592	CHEST	poitrine	positive	1	1	1	1	1	1	10550
+1594	FLOUR	farine	positive	1	1	1	1	1	1	6516
+1596	LOCK	serrure	positive	1	1	1	1	1	1	12519
+1597	AIRPLANE	avion	positive	1	1	1	1	1	1	2599
+1599	WORD	mot	positive	1	1	1	1	1	1	9288
+16	SLED	luge	positive	1	1	1	1	1	1	8661
+1600	SKIRT	jupe	positive	1	1	1	1	1	1	8312
+1601	WEAK	faible	negative	1	1	1	1	1	1	6387
+1602	WAKE UP	se réveiller	positive	1	1	1	1	1	1	12391
+1607	HATE	haïr	negative	1	1	1	1	1	1	7324
+1609	IDEA	idée	positive	1	1	1	1	1	1	7556
+161	MISS (A TARGET)	manquer	negative	1	1	1	1	1	1	8821
+1611	INVITE	inviter	positive	1	1	1	1	1	1	8160
+1612	LETTER	lettre	positive	1	1	1	1	1	1	8498
+1613	COLOR	couleur	positive	1	1	1	1	1	1	4305
+1616	CLOTH	tissu	positive	1	1	1	1	1	1	13351
+162	HICCOUGH	hoqueter	negative	1	1	1	1	1	1	7474
+1621	SNEEZE	éternuer	negative	1	1	1	1	1	1	6144
+1622	SHIRT	chemise	positive	1	1	1	1	1	1	3575
+1623	SPEAK	parler	positive	1	1	1	1	1	1	9997
+1624	EMPTY	vide	negative	1	1	1	1	1	1	13942
+1626	EXPLAIN	expliquer	positive	1	1	1	1	1	1	6317
+1627	CHAIN	chaîne	negative	1	1	1	1	1	1	3456
+1628	SQUIRREL	écureuil	positive	1	1	1	1	1	1	5487
+1629	EVENING	soir	positive	1	1	1	1	1	1	12634
+163	BLACK	noir	negative	1	1	1	1	1	1	9499
+1631	FAST	rapide	positive	1	1	1	1	1	1	11299
+1632	FLOOR	sol	positive	1	1	1	1	1	1	12638
+1634	HUNDRED	cent	positive	1	1	1	1	1	1	3407
+1635	OBEY	obéir	positive	1	1	1	1	1	1	9621
+1638	TRUTH	vérité	positive	1	1	1	1	1	1	13880
+1639	BEER	bière	positive	1	1	1	1	1	1	2840
+164	KANGAROO	kangourou	positive	1	1	1	1	1	1	8338
+1641	SILK	soie	positive	1	1	1	1	1	1	12628
+1642	NIECE	nièce	positive	1	1	1	1	1	1	9490
+1645	SHORT	court	negative	1	1	1	1	1	1	4355
+1647	FOAL	poulain	positive	1	1	1	1	1	1	10680
+1648	ANVIL	enclume	positive	1	1	1	1	1	1	5821
+1651	TEAR (OF EYE)	larme	negative	1	1	1	1	1	1	8430
+1654	LIGHTNING	foudre	negative	1	1	1	1	1	1	6787
+1657	TRUE	réel	positive	1	1	1	1	1	1	11464
+1659	DOLL	poupée	positive	1	1	1	1	1	1	10689
+166	MAINLAND	continent	positive	1	1	1	1	1	1	4151
+1660	LOSE	perdre	negative	1	1	1	1	1	1	10178
+1663	BED	lit	positive	1	1	1	1	1	1	8580
+1664	RAFT	radeau	negative	1	1	1	1	1	1	11240
+1665	BEAT	battre	negative	1	1	1	1	1	1	2764
+1666	MUTE	muet	negative	1	1	1	1	1	1	9330
+1667	HOLE	trou	negative	1	1	1	1	1	1	13665
+1668	GRIEF	chagrin	negative	1	1	1	1	1	1	3455
+1669	ANCESTORS	ancêtre	positive	1	1	1	1	1	1	2104
+1671	TOWER	tour	positive	1	1	1	1	1	1	13427
+1672	WRITE	écrire	positive	1	1	1	1	1	1	5480
+1673	ARM	bras	positive	1	1	1	1	1	1	3045
+1674	POOR	pauvre	negative	1	1	1	1	1	1	10080
+1675	PROMISE	promettre	positive	1	1	1	1	1	1	10944
+1678	HUT	cabane	positive	1	1	1	1	1	1	3150
+1679	LOAD	fardeau	negative	1	1	1	1	1	1	6514
+168	REST	se reposer	positive	1	1	1	1	1	1	12384
+1680	HELMET	casque	positive	1	1	1	1	1	1	3346
+1681	WAIST	taille	positive	1	1	1	1	1	1	13134
+1682	GUILTY	coupable	negative	1	1	1	1	1	1	4322
+1683	BUSH	brousse	positive	1	1	1	1	1	1	3090
+1687	PRAISE	louange	positive	1	1	1	1	1	1	8644
+1688	FATE	sort	negative	1	1	1	1	1	1	12695
+1689	SMOKE (INHALE)	fumer	negative	1	1	1	1	1	1	6909
+1690	FENCE	palissade	positive	1	1	1	1	1	1	1092
+1691	FLEXIBLE	flexible	positive	1	1	1	1	1	1	6692
+1702	HOLY	sacré	positive	1	1	1	1	1	1	12030
+1706	ELEVEN	onze	positive	1	1	1	1	1	1	9729
+1707	TWELVE	douze	positive	1	1	1	1	1	1	5332
+1710	TWENTY	vingt	positive	1	1	1	1	1	1	13969
+1712	OATH	serment	positive	1	1	1	1	1	1	1414
+1719	BURY	enterrer	negative	1	1	1	1	1	1	5915
+1720	SIGN	signe	positive	1	1	1	1	1	1	1417
+1726	WET	humide	negative	1	1	1	1	1	1	7517
+1730	CHEEK	joue	positive	1	1	1	1	1	1	8281
+1732	SKY	ciel	positive	1	1	1	1	1	1	3651
+1735	TEAR (SHRED)	déchirer	negative	1	1	1	1	1	1	4697
+1739	DECORATE	décorer	positive	1	1	1	1	1	1	4730
+174	PROUD	fier	positive	1	1	1	1	1	1	640
+1740	PINE	pin	positive	1	1	1	1	1	1	10388
+1742	TRAVERSE	traverser	positive	1	1	1	1	1	1	13566
+1743	JOIN	unir	positive	1	1	1	1	1	1	13726
+1744	SPLEEN	rate	negative	1	1	1	1	1	1	11318
+1745	HIP	hanche	positive	1	1	1	1	1	1	7339
+1746	BLADDER	vessie	negative	1	1	1	1	1	1	13914
+1747	CUSTOM	coutume	positive	1	1	1	1	1	1	4365
+1749	TAKE	prendre	negative	1	1	1	1	1	1	10780
+175	BLOW (OF WIND)	souffler	negative	1	1	1	1	1	1	12714
+1750	CHOOSE	choisir	positive	1	1	1	1	1	1	3622
+1754	BRACELET	bracelet	positive	1	1	1	1	1	1	3029
+1755	UNDRESS	se déshabiller	positive	1	1	1	1	1	1	12298
+1762	STONE (OF FRUIT)	noyau	positive	1	1	1	1	1	1	9599
+1763	CLUB	club	positive	1	1	1	1	1	1	3754
+1764	OBSCURE	obscur	negative	1	1	1	1	1	1	9636
+1766	FINISH	terminer	positive	1	1	1	1	1	1	1495
+1768	FOAM	écume	positive	1	1	1	1	1	1	506
+1769	AXLE	essieu	positive	1	1	1	1	1	1	6104
+1773	GRAVE	tombe	negative	1	1	1	1	1	1	13373
+1774	STINGY	avare	negative	1	1	1	1	1	1	2564
+1775	TABLE	table	positive	1	1	1	1	1	1	13108
+1776	SHAME	honte	negative	1	1	1	1	1	1	7471
+1777	RESEMBLE	ressembler	positive	1	1	1	1	1	1	11739
+1778	APPROACH	approcher	positive	1	1	1	1	1	1	73
+1779	DARE	oser	negative	1	1	1	1	1	1	9816
+178	RIPE	mûr	positive	1	1	1	1	1	1	9352
+1780	BILE	bile	negative	1	1	1	1	1	1	2847
+1781	THUMB	pouce	positive	1	1	1	1	1	1	10675
+1783	PAIN	douleur	negative	1	1	1	1	1	1	5325
+1784	WANT	vouloir	negative	1	1	1	1	1	1	14065
+1787	LOOM	métier à tisser	negative	1	1	1	1	1	1	9054
+1788	TELEVISION	télévision	positive	1	1	1	1	1	1	13206
+1789	AGE	âge	negative	1	1	1	1	1	1	1889
+179	RIPEN	mûrir	positive	1	1	1	1	1	1	9349
+1791	BUTTERFLY	papillon	positive	1	1	1	1	1	1	9926
+1792	PERJURY	parjure	negative	1	1	1	1	1	1	9995
+1794	FURROW	sillon	negative	1	1	1	1	1	1	12575
+1802	SCREW	vis	positive	1	1	1	1	1	1	13993
+1803	WOOD	bois	positive	1	1	1	1	1	1	2919
+1806	BEGIN	commencer	positive	1	1	1	1	1	1	3859
+1810	DANGER	danger	negative	1	1	1	1	1	1	4554
+1813	TASTY	délicieux	positive	1	1	1	1	1	1	411
+1814	ACCUSE	accuser	negative	1	1	1	1	1	1	16
+1818	ADJUDICATE	juger	negative	1	1	1	1	1	1	8305
+1819	LOOK	regarder	positive	1	1	1	1	1	1	11506
+1821	BRUSH	brosse	positive	1	1	1	1	1	1	3084
+1823	BORROW	emprunter	positive	1	1	1	1	1	1	5679
+1825	COPPER	cuivre	positive	1	1	1	1	1	1	4504
+1828	ASK (REQUEST)	demander	negative	1	1	1	1	1	1	4837
+1829	JUMP	sauter	negative	1	1	1	1	1	1	12186
+183	BAKE	cuire	positive	1	1	1	1	1	1	4496
+1831	MEET	rencontrer	positive	1	1	1	1	1	1	11608
+1833	DINNER (SUPPER)	dîner	positive	1	1	1	1	1	1	5128
+1838	NAVEL	nombril	positive	1	1	1	1	1	1	9510
+1839	CRY	pleurer	negative	1	1	1	1	1	1	10486
+1840	BUILD	bâtir	positive	1	1	1	1	1	1	2757
+1841	SUSPECT	soupçonner	negative	1	1	1	1	1	1	12737
+1843	THOUSAND	mille	positive	1	1	1	1	1	1	9131
+1844	BOAT	bateau	positive	1	1	1	1	1	1	2753
+1845	BALL	sphère	positive	1	1	1	1	1	1	12809
+1846	RULE	règle	positive	1	1	1	1	1	1	11526
+1847	SICK	malade	negative	1	1	1	1	1	1	922
+1848	QUARREL	querelle	negative	1	1	1	1	1	1	11113
+185	FIREPLACE	foyer	positive	1	1	1	1	1	1	6820
+1850	COTTON	coton	positive	1	1	1	1	1	1	4286
+1851	POCKET	poche	positive	1	1	1	1	1	1	10518
+1853	DOVE	colombe	positive	1	1	1	1	1	1	3821
+1855	BIRCH	bouleau	negative	1	1	1	1	1	1	2996
+1856	SOFT	doux	positive	1	1	1	1	1	1	483
+1857	CROCODILE	crocodile	negative	1	1	1	1	1	1	4455
+1859	THIRD	troisième	positive	1	1	1	1	1	1	13645
+186	SHIN	tibia	positive	1	1	1	1	1	1	13322
+1860	BEAD	perle	positive	1	1	1	1	1	1	10197
+1862	DONKEY	âne	negative	1	1	1	1	1	1	2109
+1863	AMAZING	incroyable	negative	1	1	1	1	1	1	7795
+1864	HUNGER	faim	negative	1	1	1	1	1	1	6395
+1867	COIN	pièce de monnaie	positive	1	1	1	1	1	1	10359
+1869	BUY	acheter	positive	1	1	1	1	1	1	1761
+1870	ANCHOR	ancre	positive	1	1	1	1	1	1	2108
+1871	CAMEL	chameau	positive	1	1	1	1	1	1	3474
+1875	REGRET	regretter	negative	1	1	1	1	1	1	11538
+1876	REINDEER	renne	positive	1	1	1	1	1	1	11627
+1879	DANCE	danser	positive	1	1	1	1	1	1	4560
+1884	HARD	dur	negative	1	1	1	1	1	1	5382
+1888	PAIR	paire	positive	1	1	1	1	1	1	9872
+1889	ARSON	incendie volontaire	negative	1	1	1	1	1	1	7743
+1890	BELIEVE	croire	positive	1	1	1	1	1	1	4456
+1892	TOUCH	toucher	positive	1	1	1	1	1	1	13423
+1894	ASHAMED	honteux	negative	1	1	1	1	1	1	740
+1895	CLOTHES	vêtement	positive	1	1	1	1	1	1	13916
+1897	HELP	aider	positive	1	1	1	1	1	1	1919
+190	MOW	récolter	positive	1	1	1	1	1	1	11399
+1901	SHOVEL	pelle	positive	1	1	1	1	1	1	10123
+1902	BETRAY	trahir	negative	1	1	1	1	1	1	13487
+1903	SWELLING	enflure	negative	1	1	1	1	1	1	5856
+1904	DROWN	se noyer	negative	1	1	1	1	1	1	12343
+1905	EAGLE	aigle	positive	1	1	1	1	1	1	1920
+1906	SOUR	acide	negative	1	1	1	1	1	1	1764
+1909	SHAKE	secouer	negative	1	1	1	1	1	1	12421
+1914	DEBT	dette	negative	1	1	1	1	1	1	5046
+1917	TIE	attacher	positive	1	1	1	1	1	1	2448
+1918	MANE	crinière	positive	1	1	1	1	1	1	4441
+1920	DREAM (SOMETHING)	rêver	positive	1	1	1	1	1	1	11800
+1922	LAND (DESCEND)	débarquer	positive	1	1	1	1	1	1	4651
+1923	ROUGH	rugueux	negative	1	1	1	1	1	1	11959
+1924	VEIN	veine	positive	1	1	1	1	1	1	13834
+1929	STUDY	étudier	positive	1	1	1	1	1	1	6206
+1932	GUESS	deviner	positive	1	1	1	1	1	1	5060
+1934	BEGGAR	mendiant	negative	1	1	1	1	1	1	967
+1936	DEER	cerf	positive	1	1	1	1	1	1	3439
+1938	FORTRESS	château	positive	1	1	1	1	1	1	3543
+194	FAMILY	famille	positive	1	1	1	1	1	1	6495
+1941	SOLDIER	soldat	positive	1	1	1	1	1	1	12640
+1944	GOD	dieu	positive	1	1	1	1	1	1	5104
+1945	IDOL	idole	positive	1	1	1	1	1	1	7570
+1949	BEDBUG	punaise	negative	1	1	1	1	1	1	11051
+195	MAT	natte	positive	1	1	1	1	1	1	9405
+1961	NECKLACE	collier	positive	1	1	1	1	1	1	3815
+1962	ROAST (SOMETHING)	rôtir	negative	1	1	1	1	1	1	11912
+1963	IMMEDIATELY	immédiatement	positive	1	1	1	1	1	1	7610
+1964	ALONE	seul	negative	1	1	1	1	1	1	12535
+1967	CALENDAR	calendrier	positive	1	1	1	1	1	1	3204
+1971	FAN (OBJECT)	éventail	positive	1	1	1	1	1	1	6229
+1979	CHISEL	ciseau	negative	1	1	1	1	1	1	3682
+1981	WIDOWER	veuf	negative	1	1	1	1	1	1	13921
+1983	SNORE	ronfler	negative	1	1	1	1	1	1	11900
+1986	DISEASE	maladie	negative	1	1	1	1	1	1	8751
+1989	CALF	veau	positive	1	1	1	1	1	1	13819
+1990	BECOME	devenir	positive	1	1	1	1	1	1	5055
+1991	INTESTINES	intestin	negative	1	1	1	1	1	1	8117
+1996	GET TIRED	fatiguer	negative	1	1	1	1	1	1	6525
+1997	PRESERVE	préserver	positive	1	1	1	1	1	1	1213
+2	DUST	poussière	negative	1	1	1	1	1	1	10715
+2001	PAINTING	dessiner	positive	1	1	1	1	1	1	5006
+2003	FLOW	couler	negative	1	1	1	1	1	1	4304
+2005	MASK	masque	negative	1	1	1	1	1	1	8878
+2006	FILL	remplir	positive	1	1	1	1	1	1	11598
+2008	RESCUE	sauver	positive	1	1	1	1	1	1	12193
+2009	DOG	chien	positive	1	1	1	1	1	1	3603
+2012	COLLAR	col	positive	1	1	1	1	1	1	3795
+2013	BAIT	appât	negative	1	1	1	1	1	1	2208
+2015	MAKE DRY	sécher	negative	1	1	1	1	1	1	12414
+2016	JEALOUSY	jalousie	negative	1	1	1	1	1	1	8222
+2017	MIX	mélanger	positive	1	1	1	1	1	1	965
+2020	PLAINTIFF	plaignant	negative	1	1	1	1	1	1	1164
+2022	ADMIT	admettre	positive	1	1	1	1	1	1	1814
+2023	CROWD	foule	negative	1	1	1	1	1	1	6794
+2045	COLUMN	colonne	positive	1	1	1	1	1	1	3829
+2052	BUCKET	seau	positive	1	1	1	1	1	1	12409
+2058	STOOL	tabouret	positive	1	1	1	1	1	1	13115
+2071	LAY (VERB)	coucher	negative	1	1	1	1	1	1	4292
+2075	BROOD (VERB)	couver	positive	1	1	1	1	1	1	4368
+2099	CHILD	enfant	positive	1	1	1	1	1	1	5848
+21	TASTE (SOMETHING)	goûter	positive	1	1	1	1	1	1	7153
+210	LIFE	vie	positive	1	1	1	1	1	1	13944
+2102	BURN	brûler	negative	1	1	1	1	1	1	3102
+2114	BELLY OR STOMACH	abdomen	positive	1	1	1	1	1	1	1660
+212	FIELD	champ	positive	1	1	1	1	1	1	3475
+213	FIN	nageoire	positive	1	1	1	1	1	1	9386
+2134	RAISE (BRING UP)	élever	positive	1	1	1	1	1	1	5569
+2135	TRADE OR BARTER	échange	positive	1	1	1	1	1	1	5422
+215	LIE DOWN	se coucher	positive	1	1	1	1	1	1	12276
+216	MOVIE	film	positive	1	1	1	1	1	1	6639
+2189	DUGOUT	pirogue	positive	1	1	1	1	1	1	10415
+2190	TASTE	goût	positive	1	1	1	1	1	1	7151
+2192	REJOICE	se réjouir	positive	1	1	1	1	1	1	12379
+223	THRESHING-FLOOR	aire	positive	1	1	1	1	1	1	1934
+2239	DENSE	dense	positive	1	1	1	1	1	1	4878
+224	MORTAR	mortier	negative	1	1	1	1	1	1	9280
+2243	REPAIR	réparer	positive	1	1	1	1	1	1	11647
+2244	METAL	métal	positive	1	1	1	1	1	1	9037
+2246	BELL	cloche	positive	1	1	1	1	1	1	3744
+2247	CATERPILLAR	chenille	negative	1	1	1	1	1	1	3579
+2252	PATH	chemin	positive	1	1	1	1	1	1	228
+2259	FLESH	chair	negative	1	1	1	1	1	1	3457
+227	FISH	poisson	positive	1	1	1	1	1	1	10548
+2271	THINK	penser	positive	1	1	1	1	1	1	10151
+2273	LEECH	sangsue	negative	1	1	1	1	1	1	12091
+228	CARVE	sculpter	positive	1	1	1	1	1	1	12247
+2284	CLEARING	clairière	positive	1	1	1	1	1	1	3699
+2291	VOLCANO	volcan	negative	1	1	1	1	1	1	14039
+2295	SUNSET	coucher du soleil	positive	1	1	1	1	1	1	4294
+2296	SUNRISE	lever du soleil	positive	1	1	1	1	1	1	8503
+2298	VIRGIN	vierge	negative	1	1	1	1	1	1	13951
+2299	STRAW	paille	positive	1	1	1	1	1	1	9868
+23	RYE	seigle	positive	1	1	1	1	1	1	12449
+231	SHAVE	se raser	positive	1	1	1	1	1	1	12372
+2316	FREE	libre	positive	1	1	1	1	1	1	8517
+2318	CHESTNUT	châtaigne	positive	1	1	1	1	1	1	3540
+2334	MELT	fondre	negative	1	1	1	1	1	1	6747
+234	PADDLE	pagaie	positive	1	1	1	1	1	1	9856
+2343	STEEL	acier	positive	1	1	1	1	1	1	1766
+2348	CRAB	crabe	negative	1	1	1	1	1	1	4378
+2349	SHRIMP	crevette	negative	1	1	1	1	1	1	4430
+2354	CRICKET	cricket	positive	1	1	1	1	1	1	4437
+2366	ONION	oignon	negative	1	1	1	1	1	1	9696
+2368	GARLIC	ail	negative	1	1	1	1	1	1	1927
+2374	DREAM	rêve	positive	1	1	1	1	1	1	11801
+239	FLOWER	fleur	positive	1	1	1	1	1	1	6686
+2393	JOURNEY	voyage	positive	1	1	1	1	1	1	14068
+24	PRAY	prier	positive	1	1	1	1	1	1	10842
+240	ELECTION	élection	positive	1	1	1	1	1	1	5557
+2401	PICTURE	tableau	positive	1	1	1	1	1	1	13109
+2403	TOY	jouet	positive	1	1	1	1	1	1	8286
+2408	CAKE	gâteau	positive	1	1	1	1	1	1	6993
+2409	BROWN	brun	positive	1	1	1	1	1	1	3109
+241	TREE STUMP	souche	positive	1	1	1	1	1	1	12702
+2410	GOOD-LOOKING	joli	positive	1	1	1	1	1	1	8275
+2411	HURT (SOMEBODY)	blesser	negative	1	1	1	1	1	1	2892
+2412	THANK (SOMEBODY)	remercier	positive	1	1	1	1	1	1	14125
+2427	FUTURE	avenir	positive	1	1	1	1	1	1	2583
+2429	LOGIC	logique	positive	1	1	1	1	1	1	8620
+2433	THEORY	théorie	positive	1	1	1	1	1	1	13310
+2434	TRAGEDY	tragédie	negative	1	1	1	1	1	1	13485
+2435	UNIVERSITY	université	positive	1	1	1	1	1	1	13739
+244	LEFT	gauche	negative	1	1	1	1	1	1	6995
+2440	PINEAPPLE	ananas	positive	1	1	1	1	1	1	2095
+245	BROOM	balai	positive	1	1	1	1	1	1	2669
+2468	BAG	sac	positive	1	1	1	1	1	1	12021
+2469	AGAINST	contre	negative	1	1	1	1	1	1	4174
+2471	LADY	madame	positive	1	1	1	1	1	1	8702
+2475	MALE GOAT	bouc	negative	1	1	1	1	1	1	2968
+2486	HIDE	se cacher	negative	1	1	1	1	1	1	1393
+249	FOG	brouillard	negative	1	1	1	1	1	1	3087
+25	DIRT	saleté	negative	1	1	1	1	1	1	12055
+250	LIGHT (COLOR)	clair	positive	1	1	1	1	1	1	3696
+2504	DIFFERENT	différent	negative	1	1	1	1	1	1	5110
+2506	LOOSE	lâche	negative	1	1	1	1	1	1	8370
+251	SHARPEN (SOMETHING)	aiguiser	positive	1	1	1	1	1	1	42
+2524	JOY	joie	positive	1	1	1	1	1	1	8271
+2526	POWER	puissance	positive	1	1	1	1	1	1	11043
+2527	ABILITY	aptitude	positive	1	1	1	1	1	1	2247
+2531	BROAD	vaste	positive	1	1	1	1	1	1	13814
+2534	DEPTH	profondeur	negative	1	1	1	1	1	1	10914
+2541	MIRACLE	miracle	positive	1	1	1	1	1	1	9160
+2546	BORDER	limite	negative	1	1	1	1	1	1	896
+2547	CITY	cité	positive	1	1	1	1	1	1	3686
+2548	BARREL	tonneau	positive	1	1	1	1	1	1	13394
+2549	VEHICLE	véhicule	positive	1	1	1	1	1	1	13829
+255	SERVANT	serviteur	positive	1	1	1	1	1	1	12530
+2554	PRINCE (RULER)	prince	positive	1	1	1	1	1	1	10849
+2558	BREAK (CLEAVE)	casser	negative	1	1	1	1	1	1	3349
+256	FOOD	nourriture	positive	1	1	1	1	1	1	9591
+2569	BUTCHER	boucher	negative	1	1	1	1	1	1	2972
+2575	DO OR MAKE	faire	positive	1	1	1	1	1	1	6396
+2578	PENCIL	crayon	positive	1	1	1	1	1	1	4396
+258	CALM	calme	positive	1	1	1	1	1	1	191
+2584	BENCH	banc	positive	1	1	1	1	1	1	2690
+2587	DARTS	fléchette	negative	1	1	1	1	1	1	6682
+2588	GLOBE	globe	positive	1	1	1	1	1	1	7101
+2597	HARP	harpe	positive	1	1	1	1	1	1	7352
+26	UNPLEASANT	désagréable	negative	1	1	1	1	1	1	4947
+2603	ACCORDION	accordéon	positive	1	1	1	1	1	1	1736
+2606	COMPASS	boussole	positive	1	1	1	1	1	1	3014
+2617	BULB	bulbe	negative	1	1	1	1	1	1	3130
+2619	CARD	carte	positive	1	1	1	1	1	1	3334
+2621	CURTAIN	rideau	positive	1	1	1	1	1	1	11843
+2623	FLAG	drapeau	positive	1	1	1	1	1	1	5343
+2624	FRAME	cadre	positive	1	1	1	1	1	1	3180
+2626	NERVE	nerf	positive	1	1	1	1	1	1	9464
+2627	ORANGE (FRUIT)	orange	positive	1	1	1	1	1	1	9764
+2630	WHIP	fouet	negative	1	1	1	1	1	1	6788
+2631	WIRE	câble	positive	1	1	1	1	1	1	182
+2648	HAIR (HEAD)	cheveu	positive	1	1	1	1	1	1	3593
+265	FOWL	volaille	positive	1	1	1	1	1	1	14034
+2651	BE IGNORANT	ignorant	negative	1	1	1	1	1	1	7578
+2657	LADLE	louche	negative	1	1	1	1	1	1	8646
+2658	COAL	charbon	negative	1	1	1	1	1	1	3506
+266	SCALE	écaille	positive	1	1	1	1	1	1	5409
+2666	SOLE (FOOT)	plante du pied	negative	1	1	1	1	1	1	10451
+2668	SKELETON	squelette	negative	1	1	1	1	1	1	12831
+267	NIT	lente	negative	1	1	1	1	1	1	8483
+27	AIR	air	negative	1	1	1	1	1	1	1936
+2704	FADE (LOOSE COLOR)	pâlir	negative	1	1	1	1	1	1	1091
+271	SAUCER	soucoupe	positive	1	1	1	1	1	1	12706
+2715	DESPISE	mépriser	negative	1	1	1	1	1	1	9012
+274	KNEAD	pétrir	positive	1	1	1	1	1	1	10281
+275	PEEL	peler	negative	1	1	1	1	1	1	10120
+2765	CHERRY	cerise	positive	1	1	1	1	1	1	3441
+277	SPINDLE	fuseau	positive	1	1	1	1	1	1	6919
+2783	SCALES (MEASURE INSTRUMENT)	balance	positive	1	1	1	1	1	1	2670
+2818	FORD (CROSSING)	gué	positive	1	1	1	1	1	1	7279
+2819	GRASSLAND	pâturage	positive	1	1	1	1	1	1	10077
+2826	LIE (FALSEHOOD)	mensonge	negative	1	1	1	1	1	1	8998
+2830	OYSTERS	huître	negative	1	1	1	1	1	1	7507
+2837	SWAN	cygne	positive	1	1	1	1	1	1	4530
+284	HOE	houe	negative	1	1	1	1	1	1	7499
+2856	CHANGE (SOMETHING)	altérer	negative	1	1	1	1	1	1	2011
+2866	DROP (SOMETHING)	laisser tomber	negative	1	1	1	1	1	1	8388
+2879	SOUND (OF INSTRUMENT OR VOICE)	son	positive	1	1	1	1	1	1	12674
+288	FORGE	forger	positive	1	1	1	1	1	1	6759
+2880	HALT (STOP)	arrêter	negative	1	1	1	1	1	1	2316
+2882	ADD	ajouter	positive	1	1	1	1	1	1	1942
+289	MOLD	mouler	positive	1	1	1	1	1	1	9308
+2896	CAUSE TO (LET)	laisser	negative	1	1	1	1	1	1	8385
+2900	PROTECT	protéger	positive	1	1	1	1	1	1	10990
+2904	RINSE	rincer	positive	1	1	1	1	1	1	11857
+2907	ROT	pourrir	negative	1	1	1	1	1	1	10698
+2909	PREPARE	préparer	positive	1	1	1	1	1	1	1212
+2912	FORWARD	en avant	positive	1	1	1	1	1	1	528
+2930	BOSS	patron	positive	1	1	1	1	1	1	10072
+2931	BUSINESS	affaire	positive	1	1	1	1	1	1	31
+2933	CONVERSATION	conversation	positive	1	1	1	1	1	1	4205
+2935	CURRENT (STREAM)	courant	positive	1	1	1	1	1	1	4341
+2937	FAIRY TALE	conte	positive	1	1	1	1	1	1	308
+2940	GATE	portail	positive	1	1	1	1	1	1	10614
+2941	HAPPINESS	bonheur	positive	1	1	1	1	1	1	2944
+2946	CRADLE	berceau	positive	1	1	1	1	1	1	2804
+2948	GAP (DISTANCE)	brèche	negative	1	1	1	1	1	1	3054
+2953	SLEEVE	manche	positive	1	1	1	1	1	1	8785
+2954	SLICE	trancher	negative	1	1	1	1	1	1	13506
+2955	STATE (POLITICS)	état	positive	1	1	1	1	1	1	6138
+2972	SLEEP (STATE)	sommeil	positive	1	1	1	1	1	1	12667
+2977	WORKER	ouvrier	positive	1	1	1	1	1	1	1090
+2978	DISTANCE	distance	negative	1	1	1	1	1	1	5207
+2982	GIFT	don	positive	1	1	1	1	1	1	5277
+2984	HEAP	tas	positive	1	1	1	1	1	1	13171
+2991	SKI	ski	positive	1	1	1	1	1	1	12608
+2996	WEALTH	fortune	positive	1	1	1	1	1	1	6779
+3	BRAVE	courageux	positive	1	1	1	1	1	1	340
+300	RATTLE	hochet	negative	1	1	1	1	1	1	7447
+3002	PRECIOUS	précieux	positive	1	1	1	1	1	1	1204
+3003	SOLID	solide	positive	1	1	1	1	1	1	12646
+302	CLAN	clan	positive	1	1	1	1	1	1	3704
+3028	GRAVEL	gravier	negative	1	1	1	1	1	1	7210
+304	PREACH	prêcher	positive	1	1	1	1	1	1	10735
+3050	SEEDLING	semis	positive	1	1	1	1	1	1	12468
+3055	SWINDLE	tricher	negative	1	1	1	1	1	1	13614
+3064	RUST	rouille	negative	1	1	1	1	1	1	11929
+3065	SADDLE	selle	positive	1	1	1	1	1	1	12457
+307	HAWK	faucon	negative	1	1	1	1	1	1	6528
+3083	BALLOON	ballon	positive	1	1	1	1	1	1	2683
+3086	COMPUTER	ordinateur	positive	1	1	1	1	1	1	9769
+3088	ENVELOPE	enveloppe	positive	1	1	1	1	1	1	5962
+3089	GIRAFFE	girafe	positive	1	1	1	1	1	1	7075
+3090	GUITAR	guitare	positive	1	1	1	1	1	1	7302
+3091	LEMON	citron	negative	1	1	1	1	1	1	3689
+3094	PAINTBRUSH	pinceau	positive	1	1	1	1	1	1	10393
+3096	RACKET	raquette	negative	1	1	1	1	1	1	11305
+3099	SOFA	canapé	positive	1	1	1	1	1	1	3243
+31	PAN	casserole	positive	1	1	1	1	1	1	3354
+3101	SWING	balançoire	positive	1	1	1	1	1	1	2672
+3102	TANK	réservoir	positive	1	1	1	1	1	1	11706
+3104	THERMOMETER	thermomètre	positive	1	1	1	1	1	1	13316
+3105	UMBRELLA	parapluie	positive	1	1	1	1	1	1	9965
+3107	WHISTLE (INSTRUMENT)	sifflet	positive	1	1	1	1	1	1	12558
+3116	HATCH (OUT)	éclore	positive	1	1	1	1	1	1	5456
+3138	STRAWBERRY	fraise	positive	1	1	1	1	1	1	6834
+3140	VEST	gilet	positive	1	1	1	1	1	1	7072
+3141	TAMBOURINE	tambourin	negative	1	1	1	1	1	1	13145
+3144	GORILLA	gorille	negative	1	1	1	1	1	1	7135
+3172	SCABIES	gale	negative	1	1	1	1	1	1	6948
+3181	MUSTARD	moutarde	negative	1	1	1	1	1	1	9320
+319	LICK	lécher	negative	1	1	1	1	1	1	8453
+32	EARWAX	cérumen	negative	1	1	1	1	1	1	3446
+320	LAME	boiteux	negative	1	1	1	1	1	1	158
+3202	CANNON	canon	negative	1	1	1	1	1	1	3259
+3204	INSULT	insulter	negative	1	1	1	1	1	1	8044
+3206	ELF OR FAIRY	fée	positive	1	1	1	1	1	1	6555
+321	CHEW	mâcher	negative	1	1	1	1	1	1	8694
+3212	HOPE (SOMETHING)	espérer	positive	1	1	1	1	1	1	6088
+3213	HIRE OR RENT	louer	positive	1	1	1	1	1	1	8647
+323	FAT (ORGANIC SUBSTANCE)	graisse	negative	1	1	1	1	1	1	7175
+3230	DECEIVE	tromper	negative	1	1	1	1	1	1	13648
+3237	ALLOW OR PERMIT	permettre	positive	1	1	1	1	1	1	1128
+3251	MOLD (GET ROTTEN)	moisissure	negative	1	1	1	1	1	1	9217
+3255	POINT (POINTED END)	pointe	positive	1	1	1	1	1	1	1181
+327	PONCHO	poncho	positive	1	1	1	1	1	1	10582
+3274	ENCIRCLE	entourer	positive	1	1	1	1	1	1	5927
+3276	SUNSHINE	lumière du soleil	positive	1	1	1	1	1	1	8666
+3283	CAGE	cage	negative	1	1	1	1	1	1	3185
+3284	GRAVEYARD	cimetière	negative	1	1	1	1	1	1	3661
+33	NETTLE	ortie	negative	1	1	1	1	1	1	9810
+3302	QUARREL (VERB)	se disputer	negative	1	1	1	1	1	1	12306
+3333	BELIEF (RELIGIOUS)	croyance	positive	1	1	1	1	1	1	4479
+3336	FUNERAL	funérailles	negative	1	1	1	1	1	1	6913
+3357	CUPBOARD	placard	positive	1	1	1	1	1	1	10425
+336	PADLOCK	cadenas	negative	1	1	1	1	1	1	3173
+3375	PATIENT (SICK PERSON)	patient	negative	1	1	1	1	1	1	10058
+3377	EMPEROR	empereur	positive	1	1	1	1	1	1	5654
+338	RAKE	râteau	negative	1	1	1	1	1	1	11320
+341	SICKLE	faucille	negative	1	1	1	1	1	1	6527
+3425	JOKE	blague	positive	1	1	1	1	1	1	2878
+343	VINE	vigne	positive	1	1	1	1	1	1	13956
+345	SAP	sève	positive	1	1	1	1	1	1	12536
+3456	CRAWL OR CREEP	ramper	negative	1	1	1	1	1	1	11285
+3458	SILENCE	silence	negative	1	1	1	1	1	1	12571
+3460	BEACH	plage	positive	1	1	1	1	1	1	10429
+3466	DANGEROUS	dangereux	negative	1	1	1	1	1	1	375
+3467	HELP (ASSISTANCE)	aide	positive	1	1	1	1	1	1	1918
+3468	KINDNESS	gentillesse	positive	1	1	1	1	1	1	7049
+3469	LEVEL	niveau	positive	1	1	1	1	1	1	9492
+3472	DANCE (MOVEMENT)	danse	positive	1	1	1	1	1	1	4559
+353	STRIKE	frapper	negative	1	1	1	1	1	1	6843
+3534	BEG	supplier	negative	1	1	1	1	1	1	1473
+355	CUT DOWN	abattre	negative	1	1	1	1	1	1	1656
+3552	GREET	saluer	positive	1	1	1	1	1	1	12069
+357	HANG UP	accrocher	negative	1	1	1	1	1	1	1742
+359	POTTER	potier	positive	1	1	1	1	1	1	10671
+360	FAN (ACTION)	éventer	positive	1	1	1	1	1	1	6230
+3608	WARRIOR	guerrier	negative	1	1	1	1	1	1	721
+3614	PANT	haleter	negative	1	1	1	1	1	1	7329
+3617	STUMBLE	trébucher	negative	1	1	1	1	1	1	13569
+3618	STAMP	timbre	positive	1	1	1	1	1	1	13332
+3622	BURN (INJURY)	brûlure	negative	1	1	1	1	1	1	3105
+3624	LEPROSY	lèpre	negative	1	1	1	1	1	1	8487
+3627	SURPRISE (SOMEBODY)	surprendre	negative	1	1	1	1	1	1	1481
+3628	HONOR (SOMEBODY)	honneur	positive	1	1	1	1	1	1	7468
+3629	HESITATE	hésiter	negative	1	1	1	1	1	1	7412
+363	DWELL (LIVE, RESIDE)	habiter	positive	1	1	1	1	1	1	7315
+3631	PRETEND	faire semblant	negative	1	1	1	1	1	1	6453
+3632	GENEROUS	généreux	positive	1	1	1	1	1	1	695
+3635	ADULT	adulte	positive	1	1	1	1	1	1	1838
+3638	ASSEMBLE (GET TOGETHER)	se rassembler	positive	1	1	1	1	1	1	12373
+3639	AVOID	éviter	negative	1	1	1	1	1	1	6237
+364	SMEAR	enduire	positive	1	1	1	1	1	1	538
+3641	SLANDER	calomnier	negative	1	1	1	1	1	1	3213
+3642	COMPLAIN	se plaindre	negative	1	1	1	1	1	1	12351
+3644	AGREEMENT	accord	positive	1	1	1	1	1	1	1737
+3646	PROVERB	proverbe	positive	1	1	1	1	1	1	11002
+3647	TICKLE (SOMEBODY)	chatouiller	positive	1	1	1	1	1	1	3548
+3648	SERVE (SOMEONE)	servir	negative	1	1	1	1	1	1	12528
+3649	PUNISH	punir	negative	1	1	1	1	1	1	1253
+365	SPLASH	éclabousser	negative	1	1	1	1	1	1	5440
+3652	FERMENT	fermenter	negative	1	1	1	1	1	1	6582
+3653	COOKING POT	marmite	positive	1	1	1	1	1	1	8856
+3657	GRANARY	grange	positive	1	1	1	1	1	1	7193
+3658	BELLOWS	soufflet	negative	1	1	1	1	1	1	12716
+3659	POLISH (SOMETHING)	polir	positive	1	1	1	1	1	1	1183
+366	LIMP	boiter	negative	1	1	1	1	1	1	2930
+3664	INHERIT	héritier	positive	1	1	1	1	1	1	7402
+3665	TRAVEL	voyager	positive	1	1	1	1	1	1	14069
+3666	WANDER	errer	negative	1	1	1	1	1	1	6060
+3669	LOAD (SOMETHING)	charger	negative	1	1	1	1	1	1	3512
+367	RIDE	chevaucher	positive	1	1	1	1	1	1	3591
+3673	MOURNING	deuil	negative	1	1	1	1	1	1	5047
+3674	ANTELOPE	antilope	positive	1	1	1	1	1	1	2170
+3675	ZEBRA	zèbre	positive	1	1	1	1	1	1	14101
+3682	PERCH (OF BIRD)	se percher	positive	1	1	1	1	1	1	12348
+3684	PECK	picorer	negative	1	1	1	1	1	1	10354
+3687	DESERT	désert	negative	1	1	1	1	1	1	4960
+3689	BUBBLE	bulle	positive	1	1	1	1	1	1	3133
+369	OWE	devoir	positive	1	1	1	1	1	1	5065
+3695	MOVEMENT	mouvement	positive	1	1	1	1	1	1	1008
+3709	BRILLIANT	brillant	positive	1	1	1	1	1	1	174
+3711	TIE (NOUN)	cravate	positive	1	1	1	1	1	1	4395
+372	POINTED	pointu	negative	1	1	1	1	1	1	10543
+3729	LETTUCE	laitue	positive	1	1	1	1	1	1	8393
+3745	CRANE (DEVICE)	grue	positive	1	1	1	1	1	1	7277
+3746	VASE	vase	negative	1	1	1	1	1	1	13812
+3747	SHAPE	forme	positive	1	1	1	1	1	1	658
+377	LOUD	bruyant	negative	1	1	1	1	1	1	3122
+378	PINCH	pincer	negative	1	1	1	1	1	1	10396
+3780	PET	animal de compagnie	negative	1	1	1	1	1	1	2130
+3797	OSTRICH	autruche	negative	1	1	1	1	1	1	2541
+38	SPREAD OUT	étendre	negative	1	1	1	1	1	1	573
+3808	JUNGLE	jungle	negative	1	1	1	1	1	1	8309
+381	BLAME	blâme	negative	1	1	1	1	1	1	2881
+383	MASTER	maître	positive	1	1	1	1	1	1	8734
+3847	INTEREST (FEELING)	intérêt	positive	1	1	1	1	1	1	8085
+385	RESPECT (SOMEBODY)	respecter	positive	1	1	1	1	1	1	11730
+3855	ITCH (CAUSE ITCHING OR FEEL ITCHY)	démanger	negative	1	1	1	1	1	1	4840
+3861	FAIL	échouer	negative	1	1	1	1	1	1	5439
+387	SLING	fronde	negative	1	1	1	1	1	1	6891
+390	PUNISHMENT	punition	negative	1	1	1	1	1	1	11055
+391	BLESS	bénir	positive	1	1	1	1	1	1	2800
+392	MAGIC	sorcellerie	negative	1	1	1	1	1	1	12690
+3955	HOSTILITY	hostilité	negative	1	1	1	1	1	1	743
+3957	SYSTEM	système	positive	1	1	1	1	1	1	13102
+3958	SOCIETY	société	positive	1	1	1	1	1	1	12622
+3974	UNHAPPY	malheureux	negative	1	1	1	1	1	1	927
+3975	NERVOUS	nerveux	positive	1	1	1	1	1	1	1026
+398	PIERCE	percer	negative	1	1	1	1	1	1	10168
+402	SURPASS	dépasser	negative	1	1	1	1	1	1	4888
+404	ALCOHOL (FERMENTED DRINK)	alcool	negative	1	1	1	1	1	1	1955
+41	IGNORE	ignorer	negative	1	1	1	1	1	1	7577
+410	YAM	igname	positive	1	1	1	1	1	1	7573
+418	FOR A LONG TIME	longue	positive	1	1	1	1	1	1	904
+419	SEVERE	méchant	negative	1	1	1	1	1	1	8933
+430	TWIST	tordre	negative	1	1	1	1	1	1	13406
+457	BLIND PERSON	aveugle	negative	1	1	1	1	1	1	2593
+474	DRESS	robe	positive	1	1	1	1	1	1	11880
+476	CUP	tasse	positive	1	1	1	1	1	1	13172
+478	LIP	lèvre	positive	1	1	1	1	1	1	8505
+479	GROW	croître	positive	1	1	1	1	1	1	360
+48	BE SILENT	se taire	negative	1	1	1	1	1	1	12398
+480	PLATE	assiette	positive	1	1	1	1	1	1	2390
+481	DISH	vaisselle	positive	1	1	1	1	1	1	13781
+482	NOBLE	noble	negative	1	1	1	1	1	1	1030
+484	CONDEMN	condamner	negative	1	1	1	1	1	1	3999
+485	DISAPPEAR	disparaître	negative	1	1	1	1	1	1	5174
+486	MINISTER	ministre	positive	1	1	1	1	1	1	9154
+487	SHY	timide	negative	1	1	1	1	1	1	13334
+488	MANNER	manière	negative	1	1	1	1	1	1	933
+49	REFUSE	refuser	negative	1	1	1	1	1	1	11499
+490	DESCENDANTS	descendant	positive	1	1	1	1	1	1	434
+495	REVENGE	se venger	negative	1	1	1	1	1	1	12407
+497	SCAR	cicatrice	negative	1	1	1	1	1	1	3647
+499	CURE	guérir	positive	1	1	1	1	1	1	7283
+500	CRUEL	cruel	negative	1	1	1	1	1	1	363
+501	LIFT	soulever	positive	1	1	1	1	1	1	12729
+502	NAIL (TOOL)	clou	negative	1	1	1	1	1	1	3749
+503	FROG	grenouille	negative	1	1	1	1	1	1	7229
+504	LEARN	apprendre	positive	1	1	1	1	1	1	2231
+518	SPARK	étincelle	positive	1	1	1	1	1	1	6153
+519	SPOT	tache	negative	1	1	1	1	1	1	13119
+52	SHIVER	frissonner	negative	1	1	1	1	1	1	6882
+53	SPIRIT	esprit	positive	1	1	1	1	1	1	6093
+539	NEST	nid	positive	1	1	1	1	1	1	9489
+55	WHISPER	chuchoter	negative	1	1	1	1	1	1	3639
+56	BAD LUCK	malheur	negative	1	1	1	1	1	1	8763
+576	DANDRUFF	pellicule	positive	1	1	1	1	1	1	10125
+579	BATTLE	bataille	negative	1	1	1	1	1	1	2750
+580	FUR	fourrure	positive	1	1	1	1	1	1	6816
+581	COME BACK	revenir	positive	1	1	1	1	1	1	11809
+582	LEND	prêter	positive	1	1	1	1	1	1	10823
+584	DIFFICULT	difficile	negative	1	1	1	1	1	1	455
+585	BOOT	botte	positive	1	1	1	1	1	1	2967
+586	GARDEN	jardin	positive	1	1	1	1	1	1	8231
+587	ANT	fourmi	negative	1	1	1	1	1	1	6803
+59	ELECTRICITY	électricité	positive	1	1	1	1	1	1	5560
+590	NAKED	nu	negative	1	1	1	1	1	1	9600
+594	PIECE	pièce	positive	1	1	1	1	1	1	10362
+597	PHYSICIAN	docteur	positive	1	1	1	1	1	1	5245
+6	EARTHQUAKE	tremblement de terre	negative	1	1	1	1	1	1	13579
+600	STRANGE	étrange	negative	1	1	1	1	1	1	577
+601	LIE (MISLEAD)	mentir	negative	1	1	1	1	1	1	9008
+602	HIDE (CONCEAL)	cacher	negative	1	1	1	1	1	1	3166
+603	COAT	manteau	positive	1	1	1	1	1	1	8827
+604	GLASS	verre	positive	1	1	1	1	1	1	13887
+606	GRASS	herbe	negative	1	1	1	1	1	1	7391
+607	GRASSHOPPER	sauterelle	positive	1	1	1	1	1	1	12188
+611	HARVEST	moisson	positive	1	1	1	1	1	1	9218
+612	HEAT	chaleur	positive	1	1	1	1	1	1	3462
+614	HILL	colline	positive	1	1	1	1	1	1	3816
+615	HORSE	cheval	positive	1	1	1	1	1	1	3585
+616	HOSPITAL	hôpital	negative	1	1	1	1	1	1	7472
+617	ICE	glace	negative	1	1	1	1	1	1	7081
+619	ANIMAL	animal	negative	1	1	1	1	1	1	63
+620	INSECT	insecte	negative	1	1	1	1	1	1	8001
+621	IRON	fer	positive	1	1	1	1	1	1	6576
+622	ISLAND	île	positive	1	1	1	1	1	1	7580
+624	LAKE	lac	positive	1	1	1	1	1	1	8368
+625	LAMP	lampe	positive	1	1	1	1	1	1	8401
+627	LEAD (CHEMICAL ELEMENT)	plomb	positive	1	1	1	1	1	1	10496
+628	LEAF	feuille	positive	1	1	1	1	1	1	6601
+629	LEATHER	cuir	positive	1	1	1	1	1	1	4493
+630	LIGHT (RADIATION)	lumière	positive	1	1	1	1	1	1	8664
+634	MEAT	viande	positive	1	1	1	1	1	1	13928
+635	MILK	lait	positive	1	1	1	1	1	1	8389
+637	MOSS	mousse	negative	1	1	1	1	1	1	1006
+638	MOTORCYCLE	moto	positive	1	1	1	1	1	1	9295
+639	MOUNTAIN	montagne	positive	1	1	1	1	1	1	9252
+64	PIN	épingle	positive	1	1	1	1	1	1	6001
+640	MUD	boue	negative	1	1	1	1	1	1	2978
+642	MUSIC	musique	positive	1	1	1	1	1	1	9362
+644	OAK	chêne	positive	1	1	1	1	1	1	3577
+645	OCEAN	océan	positive	1	1	1	1	1	1	9666
+646	ASH	cendre	negative	1	1	1	1	1	1	3403
+647	PAINT (PIGMENTS)	peinture	positive	1	1	1	1	1	1	10115
+648	PAPER	papier	positive	1	1	1	1	1	1	9924
+651	SEAL	phoque	positive	1	1	1	1	1	1	10334
+653	PLANT (VEGETATION)	plante	positive	1	1	1	1	1	1	10450
+655	POISON	poison	negative	1	1	1	1	1	1	10546
+658	RAIN (PRECIPITATION)	pluie	negative	1	1	1	1	1	1	10498
+659	REED	roseau	positive	1	1	1	1	1	1	11907
+660	REEF	récif	positive	1	1	1	1	1	1	11389
+661	RELIGION	religion	positive	1	1	1	1	1	1	11575
+662	BATTERY	batterie	positive	1	1	1	1	1	1	2763
+665	BEE	abeille	negative	1	1	1	1	1	1	1662
+666	RIVER	rivière	positive	1	1	1	1	1	1	11875
+667	ROAD	route	positive	1	1	1	1	1	1	11937
+67	EMBERS	braise	negative	1	1	1	1	1	1	3034
+670	ROOT	racine	positive	1	1	1	1	1	1	11232
+671	SAND	sable	negative	1	1	1	1	1	1	12011
+673	SCHOOL	école	positive	1	1	1	1	1	1	5461
+675	FAECES (EXCREMENT)	excrément	negative	1	1	1	1	1	1	6277
+68	TATTOO	tatouage	positive	1	1	1	1	1	1	13176
+681	DESTROY	détruire	negative	1	1	1	1	1	1	5045
+683	PERSON	personne	positive	1	1	1	1	1	1	10234
+684	OWN	posséder	negative	1	1	1	1	1	1	10636
+686	EASY	facile	positive	1	1	1	1	1	1	613
+688	LUNG	poumon	positive	1	1	1	1	1	1	10688
+690	BOTTOM	bas	negative	1	1	1	1	1	1	2735
+691	SEASON	saison	positive	1	1	1	1	1	1	12048
+692	BRING	apporter	positive	1	1	1	1	1	1	2224
+694	GET	obtenir	positive	1	1	1	1	1	1	9654
+695	GO	aller	positive	1	1	1	1	1	1	1978
+698	WISE	sage	positive	1	1	1	1	1	1	12036
+699	SAD	triste	negative	1	1	1	1	1	1	13638
+7	GATHER	cueillir	positive	1	1	1	1	1	1	4489
+70	BRACKISH	saumâtre	negative	1	1	1	1	1	1	12180
+700	CARRY	porter	positive	1	1	1	1	1	1	10615
+701	SLOW	lent	negative	1	1	1	1	1	1	8481
+702	CATCH	attraper	negative	1	1	1	1	1	1	2475
+704	CLEAN	propre	positive	1	1	1	1	1	1	10972
+705	GO UP (ASCEND)	monter	positive	1	1	1	1	1	1	998
+706	DARK	sombre	negative	1	1	1	1	1	1	1427
+707	REMEMBER	se souvenir	positive	1	1	1	1	1	1	12395
+708	SHINE	briller	positive	1	1	1	1	1	1	175
+709	TEACH	enseigner	positive	1	1	1	1	1	1	5904
+710	WHEEL	roue	positive	1	1	1	1	1	1	11920
+712	RICH	riche	positive	1	1	1	1	1	1	11839
+713	STEAL	dérober	negative	1	1	1	1	1	1	4937
+714	SEED	semence	positive	1	1	1	1	1	1	12464
+715	SHOUT	crier	negative	1	1	1	1	1	1	4432
+719	FIND	trouver	positive	1	1	1	1	1	1	13673
+72	CLAW	griffe	negative	1	1	1	1	1	1	7238
+720	GOOD LUCK	chance	positive	1	1	1	1	1	1	3479
+722	ATTACK	attaquer	negative	1	1	1	1	1	1	2453
+724	READ	lire	positive	1	1	1	1	1	1	8569
+728	FIRST	premier	positive	1	1	1	1	1	1	1209
+729	DAWN	aube	positive	1	1	1	1	1	1	2499
+730	SNAKE	serpent	negative	1	1	1	1	1	1	12510
+731	BEVERAGE	boisson	positive	1	1	1	1	1	1	2923
+733	EARN	gagner	positive	1	1	1	1	1	1	6936
+738	THING	chose	negative	1	1	1	1	1	1	3628
+74	PUPPY	chiot	positive	1	1	1	1	1	1	3614
+741	DRIVE	conduire	positive	1	1	1	1	1	1	4013
+743	END (OF TIME)	fin	negative	1	1	1	1	1	1	644
+745	SHELF	étagère	positive	1	1	1	1	1	1	6127
+747	BICYCLE	vélo	positive	1	1	1	1	1	1	13838
+749	ENTER	entrer	positive	1	1	1	1	1	1	5933
+753	PUPIL (STUDENT)	étudiant	positive	1	1	1	1	1	1	583
+754	HURRY	se dépêcher	negative	1	1	1	1	1	1	12293
+755	DENY	nier	negative	1	1	1	1	1	1	9485
+756	DEPEND	dépendre	negative	1	1	1	1	1	1	4893
+757	BUTTON	touche	positive	1	1	1	1	1	1	13422
+76	YOUNG MAN	jeune homme	positive	1	1	1	1	1	1	8263
+761	COVER	couvrir	positive	1	1	1	1	1	1	4371
+767	CORPSE	cadavre	negative	1	1	1	1	1	1	3170
+768	LUNCH	déjeuner	positive	1	1	1	1	1	1	4809
+769	ROOF	toit	positive	1	1	1	1	1	1	13366
+77	YOUNG WOMAN	jeune fille	positive	1	1	1	1	1	1	8262
+771	HAT	chapeau	positive	1	1	1	1	1	1	3498
+772	BELT	ceinture	negative	1	1	1	1	1	1	3392
+774	CABBAGE	chou	positive	1	1	1	1	1	1	3629
+775	TRUMPET	trompette	positive	1	1	1	1	1	1	13650
+777	FLUTE	flûte	positive	1	1	1	1	1	1	6722
+781	FEAR (FRIGHT)	peur	negative	1	1	1	1	1	1	10317
+782	DEFEAT	vaincre	positive	1	1	1	1	1	1	13775
+783	VICTORY	victoire	positive	1	1	1	1	1	1	13939
+784	SNOW	neige	positive	1	1	1	1	1	1	9457
+785	STRONG	fort	positive	1	1	1	1	1	1	659
+786	SAILCLOTH	voile	negative	1	1	1	1	1	1	14025
+787	SAIL	naviguer	positive	1	1	1	1	1	1	9424
+788	SOAP	savon	positive	1	1	1	1	1	1	12197
+789	PEOPLE	gens	positive	1	1	1	1	1	1	7046
+79	WASTE	gaspiller	negative	1	1	1	1	1	1	6989
+790	READY	prêt	positive	1	1	1	1	1	1	10820
+791	STRANGER	étranger	negative	1	1	1	1	1	1	578
+792	BOIL (OF LIQUID)	bouillir	negative	1	1	1	1	1	1	2988
+794	PEN	stylo	positive	1	1	1	1	1	1	12911
+795	TROUT	truite	negative	1	1	1	1	1	1	13678
+798	JAW	mâchoire	positive	1	1	1	1	1	1	8699
+799	WRIST	poignet	positive	1	1	1	1	1	1	10532
+8	CURSE	maudire	negative	1	1	1	1	1	1	955
+803	ANKLE	cheville	positive	1	1	1	1	1	1	3594
+804	WOMB	utérus	positive	1	1	1	1	1	1	13754
+809	TROUSERS	pantalon	positive	1	1	1	1	1	1	9911
+810	LOCUST	criquet	negative	1	1	1	1	1	1	4443
+812	SLAVE	esclave	negative	1	1	1	1	1	1	6078
+815	GOVERNMENT	gouvernement	positive	1	1	1	1	1	1	7163
+819	STOMACH	estomac	positive	1	1	1	1	1	1	6115
+82	ANGER	colère	negative	1	1	1	1	1	1	3797
+820	LAMB	agneau	positive	1	1	1	1	1	1	1905
+823	SORCERER	sorcier	negative	1	1	1	1	1	1	12691
+827	ROLL	rouler	negative	1	1	1	1	1	1	11931
+83	FORBID	interdire	negative	1	1	1	1	1	1	8083
+830	SOOT	suie	negative	1	1	1	1	1	1	12970
+833	ENDURE	supporter	negative	1	1	1	1	1	1	1475
+834	BUTTOCKS	fesse	positive	1	1	1	1	1	1	6593
+836	SCREWDRIVER	tournevis	positive	1	1	1	1	1	1	13446
+837	BLUE	bleu	negative	1	1	1	1	1	1	2895
+843	SPIDER	araignée	negative	1	1	1	1	1	1	2254
+846	TIGER	tigre	negative	1	1	1	1	1	1	13329
+848	THIRST	soif	negative	1	1	1	1	1	1	12629
+849	SPRING (OF WATER)	source	positive	1	1	1	1	1	1	12746
+85	GIVE BACK	rendre	positive	1	1	1	1	1	1	11611
+852	PRIEST	prêtre	positive	1	1	1	1	1	1	10828
+853	ALTAR	autel	positive	1	1	1	1	1	1	2520
+854	KETTLE	bouilloire	positive	1	1	1	1	1	1	2989
+855	SEIZE	saisir	negative	1	1	1	1	1	1	1366
+857	STONE	pierre	positive	1	1	1	1	1	1	10370
+861	JUDGE	juge	positive	1	1	1	1	1	1	8304
+862	SUGAR	sucre	positive	1	1	1	1	1	1	12953
+865	FAME	gloire	positive	1	1	1	1	1	1	7103
+867	GLOVE	gant	positive	1	1	1	1	1	1	6963
+868	BANANA	banane	positive	1	1	1	1	1	1	2689
+870	BREATH	haleine	positive	1	1	1	1	1	1	7327
+873	TAX	impôt	negative	1	1	1	1	1	1	7676
+875	SHOEMAKER	cordonnier	positive	1	1	1	1	1	1	4239
+876	ARCH	arche	positive	1	1	1	1	1	1	2263
+877	MASON	maçon	positive	1	1	1	1	1	1	8701
+878	HELL	enfer	negative	1	1	1	1	1	1	5852
+879	COUGH	tousser	negative	1	1	1	1	1	1	13452
+88	BEEHIVE	ruche	negative	1	1	1	1	1	1	11948
+880	REPEAT	répéter	negative	1	1	1	1	1	1	11655
+881	TAILOR	tailleur	positive	1	1	1	1	1	1	13137
+882	PARROT	perroquet	negative	1	1	1	1	1	1	10214
+883	TERMITE	termite	negative	1	1	1	1	1	1	13251
+884	SHARE	partager	positive	1	1	1	1	1	1	10009
+885	OPPOSITE	contraire	negative	1	1	1	1	1	1	4169
+891	TIDE	marée	negative	1	1	1	1	1	1	8845
+892	TIME	temps	positive	1	1	1	1	1	1	13225
+893	TIN (METAL)	étain	positive	1	1	1	1	1	1	6129
+894	TOAD	crapaud	negative	1	1	1	1	1	1	4388
+897	SWALLOW	avaler	positive	1	1	1	1	1	1	2550
+899	PRESIDENT	président	positive	1	1	1	1	1	1	1214
+9	ANNOUNCE	annoncer	positive	1	1	1	1	1	1	2143
+90	INNOCENT	innocent	positive	1	1	1	1	1	1	816
+900	TRAIN	train	positive	1	1	1	1	1	1	13489
+901	ADOBE	adobe	positive	1	1	1	1	1	1	1823
+902	ADULTERY	adultère	negative	1	1	1	1	1	1	1839
+905	BORING	terne	negative	1	1	1	1	1	1	13253
+908	DRUM	tambour	positive	1	1	1	1	1	1	13144
+910	DEATH	mort	negative	1	1	1	1	1	1	9282
+913	CROW	corbeau	negative	1	1	1	1	1	1	331
+914	SCULPTOR	sculpteur	positive	1	1	1	1	1	1	12248
+915	SINK (BASIN)	bassine	positive	1	1	1	1	1	1	2747
+916	LINEN	lin	positive	1	1	1	1	1	1	8550
+917	ORNAMENT	ornement	positive	1	1	1	1	1	1	9799
+92	SPOIL (SOMEBODY OR SOMETHING)	gâcher	negative	1	1	1	1	1	1	6931
+920	GRAPE	raisin	positive	1	1	1	1	1	1	11270
+921	VALLEY	vallée	positive	1	1	1	1	1	1	13785
+923	LOVE	aimer	positive	1	1	1	1	1	1	43
+924	VEGETABLES	légume	positive	1	1	1	1	1	1	8477
+926	RICE	riz	positive	1	1	1	1	1	1	11877
+928	EMBRACE	étreindre	positive	1	1	1	1	1	1	581
+93	DRAW MILK	serrer	negative	1	1	1	1	1	1	12517
+930	VILLAGE	village	positive	1	1	1	1	1	1	13964
+934	BUFFALO	buffle	negative	1	1	1	1	1	1	3128
+935	WAR	guerre	negative	1	1	1	1	1	1	7285
+936	STALLION	étalon	positive	1	1	1	1	1	1	6133
+937	BIRD	oiseau	positive	1	1	1	1	1	1	9697
+938	MARE	jument	positive	1	1	1	1	1	1	8308
+939	HORN (INSTRUMENT)	cor	negative	1	1	1	1	1	1	4234
+941	MEAD	hydromel	positive	1	1	1	1	1	1	7535
+942	HONEY	miel	positive	1	1	1	1	1	1	9116
+945	SPEAR	lance	negative	1	1	1	1	1	1	8404
+946	BLOOD	sang	negative	1	1	1	1	1	1	12083
+947	STREAM	ruisseau	positive	1	1	1	1	1	1	1362
+948	WATER	eau	positive	1	1	1	1	1	1	5396
+950	SEAGULL	mouette	negative	1	1	1	1	1	1	9304
+951	WEAPONS	arme	positive	1	1	1	1	1	1	2301
+952	WEATHER	météo	positive	1	1	1	1	1	1	9044
+953	RAPE	viol	negative	1	1	1	1	1	1	13971
+954	WELL	puits	positive	1	1	1	1	1	1	11044
+956	FLEE	fuir	negative	1	1	1	1	1	1	6905
+957	WHALE	baleine	negative	1	1	1	1	1	1	2677
+958	WILD ANIMAL	bête	negative	1	1	1	1	1	1	144
+960	WIND	vent	positive	1	1	1	1	1	1	13854
+962	WOMAN	femme	positive	1	1	1	1	1	1	6565
+963	BOOK	livre	positive	1	1	1	1	1	1	8600
+964	WOOL	laine	positive	1	1	1	1	1	1	8381
+965	WORLD	monde	positive	1	1	1	1	1	1	9232
+968	ACORN	gland	positive	1	1	1	1	1	1	7091
+969	CIGARETTE	cigarette	negative	1	1	1	1	1	1	3655
+974	TOBACCO	tabac	negative	1	1	1	1	1	1	13104
+977	ARROW	flèche	positive	1	1	1	1	1	1	6681
+978	WAVE	vague	negative	1	1	1	1	1	1	13773
+979	FARMER	fermier	positive	1	1	1	1	1	1	632
+980	HEEL	talon	positive	1	1	1	1	1	1	13142
+981	ELBOW	coude	negative	1	1	1	1	1	1	4297
+983	CONVICT	inculper	negative	1	1	1	1	1	1	7800
+984	WORK (LABOUR)	travail	positive	1	1	1	1	1	1	13558
+985	VINEGAR	vinaigre	negative	1	1	1	1	1	1	13967
+987	REMAIN	rester	positive	1	1	1	1	1	1	11750
+991	FRY	frire	negative	1	1	1	1	1	1	6879
+992	CLIFF	falaise	negative	1	1	1	1	1	1	6488
+994	BOW	arc	positive	1	1	1	1	1	1	2260
+995	QUIVER (FOR ARROWS)	carquois	negative	1	1	1	1	1	1	3324
+996	DEAF	sourd	negative	1	1	1	1	1	1	12747
+998	PUT	mettre	positive	1	1	1	1	1	1	9061

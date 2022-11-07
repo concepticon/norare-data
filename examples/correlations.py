@@ -1,4 +1,4 @@
-from pynorare.norare import NoRaRe
+from pynorare import NoRaRe
 from scipy.stats import spearmanr, pearsonr
 from matplotlib import pyplot as plt
 from tabulate import tabulate

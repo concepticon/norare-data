@@ -496,7 +496,7 @@ Vergallito-2020-1121	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum pe
 Vergallito-2020-1121	PERCEPTUAL_STRENGTH_MIN	numeric	sensory modality	minimum perceptual strength	ratings	user	it		Perceptual strength in the dominant modality (i.e., lowest strength rating across six perceptual modalities).
 Vergallito-2020-1121	PERCEPTUAL_STRENGTH_MEAN	mean	sensory modality	 perceptual strength	ratings	user	it		This is the mean Pperceptual strength in the dominant modality.
 Vergallito-2020-1121	VECTOR_MAGNITUDE	magnitude	sensory modality	 vector	ratings	user	it		This is the length of the vector, including the scores for the five perceptual modalities.
-Blomberg-2020-160	SEMANTIC_CATEGORY	linguistic	semantic field		relations		se		The semantic category of the word (categories: specific, general, emotional, abstract).
+Blomberg-2020-160	SEMANTIC_CATEGORY	linguistic	semantic field		relations		sv		The semantic category of the word (categories: specific, general, emotional, abstract).
 Medler-2005-Perceptual	ENGLISH_SOUND_MEAN	mean	sensory modality	sound	ratings	user	en		This is the mean rating in the sound modality on a scale from 0 (NO sound associated) to 6 (DOES VERY MUCH have sound associated).
 Medler-2005-Perceptual	ENGLISH_COLOR_MEAN	mean	sensory modality	color	ratings	user	en		This is the mean rating in the color modality on a scale from 0 (NO color associated) to 6 (DOES VERY MUCH have color associated).
 Medler-2005-Perceptual	ENGLISH_MANIPULATION_MEAN	mean	sensory modality	manipulability	ratings	user	en		This is the mean rating in the manipulation modality on a scale from 0 (NO manipulation associated) to 6 (DOES VERY MUCH have manipulation associated).

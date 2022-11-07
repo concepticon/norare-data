@@ -22,7 +22,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1066	CRIME	crimine	crime	9.56	n	471
 1070	BUS	autobus	bus	5.96	n	147
 1075	TRAP (PITFALL)	trappola	trap	5.76	n	1818
-1086	WORK (ACTIVITY)	lavorare	to work	7	v	932
+1086	WORK (ACTIVITY)	lavoro	work	6.28	n	933
 1088	SINK (DESCEND)	lavandino	sink	4.32	n	929
 1091	SALTY	salato	salty	4.28	a	1519
 1092	HOPE	speranza	hope	7.2	n	1671
@@ -69,8 +69,8 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1208	CAT	gatto	cat	2.56	n	741
 1210	HEAVY	pesante	heavy	6.08	a	1299
 1216	MOTHER	madre	mother	2.68	n	985
-1217	FATHER	papà	dad	2.2	n	1243
-1218	ROPE	corda	cord	5.28	n	446
+1217	FATHER	padre	father	2.16	n	1217
+1218	ROPE	fune	rope	5.84	n	720
 1219	WORM	verme	worm	4.92	n	1899
 122	CART	carro	wagon	7.16	n	323
 1221	NOSE	naso	nose	3.24	n	1123
@@ -79,7 +79,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1225	DAY (NOT NIGHT)	giorno	day	3.8	n	775
 1226	YEAR	anno	year	3.84	n	82
 1227	BOARD	bordo	board	6.4	n	224
-1228	EARTH (SOIL)	suolo	soil	7.56	n	1730
+1228	EARTH (SOIL)	terra	earth	4.52	n	1777
 1229	OLD	vecchio	old	5.44	a	1883
 1230	DIRTY	immondizia	dirty	5	n	844
 1231	NEW	nuovo	new	3.72	a	1155
@@ -102,15 +102,15 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1272	AUNT	zia	aunt	3.04	n	1948
 1273	CANDLE	candela	candle	3.96	n	285
 1274	SALT	sale	salt	5.08	n	1520
-1275	ANSWER	risposta	answer	4.92	n	1483
+1275	ANSWER	rispondere	to answer	3.88	v	1482
 1276	AUTUMN	autunno	autumn	4.76	n	150
 1277	HAND	mano	hand	3.08	n	1016
 1278	VOMIT	vomito	vomit	6.08	n	1937
-1280	FALL	caduta	fall	5.16	n	257
-1281	PRISON	carcere	jail	7.08	n	312
+1280	FALL	cadere	to fall	2.88	v	256
+1281	PRISON	prigione	prison	6.88	n	1383
 1286	HOT	caldo	hot	3.88	a	262
 1287	COLD	freddo	cold	3.68	a	709
-1289	BABY	neonato	infant	5.8	a	1132
+1289	BABY	bebè	baby	4.24	n	190
 1290	ELEPHANT	elefante	elephant	4.04	n	574
 1291	BACK	schiena	back	4.4	n	1558
 1293	MISTAKE	errore	mistake	5.76	n	592
@@ -153,7 +153,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1352	KNIFE	coltello	knife	5.2	n	416
 1355	LAUGH	ridere	to laugh	4	v	1467
 1360	DUCK	anatra	duck	5.12	n	72
-1361	TOOL	arnese	instrument	10.8	n	106
+1361	TOOL	attrezzo	tool	6.52	n	143
 1362	STREET	strada	street	4.92	n	1707
 1363	VOICE	voce	voice	3.88	n	1933
 1364	HEALTHY	salute	health	5.88	n	1525
@@ -176,7 +176,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1386	LION	leone	lion	3.8	n	944
 1388	SHADE	ombra	shadow	5.16	n	1176
 1392	LOUSE	pidocchio	lice	6	n	1319
-1398	DRY	asciugare	to dry	4.48	v	118
+1398	DRY	asciutto	dry	5.08	a	119
 1401	DRINK	bere	to drink	3.76	v	198
 1402	BREAST	seno	breast	6.48	n	1600
 1403	BITE	mordere	to bite	3.52	v	1096
@@ -187,7 +187,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1412	RUDE	maleducato	rude	5.84	a	1003
 1413	PLAY	giocare	to play	2.96	v	768
 1416	SIT	sedersi	to sit	3.28	v	1595
-1419	FEAR (BE AFRAID)	impaurito	afraid	6.48	a	846
+1419	FEAR (BE AFRAID)	paura	fear	5.76	n	1268
 1422	BE ALIVE	vivo	alive	4.68	a	1931
 1423	FIGHT	lotta	fight	6.88	n	968
 1424	YELLOW	giallo	yellow	3.24	a	761
@@ -195,13 +195,13 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1427	BEAUTIFUL	bello	beautiful	3.8	a	193
 1429	FULL	pieno	full	4.56	a	1321
 1430	STAR	stella	star	4.16	n	1701
-1432	CUT	taglio	cut	6.2	n	1741
+1432	CUT	tagliare	to cut	4.64	v	1739
 1433	HIT	colpire	to hit	5.28	v	415
 1434	STAB	puntura	prick	4.48	n	1410
 1439	SWIM	nuotare	to swim	5.28	v	1153
 144	MACHINE	macchina	machine	5.76	n	983
-1440	SPIT	spiedo	spit	9.4	n	1674
-1441	FLY (MOVE THROUGH AIR)	volare	to fly	4.52	v	1935
+1440	SPIT	sputare	to spit	5.44	v	1689
+1441	FLY (MOVE THROUGH AIR)	mosca	fly	4.28	n	1099
 1443	WALK	camminare	to walk	3.68	v	274
 1446	COME	venire	to come	4.8	v	1893
 1447	GIVE	dare	to give	4.6	v	494
@@ -214,14 +214,14 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1458	SAY	dire	to say	4.08	v	522
 146	SUGAR CANE	bastone	cane	5.04	n	182
 1462	POT	pentola	pot	4.72	n	1287
-1465	BOX	bossolo	case	10.952380952380953	n	227
+1465	BOX	scatola	box	4.2	n	1550
 1467	CIRCLE	cerchio	circle	3.88	n	352
 1471	WINTER	inverno	winter	4.8	n	898
 1472	KEY	chiave	key	6.04	n	363
 1473	FIST	pugno	fist	5.24	n	1402
 1474	SEA	mare	sea	3.72	n	1023
 1475	COMB	pettine	comb	4.72	n	1307
-1476	CHAIR	sedile	seat	4.24	n	1597
+1476	CHAIR	sedia	chair	2.96	n	1596
 1480	BODY	corpo	body	5.56	n	451
 1481	HAMMER	martello	hammer	5.08	n	1030
 1482	SHOULDER	spalla	shoulder	5.04	n	1660
@@ -231,7 +231,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1489	CLOUD	nuvola	cloud	3.68	n	1157
 1490	RAT	ratto	rat	6.52	n	1446
 1491	MOUSE	topo	mouse	3.4	n	1799
-1495	HAPPY	contento	glad	4.12	a	437
+1495	HAPPY	felice	happy	4.32	a	641
 1496	GRANDMOTHER	nonna	grandmother	3.08	n	1145
 1502	GOAT	capra	goat	3.52	n	304
 1508	KING	re	king	4.24	n	1448
@@ -249,14 +249,14 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1525	COAST	costa	coast	6.72	n	460
 1529	LAST (FINAL)	ultimo	last	5.04	a	1849
 1530	BOWL	scodella	bowl	6.6	n	1570
-1533	BE HUNGRY	affamato	hungry	4.84	a	27
+1533	BE HUNGRY	aver fame	to be hungry	3	v	151
 1534	FEVER	febbre	fever	3.44	n	639
 1535	SWORD	spada	sword	5.24	n	1658
 1537	SPRINGTIME	primavera	spring	4.28	n	1384
 1538	SCORPION	scorpione	scorpion	5.96	n	1580
 1539	BASKET	cesto	basket	5.84	n	359
 1543	SNAIL	lumaca	snail	4.6	n	973
-1547	SOUP	brodo	broth	4.48	n	238
+1547	SOUP	minestra	soup	4.12	n	1069
 1548	UGLY	brutto	ugly	3.28	a	241
 1551	FEMALE	femmina	female	3.88	n	643
 1554	MAN	uomo	man	4.12	n	1855
@@ -268,14 +268,13 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1563	PYTHON	pitone	python	7.8	n	1337
 1564	LAZY	pigro	lazy	7.96	a	1325
 1565	HEAVEN	cielo	heaven	3.92	n	376
-1566	GUN	carabina	rifle	9.833333333333334	n	307
 1567	DOOR	porta	door	4.64	n	1357
 1569	CHEESE	formaggio	cheese	4.64	n	696
 1572	SURPRISED	sorpreso	surprised	6.4	a	1654
 1575	COCKROACH	blatta	cockroach	12.45	n	217
 1583	BRAIN	cervello	brain	6.88	n	356
 1584	BLISTER	vescica	blister	9.4	n	1903
-1585	SLEEP	sonno	sleep	3.56	n	1649
+1585	SLEEP	dormire	to sleep	3.08	v	559
 1587	SMELL (STINK)	puzza	stink	4.16	n	1415
 1588	TURN	girare	to turn	4.64	v	782
 1590	WAIT (FOR)	aspettare	to wait	4.48	v	125
@@ -289,7 +288,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1605	SKULL	cranio	skull	8.44	n	463
 1607	HATE	odio	hate	6.8	n	1168
 1609	IDEA	idea	idea	6.24	n	831
-1610	PROSTITUTE	puttana	hooker	9.76	n	1414
+1610	PROSTITUTE	prostituta	whore	10.76	n	1394
 1612	LETTER	lettera	letter	5.12	n	948
 1614	SUMMIT	vetta	summit	8.16	n	1908
 1616	CLOTH	panno	cloth	5.88	n	1238
@@ -302,12 +301,12 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1628	SQUIRREL	scoiattolo	squirrel	5.04	n	1571
 1629	EVENING	sera	evening	4.6	n	1605
 163	BLACK	nero	black	4.24	a	1133
-1631	FAST	rapido	swift	8.04	a	1439
+1631	FAST	veloce	quick	4.16	a	1891
 1632	FLOOR	pavimento	floor	4.2	n	1269
 1635	OBEY	obbedire	to obey	5.16	v	1159
 1638	TRUTH	verità	truth	6	n	1898
 164	KANGAROO	canguro	kangaroo	4.88	n	289
-1641	SILK	tessuto	fabric	7.52	n	1784
+1641	SILK	seta	silk	8.16	n	1612
 1643	COUSIN	cugino	cousin	3.44	n	482
 1645	SHORT	corto	short	4.56	a	458
 1646	GIRL	ragazza	girl	4.88	n	1430
@@ -327,7 +326,6 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1674	POOR	povero	poor	5.48	a	1368
 1680	HELMET	elmo	helmet	9.44	n	580
 1682	GUILTY	colpevole	guilty	7.64	a	414
-1687	PRAISE	lode	praise	7.68	n	967
 1711	TELL	raccontare	to tell	4.8	v	1425
 1726	WET	bagnato	wet	3.32	a	163
 1728	ROTTEN	marcio	rotten	8.76	a	1022
@@ -345,7 +343,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1768	FOAM	schiuma	foam	5.4	n	1560
 1770	CARCASS	carcassa	carcass	9.28	n	311
 1773	GRAVE	tomba	tomb	7.04	n	1797
-1775	TABLE	scrivania	desk	4.92	n	1582
+1775	TABLE	tavolo	table	3.12	n	1755
 1781	THUMB	pollice	thumb	4.72	n	1345
 1782	GUEST	ospite	guest	7.16	n	1207
 1783	PAIN	pena	pain	7.52	n	1279
@@ -375,10 +373,10 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1839	CRY	piangere	to cry	3.6	v	1310
 1840	BUILD	costruire	to build	5.4	v	461
 1844	BOAT	battello	boat	7.708333333333333	n	183
-1845	BALL	sfera	sphere	6.28	n	1614
+1845	BALL	palla	ball	2.64	n	1225
 1847	SICK	malato	sick	4.36	a	1001
 1848	QUARREL	lite	quarrel	6.12	n	961
-1853	DOVE	piccione	pigeon	5.96	n	1316
+1853	DOVE	colombo	dove	5.375	n	409
 1854	SPARROW	passero	sparrow	5.36	n	1257
 1856	SOFT	morbido	soft	4.64	a	1093
 1857	CROCODILE	coccodrillo	crocodile	4.8	n	399
@@ -390,11 +388,11 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1879	DANCE	ballare	to dance	4.92	v	167
 1884	HARD	duro	hard	4.68	a	565
 1888	PAIR	coppia	couple	7.08	n	442
-1892	TOUCH	tatto	touch	7	n	1753
+1892	TOUCH	toccare	to touch	3.12	v	1796
 1896	FINGERNAIL OR TOENAIL	unghia	nail	3.96	n	1853
 1897	HELP	aiutare	to help	4.48	v	44
 1898	SPECTACLES	occhiali	glasses	5.64	n	1163
-1899	MAD	pazzo	insane	5.48	a	1272
+1899	MAD	folle	mad	8.96	a	688
 1901	SHOVEL	pala	shovel	6.24	n	1219
 1902	BETRAY	tradire	to betray	9.68	v	1810
 1904	DROWN	affogare	to drown	5.92	v	32
@@ -419,12 +417,12 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 1947	BASTARD	bastardo	bastard	9.32	a	181
 1952	TORTURE	tortura	torture	7.16	n	1806
 1953	ABUSE	abuso	abuse	10.88	n	13
-1954	GENTLE	mite	meek	9.208333333333334	a	1075
+1954	GENTLE	gentile	gentle	6.92	a	750
 196	DONATE	regalare	to donate	4.76	v	1449
 1961	NECKLACE	collana	necklace	4.44	n	405
 1964	ALONE	solo	alone	4.6	a	1645
 1972	YOUNG GOAT (KID)	ragazzino	kid	5.32	n	1431
-1973	DEMON	diavolo	devil	5.72	n	515
+1973	DEMON	demonio	demon	7.76	n	502
 1976	MERRY	allegro	merry	4.16	a	51
 1981	WIDOWER	vedovo	widower	9.44	a	1886
 1986	DISEASE	malanno	illness	7.36	n	999
@@ -454,12 +452,11 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 2062	INTEREST	interesse	interest	8.44	n	892
 2070	COMB (VERB)	pettinare	to comb	4.08	v	1306
 208	NASAL MUCUS (SNOT)	muco	mucus	4.72	n	1106
-2099	CHILD	bimbi	children	3.28	n	210
+2099	CHILD	bambino	child	3.2	n	169
 21	TASTE (SOMETHING)	gusto	taste	4.96	n	826
 210	LIFE	vita	life	6.68	n	1927
 2102	BURN	bruciatura	burn	6.04	n	239
 2115	CEASE OR FINISH	fermarsi	to stop	4.64	v	650
-2117	DESIRE	voglia	desire	6.56	n	1934
 212	FIELD	campo	field	4.52	n	280
 2124	SMELL	odore	smell	4.44	n	1170
 2137	MAGICIAN	mago	magician	5.04	n	993
@@ -533,7 +530,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 2549	VEHICLE	veicolo	vehicle	5.96	n	1887
 2553	MISERY	miseria	misery	7.96	n	1072
 2554	PRINCE (RULER)	principe	prince	4.16	n	1385
-256	FOOD	pizza	pizza	4.2	n	1340
+256	FOOD	cibo	food	3.52	n	369
 2562	SEX (GENDER)	sesso	sex	10.32	n	1611
 2565	CASTRATED BOAR	carretto	barrow	6.88	n	320
 2568	BAKER	panettiere	baker	6.32	n	1234
@@ -583,14 +580,16 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 2872	IMPROVE (SOMETHING)	migliorare	to improve	6.48	v	1066
 2883	DISTURB	disturbare	to disturb	6.24	v	543
 289	MOLD	muffa	mold	7.76	n	1107
+2892	MAKE ANGRY (ANNOY)	infastidire	to annoy	6.76	v	865
 2902	BRAWL (FIGHT)	rissa	brawl	8.32	n	1484
 292	RUG	tappeto	carpet	5.6	n	1747
 2929	BENEFIT	profitto	profit	10.56	n	1389
 2940	GATE	cancello	gate	5.16	n	282
-2947	DAMAGE (INJURY)	ferita	injury	4.2	n	647
+2947	DAMAGE (INJURY)	danno	damage	6.12	n	493
 2954	SLICE	fetta	slice	4.88	n	656
 2956	TUBE	tubo	tube	5.12	n	1837
 2958	LAUGHTER	risata	laughter	5.6	n	1477
+2960	LONGING (WISH)	voglia	desire	6.56	n	1934
 2964	NEWS	notizia	news	6.56	n	1148
 2965	PAW	zampa	paw	4.44	n	1944
 2968	REASON	motivo	tune	6.4	n	1100
@@ -599,7 +598,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 298	SHRIEK	strillo	shriek	4.52	n	1715
 2980	AREA	zona	area	7.44	n	1951
 2981	ITEM	elemento	item	7.88	n	576
-2982	GIFT	dono	present	5.28	n	558
+2982	GIFT	regalo	gift	4.08	n	1450
 2984	HEAP	mucchio	pile	7.12	n	1105
 2992	TIP (OF OBJECT)	mancia	tip	9.76	n	1008
 3	BRAVE	coraggioso	brave	6.76	a	444
@@ -612,13 +611,13 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 3062	TURNIP	rapa	turnip	7.8	n	1438
 3064	RUST	ruggine	rust	8	n	1511
 3066	SCARF OR TURBAN	sciarpa	scarf	4.56	n	1562
-3069	FALSE	truffa	fraud	9.92	n	1835
+3069	FALSE	falso	false	5.28	a	612
 307	HAWK	falco	hawk	6.44	n	610
 308	TOUCAN	tucano	toucan	9.391304347826088	n	1838
 3083	BALLOON	palloncino	balloon	3.08	n	1226
 3085	CARROT	carota	carrot	4.56	n	319
 3086	COMPUTER	computer	computer	6.4	n	427
-3087	PACIFIER	ciuccio	pacifier	2.96	n	393
+3087	PACIFIER	manichino	dummy	6.28	n	1015
 3089	GIRAFFE	giraffa	giraffe	4.12	n	781
 3090	GUITAR	chitarra	guitar	5.24	n	366
 3091	LEMON	limone	lemon	4.2	n	957
@@ -658,7 +657,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 3325	PEARL	perla	pearl	6.52	n	1294
 3334	RITE	rito	rite	8.08	n	1489
 3336	FUNERAL	funerale	funeral	6.08	n	721
-3357	CUPBOARD	mobile	cabinet	5.28	n	1077
+3357	CUPBOARD	credenza	cupboard	5.96	n	466
 336	PADLOCK	lucchetto	padlock	6.2	n	970
 3375	PATIENT (SICK PERSON)	paziente	patient	8.56	a	1271
 3376	ROBBER	rapinatore	robber	7.72	n	1441
@@ -671,12 +670,14 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 3403	HORSE BARN	stalla	stable	5.12	n	1694
 3404	TILE	tassello	tile	8.68	n	1752
 3405	RULER	righello	ruler	4.84	n	1470
+3406	MERCHANDISE	merce	goods	8.08	n	1057
 341	SICKLE	falce	sickle	9.4	n	609
 342	HAY	fieno	hay	6.24	n	665
 3423	DRILL	trapano	drill	8.44	n	1817
 3425	JOKE	scherzo	joke	4.8	n	1554
 344	TREE TRUNK	tronco	trunk	5.44	n	1830
 3446	PINK	rosa	rose	4.04	n	1501
+3455	COMMEND	lode	praise	7.68	n	967
 3458	SILENCE	silenzio	silence	4.48	n	1621
 3460	BEACH	spiaggia	beach	3.96	n	1673
 3468	KINDNESS	gentilezza	kindness	6.32	n	751
@@ -736,7 +737,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 3877	DEPRESSION	depressione	depression	10.92	n	507
 3878	DIAMOND	diamante	diamond	6.92	n	514
 3879	IMAGINE	immaginare	to imagine	5.96	v	841
-3881	PISTOL	pistola	pistol	5.48	n	1336
+3881	PISTOL	carabina	rifle	9.833333333333334	n	307
 3883	NOISY	rumoroso	noisy	5.44	a	1513
 3888	SKUNK	puzzola	skunk	6.92	n	1416
 3897	NATURE	natura	nature	4.2	n	1125
@@ -745,6 +746,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 391	BLESS	benedire	to bless	7.24	v	196
 3915	PRIDE	orgoglio	pride	9.76	n	1192
 3916	PLEASURE	piacere	pleasure	7.64	n	1308
+3917	DEVIL	diavolo	devil	5.72	n	515
 3948	SHOTGUN	fucile	shotgun	6.68	n	717
 395	PILL	pillola	pill	7.16	n	1326
 3960	IDENTITY	identità	identity	9.12	n	832
@@ -760,14 +762,14 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 420	FOREST	foresta	forest	5.44	n	694
 425	BE LATE	ritardato	delayed	9.92	a	1487
 43	LEAD (GUIDE)	piombo	lead	9.88	n	1331
-45	EVIL	malvagio	wicked	5.64	a	1006
+45	EVIL	cattivo	evil	3.48	a	340
 472	PELICAN	pellicano	pelican	8.12	n	1277
 474	DRESS	abito	dress	5.04	n	10
 476	CUP	tazza	cup	4.36	n	1757
 478	LIP	labbra	lips	4.76	n	912
 480	PLATE	piatto	plate	3.36	n	1313
 486	MINISTER	ministro	minister	9.64	n	1070
-487	SHY	timido	timid	5.56	a	1790
+487	SHY	schivo	shy	10.88	a	1561
 488	MANNER	modo	manner	6.44	n	1081
 494	FLIRT	flirtare	to flirt	11.24	v	681
 496	CUCUMBER	cetriolo	cucumber	5.96	n	360
@@ -788,10 +790,10 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 541	POETRY	poesia	poetry	5.2	n	1343
 557	OFFEND	offendere	to offend	6.6	v	1171
 576	DANDRUFF	forfora	dandruff	9.08	n	695
-578	KISS	bacio	kiss	4.76	n	161
+578	KISS	baciare	to kiss	5.48	v	160
 580	FUR	pelliccia	fur	7.56	n	1278
 585	BOOT	stivale	boot	4.92	n	1703
-586	GARDEN	orto	vegetable garden	6.16	n	1203
+586	GARDEN	giardino	garden	4.28	n	762
 587	ANT	formica	ant	3.92	n	697
 588	BROKEN	rotto	broken	4.88	a	1504
 590	NAKED	svestito	naked	6.96	a	1736
@@ -813,7 +815,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 625	LAMP	lampada	lamp	4.28	n	918
 628	LEAF	foglia	leaf	4.08	n	684
 629	LEATHER	cuoio	leather	7.72	n	485
-630	LIGHT (RADIATION)	luce	daylight	4	n	971
+630	LIGHT (RADIATION)	fanale	light	10.28	n	618
 632	LIZARD	lucertola	lizard	4.24	n	972
 633	MARKET	mercato	market	6.12	n	1056
 634	MEAT	carne	meat	4.44	n	316
@@ -882,7 +884,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 747	BICYCLE	bicicletta	bicycle	4.4	n	206
 750	DROP	goccia	drop	4.56	n	789
 753	PUPIL (STUDENT)	alunno	student	5.28	n	59
-754	HURRY	fretta	hurry	6.08	n	711
+754	HURRY	sbrigarsi	to hurry	5.64	v	1541
 757	BUTTON	bottone	button	6.24	n	230
 759	SILVER	argento	silver	7.2	n	101
 760	KNOT	nodo	knot	5.04	n	1142
@@ -901,7 +903,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 785	STRONG	forte	strong	4.68	a	699
 787	SAIL	vela	sail	5.76	n	1888
 788	SOAP	sapone	soap	4	n	1534
-789	PEOPLE	nazione	nation	7.96	n	1128
+789	PEOPLE	gente	people	5.88	n	749
 794	PEN	penna	pen	3.68	n	1282
 795	TROUT	trota	trout	7.68	n	1832
 796	NIPPLE	capezzolo	nipple	9.48	n	300
@@ -951,7 +953,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	ITALIAN	ENGLISH	ITALIAN_AOA_MEAN	ITALIAN_POS	LI
 905	BORING	annoiato	bored	5.36	a	83
 906	TREE	albero	tree	3.56	n	47
 908	DRUM	tamburo	drum	4.84	n	1744
-909	GARBAGE	rifiuto	trash	5.583333333333333	n	1469
+909	GARBAGE	spazzatura	garbage	5.36	n	1666
 91	INSOLENT	insolente	insolent	9.6	a	888
 910	DEATH	morte	death	5.8	n	1097
 913	CROW	corvo	crow	5.92	n	459
