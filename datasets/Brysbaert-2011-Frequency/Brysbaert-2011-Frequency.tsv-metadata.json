@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of frequency norms by Brysbaert et al. (2011).",
   "dc:source": "https://www.ncbi.nlm.nih.gov/pubmed/21768069",
   "dc:references" : "Brysbaert2011",
-  "dcat:keyword": ["word frequency", "monolingual", "English"],
+  "dcat:keyword": ["word frequency", "monolingual", "German"],
   "dc:description": "An automated mapping of the frequency norms submitted with the study of Brysbaert et al. (2011) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
