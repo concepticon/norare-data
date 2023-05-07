@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of Concreteness Ratings by Brysbaert et al. (2014).",
   "dc:source": "https://doi.org/10.3758/s13428-013-0403-5",
   "dc:references" : "Brysbaert2014",
-  "dcat:keyword": ["word frequency", "monolingual", "English"],
+  "dcat:keyword": ["concreteness", "monolingual", "English"],
   "dc:description": "An automated mapping of the concreteness ratings submitted with the study of Brysbaert et al. (2014) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
