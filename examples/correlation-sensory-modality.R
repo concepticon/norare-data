@@ -3,7 +3,7 @@
 # Load libraries
 library(groundhog) # Version 3.1.0
 pkgs <- c("readr","ggplot2", "ggthemes", "dplyr", "plyr", "ggpubr", "gridExtra")
-groundhog.library(pkgs, "2023-01-01")
+groundhog.library(pkgs, "2023-05-01")
 
 # Set working directory to Concepticon repository (please adapt the path accordingly)
 setwd("./concepticon/concepticon-data/concepticondata/conceptlists/")
@@ -101,4 +101,4 @@ grid.arrange(plot_aud, plot_gus, plot_hap, plot_olf, plot_vis, nrow=3)
 
 g = arrangeGrob(plot_aud, plot_gus, plot_hap, plot_olf, plot_vis, nrow=3)
 
-ggsave("./examples/English_sensory.pdf", g, width=20, height=30)
+ggsave("examples/English_sensory.pdf", g, width=20, height=30)
