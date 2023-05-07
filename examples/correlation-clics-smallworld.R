@@ -2,7 +2,7 @@
 
 # Load libraries
 library(groundhog) # Version 3.1.0
-pkgs <- c("readr","ggplot2", "ggthemes", "dplyr", "ggpubr")
+pkgs <- c("readr", "dplyr")
 groundhog.library(pkgs, "2023-05-01")
 
 
