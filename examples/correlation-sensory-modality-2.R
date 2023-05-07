@@ -5,10 +5,9 @@ library(groundhog) # Version 3.1.0
 pkgs <- c("readr","ggplot2", "ggthemes", "dplyr", "plyr", "ggpubr", "gridExtra")
 groundhog.library(pkgs, "2023-05-01")
 
-library(plyr)
 
 # Set working directory to Concepticon repository (please adapt the path accordingly)
-setwd("~/GitHub/Repos/concepticon/concepticon-data/concepticondata/conceptlists/")
+setwd("./concepticon/concepticon-data/concepticondata/conceptlists/")
 
 # Import data set
 Morucci_2019_643 <- read_delim("Morucci-2019-643.tsv", 
@@ -33,9 +32,9 @@ VM <- rbind.fill(Vergallito_2020_1121, Morucci_2019_643)
 italian = VM[!duplicated(VM$CONCEPTICON_ID),]
 
 # Set working directory to NoRaRe repository (please adapt the path accordingly)
-setwd("~/GitHub/Repos/concepticon/norare-data/")
+setwd("./concepticon/norare-data/")
 
-# Import data set
+# Import data set from NoRaRe
 english <- read_delim("datasets/Lynott-2020-Sensorimotor/Lynott-2020-Sensorimotor.tsv", 
                       "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer(), 
                                                                     LINE_IN_SOURCE = col_integer()), 
