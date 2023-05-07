@@ -6,7 +6,7 @@ pkgs <- c("readr","ggplot2", "ggthemes", "ggpubr", "gridExtra")
 groundhog.library(pkgs, "2023-05-01")
 
 # Set working directory to NoRaRe repository (please adapt the path accordingly)
-setwd("~/GitHub/Repos/concepticon/norare-data/")
+setwd("./concepticon/norare-data/")
 
 # Import data sets
 Brysbaert_2009_Frequency <- read_delim("datasets/Brysbaert-2009-Frequency/Brysbaert-2009-Frequency.tsv", 
@@ -14,7 +14,7 @@ Brysbaert_2009_Frequency <- read_delim("datasets/Brysbaert-2009-Frequency/Brysba
                                                                                      ENGLISH_FREQUENCY = col_double()), 
                                        trim_ws = TRUE)
 
-Brysbaert_2011_Frequency <- read_delim("~/GitHub/Repos/concepticon/norare-data/datasets/Brysbaert-2011-Frequency/Brysbaert-2011-Frequency.tsv", 
+Brysbaert_2011_Frequency <- read_delim("datasets/Brysbaert-2011-Frequency/Brysbaert-2011-Frequency.tsv", 
                                        delim = "\t", escape_double = FALSE, 
                                        trim_ws = TRUE)
 
