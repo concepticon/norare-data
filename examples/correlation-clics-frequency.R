@@ -64,12 +64,12 @@ nrow(overlap_cp)
 
 
 # Test correlations of the variables in the data sets
-cor.test(overlap_ce$WEIGHTED_FAMILY_DEGREE, overlap_ce$ENGLISH_FREQUENCY, method="spearman", exact = FALSE)
-cor.test(overlap_cg$WEIGHTED_FAMILY_DEGREE, overlap_cg$GERMAN_FREQUENCY, method="spearman", exact = FALSE)
-cor.test(overlap_cc$WEIGHTED_FAMILY_DEGREE, overlap_cc$CHINESE_FREQUENCY, method="spearman", exact = FALSE)
-cor.test(overlap_cs$WEIGHTED_FAMILY_DEGREE, overlap_cs$SPANISH_FREQUENCY, method="spearman", exact = FALSE)
-cor.test(overlap_cd$WEIGHTED_FAMILY_DEGREE, overlap_cd$DUTCH_FREQUENCY, method="spearman", exact = FALSE)
-cor.test(overlap_cp$WEIGHTED_FAMILY_DEGREE, overlap_cp$POLISH_FREQUENCY, method="spearman", exact = FALSE)
+cor.test(overlap_ce$WEIGHTED_FAMILY_DEGREE, overlap_ce$ENGLISH_FREQUENCY_LOG, method="spearman", exact = FALSE)
+cor.test(overlap_cg$WEIGHTED_FAMILY_DEGREE, overlap_cg$GERMAN_FREQUENCY_LOG, method="spearman", exact = FALSE)
+cor.test(overlap_cc$WEIGHTED_FAMILY_DEGREE, overlap_cc$CHINESE_FREQUENCY_LOG, method="spearman", exact = FALSE)
+cor.test(overlap_cs$WEIGHTED_FAMILY_DEGREE, overlap_cs$SPANISH_FREQUENCY_LOG, method="spearman", exact = FALSE)
+cor.test(overlap_cd$WEIGHTED_FAMILY_DEGREE, overlap_cd$DUTCH_FREQUENCY_LOG, method="spearman", exact = FALSE)
+cor.test(overlap_cp$WEIGHTED_FAMILY_DEGREE, overlap_cp$POLISH_FREQUENCY_LOG, method="spearman", exact = FALSE)
 
 
 # Example plot
