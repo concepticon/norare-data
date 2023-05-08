@@ -25,11 +25,13 @@ clics1 <- read_delim("List-2014-1280.tsv",
                                                                    CONCEPTICON_ID = col_integer()), 
                      trim_ws = TRUE)
 
-smallworld <- read_delim("~/GitHub/Repos/concepticon/concepticon-data/concepticondata/conceptlists/Verheyen-2020-1000.tsv", 
+Verheyen_2020_1000 <- read_delim("Verheyen-2020-1000.tsv", 
                                  delim = "\t", escape_double = FALSE, 
                                  trim_ws = TRUE)
 
-
+smallworld <- Verheyen_2020_1000[!is.na(Verheyen_2020_1000$CONCEPTICON_ID),]
+  
+  
 # Merge data sets 
 overlap_c3 <- merge(clics3, smallworld, by = "CONCEPTICON_ID", suffixes = c(".CLICS3",".SmallWorld"))
 overlap_c2 <- merge(clics2, smallworld, by = "CONCEPTICON_ID", suffixes = c(".CLICS2",".SmallWorld"))
