@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of frequency norms by Brysbaert et al. (2009).",
   "dc:source": "https://doi.org/10.3758/BRM.41.4.977",
   "dc:references" : "Brysbaert2009",
-  "dcat:keyword": ["word frequency", "monolingual", "english"],
+  "dcat:keyword": ["word frequency", "monolingual", "English"],
   "dc:description": "An automated mapping of the frequency norms submitted with the study of Brysbaert et al. (2009) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",

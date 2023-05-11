@@ -1,14 +1,9 @@
-
-# Empty work space
-rm(list = ls())
-
-# R version: R-4.1.
+# R version: R-4.3.0
 
 # Load libraries
-library(groundhog) # Version 1.5.0
-pkgs <- c("readr","ggplot2", "ggthemes", "dplyr")
-groundhog.library(pkgs, "2021-11-27")
-
+library(groundhog) # Version 3.1.0
+pkgs <- c("readr","ggplot2", "ggthemes", "dplyr", "plyr", "ggpubr", "gridExtra")
+groundhog.library(pkgs, "2023-05-01")
 
 # Set working directory to Concepticon repository (please adapt the path accordingly)
 setwd("./concepticon/concepticon-data/concepticondata/conceptlists/")
@@ -37,13 +32,13 @@ LLW <- rbind.fill(Lynott_2013_400, Lynott_2009_423, Winter_2016_300)
 setwd("./concepticon/norare-data/")
 
 # Import data set
-Lynott_2020_Sensorimotor <- read_delim("concept_set_meta/Lynott-2020-Sensorimotor/Lynott-2020-Sensorimotor.tsv", 
+Lynott_2020_Sensorimotor <- read_delim("datasets/Lynott-2020-Sensorimotor/Lynott-2020-Sensorimotor.tsv", 
                                        "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer(), 
                                                                                      LINE_IN_SOURCE = col_integer()), 
                                        trim_ws = TRUE)
 
 # Merge data sets 
-overlap_LL <- merge(Lynott_2020_Sensorimotor, LLW, by = "CONCEPTICON_ID", suffixes = c(".Lynott_2020",".Lynott_2013"))
+overlap_LL <- merge(Lynott_2020_Sensorimotor, LLW, by = "CONCEPTICON_ID", suffixes = c(".Lynott_2020",".LLW"))
 
 # Show overlap between the data sets
 nrow(overlap_LL)
@@ -56,49 +51,54 @@ cor.test(overlap_LL$ENGLISH_OLFACTORY_MEAN, overlap_LL$OLFACTORY_MEAN, method="p
 cor.test(overlap_LL$ENGLISH_VISUAL_MEAN, overlap_LL$VISUAL_MEAN, method="pearson")
 
 # Create plots
-a <- ggplot(overlap_LL, aes(x=ENGLISH_AUDITORY_MEAN, y=AUDITORY_MEAN)) + 
+plot_aud <- ggplot(overlap_LL, aes(x=ENGLISH_AUDITORY_MEAN, y=AUDITORY_MEAN)) + 
   geom_point() + 
-  scale_x_continuous(limits=c(0, 6)) +
-  scale_y_continuous(limits=c(0, 6)) +
+  scale_x_continuous(limits=c(0, 5)) +
+  scale_y_continuous(limits=c(0, 5)) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Auditory Ratings", y="Automated mapping", x = "Manual mapping") +
-  theme_hc(base_size = 28)
+  stat_cor(method = "pearson", label.x = 0.5, label.y = 4.75, p.accuracy = 0.0001, size = 10) +
+  labs(title= "Auditory", y="Automated mapping", x = "") +
+  theme_hc(base_size = 30)
 
-b <- ggplot(overlap_LL, aes(x=ENGLISH_GUSTATORY_MEAN, y=GUSTATORY_MEAN)) + 
+plot_gus <- ggplot(overlap_LL, aes(x=ENGLISH_GUSTATORY_MEAN, y=GUSTATORY_MEAN)) + 
   geom_point() + 
-  scale_x_continuous(limits=c(0, 6)) +
-  scale_y_continuous(limits=c(0, 6)) +
+  scale_x_continuous(limits=c(0, 5)) +
+  scale_y_continuous(limits=c(0, 5)) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Gustatory Ratings",  y="Automated mapping", x = "Manual mapping") +
-  theme_hc(base_size = 28)
+  stat_cor(method = "pearson", label.x = 0.5, label.y = 4.75, p.accuracy = 0.0001, size = 10) +
+  labs(title= "Gustatory",  y="", x = "") +
+  theme_hc(base_size = 30)
 
-c <- ggplot(overlap_LL, aes(x=ENGLISH_HAPTIC_MEAN, y=HAPTIC_MEAN)) + 
+plot_hap <- ggplot(overlap_LL, aes(x=ENGLISH_HAPTIC_MEAN, y=HAPTIC_MEAN)) + 
   geom_point() + 
-  scale_x_continuous(limits=c(0, 6)) +
-  scale_y_continuous(limits=c(0, 6)) +
+  scale_x_continuous(limits=c(0, 5)) +
+  scale_y_continuous(limits=c(0, 5)) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Haptic Ratings",  y="Automated mapping", x = "Manual mapping") +
-  theme_hc(base_size = 28)
+  stat_cor(method = "pearson", label.x = 0.5, label.y = 4.75, p.accuracy = 0.0001, size = 10) +
+  labs(title= "Haptic",  y="Automated mapping", x = "") +
+  theme_hc(base_size = 30)
 
-d <- ggplot(overlap_LL, aes(x=ENGLISH_OLFACTORY_MEAN, y=OLFACTORY_MEAN)) + 
+plot_olf <- ggplot(overlap_LL, aes(x=ENGLISH_OLFACTORY_MEAN, y=OLFACTORY_MEAN)) + 
   geom_point() + 
-  scale_x_continuous(limits=c(0, 6)) +
-  scale_y_continuous(limits=c(0, 6)) +
+  scale_x_continuous(limits=c(0, 5)) +
+  scale_y_continuous(limits=c(0, 5)) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Olfactory Ratings",  y="Automated mapping", x = "Manual mapping") +
-  theme_hc(base_size = 28)
+  stat_cor(method = "pearson", label.x = 0.5, label.y = 4.75, p.accuracy = 0.0001, size = 10) +
+  labs(title= "Olfactory",  y="", x = "Manual mapping") +
+  theme_hc(base_size = 30)
 
-e <- ggplot(overlap_LL, aes(x=ENGLISH_VISUAL_MEAN, y=VISUAL_MEAN)) + 
+plot_vis <- ggplot(overlap_LL, aes(x=ENGLISH_VISUAL_MEAN, y=VISUAL_MEAN)) + 
   geom_point() + 
-  scale_x_continuous(limits=c(0, 6)) +
-  scale_y_continuous(limits=c(0, 6)) +
+  scale_x_continuous(limits=c(0, 5)) +
+  scale_y_continuous(limits=c(0, 5)) +
+  stat_cor(method = "pearson", label.x = 0.5, label.y = 4.75, p.accuracy = 0.0001, size = 10) +
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-  labs(title= "Distribution of Visual Ratings",  y="Automated mapping", x = "Manual mapping") +
-  theme_hc(base_size = 28)
+  labs(title= "Visual",  y="Automated mapping", x = "Manual mapping") +
+  theme_hc(base_size = 30)
 
 # Save plots
-ggsave("examples/auditory.pdf", a, width=11, height=8.5)
-ggsave("examples/gustatory.pdf", b, width=11, height=8.5)
-ggsave("examples/haptic.pdf", c, width=11, height=8.5)
-ggsave("examples/olfactory.pdf", d, width=11, height=8.5)
-ggsave("examples/visual.pdf", e, width=11, height=8.5)
+grid.arrange(plot_aud, plot_gus, plot_hap, plot_olf, plot_vis, nrow=3)
+
+g = arrangeGrob(plot_aud, plot_gus, plot_hap, plot_olf, plot_vis, nrow=3)
+
+ggsave("examples/English_sensory.pdf", g, width=20, height=30)

@@ -1,28 +1,24 @@
-
-# Empty work space
-rm(list = ls())
-
-# R version: R-4.1.
+# R version: R-4.3.0
 
 # Load libraries
-library(groundhog) # Version 1.5.0
+library(groundhog) # Version 3.1.0
 pkgs <- c("readr","ggplot2", "ggthemes", "ggpubr", "gridExtra")
-groundhog.library(pkgs, "2021-11-27")
+groundhog.library(pkgs, "2023-05-01")
 
 
 # Set working directory to NoRaRe repository (please adapt the path accordingly)
 setwd("./concepticon/norare-data/")
 
 # Import data sets
-English_Scott_2019 <- read_delim("concept_set_meta/Scott-2019-Ratings/Scott-2019-Ratings.tsv", 
+English_Scott_2019 <- read_delim("datasets/Scott-2019-Ratings/Scott-2019-Ratings.tsv", 
                                  "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer()), 
                                  trim_ws = TRUE)
 
-Dutch_Moors_2013 <- read_delim("concept_set_meta/Moors-2013-Ratings/Moors-2013-Ratings.tsv", 
+Dutch_Moors_2013 <- read_delim("datasets/Moors-2013-Ratings/Moors-2013-Ratings.tsv", 
                                             "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer()), 
                                             trim_ws = TRUE)
 
-Spanish_Stadthagen_2017 <- read_delim("concept_set_meta/StadthagenGonzalez-2017-ValenceArousal/StadthagenGonzalez-2017-ValenceArousal.tsv", 
+Spanish_Stadthagen_2017 <- read_delim("datasets/StadthagenGonzalez-2017-ValenceArousal/StadthagenGonzalez-2017-ValenceArousal.tsv", 
                                     "\t", escape_double = FALSE, col_types = cols(CONCEPTICON_ID = col_integer()), 
                                     trim_ws = TRUE)
 
