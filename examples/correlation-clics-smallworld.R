@@ -45,7 +45,10 @@ nrow(overlap_c1)
 
 
 # Test correlations of the variables in the data sets
+cor.test(overlap_c3$WEIGHTED_FAMILY_DEGREE, overlap_c3$INSTRENGTH, method="spearman", exact = FALSE)
+cor.test(overlap_c2$WEIGHTED_FAMILY_DEGREE, overlap_c2$INSTRENGTH, method="spearman", exact = FALSE)
+cor.test(overlap_c1$WEIGHTED_DEGREE, overlap_c1$INSTRENGTH, method="spearman", exact = FALSE)
+
 cor.test(overlap_c3$WEIGHTED_FAMILY_DEGREE, overlap_c3$INSTRENGTH, method="pearson", exact = FALSE)
 cor.test(overlap_c2$WEIGHTED_FAMILY_DEGREE, overlap_c2$INSTRENGTH, method="pearson", exact = FALSE)
 cor.test(overlap_c1$WEIGHTED_DEGREE, overlap_c1$INSTRENGTH, method="pearson", exact = FALSE)
-
