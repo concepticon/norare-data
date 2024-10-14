@@ -712,3 +712,14 @@ Ferre-2022-160	EMOTION_POLARITY	numeric	emotion	valence	ratings	users	en		Condit
 Ferre-2022-160	EMOTION_CONDITION	numeric	emotion	condition	ratings	users	en		Conditions regarding emotionality; 0 neutral words, 1 emotional words.
 Ferre-2022-160	ORTHOGRAPHIC_SIMILARITY	normalized	similarity	orthography	ratings	users	en		Normalized Levensthein Distance: Orthographic similarity between the English word and its Portuguese translation.
 Montefinese-2019-AoA	ITALIAN_AOA_MEAN	mean	AoA		ratings	users	it		The mean of age of acquisition ratings. Participants were asked to provide an approximate estimate of the age at which words have been learned in their written or spoken form for the first time.
+Speed-2024-Emotions	DUTCH_AROUSAL_MEAN	mean arousal 	ratings user	nl		The mean value of the ratings for arousal on a 5-point scale (1 = very calm/passive, 5 = very excited/active).
+Speed-2024-Emotions	DUTCH_VALENCE_MEAN	mean valence 	ratings user	nl		The mean value of the ratings for valence on a 5-point scale (1 = very negative/unpleasant, 5 = very positive/pleasant).
+Speed-2024-Emotions	DUTCH_VALENCE_CATEGORY	linguistic emotion strength ratings user	nl		The ratings of strength of valence on a 3 point scale (positive, negative, neutral).
+Speed-2024-Emotions	DUTCH_VALENCE_NEUTRAL	linguistic emotion strength	ratings user	nl		The ratings of whether a term is valanced or neutral.
+Speed-2024-Emotions	DUTCH_HAPPINESS_MEAN	mean happiness 	ratings user	nl		The mean value of the ratings for discrete emotion happiness on a 5-point scale (1 = not, 5 = very much).
+Speed-2024-Emotions	DUTCH_ANGER_MEAN	mean anger 	ratings user	nl		The mean value of the ratings for discrete emotion anger on a 5-point scale (1 = not, 5 = very much).
+Speed-2024-Emotions	DUTCH_FEAR_MEAN	mean fear 	ratings user	nl		The mean value of the ratings for discrete emotion fear on a 5-point scale (1 = not, 5 = very much).
+Speed-2024-Emotions	DUTCH_SADNESS_MEAN	mean sadness 	ratings user	nl		The mean value of the ratings for discrete emotion sadness on a 5-point scale (1 = not, 5 = very much).
+Speed-2024-Emotions	DUTCH_DISGUST_MEAN	mean disgust 	ratings user	nl		The mean value of the ratings for discrete emotion disgust on a 5-point scale (1 = not, 5 = very much).
+Speed-2024-Emotions	DUTCH_SURPRISE_MEAN	mean surprise 	ratings user	nl		The mean value of the ratings for discrete emotion surprise on a 5-point scale (1 = not, 5 = very much).
+Speed-2024-Emotions	DUTCH_HAPPINESS_MEAN	linguistic emotion dominant ratings user	nl		The primary emotion most strongly relared with the concept.

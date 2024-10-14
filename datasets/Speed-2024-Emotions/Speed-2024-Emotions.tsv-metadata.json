@@ -1,0 +1,105 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of valence, arousal, happiness, anger, fear, sadness, disgust, and surprise for 24,000 Dutch words by Speed & Brysbaert (2024)",
+ "dc:source": "https://doi.org/10.3758/s13428-023-02239-6",
+  "dc:references" : "Speed2024",
+  "dcat:keyword": ["valence", "arousal", "discrete emotions", "lexical decision", "personality"],
+  "dc:description": "An automated mapping of the valence, arousal, and emotion ratings (happiness, anger, fear, sadness, disgust, and surprise) for 24,000 Dutch words from the study by Speed and Brysbaert (2024) to the concept sets in Concepticon.", #leave out the actual emotions and the number of words?
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "DUTCH",
+            "datatype": "string",
+           "titles": "Word"
+          }, 
+          {
+            "name": "DUTCH_AROUSAL_MEAN",
+           "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Arousal"
+          },
+          {
+            "name": "DUTCH_VALENCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Valence"
+          },
+            {
+           "name": "DUTCH_VALENCE_CATEGORY",
+           "datatype": {"base": "string", "format": "positive|negative|neutral"},
+             "titles": "ValenceCategory"
+          },
+          {
+           "name": "DUTCH_VALENCE_NEUTRAL",
+            "datatype": {"base": "string", "format": "valanced|neutral"},
+            "titles": "ValenceVsNeutral"
+          },
+          {
+            "name": "DUTCH_HAPPINESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Happiness"
+          },
+          {
+            "name": "DUTCH_ANGER_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Anger"
+          },
+          {
+            "name": "DUTCH_FEAR_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Fear"
+          },
+          {
+            "name": "DUTCH_SADNESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Sadness"
+          },
+          {
+            "name": "DUTCH_DISGUST_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Disgust"
+          },
+          {
+            "name": "DUTCH_SURPRISE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Surprise"
+          },
+          {
+            "name": "DUTCH_EMOTION_DOMINANT",
+          "datatype": {"base": "string", "format": "Anger|Disgust|Fear|Happiness|Joint|Sadness|Surprise"},
+            "titles": "Dominant_Emotion"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Speed-2024-Emotions.tsv"
+    }
+  ]
+}
