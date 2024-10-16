@@ -5,7 +5,7 @@
  "dc:source": "https://doi.org/10.3758/s13428-023-02239-6",
   "dc:references" : "Speed2024",
   "dcat:keyword": ["valence", "arousal", "discrete emotions", "lexical decision", "personality"],
-  "dc:description": "An automated mapping of the valence, arousal, and emotion ratings (happiness, anger, fear, sadness, disgust, and surprise) for 24,000 Dutch words from the study by Speed and Brysbaert (2024) to the concept sets in Concepticon.", #leave out the actual emotions and the number of words?
+  "dc:description": "An automated mapping of the valence, arousal, and emotion ratings (happiness, anger, fear, sadness, disgust, and surprise) for 24,000 Dutch words from the study by Speed and Brysbaert (2024) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -26,11 +26,11 @@
           {
             "name": "DUTCH",
             "datatype": "string",
-           "titles": "Word"
-          }, 
+            "titles": "Word"
+          },
           {
             "name": "DUTCH_AROUSAL_MEAN",
-           "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
             "titles": "Arousal"
           },
           {
@@ -38,13 +38,13 @@
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
             "titles": "Valence"
           },
-            {
-           "name": "DUTCH_VALENCE_CATEGORY",
-           "datatype": {"base": "string", "format": "positive|negative|neutral"},
-             "titles": "ValenceCategory"
+          {
+            "name": "DUTCH_VALENCE_CATEGORY",
+            "datatype": {"base": "string", "format": "positive|negative|neutral"},
+            "titles": "ValenceCategory"
           },
           {
-           "name": "DUTCH_VALENCE_NEUTRAL",
+            "name": "DUTCH_VALENCE_NEUTRAL",
             "datatype": {"base": "string", "format": "valanced|neutral"},
             "titles": "ValenceVsNeutral"
           },
@@ -80,13 +80,9 @@
           },
           {
             "name": "DUTCH_EMOTION_DOMINANT",
-          "datatype": {"base": "string", "format": "Anger|Disgust|Fear|Happiness|Joint|Sadness|Surprise"},
+            "datatype": {"base": "string", "format": "Anger|Disgust|Fear|Happiness|Joint|Sadness|Surprise"},
             "titles": "Dominant_Emotion"
           },
-          {
-            "name": "LINE_IN_SOURCE",
-            "datatype": "integer"
-          }
         ],
         "foreignKeys": [
           {
