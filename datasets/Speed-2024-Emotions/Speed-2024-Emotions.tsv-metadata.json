@@ -4,8 +4,8 @@
   "dc:title": "Ratings of valence, arousal, happiness, anger, fear, sadness, disgust, and surprise for 24,000 Dutch words by Speed & Brysbaert (2024)",
  "dc:source": "https://doi.org/10.3758/s13428-023-02239-6",
   "dc:references" : "Speed2024",
-  "dcat:keyword": ["valence", "arousal", "discrete emotions", "lexical decision", "personality"],
-  "dc:description": "An automated mapping of the valence, arousal, and emotion ratings (happiness, anger, fear, sadness, disgust, and surprise) for 24,000 Dutch words from the study by Speed and Brysbaert (2024) to the concept sets in Concepticon.",
+  "dcat:keyword": ["valence", "arousal", "discrete emotions"],
+  "dc:description": "An automated mapping of the valence, arousal, and discrete emotion ratings (happiness, anger, fear, sadness, disgust, and surprise) for 24,000 Dutch words from the study by Speed and Brysbaert (2024) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
