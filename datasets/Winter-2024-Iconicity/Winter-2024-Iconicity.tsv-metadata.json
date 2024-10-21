@@ -5,7 +5,7 @@
   "dc:source": "https://osf.io/download/ex37k/",
   "dc:references" : "Winter2024",
   "dcat:keyword": ["iconicity", "percentage known", "ratings", "English"],
-  "dc:description": "An automated mapping of the iconicity of words submitted with the study of Winter et al. (2024) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of the iconicity ratings of words submitted with the study of Winter et al. (2024) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -54,7 +54,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Winter-2024-Ratings.tsv"
+      "url": "Winter-2024-Iconicity.tsv"
     }
   ]
 }

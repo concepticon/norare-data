@@ -723,5 +723,5 @@ Speed-2024-Emotions	DUTCH_SADNESS_MEAN	mean	sadness		ratings	user	nl		The mean v
 Speed-2024-Emotions	DUTCH_DISGUST_MEAN	mean	disgust		ratings	user	nl		The mean value of the ratings for discrete emotion "disgust" on a 5-point scale (1 = not, 5 = very much).
 Speed-2024-Emotions	DUTCH_SURPRISE_MEAN	mean	surprise		ratings	user	nl		The mean value of the ratings for discrete emotion "surprise" on a 5-point scale (1 = not, 5 = very much).
 Speed-2024-Emotions	DUTCH_EMOTION_DOMINANT	linguistic	emotion	dominant	ratings	user	nl		The primary emotion most strongly related with the concept.
-Winter-2024-Ratings	ENGLISH_KNOWN_PERCENTAGE	percentage	familiarity	known	ratings	user	en	The mean percentage of familiarity (pronunciation and meaning) of speakers with a term.
-Winter-2024-Ratings	ENGLISH_ICONICITY_MEAN	mean	iconicity		ratings	user	en	The mean value of iconicity (i.e. they sound like what they mean) on a 7-point scale (1 = not iconic at all, 7 = very iconic).
+Winter-2024-Iconicity	ENGLISH_KNOWN_PERCENTAGE	percentage	familiarity	known	ratings	user	en	The mean percentage of familiarity (pronunciation and meaning) of speakers with a term.
+Winter-2024-Iconicity	ENGLISH_ICONICITY_MEAN	mean	iconicity		ratings	user	en	The mean value of iconicity (i.e. they sound like what they mean) on a 7-point scale (1 = not iconic at all, 7 = very iconic).
