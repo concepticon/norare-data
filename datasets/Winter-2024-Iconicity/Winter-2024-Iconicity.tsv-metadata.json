@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Iconicity ratings for 14,000+ English words by Winter et al. (2024)",
+  "dc:source": "https://osf.io/download/ex37k/",
+  "dc:references" : "Winter2024",
+  "dcat:keyword": ["iconicity", "percentage known", "ratings", "English"],
+  "dc:description": "An automated mapping of the iconicity ratings of words submitted with the study of Winter et al. (2024) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "word"
+          },
+          {
+            "name": "ENGlISH_KNOWN_PERCENTAGE",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
+            "titles": "n-ratings"
+          },
+          {
+            "name": "ENGLISH_ICONICITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "rating"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Winter-2024-Iconicity.tsv"
+    }
+  ]
+}
