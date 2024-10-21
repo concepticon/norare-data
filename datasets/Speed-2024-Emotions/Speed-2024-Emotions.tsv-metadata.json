@@ -83,6 +83,10 @@
             "datatype": {"base": "string", "format": "Anger|Disgust|Fear|Happiness|Joint|Sadness|Surprise"},
             "titles": "Dominant_Emotion"
           },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
         ],
         "foreignKeys": [
           {
