@@ -6,7 +6,7 @@ def download(dataset):
 
 def map(dataset, concepticon, mappings):    
     dataset.extract_data(
-        'Norms_Gender.csv', delimiter = ";",
+        'Norms_Gender.csv',
         concepticon,
         mappings,
         gloss='DUTCH',
