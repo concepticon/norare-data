@@ -1,0 +1,65 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of semantic gender for 24,000 Dutch words by Vankrunkelsven et al. (2024)",
+  "dc:source": "https://osf.io/download/wfu28/",
+  "dc:references" : "Vankrunkelsven2024",
+  "dcat:keyword": ["semantic gender", "gender association", "ratings", "Dutch"],
+  "dc:description": "An automated mapping of the ratings of semantic gender of Dutch words submitted with the study of Vankrunkelsven et al. (2024) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "DUTCH",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "DUTCH_GENDER_MEAN_FEMALE",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "F_Gender"
+          },
+          {
+            "name": "DUTCH_GENDER_MEAN_MALE",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "M_Gender"
+          },
+          {
+            "name": "DUTCH_GENDER_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Gender"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Vankrunkelsven-2024-SemanticGender.tsv"
+    }
+  ]
+}
