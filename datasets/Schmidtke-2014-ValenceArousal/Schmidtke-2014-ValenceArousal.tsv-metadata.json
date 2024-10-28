@@ -1,0 +1,80 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings for valence, arousal, imageability, dominance and potency for German sentiment terms by Schmditke et al. (2014) ",
+  "dc:source": "https://static-content.springer.com/esm/art%3A10.3758%2Fs13428-013-0426-y/MediaObjects/13428_2013_426_MOESM1_ESM.xlsx",
+  "dc:references" : "Schmidtke2014",
+  "dcat:keyword": ["valence", "arousal", "dominance", "potency", "imageability", "ratings", "German"],
+  "dc:description": "An automated mapping of the valence, arousal, imageability, dominance and potency of words submitted with the study of Schmidtke et al. (2014) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "GERMAN",
+            "datatype": "string",
+            "titles": "G-word"
+          },
+          {
+            "name": "GERMAN_VALENCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": -3, "maximum": 3},
+            "titles": "VAL_Mean"
+          },
+          {
+            "name": "GERMAN_AROUSAL_MEAN_ANEW",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "ARO_Mean_(ANEW)"
+          },
+          {
+            "name": "GERMAN_AROUSAL_MEAN_BAWL",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "ARO_Mean_(BAWL)"
+          },
+          {
+            "name": "GERMAN_DOMINANCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "DOM_Mean"
+          },
+          {
+            "name": "GERMAN_POTENCY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "POT_Mean"
+          },
+          {
+            "name": "GERMAN_IMAGEABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "IMA_MEAN"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Schmidtke-2014-ValenceArousal.tsv"
+    }
+  ]
+}
