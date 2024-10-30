@@ -56,7 +56,7 @@
           {
             "name": "SPANISH_FAMILIARITY_MEAN",
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-            "titles": "FAM_M"
+            "titles": "'FAM_M"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -74,7 +74,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Guasch-2016-ValenceArousal.tsv"
+      "url": "Guasch-2016-AffectiveRatings.tsv"
     }
   ]
 }
