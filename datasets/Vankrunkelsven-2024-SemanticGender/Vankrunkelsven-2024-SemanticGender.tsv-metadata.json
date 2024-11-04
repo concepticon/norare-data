@@ -44,6 +44,11 @@
             "titles": "Gender"
           },
           {
+            "name": "DUTCH_POS",
+            "datatype": "string",
+            "titles": "PoS"
+          },
+          {
             "name": "LINE_IN_SOURCE",
             "datatype": "integer"
           }
