@@ -428,7 +428,7 @@ Morucci-2019-643	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum percep
 Morucci-2019-643	PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strength	ratings	user	it		The sum of the perceptual scores related to the five sensory modalities.
 Morucci-2019-643	PERCEPTUAL_STRENGTH_ENTROPY	numeric	sensory modality	entropy perceptual strength	ratings	user	it		The variability of the scores across the five sensory modalities.
 Morucci-2019-643	FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		The frequency (1-7) with which a word occurs in everyday life.
-Morucci-2019-643	AOA_MEAN	mean	AoA		ratings	user	en		The age at which a word was learnt. The rating scale goes from one (0–2 years) to seven (13 and older) with intervening points spanning two years. 
+Morucci-2019-643	AOA_MEAN	mean	AoA		ratings	user	en		The age at which a word was learnt. The rating scale goes from one (0–2 years) to seven (13 and older) with intervening points spanning two years.
 Miklashevsky-2018-506	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by hearing.
 Miklashevsky-2018-506	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by tasting.
 Miklashevsky-2018-506	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by feeling through touch.
@@ -728,9 +728,9 @@ Winter-2024-Iconicity	ENGLISH_ICONICITY_MEAN	mean	iconicity		ratings	user	en		Th
 Vankrunkelsven-2024-SemanticGender	DUTCH_GENDER_MEAN_FEMALE	mean	gender association		ratings	users	nl		The mean rating of semantic gender provided by female participants on a 5-point scale (1 = very feminine, 2 = rather feminine, 3 = neutral, 4 = rather masculine, 5 = very masculine).
 Vankrunkelsven-2024-SemanticGender	DUTCH_GENDER_MEAN_MALE	mean	gender association		ratings	users	nl		The mean rating of semantic gender provided by male participants on a 5-point scale (1 = very feminine, 2 = rather feminine, 3 = neutral, 4 = rather masculine, 5 = very masculine).
 Vankrunkelsven-2024-SemanticGender	DUTCH_GENDER_MEAN	mean	gender association		ratings	users	nl		The mean rating of semantic gender on a 5-point scale (1 = very feminine, 2 = rather feminine, 3 = neutral, 4 = rather masculine, 5 = very masculine).
-Guasch-2016-AffectiveRatings	SPANISH_VALENCE_MEAN	mean	valence		ratings	users	es		The mean rating of valence on a 9-point scale (1 = completely sad, 9 = completely happy).	
-Guasch-2016-AffectiveRatings	SPANISH_AROUSAL_MEAN	mean	arousal		ratings	users	es		The mean rating of arousal o a 9-point scale (1 = completely calm, 9 = commpletely energized).	
-Guasch-2016-AffectiveRatings	SPANISH_CONCRETENESS_MEAN	mean	concreteness		ratings	users	es		The mean rating of concreteness on a 7-point scale (1 = very abstracts, 7 = very concrete).	
-Guasch-2016-AffectiveRatings	SPANISH_IMAGEABILITY_MEAN	mean	imageability		ratings	users	es		The mean rating of imageability on a 7-point scale (1 = minimum level of imageability, 7 = maximum level of imageability).	
-Guasch-2016-AffectiveRatings	SPANISH_AVAILABILITY_MEAN	mean	context availability		ratings	users	es		The mean rating of context availability on a 7-point scale (1 = low availability, 7 = high availability).	
-Guasch-2016-AffectiveRatings	SPANISH_FAMILIARITY_MEAN	mean	familiarity		ratings	users	es		The mean rating of familiarity on a 7-point scale (1 = minimum level of familiarity, 7 = maximum level of familiarity).	
+Guasch-2016-AffectiveRatings	SPANISH_VALENCE_MEAN	mean	valence		ratings	users	es		The mean rating of valence on a 9-point scale (1 = completely sad, 9 = completely happy).
+Guasch-2016-AffectiveRatings	SPANISH_AROUSAL_MEAN	mean	arousal		ratings	users	es		The mean rating of arousal o a 9-point scale (1 = completely calm, 9 = commpletely energized).
+Guasch-2016-AffectiveRatings	SPANISH_CONCRETENESS_MEAN	mean	concreteness		ratings	users	es		The mean rating of concreteness on a 7-point scale (1 = very abstracts, 7 = very concrete).
+Guasch-2016-AffectiveRatings	SPANISH_IMAGEABILITY_MEAN	mean	imageability		ratings	users	es		The mean rating of imageability on a 7-point scale (1 = minimum level of imageability, 7 = maximum level of imageability).
+Guasch-2016-AffectiveRatings	SPANISH_AVAILABILITY_MEAN	mean	context availability		ratings	users	es		The mean rating of context availability on a 7-point scale (1 = low availability, 7 = high availability).
+Guasch-2016-AffectiveRatings	SPANISH_FAMILIARITY_MEAN	mean	familiarity		ratings	users	es		The mean rating of familiarity on a 7-point scale (1 = minimum level of familiarity, 7 = maximum level of familiarity).
