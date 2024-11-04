@@ -49,7 +49,7 @@
             "titles": "IMA_M"
           },
           {
-            "name": "SPANISH_AVAILABILITY_MEAN",
+            "name": "SPANISH_CONTEXT_AVAILABILITY_MEAN",
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "AVA_M"
           },
@@ -57,6 +57,11 @@
             "name": "SPANISH_FAMILIARITY_MEAN",
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "'FAM_M"
+          },
+          {
+            "name": "SPANISH_POS",
+            "datatype": "string",
+            "titles": "POS"
           },
           {
             "name": "LINE_IN_SOURCE",

@@ -10,5 +10,11 @@ def map(dataset, concepticon, mappings):
         concepticon,
         mappings,
         gloss='SPANISH',
-        language='es'
-    )          
+        language='es',
+        pos=True,
+        pos_mapper = {
+            'N': 'Person/Thing',
+            'A': 'Property',
+            'V': 'Action/Process'},
+        pos_name = "SPANISH_POS"
+    )         
