@@ -6,7 +6,7 @@ def download(dataset):
 
 def map(dataset, concepticon, mappings):    
     dataset.extract_data(
-        '13428_2018_1171_MOESM1_ESM.csv',
+        dataset.get_csv('13428_2018_1171_MOESM1_ESM.csv', delimiter=","),
         concepticon,
         mappings,
         gloss='ENGLISH',

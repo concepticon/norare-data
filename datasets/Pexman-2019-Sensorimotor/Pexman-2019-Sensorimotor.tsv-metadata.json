@@ -5,7 +5,7 @@
  "dc:source": "https://doi.org/10.3758/s13428-018-1171-z",
   "dc:references" : "Pexman2019",
   "dcat:keyword": ["body-object interaction", "sensorimotor processes", "ratings", "English"],
-  "dc:description": "An automated mapping of body-object interaction ratings of 9,000+ English words submitted with the study by Pexman et al. (2019) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of body-object interaction (BOI) ratings of 9,000+ English words submitted with the study by Pexman et al. (2019) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -24,7 +24,7 @@
             "datatype": "string"
           }, 
           {
-            "name": "DUTCH",
+            "name": "ENGLISH",
             "datatype": "string",
             "titles": "Word"
           },
@@ -49,7 +49,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Paxman-2019-Sensorimotor.tsv"
+      "url": "Pexman-2019-Sensorimotor.tsv"
     }
   ]
 }
