@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of body-object interaction of 9,000+ English words by Pexman et al. (2019)",
+ "dc:source": "https://doi.org/10.3758/s13428-018-1171-z",
+  "dc:references" : "Pexman2019",
+  "dcat:keyword": ["body-object interaction", "sensorimotor processes", "ratings", "English"],
+  "dc:description": "An automated mapping of body-object interaction ratings of 9,000+ English words submitted with the study by Pexman et al. (2019) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "DUTCH",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "ENGLISH_BOI_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "Mean"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Paxman-2019-Sensorimotor.tsv"
+    }
+  ]
+}
