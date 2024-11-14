@@ -1,0 +1,85 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of valence, arousal, concreteness, imageability, context availability, and familiarity of 1,400 Spanish words by Guasch et al. (2016)",
+ "dc:source": "https://doi.org/10.3758/s13428-015-0684-y",
+  "dc:references" : "Guasch2016",
+  "dcat:keyword": ["valence", "arousal", "imageability", "familiarity", "ratings", "Spanish"],
+  "dc:description": "An automated mapping of the valence, arousal, concreteness, imageability, context availability, and familiarity for 1,400 Spanish words from the study by Guasch et al. (2016) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "SPANISH",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "SPANISH_VALENCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "VAL_M"
+          },
+          {
+            "name": "SPANISH_AROUSAL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "ARO_M"
+          },
+          {
+            "name": "SPANISH_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "CON_M"
+          },
+          {
+            "name": "SPANISH_IMAGEABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "IMA_M"
+          },
+          {
+            "name": "SPANISH_CONTEXT_AVAILABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "AVA_M"
+          },
+          {
+            "name": "SPANISH_FAMILIARITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "'FAM_M"
+          },
+          {
+            "name": "SPANISH_POS",
+            "datatype": "string",
+            "titles": "POS"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Guasch-2016-AffectiveRatings.tsv"
+    }
+  ]
+}

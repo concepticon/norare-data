@@ -424,6 +424,21 @@ Morucci-2019-643	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	users	it
 Morucci-2019-643	VISUAL_MEAN	mean	sensory modality	visual	ratings	users	it		Mean rating (0-5) of how strongly adjective concept is experienced by seeing.
 Morucci-2019-643	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant perceptual strength	ratings	meta	it		Modality through which adjective concept is experienced most strongly (i.e., with highest strength rating).
 Morucci-2019-643	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity perceptual strength	ratings	meta	it		Extent to which adjective concept is experienced through a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
+<<<<<<< HEAD
+Morucci-2019-643	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	user	it		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
+Morucci-2019-643	PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strength	ratings	user	it		The sum of the perceptual scores related to the five sensory modalities.
+Morucci-2019-643	PERCEPTUAL_STRENGTH_ENTROPY	numeric	sensory modality	entropy perceptual strength	ratings	user	it		The variability of the scores across the five sensory modalities.
+Morucci-2019-643	FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		The frequency (1-7) with which a word occurs in everyday life.
+Morucci-2019-643	AOA_MEAN	mean	AoA		ratings	user	en		The age at which a word was learnt. The rating scale goes from one (0–2 years) to seven (13 and older) with intervening points spanning two years.
+Miklashevsky-2018-506	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by hearing.
+Miklashevsky-2018-506	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by tasting.
+Miklashevsky-2018-506	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by feeling through touch.
+Miklashevsky-2018-506	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by smelling.
+Miklashevsky-2018-506	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	ru		Mean rating (1-7) of how strongly noun concept is experienced by seeing.
+Miklashevsky-2018-506	AOA_MEAN	mean	AoA		ratings	user	ru		The mean of age of acquisition rating. Participants were asked to indicate the age in years from 0 to 15 in which they had acquired the word.
+Miklashevsky-2018-506	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
+Miklashevsky-2018-506	ABSTRACTNESS	linguistic	abstractness		relations	user	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
+=======
 Morucci-2019-643	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	users	it		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
 Morucci-2019-643	PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strength	ratings	users	it		The sum of the perceptual scores related to the five sensory modalities.
 Morucci-2019-643	PERCEPTUAL_STRENGTH_ENTROPY	numeric	sensory modality	entropy perceptual strength	ratings	users	it		The variability of the scores across the five sensory modalities.
@@ -437,6 +452,7 @@ Miklashevsky-2018-506	VISUAL_MEAN	mean	sensory modality	visual	ratings	users	ru	
 Miklashevsky-2018-506	AOA_MEAN	mean	AoA		ratings	users	ru		The mean of age of acquisition rating. Participants were asked to indicate the age in years from 0 to 15 in which they had acquired the word.
 Miklashevsky-2018-506	SEMANTIC_CATEGORY	linguistic	semantic field		relations	users	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
 Miklashevsky-2018-506	ABSTRACTNESS	linguistic	abstractness		relations	users	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
+>>>>>>> master
 Miklashevsky-2018-506	OBJECTIVE_WORD_FREQUENCY	logarithmic	frequency		norms	corpus	ru	Ljashevskaja2009	The decimal logarithm of objective word frequency (based on [Ljashevskaja and Sharov 2009](:bib:Ljashevskaja2009)).
 Miklashevsky-2018-506	IMAGEABILITY_MEAN	mean	imageability		ratings	users	ru		Imageability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
 Miklashevsky-2018-506	MANIPULABILITY_MEAN	mean	sensory modality	manipulability	ratings	users	ru		Manipulability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
@@ -734,3 +750,9 @@ Schmidtke-2014-AffectiveRatings	GERMAN_AROUSAL_MEAN_BAWL	mean	arousal		ratings	u
 Schmidtke-2014-AffectiveRatings	GERMAN_DOMINANCE_MEAN	mean	dominance		ratings	users	de		The mean rating of dominance on a 9-point scale. The verbal anchors used for the extreme ends of the scale were einflussreich/beeinflusst; kontrollierend/kontrolliert; dominant/gefügig; eigenständig/geführt (“influential/influenced; controlled/controlling; dominant/submissive; autonomous/guided”). The verbal markers below were neutral (“neutral”), etwas (“slightly”), ziemlich (“rather”), sehr (“very”), and äußerst (“extremely”), with neutral being in the center of the scale.
 Schmidtke-2014-AffectiveRatings	GERMAN_POTENCY_MEAN	mean	dominance	potency	ratings	users	de		The mean rating of potency on a 9-point scale. The verbal anchors used for the extreme ends of the scale were beeinflusst/einflussreich ; kontrolliert/kontrollierend ; gefügig/dominant ; geführt/ eigenständig (“influenced/influential; controlled/controlling; submissive/dominant; guided/autonomous”). The verbal markers below were neutral (“neutral”), etwas (“slightly”), ziemlich (“rather”), sehr (“very”), and äußerst (“extremely”), with neutral being in the center of the scale.
 Schmidtke-2014-AffectiveRatings	GERMAN_IMAGEABILITY_MEAN	mean	imageability		ratings	users	de		The mean rating of imageability on a 7-point scale (1 = not imageable at all, 7 = perfectly imageable).
+Guasch-2016-AffectiveRatings	SPANISH_VALENCE_MEAN	mean	valence		ratings	users	es		The mean rating of valence on a 9-point scale (1 = completely sad, 9 = completely happy).
+Guasch-2016-AffectiveRatings	SPANISH_AROUSAL_MEAN	mean	arousal		ratings	users	es		The mean rating of arousal on a 9-point scale (1 = completely calm, 9 = commpletely energized).
+Guasch-2016-AffectiveRatings	SPANISH_CONCRETENESS_MEAN	mean	concreteness		ratings	users	es		The mean rating of concreteness on a 7-point scale (1 = very abstracts, 7 = very concrete).
+Guasch-2016-AffectiveRatings	SPANISH_IMAGEABILITY_MEAN	mean	imageability		ratings	users	es		The mean rating of imageability on a 7-point scale (1 = minimum level of imageability, 7 = maximum level of imageability).
+Guasch-2016-AffectiveRatings	SPANISH_CONTEXT_AVAILABILITY_MEAN	mean	context availability		ratings	users	es		The mean rating of context availability on a 7-point scale (1 = low availability, 7 = high availability).
+Guasch-2016-AffectiveRatings	SPANISH_FAMILIARITY_MEAN	mean	familiarity		ratings	users	es		The mean rating of familiarity on a 7-point scale (1 = minimum level of familiarity, 7 = maximum level of familiarity).
