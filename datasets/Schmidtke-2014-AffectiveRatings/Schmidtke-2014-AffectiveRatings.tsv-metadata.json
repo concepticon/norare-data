@@ -59,6 +59,11 @@
             "titles": "IMA_MEAN"
           },
           {
+            "name": "GERMAN_POS",
+            "datatype": "string",
+            "titles": "word_class"
+          },
+          {
             "name": "LINE_IN_SOURCE",
             "datatype": "integer"
           }
