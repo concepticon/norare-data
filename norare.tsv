@@ -437,7 +437,6 @@ Miklashevsky-2018-506	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	ru		
 Miklashevsky-2018-506	AOA_MEAN	mean	AoA		ratings	user	ru		The mean of age of acquisition rating. Participants were asked to indicate the age in years from 0 to 15 in which they had acquired the word.
 Miklashevsky-2018-506	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
 Miklashevsky-2018-506	ABSTRACTNESS	linguistic	abstractness		relations	user	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
-=======
 Morucci-2019-643	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	users	it		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
 Morucci-2019-643	PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strength	ratings	users	it		The sum of the perceptual scores related to the five sensory modalities.
 Morucci-2019-643	PERCEPTUAL_STRENGTH_ENTROPY	numeric	sensory modality	entropy perceptual strength	ratings	users	it		The variability of the scores across the five sensory modalities.
@@ -451,7 +450,6 @@ Miklashevsky-2018-506	VISUAL_MEAN	mean	sensory modality	visual	ratings	users	ru	
 Miklashevsky-2018-506	AOA_MEAN	mean	AoA		ratings	users	ru		The mean of age of acquisition rating. Participants were asked to indicate the age in years from 0 to 15 in which they had acquired the word.
 Miklashevsky-2018-506	SEMANTIC_CATEGORY	linguistic	semantic field		relations	users	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
 Miklashevsky-2018-506	ABSTRACTNESS	linguistic	abstractness		relations	users	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
->>>>>>> master
 Miklashevsky-2018-506	OBJECTIVE_WORD_FREQUENCY	logarithmic	frequency		norms	corpus	ru	Ljashevskaja2009	The decimal logarithm of objective word frequency (based on [Ljashevskaja and Sharov 2009](:bib:Ljashevskaja2009)).
 Miklashevsky-2018-506	IMAGEABILITY_MEAN	mean	imageability		ratings	users	ru		Imageability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
 Miklashevsky-2018-506	MANIPULABILITY_MEAN	mean	sensory modality	manipulability	ratings	users	ru		Manipulability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
