@@ -424,7 +424,6 @@ Morucci-2019-643	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	users	it
 Morucci-2019-643	VISUAL_MEAN	mean	sensory modality	visual	ratings	users	it		Mean rating (0-5) of how strongly adjective concept is experienced by seeing.
 Morucci-2019-643	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant perceptual strength	ratings	meta	it		Modality through which adjective concept is experienced most strongly (i.e., with highest strength rating).
 Morucci-2019-643	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity perceptual strength	ratings	meta	it		Extent to which adjective concept is experienced through a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
-<<<<<<< HEAD
 Morucci-2019-643	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	user	it		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
 Morucci-2019-643	PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strength	ratings	user	it		The sum of the perceptual scores related to the five sensory modalities.
 Morucci-2019-643	PERCEPTUAL_STRENGTH_ENTROPY	numeric	sensory modality	entropy perceptual strength	ratings	user	it		The variability of the scores across the five sensory modalities.
