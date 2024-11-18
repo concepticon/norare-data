@@ -424,7 +424,6 @@ Morucci-2019-643	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	users	it
 Morucci-2019-643	VISUAL_MEAN	mean	sensory modality	visual	ratings	users	it		Mean rating (0-5) of how strongly adjective concept is experienced by seeing.
 Morucci-2019-643	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant perceptual strength	ratings	meta	it		Modality through which adjective concept is experienced most strongly (i.e., with highest strength rating).
 Morucci-2019-643	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity perceptual strength	ratings	meta	it		Extent to which adjective concept is experienced through a single perceptual modality (0 – 100%), calculated as range of strength values divided by their sum.
-<<<<<<< HEAD
 Morucci-2019-643	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	user	it		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
 Morucci-2019-643	PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strength	ratings	user	it		The sum of the perceptual scores related to the five sensory modalities.
 Morucci-2019-643	PERCEPTUAL_STRENGTH_ENTROPY	numeric	sensory modality	entropy perceptual strength	ratings	user	it		The variability of the scores across the five sensory modalities.
@@ -438,7 +437,6 @@ Miklashevsky-2018-506	VISUAL_MEAN	mean	sensory modality	visual	ratings	user	ru		
 Miklashevsky-2018-506	AOA_MEAN	mean	AoA		ratings	user	ru		The mean of age of acquisition rating. Participants were asked to indicate the age in years from 0 to 15 in which they had acquired the word.
 Miklashevsky-2018-506	SEMANTIC_CATEGORY	linguistic	semantic field		relations	user	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
 Miklashevsky-2018-506	ABSTRACTNESS	linguistic	abstractness		relations	user	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
-=======
 Morucci-2019-643	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	users	it		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
 Morucci-2019-643	PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strength	ratings	users	it		The sum of the perceptual scores related to the five sensory modalities.
 Morucci-2019-643	PERCEPTUAL_STRENGTH_ENTROPY	numeric	sensory modality	entropy perceptual strength	ratings	users	it		The variability of the scores across the five sensory modalities.
@@ -452,7 +450,6 @@ Miklashevsky-2018-506	VISUAL_MEAN	mean	sensory modality	visual	ratings	users	ru	
 Miklashevsky-2018-506	AOA_MEAN	mean	AoA		ratings	users	ru		The mean of age of acquisition rating. Participants were asked to indicate the age in years from 0 to 15 in which they had acquired the word.
 Miklashevsky-2018-506	SEMANTIC_CATEGORY	linguistic	semantic field		relations	users	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
 Miklashevsky-2018-506	ABSTRACTNESS	linguistic	abstractness		relations	users	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
->>>>>>> master
 Miklashevsky-2018-506	OBJECTIVE_WORD_FREQUENCY	logarithmic	frequency		norms	corpus	ru	Ljashevskaja2009	The decimal logarithm of objective word frequency (based on [Ljashevskaja and Sharov 2009](:bib:Ljashevskaja2009)).
 Miklashevsky-2018-506	IMAGEABILITY_MEAN	mean	imageability		ratings	users	ru		Imageability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
 Miklashevsky-2018-506	MANIPULABILITY_MEAN	mean	sensory modality	manipulability	ratings	users	ru		Manipulability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
@@ -731,7 +728,7 @@ Montefinese-2019-AoA	ITALIAN_AOA_MEAN	mean	AoA		ratings	users	it		The mean of ag
 Speed-2024-Emotions	DUTCH_AROUSAL_MEAN	mean	arousal		ratings	users	nl		The mean value of the ratings for arousal on a 5-point scale (1 = very calm/passive, 5 = very excited/active).
 Speed-2024-Emotions	DUTCH_VALENCE_MEAN	mean	valence		ratings	users	nl		The mean value of the ratings for valence on a 5-point scale (1 = very negative/unpleasant, 5 = very positive/pleasant).
 Speed-2024-Emotions	DUTCH_VALENCE_CATEGORY	linguistic	emotion	strength	ratings	users	nl		The ratings of strength of valence on a 3-point scale (positive, negative, neutral).
-Speed-2024-Emotions	DUTCH_VALENCE_NEUTRAL	linguistic	emotion	strength	ratings	users	nl		The ratings of whether a term is valanced or neutral.
+Speed-2024-Emotions	DUTCH_VALENCE_NEUTRAL	linguistic	emotion	strength	ratings	users	nl		The ratings of whether a term is valenced or neutral.
 Speed-2024-Emotions	DUTCH_HAPPINESS_MEAN	mean 	happiness		ratings	users	nl		The mean value of the ratings for discrete emotion "happiness" on a 5-point scale (1 = not, 5 = very much).
 Speed-2024-Emotions	DUTCH_ANGER_MEAN	mean	anger		ratings	users	nl		The mean value of the ratings for discrete emotion "anger" on a 5-point scale (1 = not, 5 = very much).
 Speed-2024-Emotions	DUTCH_FEAR_MEAN	mean	fear		ratings	users	nl		The mean value of the ratings for discrete emotion "fear" on a 5-point scale (1 = not, 5 = very much).
@@ -756,3 +753,4 @@ Guasch-2016-AffectiveRatings	SPANISH_CONCRETENESS_MEAN	mean	concreteness		rating
 Guasch-2016-AffectiveRatings	SPANISH_IMAGEABILITY_MEAN	mean	imageability		ratings	users	es		The mean rating of imageability on a 7-point scale (1 = minimum level of imageability, 7 = maximum level of imageability).
 Guasch-2016-AffectiveRatings	SPANISH_CONTEXT_AVAILABILITY_MEAN	mean	context availability		ratings	users	es		The mean rating of context availability on a 7-point scale (1 = low availability, 7 = high availability).
 Guasch-2016-AffectiveRatings	SPANISH_FAMILIARITY_MEAN	mean	familiarity		ratings	users	es		The mean rating of familiarity on a 7-point scale (1 = minimum level of familiarity, 7 = maximum level of familiarity).
+Pexman-2019-Sensorimotor	ENGLISH_BOI_MEAN	mean	sensory modality	body-object interaction	ratings	users	en		The mean rating of body-object interaction on a 7-point scale (1 = low body–object interaction, 2-6 = intermediate body–object interaction, 7 = high body–object interaction).

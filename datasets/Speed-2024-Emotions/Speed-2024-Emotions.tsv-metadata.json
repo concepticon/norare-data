@@ -45,7 +45,7 @@
           },
           {
             "name": "DUTCH_VALENCE_NEUTRAL",
-            "datatype": {"base": "string", "format": "valanced|neutral"},
+            "datatype": {"base": "string", "format": "valenced|neutral"},
             "titles": "ValenceVsNeutral"
           },
           {
