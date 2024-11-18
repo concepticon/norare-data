@@ -728,7 +728,7 @@ Montefinese-2019-AoA	ITALIAN_AOA_MEAN	mean	AoA		ratings	users	it		The mean of ag
 Speed-2024-Emotions	DUTCH_AROUSAL_MEAN	mean	arousal		ratings	users	nl		The mean value of the ratings for arousal on a 5-point scale (1 = very calm/passive, 5 = very excited/active).
 Speed-2024-Emotions	DUTCH_VALENCE_MEAN	mean	valence		ratings	users	nl		The mean value of the ratings for valence on a 5-point scale (1 = very negative/unpleasant, 5 = very positive/pleasant).
 Speed-2024-Emotions	DUTCH_VALENCE_CATEGORY	linguistic	emotion	strength	ratings	users	nl		The ratings of strength of valence on a 3-point scale (positive, negative, neutral).
-Speed-2024-Emotions	DUTCH_VALENCE_NEUTRAL	linguistic	emotion	strength	ratings	users	nl		The ratings of whether a term is valanced or neutral.
+Speed-2024-Emotions	DUTCH_VALENCE_NEUTRAL	linguistic	emotion	strength	ratings	users	nl		The ratings of whether a term is valenced or neutral.
 Speed-2024-Emotions	DUTCH_HAPPINESS_MEAN	mean 	happiness		ratings	users	nl		The mean value of the ratings for discrete emotion "happiness" on a 5-point scale (1 = not, 5 = very much).
 Speed-2024-Emotions	DUTCH_ANGER_MEAN	mean	anger		ratings	users	nl		The mean value of the ratings for discrete emotion "anger" on a 5-point scale (1 = not, 5 = very much).
 Speed-2024-Emotions	DUTCH_FEAR_MEAN	mean	fear		ratings	users	nl		The mean value of the ratings for discrete emotion "fear" on a 5-point scale (1 = not, 5 = very much).
