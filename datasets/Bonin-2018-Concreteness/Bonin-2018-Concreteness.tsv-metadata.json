@@ -1,0 +1,70 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of concreteness, context availability, valence and arousal by Bonin et al (2018).",
+  "dc:source": "https://doi.org/10.3758/s13428-018-1014-y",
+  "dc:references" : "Bonin2018",
+  "dcat:keyword": ["concreteness", "context availability", "valence", "arousal", "French"],
+  "dc:description": "An automated mapping of the concreteness, context availability, valence and arousal ratings submitted with the study of Bonin et al. (2018) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "FRENCH",
+            "datatype": "string",
+            "titles": "items"
+          }, 
+          {
+            "name": "FRENCH_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "mean"
+          },
+          {
+            "name": "FRENCH_CONTEXT_AVAILABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Mean context availability"
+          },
+          {
+            "name": "FRENCH_VALENCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Mean valence"
+          },
+          {
+            "name": "FRENCH_AROUSAL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Mean arousal"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Bonin-2018-Concreteness.tsv"
+    }
+  ]
+}

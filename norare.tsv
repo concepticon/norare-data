@@ -754,3 +754,7 @@ Guasch-2016-AffectiveRatings	SPANISH_IMAGEABILITY_MEAN	mean	imageability		rating
 Guasch-2016-AffectiveRatings	SPANISH_CONTEXT_AVAILABILITY_MEAN	mean	context availability		ratings	users	es		The mean rating of context availability on a 7-point scale (1 = low availability, 7 = high availability).
 Guasch-2016-AffectiveRatings	SPANISH_FAMILIARITY_MEAN	mean	familiarity		ratings	users	es		The mean rating of familiarity on a 7-point scale (1 = minimum level of familiarity, 7 = maximum level of familiarity).
 Pexman-2019-Sensorimotor	ENGLISH_BOI_MEAN	mean	sensory modality	body-object interaction	ratings	users	en		The mean rating of body-object interaction on a 7-point scale (1 = low body–object interaction, 2-6 = intermediate body–object interaction, 7 = high body–object interaction).
+Bonin-2018-Concreteness	FRENCH_CONCRETENESS_MEAN	mean	concreteness		ratings	users	fr		The mean rating of concreteness on a 5-point scale (1 = abstract, 5 = concrete).
+Bonin-2018-Concreteness	FRENCH_CONTEXT_AVAILABILITY_MEAN	mean	context availability		ratings	users	fr		The mean rating of context availability on a 5-point scale (1 = low contextual availability, 5 = high contextual availability).
+Bonin-2018-Concreteness	FRENCH_VALENCE_MEAN	mean	valence		ratings	users	fr		The mean rating of valence on a 5-point scale (state of relaxation and calm, 5 = state of stimulation).
+Bonin-2018-Concreteness	FRENCH_AROUSAL_MEAN	mean	arousal		ratings	users	fr		The mean rating of arousal on a 5-point scale (1 = very negative, 5 = very positive).
