@@ -758,8 +758,8 @@ Bonin-2018-Concreteness	FRENCH_CONCRETENESS_MEAN	mean	concreteness		ratings	user
 Bonin-2018-Concreteness	FRENCH_CONTEXT_AVAILABILITY_MEAN	mean	context availability		ratings	users	fr		The mean rating of context availability on a 5-point scale (1 = low contextual availability, 5 = high contextual availability).
 Bonin-2018-Concreteness	FRENCH_VALENCE_MEAN	mean	valence		ratings	users	fr		The mean rating of valence on a 5-point scale (1 = state of relaxation and calm, 5 = state of stimulation).
 Bonin-2018-Concreteness	FRENCH_AROUSAL_MEAN	mean	arousal		ratings	users	fr		The mean rating of arousal on a 5-point scale (1 = very negative, 5 = very positive).
-Coso-2023-Emotions	CROATIAN_HAPPINESS_MEAN	mean	happiness		ratings	users	hrv		The mean rating of happiness on a 5-point scale (1 = not at all, 5 = extremely).
-Coso-2023-Emotions	CROATIAN_ANGER_MEAN	mean	anger		ratings	users	hrv		The mean rating of anger on a 5-point scale (1 = not at all, 5 = extremely).
-Coso-2023-Emotions	CROATIAN_FEAR_MEAN	mean	fear		ratings	users	hrv		The mean rating of fear on a 5-point scale (1 = not at all, 5 = extremely).
-Coso-2023-Emotions	CROATIAN_DISGUST_MEAN	mean	disgust		ratings	users	hrv		The mean rating of disgust on a 5-point scale (1 = not at all, 5 = extremely).
-Coso-2023-Emotions	CROATIAN_SADNESS_MEAN	mean	sadness		ratings	users	hrv		The mean rating of sadness on a 5-point scale (1 = not at all, 5 = extremely).
+Coso-2023-Emotions	CROATIAN_HAPPINESS_MEAN	mean	happiness		ratings	users	en		The mean rating of happiness on a 5-point scale (1 = not at all, 5 = extremely).
+Coso-2023-Emotions	CROATIAN_ANGER_MEAN	mean	anger		ratings	users	en		The mean rating of anger on a 5-point scale (1 = not at all, 5 = extremely).
+Coso-2023-Emotions	CROATIAN_FEAR_MEAN	mean	fear		ratings	users	en		The mean rating of fear on a 5-point scale (1 = not at all, 5 = extremely).
+Coso-2023-Emotions	CROATIAN_DISGUST_MEAN	mean	disgust		ratings	users	en		The mean rating of disgust on a 5-point scale (1 = not at all, 5 = extremely).
+Coso-2023-Emotions	CROATIAN_SADNESS_MEAN	mean	sadness		ratings	users	en		The mean rating of sadness on a 5-point scale (1 = not at all, 5 = extremely).

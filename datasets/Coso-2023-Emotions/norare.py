@@ -9,9 +9,9 @@ def map(dataset, concepticon, mappings):
     sheet = [dict(zip(sheet_list[0], row)) for row in sheet_list[1:]] 
 
     dataset.extract_data(
-        'CROWD-5e.xlsx',
+        sheet,
         concepticon,
         mappings,
-        gloss='CROATIAN',
-        language='hrv',
+        gloss='ENGLISH',
+        language='en'
     )

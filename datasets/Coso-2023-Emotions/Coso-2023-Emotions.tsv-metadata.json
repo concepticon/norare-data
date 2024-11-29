@@ -24,9 +24,14 @@
             "datatype": "string"
           }, 
           {
-            "name": "CROATIAN",
+            "name": "ENGLISH",
             "datatype": "string",
             "titles": "word"
+          },
+          {
+            "name": "CROATIAN",
+            "datatype": "string",
+            "titles": "riječ"
           },
           {
             "name": "CROATIAN_HAPPINESS_MEAN",
