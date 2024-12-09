@@ -1,0 +1,80 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of the discrete emotions happiness, anger, sadness, fear and disgust for 3,000+ Croatian words by Ćoso et al. (2023)",
+ "dc:source": "https://doi.org/10.3758/s13428-022-02003-2",
+  "dc:references" : "Coso2023",
+  "dcat:keyword": ["discrete emotions", "ratings", "Croatian"],
+  "dc:description": "An automated mapping of discrete emotion ratings (happiness, anger, sadness, fear and disgust) for 3,000+ Croatian words from the study by Ćoso et al. (2023) to the concept sets in Concepticon. The present mapping is based on the English translations given for the original items in the study.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "word"
+          },
+          {
+            "name": "CROATIAN",
+            "datatype": "string",
+            "titles": "riječ"
+          },
+          {
+            "name": "CROATIAN_HAPPINESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "mean_happiness"
+          },
+          {
+            "name": "CROATIAN_ANGER_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "mean_anger"
+          },
+          {
+            "name": "CROATIAN_SADNESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "mean_sadness"
+          },
+          {
+            "name": "CROATIAN_FEAR_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "mean_fear"
+          },
+          {
+            "name": "CROATIAN_DISGUST_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "mean_disgust"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Coso-2023-Emotions.tsv"
+    }
+  ]
+}
