@@ -5,7 +5,7 @@
  "dc:source": "https://doi.org/10.3758/s13428-022-02003-2",
   "dc:references" : "Coso2023",
   "dcat:keyword": ["discrete emotions", "ratings", "Croatian"],
-  "dc:description": "An automated mapping of discrete emotion ratings (happiness, anger, sadness, fear and disgust) for 3,000+ Croatian words from the study by Ćoso et al. (2023) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of discrete emotion ratings (happiness, anger, sadness, fear and disgust) for 3,000+ Croatian words from the study by Ćoso et al. (2023) to the concept sets in Concepticon. The present mapping is based on the English translations given for the original items in the study.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
