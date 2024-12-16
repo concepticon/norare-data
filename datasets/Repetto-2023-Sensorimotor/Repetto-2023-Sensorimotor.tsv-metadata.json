@@ -3,7 +3,7 @@
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
   "dc:title": "Automatic mapping of valence, arousal, dominance, familiarity, imageability and concreteness, as well as five effector ratings (hand-arm, foot-leg, torso, mouth, head) and six perceptual modalitity ratings (touch, hearing, smell, taste, vision, and interoception) by Repetto et al. (2023).",
   "dc:source": "https://osf.io/download/63y8w/",
-  "dc:references" : "Speed2021",
+  "dc:references" : "Repetto2023",
   "dcat:keyword": ["ratings", "auditory", "gustatory", "haptic", "interoceptive", "olfactory", "visual", "hand-arm", "foot-leg", "torso", "mouth", "head", "action", "perceptual", "sensorimotor", "Italian"],
   "dc:description": "An automated mapping of valence, arousal, dominance, familiarity, imageability and concreteness ratings of 959 Italian words submitted with the study of Repetto et al. (2023) to the concept sets in Concepticon. The study further includes ratings for five effectors (hand-arm, foot-leg, torso, mouth, head) as well as six perceptual modalities (touch, hearing, smell, taste, vision, and interoception), which were also mapped here.",
   "dialect": {
