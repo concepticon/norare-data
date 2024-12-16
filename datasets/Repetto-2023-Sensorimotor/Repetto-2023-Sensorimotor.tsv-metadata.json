@@ -1,0 +1,185 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of valence, arousal, dominance, familiarity, imageability and concreteness, as well as five effector ratings (hand-arm, foot-leg, torso, mouth, head) and six perceptual modalitity ratings (touch, hearing, smell, taste, vision, and interoception) by Repetto et al. (2023).",
+  "dc:source": "https://osf.io/download/63y8w/",
+  "dc:references" : "Repetto2023",
+  "dcat:keyword": ["ratings", "auditory", "gustatory", "haptic", "interoceptive", "olfactory", "visual", "hand-arm", "foot-leg", "torso", "mouth", "head", "action", "perceptual", "sensorimotor", "Italian"],
+  "dc:description": "An automated mapping of valence, arousal, dominance, familiarity, imageability and concreteness ratings of 959 Italian words submitted with the study of Repetto et al. (2023) to the concept sets in Concepticon. The study further includes ratings for five effectors (hand-arm, foot-leg, torso, mouth, head) as well as six perceptual modalities (touch, hearing, smell, taste, vision, and interoception), which were also mapped here.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ITALIAN",
+            "datatype": "string",
+            "titles": "Ita_Word"
+          },
+          {
+            "name": "ITALIAN_VALENCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Val"
+          },
+          {
+            "name": "ITALIAN_AROUSAL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Aro"
+          },
+          {
+            "name": "ITALIAN_DOMINANCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Dom"
+          },
+          {
+            "name": "ITALIAN_FAMILIARITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Fam"
+          },
+          {
+            "name": "ITALIAN_IMAGEABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Ima"
+          },
+          {
+            "name": "ITALIAN_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "M_Con"
+          },
+          {
+            "name": "ITALIAN_HEAD_ACTION_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_head"
+          },
+          {
+            "name": "ITALIAN_FOOT_LEG_ACTION_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_foot/leg"
+          },
+          {
+            "name": "ITALIAN_HAND_ARM_ACTION_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_hand/arm"
+          },
+                    {
+            "name": "ITALIAN_MOUTH_THROAT_ACTION_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_mouth/throat"
+          },
+                    {
+            "name": "ITALIAN_TORSO_ACTION_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_torso"
+          },
+          {
+            "name": "ITALIAN_INTEROCEPTIVE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_int"
+          },
+          {
+            "name": "ITALIAN_GUSTATORY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_taste"
+          },
+          {
+            "name": "ITALIAN_OLFACTORY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_smell"
+          },
+          {
+            "name": "ITALIAN_HAPTIC_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_touch"
+          },
+          {
+            "name": "ITALIAN_AUDITORY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_audition"
+          },
+          {
+            "name": "ITALIAN_VISUAL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "M_vision"
+          },
+          {
+            "name": "ITALIAN_PERCEPTUAL_STRENGTH_MAX",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "Max_strength.perceptual"
+          },
+          {
+            "name": "ITALIAN_PERCEPTUAL_EXCLUSIVITY",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
+            "titles": "Exclusivity.perceptual"
+          },
+          {
+            "name": "ITALIAN_PERCEPTUAL_DOMINANT",
+            "datatype": "string",
+            "titles": "Dominant.perceptual"
+          },
+          {
+            "name": "ITALIAN_ACTION_STRENGTH_MAX",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "Max_strength.action"
+          },
+          {
+            "name": "ITALIAN_ACTION_EXCLUSIVITY",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
+            "titles": "Exclusivity.action"
+          },
+          {
+            "name": "ITALIAN_ACTION_DOMINANT",
+            "datatype": "string",
+            "titles": "Dominant.action"
+          },
+          {
+            "name": "ITALIAN_SENSORIMOTOR_STRENGTH_MAX",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 5},
+            "titles": "Max_strength.sensorimotor"
+          },
+          {
+            "name": "ITALIAN_SENSORIMOTOR_EXCLUSIVITY",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
+            "titles": "Exclusivity.sensorimotor"
+          },
+          {
+            "name": "ITALIAN_SENSORIMOTOR_DOMINANT",
+            "datatype": "string",
+            "titles": "Dominant.sensorimotor"
+          },
+          {
+            "name": "ITALIAN_POS",
+            "datatype": "string",
+            "titles": "WordClass"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Repetto-2023-Sensorimotor.tsv"
+    }
+  ]
+}
