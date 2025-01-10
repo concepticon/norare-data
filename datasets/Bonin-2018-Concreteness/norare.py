@@ -4,19 +4,29 @@ def download(dataset):
         '13428_2018_1014_MOESM3_ESM.xlsx',
     )
 
-def map(dataset, concepticon, mappings):    
+
+def replace_null(v):
+    if v == '#NULL!':
+        return None
+    else:
+        return v
+
+
+def map(dataset, concepticon, mappings):
     sheet_list = dataset.get_excel('13428_2018_1014_MOESM3_ESM.xlsx', 0, dicts=False)
     sheet = []
     valid_fields = [
         'items', 'English translation', 'mean', 'sd', 'Mean context availability', 'SD context availability', 'Mean valence', 'SD valence', 'Mean arousal', 'SD arousal']
 
     for row in sheet_list[2:]:  # iterate over the lines after header
-        sheet += [dict(zip(valid_fields, row[:10]))]
+        sheet.append({
+            k: replace_null(v)
+            for k, v in zip(valid_fields, row[:10])})
 
         dataset.extract_data(
-        sheet,
-        concepticon,
-        mappings,
-        gloss='FRENCH',
-        language='fr',
-    )        
+            sheet,
+            concepticon,
+            mappings,
+            gloss='FRENCH',
+            language='fr',
+        )
