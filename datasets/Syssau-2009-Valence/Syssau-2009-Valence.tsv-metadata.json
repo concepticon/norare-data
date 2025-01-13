@@ -30,152 +30,152 @@
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_5YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "5 All % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_FEMALE_5YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "5 Girls % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_MALE_5YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "5 Boys % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_5YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "5 All % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_FEMALE_5YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "5 Girls % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_MALE_5YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "5 Boys % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_5YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "5 All % Pos"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_FEMALE_5YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "5 Girls % Pos"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_MALE_5YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "5 Boys % Pos"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_7YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "7 All % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_FEMALE_7YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "7 Girls % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_MALE_7YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "7 Boys % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_7YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "7 All % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_FEMALE_7YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "7 Girls % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_MALE_7YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "7 Boys % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_7YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "7 All % Pos"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_FEMALE_7YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "7 Girls % Pos"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_MALE_7YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "7 Boys % Pos"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_9YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "9 All % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_FEMALE_9YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "9 Girls % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_MALE_9YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "9 Boys % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_9YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "9 All % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_FEMALE_9YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "9 Girls % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_MALE_9YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "9 Boys % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_9YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "9 All % Pos"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_FEMALE_9YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "9 Girls % Pos"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_MALE_9YEAR",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "9 Boys % Pos"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEGATIVE_ADULT",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "Adult S % Neg"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_NEUTRAL_ADULT",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "Adult S % Neu"
           },
           {
             "name": "FRENCH_VALENCE_PERCENTAGE_POSITIVE_ADULT",
-            "datatype": {"base": "integer", "minimum": 1, "maximum": 100},
+            "datatype": {"base": "float", "minimum": 0, "maximum": 100},
             "titles": "Adult S % Pos"
           },
           {
