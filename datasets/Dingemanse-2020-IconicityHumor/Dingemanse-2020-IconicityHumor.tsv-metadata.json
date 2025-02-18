@@ -64,7 +64,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Dingemanse-2020-IconicityHumor.csv"
+      "url": "Dingemanse-2020-IconicityHumor.tsv"
     }
   ]
 }
