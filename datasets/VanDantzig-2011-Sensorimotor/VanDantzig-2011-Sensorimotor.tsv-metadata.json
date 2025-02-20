@@ -1,0 +1,145 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of five perceptual modalities (touch, hearing, smell, taste and vision) ratings by van Dantzig et al. (2011).",
+  "dc:source": "https://doi.org/10.3758/s13428-010-0038-8",
+  "dc:references" : "Speed2021",
+  "dcat:keyword": ["ratings", "monolingual", "auditory", "gustatory", "haptic", "interoceptive", "olfactory", "visual", "action", "perceptual", "sensorimotor", "Dutch"],
+  "dc:description": "An automated mapping of five perceptual modalities (touch, hearing, smell, taste and vision) ratings of 774 concept-property items submitted with the study by van Dantzig et al. (2011) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Property"
+          },
+          {
+            "name": "ENGLISH_ASSOCIATED_CONCEPT1",
+            "datatype": "string",
+            "titles": "Concept1"
+          },
+          {
+            "name": "ENGLISH_ASSOCIATED_CONCEPT2",
+            "datatype": "string",
+            "titles": "Concept2"
+          },
+          {
+            "name": "ENGLISH_FAMILIARITY_MEAN_CONCEPT1",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 1},
+            "titles": "Familiarity1"
+          },
+          {
+            "name": "ENGLISH_FAMILIARITY_MEAN_CONCEPT2",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 1},
+            "titles": "Familiarity2"
+          },
+          {
+            "name": "ENGLISH_AUDITORY_MEAN_CONCEPT1",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanAud1"
+          },
+          {
+            "name": "ENGLISH_AUDITORY_MEAN_CONCEPT2",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanAud2"
+          },
+          {
+            "name": "ENGLISH_GUSTATORY_MEAN_CONCEPT1",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanGus1"
+          },
+          {
+            "name": "ENGLISH_GUSTATORY_MEAN_CONCEPT2",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanGus2"
+          },
+          {
+            "name": "ENGLISH_HAPTIC_MEAN_CONCEPT1",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanHap1"
+          },
+          {
+            "name": "ENGLISH_HAPTIC_MEAN_CONCEPT2",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanHap2"
+          },
+          {
+            "name": "ENGLISH_OLFACTORY_MEAN_CONCEPT1",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanOlf1"
+          },
+          {
+            "name": "ENGLISH_OLFACTORY_MEAN_CONCEPT2",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanOlf2"
+          },
+          {
+            "name": "ENGLISH_VISUAL_MEAN_CONCEPT1",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanVis1"
+          },
+          {
+            "name": "ENGLISH_VISUAL_MEAN_CONCEPT2",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 5},
+            "titles": "MeanVis2"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_DOMINANT_CONCEPT1",
+            "datatype": {"base": "string", "format": "auditory|gustatory|olfactory|visual|haptic"},
+            "titles": "DomMod1"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_EXCLUSIVITY_CONCEPT1",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 1},
+            "titles": "Exclusivity1"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_DOMINANT_CONCEPT2",
+            "datatype": {"base": "string", "format": "auditory|gustatory|olfactory|visual|haptic"},
+            "titles": "DomMod2"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_EXCLUSIVITY_CONCEPT2",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 1},
+            "titles": "Exclusivity2"
+          },
+          {
+            "name": "ENGLISH_PERCEPTUAL_DOMINANT_DISTRIBUTION",
+            "datatype": {"base": "string", "format": "unidominat|bidominant"},
+            "titles": "DomModDistribution"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "VanDantzig-2011-Sensorimotor.tsv"
+    }
+  ]
+}
