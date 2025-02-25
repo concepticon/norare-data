@@ -29,3 +29,4 @@ We are very grateful for all this help and express our gratitude.
 Name | Contribution | Version |
 --- | --- | --- |
 Thanasis Georgakopoulos | M | 1.0
+Mira Ahmedovic | G | 1.1
