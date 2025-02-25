@@ -4,7 +4,7 @@
   "dc:title": "Iconicity and humor ratings for 70,000+ English words by Dingemanse and Thompson (2020)",
   "dc:source": "https://github.com/mdingemanse/playful_iconicity/raw/refs/heads/master/data/combined-experimental-norms-with-humour-iconicity-aversion-taboo-predictions-logletterfreq.csv",
   "dc:references" : "Dingemanse2020",
-  "dcat:keyword": ["iconicity", "humor", "ratings", "corpus", "computational ratings", "English"],
+  "dcat:keyword": ["iconicity", "humor", "ratings", "corpus", "English"],
   "dc:description": "An automated mapping of the iconicity and humor ratings of English words given as computational as well as human participant ratings submitted with the study by Dingemanse and Thompson (2020) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
@@ -32,11 +32,6 @@
             "name": "ENGLISH_ICONICITY_MEAN_HUMAN",
             "datatype": {"base": "decimal", "minimum": -5, "maximum": 5},
             "titles": "iconicity"
-          },
-          {
-            "name": "ENGLISH_HUMOR_MEAN_HUMAN",
-            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
-            "titles": "humour"
           },
           {
             "name": "ENGLISH_ICONICITY_MEAN_MACHINE",
