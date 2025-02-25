@@ -29,7 +29,7 @@
             "titles": "word"
           },
           {
-            "name": "ENGlISH_KNOWN_PERCENTAGE",
+            "name": "ENGLISH_KNOWN_PERCENTAGE",
             "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "n-ratings"
           },
