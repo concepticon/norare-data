@@ -120,7 +120,7 @@
           },
           {
             "name": "ENGLISH_PERCEPTUAL_DOMINANT_DISTRIBUTION",
-            "datatype": {"base": "string", "format": "unidominat|bidominant"},
+            "datatype": {"base": "string", "format": "unidominant|bidominant"},
             "titles": "DomModDistribution"
           },
           {
