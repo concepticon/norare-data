@@ -33,6 +33,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1047	PURSUE	poursuivre	negative	0	1	1	1	0	0	10703
 1048	LINE	ligne	positive	0	0	0	1	0	0	8536
 1049	MOLAR TOOTH	molaire	positive	0	0	0	0	0	0	9220
+105	MATTRESS	matelas	positive	0	0	0	0	0	0	949
 1052	LIGHT (WEIGHT)	léger	positive	0	0	0	0	0	0	887
 1053	HUNTER	chasseur	negative	0	1	1	1	0	0	226
 1061	ARMOUR	armure	positive	0	1	0	0	0	0	2303
@@ -43,6 +44,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1069	GLUE	colle	positive	0	0	0	0	0	0	3806
 1070	BUS	autobus	positive	0	0	0	0	0	0	2527
 1071	HOOK	crochet	positive	0	0	0	0	0	0	4454
+1072	PRISONER	prisonnier	negative	0	1	1	1	0	1	1224
 1074	FISHHOOK	hameçon	negative	0	1	0	0	1	0	7338
 1075	TRAP (PITFALL)	piège	negative	0	1	0	0	1	0	10369
 1079	FEEL	ressentir	positive	0	0	0	0	0	0	11741
@@ -86,6 +88,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1135	KICK	donner un coup de pied	negative	0	0	0	1	0	0	5291
 1136	RABBIT	lapin	positive	0	0	0	0	0	0	8419
 1137	TENDON	tendon	positive	0	0	0	0	0	0	13227
+1138	FAIRY	fée	positive	0	0	0	0	0	0	6555
 1139	LEOPARD	léopard	negative	0	1	0	0	0	0	8486
 1141	PITY	pitié	negative	0	0	1	0	0	0	10420
 1143	OVEN	four	positive	0	0	0	0	0	0	6797
@@ -101,7 +104,9 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1159	FART	péter	positive	0	0	0	0	0	0	10254
 1160	THIEF	voleur	negative	0	1	1	1	1	1	1579
 1162	INTENTION	but	positive	0	0	0	0	0	0	3144
+1165	MOUSTACHE	moustache	positive	0	0	0	0	0	0	9318
 117	IMITATE	imiter	negative	0	0	0	0	0	0	7604
+1171	MIRROR	miroir	positive	0	0	0	0	0	0	9162
 1175	GHOST	fantôme	negative	0	1	0	0	1	0	6511
 1176	SPADE	bêche	positive	0	0	0	0	0	0	2782
 1178	NOSTRIL	narine	negative	0	0	0	0	0	1	9393
@@ -156,6 +161,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 125	SWEAT (SUBSTANCE)	sueur	negative	0	1	0	0	0	1	12957
 1251	BELLY	ventre	positive	0	0	0	0	0	0	13862
 1252	HOUSE	maison	positive	0	0	0	0	0	0	8729
+1254	HANDLE	manche	positive	0	0	0	0	0	0	8785
 1256	HEAD	tête	positive	0	0	0	0	0	0	13278
 1257	WING	aile	positive	0	0	0	0	0	0	1928
 1258	FINGERNAIL	ongle	negative	0	0	0	0	0	1	9726
@@ -228,8 +234,8 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1345	EWE	brebis	positive	0	0	0	0	0	0	3053
 1346	THROAT	gorge	negative	0	1	0	0	0	1	7133
 1347	NAPE (OF NECK)	nuque	positive	0	0	0	0	0	0	9617
-1348	BOAR (MALE PIG)	sanglier	negative	0	1	0	0	0	1	12088
 1349	CHURCH	église	positive	0	0	0	0	0	0	5536
+135	BOOMERANG	boomerang	positive	0	0	0	0	0	0	2951
 1350	MONKEY	singe	positive	0	0	0	0	0	0	12589
 1351	SOW (FEMALE PIG)	truie	negative	0	0	0	0	0	1	13676
 1352	KNIFE	couteau	negative	0	1	0	1	0	0	4362
@@ -246,6 +252,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1366	BOY	garçon	positive	0	0	0	0	0	1	6968
 1367	CROSS	croix	positive	0	1	1	1	0	0	4465
 1368	BREAD	pain	positive	0	0	0	0	0	0	9870
+1369	GOLD	lingot	positive	0	0	0	0	0	0	8555
 1371	KNEE	genou	positive	0	0	0	0	0	0	7045
 1372	MEDICINE	médicament	negative	0	0	0	0	0	0	8950
 1373	TEA	thé	positive	0	0	0	0	0	0	13299
@@ -286,7 +293,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1414	SQUEEZE	presser	negative	0	1	0	0	0	0	10811
 1417	KILL	tuer	negative	0	1	1	1	0	0	13681
 1418	DIG	creuser	negative	0	0	0	0	0	0	4427
-1419	FEAR (BE AFRAID)	craindre	negative	0	1	0	0	0	0	4383
+1419	FEAR (BE AFRAID)	avoir peur	negative	0	1	1	0	1	0	2608
 1420	COUNT	compter	positive	0	0	0	0	0	0	3960
 1421	SUCK	sucer	negative	0	0	0	0	0	0	12943
 1422	BE ALIVE	vivant	positive	0	0	0	0	0	0	14015
@@ -328,7 +335,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1469	WEEK	semaine	positive	0	0	0	0	0	0	12459
 1470	FOLD	plier	negative	0	0	1	0	0	0	10492
 1471	WINTER	hiver	negative	0	0	1	0	0	0	7442
-1472	KEY	clef	positive	0	0	0	0	0	0	243
+1472	KEY	clé	positive	0	0	0	0	0	0	3721
 1473	FIST	poing	positive	0	0	0	0	0	0	10533
 1474	SEA	mer	positive	0	0	0	0	0	0	9015
 1475	COMB	peigne	positive	0	0	0	0	0	0	10109
@@ -506,6 +513,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1749	TAKE	prendre	negative	0	1	0	0	1	0	10780
 175	BLOW (OF WIND)	souffler	negative	0	0	1	0	0	0	12714
 1750	CHOOSE	choisir	positive	0	0	0	0	0	0	3622
+1752	LEAVE	abandonner	negative	0	1	1	1	0	1	1652
 1754	BRACELET	bracelet	positive	0	0	0	0	0	0	3029
 1755	UNDRESS	se déshabiller	positive	0	0	0	0	0	0	12298
 1762	STONE (OF FRUIT)	noyau	positive	0	0	0	0	0	0	9599
@@ -533,8 +541,10 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1791	BUTTERFLY	papillon	positive	0	0	0	0	0	0	9926
 1792	PERJURY	parjure	negative	0	1	0	1	1	0	9995
 1794	FURROW	sillon	negative	0	1	1	0	0	1	12575
+1797	HEDGEHOG	hérisson	positive	0	0	0	0	0	0	7400
 1802	SCREW	vis	positive	0	0	0	1	0	0	13993
 1803	WOOD	bois	positive	0	0	0	0	0	0	2919
+1804	BOMB	bombe	negative	0	1	1	1	1	0	2937
 1806	BEGIN	commencer	positive	0	0	0	0	0	0	3859
 1810	DANGER	danger	negative	0	1	1	0	0	0	4554
 1813	TASTY	délicieux	positive	1	0	0	0	0	0	411
@@ -549,6 +559,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 183	BAKE	cuire	positive	0	0	0	0	0	0	4496
 1831	MEET	rencontrer	positive	0	0	0	0	1	0	11608
 1833	DINNER (SUPPER)	dîner	positive	0	0	0	0	0	0	5128
+1835	MARROW	moelle	positive	0	0	0	0	0	0	9210
 1838	NAVEL	nombril	positive	0	0	0	0	0	0	9510
 1839	CRY	pleurer	negative	0	0	1	1	0	0	10486
 1840	BUILD	bâtir	positive	0	0	0	0	0	0	2757
@@ -556,7 +567,6 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 1843	THOUSAND	mille	positive	0	0	0	0	0	0	9131
 1844	BOAT	bateau	positive	0	0	0	0	0	0	2753
 1845	BALL	sphère	positive	0	0	0	0	0	0	12809
-1846	RULE	règle	positive	0	1	0	0	0	0	11526
 1847	SICK	malade	negative	0	1	1	0	0	0	922
 1848	QUARREL	querelle	negative	0	1	1	1	0	1	11113
 185	FIREPLACE	foyer	positive	0	0	0	0	0	0	6820
@@ -635,6 +645,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 2006	FILL	remplir	positive	0	0	0	0	0	0	11598
 2008	RESCUE	sauver	positive	0	0	0	0	0	0	12193
 2009	DOG	chien	positive	0	0	0	0	0	0	3603
+2011	COFFIN	cercueil	negative	0	1	1	0	0	0	3433
 2012	COLLAR	col	positive	0	0	0	0	0	0	3795
 2013	BAIT	appât	negative	0	1	0	0	1	0	2208
 2015	MAKE DRY	sécher	negative	0	0	0	0	0	0	12414
@@ -643,7 +654,10 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 2020	PLAINTIFF	plaignant	negative	0	0	1	0	0	0	1164
 2022	ADMIT	admettre	positive	0	0	0	0	0	0	1814
 2023	CROWD	foule	negative	0	1	0	1	1	1	6794
+2038	DRAGON	dragon	negative	0	1	0	1	0	0	5334
 2045	COLUMN	colonne	positive	0	0	0	0	0	0	3829
+2046	APRON	tablier	positive	0	0	0	0	0	0	13113
+205	TROUGH	abreuvoir	positive	0	0	0	0	0	0	1683
 2052	BUCKET	seau	positive	0	0	0	0	0	0	12409
 2058	STOOL	tabouret	positive	0	0	0	0	0	0	13115
 2071	LAY (VERB)	coucher	negative	0	0	0	0	0	0	4292
@@ -657,6 +671,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 213	FIN	nageoire	positive	0	0	0	0	0	0	9386
 2134	RAISE (BRING UP)	élever	positive	0	0	0	0	0	0	5569
 2135	TRADE OR BARTER	échange	positive	0	0	0	0	0	0	5422
+2137	MAGICIAN	magicien	positive	0	0	0	0	1	0	917
 215	LIE DOWN	se coucher	positive	0	0	0	0	0	0	12276
 216	MOVIE	film	positive	0	0	0	0	0	0	6639
 2189	DUGOUT	pirogue	positive	0	0	0	0	0	0	10415
@@ -677,6 +692,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 228	CARVE	sculpter	positive	0	0	0	0	0	0	12247
 2284	CLEARING	clairière	positive	0	0	0	0	0	0	3699
 2291	VOLCANO	volcan	negative	0	1	0	0	1	0	14039
+2294	WRINKLE	ride	negative	0	1	1	0	0	1	11841
 2295	SUNSET	coucher du soleil	positive	0	0	0	0	0	0	4294
 2296	SUNRISE	lever du soleil	positive	0	0	0	0	0	0	8503
 2298	VIRGIN	vierge	negative	0	1	1	0	0	0	13951
@@ -689,11 +705,11 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 234	PADDLE	pagaie	positive	0	0	0	0	0	0	9856
 2343	STEEL	acier	positive	0	0	0	0	0	0	1766
 2348	CRAB	crabe	negative	0	1	0	0	0	1	4378
-2349	SHRIMP	crevette	negative	0	0	0	0	0	0	4430
 2354	CRICKET	cricket	positive	0	0	0	0	0	0	4437
 2366	ONION	oignon	negative	0	0	0	0	0	1	9696
 2368	GARLIC	ail	negative	0	0	0	0	0	1	1927
 2374	DREAM	rêve	positive	1	0	0	0	0	0	11801
+238	PRAWNS	crevette	negative	0	0	0	0	0	0	4430
 239	FLOWER	fleur	positive	1	0	0	0	0	0	6686
 2393	JOURNEY	voyage	positive	0	1	0	0	1	0	14068
 24	PRAY	prier	positive	0	1	0	0	1	0	10842
@@ -704,7 +720,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 2409	BROWN	brun	positive	0	0	0	0	0	0	3109
 241	TREE STUMP	souche	positive	0	0	0	0	0	1	12702
 2410	GOOD-LOOKING	joli	positive	0	0	0	0	0	0	8275
-2411	HURT (SOMEBODY)	blesser	negative	0	1	1	1	0	1	2892
+2411	HURT (SOMEBODY)	faire mal	negative	0	1	1	1	0	0	6444
 2412	THANK (SOMEBODY)	remercier	positive	1	0	0	0	0	0	14125
 2427	FUTURE	avenir	positive	0	0	0	0	0	0	2583
 2429	LOGIC	logique	positive	0	0	0	0	0	0	8620
@@ -743,11 +759,15 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 2575	DO OR MAKE	faire	positive	0	0	0	0	0	0	6396
 2578	PENCIL	crayon	positive	0	0	0	0	0	0	4396
 258	CALM	calme	positive	0	0	0	0	0	0	191
+2581	OCTOPUS	pieuvre	negative	0	1	0	0	0	1	10379
 2584	BENCH	banc	positive	0	0	0	0	0	0	2690
 2587	DARTS	fléchette	negative	0	1	0	0	0	0	6682
 2588	GLOBE	globe	positive	0	0	0	0	0	0	7101
+2594	DOMINOES	domino	negative	0	1	0	0	0	0	5272
 2597	HARP	harpe	positive	0	0	0	0	0	0	7352
 26	UNPLEASANT	désagréable	negative	0	0	1	0	0	1	4947
+2600	PYRAMID	pyramide	positive	0	0	0	0	0	0	11076
+2602	FUNNEL	entonnoir	positive	0	0	0	0	0	0	5924
 2603	ACCORDION	accordéon	positive	0	0	0	0	0	0	1736
 2606	COMPASS	boussole	positive	0	0	0	0	0	0	3014
 2617	BULB	bulbe	negative	0	0	0	0	0	1	3130
@@ -757,6 +777,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 2624	FRAME	cadre	positive	0	0	0	0	0	0	3180
 2626	NERVE	nerf	positive	0	0	0	0	0	0	9464
 2627	ORANGE (FRUIT)	orange	positive	0	0	0	0	0	0	9764
+2629	TRAY	plateau	positive	0	0	0	0	0	0	10466
 2630	WHIP	fouet	negative	0	1	0	1	0	0	6788
 2631	WIRE	câble	positive	0	0	0	0	1	0	182
 2648	HAIR (HEAD)	cheveu	positive	0	0	0	0	0	0	3593
@@ -805,15 +826,15 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 2941	HAPPINESS	bonheur	positive	1	0	0	0	0	0	2944
 2946	CRADLE	berceau	positive	0	0	0	1	0	0	2804
 2948	GAP (DISTANCE)	brèche	negative	0	1	0	0	0	0	3054
-2953	SLEEVE	manche	positive	0	0	0	0	0	0	8785
 2954	SLICE	trancher	negative	0	1	0	0	0	0	13506
 2955	STATE (POLITICS)	état	positive	0	0	0	0	0	0	6138
 2972	SLEEP (STATE)	sommeil	positive	0	0	0	0	0	0	12667
 2977	WORKER	ouvrier	positive	0	0	0	0	0	0	1090
 2978	DISTANCE	distance	negative	0	0	0	0	0	0	5207
-2982	GIFT	don	positive	0	0	0	0	1	0	5277
+2982	GIFT	cadeau	positive	0	0	0	0	1	0	3172
 2984	HEAP	tas	positive	0	0	0	0	0	1	13171
 2991	SKI	ski	positive	0	0	0	0	0	0	12608
+2992	TIP (OF OBJECT)	pointe	positive	0	0	0	0	0	0	1181
 2996	WEALTH	fortune	positive	0	0	0	0	1	0	6779
 3	BRAVE	courageux	positive	0	1	0	0	0	0	340
 300	RATTLE	hochet	negative	0	1	0	0	1	0	7447
@@ -829,11 +850,13 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 307	HAWK	faucon	negative	0	1	0	0	0	0	6528
 3083	BALLOON	ballon	positive	0	0	0	0	0	0	2683
 3086	COMPUTER	ordinateur	positive	0	0	0	0	0	0	9769
+3087	PACIFIER	tétine	positive	0	0	0	0	0	0	13283
 3088	ENVELOPE	enveloppe	positive	0	0	0	0	0	0	5962
 3089	GIRAFFE	girafe	positive	0	0	0	0	0	0	7075
 3090	GUITAR	guitare	positive	0	0	0	0	0	0	7302
 3091	LEMON	citron	negative	0	0	0	0	0	1	3689
 3094	PAINTBRUSH	pinceau	positive	0	0	0	0	0	0	10393
+3095	POSTMAN	facteur	positive	0	0	0	0	0	0	6380
 3096	RACKET	raquette	negative	0	1	0	0	0	0	11305
 3099	SOFA	canapé	positive	0	0	1	0	0	0	3243
 31	PAN	casserole	positive	0	0	0	0	0	0	3354
@@ -841,12 +864,15 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 3102	TANK	réservoir	positive	0	0	0	0	0	0	11706
 3104	THERMOMETER	thermomètre	positive	0	0	0	0	0	0	13316
 3105	UMBRELLA	parapluie	positive	0	0	0	0	0	0	9965
+3106	WARDROBE	armoire	positive	0	0	0	0	0	0	2302
 3107	WHISTLE (INSTRUMENT)	sifflet	positive	0	0	0	0	0	0	12558
 3116	HATCH (OUT)	éclore	positive	0	0	0	0	0	0	5456
+3128	SHOWER (ACTION)	douche	positive	0	0	0	0	0	0	5322
 3138	STRAWBERRY	fraise	positive	0	0	0	0	0	0	6834
 3140	VEST	gilet	positive	0	0	0	0	0	0	7072
 3141	TAMBOURINE	tambourin	negative	0	0	0	0	0	0	13145
 3144	GORILLA	gorille	negative	0	1	0	1	0	0	7135
+3154	WILD BOAR	sanglier	negative	0	1	0	0	0	1	12088
 3172	SCABIES	gale	negative	0	1	0	0	0	1	6948
 3181	MUSTARD	moutarde	negative	0	0	0	0	0	0	9320
 319	LICK	lécher	negative	0	0	0	0	0	1	8453
@@ -854,7 +880,6 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 320	LAME	boiteux	negative	0	0	1	0	0	0	158
 3202	CANNON	canon	negative	0	1	0	1	0	0	3259
 3204	INSULT	insulter	negative	0	1	1	1	0	1	8044
-3206	ELF OR FAIRY	fée	positive	0	0	0	0	0	0	6555
 321	CHEW	mâcher	negative	0	0	0	0	0	1	8694
 3212	HOPE (SOMETHING)	espérer	positive	0	0	0	0	0	0	6088
 3213	HIRE OR RENT	louer	positive	0	0	0	0	0	0	8647
@@ -862,7 +887,6 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 3230	DECEIVE	tromper	negative	0	0	1	0	0	1	13648
 3237	ALLOW OR PERMIT	permettre	positive	0	0	0	0	0	0	1128
 3251	MOLD (GET ROTTEN)	moisissure	negative	0	0	0	0	0	1	9217
-3255	POINT (POINTED END)	pointe	positive	0	0	0	0	0	0	1181
 327	PONCHO	poncho	positive	0	0	0	0	0	0	10582
 3274	ENCIRCLE	entourer	positive	0	0	0	0	0	0	5927
 3276	SUNSHINE	lumière du soleil	positive	1	0	0	0	0	0	8666
@@ -870,6 +894,8 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 3284	GRAVEYARD	cimetière	negative	0	1	1	0	0	0	3661
 33	NETTLE	ortie	negative	0	0	1	1	0	1	9810
 3302	QUARREL (VERB)	se disputer	negative	0	0	0	1	0	0	12306
+3304	PICTURE (PHOTOGRAPH)	photo	positive	0	0	0	0	1	0	1151
+3314	LYNX	lynx	negative	0	1	0	0	0	0	8687
 3333	BELIEF (RELIGIOUS)	croyance	positive	0	0	0	0	0	0	4479
 3336	FUNERAL	funérailles	negative	0	0	1	0	0	0	6913
 3357	CUPBOARD	placard	positive	0	0	0	0	0	0	10425
@@ -877,6 +903,9 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 3375	PATIENT (SICK PERSON)	patient	negative	0	1	1	0	0	0	10058
 3377	EMPEROR	empereur	positive	0	0	0	0	0	0	5654
 338	RAKE	râteau	negative	0	0	0	0	0	0	11320
+3399	WAREHOUSE	entrepôt	positive	0	0	0	0	0	0	5941
+34	STAIRS	escalier	positive	0	0	0	0	0	0	6072
+3405	RULER	règle	positive	0	1	0	0	0	0	11526
 341	SICKLE	faucille	negative	0	1	0	0	0	0	6527
 3425	JOKE	blague	positive	1	0	0	0	0	0	2878
 343	VINE	vigne	positive	0	0	0	0	0	0	13956
@@ -899,7 +928,6 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 3608	WARRIOR	guerrier	negative	0	1	0	1	0	0	721
 3614	PANT	haleter	negative	0	1	1	0	1	0	7329
 3617	STUMBLE	trébucher	negative	0	1	0	0	1	0	13569
-3618	STAMP	timbre	positive	0	0	0	0	0	0	13332
 3622	BURN (INJURY)	brûlure	negative	0	1	0	0	0	0	3105
 3624	LEPROSY	lèpre	negative	0	1	1	0	0	1	8487
 3627	SURPRISE (SOMEBODY)	surprendre	negative	0	1	0	0	1	0	1481
@@ -943,10 +971,13 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 3709	BRILLIANT	brillant	positive	0	0	0	0	0	0	174
 3711	TIE (NOUN)	cravate	positive	0	0	0	0	0	0	4395
 372	POINTED	pointu	negative	0	1	0	0	0	0	10543
+3725	AVOCADO	avocat	positive	0	1	0	1	0	1	119
 3729	LETTUCE	laitue	positive	0	0	0	0	0	0	8393
+3732	POMEGRANATE	grenade	negative	0	1	0	1	0	0	7226
 3745	CRANE (DEVICE)	grue	positive	0	0	0	0	0	0	7277
 3746	VASE	vase	negative	0	1	0	0	0	1	13812
 3747	SHAPE	forme	positive	0	0	0	0	0	0	658
+3748	DROP (OF A LIQUID)	goutte	negative	0	1	1	0	0	1	7156
 377	LOUD	bruyant	negative	0	1	0	1	1	0	3122
 378	PINCH	pincer	negative	0	1	0	1	0	0	10396
 3780	PET	animal de compagnie	negative	0	0	0	0	0	0	2130
@@ -960,22 +991,46 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 3855	ITCH (CAUSE ITCHING OR FEEL ITCHY)	démanger	negative	0	0	0	1	1	0	4840
 3861	FAIL	échouer	negative	0	1	1	0	0	0	5439
 387	SLING	fronde	negative	0	1	0	1	0	0	6891
+3873	CHOCOLATE	chocolat	positive	0	0	0	0	0	0	3620
+3878	DIAMOND	diamant	positive	1	0	0	0	0	0	5085
+3880	FIGHT (COMBAT)	lutte	negative	0	1	1	1	0	0	8678
+3882	ROSE	rose	positive	0	0	0	0	0	0	11905
+3888	SKUNK	putois	negative	0	0	0	0	0	1	11072
 390	PUNISHMENT	punition	negative	0	1	1	1	0	1	11055
 391	BLESS	bénir	positive	0	0	0	0	0	0	2800
+3917	DEVIL	diable	negative	0	1	1	1	0	1	5073
 392	MAGIC	sorcellerie	negative	0	1	1	1	1	0	12690
+395	PILL	pilule	positive	0	0	0	0	0	0	10386
 3955	HOSTILITY	hostilité	negative	0	0	0	1	0	1	743
 3957	SYSTEM	système	positive	0	0	0	0	0	0	13102
 3958	SOCIETY	société	positive	0	0	0	0	0	0	12622
 3974	UNHAPPY	malheureux	negative	0	0	1	1	0	1	927
 3975	NERVOUS	nerveux	positive	0	0	0	0	1	0	1026
 398	PIERCE	percer	negative	0	1	0	1	0	0	10168
+3994	PIANO (INSTRUMENT)	piano	positive	0	0	0	0	0	0	10345
+3997	ARTICHOKE	artichaut	positive	0	0	0	0	0	0	2341
+4003	PLIERS	pince	negative	0	1	0	1	0	0	10390
+4006	ROBOT	robot	positive	0	0	0	0	0	0	11882
+4011	TRUCK	camion	positive	0	0	0	0	0	0	3232
+4012	TELESCOPE	télescope	positive	0	0	0	0	0	0	13202
+4013	AMBULANCE	ambulance	negative	0	1	1	0	0	0	2035
+4014	MICROPHONE	micro	positive	0	0	0	0	0	0	9104
+4015	PIRATE	pirate	negative	0	1	0	1	0	0	10411
+4016	MICROSCOPE	microscope	positive	0	0	0	0	0	0	9112
+4018	BLOUSE	chemisier	positive	0	0	0	0	0	0	3576
 402	SURPASS	dépasser	negative	0	0	1	0	0	1	4888
+4020	CLOWN	clown	positive	0	0	0	0	1	0	3753
+4021	DINOSAUR	dinosaure	negative	0	1	0	0	0	0	5129
+4023	VIOLIN	violon	positive	0	0	0	0	0	0	13978
+4024	SAXOPHONE	saxophone	positive	0	0	0	0	0	0	12202
+4036	GARBAGE CAN	poubelle	negative	0	0	0	0	0	1	10674
 404	ALCOHOL (FERMENTED DRINK)	alcool	negative	0	0	0	0	0	0	1955
 41	IGNORE	ignorer	negative	0	0	1	0	0	1	7577
 410	YAM	igname	positive	0	0	0	0	0	0	7573
 418	FOR A LONG TIME	longue	positive	0	0	0	0	0	0	904
 419	SEVERE	méchant	negative	0	1	1	1	0	1	8933
 430	TWIST	tordre	negative	0	1	0	1	0	0	13406
+44	INJURE	blesser	negative	0	1	1	1	0	1	2892
 457	BLIND PERSON	aveugle	negative	0	1	0	0	0	0	2593
 474	DRESS	robe	positive	0	0	0	0	0	0	11880
 476	CUP	tasse	positive	0	0	0	0	0	0	13172
@@ -996,7 +1051,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 497	SCAR	cicatrice	negative	0	1	1	1	0	1	3647
 499	CURE	guérir	positive	0	0	0	0	0	0	7283
 500	CRUEL	cruel	negative	0	1	1	1	0	1	363
-501	LIFT	soulever	positive	0	0	0	0	0	0	12729
+501	LIFT	ascenseur	positive	0	0	0	0	0	0	2356
 502	NAIL (TOOL)	clou	negative	0	0	0	0	0	0	3749
 503	FROG	grenouille	negative	0	0	0	0	0	1	7229
 504	LEARN	apprendre	positive	0	0	0	0	1	0	2231
@@ -1019,7 +1074,9 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 59	ELECTRICITY	électricité	positive	0	0	0	0	0	0	5560
 590	NAKED	nu	negative	0	1	1	0	0	0	9600
 594	PIECE	pièce	positive	0	0	0	0	0	0	10362
-597	PHYSICIAN	docteur	positive	0	0	0	0	0	0	5245
+596	POSTAGE STAMP	timbre	positive	0	0	0	0	0	0	13332
+597	PHYSICIAN	médecin	positive	0	0	0	0	0	0	8940
+598	SHELL	coquillage	negative	0	0	0	0	0	1	329
 6	EARTHQUAKE	tremblement de terre	negative	0	1	1	1	1	0	13579
 600	STRANGE	étrange	negative	0	1	0	0	1	1	577
 601	LIE (MISLEAD)	mentir	negative	0	0	1	1	0	1	9008
@@ -1044,6 +1101,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 628	LEAF	feuille	positive	0	0	0	0	0	0	6601
 629	LEATHER	cuir	positive	0	0	0	0	0	0	4493
 630	LIGHT (RADIATION)	lumière	positive	0	0	0	0	0	0	8664
+633	MARKET	marche	positive	0	0	0	0	0	0	8841
 634	MEAT	viande	positive	0	0	0	0	0	0	13928
 635	MILK	lait	positive	0	0	0	0	0	0	8389
 637	MOSS	mousse	negative	0	0	0	0	0	1	1006
@@ -1052,6 +1110,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 64	PIN	épingle	positive	0	0	0	0	0	0	6001
 640	MUD	boue	negative	0	0	0	0	0	1	2978
 642	MUSIC	musique	positive	0	0	1	0	0	0	9362
+643	NEED (NOUN)	besoin	positive	0	0	0	0	0	0	2813
 644	OAK	chêne	positive	0	0	0	0	0	0	3577
 645	OCEAN	océan	positive	0	0	0	0	0	0	9666
 646	ASH	cendre	negative	0	1	1	0	0	1	3403
@@ -1102,10 +1161,12 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 713	STEAL	dérober	negative	0	1	1	1	1	0	4937
 714	SEED	semence	positive	0	0	0	0	0	0	12464
 715	SHOUT	crier	negative	0	1	1	1	0	1	4432
+717	SWEET	bonbon	positive	0	0	0	0	0	0	2939
 719	FIND	trouver	positive	0	0	0	0	0	0	13673
 72	CLAW	griffe	negative	0	1	0	1	0	0	7238
 720	GOOD LUCK	chance	positive	0	0	0	0	1	0	3479
 722	ATTACK	attaquer	negative	0	1	0	1	1	0	2453
+723	PLACE (POSITION)	lieu	positive	0	0	0	0	0	0	8526
 724	READ	lire	positive	0	0	0	0	0	0	8569
 728	FIRST	premier	positive	1	0	0	0	0	0	1209
 729	DAWN	aube	positive	0	0	0	0	1	0	2499
@@ -1126,6 +1187,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 757	BUTTON	touche	positive	0	0	0	0	0	0	13422
 76	YOUNG MAN	jeune homme	positive	0	0	0	0	0	1	8263
 761	COVER	couvrir	positive	0	0	0	0	0	0	4371
+764	SUIT	costume	positive	0	0	0	0	0	0	4283
 767	CORPSE	cadavre	negative	0	1	1	0	1	1	3170
 768	LUNCH	déjeuner	positive	0	0	0	0	0	0	4809
 769	ROOF	toit	positive	0	0	0	0	0	0	13366
@@ -1150,6 +1212,7 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 792	BOIL (OF LIQUID)	bouillir	negative	0	0	0	0	0	1	2988
 794	PEN	stylo	positive	0	0	0	0	0	0	12911
 795	TROUT	truite	negative	0	0	0	0	0	1	13678
+796	NIPPLE	téton	positive	0	0	0	0	0	0	13284
 798	JAW	mâchoire	positive	0	0	0	0	0	0	8699
 799	WRIST	poignet	positive	0	0	0	0	0	0	10532
 8	CURSE	maudire	negative	0	0	0	1	0	0	955
@@ -1270,3 +1333,4 @@ CONCEPTICON_ID	CONCEPTICON_GLOSS	FRENCH	FRENCH_EMOTION_POLARITY	FRENCH_JOY_ASSOC
 995	QUIVER (FOR ARROWS)	carquois	negative	0	1	0	0	0	0	3324
 996	DEAF	sourd	negative	0	0	1	0	0	1	12747
 998	PUT	mettre	positive	0	0	0	0	0	0	9061
+999	JOINT	articulation	positive	0	0	0	0	0	0	2343
