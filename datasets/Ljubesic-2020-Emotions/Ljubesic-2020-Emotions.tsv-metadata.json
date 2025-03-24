@@ -1,0 +1,110 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of discrete emotions and positive or negative association for Dutch, Croatian and Slovene words used by Ljubešić et al. (2020).",
+ "dc:source": "https://www.clarin.si/repository/xmlui/handle/11356/1318",
+  "dc:references" : "Ljubesic2020",
+  "dcat:keyword": ["discrete emotions", "ratings", "Dutch", "Croatian", "Slovene"],
+  "dc:description": "An automated mapping of discrete emotion ratings (anger, anticipation, disgust, fear, joy, sadness, surprise and trust) as well as positive and negative association ratings used by Ljubešić et al. (2020) to the concept sets in Concepticon. The ratings were most likely originally given in English and repurposed in the present dataset. Please check the description and the original source before using these data.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "DUTCH",
+            "datatype": "string",
+            "titles": "NL"
+          },
+          {
+            "name": "CROATIAN",
+            "datatype": "string",
+            "titles": "HR"
+          },
+          {
+            "name": "SLOVENE",
+            "datatype": "string",
+            "titles": "SL"
+          },
+          {
+            "name": "DUTCH_POSITIVE_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Positive"
+          },
+          {
+            "name": "DUTCH_NEGATIVE_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Negative"
+          },
+          {
+            "name": "DUTCH_ANGER_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Anger"
+          },
+          {
+            "name": "DUTCH_ANTICIPATION_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Anticipation"
+          },
+          {
+            "name": "DUTCH_DISGUST_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Disgust"
+          },
+          {
+            "name": "DUTCH_FEAR_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Fear"
+          },
+          {
+            "name": "DUTCH_JOY_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Joy"
+          },
+          {
+            "name": "DUTCH_SADNESS_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Sadness"
+          },
+          {
+            "name": "DUTCH_SURPRISE_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Surprise"
+          },
+          {
+            "name": "DUTCH_TRUST_ASSOCIATION",
+            "datatype": {"base": "boolean", "format": "1|0"},
+            "titles": "Trust"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Ljubesic-2020-Emotions.tsv"
+    }
+  ]
+}
