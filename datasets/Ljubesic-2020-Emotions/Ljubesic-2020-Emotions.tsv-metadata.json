@@ -1,7 +1,7 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Ratings of discrete emotions and positive or negative association for Dutch, Croatian and Slovene words used by Ljubešić et al. (2020).",
+  "dc:title": "Ratings of positive or negative association of discrete emotions for Dutch, Croatian and Slovene words used by Ljubešić et al. (2020).",
  "dc:source": "https://www.clarin.si/repository/xmlui/handle/11356/1318",
   "dc:references" : "Ljubesic2020",
   "dcat:keyword": ["discrete emotions", "ratings", "Dutch", "Croatian", "Slovene"],
