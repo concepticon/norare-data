@@ -74,22 +74,12 @@
             "titles": "Dom-Mn-Mal"
           },
           {
-            "name": "SPANISH_FREQUENCY_MEAN",
-            "datatype": {"base": "decimal", "minimum": 0, "maximum": 900},
-            "titles": "Freq"
-          },
-          {
-            "name": "SPANISH_FAMILIARITY_MEAN",
-            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
-            "titles": "'Fam"
-          },
-          {
-            "name": "SPANISH_CONCRETENESS_MEAN",
+            "name": "CONCRETENESS_LEXESP",
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "Con"
           },
           {
-            "name": "SPANISH_IMAGEABILITY_MEAN",
+            "name": "IMAGEABILITY_LEXESP",
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "Imag"
           },
