@@ -1,0 +1,65 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Lexical word recognition times for 130,000+ Italian words by Amenta et al. (2025)",
+  "dc:source": "https://doi.org/10.3758/s13428-024-02548-4",
+  "dc:references" : "Amenta2025",
+  "dcat:keyword": ["lexical recognition times", "norms", "Italian"],
+  "dc:description": "An automated mapping of lexical word recognition times for words submitted with the study of Amenta et al. (2025) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ITALIAN",
+            "datatype": "string",
+            "titles": "spelling"
+          },
+          {
+            "name": "ITALIAN_RT_MEAN",
+            "datatype": "decimal",
+            "titles": "rt_correct_mean"
+          },
+          {
+            "name": "ITALIAN_RT_ZSCORE",
+            "datatype": "decimal",
+            "titles": "rt_zscore_correct_mean"
+          },
+          {
+            "name": "ITALIAN_ACCURACY_PERCENTAGE",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
+            "titles": "accuracy"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Amenta-2025-LexicalDecision.tsv"
+    }
+  ]
+}

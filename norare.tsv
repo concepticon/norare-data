@@ -875,3 +875,6 @@ DellaRosa-2010-417	ITALIAN_AoA_MEAN	mean	AoA		ratings	users	it		The mean rating 
 DellaRosa-2010-417	ITALIAN_CONTEXT_AVAILABILITY_MEAN	mean	context availability		ratings	users	it		The mean rating of context availablity on a 7-point scale (1 = difficult to think of a context, 7 = easy to think of a context).
 DellaRosa-2010-417	ITALIAN_ABSTRACTNESS_MEAN	mean	abstractness		ratings	users	it		The mean rating of abstractness on a 7-point scale (1 = less abstract, 7 = more abstract).
 DellaRosa-2010-417	ITALIAN_MoA_MEAN	mean	mode of acquisition		ratings	users	it		The mean rating of mode of acquisition on a 7-point scale (1 = totally acquired through experience, 7 = totally acquired through language).
+Amenta-2025-LexicalDecision	ITALIAN_RT_MEAN	mean	lexical decision	reaction time	norms	users	it		The average reaction time for lexical recognition of the stimulus (correct trials only).
+Amenta-2025-LexicalDecision	ITALIAN_RT_ZSCORE	standardized	lexical decision	reaction time	norms	users	it		The standardized averaged lexical recognition times.
+Amenta-2025-LexicalDecision	ITALIAN_ACCURACY_PERCENTAGE	percentage	lexical decision	accuracy	norms	users	it		The average accuracy rate of the lexical decision task.
