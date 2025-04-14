@@ -875,3 +875,7 @@ DellaRosa-2010-417	ITALIAN_AoA_MEAN	mean	AoA		ratings	users	it		The mean rating 
 DellaRosa-2010-417	ITALIAN_CONTEXT_AVAILABILITY_MEAN	mean	context availability		ratings	users	it		The mean rating of context availablity on a 7-point scale (1 = difficult to think of a context, 7 = easy to think of a context).
 DellaRosa-2010-417	ITALIAN_ABSTRACTNESS_MEAN	mean	abstractness		ratings	users	it		The mean rating of abstractness on a 7-point scale (1 = less abstract, 7 = more abstract).
 DellaRosa-2010-417	ITALIAN_MoA_MEAN	mean	mode of acquisition		ratings	users	it		The mean rating of mode of acquisition on a 7-point scale (1 = totally acquired through experience, 7 = totally acquired through language).
+Yi-2025-AffectiveRatings	CHINESE_STROKE	cardinality	strokes		norms	meta	zh		The total number of strokes of the whole word.
+Yi-2025-AffectiveRatings	CHINESE_VALENCE_MEAN	mean	valence		ratings	users	zh		The mean rating of valence for Chinese words on a 9-point scale (1 = extremely negative, 9 = extremely positive).
+Yi-2025-AffectiveRatings	CHINESE_AROUSAL_MEAN	mean	arousal		ratings	users	zh		The mean rating of arousal for Chinese words on a 9-point scale (1 = extremely calm, 9 = extremely excited).
+Yi-2025-AffectiveRatings	CHINESE_PERCEPTUAL_MEAN	mean	sensory experience		ratings	users	zh		The mean rating of perceptual experiences (vision, hearing, taste, smell, touch) for Chinese words on a 9-point scale (1 = not evocative of a perceptual experience, 9 = strongly evocative of a sensory experience).
