@@ -1,0 +1,205 @@
+CONCEPTICON_ID	CONCEPTICON_GLOSS	DUTCH	CROATIAN	SLOVENE	DUTCH_POSITIVE_ASSOCIATION	DUTCH_NEGATIVE_ASSOCIATION	DUTCH_ANGER_ASSOCIATION	DUTCH_ANTICIPATION_ASSOCIATION	DUTCH_DISGUST_ASSOCIATION	DUTCH_FEAR_ASSOCIATION	DUTCH_JOY_ASSOCIATION	DUTCH_SADNESS_ASSOCIATION	DUTCH_SURPRISE_ASSOCIATION	DUTCH_TRUST_ASSOCIATION	LINE_IN_SOURCE
+100	FAITHFUL	trouw	vjernost, odanost	zvestoba	1	1	1	1	1	1	1	1	1	1	386
+1002	STATUE	standbeeld	kip	kip	1	1	1	1	1	1	1	1	1	1	11991
+1013	FRESHWATER EEL	paling	jegulja	jegulja	1	1	1	1	1	1	1	1	1	1	4111
+1030	NECESSARY	nodig	potreban	potreben	1	1	1	1	1	1	1	1	1	1	8332
+1038	TEACHER	leraar	učitelj, nastavnik, profesor	učitelj	1	1	1	1	1	1	1	1	1	1	12569
+1044	PILLOW	kussen	jastuk, ublažiti	blazina	1	1	1	1	1	1	1	1	1	1	3080
+1070	BUS	bus	poljubac	poljub, poljubček	1	1	1	1	1	1	1	1	1	1	1655
+1098	WEIGH	wegen	odvagivati	tehtati	1	1	1	1	1	1	1	1	1	1	13919
+1100	COOK (SOMETHING)	koken	kipjeti, vreti, ključati	zavreti	1	1	1	1	1	1	1	1	1	1	1379
+1120	HONEST	eerlijk	pošten, čestit, iskren	pošten	1	1	1	1	1	1	1	1	1	1	6045
+1129	PAINFUL	pijnlijk	bolan	boleč	1	1	1	1	1	1	1	1	1	1	8883
+1147	PURE	puur	čisto	izključen, zgolj	1	1	1	1	1	1	1	1	1	1	10006
+119	DIVE	duiken	baciti	padec	1	1	1	1	1	1	1	1	1	1	9433
+1201	FEATHER	veer	skretanje	spremeniti	1	1	1	1	1	1	1	1	1	1	13605
+1206	BARKING	blaffen	lajati	lajati	1	1	1	1	1	1	1	1	1	1	1061
+1207	YOUNG	jong	mladež	mlad	1	1	1	1	1	1	1	1	1	1	14163
+121	SPIN	spinnen	presti	presti	1	1	1	1	1	1	1	1	1	1	10017
+1216	MOTHER	moeder	majka	mama, mati	1	1	1	1	1	1	1	1	1	1	8158
+1217	FATHER	vader	otac	oče	1	1	1	1	1	1	1	1	1	1	4783
+1221	NOSE	neus	nos	nos	1	1	1	1	1	1	1	1	1	1	8443
+1229	OLD	oud	antički, drevan, star, prastar	starodaven	1	1	1	1	1	1	1	1	1	1	508
+1230	DIRTY	vies	prljav	umazan, ubijalski	1	1	1	1	1	1	1	1	1	1	4899
+1246	SMALL	klein	neznatan	majhen	1	1	1	1	1	1	1	1	1	1	11611
+1261	SING	zingen	pjevati	peti	1	1	1	1	1	1	1	1	1	1	11475
+1262	BROTHER	broer	brat	brat	1	1	1	1	1	1	1	1	1	1	1566
+1268	YES	ja	da, u redu	NO TRANSLATION	1	1	1	1	1	1	1	1	1	1	963
+1269	NO	nee	nipošto	pravzaprav, ne	1	1	1	1	1	1	1	1	1	1	8319
+1272	AUNT	tante	tetka	teta	1	1	1	1	1	1	1	1	1	1	902
+1280	FALL	vallen	pad, pasti	pasti, padec	1	1	1	1	1	1	1	1	1	1	4726
+1285	IMPORTANT	belangrijk	važno	pomemben	1	1	1	1	1	1	1	1	1	1	6334
+1287	COLD	koud	prohladan, hladan	hladen	1	1	1	1	1	1	1	1	1	1	2060
+1289	BABY	baby	beba, dijete	otrok	1	1	1	1	1	1	1	1	1	1	970
+1292	BAD	slecht	loš	slab	1	1	1	1	1	1	1	1	1	1	989
+1294	ZERO	nul	ništavan	ničen	1	1	1	1	1	1	1	1	1	1	8484
+1295	STICK	stok	šibati, mlatiti štapom	mlatiti	1	1	1	1	1	1	1	1	1	1	1754
+1298	NEWSPAPER	krant	službeni list	vestnik	1	1	1	1	1	1	1	1	1	1	5386
+1311	VERY	zeer	bolan	boleč, rana	1	1	1	1	1	1	1	1	1	1	11741
+1323	CLOCK	klok	sat, ura	ura	1	1	1	1	1	1	1	1	1	1	2211
+1324	SLIP	uitglijden	poskliznuti se	zdrs, zdrsniti	1	1	1	1	1	1	1	1	1	1	11582
+1335	WHITE	wit	bijel	bel	1	1	1	1	1	1	1	1	1	1	13967
+1336	EAT	eten	jesti	jesti	1	1	1	1	1	1	1	1	1	1	4078
+1337	PIG	varken	svinja	prašič, svinja	1	1	1	1	1	1	1	1	1	1	6016
+1343	SUN	zon	sunce	sonce	1	1	1	1	1	1	1	1	1	1	12297
+1349	CHURCH	kerk	crkva	cerkev	1	1	1	1	1	1	1	1	1	1	2103
+1355	LAUGH	lachen	nasmijan	nasmejan	1	1	1	1	1	1	1	1	1	1	11622
+1357	DAUGHTER	dochter	kći	hči	1	1	1	1	1	1	1	1	1	1	3164
+1367	CROSS	kruis	križ, ljut, naljutiti, ljutit, srdit	križ	1	1	1	1	1	1	1	1	1	1	2982
+1368	BREAD	brood	dangubiti, besposličariti	mečkati, obotavljati	1	1	1	1	1	1	1	1	1	1	7427
+1382	NEEDLE (FOR SEWING)	naald	igla	igla	1	1	1	1	1	1	1	1	1	1	8333
+1386	LION	leeuw	lav	lev	1	1	1	1	1	1	1	1	1	1	7387
+1390	WRONG	fout	greška, pogreška	napaka	1	1	1	1	1	1	1	1	1	1	4424
+1396	SHARP	scherp	smrdljiv	oster	1	1	1	1	1	1	1	1	1	1	9989
+1400	THIN (SLIM)	slank	vitak	vitek	1	1	1	1	1	1	1	1	1	1	11569
+1410	KNOW (SOMETHING)	weten	sigurno	NO TRANSLATION	1	1	1	1	1	1	1	1	1	1	14024
+1417	KILL	vermoorden	ubiti	umoriti	1	1	1	1	1	1	1	1	1	1	782
+1419	FEAR (BE AFRAID)	bang	uplašen	prestrašen	1	1	1	1	1	1	1	1	1	1	290
+1422	BE ALIVE	levend	živ	živ	1	1	1	1	1	1	1	1	1	1	379
+1424	YELLOW	geel	kukavica	strahopeten	1	1	1	1	1	1	1	1	1	1	14150
+1425	GREEN	groen	zelen	zelen	1	1	1	1	1	1	1	1	1	1	5617
+1427	BEAUTIFUL	mooi	lijep	lepo, lep	1	1	1	1	1	1	1	1	1	1	1138
+1429	FULL	vol	sit	poln, sit	1	1	1	1	1	1	1	1	1	1	5274
+1430	STAR	ster	zvijezda	zvezda	1	1	1	1	1	1	1	1	1	1	11962
+1439	SWIM	zwemmen	plivati	plavati	1	1	1	1	1	1	1	1	1	1	12433
+1455	PULL	trekken	privlačnost	potegniti, privlačiti, privlačnost	1	1	1	1	1	1	1	1	1	1	9971
+1466	EXACT	stipt	točan, pravovremen	točen	1	1	1	1	1	1	1	1	1	1	9983
+1468	LOOK FOR	zoeken	tražiti	iskati	1	1	1	1	1	1	1	1	1	1	11175
+1474	SEA	zee	pučina	bližati se	1	1	1	1	1	1	1	1	1	1	8612
+1495	HAPPY	gelukkig	sretan	srečen	1	1	1	1	1	1	1	1	1	1	5166
+151	RAZOR	scheermes	britva, žilet	britev, brivnik, briti	1	1	1	1	1	1	1	1	1	1	10206
+1514	HEN	kip	piletina, pile	piščanec	1	1	1	1	1	1	1	1	1	1	2051
+1518	STUPID	dwaas	budala, zavarati	bedak, tepec, osmešiti, neumen, preslepiti	1	1	1	1	1	1	1	1	1	1	5078
+153	GREY	grijs	siv	siv	1	1	1	1	1	1	1	1	1	1	5607
+1536	UNDERSTAND	begrijpen	uhapsiti, uhititi	aretirati	1	1	1	1	1	1	1	1	1	1	647
+1543	SNAIL	slak	kurva, drolja	kurba	1	1	1	1	1	1	1	1	1	1	11539
+1548	UGLY	lelijk	ružan	grd	1	1	1	1	1	1	1	1	1	1	13176
+1552	GLOOMY	somber	turoban, sumoran	turoben	1	1	1	1	1	1	1	1	1	1	3957
+1564	LAZY	lui	lijen	len	1	1	1	1	1	1	1	1	1	1	7215
+1566	GUN	pistool	pištolj	pištola	1	1	1	1	1	1	1	1	1	1	9339
+1601	WEAK	zwak	slab	slaboten	1	1	1	1	1	1	1	1	1	1	4815
+1607	HATE	haten	mrzeći	sovraženje	1	1	1	1	1	1	1	1	1	1	5829
+1623	SPEAK	praten	razgovor	pogovor, govoriti	1	1	1	1	1	1	1	1	1	1	12515
+1624	EMPTY	leeg	isprazan, bezizražajan	omejen, bedast	1	1	1	1	1	1	1	1	1	1	13558
+1625	DEAD	dood	smrt, pogibija	smrt	1	1	1	1	1	1	1	1	1	1	3186
+163	BLACK	zwart	crn	črn	1	1	1	1	1	1	1	1	1	1	1287
+1631	FAST	snel	brz	hiter	1	1	1	1	1	1	1	1	1	1	10172
+1639	BEER	bier	pivo	pivo	1	1	1	1	1	1	1	1	1	1	1151
+1641	SILK	zijde	svila	svila	1	1	1	1	1	1	1	1	1	1	11447
+1646	GIRL	meisje	djeva	devica, dekle	1	1	1	1	1	1	1	1	1	1	7601
+1653	BLIND	blind	slijep	slep	1	1	1	1	1	1	1	1	1	1	1320
+1654	LIGHTNING	bliksem	munja	bliskanje, strela	1	1	1	1	1	1	1	1	1	1	7353
+1659	DOLL	pop	lutka	lutka	1	1	1	1	1	1	1	1	1	1	3875
+1702	HOLY	heilig	svet	svet	1	1	1	1	1	1	1	1	1	1	6026
+1706	ELEVEN	elf	vilenjak	vilin	1	1	1	1	1	1	1	1	1	1	4168
+1728	ROTTEN	rot	istrunuti, trunuti, truljenje, trulež, propadati, gnjiljeti	gnitjr, razkrajanje	1	1	1	1	1	1	1	1	1	1	10843
+174	PROUD	trots	ponos	ponos	1	1	1	1	1	1	1	1	1	1	9719
+1750	CHOOSE	kiezen	izabrati	izvoliti	1	1	1	1	1	1	1	1	1	1	4151
+1757	TIRED	moe	umoran	utrujen	1	1	1	1	1	1	1	1	1	1	12820
+1771	TASTELESS	smaakloos	neukusan	brezokusen	1	1	1	1	1	1	1	1	1	1	12554
+178	RIPE	rijp	zreo	zrel	1	1	1	1	1	1	1	1	1	1	10779
+1784	WANT	willen	nedovoljan	koprneč	1	1	1	1	1	1	1	1	1	1	13839
+1798	GUNPOWDER	buskruit	barut	smodnik	1	1	1	1	1	1	1	1	1	1	5715
+1813	TASTY	smakelijk	ukusan	okusen	1	1	1	1	1	1	1	1	1	1	8896
+1814	ACCUSE	beschuldigen	optužiti, okriviti	obtožiti	1	1	1	1	1	1	1	1	1	1	6299
+1819	LOOK	kijken	gledati	nadzorovati	1	1	1	1	1	1	1	1	1	1	13872
+1821	BRUSH	borstel	naljutiti	jeziti	1	1	1	1	1	1	1	1	1	1	1547
+1824	DEXTEROUS	handig	spretan	priročen	1	1	1	1	1	1	1	1	1	1	5774
+1826	ANGRY	boos	ljut, ljutit, srdit	jezen	1	1	1	1	1	1	1	1	1	1	520
+1839	CRY	huilen	plač	jokajoč	1	1	1	1	1	1	1	1	1	1	3018
+1847	SICK	ziek	bolestan	obolel	1	1	1	1	1	1	1	1	1	1	3683
+1857	CROCODILE	krokodil	krokodil	krokodil	1	1	1	1	1	1	1	1	1	1	2977
+1862	DONKEY	ezel	guzica, dupe	osel, rit	1	1	1	1	1	1	1	1	1	1	778
+1870	ANCHOR	anker	sidro	sidro	1	1	1	1	1	1	1	1	1	1	506
+1884	HARD	hard	teško	močen	1	1	1	1	1	1	1	1	1	1	5889
+1887	CHEAP	goedkoop	jeftin, škrt	poceni	1	1	1	1	1	1	1	1	1	1	2021
+1899	MAD	gek	lud	nor, zmešan	1	1	1	1	1	1	1	1	1	1	2925
+1904	DROWN	verdrinken	utopiti se	utopiti, utoniti, potopiti	1	1	1	1	1	1	1	1	1	1	3983
+1906	SOUR	zuur	kiselina, kiseo	kislina, kisel	1	1	1	1	1	1	1	1	1	1	126
+1962	ROAST (SOMETHING)	braden	svađa	spor, prepir	1	1	1	1	1	1	1	1	1	1	1553
+2009	DOG	hond	pseto, džukela	bastard, ščene, cucek	1	1	1	1	1	1	1	1	1	1	3053
+203	MARRY	trouwen	oženiti	poročiti	1	1	1	1	1	1	1	1	1	1	7707
+2099	CHILD	kind	dijete	otrok	1	1	1	1	1	1	1	1	1	1	2055
+2113	OLD (USED)	tweedehands	polovan, rabljen	rabljen, iz druge roke	1	1	1	1	1	1	1	1	1	1	11144
+219	TOILET	toilet	toalet	stranišče	1	1	1	1	1	1	1	1	1	1	7200
+2316	FREE	vrij	slobodno	prosto	1	1	1	1	1	1	1	1	1	1	5211
+2340	SUNNY	zonnig	sunčan	sončen	1	1	1	1	1	1	1	1	1	1	12307
+2396	KNOCK	kloppen	pulsirati	razbijati, tolčenje, pulzirati	1	1	1	1	1	1	1	1	1	1	12751
+2449	FAT (OF MEAT AND FOOD)	vettig	mastan	masten	1	1	1	1	1	1	1	1	1	1	5610
+2452	PURPLE	sierlijk	ukrašen, okićen	baročen	1	1	1	1	1	1	1	1	1	1	8746
+2483	COLD (OF WEATHER)	koel	cool, kul, svjež, fora, staložen, pribran, rashlađen, pribranost, zgodan	kul, svež, dober, fino, super	1	1	1	1	1	1	1	1	1	1	2763
+2507	DISGUSTING	walgelijk	odvratan, oduran, gadan, ogavan, gnjusan	ogaben, odvraten	1	1	1	1	1	1	1	1	1	1	3695
+2530	SMART	intelligent	inteligentan	inteligenten, pameten	1	1	1	1	1	1	1	1	1	1	6731
+2606	COMPASS	kompas	kompas	kompas	1	1	1	1	1	1	1	1	1	1	2413
+2623	FLAG	vlag	zastava	prapor, zastava	1	1	1	1	1	1	1	1	1	1	4331
+2758	CAREFUL	voorzichtig	pažljiv, brižljiv, brižan	skrben	1	1	1	1	1	1	1	1	1	1	1813
+2765	CHERRY	kers	trešnja	češnja	1	1	1	1	1	1	1	1	1	1	2043
+2821	JEALOUS	jaloers	zavidan, ljubomoran	nevoščljiv, zavisten	1	1	1	1	1	1	1	1	1	1	4365
+2902	BRAWL (FIGHT)	vechten	borba	boriti, bojevati	1	1	1	1	1	1	1	1	1	1	4879
+2958	LAUGHTER	gelach	smijeh	smeh, krohot	1	1	1	1	1	1	1	1	1	1	7192
+2969	RIBBON	lint	medalja	trak	1	1	1	1	1	1	1	1	1	1	10740
+2998	DAMP	vochtig	vlažan	vlažen	1	1	1	1	1	1	1	1	1	1	3144
+3	BRAVE	moedig	hrabar, odvažan	pogumen	1	1	1	1	1	1	1	1	1	1	2866
+3005	FAMILIAR	vertrouwd	upoznat, upućen	seznanjen	1	1	1	1	1	1	1	1	1	1	2736
+3091	LEMON	citroen	limun	limona	1	1	1	1	1	1	1	1	1	1	7276
+3099	SOFA	bank	banka	banka	1	1	1	1	1	1	1	1	1	1	1036
+3104	THERMOMETER	thermometer	termometar	termometer	1	1	1	1	1	1	1	1	1	1	12702
+3108	BOX (SOMEBODY OR SOMETHING)	boksen	boks	boks	1	1	1	1	1	1	1	1	1	1	1472
+3112	ERUPT	uitbarsten	buknuti, planuti	izbruhniti	1	1	1	1	1	1	1	1	1	1	4427
+3114	GRATE (SOMETHING)	raspen	škripati	rešetka	1	1	1	1	1	1	1	1	1	1	5591
+3230	DECEIVE	bedriegen	pronevjeriti	prevarati	1	1	1	1	1	1	1	1	1	1	3282
+3231	DEITY	god	bog	bog	1	1	1	1	1	1	1	1	1	1	5513
+3306	NAIL	slaan	uništiti, ubiti	udariti, ubiti	1	1	1	1	1	1	1	1	1	1	11624
+3356	INCENSE	wierook	razbjesniti	razbesneti	1	1	1	1	1	1	1	1	1	1	6400
+3473	LONG (FOR SOMETHING)	verlangen	želeći	želeti si	1	1	1	1	1	1	1	1	1	1	3431
+3545	WATERY	waterig	kišan, vodnjikav	medel	1	1	1	1	1	1	1	1	1	1	13881
+3625	HEADACHE	hoofdpijn	glavobolja	glavobol	1	1	1	1	1	1	1	1	1	1	5846
+3634	STUBBORN	koppig	nagao, ishitren	omamen	1	1	1	1	1	1	1	1	1	1	5858
+3701	HOLLOW	hol	šuplji	votel	1	1	1	1	1	1	1	1	1	1	6024
+3702	SLIPPERY	glad	uglađen	sijoč	1	1	1	1	1	1	1	1	1	1	11558
+3703	STICKY	kleverig	ljepljiv	lepljiv	1	1	1	1	1	1	1	1	1	1	12039
+3757	MUGGY	benauwd	zagušljiv	zatohel	1	1	1	1	1	1	1	1	1	1	12166
+376	FRAGRANT	geurig	mirisan	dišeč	1	1	1	1	1	1	1	1	1	1	5192
+3762	SAFE	veilig	siguran	varen	1	1	1	1	1	1	1	1	1	1	10931
+379	BLUNT	stomp	tup	top	1	1	1	1	1	1	1	1	1	1	8565
+3812	COWARDLY	laf	kukavički	strahopeten	1	1	1	1	1	1	1	1	1	1	2887
+3858	CONFUSED	verward	zbunjen	zmeden	1	1	1	1	1	1	1	1	1	1	2573
+3884	PATIENT	geduldig	strpljiv	potrpežljiv	1	1	1	1	1	1	1	1	1	1	9042
+418	FOR A LONG TIME	lang	dug, dugačak	dolg	1	1	1	1	1	1	1	1	1	1	7471
+45	EVIL	kwaad	zlo, zao	zloben, hudoben, zlo	1	1	1	1	1	1	1	1	1	1	4501
+500	CRUEL	wreed	okrutan, surov, nemilosrdan	krut	1	1	1	1	1	1	1	1	1	1	3001
+504	LEARN	leren	naučiti	učiti se	1	1	1	1	1	1	1	1	1	1	7232
+509	CERTAIN	zeker	uvjerljivo	brez dvoma	1	1	1	1	1	1	1	1	1	1	818
+584	DIFFICULT	moeilijk	težak	težek	1	1	1	1	1	1	1	1	1	1	3551
+615	HORSE	paard	konj	konj	1	1	1	1	1	1	1	1	1	1	6086
+634	MEAT	vlees	meso	meso	1	1	1	1	1	1	1	1	1	1	4995
+640	MUD	modder	blato	blato	1	1	1	1	1	1	1	1	1	1	8194
+662	BATTERY	batterij	fizički napad	fizični napad, napad zoper življenje in telo	1	1	1	1	1	1	1	1	1	1	1106
+665	BEE	bij	pčela	čebela	1	1	1	1	1	1	1	1	1	1	1148
+673	SCHOOL	school	škola	šola	1	1	1	1	1	1	1	1	1	1	11063
+674	MOUTH	mond	usta	usta	1	1	1	1	1	1	1	1	1	1	8181
+686	EASY	gemakkelijk	rado	rad, zlahka	1	1	1	1	1	1	1	1	1	1	10213
+69	SOBER	sober	strog	strog	1	1	1	1	1	1	1	1	1	1	907
+698	WISE	wijs	mudar	moder	1	1	1	1	1	1	1	1	1	1	14026
+699	SAD	droevig	nažalost	žalosten	1	1	1	1	1	1	1	1	1	1	10929
+701	SLOW	traag	trom	počasen	1	1	1	1	1	1	1	1	1	1	11601
+709	TEACH	onderwijzen	obrazovati, educirati	izobraziti	1	1	1	1	1	1	1	1	1	1	4107
+713	STEAL	stelen	ukrasti	krasti	1	1	1	1	1	1	1	1	1	1	12005
+715	SHOUT	schreeuwen	vrištanje	kričanje	1	1	1	1	1	1	1	1	1	1	11100
+718	PAY	betalen	isplatiti, nagraditi, namiriti	plačati	1	1	1	1	1	1	1	1	1	1	9067
+730	SNAKE	slang	zmija	kača	1	1	1	1	1	1	1	1	1	1	11646
+785	STRONG	sterk	snažno	odločen	1	1	1	1	1	1	1	1	1	1	12148
+806	BLANKET	deken	pokrivač, deka	odeja	1	1	1	1	1	1	1	1	1	1	1300
+819	STOMACH	maag	trbuh	želodec	1	1	1	1	1	1	1	1	1	1	12072
+820	LAMB	lam	janjetina, janje	jagnje, jagnjetina	1	1	1	1	1	1	1	1	1	1	7133
+837	BLUE	blauw	plav	moder	1	1	1	1	1	1	1	1	1	1	1351
+847	THIRSTY	dorst	žeđ	žeja, želja	1	1	1	1	1	1	1	1	1	1	12719
+871	RATTLESNAKE	ratelslang	čegrtuša	klopotača	1	1	1	1	1	1	1	1	1	1	10197
+887	BITTER	bitter	ogorčeno	grenek	1	1	1	1	1	1	1	1	1	1	1282
+905	BORING	saai	dosadan	dolgočasen	1	1	1	1	1	1	1	1	1	1	1437
+906	TREE	boom	drvo, stablo	drevo	1	1	1	1	1	1	1	1	1	1	13019
+928	EMBRACE	knuffelen	maziti se, milovati	ljubkovanje, crkljanje	1	1	1	1	1	1	1	1	1	1	3030
+96	CRAWL	kruipen	puzati, gmizati	plaziti se	1	1	1	1	1	1	1	1	1	1	2921
+969	CIGARETTE	sigaret	cigareta	cigareta	1	1	1	1	1	1	1	1	1	1	2111
+977	ARROW	pijl	strelica, pojuriti	puščica	1	1	1	1	1	1	1	1	1	1	3155
+996	DEAF	doof	gluh	gluh	1	1	1	1	1	1	1	1	1	1	3176
