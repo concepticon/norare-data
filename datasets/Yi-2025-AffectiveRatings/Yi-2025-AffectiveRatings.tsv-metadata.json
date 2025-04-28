@@ -48,7 +48,17 @@
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
             "titles": "sensory.mean.CH"
           },
-           {
+          {
+            "name": "CHINESE_FAMILIARITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "familiarity_su"
+          },
+          {
+            "name": "CHINESE_IMAGEABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "imageability_su"
+          },
+          {
             "name": "CHINESE_POS",
             "datatype": "string",
             "titles": "pos"
