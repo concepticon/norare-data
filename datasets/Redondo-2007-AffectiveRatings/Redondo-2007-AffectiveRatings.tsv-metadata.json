@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Affective ratings of Spanish tranlsation of the ANEW list by Redondo et al. (2007).",
+  "dc:title": "Affective ratings of Spanish words by Redondo et al. (2007).",
  "dc:source": "https://doi.org/10.3758/BF03193031",
   "dc:references" : "Redondo2007",
   "dcat:keyword": ["valence", "arousal", "dominance", "imageability", "familiarity", "concreteness", "ratings", "Spanish"],
-  "dc:description": "An automated mapping of the valence, arousal and dominance as well as familiarity, concreteness and imageability ratings of Spanish tranlsation of the ANEW list from the study by Redondo et al. (2007) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of the valence, arousal and dominance as well as familiarity, concreteness and imageability ratings of Spanish words from the study by Redondo et al. (2007) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -74,12 +74,12 @@
             "titles": "Dom-Mn-Mal"
           },
           {
-            "name": "CONCRETENESS_LEXESP",
+            "name": "SPANISH_CONCRETENESS_MEAN_LEXESP",
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "Con"
           },
           {
-            "name": "IMAGEABILITY_LEXESP",
+            "name": "SPANISH_IMAGEABILITY_MEAN_LEXESP",
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
             "titles": "Imag"
           },
