@@ -1,0 +1,110 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Affective ratings of Spanish words by Redondo et al. (2007).",
+ "dc:source": "https://doi.org/10.3758/BF03193031",
+  "dc:references" : "Redondo2007",
+  "dcat:keyword": ["valence", "arousal", "dominance", "imageability", "familiarity", "concreteness", "ratings", "Spanish"],
+  "dc:description": "An automated mapping of the valence, arousal and dominance as well as familiarity, concreteness and imageability ratings of Spanish words from the study by Redondo et al. (2007) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "SPANISH",
+            "datatype": "string",
+            "titles": "S-Word"
+          },
+          {
+            "name": "SPANISH_VALENCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "Val-Mn-All"
+          },
+          {
+            "name": "SPANISH_AROUSAL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "Aro-Mn-All"
+          },
+          {
+            "name": "SPANISH_DOMINANCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "Dom-Mn-All"
+          },
+          {
+            "name": "SPANISH_VALENCE_MEAN_FEMALE",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "Val-Mn-Fem"
+          },
+          {
+            "name": "SPANISH_AROUSAL_MEAN_FEMALE",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "Aro-Mn-Fem"
+          },
+          {
+            "name": "SPANISH_DOMINANCE_MEAN_FEMALE",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "Dom-Mn-Fem"
+          },
+          {
+            "name": "SPANISH_VALENCE_MEAN_MALE",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "Val-Mn-Mal"
+          },
+          {
+            "name": "SPANISH_AROUSAL_MEAN_MALE",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "Aro-Mn-Mal"
+          },
+          {
+            "name": "SPANISH_DOMINANCE_MEAN_MALE",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "Dom-Mn-Mal"
+          },
+          {
+            "name": "SPANISH_CONCRETENESS_MEAN_LEXESP",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "Con"
+          },
+          {
+            "name": "SPANISH_IMAGEABILITY_MEAN_LEXESP",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "Imag"
+          },
+          {
+            "name": "SPANISH_POS",
+            "datatype": "string",
+            "titles": "GClass"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Redondo-2007-AffectiveRatings.tsv"
+    }
+  ]
+}
