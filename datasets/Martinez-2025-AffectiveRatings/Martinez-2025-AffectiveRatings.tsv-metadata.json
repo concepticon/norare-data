@@ -4,7 +4,7 @@
   "dc:title": "Ratings for valence, arousal and concreteness for English words by Martinez et al. (2025)",
   "dc:source": "https://doi.org/10.3758/s13428-024-02515-z",
   "dc:references" : "Martinez2025",
-  "dcat:keyword": ["valence", "arousal", "concreteness", "ratings", "English"],
+  "dcat:keyword": ["valence", "arousal", "concreteness", "ratings", "LLM", "English"],
   "dc:description": "An automated mapping of the ratings for valence, arousal and concreteness of English words given by GPT-4o submitted with the study of Martinez et al. (2025) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
