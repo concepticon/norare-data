@@ -1,0 +1,85 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of ratings of valence, arousal and sensory perception for 4,923 Chinese words by Yi et al. (2025) and ratings of familiarity and imageability by Su et al. (2023a,b).",
+  "dc:source": "https://doi.org/10.3758/s13428-024-02580-4",
+  "dc:references" : "Yi2025",
+  "dcat:keyword": ["valence", "arousal", "perception", "imageability", "familiarity", "ratings", "Chinese"],
+  "dc:description": "An automated mapping of the ratings of valence, arousal, and sensory perception for 4,923 Chinese words submitted with the study by Yi et al. (2025) to the concept sets in Concepticon. The list also contanis ratings of familiarity and imageability sumbitted with the studies by Su et al. (2023a,b).",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CHINESE",
+            "datatype": "string",
+            "titles": "word.CH"
+          }, 
+          {
+            "name": "CHINESE_STROKE",
+            "datatype": "nonNegativeInteger",
+            "titles": "strokes"
+          },
+          {
+            "name": "CHINESE_VALENCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "valence.mean.CH"
+          },
+          {
+            "name": "CHINESE_AROUSAL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "arousal.mean.CH"
+          },
+          {
+            "name": "CHINESE_PERCEPTUAL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "sensory.mean.CH"
+          },
+          {
+            "name": "CHINESE_FAMILIARITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "familiarity_su"
+          },
+          {
+            "name": "CHINESE_IMAGEABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "imageability_su"
+          },
+          {
+            "name": "CHINESE_POS",
+            "datatype": "string",
+            "titles": "pos"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Yi-2025-AffectiveRatings.tsv"
+    }
+  ]
+}
