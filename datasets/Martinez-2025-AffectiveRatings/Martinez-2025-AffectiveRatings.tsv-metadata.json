@@ -1,0 +1,65 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings for valence, arousal and concreteness for English words by Martinez et al. (2025)",
+  "dc:source": "https://doi.org/10.3758/s13428-024-02515-z",
+  "dc:references" : "Martinez2025",
+  "dcat:keyword": ["valence", "arousal", "concreteness", "ratings", "LLM", "English"],
+  "dc:description": "An automated mapping of the ratings for valence, arousal and concreteness of English words given by GPT-4o submitted with the study of Martinez et al. (2025) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "ENGLISH_CONCRETENESS_GPT_SCORE",
+            "datatype": {"base": "integer", "minimum": 1, "maximum": 5},
+            "titles": "Concreteness_GPT_dom"
+          },
+          {
+            "name": "ENGLISH_VALENCE_GPT_SCORE",
+            "datatype": {"base": "integer", "minimum": 1, "maximum": 9},
+            "titles": "Valence_GPT_dom"
+          },
+          {
+            "name": "ENGLISH_AROUSAL_GPT_SCORE",
+            "datatype": {"base": "integer", "minimum": 1, "maximum": 9},
+            "titles": "Arousal_GPT_dom"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Martinez-2025-AffectiveRatings.tsv"
+    }
+  ]
+}
