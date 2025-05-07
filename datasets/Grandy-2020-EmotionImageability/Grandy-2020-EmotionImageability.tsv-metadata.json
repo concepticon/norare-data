@@ -1,0 +1,110 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of age-dependent ratings of imageability and emotionality of German nouns by Grandy et al. (2020).",
+  "dc:source": "https://doi.org/10.3758/s13428-019-01294-2",
+  "dc:references" : "Grandy2020",
+  "dcat:keyword": ["emotionality", "imageability", "ratings", "German"],
+  "dc:description": "An automated mapping of age-dependent ratings of imageability and emotionality for about 2500 German nouns submitted with the study by Grandy et al. (2020) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "GERMAN",
+            "datatype": "string",
+            "titles": "WORD"
+          }, 
+          {
+            "name": "GERMAN_IMAGEABILITY_MEAN_MALE_YOUNG",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
+            "titles": "IM_Y_M_MEAN"
+          },
+          {
+            "name": "GERMAN_IMAGEABILITY_MEAN_FEMALE_YOUNG",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
+            "titles": "IM_Y_F_MEAN"
+          },
+          {
+            "name": "GERMAN_IMAGEABILITY_MEAN_MALE_OLD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
+            "titles": "IM_O_M_MEAN"
+          },
+          {
+            "name": "GERMAN_IMAGEABILITY_MEAN_FEMALE_OLD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
+            "titles": "IM_O_F_MEAN"
+          },
+          {
+            "name": "GERMAN_IMAGEABILITY_MEAN_YOUNG",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
+            "titles": "IM_Y_MEAN"
+          },
+          {
+            "name": "GERMAN_IMAGEABILITY_MEAN_OLD",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
+            "titles": "IM_O_MEAN"
+          },
+          {
+            "name": "GERMAN_EMOTIONALITY_MEAN_MALE_YOUNG",
+            "datatype": {"base": "decimal", "minimum": -100, "maximum": 100},
+            "titles": "EM_Y_M_MEAN"
+          },
+          {
+            "name": "GERMAN_EMOTIONALITY_MEAN_FEMALE_YOUNG",
+            "datatype": {"base": "decimal", "minimum": -100, "maximum": 100},
+            "titles": "EM_Y_F_MEAN"
+          },
+          {
+            "name": "GERMAN_EMOTIONALITY_MEAN_MALE_OLD",
+            "datatype": {"base": "decimal", "minimum": -100, "maximum": 100},
+            "titles": "EM_O_M_MEAN"
+          },
+          {
+            "name": "GERMAN_EMOTIONALITY_MEAN_FEMALE_OLD",
+            "datatype": {"base": "decimal", "minimum": -100, "maximum": 100},
+            "titles": "EM_O_F_MEAN"
+          },
+          {
+            "name": "GERMAN_EMOTIONALITY_MEAN_YOUNG",
+            "datatype": {"base": "decimal", "minimum": -100, "maximum": 100},
+            "titles": "EM_Y_MEAN"
+          },
+          {
+            "name": "GERMAN_EMOTIONALITY_MEAN_OLD",
+            "datatype": {"base": "decimal", "minimum": -100, "maximum": 100},
+            "titles": "EM_O_MEAN"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Grandy-2020-EmotionImageability.tsv"
+    }
+  ]
+}
