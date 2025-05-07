@@ -29,18 +29,18 @@
             "titles": "Word"
           },
           {
-            "name": "ENGLISH_CONCRETENESS_GPT",
-            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "name": "ENGLISH_CONCRETENESS_GPT_SCORE",
+            "datatype": {"base": "integer", "minimum": 1, "maximum": 5},
             "titles": "Concreteness_GPT_dom"
           },
           {
-            "name": "ENGLISH_VALENCE_GPT",
-            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "name": "ENGLISH_VALENCE_GPT_SCORE",
+            "datatype": {"base": "integer", "minimum": 1, "maximum": 9},
             "titles": "Valence_GPT_dom"
           },
           {
-            "name": "ENGLISH_AROUSAL_GPT",
-            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "name": "ENGLISH_AROUSAL_GPT_SCORE",
+            "datatype": {"base": "integer", "minimum": 1, "maximum": 9},
             "titles": "Arousal_GPT_dom"
           },
           {
