@@ -1,0 +1,80 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Affective ratings and ratings of emotional connotations for German words related to community and authority by Schauenburg et al. (2015)",
+  "dc:source": "https://doi.org/10.3758/s13428-014-0494-7",
+  "dc:references" : "Schauenburg2015",
+  "dcat:keyword": ["valence", "arousal", "potency", "authority", "community", "ratings", "German"],
+  "dc:description": "An automated mapping of the ratings for valence, arousal, potency and emotional connotations for German words related to community and authority submitted with the study by Schauenburg et al. (2015) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "GERMAN",
+            "datatype": "string",
+            "titles": "Word_German"
+          },
+          {
+            "name": "GERMAN_VALENCE_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "VAL_MEAN"
+          },
+          {
+            "name": "GERMAN_AROUSAL_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "ARO_MEAN"
+          },
+          {
+            "name": "GERMAN_POTENCY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "POT_MEAN"
+          },
+          {
+            "name": "GERMAN_AUTHORITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "AUT_MEAN"
+          },
+          {
+            "name": "GERMAN_COMMUNITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "COM_MEAN"
+          },
+          {
+            "name": "GERMAN_POS",
+            "datatype": "string",
+            "titles": "Part_of_Speech"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Schauenburg-2015-AffectiveRatings.tsv"
+    }
+  ]
+}
