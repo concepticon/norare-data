@@ -1,0 +1,62 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Multilingual Picture Dataset (MultiPic)",
+  "dc:source": "",
+  "dc:references" : "Dunabeitia2022",
+  "dcat:keyword": ["age of acquisition", "monolingual", "Spanish"],
+  "dc:description": "+++.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "PICTURE_CODE",
+            "datatype": {"base": "string", "format": "[0-9]+"}
+          },
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "word"
+          },
+          {
+            "name": "CZECH",
+            "datatype": "string"
+          },
+          {
+            "name": "FINNISH",
+            "datatype": "string"
+          },
+          {
+            "name": "ITALIAN",
+            "datatype": "string"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Dunabeitia-2022-MultiPic.tsv"
+    }
+  ]
+}
