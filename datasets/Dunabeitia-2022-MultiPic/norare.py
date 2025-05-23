@@ -25,6 +25,10 @@ def map(dataset, concepticon, mappings):
             "Czech": "CZECH", 
             "Finnish": "FINNISH",
             "Italian": "ITALIAN",
+            "Korean": "KOREAN",
+            "German": "GERMAN",
+            "Catalan": "CATALAN",
+            "Hebrew": "HEBREW",
             })
     responses = {
             language : {} for language in languages
@@ -32,14 +36,26 @@ def map(dataset, concepticon, mappings):
     # organize the data per code
     for row in data:
         if row["Language"] in languages:
-            responses[row["Language"]][row["Code"]] = row["Modal Response"]
+            responses[row["Language"]][row["Code"]] = [
+                    row["Modal Response"],
+                    row["Number of Responses"],
+                    row["H Statistic"].replace(",", '.'),
+                    row["Modal Response Percentage"].replace(",", "."),
+                    row['''"I don't know" Response Percentage'''].replace(",",
+                                                                          "."),
+                    row["Idiosyncratic Response Percentage"].replace(",", "."),
+                    row["Familiarity"].replace(",", ".")
+                    ]
     
     # fill the table
     table = []
     for code, (cid, cgl, eng) in mapping.items():
-        row = [cid, cgl, eng, code]
+        row = [cid, cgl, code, eng]
         for language in languages:
-            row += [responses[language][code]]
+            if code in responses[language]:
+                row += responses[language][code]
+            else:
+                row += ["", "", "", "", "", "", ""]
         table += [row]
     dataset.table.write(table)
     # dataset.extract_data(
