@@ -22,6 +22,7 @@ def map(dataset, concepticon, mappings):
 
     # define languages we want to keep
     languages = OrderedDict({
+            "British English": "ENGLISH",
             "Czech": "CZECH", 
             "Finnish": "FINNISH",
             "Italian": "ITALIAN",
@@ -29,14 +30,14 @@ def map(dataset, concepticon, mappings):
             "German": "GERMAN",
             "Catalan": "CATALAN",
             "Dutch": "DUTCH",
-            "Mandarin": "MANDARIN",            
-            "CypriotGreek": "CGREEK",
+            "Mandarin Chinese": "MANDARIN",            
+            "Cypriot Greek": "CGREEK",
             "French": "FRENCH",
             "Greek": "GREEK",
             "Hebrew": "HEBREW",
             "Hungarian": "HUNGARIAN",
-            "Arabic": "ARABIC",
-            "Malaysian": "MALAYSIAN",
+            "Lebanese Arabic": "ARABIC",
+            "Malay": "MALAYSIAN",
             "Norwegian": "NORWEGIAN",
             "Polish": "POLISH",
             "Portuguese": "PORTUGUESE",
@@ -47,8 +48,7 @@ def map(dataset, concepticon, mappings):
             "Turkish": "TURKISH",
             "Welsh": "WELSH",
             "Basque": "BASQUE",
-            "English": "ENGLISH",
-            "Flemish": "FLEMISH",
+            "Belgium Dutch": "FLEMISH",
             })
     responses = {
             language : {} for language in languages
@@ -56,6 +56,9 @@ def map(dataset, concepticon, mappings):
     # organize the data per code
     for row in data:
         if row["Language"] in languages:
+            #if row["Modal Response"] == "νύχτα":
+            #    print(row)
+            #    input()
             responses[row["Language"]][row["Code"]] = [
                     row["Modal Response"],
                     row["Number of Responses"],
@@ -64,14 +67,17 @@ def map(dataset, concepticon, mappings):
                     row['''"I don't know" Response Percentage'''].replace(",",
                                                                           "."),
                     row["Idiosyncratic Response Percentage"].replace(",", "."),
-                    row["Familiarity"].replace(",", ".")
+                    row["Familiarity"].replace(",", ".") or ""
                     ]
     
     # fill the table
     table = []
     for code, (cid, cgl, eng) in mapping.items():
-        row = [cid, cgl, code, eng]
+        row = [cid, cgl, code]
         for language in languages:
+            #if language == 'Greek' and cgl == "NIGHT":
+            #    print(responses[language][code])
+            #    input()
             if code in responses[language]:
                 row += responses[language][code]
             else:
