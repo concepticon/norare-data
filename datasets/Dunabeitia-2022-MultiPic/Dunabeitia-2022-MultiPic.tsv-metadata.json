@@ -37,7 +37,7 @@
           {"name": "ENGLISH_MODAL_RESPONSE_PERCENTAGE", "datatype": {"base": "float", "min": 0.0, "max": 100.0}},
           {"name": "ENGLISH_DUNNO_PERCENTAGE", "datatype": {"base": "float", "min": 0.0, "max": 100.0}},
           {"name": "ENGLISH_IDIOSYNCRATIC_RESPONSE_PERCENTAGE", "datatype": {"base": "float", "min": 0.0, "max": 100.0}},
-          {"name": "ENGLISH_FAMILIARITY", "datatype": {"base": "float", "min": 0.0, "max": 100.0}},
+          {"name": "ENGLISH_FAMILIARITY", "datatype": {"base": "float", "min": 0.0, "max": 100.0, "NaN": ""}},
           {"name": "CZECH", "datatype": "string"},
           {"name": "CZECH_RESPONSE_NUMBER", "datatype": "integer"},
           {"name": "CZECH_SHANNON_DIVERSITY", "datatype": {"base": "float", "min": 0.0}},
