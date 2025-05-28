@@ -29,7 +29,7 @@ def map(dataset, concepticon, mappings):
             "Korean": "KOREAN",
             "German": "GERMAN",
             "Catalan": "CATALAN",
-            "Dutch": "DUTCH",
+            "Netherlands Dutch": "DUTCH",
             "Mandarin Chinese": "MANDARIN",            
             "Cypriot Greek": "CGREEK",
             "French": "FRENCH",
@@ -84,23 +84,4 @@ def map(dataset, concepticon, mappings):
                 row += ["", "", "", "", "", "", ""]
         table += [row]
     dataset.table.write(table)
-    # dataset.extract_data(
-    #     'SpanishAoA.xlsx',
-    #     concepticon,
-    #     mappings,
-    #     pos_mapper = {
-    #         'NOUN': 'Person/Thing',
-    #         'ADJECTIVE': 'Property',
-    #         'VERB': 'Action/Process',
-    #         'ADPOSITION': 'Other',
-    #         'ADVERB': 'Other',
-    #         'CONJUNCTION': 'Other',
-    #         'DATE': "Person/Thing",
-    #         'DETERMINER': "Other",
-    #         'INTERJECTION': 'Other',
-    #         "PRONOUN": "Other",
-    #         " ": "Other"},
-    #     pos_name = "SPANISH_POS",
-    #     gloss='SPANISH',
-    #     language='es'
-    # )
+
