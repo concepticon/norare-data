@@ -5,7 +5,12 @@ def download(dataset):
         'Cameirao-BRM-2010/AOA 1749 Portuguese Words.xls',
     )
 
-def map(dataset, concepticon, mappings):    
+def map(dataset, concepticon, mappings): 
+    if 'pt' in mappings:
+        for word in list(mappings['pt']):
+            uppercase_word = word.capitalize()
+            if uppercase_word not in mappings['pt']:
+                mappings['pt'][uppercase_word] = mappings['pt'][word]   
     dataset.extract_data(
         'Cameirao-BRM-2010/AOA 1749 Portuguese Words.xls',
         concepticon,
