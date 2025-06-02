@@ -34,6 +34,21 @@
             "titles": "AOA"
           },
           {
+            "name": "PORTUGUESE_FAMILIARITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Fam"
+          },
+          {
+            "name": "PORTUGUESE_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "Conc"
+          },
+          {
+            "name": "PORTUGUESE_IMAGEABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "Imag"
+          },
+          {
             "name": "PORTUGUESE_POS",
             "datatype": "string",
             "titles": "Cgram"
