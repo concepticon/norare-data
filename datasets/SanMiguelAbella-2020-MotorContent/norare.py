@@ -25,7 +25,7 @@ def map(dataset, concepticon, mappings):
     # Step 1: Add uppercase versions of Spanish verb mappings
     if 'es' in mappings:
         for verb in list(mappings['es']):
-            uppercase_verb = verb.upper()
+            uppercase_verb = verb.capitalize()
             if uppercase_verb not in mappings['es']:
                 mappings['es'][uppercase_verb] = mappings['es'][verb]
 
