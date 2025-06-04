@@ -4,7 +4,7 @@
   "dc:title": "Ratings of age of acquisition (AoA) for 1,749 Portuguese words by Cameirão & Vicente (2010).",
  "dc:source": "https://doi.org/10.3758/BRM.42.2.474",
   "dc:references" : "Cameirao2010",
-  "dcat:keyword": ["age of acquisition", "ratings", "Portuguese"],
+  "dcat:keyword": ["age of acquisition", "familiarity", "imageability", "concreteness", "ratings", "Portuguese"],
   "dc:description": "An automated mapping of ratings for age of acquisition (AoA) for 1,749 Portuguese words from the study by Cameirão & Vicente (2010) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
