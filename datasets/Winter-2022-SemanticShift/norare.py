@@ -17,7 +17,7 @@ def map(dataset, concepticon, mappings):
     # this part should later be replaced by the original concept list frm
     # concepticon
     # concepticon.conceptlists[...]
-    urban = models.Conceptlist.from_file(
+    winter = models.Conceptlist.from_file(
             dataset.raw_dir / "Winter-2022-98.tsv"
             )
     # we turn concepts to identifiers, as we need to write them in the network
@@ -32,7 +32,7 @@ def map(dataset, concepticon, mappings):
     
     for concept in winter.concepts.values():
         row = collections.OrderedDict([
-            ('ID', f"Urban-2011-160-{concept.number}"),
+            ('ID', f"Winter-2022-98-{concept.number}"),
             ('NUMBER', concept.number),
             ('ENGLISH', concept.english),
             ('CONCEPTICON_ID', concept.concepticon_id),
