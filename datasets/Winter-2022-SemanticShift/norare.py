@@ -26,7 +26,7 @@ def map(dataset, concepticon, mappings):
     table = []
 
     # here is the routine to create a network (potentially a bit complicated)
-    linked_concepts = {concept.id: [] for concept in wintere.concepts.values()}
+    linked_concepts = {concept.id: [] for concept in winter.concepts.values()}
     targeted_concepts = {concept.id: [] for concept in winter.concepts.values()}
 
     
