@@ -1,19 +1,28 @@
+from urllib.request import urlretrieve
+import zipfile
 import collections
 from pyconcepticon import models
 import json
+import pathlib
 
 def download(dataset):
-    dataset.download_zip(
-        'https://github.com/concepticon/concepticon-data/archive/refs/heads/master.zip',
-        'concepticon-data-master.zip',
-        'concepticon-data-master/concepticondata/conceptlists/List-2023-1308.tsv'
+    dataset.raw_dir.mkdir(parents=True, exist_ok=True)
+
+    zip_path = dataset.raw_dir / "graphs.zip"
+
+    urlretrieve(
+        "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
+        str(zip_path)
     )
 
+    with zipfile.ZipFile(zip_path, "r") as obj:
+        obj.extractall(path=dataset.raw_dir)
 
 def map(dataset, concepticon, mappings):
-    listdata = models.Conceptlist.from_file(
-        dataset.raw_dir / "concepticon-data-master" / "concepticondata" / "conceptlists" / "List-2023-1308.tsv"
-    )
+    base_dir = pathlib.Path(__file__).parent.resolve()
+    new_tsv_path = base_dir / "List-2023-1308.tsv"  # change this if your file has a different name
+
+    listdata = models.Conceptlist.from_file(new_tsv_path)
 
     # Initialize relationship dictionaries
     target_concepts = {concept.id: [] for concept in listdata.concepts.values()}
@@ -33,11 +42,12 @@ def map(dataset, concepticon, mappings):
         target_concepts[concept.id] = tc
         linked_concepts[concept.id] = lc
 
-    # Construct output table
+    # Construct output table with renamed IDs
     table = []
     for concept in listdata.concepts.values():
+        new_id = concept.id.replace('List-2023-1308-', 'List-2023-Colexifications-')
         row = collections.OrderedDict([
-            ('ID', concept.id),
+            ('ID', new_id),
             ('NUMBER', concept.number),
             ('CONCEPTICON_ID', concept.concepticon_id),
             ('CONCEPTICON_GLOSS', concept.concepticon_gloss),
