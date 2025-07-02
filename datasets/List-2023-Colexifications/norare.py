@@ -42,12 +42,11 @@ def map(dataset, concepticon, mappings):
         target_concepts[concept.id] = tc
         linked_concepts[concept.id] = lc
 
-    # Construct output table with renamed IDs
+    # Construct output table
     table = []
     for concept in listdata.concepts.values():
-        new_id = concept.id.replace('List-2023-1308-', 'List-2023-Colexifications-')
         row = collections.OrderedDict([
-            ('ID', new_id),
+            ('ID', concept.id),
             ('NUMBER', concept.number),
             ('CONCEPTICON_ID', concept.concepticon_id),
             ('CONCEPTICON_GLOSS', concept.concepticon_gloss),
