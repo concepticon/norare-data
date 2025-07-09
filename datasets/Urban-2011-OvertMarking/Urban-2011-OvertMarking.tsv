@@ -1,0 +1,161 @@
+ID	NUMBER	CONCEPTICON_ID	CONCEPTICON_GLOSS	ENGLISH	SEMANTIC_CLASS_ID	CATEGORY	TARGET_CONCEPTS	LINKED_CONCEPTS
+Urban-2011-160-1	1	619	ANIMAL	animal	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-6"", ""NAME"": ""bird"", ""OvertMarking"": 8, ""IndoAryanShift"": 1, ""ShiftID"": 6}]"	"[{""ID"": ""Urban-2011-160-6"", ""NAME"": ""bird"", ""Polysemy"": 8, ""ShiftID"": 6}]"
+Urban-2011-160-2	2	646	ASH	ashes	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-19"", ""NAME"": ""embers"", ""OvertMarking"": 2, ""IndoAryanShift"": 0, ""ShiftID"": 11}]"	"[{""ID"": ""Urban-2011-160-19"", ""NAME"": ""embers"", ""Polysemy"": 6, ""ShiftID"": 11}]"
+Urban-2011-160-3	3	1204	BARK	bark	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-136"", ""NAME"": ""skin"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""34""}]"	"[{""ID"": ""Urban-2011-160-136"", ""NAME"": ""skin"", ""Polysemy"": 45, ""ShiftID"": 34}]"
+Urban-2011-160-4	4	663	BAY	bay	I	Natural and topological concepts	[]	[]
+Urban-2011-160-5	5	73	BEAK	beak	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-125"", ""NAME"": ""mouth"", ""Polysemy"": 18, ""ShiftID"": 35}]"
+Urban-2011-160-6	6	937	BIRD	bird	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-73"", ""NAME"": ""airplane"", ""OvertMarking"": 3, ""IndoAryanShift"": 0, ""ShiftID"": 46}]"	"[{""ID"": ""Urban-2011-160-1"", ""NAME"": ""animal"", ""Polysemy"": 8, ""ShiftID"": 6}, {""ID"": ""Urban-2011-160-73"", ""NAME"": ""airplane"", ""Polysemy"": 3, ""ShiftID"": 46}]"
+Urban-2011-160-7	7	239	FLOWER	bloom (blossom, flower)	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-9"", ""NAME"": ""bud"", ""OvertMarking"": 4, ""IndoAryanShift"": 0, ""ShiftID"": 14}]"	"[{""ID"": ""Urban-2011-160-9"", ""NAME"": ""bud"", ""Polysemy"": 3, ""ShiftID"": 14}]"
+Urban-2011-160-8	8	1531	BRANCH	branch	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-66"", ""NAME"": ""tree"", ""Polysemy"": 6, ""ShiftID"": 10}]"
+Urban-2011-160-9	9	1684	BUD	bud	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-7"", ""NAME"": ""bloom (blossom, flower)"", ""Polysemy"": 3, ""ShiftID"": 14}]"
+Urban-2011-160-10	10	1155	CAVE	cave	I	Natural and topological concepts	[]	[]
+Urban-2011-160-11	11	2284	CLEARING	clearing	I	Natural and topological concepts	[]	[]
+Urban-2011-160-12	12	1489	CLOUD	cloud	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-25"", ""NAME"": ""fog/mist"", ""OvertMarking"": 7, ""IndoAryanShift"": 1, ""ShiftID"": 1}]"	"[{""ID"": ""Urban-2011-160-25"", ""NAME"": ""fog/mist"", ""Polysemy"": 24, ""ShiftID"": 1}, {""ID"": ""Urban-2011-160-54"", ""NAME"": ""smoke"", ""Polysemy"": 7, ""ShiftID"": 9}]"
+Urban-2011-160-13	13	2658	COAL	coal	I	Natural and topological concepts	[]	[]
+Urban-2011-160-14	14	1525	COAST	coast	I	Natural and topological concepts	[]	[]
+Urban-2011-160-15	15	1977	DEW	dew	I	Natural and topological concepts	[]	[]
+Urban-2011-160-16	16	2	DUST	dust	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-54"", ""NAME"": ""smoke"", ""Polysemy"": 8, ""ShiftID"": 8}]"
+Urban-2011-160-17	17	2285	ECLIPSE	eclipse	I	Natural and topological concepts	[]	[]
+Urban-2011-160-18	18	744	EGG	egg	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-142"", ""NAME"": ""testicle"", ""OvertMarking"": 9, ""IndoAryanShift"": 0, ""ShiftID"": 42}]"	"[{""ID"": ""Urban-2011-160-142"", ""NAME"": ""testicle"", ""Polysemy"": 20, ""ShiftID"": 42}]"
+Urban-2011-160-19	19	67	EMBERS	embers	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-2"", ""NAME"": ""ashes"", ""Polysemy"": 6, ""ShiftID"": 11}]"
+Urban-2011-160-20	20	2286	ESTUARY	estuary	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-125"", ""NAME"": ""mouth"", ""Polysemy"": 5, ""ShiftID"": 38}]"
+Urban-2011-160-21	21	1201	FEATHER	feather	I	Natural and topological concepts	[]	[]
+Urban-2011-160-22	22	889	FLAME	flame	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-143"", ""NAME"": ""tongue"", ""Polysemy"": 2, ""ShiftID"": 39}]"
+Urban-2011-160-23	23	613	HIGH TIDE	flood	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-48"", ""NAME"": ""river/stream"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""19""}]"	"[{""ID"": ""Urban-2011-160-48"", ""NAME"": ""river/stream"", ""Polysemy"": 2, ""ShiftID"": 19}]"
+Urban-2011-160-24	24	1768	FOAM	foam	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-124"", ""NAME"": ""lungs"", ""OvertMarking"": 2, ""IndoAryanShift"": 0, ""ShiftID"": 47}]"	"[{""ID"": ""Urban-2011-160-124"", ""NAME"": ""lungs"", ""Polysemy"": 3, ""ShiftID"": 47}, {""ID"": ""Urban-2011-160-134"", ""NAME"": ""saliva/spittle"", ""Polysemy"": 8, ""ShiftID"": 36}]"
+Urban-2011-160-25	25	249	FOG	fog/mist	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-12"", ""NAME"": ""cloud"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""1""}, {""ID"": ""Urban-2011-160-54"", ""NAME"": ""smoke"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""4""}]"	"[{""ID"": ""Urban-2011-160-12"", ""NAME"": ""cloud"", ""Polysemy"": 24, ""ShiftID"": 1}, {""ID"": ""Urban-2011-160-54"", ""NAME"": ""smoke"", ""Polysemy"": 11, ""ShiftID"": 4}, {""ID"": ""Urban-2011-160-59"", ""NAME"": ""steam"", ""Polysemy"": 9, ""ShiftID"": 5}]"
+Urban-2011-160-26	26	420	FOREST	forest	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-66"", ""NAME"": ""tree"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""12""}]"	"[{""ID"": ""Urban-2011-160-66"", ""NAME"": ""tree"", ""Polysemy"": 4, ""ShiftID"": 12}]"
+Urban-2011-160-27	27	1369	GOLD	gold	I	Natural and topological concepts	[]	[]
+Urban-2011-160-28	28	606	GRASS	grass	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-60"", ""NAME"": ""straw"", ""OvertMarking"": 10, ""IndoAryanShift"": 1, ""ShiftID"": 3}]"	"[{""ID"": ""Urban-2011-160-60"", ""NAME"": ""straw"", ""Polysemy"": 11, ""ShiftID"": 3}]"
+Urban-2011-160-29	29	1662	CAPE	headland	I	Natural and topological concepts	[]	[]
+Urban-2011-160-30	30	942	HONEY	honey	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-71"", ""NAME"": ""wax"", ""OvertMarking"": 4, ""IndoAryanShift"": 0, ""ShiftID"": 17}]"	"[{""ID"": ""Urban-2011-160-71"", ""NAME"": ""wax"", ""Polysemy"": 2, ""ShiftID"": 17}]"
+Urban-2011-160-31	31	2287	HORIZON	horizon	I	Natural and topological concepts	[]	[]
+Urban-2011-160-32	32	1393	HORN (ANATOMY)	horn	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-105"", ""NAME"": ""bone"", ""Polysemy"": 2, ""ShiftID"": 18}]"
+Urban-2011-160-33	33	623	LAGOON	lagoon	I	Natural and topological concepts	[]	[]
+Urban-2011-160-34	34	624	LAKE	lake	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-62"", ""NAME"": ""swamp"", ""OvertMarking"": 4, ""IndoAryanShift"": 1, ""ShiftID"": 7}]"	"[{""ID"": ""Urban-2011-160-62"", ""NAME"": ""swamp"", ""Polysemy"": 8, ""ShiftID"": 7}]"
+Urban-2011-160-35	35	1654	LIGHTNING	lightning	I	Natural and topological concepts	[]	[]
+Urban-2011-160-36	36	2288	METEOROID (SHOOTING OR SHINING STAR)	meteoroid (shooting/shining star)	I	Natural and topological concepts	[]	[]
+Urban-2011-160-37	37	635	MILK	milk	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-129"", ""NAME"": ""nipple"", ""OvertMarking"": 4, ""IndoAryanShift"": 0, ""ShiftID"": 24}]"	"[{""ID"": ""Urban-2011-160-129"", ""NAME"": ""nipple"", ""Polysemy"": 5, ""ShiftID"": 24}, {""ID"": ""Urban-2011-160-107"", ""NAME"": ""breast"", ""Polysemy"": 43, ""ShiftID"": 20}]"
+Urban-2011-160-38	38	2289	MILKY WAY	Milky Way	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-93"", ""NAME"": ""road/street/way"", ""Polysemy"": 2, ""ShiftID"": 40}]"
+Urban-2011-160-39	39	1313	MOON	moon	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-61"", ""NAME"": ""sun"", ""Polysemy"": 17, ""ShiftID"": 2}]"
+Urban-2011-160-40	40	639	MOUNTAIN	mountain	I	Natural and topological concepts	[]	[]
+Urban-2011-160-41	41	641	MUSHROOM	mushroom (fungus)	I	Natural and topological concepts	[]	[]
+Urban-2011-160-42	42	539	NEST	nest	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-75"", ""NAME"": ""bed"", ""Polysemy"": 2, ""ShiftID"": 41}, {""ID"": ""Urban-2011-160-82"", ""NAME"": ""house"", ""Polysemy"": 7, ""ShiftID"": 37}]"
+Urban-2011-160-43	43	653	PLANT (VEGETATION)	plant	I	Natural and topological concepts	[]	[]
+Urban-2011-160-44	44	2290	PUDDLE	puddle	I	Natural and topological concepts	[]	[]
+Urban-2011-160-45	45	658	RAIN (PRECIPITATION)	rain	I	Natural and topological concepts	[]	[]
+Urban-2011-160-46	46	1733	RAINBOW	rainbow	I	Natural and topological concepts	[]	[]
+Urban-2011-160-47	47	664	RESIN	resin	I	Natural and topological concepts	[]	[]
+Urban-2011-160-48	48	666	RIVER	river/stream	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-23"", ""NAME"": ""flood"", ""OvertMarking"": 2, ""IndoAryanShift"": 1, ""ShiftID"": 19}]"	"[{""ID"": ""Urban-2011-160-23"", ""NAME"": ""flood"", ""Polysemy"": 2, ""ShiftID"": 19}]"
+Urban-2011-160-49	49	993	RIVER BED	river bed	I	Natural and topological concepts	[]	[]
+Urban-2011-160-50	50	670	ROOT	root	I	Natural and topological concepts	[]	[]
+Urban-2011-160-51	51	714	SEED	seed	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-142"", ""NAME"": ""testicle"", ""OvertMarking"": 6, ""IndoAryanShift"": 1, ""ShiftID"": 44}]"	"[{""ID"": ""Urban-2011-160-142"", ""NAME"": ""testicle"", ""Polysemy"": 6, ""ShiftID"": 44}]"
+Urban-2011-160-52	52	1388	SHADE	shadow	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-86"", ""NAME"": ""mirror"", ""OvertMarking"": 5, ""IndoAryanShift"": 0, ""ShiftID"": 45}]"	"[{""ID"": ""Urban-2011-160-86"", ""NAME"": ""mirror"", ""Polysemy"": 3, ""ShiftID"": 45}]"
+Urban-2011-160-53	53	1732	SKY	sky	I	Natural and topological concepts	[]	[]
+Urban-2011-160-54	54	778	SMOKE (EXHAUST)	smoke	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-25"", ""NAME"": ""fog/mist"", ""OvertMarking"": 3, ""IndoAryanShift"": 1, ""ShiftID"": 4}, {""ID"": ""Urban-2011-160-16"", ""NAME"": ""dust"", ""OvertMarking"": 4, ""IndoAryanShift"": 0, ""ShiftID"": 8}, {""ID"": ""Urban-2011-160-12"", ""NAME"": ""cloud"", ""OvertMarking"": 2, ""IndoAryanShift"": 1, ""ShiftID"": 9}]"	"[{""ID"": ""Urban-2011-160-25"", ""NAME"": ""fog/mist"", ""Polysemy"": 11, ""ShiftID"": 4}, {""ID"": ""Urban-2011-160-16"", ""NAME"": ""dust"", ""Polysemy"": 8, ""ShiftID"": 8}, {""ID"": ""Urban-2011-160-12"", ""NAME"": ""cloud"", ""Polysemy"": 7, ""ShiftID"": 9}]"
+Urban-2011-160-55	55	1228	EARTH (SOIL)	soil	I	Natural and topological concepts	[]	[]
+Urban-2011-160-56	56	518	SPARK	spark	I	Natural and topological concepts	[]	[]
+Urban-2011-160-57	57	2144	SPRING OR WELL	spring/well	I	Natural and topological concepts	[]	[]
+Urban-2011-160-58	58	1430	STAR	star	I	Natural and topological concepts	[]	[]
+Urban-2011-160-59	59	1193	STEAM	steam	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-25"", ""NAME"": ""fog/mist"", ""OvertMarking"": 2, ""IndoAryanShift"": 1, ""ShiftID"": 5}]"	"[{""ID"": ""Urban-2011-160-25"", ""NAME"": ""fog/mist"", ""Polysemy"": 9, ""ShiftID"": 5}]"
+Urban-2011-160-60	60	2299	STRAW	straw	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-28"", ""NAME"": ""grass"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""3""}]"	"[{""ID"": ""Urban-2011-160-28"", ""NAME"": ""grass"", ""Polysemy"": 11, ""ShiftID"": 3}]"
+Urban-2011-160-61	61	1343	SUN	sun	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-39"", ""NAME"": ""moon"", ""OvertMarking"": 3, ""IndoAryanShift"": 0, ""ShiftID"": 2}, {""ID"": ""Urban-2011-160-154"", ""NAME"": ""noon"", ""OvertMarking"": 24, ""IndoAryanShift"": 0, ""ShiftID"": 16}, {""ID"": ""Urban-2011-160-80"", ""NAME"": ""clock"", ""OvertMarking"": 16, ""IndoAryanShift"": 0, ""ShiftID"": 43}]"	"[{""ID"": ""Urban-2011-160-39"", ""NAME"": ""moon"", ""Polysemy"": 17, ""ShiftID"": 2}, {""ID"": ""Urban-2011-160-154"", ""NAME"": ""noon"", ""Polysemy"": 2, ""ShiftID"": 16}, {""ID"": ""Urban-2011-160-80"", ""NAME"": ""clock"", ""Polysemy"": 15, ""ShiftID"": 43}]"
+Urban-2011-160-62	62	1145	SWAMP	swamp	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-34"", ""NAME"": ""lake"", ""Polysemy"": 8, ""ShiftID"": 7}]"
+Urban-2011-160-63	63	1220	TAIL	tail	I	Natural and topological concepts	[]	[]
+Urban-2011-160-64	64	124	THORN	thorn	I	Natural and topological concepts	[]	[]
+Urban-2011-160-65	65	1150	THUNDER	thunder	I	Natural and topological concepts	[]	[]
+Urban-2011-160-66	66	906	TREE	tree	I	Natural and topological concepts	"[{""ID"": ""Urban-2011-160-8"", ""NAME"": ""branch"", ""OvertMarking"": 17, ""IndoAryanShift"": 0, ""ShiftID"": 10}, {""ID"": ""Urban-2011-160-26"", ""NAME"": ""forest"", ""OvertMarking"": 6, ""IndoAryanShift"": 1, ""ShiftID"": 12}]"	"[{""ID"": ""Urban-2011-160-8"", ""NAME"": ""branch"", ""Polysemy"": 6, ""ShiftID"": 10}, {""ID"": ""Urban-2011-160-26"", ""NAME"": ""forest"", ""Polysemy"": 4, ""ShiftID"": 12}]"
+Urban-2011-160-67	67	921	VALLEY	valley	I	Natural and topological concepts	[]	[]
+Urban-2011-160-68	68	2291	VOLCANO	volcano	I	Natural and topological concepts	[]	[]
+Urban-2011-160-69	69	943	WATERFALL	waterfall	I	Natural and topological concepts	[]	[]
+Urban-2011-160-70	70	978	WAVE	wave	I	Natural and topological concepts	[]	[]
+Urban-2011-160-71	71	1931	BEESWAX	wax	I	Natural and topological concepts	[]	"[{""ID"": ""Urban-2011-160-30"", ""NAME"": ""honey"", ""Polysemy"": 2, ""ShiftID"": 17}]"
+Urban-2011-160-72	72	1982	WHIRLPOOL	whirlpool	I	Natural and topological concepts	[]	[]
+Urban-2011-160-73	73	1597	AIRPLANE	airplane	II	Artifacts	[]	"[{""ID"": ""Urban-2011-160-6"", ""NAME"": ""bird"", ""Polysemy"": 3, ""ShiftID"": 46}]"
+Urban-2011-160-74	74	1845	BALL	ball	II	Artifacts	[]	[]
+Urban-2011-160-75	75	1663	BED	bed	II	Artifacts	"[{""ID"": ""Urban-2011-160-42"", ""NAME"": ""nest"", ""OvertMarking"": 2, ""IndoAryanShift"": 0, ""ShiftID"": 41}]"	"[{""ID"": ""Urban-2011-160-42"", ""NAME"": ""nest"", ""Polysemy"": 2, ""ShiftID"": 41}]"
+Urban-2011-160-76	76	772	BELT	belt	II	Artifacts	[]	[]
+Urban-2011-160-77	77	1844	BOAT	boat	II	Artifacts	[]	[]
+Urban-2011-160-78	78	1111	CAR	car	II	Artifacts	"[{""ID"": ""Urban-2011-160-96"", ""NAME"": ""train"", ""OvertMarking"": 3, ""IndoAryanShift"": 0, ""ShiftID"": 26}]"	"[{""ID"": ""Urban-2011-160-96"", ""NAME"": ""train"", ""Polysemy"": 3, ""ShiftID"": 26}]"
+Urban-2011-160-79	79	1476	CHAIR	chair	II	Artifacts	[]	[]
+Urban-2011-160-80	80	1323	CLOCK	clock	II	Artifacts	[]	"[{""ID"": ""Urban-2011-160-61"", ""NAME"": ""sun"", ""Polysemy"": 15, ""ShiftID"": 43}]"
+Urban-2011-160-81	81	1898	SPECTACLES	glasses	II	Artifacts	[]	"[{""ID"": ""Urban-2011-160-86"", ""NAME"": ""mirror"", ""Polysemy"": 2, ""ShiftID"": 28}]"
+Urban-2011-160-82	82	1252	HOUSE	house	II	Artifacts	"[{""ID"": ""Urban-2011-160-42"", ""NAME"": ""nest"", ""OvertMarking"": 14, ""IndoAryanShift"": 1, ""ShiftID"": 37}]"	"[{""ID"": ""Urban-2011-160-42"", ""NAME"": ""nest"", ""Polysemy"": 7, ""ShiftID"": 37}]"
+Urban-2011-160-83	83	1472	KEY	key	II	Artifacts	[]	[]
+Urban-2011-160-84	84	1352	KNIFE	knife	II	Artifacts	[]	[]
+Urban-2011-160-85	85	1464	LADDER	ladder	II	Artifacts	[]	[]
+Urban-2011-160-86	86	1171	MIRROR	mirror	II	Artifacts	"[{""ID"": ""Urban-2011-160-81"", ""NAME"": ""glasses"", ""OvertMarking"": 9, ""IndoAryanShift"": 0, ""ShiftID"": 28}]"	"[{""ID"": ""Urban-2011-160-52"", ""NAME"": ""shadow"", ""Polysemy"": 3, ""ShiftID"": 45}, {""ID"": ""Urban-2011-160-81"", ""NAME"": ""glasses"", ""Polysemy"": 2, ""ShiftID"": 28}]"
+Urban-2011-160-87	87	1382	NEEDLE (FOR SEWING)	needle	II	Artifacts	[]	[]
+Urban-2011-160-88	88	648	PAPER	paper	II	Artifacts	[]	[]
+Urban-2011-160-89	89	794	PEN	pen	II	Artifacts	[]	[]
+Urban-2011-160-90	90	1218	ROPE	rope	II	Artifacts	[]	[]
+Urban-2011-160-91	91	356	SHEARS	scissors	II	Artifacts	[]	[]
+Urban-2011-160-92	92	1381	SHOE	shoe	II	Artifacts	[]	[]
+Urban-2011-160-93	93	667	ROAD	road/street/way	II	Artifacts	"[{""ID"": ""Urban-2011-160-38"", ""NAME"": ""Milky Way"", ""OvertMarking"": 15, ""IndoAryanShift"": 0, ""ShiftID"": 40}]"	"[{""ID"": ""Urban-2011-160-38"", ""NAME"": ""Milky Way"", ""Polysemy"": 2, ""ShiftID"": 40}]"
+Urban-2011-160-94	94	1775	TABLE	table	II	Artifacts	[]	[]
+Urban-2011-160-95	95	219	TOILET	toilet	II	Artifacts	[]	[]
+Urban-2011-160-96	96	900	TRAIN	train	II	Artifacts	[]	"[{""ID"": ""Urban-2011-160-78"", ""NAME"": ""car"", ""Polysemy"": 3, ""ShiftID"": 26}]"
+Urban-2011-160-97	97	951	WEAPONS	weapon	II	Artifacts	[]	[]
+Urban-2011-160-98	98	1375	WINDOW	window	II	Artifacts	[]	[]
+Urban-2011-160-99	99	802	ADAM'S APPLE	Adam's apple	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-100	100	803	ANKLE	ankle	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-101	101	678	BEARD	beard	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-102	102	2114	BELLY OR STOMACH	belly/stomach	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-148"", ""NAME"": ""womb"", ""OvertMarking"": 6, ""IndoAryanShift"": 1, ""ShiftID"": 22}, {""ID"": ""Urban-2011-160-127"", ""NAME"": ""navel"", ""OvertMarking"": 3, ""IndoAryanShift"": 0, ""ShiftID"": 31}]"	"[{""ID"": ""Urban-2011-160-148"", ""NAME"": ""womb"", ""Polysemy"": 11, ""ShiftID"": 22}, {""ID"": ""Urban-2011-160-127"", ""NAME"": ""navel"", ""Polysemy"": 2, ""ShiftID"": 31}, {""ID"": ""Urban-2011-160-119"", ""NAME"": ""heart"", ""Polysemy"": 7, ""ShiftID"": 23}]"
+Urban-2011-160-103	103	1746	BLADDER	bladder	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-104	104	946	BLOOD	blood	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-105	105	1394	BONE	bone	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-32"", ""NAME"": ""horn"", ""OvertMarking"": 2, ""IndoAryanShift"": 0, ""ShiftID"": 18}]"	"[{""ID"": ""Urban-2011-160-32"", ""NAME"": ""horn"", ""Polysemy"": 2, ""ShiftID"": 18}]"
+Urban-2011-160-106	106	1583	BRAIN	brain	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-107	107	1402	BREAST	breast	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-37"", ""NAME"": ""milk"", ""OvertMarking"": 30, ""IndoAryanShift"": 1, ""ShiftID"": 20}]"	"[{""ID"": ""Urban-2011-160-37"", ""NAME"": ""milk"", ""Polysemy"": 43, ""ShiftID"": 20}]"
+Urban-2011-160-108	108	834	BUTTOCKS	buttocks	III	Body Parts and Body Fluids	[]	"[{""ID"": ""Urban-2011-160-110"", ""NAME"": ""cheek"", ""Polysemy"": 2, ""ShiftID"": 32}]"
+Urban-2011-160-109	109	498	CALF OF LEG	calf	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-110	110	1730	CHEEK	cheek	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-108"", ""NAME"": ""buttocks"", ""OvertMarking"": 3, ""IndoAryanShift"": 0, ""ShiftID"": 32}]"	"[{""ID"": ""Urban-2011-160-108"", ""NAME"": ""buttocks"", ""Polysemy"": 2, ""ShiftID"": 32}, {""ID"": ""Urban-2011-160-125"", ""NAME"": ""mouth"", ""Polysemy"": 2, ""ShiftID"": 33}]"
+Urban-2011-160-111	111	1510	CHIN	chin	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-112	112	3807	EYEBALL	eyeball	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-113	113	1173	EYEBROW	eyebrow	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-114	114	1540	EYELASH	eyelash	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-115	115	17	EYELID	eyelid	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-116	116	1303	FINGER	finger	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-117	117	1258	FINGERNAIL	fingernail	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-118	118	1334	GUTS	guts	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-119	119	1223	HEART	heart	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-102"", ""NAME"": ""belly/stomach"", ""OvertMarking"": 2, ""IndoAryanShift"": 1, ""ShiftID"": 23}, {""ID"": ""Urban-2011-160-121"", ""NAME"": ""kidney"", ""OvertMarking"": 3, ""IndoAryanShift"": 1, ""ShiftID"": 27}, {""ID"": ""Urban-2011-160-124"", ""NAME"": ""lungs"", ""OvertMarking"": 3, ""IndoAryanShift"": 1, ""ShiftID"": 29}]"	"[{""ID"": ""Urban-2011-160-102"", ""NAME"": ""belly/stomach"", ""Polysemy"": 7, ""ShiftID"": 23}, {""ID"": ""Urban-2011-160-121"", ""NAME"": ""kidney"", ""Polysemy"": 3, ""ShiftID"": 27}, {""ID"": ""Urban-2011-160-124"", ""NAME"": ""lungs"", ""Polysemy"": 2, ""ShiftID"": 29}]"
+Urban-2011-160-120	120	798	JAW	jaw	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-144"", ""NAME"": ""tooth"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""30""}]"	"[{""ID"": ""Urban-2011-160-144"", ""NAME"": ""tooth"", ""Polysemy"": 2, ""ShiftID"": 30}]"
+Urban-2011-160-121	121	489	KIDNEY	kidney	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-119"", ""NAME"": ""heart"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""27""}]"	"[{""ID"": ""Urban-2011-160-119"", ""NAME"": ""heart"", ""Polysemy"": 3, ""ShiftID"": 27}]"
+Urban-2011-160-122	122	478	LIP	lip	III	Body Parts and Body Fluids	[]	"[{""ID"": ""Urban-2011-160-125"", ""NAME"": ""mouth"", ""Polysemy"": 16, ""ShiftID"": 21}]"
+Urban-2011-160-123	123	1224	LIVER	liver	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-124"", ""NAME"": ""lungs"", ""OvertMarking"": 9, ""IndoAryanShift"": 0, ""ShiftID"": 25}]"	"[{""ID"": ""Urban-2011-160-124"", ""NAME"": ""lungs"", ""Polysemy"": 4, ""ShiftID"": 25}]"
+Urban-2011-160-124	124	688	LUNG	lungs	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-123"", ""NAME"": ""liver"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""25""}, {""ID"": ""Urban-2011-160-119"", ""NAME"": ""heart"", ""OvertMarking"": 0, ""IndoAryanShift"": 1, ""ShiftID"": ""29""}]"	"[{""ID"": ""Urban-2011-160-24"", ""NAME"": ""foam"", ""Polysemy"": 3, ""ShiftID"": 47}, {""ID"": ""Urban-2011-160-119"", ""NAME"": ""heart"", ""Polysemy"": 2, ""ShiftID"": 29}, {""ID"": ""Urban-2011-160-123"", ""NAME"": ""liver"", ""Polysemy"": 4, ""ShiftID"": 25}]"
+Urban-2011-160-125	125	674	MOUTH	mouth	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-122"", ""NAME"": ""lip"", ""OvertMarking"": 31, ""IndoAryanShift"": 1, ""ShiftID"": 21}, {""ID"": ""Urban-2011-160-110"", ""NAME"": ""cheek"", ""OvertMarking"": 3, ""IndoAryanShift"": 1, ""ShiftID"": 33}, {""ID"": ""Urban-2011-160-5"", ""NAME"": ""beak"", ""OvertMarking"": 11, ""IndoAryanShift"": 0, ""ShiftID"": 35}, {""ID"": ""Urban-2011-160-20"", ""NAME"": ""estuary"", ""OvertMarking"": 5, ""IndoAryanShift"": 0, ""ShiftID"": 38}]"	"[{""ID"": ""Urban-2011-160-122"", ""NAME"": ""lip"", ""Polysemy"": 16, ""ShiftID"": 21}, {""ID"": ""Urban-2011-160-110"", ""NAME"": ""cheek"", ""Polysemy"": 2, ""ShiftID"": 33}, {""ID"": ""Urban-2011-160-5"", ""NAME"": ""beak"", ""Polysemy"": 18, ""ShiftID"": 35}, {""ID"": ""Urban-2011-160-20"", ""NAME"": ""estuary"", ""Polysemy"": 5, ""ShiftID"": 38}]"
+Urban-2011-160-126	126	3061	PHLEGM	mucus	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-127	127	1838	NAVEL	navel	III	Body Parts and Body Fluids	[]	"[{""ID"": ""Urban-2011-160-102"", ""NAME"": ""belly/stomach"", ""Polysemy"": 2, ""ShiftID"": 31}]"
+Urban-2011-160-128	128	1333	NECK	neck	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-129	129	796	NIPPLE	nipple	III	Body Parts and Body Fluids	[]	"[{""ID"": ""Urban-2011-160-37"", ""NAME"": ""milk"", ""Polysemy"": 5, ""ShiftID"": 24}]"
+Urban-2011-160-130	130	1178	NOSTRIL	nostrils	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-131	131	1658	PUPIL	pupil	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-132	132	1808	PUS	pus	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-133	133	801	RIB	rib	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-134	134	1503	SALIVA	saliva/spittle	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-24"", ""NAME"": ""foam"", ""OvertMarking"": 4, ""IndoAryanShift"": 0, ""ShiftID"": 36}]"	"[{""ID"": ""Urban-2011-160-24"", ""NAME"": ""foam"", ""Polysemy"": 8, ""ShiftID"": 36}]"
+Urban-2011-160-135	135	497	SCAR	scar	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-136	136	763	SKIN	skin	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-3"", ""NAME"": ""bark"", ""OvertMarking"": 26, ""IndoAryanShift"": 1, ""ShiftID"": 34}]"	"[{""ID"": ""Urban-2011-160-3"", ""NAME"": ""bark"", ""Polysemy"": 45, ""ShiftID"": 34}]"
+Urban-2011-160-137	137	208	NASAL MUCUS (SNOT)	snot	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-138	138	2283	SEMEN	semen	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-139	139	125	SWEAT (SUBSTANCE)	sweat	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-140	140	1651	TEAR (OF EYE)	tear	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-141	141	1137	TENDON	tendon/sinew	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-142	142	797	TESTICLES	testicle	III	Body Parts and Body Fluids	[]	"[{""ID"": ""Urban-2011-160-18"", ""NAME"": ""egg"", ""Polysemy"": 20, ""ShiftID"": 42}, {""ID"": ""Urban-2011-160-51"", ""NAME"": ""seed"", ""Polysemy"": 6, ""ShiftID"": 44}]"
+Urban-2011-160-143	143	1205	TONGUE	tongue	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-22"", ""NAME"": ""flame"", ""OvertMarking"": 24, ""IndoAryanShift"": 1, ""ShiftID"": 39}]"	"[{""ID"": ""Urban-2011-160-22"", ""NAME"": ""flame"", ""Polysemy"": 2, ""ShiftID"": 39}]"
+Urban-2011-160-144	144	1380	TOOTH	tooth	III	Body Parts and Body Fluids	"[{""ID"": ""Urban-2011-160-120"", ""NAME"": ""jaw"", ""OvertMarking"": 2, ""IndoAryanShift"": 1, ""ShiftID"": 30}]"	"[{""ID"": ""Urban-2011-160-120"", ""NAME"": ""jaw"", ""Polysemy"": 2, ""ShiftID"": 30}]"
+Urban-2011-160-145	145	1142	URINE	urine	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-146	146	2293	UVULA	uvula	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-147	147	1924	VEIN	vein	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-148	148	804	WOMB	womb	III	Body Parts and Body Fluids	[]	"[{""ID"": ""Urban-2011-160-102"", ""NAME"": ""belly/stomach"", ""Polysemy"": 11, ""ShiftID"": 22}]"
+Urban-2011-160-149	149	2294	WRINKLE	wrinkle	III	Body Parts and Body Fluids	[]	[]
+Urban-2011-160-150	150	729	DAWN	dawn	IV	Basic Temporal Concepts and Miscellanea	[]	"[{""ID"": ""Urban-2011-160-151"", ""NAME"": ""day"", ""Polysemy"": 3, ""ShiftID"": 13}]"
+Urban-2011-160-151	151	1225	DAY (NOT NIGHT)	day	IV	Basic Temporal Concepts and Miscellanea	"[{""ID"": ""Urban-2011-160-150"", ""NAME"": ""dawn"", ""OvertMarking"": 20, ""IndoAryanShift"": 1, ""ShiftID"": 13}, {""ID"": ""Urban-2011-160-154"", ""NAME"": ""noon"", ""OvertMarking"": 35, ""IndoAryanShift"": 1, ""ShiftID"": 15}]"	"[{""ID"": ""Urban-2011-160-150"", ""NAME"": ""dawn"", ""Polysemy"": 3, ""ShiftID"": 13}, {""ID"": ""Urban-2011-160-154"", ""NAME"": ""noon"", ""Polysemy"": 2, ""ShiftID"": 15}]"
+Urban-2011-160-152	152	2297	DUSK	dusk	IV	Basic Temporal Concepts and Miscellanea	[]	[]
+Urban-2011-160-153	153	1233	NIGHT	night	IV	Basic Temporal Concepts and Miscellanea	[]	[]
+Urban-2011-160-154	154	12	MIDDAY	noon	IV	Basic Temporal Concepts and Miscellanea	[]	"[{""ID"": ""Urban-2011-160-61"", ""NAME"": ""sun"", ""Polysemy"": 2, ""ShiftID"": 16}, {""ID"": ""Urban-2011-160-151"", ""NAME"": ""day"", ""Polysemy"": 2, ""ShiftID"": 15}]"
+Urban-2011-160-155	155	2296	SUNRISE	sunrise	IV	Basic Temporal Concepts and Miscellanea	[]	[]
+Urban-2011-160-156	156	2295	SUNSET	sunset	IV	Basic Temporal Concepts and Miscellanea	[]	[]
+Urban-2011-160-157	157	683	PERSON	man (human being)	IV	Basic Temporal Concepts and Miscellanea	[]	[]
+Urban-2011-160-158	158	1700	SATURDAY	saturday	IV	Basic Temporal Concepts and Miscellanea	[]	[]
+Urban-2011-160-159	159	2298	VIRGIN	virgin	IV	Basic Temporal Concepts and Miscellanea	[]	[]
+Urban-2011-160-160	160	1756	WIDOW	widow	IV	Basic Temporal Concepts and Miscellanea	[]	[]
