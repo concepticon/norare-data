@@ -1,63 +1,89 @@
-from urllib.request import urlretrieve
-import zipfile
-import collections
-from pyconcepticon import models
-import json
+import enum
 import pathlib
+import functools
+import collections
+
+import igraph
+from pyconcepticon.util import ConceptlistWithNetworksWriter
+
+
+
+class Graphs(enum.Enum):  # We read data from three different CLICS graphs.
+    Full = 1
+    Affix = 2
+    Overlap = 3
+
+
+def node_dict(type_):  # The skeleton for a concept node.
+    res = {'ID': '', 'NAME': ''}
+    if type_ == 'LINKED':
+        res.update({'{}{}'.format(Graphs.Full.name, s): 0 for s in ['Vars', 'Lngs', 'Fams']})
+        res.update({'{}{}'.format(Graphs.Overlap.name, s): 0 for s in ['Vars', 'Lngs', 'Fams']})
+    else:
+        res.update({'{}{}'.format(Graphs.Affix.name, s): 0 for s in ['Vars', 'Lngs', 'Fams']})
+    return res
+
 
 def download(dataset):
-    dataset.raw_dir.mkdir(parents=True, exist_ok=True)
+    for suff in ["full", "overlap", "affix"]:
+        dataset.download_zip(
+            "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
+            "colexification-graphs.zip",
+            f"colexification-{suff}.gml",
+        )
 
-    zip_path = dataset.raw_dir / "graphs.zip"
-
-    urlretrieve(
-        "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
-        str(zip_path)
-    )
-
-    with zipfile.ZipFile(zip_path, "r") as obj:
-        obj.extractall(path=dataset.raw_dir)
 
 def map(dataset, concepticon, mappings):
-    base_dir = pathlib.Path(__file__).parent.resolve()
-    new_tsv_path = base_dir / "List-2023-1308.tsv"  # change this if your file has a different name
 
-    listdata = models.Conceptlist.from_file(new_tsv_path)
+    listdata = concepticon.conceptlists["List-2023-1308"]
 
-    # Initialize relationship dictionaries
-    target_concepts = {concept.id: [] for concept in listdata.concepts.values()}
-    linked_concepts = {concept.id: [] for concept in listdata.concepts.values()}
-
-    # JSON parsing helper
-    def parse_json_field(field):
-        try:
-            return json.loads(field) if field else []
-        except json.JSONDecodeError:
-            return []
-
-    # Populate relationship data
-    for concept in listdata.concepts.values():
-        tc = parse_json_field(concept.attributes.get("target_concepts", "[]"))
-        lc = parse_json_field(concept.attributes.get("linked_concepts", "[]"))
-        target_concepts[concept.id] = tc
-        linked_concepts[concept.id] = lc
-
-    # Construct output table
+    concepts, label2id = {}, {}
+    for g in Graphs:
+        dataset.log.info('reading graph {}'.format(g.name))
+        graph = igraph.read(dataset.raw_dir / "colexification-{}.gml".format(g.name.lower()))
+        if g == Graphs.Full:  # Initialize the concepts.
+            c2i = {c.gloss: c.id for c in concepticon.conceptsets.values()}
+            for i, node in enumerate(graph.vs):
+                data = node.attributes()
+                label2id[data["label"]] = str(i + 1)
+                concepts[label2id[data["label"]]] = collections.OrderedDict([
+                    ('NUMBER', label2id[data["label"]]),
+                    ('ENGLISH', data["label"]),
+                    ('CONCEPTICON_ID', c2i[data["label"]]),
+                    ('CONCEPTICON_GLOSS', data["label"]),
+                    ('VARIETY_COUNT', int(data["variety_count"])),
+                    ('LANGUAGE_COUNT', int(data["language_count"])),
+                    ('FAMILY_COUNT', int(data["family_count"])),
+                    ('LINKED_CONCEPTS', collections.defaultdict(functools.partial(node_dict, 'LINKED'))),
+                    ('TARGET_CONCEPTS', collections.defaultdict(functools.partial(node_dict, 'TARGET')))
+                ])
+    
+        for edge in graph.es:  # Collect the data for the network columns.
+            if ((g != Graphs.Overlap and int(edge["family_count"]) > 1)
+                    or (g == Graphs.Overlap and int(edge["family_count"]) > 4)):  # Apply thresholds.
+                sname, tname = graph.vs[edge.source]["label"], graph.vs[edge.target]["label"]
+                sidx, tidx = label2id[sname], label2id[tname]
+                jds = concepts[sidx]['TARGET_CONCEPTS' if g == Graphs.Affix else 'LINKED_CONCEPTS']
+                target_idx = pathlib.Path(__file__).parent.name + "-" + tidx
+                jds[target_idx]["ID"] = target_idx
+                jds[target_idx]["NAME"] = tname
+                jds[target_idx][g.name + "Vars"] = int(edge["variety_count"]) 
+                jds[target_idx][g.name + "Lngs"] = int(edge["language_count"]) 
+                jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
+                if g != Graphs.Affix:  # For non-Affix edges, we also add the reversed edge.
+                    jds = concepts[tidx]['LINKED_CONCEPTS']
+                    target_idx = pathlib.Path(__file__).parent.name + "-" + sidx
+                    jds[target_idx]["ID"] = target_idx
+                    jds[target_idx]["NAME"] = sname
+                    jds[target_idx][g.name + "Vars"] = int(edge["variety_count"]) 
+                    jds[target_idx][g.name + "Lngs"] = int(edge["language_count"]) 
+                    jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
     table = []
-    for concept in listdata.concepts.values():
-        row = collections.OrderedDict([
-            ('ID', concept.id),
-            ('NUMBER', concept.number),
-            ('CONCEPTICON_ID', concept.concepticon_id),
-            ('CONCEPTICON_GLOSS', concept.concepticon_gloss),
-            ('ENGLISH', concept.english),
-            ('FAMILY_COUNT', concept.attributes.get('family_count', '')),
-            ('LANGUAGE_COUNT', concept.attributes.get('language_count', '')),
-            ('VARIETY_COUNT', concept.attributes.get('variety_count', '')),
-            ('LINKED_CONCEPTS', linked_concepts[concept.id]),
-            ('TARGET_CONCEPTS', target_concepts[concept.id]),
-        ])
+    for rid, row in sorted(concepts.items(), key=lambda x: int(x[1]['NUMBER'])):
+        for type_ in ['TARGET', 'LINKED']:
+            row[type_ + '_CONCEPTS'] = sorted(
+                row[type_ + '_CONCEPTS'].values(),
+                key=lambda x: int(x["ID"].split('-')[-1]))
+        row["ID"] = dataset.id + "-" + row["NUMBER"]
         table.append(row)
-
-    # Write to output
-    dataset.table.write(table)
+    dataset.write_table(table)
