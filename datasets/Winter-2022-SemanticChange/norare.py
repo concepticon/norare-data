@@ -1,17 +1,12 @@
 import collections
-from pyconcepticon import models
-from csvw.dsv import reader
-import json
 import builtins
-import pathlib
-from urllib.request import urlretrieve
 
 
 def download(dataset):
     dataset.download_file(
         "https://github.com/bodowinter/asymmetry/raw/master/data/asymmetry.csv",
-        #"raw/asymmetry.csv"
         )
+
 
 def map(dataset, concepticon, mappings):
 
@@ -35,7 +30,7 @@ def map(dataset, concepticon, mappings):
     
     # read in data
     data = collections.defaultdict(list)
-    for row in reader(dataset.raw_dir / "asymmetry.csv", dicts=True):
+    for row in dataset.get_csv("asymmetry.csv", delimiter=",", dicts=True):
         concept = correct.get(row["ConceptComplete"], row["ConceptComplete"])
         if row["ID"] == "65" and row["Word"] == "river":
             concept = "river/stream"
@@ -54,7 +49,7 @@ def map(dataset, concepticon, mappings):
             source, target = list(builtins.map(
                 lambda x: correct.get(x, x), row["PairName"].split("~")))
             source_id, target_id = list(builtins.map(
-                lambda x: "{}-{}".format(pathlib.Path(__file__).parent.name, row2idx[x]),
+                lambda x: "{}-{}".format(dataset.id, row2idx[x]),
                 [source, target]))
     
             source_json = {"NAME": source, "ID": source_id, "OvertMarking": oma}
@@ -83,7 +78,7 @@ def map(dataset, concepticon, mappings):
     
     table = []
     for concept in graph:
-        table.append(collections.OrderedDict([
+        table.append(dict([
             ("ID", winter[concept].id),
             ('NUMBER', str(row2idx[concept])),
             ('ENGLISH', concept),

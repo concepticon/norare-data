@@ -1,10 +1,9 @@
 import enum
-import pathlib
 import functools
 import collections
 
 import igraph
-from pyconcepticon.util import ConceptlistWithNetworksWriter
+from pynorare.util import NetworksWriter
 
 
 
@@ -35,8 +34,6 @@ def download(dataset):
 
 def map(dataset, concepticon, mappings):
 
-    listdata = concepticon.conceptlists["List-2023-1308"]
-
     concepts, label2id = {}, {}
     for g in Graphs:
         dataset.log.info('reading graph {}'.format(g.name))
@@ -47,6 +44,7 @@ def map(dataset, concepticon, mappings):
                 data = node.attributes()
                 label2id[data["label"]] = str(i + 1)
                 concepts[label2id[data["label"]]] = collections.OrderedDict([
+                    ("ID", dataset.id + "-" + label2id[data["label"]]),
                     ('NUMBER', label2id[data["label"]]),
                     ('ENGLISH', data["label"]),
                     ('CONCEPTICON_ID', c2i[data["label"]]),
@@ -64,7 +62,7 @@ def map(dataset, concepticon, mappings):
                 sname, tname = graph.vs[edge.source]["label"], graph.vs[edge.target]["label"]
                 sidx, tidx = label2id[sname], label2id[tname]
                 jds = concepts[sidx]['TARGET_CONCEPTS' if g == Graphs.Affix else 'LINKED_CONCEPTS']
-                target_idx = pathlib.Path(__file__).parent.name + "-" + tidx
+                target_idx = dataset.id + "-" + tidx
                 jds[target_idx]["ID"] = target_idx
                 jds[target_idx]["NAME"] = tname
                 jds[target_idx][g.name + "Vars"] = int(edge["variety_count"]) 
@@ -72,7 +70,7 @@ def map(dataset, concepticon, mappings):
                 jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
                 if g != Graphs.Affix:  # For non-Affix edges, we also add the reversed edge.
                     jds = concepts[tidx]['LINKED_CONCEPTS']
-                    target_idx = pathlib.Path(__file__).parent.name + "-" + sidx
+                    target_idx = dataset.id + "-" + sidx
                     jds[target_idx]["ID"] = target_idx
                     jds[target_idx]["NAME"] = sname
                     jds[target_idx][g.name + "Vars"] = int(edge["variety_count"]) 
@@ -84,6 +82,5 @@ def map(dataset, concepticon, mappings):
             row[type_ + '_CONCEPTS'] = sorted(
                 row[type_ + '_CONCEPTS'].values(),
                 key=lambda x: int(x["ID"].split('-')[-1]))
-        row["ID"] = dataset.id + "-" + row["NUMBER"]
         table.append(row)
-    dataset.write_table(table)
+    dataset.table.write(table)
