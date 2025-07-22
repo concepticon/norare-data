@@ -79,7 +79,7 @@ def map(dataset, concepticon, mappings):
     table = []
     for concept in graph:
         table.append(dict([
-            ("ID", winter[concept].id),
+            ("ID", dataset.id + "-" + str(row2idx[concept])),
             ('NUMBER', str(row2idx[concept])),
             ('ENGLISH', concept),
             ('CONCEPTICON_ID', winter[concept].concepticon_id),
