@@ -34,7 +34,15 @@
                     },
                     {
                         "datatype": "json",
-                        "name": "EMBEDDING"
+                        "name": "EMBEDDINGS_FULL"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "EMBEDDINGS_FULL_AFFIX"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "EMBEDDINGS_FULL_AFFIX_OVERLAP"
                     }
                 ],
                 "primaryKey": [

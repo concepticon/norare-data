@@ -1,26 +1,42 @@
 import collections
-from pyconcepticon import models
-from csvw.dsv import reader
 import json
 
+
+modes = {
+    "fullfams": "EMBEDDINGS_FULL",
+    "full-affix": "EMBEDDINGS_FULL_AFFIX",
+    "full-affix-overlap": "EMBEDDINGS_FULL_AFFIX_OVERLAP"
+}
+
 def download(dataset):
-    dataset.download_file("https://raw.githubusercontent.com/calc-project/concept-embeddings/refs/heads/main/embeddings/full-affix-overlap/prone.json")
+    for mode in modes:
+        dataset.download_file(f"https://raw.githubusercontent.com/calc-project/concept-embeddings/refs/tags/v.1.0/embeddings/{mode}/prone.json", f"{mode}.json")
 
 def map(dataset, concepticon, mappings):
-    with open(dataset.raw_dir / "prone.json") as f:
-        embedding_data = json.load(f)
+    embedding_data = {}
+
+    for mode in modes:
+        with open(dataset.raw_dir / f"{mode}.json") as f:
+            embedding_data[mode] = json.load(f)["embeddings"]
+
+    concepts = set()
+    for mode in modes:
+        concepts.update(embedding_data[mode].keys())
 
     # map concepticon gloss to id
-    concepticon_gloss_to_id = {c.gloss: c.id for c in concepticon.conceptsets.values()}
+    concepticon_gloss_to_id = {c.gloss: c.id for c in concepticon.conceptsets.values()
+                               if c.gloss in concepts}
 
     table = []
-    for i, (concepticon_gloss, embedding) in enumerate(embedding_data["embeddings"].items()):
+    for i, (concepticon_gloss, concepticon_id) in enumerate(concepticon_gloss_to_id.items()):
         row = collections.OrderedDict([
-            ("ID", f"Rubehn-2025-{len(embedding_data["embeddings"])}-{i+1}"), # TODO where the ID's should actually come from?
-            ("CONCEPTICON_ID", concepticon_gloss_to_id[concepticon_gloss]),
-            ("CONCEPTICON_GLOSS", concepticon_gloss),
-            ("EMBEDDING", embedding)
+            ("ID", f"Rubehn-2025-{len(concepticon_gloss_to_id)}-{i + 1}"), # TODO where the ID's should actually come from?
+            ("CONCEPTICON_ID", concepticon_id),
+            ("CONCEPTICON_GLOSS", concepticon_gloss)
         ])
+
+        for mode, col_name in modes.items():
+            row[col_name] = embedding_data[mode].get(concepticon_gloss)
 
         table.append(row)
 
