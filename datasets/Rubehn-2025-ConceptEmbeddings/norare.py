@@ -98,7 +98,6 @@ def map(dataset, concepticon, mappings):
     table = []
     for i, (concepticon_gloss, concepticon_id) in enumerate(concepticon_gloss_to_id.items()):
         row = collections.OrderedDict([
-            ("ID", f"Rubehn-2025-{len(concepticon_gloss_to_id)}-{i + 1}"), # TODO where the ID's should actually come from?
             ("CONCEPTICON_ID", concepticon_id),
             ("CONCEPTICON_GLOSS", concepticon_gloss)
         ])
@@ -113,6 +112,5 @@ def map(dataset, concepticon, mappings):
 
         table.append(row)
 
-    print(len(table))
     # Write to output
     dataset.table.write(table)

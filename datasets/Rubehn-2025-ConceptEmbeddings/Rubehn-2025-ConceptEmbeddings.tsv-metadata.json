@@ -16,13 +16,6 @@
                 "columns": [
                     {
                         "datatype": {
-                            "base": "string",
-                            "format": "[a-zA-Z]+\\-[0-9]{4}\\-[0-9]+[a-z]?\\-[0-9]+[a-z]?$"
-                        },
-                        "name": "ID"
-                    },
-                    {
-                        "datatype": {
                             "base": "integer",
                             "minimum": 1
                         },
@@ -80,9 +73,14 @@
                         "datatype": "json",
                         "name": "FASTTEXT_ZH"
                     }
-                ],
-                "primaryKey": [
-                    "ID"
+                ],"foreignKeys": [
+                  {
+                    "columnReference": "CONCEPTICON_ID",
+                    "reference": {
+                      "resource": "../concepticon.tsv",
+                      "columnReference": "ID"
+                    }
+                  }
                 ],
                 "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
             },
