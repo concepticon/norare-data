@@ -13,8 +13,8 @@ Brysbaert-2009-Frequency	ENGLISH_CD_LOG	logarithmic	contextual diversity		norms	
 Brysbaert-2011-Frequency	GERMAN_FREQUENCY	tokens	frequency		norms	corpus	de		This is the number of times the word as written in column 1 is encountered in the subtitle corpus.
 Brysbaert-2011-Frequency	GERMAN_FREQUENCY_PM	tokens	frequency	per million	norms	corpus	de		This is the frequency per million words based on CUMfreqcount (i.e., it equals CUMfreqcount / 25.399).
 Brysbaert-2011-Frequency	GERMAN_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	de		This is log10(CUMfreqcount+1). It is the value to use when you want to match stimuli in various conditions. When a stimulus is not present in the corpus, lgSUBTLEX gets a value of 0.
-Brysbaert-2014-Concreteness	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	users	en		The mean concreteness rating on a 5-point rating scale going from abstract to concrete.
-Brysbaert-2014-Concreteness	ENGLISH_DUNNO	cardinality	familiarity	dunno	ratings	users	en		The number of persons indicating they did not know the word.
+Brysbaert-2014a-Concreteness	ENGLISH_CONCRETENESS_MEAN	mean	concreteness		ratings	users	en		The mean concreteness rating on a 5-point rating scale going from abstract to concrete.
+Brysbaert-2014a-Concreteness	ENGLISH_DUNNO	cardinality	familiarity	dunno	ratings	users	en		The number of persons indicating they did not know the word.
 Brysbaert-2019-Prevalence	ENGLISH_KNOWN_PERCENTAGE	percentage	familiarity	known	ratings	users	en		The percentages of words known across 220,000 participants.
 Brysbaert-2019-Prevalence	ENGLISH_PREVALENCE	normalized	familiarity	prevalence	ratings	users	en		The word prevalence (number of people who know the word) across 220,000 participants.
 Cai-2010-Frequency	CHINESE_FREQUENCY	tokens	frequency		norms	corpus	zh		The number of times the word appears in the corpus of 1.3 million words.
