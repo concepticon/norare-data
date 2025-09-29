@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of AoA ratings by Brysbaert et al. (2014b).",
+  "dc:title": "Automatic mapping of Concreteness ratings of 30.000 Dutch words by Brysbaert et al. (2014b).",
   "dc:source": "https://doi.org/10.1016/j.actpsy.2014.04.010",
   "dc:references" : "Brysbaert2014b",
-  "dcat:keyword": ["AoA", "Dutch"],
-  "dc:description": "An automated mapping of the AoA ratings for 30.00ß Dutch words submitted with the study of Brysbaert et al. (2014b) to the concept sets in Concepticon.",
+  "dcat:keyword": ["concreteness", "Dutch"],
+  "dc:description": "An automated mapping of the concreteness ratings for 30.000 Dutch words submitted with the study of Brysbaert et al. (2014b) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -26,17 +26,12 @@
           {
             "name": "DUTCH",
             "datatype": "string",
-            "titles": "spelling"
+            "titles": "stimulus"
           }, 
           {
-            "name": "DUTCH_AoA_MEAN",
-            "datatype": "float",
-            "titles": "mean.rating"
-          },
-          {
-            "name": "DUTCH_KNOWN_PERCENTAGE",
-            "datatype": "nonNegativeInteger",
-            "titles": "p.known"
+            "name": "DUTCH_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Concrete_m"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -54,7 +49,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2014b-AoA.tsv"
+      "url": "Brysbaert-2014c-Concreteness.tsv"
     }
   ]
 }

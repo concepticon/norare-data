@@ -39,11 +39,6 @@
             "titles": "Unknown"
           },
           {
-            "name": "ENGLISH_POS",
-            "datatype": "string",
-            "titles": "Dom_Pos"
-          },
-          {
             "name": "LINE_IN_SOURCE",
             "datatype": "integer"
           }
