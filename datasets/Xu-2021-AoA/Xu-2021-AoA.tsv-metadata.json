@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Age of acquisition ratings for 19,716 simplified Chinese words by Xu et al. (2021).",
+  "dc:source": " https://doi.org/10.3758/s13428-020-01455-8",
+  "dc:references" : "Xu2021",
+  "dcat:keyword": ["age of acquisition", "Chinese", "ratings"],
+  "dc:description": "An automated mapping of the age of acquisition (AoA) ratings of 19,716 simplified Mandarin Chinese words submitted with the study of Xu et al. (2021) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CHINESE",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "CHINESE_AoA_MEAN",
+            "datatype": "float",
+            "titles": "AoA Mean"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Xu-2021-AoA.tsv"
+    }
+  ]
+}
