@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of AoA ratings by Brysbaert et al. (2014b).",
-  "dc:source": "https://doi.org/10.1016/j.actpsy.2014.04.010",
-  "dc:references" : "Brysbaert2014b",
-  "dcat:keyword": ["AoA", "Dutch"],
-  "dc:description": "An automated mapping of the AoA ratings for 30.00ß Dutch words submitted with the study of Brysbaert et al. (2014b) to the concept sets in Concepticon.",
+  "dc:title": "Age of acquisition ratings for 19,716 simplified Chinese words by Xu et al. (2021).",
+  "dc:source": " https://doi.org/10.3758/s13428-020-01455-8",
+  "dc:references" : "Xu2021",
+  "dcat:keyword": ["age of acquisition", "Chinese", "ratings"],
+  "dc:description": "An automated mapping of the age of acquisition (AoA) ratings of 19,716 simplified Mandarin Chinese words submitted with the study of Xu et al. (2021) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -24,19 +24,14 @@
             "datatype": "string"
           }, 
           {
-            "name": "DUTCH",
+            "name": "CHINESE",
             "datatype": "string",
-            "titles": "spelling"
-          }, 
-          {
-            "name": "DUTCH_AoA_MEAN",
-            "datatype": "float",
-            "titles": "mean.rating"
+            "titles": "Word"
           },
           {
-            "name": "DUTCH_KNOWN_PERCENTAGE",
+            "name": "CHINESE_AoA_MEAN",
             "datatype": "float",
-            "titles": "p.known"
+            "titles": "AoA Mean"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -54,7 +49,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2014b-AoA.tsv"
+      "url": "Xu-2021-AoA.tsv"
     }
   ]
 }
