@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of Concreteness Ratings by Brysbaert et al. (2014).",
-  "dc:source": "https://doi.org/10.3758/s13428-013-0403-5",
-  "dc:references" : "Brysbaert2014",
-  "dcat:keyword": ["concreteness", "monolingual", "English"],
-  "dc:description": "An automated mapping of the concreteness ratings submitted with the study of Brysbaert et al. (2014) to the concept sets in Concepticon.",
+  "dc:title": "Automatic mapping of concreteness ratings of 30.000 Dutch words by Brysbaert et al. (2014b).",
+  "dc:source": "https://doi.org/10.1016/j.actpsy.2014.04.010",
+  "dc:references" : "Brysbaert2014b",
+  "dcat:keyword": ["concreteness", "Dutch"],
+  "dc:description": "An automated mapping of the concreteness ratings for 30.000 Dutch words submitted with the study of Brysbaert et al. (2014b) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -24,24 +24,14 @@
             "datatype": "string"
           }, 
           {
-            "name": "ENGLISH",
+            "name": "DUTCH",
             "datatype": "string",
-            "titles": "Word"
+            "titles": "stimulus"
           }, 
           {
-            "name": "ENGLISH_CONCRETENESS_MEAN",
+            "name": "DUTCH_CONCRETENESS_MEAN",
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
-            "titles": "Conc.M"
-          },
-          {
-            "name": "ENGLISH_DUNNO",
-            "datatype": "nonNegativeInteger",
-            "titles": "Unknown"
-          },
-          {
-            "name": "ENGLISH_POS",
-            "datatype": "string",
-            "titles": "Dom_Pos"
+            "titles": "Concrete_m"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -59,7 +49,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2014-Concreteness.tsv"
+      "url": "Brysbaert-2014b-Concreteness.tsv"
     }
   ]
 }
