@@ -1,7 +1,7 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of Concreteness ratings of 30.000 Dutch words by Brysbaert et al. (2014b).",
+  "dc:title": "Automatic mapping of concreteness ratings of 30.000 Dutch words by Brysbaert et al. (2014b).",
   "dc:source": "https://doi.org/10.1016/j.actpsy.2014.04.010",
   "dc:references" : "Brysbaert2014b",
   "dcat:keyword": ["concreteness", "Dutch"],
@@ -49,7 +49,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2014c-Concreteness.tsv"
+      "url": "Brysbaert-2014b-Concreteness.tsv"
     }
   ]
 }

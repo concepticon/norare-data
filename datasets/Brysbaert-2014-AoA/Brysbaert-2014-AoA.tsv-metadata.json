@@ -5,7 +5,7 @@
   "dc:source": "https://doi.org/10.1016/j.actpsy.2014.04.010",
   "dc:references" : "Brysbaert2014b",
   "dcat:keyword": ["AoA", "Dutch"],
-  "dc:description": "An automated mapping of the AoA ratings for 30.00ß Dutch words submitted with the study of Brysbaert et al. (2014b) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of the AoA ratings for 30.000 Dutch words submitted with the study of Brysbaert et al. (2014b) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -54,7 +54,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2014b-AoA.tsv"
+      "url": "Brysbaert-2014-AoA.tsv"
     }
   ]
 }
