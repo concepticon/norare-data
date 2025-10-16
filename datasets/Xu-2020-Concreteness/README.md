@@ -2,26 +2,23 @@
 The data for this particular dataset was available in a `.rar` format which requires special treatment: since `.rar` files are not supported by Python’s standard library, the usual automated download and extraction workflow will not work directly. A separate unpacking tool must be installed and configured locally.
 The steps described below can aid in replicating this special workflow.
 
-
-*Install an unpacking tool*
-Install a tool to unpack rar files (like UnRAR for Windows by rarlab https://www.rarlab.com/rar_add.htm)
+Install a tool to unpack rar files (like UnRAR for Windows by rarlab https://www.rarlab.com/rar_add.htm).
 Note the path, for example:
 ```
-C:\Users\mirah\Downloads\unrar.exe
+C:\Users\USERNAME\Downloads\unrar.exe
 ```
-
-*Install the Python package `rarfile` in the console*
+Install the Python package `rarfile` in the console:
 ```
 pip install rarfile
 ```
 
-*Import rarfile and specify the tool path in `norare.py`*
+Import rarfile and specify the tool path in `norare.py`:
 ```python
 import rarfile
-rarfile.UNRAR_TOOL = r"C:\Users\mirah\Downloads\unrar.exe"
+rarfile.UNRAR_TOOL = r"C:\Users\USERNAME\Downloads\unrar.exe"
 ```
 
-*Treat the archive like you would a `.zip` but specify the archive class in the download command so that Python knows it's dealing with a `.rar` instead of a `.zip`*
+Treat the archive like you would a `.zip` file but specify the archive class in the download command so that Python knows it's dealing with a `.rar` file instead of a `.zip` file:
 ```python
 def download(dataset):
     dataset.download_zip(
