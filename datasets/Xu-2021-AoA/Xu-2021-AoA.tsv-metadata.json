@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of Concreteness Ratings by Brysbaert et al. (2014).",
-  "dc:source": "https://doi.org/10.3758/s13428-013-0403-5",
-  "dc:references" : "Brysbaert2014",
-  "dcat:keyword": ["concreteness", "monolingual", "English"],
-  "dc:description": "An automated mapping of the concreteness ratings submitted with the study of Brysbaert et al. (2014) to the concept sets in Concepticon.",
+  "dc:title": "Age of acquisition ratings for 19,716 simplified Chinese words by Xu et al. (2021).",
+  "dc:source": " https://doi.org/10.3758/s13428-020-01455-8",
+  "dc:references" : "Xu2021",
+  "dcat:keyword": ["age of acquisition", "Chinese", "ratings"],
+  "dc:description": "An automated mapping of the age of acquisition (AoA) ratings of 19,716 simplified Mandarin Chinese words submitted with the study of Xu et al. (2021) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -24,24 +24,14 @@
             "datatype": "string"
           }, 
           {
-            "name": "ENGLISH",
+            "name": "CHINESE",
             "datatype": "string",
             "titles": "Word"
-          }, 
-          {
-            "name": "ENGLISH_CONCRETENESS_MEAN",
-            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
-            "titles": "Conc.M"
           },
           {
-            "name": "ENGLISH_DUNNO",
-            "datatype": "nonNegativeInteger",
-            "titles": "Unknown"
-          },
-          {
-            "name": "ENGLISH_POS",
-            "datatype": "string",
-            "titles": "Dom_Pos"
+            "name": "CHINESE_AoA_MEAN",
+            "datatype": "float",
+            "titles": "AoA Mean"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -59,7 +49,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Brysbaert-2014-Concreteness.tsv"
+      "url": "Xu-2021-AoA.tsv"
     }
   ]
 }
