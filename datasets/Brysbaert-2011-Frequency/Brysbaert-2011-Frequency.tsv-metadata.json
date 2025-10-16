@@ -39,11 +39,6 @@
             "titles": "SUBTLEX"
           },
           {
-            "name": "GERMAN_FREQUENCY_LOG",
-            "datatype": "decimal",
-            "titles": "lgSUBTLEX"
-          },
-          {
             "name": "LINE_IN_SOURCE",
             "datatype": "integer"
           }
