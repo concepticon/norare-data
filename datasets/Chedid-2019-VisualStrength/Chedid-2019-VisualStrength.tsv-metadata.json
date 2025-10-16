@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of ratings for familiarity and reaction times by Chedid et al. (2019a).",
+  "dc:title": "Automatic mapping of ratings for visual perceptual strength by Chedid et al. (2019b).",
   "dc:source": "https://lingualab.ca/en/project/norms-familiarity-perceptual-strength/",
-  "dc:references" : "Chedid2019a",
-  "dcat:keyword": ["familiarity", "French"],
-  "dc:description": "An automated mapping of the ratings for familiarity and reaction times submitted with the study of Chedid et al. (2019a) to the concept sets in Concepticon.",
+  "dc:references" : "Chedid2019b",
+  "dcat:keyword": ["perceptual strength", "visual", "French"],
+  "dc:description": "An automated mapping of the ratings for visual perceptual strength submitted with the study of Chedid et al. (2019b) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -29,24 +29,9 @@
             "titles": "word_name"
           },
           {
-            "name": "FRENCH_FAMILIARITY_MEAN",
+            "name": "FRENCH_VISUAL_MEAN",
             "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
-            "titles": "Mean_Word"
-          },
-          {
-            "name": "FRENCH_RT_MEAN",
-            "datatype": "decimal",
-            "titles": "Mean_RT"
-          },
-          {
-            "name": "FRENCH_FAMILIARITY_MAX",
-            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
-            "titles": "MAX"
-          },
-          {
-            "name": "FRENCH_FAMILIARITY_MIN",
-            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
-            "titles": "MIN"
+            "titles": "mean_word"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -64,7 +49,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Chedid-2019-Familiarity.tsv"
+      "url": "Chedid-2019-VisualStrength.tsv"
     }
   ]
 }
