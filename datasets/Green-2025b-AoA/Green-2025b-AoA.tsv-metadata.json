@@ -39,12 +39,12 @@
             "titles": "AI_Writing_AoA_Finetuned"
           },
           {
-            "name": "ENGLISH_AOA_TRAINED_GPT_SCORE",
+            "name": "ENGLISH_AOA_HEARING_TRAINED_GPT_SCORE",
             "datatype": "float",
             "titles": "AI_Kuperman_et_al_2012_AoA_Finetuned"
           },
           {
-            "name": "ENGLISH_AOA_MEAN",
+            "name": "ENGLISH_AOA_HEARING_MEAN",
             "datatype": "float",
             "titles": "Kuperman_et_al_2012_AoA"
           },

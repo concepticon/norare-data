@@ -49,7 +49,7 @@
             "titles": "AI_AoA_Writing_Untrained"
           },
           {
-            "name": "ENGLISH_AOA_UNTRAINED_GPT_SCORE",
+            "name": "ENGLISH_AOA_HEARING_UNTRAINED_GPT_SCORE",
             "datatype": "float",
             "titles": "AI_AoA_Kuperman_et_al_ 2012_prompt_Untrained"
           },
@@ -64,7 +64,7 @@
             "titles": "AI_AoA_Writing_Finetuned"
           },
           {
-            "name": "ENGLISH_AOA_TRAINED_GPT_SCORE",
+            "name": "ENGLISH_AOA_HEARING_TRAINED_GPT_SCORE",
             "datatype": "float",
             "titles": "AI_AoA_Kuperman_et_al_ 2012_prompt_Finetuned"
           },
