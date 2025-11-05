@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of concreteness ratings by Brysbaert et al. (2014a).",
+  "dc:source": "https://doi.org/10.3758/s13428-013-0403-5",
+  "dc:references" : "Brysbaert2014a",
+  "dcat:keyword": ["concreteness", "monolingual", "English"],
+  "dc:description": "An automated mapping of the concreteness ratings submitted with the study of Brysbaert et al. (2014a) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "ENGLISH_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Conc.M"
+          },
+          {
+            "name": "ENGLISH_DUNNO",
+            "datatype": "nonNegativeInteger",
+            "titles": "Unknown"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Brysbaert-2014a-Concreteness.tsv"
+    }
+  ]
+}
