@@ -57,8 +57,6 @@ def map(dataset, concepticon, mappings):
     # organize the data per code
     for row in data:
         if row["Language"] in languages:
-            print("yes")
-            print(row["Language"])
             responses[row["Language"]][int(row["Code"])] = [
                     row["Modal Response"],
                     row["Number of Responses"],
