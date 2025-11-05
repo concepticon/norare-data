@@ -22,22 +22,25 @@ def map(dataset, concepticon, mappings):
 
     # define languages we want to keep
     languages = OrderedDict({
+            "Australian English": "AUSTRALIAN_ENGLISH",
+            "Basque": "BASQUE",
+            "Belgium Dutch": "FLEMISH",
             "British English": "ENGLISH",
+            "Catalan": "CATALAN",
+            "Cypriot Greek": "CYPRIOTIC_GREEK",
             "Czech": "CZECH", 
             "Finnish": "FINNISH",
-            "Italian": "ITALIAN",
-            "Korean": "KOREAN",
-            "German": "GERMAN",
-            "Catalan": "CATALAN",
-            "Netherlands Dutch": "DUTCH",
-            "Mandarin Chinese": "MANDARIN",            
-            "Cypriot Greek": "CGREEK",
             "French": "FRENCH",
+            "German": "GERMAN",
             "Greek": "GREEK",
             "Hebrew": "HEBREW",
             "Hungarian": "HUNGARIAN",
+            "Italian": "ITALIAN",
+            "Korean": "KOREAN",
             "Lebanese Arabic": "ARABIC",
             "Malay": "MALAYSIAN",
+            "Mandarin Chinese": "MANDARIN",            
+            "Netherlands Dutch": "DUTCH",
             "Norwegian": "NORWEGIAN",
             "Polish": "POLISH",
             "Portuguese": "PORTUGUESE",
@@ -47,8 +50,6 @@ def map(dataset, concepticon, mappings):
             "Spanish": "SPANISH",
             "Turkish": "TURKISH",
             "Welsh": "WELSH",
-            "Basque": "BASQUE",
-            "Belgium Dutch": "FLEMISH",
             })
     responses = {
             language : {} for language in languages
@@ -56,10 +57,9 @@ def map(dataset, concepticon, mappings):
     # organize the data per code
     for row in data:
         if row["Language"] in languages:
-            #if row["Modal Response"] == "νύχτα":
-            #    print(row)
-            #    input()
-            responses[row["Language"]][row["Code"]] = [
+            print("yes")
+            print(row["Language"])
+            responses[row["Language"]][int(row["Code"])] = [
                     row["Modal Response"],
                     row["Number of Responses"],
                     row["H Statistic"].replace(",", '.'),
@@ -75,9 +75,6 @@ def map(dataset, concepticon, mappings):
     for code, (cid, cgl, eng) in mapping.items():
         row = [cid, cgl, code]
         for language in languages:
-            #if language == 'Greek' and cgl == "NIGHT":
-            #    print(responses[language][code])
-            #    input()
             if code in responses[language]:
                 row += responses[language][code]
             else:
