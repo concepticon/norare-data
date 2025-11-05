@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of ratings for familiarity and reaction times by Chedid et al. (2019).",
+  "dc:title": "Automatic mapping of ratings for familiarity and reaction times by Chedid et al. (2019a).",
   "dc:source": "https://lingualab.ca/en/project/norms-familiarity-perceptual-strength/",
-  "dc:references" : "Chedid2019",
+  "dc:references" : "Chedid2019a",
   "dcat:keyword": ["familiarity", "French"],
-  "dc:description": "An automated mapping of the ratings for familiarity and reaction times submitted with the study of Chedid et al. (2019) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of the ratings for familiarity and reaction times submitted with the study of Chedid et al. (2019a) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",

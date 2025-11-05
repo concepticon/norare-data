@@ -1,0 +1,90 @@
+{
+    "@context": [
+        "http://www.w3.org/ns/csvw",
+        {
+            "@language": "en"
+        }
+    ],
+    "dialect": {
+        "encoding": "utf-8-sig",
+        "delimiter": "\t",
+        "skipBlankRows": true
+    },
+    "tables": [
+        {
+            "tableSchema": {
+                "columns": [
+                    {
+                        "datatype": {
+                            "base": "integer",
+                            "minimum": 1
+                        },
+                        "name": "CONCEPTICON_ID"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "CONCEPTICON_GLOSS"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "EMBEDDINGS_FULL"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "EMBEDDINGS_FULL_AFFIX"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "EMBEDDINGS_FULL_AFFIX_OVERLAP"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "FASTTEXT_AR"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "FASTTEXT_EN"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "FASTTEXT_ES"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "FASTTEXT_ET"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "FASTTEXT_FI"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "FASTTEXT_FR"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "FASTTEXT_PL"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "FASTTEXT_RU"
+                    },
+                    {
+                        "datatype": "json",
+                        "name": "FASTTEXT_ZH"
+                    }
+                ],"foreignKeys": [
+                  {
+                    "columnReference": "CONCEPTICON_ID",
+                    "reference": {
+                      "resource": "../concepticon.tsv",
+                      "columnReference": "ID"
+                    }
+                  }
+                ],
+                "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+            },
+            "url": "Rubehn-2025-ConceptEmbeddings.tsv"
+        }
+    ]
+}

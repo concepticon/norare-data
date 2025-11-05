@@ -1,0 +1,75 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of age of acquisition (AoA) for 1,749 Portuguese words by Cameirão & Vicente (2010).",
+ "dc:source": "https://doi.org/10.3758/BRM.42.2.474",
+  "dc:references" : "Cameirao2010",
+  "dcat:keyword": ["age of acquisition", "familiarity", "imageability", "concreteness", "ratings", "Portuguese"],
+  "dc:description": "An automated mapping of ratings for age of acquisition (AoA) for 1,749 Portuguese words from the study by Cameirão & Vicente (2010) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "PORTUGUESE",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "PORTUGUESE_AOA_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
+            "titles": "AOA"
+          },
+          {
+            "name": "PORTUGUESE_FAMILIARITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Fam"
+          },
+          {
+            "name": "PORTUGUESE_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "Conc"
+          },
+          {
+            "name": "PORTUGUESE_IMAGEABILITY_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "Imag"
+          },
+          {
+            "name": "PORTUGUESE_POS",
+            "datatype": "string",
+            "titles": "Cgram"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Cameirao-2010-AoA.tsv"
+    }
+  ]
+}

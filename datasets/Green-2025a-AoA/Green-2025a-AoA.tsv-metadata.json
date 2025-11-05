@@ -1,0 +1,90 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of AoA ratings by Green et al. (2025).",
+  "dc:source": "https://doi.org/10.3758/s13428-025-02843-8",
+  "dc:references" : "Green2025",
+  "dcat:keyword": ["AoA", "LLM", "English"],
+  "dc:description": "An automated mapping of AoA ratings for English words given by participants and GPT-4o submitted with the study of Green et al. (2025) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "ENGLISH_AOA_READING_MEAN",
+            "datatype": "float",
+            "titles": "AoA_Read_Mean_Crowdsourced"
+          },
+          {
+            "name": "ENGLISH_AOA_WRITING_MEAN",
+            "datatype": "float",
+            "titles": "AoA_Write_Mean__Crowdsourced"
+          },
+          {
+            "name": "ENGLISH_AOA_READING_UNTRAINED_GPT_SCORE",
+            "datatype": "float",
+            "titles": "AI_AoA_Reading_Untrained"
+          },
+          {
+            "name": "ENGLISH_AOA_WRITING_UNTRAINED_GPT_SCORE",
+            "datatype": "float",
+            "titles": "AI_AoA_Writing_Untrained"
+          },
+          {
+            "name": "ENGLISH_AOA_HEARING_UNTRAINED_GPT_SCORE",
+            "datatype": "float",
+            "titles": "AI_AoA_Kuperman_et_al_ 2012_prompt_Untrained"
+          },
+          {
+            "name": "ENGLISH_AOA_READING_TRAINED_GPT_SCORE",
+            "datatype": "float",
+            "titles": "AI_AoA_Reading_Finetuned"
+          },
+          {
+            "name": "ENGLISH_AOA_WRITING_TRAINED_GPT_SCORE",
+            "datatype": "float",
+            "titles": "AI_AoA_Writing_Finetuned"
+          },
+          {
+            "name": "ENGLISH_AOA_HEARING_TRAINED_GPT_SCORE",
+            "datatype": "float",
+            "titles": "AI_AoA_Kuperman_et_al_ 2012_prompt_Finetuned"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Green-2025a-AoA.tsv"
+    }
+  ]
+}

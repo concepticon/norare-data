@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of concreteness/abstractness for two-character Chinese words by Xu and Li (2020).",
+ "dc:source": "https://doi.org/10.1371/journal.pone.0232133.s001",
+  "dc:references" : "Xu2020",
+  "dcat:keyword": ["concreteness", "abstractness", "Chinese"],
+  "dc:description": "An automated mapping of the concreteness/abstractness ratings for 9,877 two-character Chinese words from the study by Xu and Li (2020) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CHINESE",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "CHINESE_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Mean of Valid Ratings"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Xu-2020-Concreteness.tsv"
+    }
+  ]
+}

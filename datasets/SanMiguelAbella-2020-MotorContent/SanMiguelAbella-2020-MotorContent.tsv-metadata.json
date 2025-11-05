@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Motor content ratings for 4,565 Spanish verbs by San Miguel Abella and González-Nosti (2020).",
+  "dc:source": "https://inco.grupos.uniovi.es/enlaces",
+  "dc:references" : "SanMiguelAbella2020",
+  "dcat:keyword": ["motor content", "ratings", "Spanish"],
+  "dc:description": "An automated mapping of the motor content ratings of 4,565 Spanish verbs submitted with the study by San Miguel Abella and González-Nosti (2020) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "SPANISH",
+            "datatype": "string",
+            "titles": "Verbs"
+          },
+          {
+            "name": "SPANISH_MOTOR_CONTENT_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "Average motor content"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "SanMiguelAbella-2020-MotorContent.tsv"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of concreteness ratings of 30.000 Dutch words by Brysbaert et al. (2014b).",
+  "dc:source": "https://doi.org/10.1016/j.actpsy.2014.04.010",
+  "dc:references" : "Brysbaert2014b",
+  "dcat:keyword": ["concreteness", "Dutch"],
+  "dc:description": "An automated mapping of the concreteness ratings for 30.000 Dutch words submitted with the study of Brysbaert et al. (2014b) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "DUTCH",
+            "datatype": "string",
+            "titles": "stimulus"
+          }, 
+          {
+            "name": "DUTCH_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 5},
+            "titles": "Concrete_m"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Brysbaert-2014b-Concreteness.tsv"
+    }
+  ]
+}
