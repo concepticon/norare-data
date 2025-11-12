@@ -86,7 +86,7 @@
           {
             "name": "ITALIAN_AROUSAL_MALE_MEAN",
             "datatype": {"base": "decimal", "minimum": 1, "maximum": 9},
-            "titles": "M_Aro_m'"
+            "titles": "M_Aro_m"
           },
           {
             "name": "ITALIAN_DOMINANCE_MALE_MEAN",
