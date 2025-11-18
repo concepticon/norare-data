@@ -29,7 +29,7 @@
             "titles": "Word"
           }, 
           {
-            "name": "RATING_STABILITY_MEAN",
+            "name": "ENGLISH_STABILITY_JUDGMENT_MEAN",
             "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
             "titles": "Mean R"
           },
@@ -239,37 +239,37 @@
             "titles": "Time"
           },
           {
-            "name": "ENGLISH_FIXED_DURATION_MEAN",
+            "name": "ENGLISH_TEMPORALITY_MEAN",
             "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
             "titles": "Duration"
           },
           {
-            "name": "ENGLISH_TEMPORAL_LONGNESS_MEAN",
+            "name": "ENGLISH_TEMPORALITY_LONGNESS_MEAN",
             "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
             "titles": "Long"
           },
           {
-            "name": "ENGLISH_TEMPORAL_SHORTNESS_MEAN",
+            "name": "ENGLISH_TEMPORALITY_SHORTNESS_MEAN",
             "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
             "titles": "Short"
           },
           {
-            "name": "ENGLISH_CAUSED_MEAN",
+            "name": "ENGLISH_CAUSALITY_MEAN",
             "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
             "titles": "Caused"
           },
           {
-            "name": "ENGLISH_CONSEQUENTIAL_MEAN",
+            "name": "ENGLISH_CONSEQUENCE_MEAN",
             "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
             "titles": "Consequential"
           },
           {
-            "name": "ENGLISH_SOCIAL_MEAN",
+            "name": "ENGLISH_SOCIALITY_MEAN",
             "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
             "titles": "Social"
           },
           {
-            "name": "ENGLISH_HUMAN_MEAN",
+            "name": "ENGLISH_HUMANITY_MEAN",
             "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
             "titles": "Human"
           },
