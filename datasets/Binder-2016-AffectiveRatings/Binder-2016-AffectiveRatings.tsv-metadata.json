@@ -1,0 +1,420 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of affective, perceptual and conceptual ratings by Binder et al. (2016).",
+  "dc:source": "https://doi.org/10.1080/02643294.2016.1147426",
+  "dc:references" : "Binder2016",
+  "dcat:keyword": ["affective ratings", "perceptual ratings", "conceptual ratings", "English"],
+  "dc:description": "An automated mapping of ratings of English words on affective (valence, arousal), perceptual (e.g., visual, haptic, auditory), and conceptual (e.g., social, causal, spatial, temporal) dimensions submitted with the study of Binder et al. (2016) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "ENGLISH_STABILITY_JUDGMENT_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Mean R"
+          },
+          {
+            "name": "ENGLISH_VISUAL_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Vision"
+          },
+          {
+            "name": "ENGLISH_BRIGHTNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Bright"
+          },
+          {
+            "name": "ENGLISH_DARKNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Dark"
+          },
+          {
+            "name": "ENGLISH_COLOR_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Color"
+          },
+          {
+            "name": "ENGLISH_PATTERN_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Pattern"
+          },
+          {
+            "name": "ENGLISH_LARGENESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Large"
+          },
+          {
+            "name": "ENGLISH_SMALLNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Small"
+          },
+          {
+            "name": "ENGLISH_MOTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Motion"
+          },
+          {
+            "name": "ENGLISH_BIOMOTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Biomotion"
+          },
+          {
+            "name": "ENGLISH_FASTNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Fast"
+          },
+          {
+            "name": "ENGLISH_SLOWNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Slow"
+          },
+          {
+            "name": "ENGLISH_SHAPE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Shape"
+          },
+          {
+            "name": "ENGLISH_VISUAL_COMPLEXITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Complexity"
+          },
+          {
+            "name": "ENGLISH_FACE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Face"
+          },
+          {
+            "name": "ENGLISH_BODY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Body"
+          },
+          {
+            "name": "ENGLISH_HAPTIC_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Touch"
+          },
+          {
+            "name": "ENGLISH_TEMPERATURE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Temperature"
+          },
+          {
+            "name": "ENGLISH_TEXTURE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Texture"
+          },
+          {
+            "name": "ENGLISH_WEIGHT_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Weight"
+          },
+          {
+            "name": "ENGLISH_PAIN_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Pain"
+          },
+          {
+            "name": "ENGLISH_AUDITORY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Audition"
+          },
+          {
+            "name": "ENGLISH_LOUDNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Loud"
+          },
+          {
+            "name": "ENGLISH_AUDITORY_LOWNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Low"
+          },
+          {
+            "name": "ENGLISH_AUDITORY_HIGHNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "High"
+          },
+          {
+            "name": "ENGLISH_SOUND_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Sound"
+          },
+          {
+            "name": "ENGLISH_MUSIC_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Music"
+          },
+          {
+            "name": "ENGLISH_SPEECH_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Speech"
+          },
+          {
+            "name": "ENGLISH_GUSTATORY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Taste"
+          },
+          {
+            "name": "ENGLISH_OLFACTORY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Smell"
+          },
+          {
+            "name": "ENGLISH_HEAD_ACTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Head"
+          },
+          {
+            "name": "ENGLISH_HAND_ARM_ACTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "UpperLimb"
+          },
+          {
+            "name": "ENGLISH_FOOT_LEG_ACTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "LowerLimb"
+          },
+          {
+            "name": "ENGLISH_PERSONAL_EXPERIENCE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Practice"
+          },
+          {
+            "name": "ENGLISH_LANDMARK_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Landmark"
+          },
+          {
+            "name": "ENGLISH_PATH_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Path"
+          },
+          {
+            "name": "ENGLISH_SCENE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Scene"
+          },
+          {
+            "name": "ENGLISH_NEAR_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Near"
+          },
+          {
+            "name": "ENGLISH_MOTION_TOWARD_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Toward"
+          },
+          {
+            "name": "ENGLISH_MOTION_AWAY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Away"
+          },
+          {
+            "name": "ENGLISH_NUMBER_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Number"
+          },
+          {
+            "name": "ENGLISH_FIXED_TIME_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Time"
+          },
+          {
+            "name": "ENGLISH_TEMPORALITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Duration"
+          },
+          {
+            "name": "ENGLISH_TEMPORALITY_LONGNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Long"
+          },
+          {
+            "name": "ENGLISH_TEMPORALITY_SHORTNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Short"
+          },
+          {
+            "name": "ENGLISH_CAUSALITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Caused"
+          },
+          {
+            "name": "ENGLISH_CONSEQUENCE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Consequential"
+          },
+          {
+            "name": "ENGLISH_SOCIALITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Social"
+          },
+          {
+            "name": "ENGLISH_HUMAN_INTENTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Human"
+          },
+          {
+            "name": "ENGLISH_COMMUNICATION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Communication"
+          },
+          {
+            "name": "ENGLISH_SELF_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Self"
+          },
+          {
+            "name": "ENGLISH_COGNITION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Cognition"
+          },
+          {
+            "name": "ENGLISH_BENEFIT_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Benefit"
+          },
+          {
+            "name": "ENGLISH_HARM_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Harm"
+          },
+          {
+            "name": "ENGLISH_PLEASANT_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Pleasant"
+          },
+          {
+            "name": "ENGLISH_UNPLEASANT_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Unpleasant"
+          },
+          {
+            "name": "ENGLISH_HAPPINESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Happy"
+          },
+          {
+            "name": "ENGLISH_SADNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Sad"
+          },
+          {
+            "name": "ENGLISH_ANGER_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Angry"
+          },
+          {
+            "name": "ENGLISH_DISGUST_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Disgusted"
+          },
+          {
+            "name": "ENGLISH_FEAR_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Fearful"
+          },
+          {
+            "name": "ENGLISH_SURPRISE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Surprised"
+          },
+          {
+            "name": "ENGLISH_MOTIVATION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Drive"
+          },
+          {
+            "name": "ENGLISH_NECESSITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Needs"
+          },
+          {
+            "name": "ENGLISH_SALIENCE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Attention"
+          },
+          {
+            "name": "ENGLISH_AROUSAL_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
+            "titles": "Arousal"
+          },
+          {
+            "name": "ENGLISH_FREQUENCY",
+            "datatype": "float",
+            "titles": "FREQ"
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_LOG",
+            "datatype": "float",
+            "titles": "L10 FREQ"
+          },
+          {
+            "name": "ENGLISH_IMAGEABILITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7},
+            "titles": "IMG"
+          },
+          {
+            "name": "ENGLISH_ONTOLOGICAL_TYPE",
+            "datatype": "string",
+            "titles": "Type"
+          },
+          {
+            "name": "SEMANTIC_CATEGORY",
+            "datatype": "string",
+            "titles": "Super Category"
+          },
+          {
+            "name": "SEMANTIC_SUBCATEGORY",
+            "datatype": "string",
+            "titles": "Category"
+          },
+          {
+            "name": "KMEANS28_CATEGORY",
+            "datatype": "string",
+            "titles": "Kmeans28 Category"
+          },
+           {
+            "name": "ENGLISH_POS",
+            "datatype": "integer",
+            "titles": "WC"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Binder-2016-AffectiveRatings.tsv"
+    }
+  ]
+}
