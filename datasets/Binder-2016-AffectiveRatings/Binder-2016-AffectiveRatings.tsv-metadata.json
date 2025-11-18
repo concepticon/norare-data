@@ -269,7 +269,7 @@
             "titles": "Social"
           },
           {
-            "name": "ENGLISH_HUMANITY_MEAN",
+            "name": "ENGLISH_HUMAN_INTENTION_MEAN",
             "datatype": { "base": "float", "minimum": 0, "maximum": 6 },
             "titles": "Human"
           },
