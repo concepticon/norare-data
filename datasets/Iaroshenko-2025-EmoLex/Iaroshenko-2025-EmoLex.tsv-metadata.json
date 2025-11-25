@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of emotional classifications by Iaroshenko & Loukachevitch (2025).",
+  "dc:source": "https://github.com/nl-pi/rusemolex/blob/b485f34def81f622295b28bd7e5558e3581a8a9e/RusEmoLex.csv",
+  "dc:references" : "Iaroshenko2025",
+  "dcat:keyword": ["emotional classifications", "discrete emotions", "Russian"],
+  "dc:description": "An automated mapping of emotional classifications for Russian words submitted with the study of Iaroshenko & Loukachevitch (2025) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "RUSSIAN",
+            "datatype": "string",
+            "titles": "Слово"
+          },
+          {
+            "name": "RUSSIAN_POS",
+            "datatype": "string",
+            "titles": "Часть речи"
+          },
+          {
+            "name": "EMOTION_DOMINANT",
+            "datatype": "string",
+            "titles": "Класс"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Iaroshenko-2025-EmoLex.tsv"
+    }
+  ]
+}
