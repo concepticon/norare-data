@@ -39,7 +39,7 @@
             "titles": "Valence"
           },
           {
-            "name": "DUTCH_VALENCE_CATEGORY",
+            "name": "DUTCH_VALENCE_STRENGTH",
             "datatype": {"base": "string", "format": "positive|negative|neutral"},
             "titles": "ValenceCategory"
           },
