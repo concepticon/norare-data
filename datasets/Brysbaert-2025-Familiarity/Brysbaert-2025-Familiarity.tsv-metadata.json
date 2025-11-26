@@ -1,0 +1,65 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of familiarity ratings by Brysbaert et al. (2025).",
+  "dc:source": "https://osf.io/c2yef/files/qazjk",
+  "dc:references" : "Brysbaert2025",
+  "dcat:keyword": ["familiarity", "LLM", "English"],
+  "dc:description": "An automated mapping of familiarity ratings for English words given by GPT-4o submitted with the study of Brysbaert et al. (2025) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "ENGLISH_FAMILIARITY_GPT_SCORE",
+            "datatype": "integer",
+            "titles": "GPT_Fam_dominant"
+          },
+          {
+            "name": "ENGLISH_FAMILIARITY_GPT_MEAN",
+            "datatype": "float",
+            "titles": "GPT_Fam_probs"
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_MULTILEX",
+            "datatype": "float",
+            "titles": "Multilex"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Brysbaert-2025-Familiarity.tsv"
+    }
+  ]
+}
