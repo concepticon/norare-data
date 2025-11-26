@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of familiarity ratings by Brysbaert et al. (2025).",
   "dc:source": "https://osf.io/c2yef/files/qazjk",
   "dc:references" : "Brysbaert2025",
-  "dcat:keyword": ["Familiarity", "LLM", "English"],
+  "dcat:keyword": ["familiarity", "LLM", "English"],
   "dc:description": "An automated mapping of familiarity ratings for English words given by GPT-4o submitted with the study of Brysbaert et al. (2025) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
