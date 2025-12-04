@@ -1,0 +1,80 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of age of acquisition and imageability ratings by Bird et al. (2001).",
+  "dc:source": "https://doi.org/10.3758/BF03195349",
+  "dc:references" : "Bird2001",
+  "dcat:keyword": ["AoA", "imageability", "English"],
+  "dc:description": "An automated mapping of age of acquisition (AoA) and imageability ratings for English words submitted with the study of Bird et al. (2001) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "WORD"
+          }, 
+          {
+            "name": "ENGLISH_AOA_MEAN",
+            "datatype": "float",
+            "titles": "new AoA"
+          },
+          {
+            "name": "ENGLISH_IMAGEABILITY_MEAN",
+            "datatype": "float",
+            "titles": "new Imageability"
+          },
+          {
+            "name": "ENGLISH_AOA_MEAN_MRC",
+            "datatype": "float",
+            "titles": "MRC AoA"
+          },
+          {
+            "name": "ENGLISH_IMAGEABILITY_MEAN_MRC",
+            "datatype": "float",
+            "titles": "MRC Imageability"
+          },
+          {
+            "name": "ENGLISH_FREQUENCY_LOG_CELEX",
+            "datatype": "float",
+            "titles": "Frequency"
+          },
+          {
+            "name": "ENGLISH_POS",
+            "datatype": "string",
+            "titles": "Word type"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Bird-2001-AoAImageability.tsv"
+    }
+  ]
+}
