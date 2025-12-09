@@ -74,7 +74,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Bird-2001-AoAImageability.tsv"
+      "url": "Bird-2001-ImageabilityAoA.tsv"
     }
   ]
 }
