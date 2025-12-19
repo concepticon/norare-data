@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of specificity ratings by Ravelli et al. (2025).",
+  "dc:source": "https://osf.io/zm283/files/osfstorage",
+  "dc:references" : "Ravelli2025",
+  "dcat:keyword": ["specificity", "English"],
+  "dc:description": "An automated mapping of specificity ratings for English words submitted with the study of Ravelli et al. (2025) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "ENGLISH_SPECIFICITY_MEAN",
+            "datatype": {"base": "float", "minimum": -1, "maximum": 1},
+            "titles": "Specificity"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Ravelli-2025-Specificity.tsv"
+    }
+  ]
+}
