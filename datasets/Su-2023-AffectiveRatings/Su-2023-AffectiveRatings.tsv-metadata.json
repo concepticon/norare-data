@@ -48,7 +48,6 @@
             "datatype": {"base": "float", "minimum": 0, "maximum": 7},
             "titles": "Concreteness"
           },
-
           {
             "name": "CHINESE_FREQUENCY_LOG",
             "datatype": "float",
