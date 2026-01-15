@@ -5,7 +5,7 @@
   "dc:source": "https://doi.org/10.3758/s13428-022-01928-y",
   "dc:references" : "Su2023",
   "dcat:keyword": ["AoA", "familiarity", "imageability", "concreteness", "Chinese"],
-  "dc:description": "An automated mapping of the valence, arousal, and dominance ratings submitted with the study of Mohammad (2018) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of familiarity, imageability, concreteness and age of aqcuisition ratings submitted with the study of Su et al. (2023) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
