@@ -1,0 +1,80 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of familiarity, imageability, concreteness and age of aqcuisition ratings by Su et al. (2023).",
+  "dc:source": "https://doi.org/10.3758/s13428-022-01928-y",
+  "dc:references" : "Su2023",
+  "dcat:keyword": ["AoA", "familiarity", "imageability", "concreteness", "Chinese"],
+  "dc:description": "An automated mapping of familiarity, imageability, concreteness and age of aqcuisition ratings submitted with the study of Su et al. (2023) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CHINESE",
+            "datatype": "string",
+            "titles": "Character"
+          }, 
+          {
+            "name": "CHINESE_AOA_MEAN",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 7},
+            "titles": "AoA"
+          },
+          {
+            "name": "CHINESE_FAMILIARITY_MEAN",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 7},
+            "titles": "Familiarity"
+          },
+          {
+            "name": "CHINESE_IMAGEABILITY_MEAN",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 7},
+            "titles": "Imageability"
+          },
+          {
+            "name": "CHINESE_CONCRETENESS_MEAN",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 7},
+            "titles": "Concreteness"
+          },
+          {
+            "name": "CHINESE_FREQUENCY_LOG",
+            "datatype": "float",
+            "titles": "Frequency.Log"
+          },
+          {
+            "name": "CHINESE_STROKE",
+            "datatype": "integer",
+            "titles": "#Stroke"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Su-2023-AffectiveRatings.tsv"
+    }
+  ]
+}
