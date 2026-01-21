@@ -548,17 +548,17 @@ Goz-2017-600	AOA_MEAN_OLD	mean	AoA	old	ratings	users	tr		This value includes the
 Goz-2017-600	MEAN_IMAGEABILITY	mean	imageability		ratings	users	tr	Tekcan2005	Imageability estimates were based on a scale from 1 to 7.
 Goz-2017-600	MEAN_CONCRETENESS	mean	concreteness		ratings	users	tr	Tekcan2005	Concreteness estimates were based on a scale from 1 to 7.
 Goz-2017-600	FREQUENCY	tokens	frequency		norms	corpus	tr	Goz2003	This value is taken from a frequency dictionary of written Turkish based on 1,016,000 words obtained from a variety of written sources, published between 1995 and 2000.
-Speed-2021-Sensorimotor	DUTCH_AUDITORY_MEAN	mean	sensory modality	auditory	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by hearing.
-Speed-2021-Sensorimotor	DUTCH_GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by tasting.
-Speed-2021-Sensorimotor	DUTCH_HAPTIC_MEAN	mean	sensory modality	haptic	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by feeling through touch.
-Speed-2021-Sensorimotor	DUTCH_INTEROCEPTIVE_MEAN	mean	sensory modality	interoceptive	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by sensations inside the body.
-Speed-2021-Sensorimotor	DUTCH_OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by smelling.
-Speed-2021-Sensorimotor	DUTCH_VISUAL_MEAN	mean	sensory modality	visual	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by seeing.
-Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant perceptual strength	ratings	users	nl		Modality in which the concept is experienced the strongest  .
-Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity perceptual strength	ratings	users	nl		The degree to which a concept can be mapped onto one single perceptual modality. Calculated by dividing the range of ratings by the sum.
-Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	users	nl		Maximum perceptual strength.
-Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_MEAN	mean	sensory modality	perceptual strength	ratings	users	nl		Average perceptual strength.
-Speed-2021-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated perceptual strength	ratings	users	nl		Sensory strength across modalities with the effect of weaker modalities attenuated.
+Speed-2022-Sensorimotor	DUTCH_AUDITORY_MEAN	mean	sensory modality	auditory	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by hearing.
+Speed-2022-Sensorimotor	DUTCH_GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by tasting.
+Speed-2022-Sensorimotor	DUTCH_HAPTIC_MEAN	mean	sensory modality	haptic	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by feeling through touch.
+Speed-2022-Sensorimotor	DUTCH_INTEROCEPTIVE_MEAN	mean	sensory modality	interoceptive	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by sensations inside the body.
+Speed-2022-Sensorimotor	DUTCH_OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by smelling.
+Speed-2022-Sensorimotor	DUTCH_VISUAL_MEAN	mean	sensory modality	visual	ratings	users	nl		Mean rating (0-5) of how strongly the concept is experienced by seeing.
+Speed-2022-Sensorimotor	DUTCH_PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant perceptual strength	ratings	users	nl		Modality in which the concept is experienced the strongest  .
+Speed-2022-Sensorimotor	DUTCH_PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity perceptual strength	ratings	users	nl		The degree to which a concept can be mapped onto one single perceptual modality. Calculated by dividing the range of ratings by the sum.
+Speed-2022-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	users	nl		Maximum perceptual strength.
+Speed-2022-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_MEAN	mean	sensory modality	perceptual strength	ratings	users	nl		Average perceptual strength.
+Speed-2022-Sensorimotor	DUTCH_PERCEPTUAL_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated perceptual strength	ratings	users	nl		Sensory strength across modalities with the effect of weaker modalities attenuated.
 Chedid-2019-Familiarity	FRENCH_RT_MEAN	mean	lexical decision	reaction time	norms	users	fr		Mean of the response time for French nouns.
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MEAN	mean	familiarity		ratings	users	fr		Mean of the conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MAX	numeric	familiarity	maximum	ratings	users	fr		The maximum of conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
