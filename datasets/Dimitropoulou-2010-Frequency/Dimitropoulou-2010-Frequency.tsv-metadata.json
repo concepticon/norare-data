@@ -1,0 +1,80 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of frequency norms by Dimitropoulou et al. (2010).",
+  "dc:source": "https://www.bcbl.eu/en/subtlex-gr",
+  "dc:references" : "Dimitropoulou2010",
+  "dcat:keyword": ["word frequency", "monolingual", "Greek"],
+  "dc:description": "An automated mapping of the frequency norms submitted with the study of Dimitropoulou et al. (2010) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "GREEK",
+            "datatype": "string",
+            "titles": "Word"
+          }, 
+          {
+            "name": "GREEK_FREQUENCY",
+            "datatype": "nonNegativeInteger",
+            "titles": "FREQcount"
+          },
+          {
+            "name": "GREEK_CD",
+            "datatype": "nonNegativeInteger",
+            "titles": "CD"
+          },
+          {
+            "name": "GREEK_FREQUENCY_PM",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1000000},
+            "titles": "SUBTLEX_WF"
+          },
+          {
+            "name": "GREEK_CD_PERCENTAGE",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
+            "titles": "SUBTLEX_CD"
+          },
+          {
+            "name": "GREEK_FREQUENCY_LOG",
+            "datatype": "decimal",
+            "titles": "Lg10WF"
+          },
+          {
+            "name": "GREEK_CD_LOG",
+            "datatype": "decimal",
+            "titles": "Lg10CD"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Dimitropoulou-2010-Frequency.tsv"
+    }
+  ]
+}
