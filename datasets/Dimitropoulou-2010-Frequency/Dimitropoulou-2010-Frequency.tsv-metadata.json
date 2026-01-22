@@ -44,7 +44,7 @@
             "titles": "SUBTLEX_WF"
           },
           {
-            "name": "GREEK_SUBTITLE_CD",
+            "name": "GREEK_CD_PERCENTAGE",
             "datatype": {"base": "decimal", "minimum": 0, "maximum": 100},
             "titles": "SUBTLEX_CD"
           },
