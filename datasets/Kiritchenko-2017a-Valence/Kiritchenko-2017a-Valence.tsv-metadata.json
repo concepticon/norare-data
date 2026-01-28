@@ -1,0 +1,55 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of valence ratings by Kiritchenko & Mohammad (2017).",
+  "dc:source": "https://www.saifmohammad.com/WebPages/BestWorst.html",
+  "dc:references" : "Kiritchenko2017",
+  "dcat:keyword": ["valence", "best-worst", "English"],
+  "dc:description": "An automated mapping of the valence ratings on a best-worst scale submitted with the study of Kiritchenko & Mohammad (2017) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "WORD"
+          },
+          {
+            "name": "ENGLISH_VALENCE_MEAN",
+            "datatype": {"base": "float", "minimum": -1, "maximum": 1},
+            "titles": "VALENCE"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Kiritchenko-2017a-Valence.tsv"
+    }
+  ]
+}
