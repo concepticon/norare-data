@@ -1,0 +1,27 @@
+def download(dataset):
+    dataset.download_file(
+        'https://www.saifmohammad.com/WebDocs/bwsvsrs/BWS-scores.txt',
+        'BWS-scores.txt',
+    )
+
+
+def map(dataset, concepticon, mappings):
+    rows = dataset.get_csv(
+        'BWS-scores.txt',
+        delimiter='\t',
+        dicts=False
+    )
+
+    valid_fields = ['WORD', 'VALENCE']
+    sheet = []
+
+    for row in rows:
+        sheet.append(dict(zip(valid_fields, row[:2])))
+
+    dataset.extract_data(
+        sheet,
+        concepticon,
+        mappings,
+        gloss='ENGLISH',
+        language='en'
+    )
