@@ -514,10 +514,10 @@ Carling-2019-99	LOAN	percentage	borrowing		relations	concept lists	en		The value
 Carling-2019-99	NO_LOAN	percentage	borrowing	non-loan	relations	concept lists	en		The value is based on an analysis of borrowing frequencies, assessed by means of a manual tagging of those words that were found to be borrowings in the database and indicates the percentage of the concept being not borrowed.
 Carling-2019-99	RANK	ordinality	stability	rank	relations	concept lists	en		The data in the list are ranked from the highest to the lowest degree of borrowability.
 Pozdniakov-2014-100b	RANK	ordinality	stability	rank	relations	concept lists	en		The data for the Atlantic languages are ranked from the highest to the lowest degree of borrowability.
-Pozdniakov-2014-100b	ATLANTIC_STABILITY_SCORE	numeric	stability	Atlantic family	relations	concept lists	en		The stability score for a given concept in Atlantic languages.
+Pozdniakov-2014-100b	ATLANTIC_STABILITY_SCORE	numeric	stability	Atlantic	relations	concept lists	en		The stability score for a given concept in Atlantic languages.
 Wu-2020-150	RANK	numeric	frequency		relations	dictionaries	en		The relative coverage of each the 150 target concepts across 1895 bilingual dictionaries.
 Thomas-1960-168	RANK	ordinality	stability	rank	relations	concept lists	en		The stability ranks for four Mon-Khmer languages.
-Thomas-1960-168	MON_KHMER_STABILITY_SCORE	numeric	stability	Mon-Khmer family	relations	concept lists	en		The stability score for a given concept in four Mon-Khmer languages.
+Thomas-1960-168	MON_KHMER_STABILITY_SCORE	numeric	stability	Mon-Khmer	relations	concept lists	en		The stability score for a given concept in four Mon-Khmer languages.
 Dyen-1964-196	RANK	ordinality	stability	rank	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 89 Malayo-Polynesian languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
 Dyen-1964-154	RANK	ordinality	stability	rank	relations	concept lists	en		The concepts were ranked by comparing the amount of cognate pairs found in 39 Indo-European languages, with items of low ranks representing items which have a high amount of cognate pairs when comparing all languages in a pairwise fashion.
 Tadmor-2009-100	RANK	numeric	stability	rank	relations	concept lists	en		This value indicates the stability of a word and its resistance to borrowing across languages.
