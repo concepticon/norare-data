@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of affective, perceptual and conceptual ratings by Wang et al. (2022).",
   "dc:source": "https://doi.org/10.18112/openneuro.ds004301.v1.0.0",
   "dc:references" : "Wang2022",
-  "dcat:keyword": ["affective ratings", "perceptual ratings", "conceptual ratings", "Chinese"],
+  "dcat:keyword": ["ratings", "affective", "perceptual", "conceptual", "Chinese"],
   "dc:description": "An automated mapping of ratings of Chinese words on affective (arousal, emotions), perceptual (e.g., visual, haptic, auditory), and conceptual (e.g., social, causal, spatial, temporal) dimensions submitted with the study of Wang et al. (2022) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
