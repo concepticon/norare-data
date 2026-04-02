@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of affective, perceptual and conceptual ratings by Binder et al. (2016).",
   "dc:source": "https://doi.org/10.1080/02643294.2016.1147426",
   "dc:references" : "Binder2016",
-  "dcat:keyword": ["affective ratings", "perceptual ratings", "conceptual ratings", "English"],
+  "dcat:keyword": ["ratings", "affective", "perceptual", "conceptual", "English"],
   "dc:description": "An automated mapping of ratings of English words on affective (valence, arousal), perceptual (e.g., visual, haptic, auditory), and conceptual (e.g., social, causal, spatial, temporal) dimensions submitted with the study of Binder et al. (2016) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
