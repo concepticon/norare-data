@@ -1,0 +1,320 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of affective, perceptual and conceptual ratings by Wang et al. (2022).",
+  "dc:source": "https://doi.org/10.18112/openneuro.ds004301.v1.0.0",
+  "dc:references" : "Wang2022",
+  "dcat:keyword": ["ratings", "affective", "perceptual", "conceptual", "Chinese"],
+  "dc:description": "An automated mapping of ratings of Chinese words on affective (arousal, emotions), perceptual (e.g., visual, haptic, auditory), and conceptual (e.g., social, causal, spatial, temporal) dimensions submitted with the study of Wang et al. (2022) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CHINESE",
+            "datatype": "string",
+            "titles": "单词"
+          },
+          {
+            "name": "CHINESE_VISUAL_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "视觉"
+          },
+          {
+            "name": "CHINESE_BRIGHTNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "明亮度"
+          },
+          {
+            "name": "CHINESE_DARKNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "黑暗度"
+          },
+          {
+            "name": "CHINESE_COLOR_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "颜色"
+          },
+          {
+            "name": "CHINESE_PATTERN_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "图案"
+          },
+          {
+            "name": "CHINESE_LARGENESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "大"
+          },
+          {
+            "name": "CHINESE_SMALLNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "小"
+          },
+          {
+            "name": "CHINESE_FASTNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "快"
+          },
+          {
+            "name": "CHINESE_SLOWNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "慢"
+          },
+          {
+            "name": "CHINESE_VISUAL_COMPLEXITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "复杂度"
+          },
+          {
+            "name": "CHINESE_FACE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "脸"
+          },
+          {
+            "name": "CHINESE_BODY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "身体"
+          },
+          {
+            "name": "CHINESE_HAPTIC_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "触摸"
+          },
+          {
+            "name": "CHINESE_HOTNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "热"
+          },
+          {
+            "name": "CHINESE_COLDNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "冷"
+          },
+          {
+            "name": "CHINESE_LIGHTNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "轻"
+          },
+          {
+            "name": "CHINESE_HEAVINESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "重"
+          },
+          {
+            "name": "CHINESE_PAIN_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "疼痛"
+          },
+          {
+            "name": "CHINESE_LOUDNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "响亮"
+          },
+          {
+            "name": "CHINESE_SOUND_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "声音"
+          },
+          {
+            "name": "CHINESE_MUSIC_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "音乐"
+          },
+          {
+            "name": "CHINESE_GUSTATORY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "味觉"
+          },
+          {
+            "name": "CHINESE_OLFACTORY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "嗅觉"
+          },
+          {
+            "name": "CHINESE_HEAD_ACTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "头"
+          },
+          {
+            "name": "CHINESE_HAND_ARM_ACTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "上肢"
+          },
+          {
+            "name": "CHINESE_FOOT_LEG_ACTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "下肢"
+          },
+          {
+            "name": "CHINESE_PERSONAL_EXPERIENCE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "实践"
+          },
+          {
+            "name": "CHINESE_LANDMARK_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "地标"
+          },
+          {
+            "name": "CHINESE_PATH_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "路径"
+          },
+          {
+            "name": "CHINESE_SCENE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "场景"
+          },
+          {
+            "name": "CHINESE_NEAR_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "近距离"
+          },
+          {
+            "name": "CHINESE_MOTION_TOWARD_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "朝向"
+          },
+          {
+            "name": "CHINESE_MOTION_AWAY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "远离"
+          },
+          {
+            "name": "CHINESE_NUMBER_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "数字"
+          },
+          {
+            "name": "CHINESE_TEMPORALITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "持续时间"
+          },
+          {
+            "name": "CHINESE_TEMPORALITY_LONGNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "长"
+          },
+          {
+            "name": "CHINESE_TEMPORALITY_SHORTNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "短"
+          },
+          {
+            "name": "CHINESE_CAUSALITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "造成"
+          },
+          {
+            "name": "CHINESE_CONSEQUENCE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "后果性"
+          },
+          {
+            "name": "CHINESE_HUMAN_INTENTION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "人类"
+          },
+          {
+            "name": "CHINESE_COMMUNICATION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "沟通"
+          },
+          {
+            "name": "CHINESE_SELF_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "自我"
+          },
+          {
+            "name": "CHINESE_COGNITION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "认知"
+          },
+          {
+            "name": "CHINESE_BENEFIT_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "益处"
+          },
+          {
+            "name": "CHINESE_HAPPINESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "快乐"
+          },
+          {
+            "name": "CHINESE_SADNESS_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "悲伤"
+          },
+          {
+            "name": "CHINESE_ANGER_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "生气"
+          },
+          {
+            "name": "CHINESE_DISGUST_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "厌恶"
+          },
+          {
+            "name": "CHINESE_FEAR_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "害怕"
+          },
+          {
+            "name": "CHINESE_SURPRISE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "惊讶"
+          },
+          {
+            "name": "CHINESE_MOTIVATION_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "驱动力"
+          },
+          {
+            "name": "CHINESE_NECESSITY_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "需要"
+          },
+          {
+            "name": "CHINESE_SALIENCE_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "注意力"
+          },
+          {
+            "name": "CHINESE_AROUSAL_MEAN",
+            "datatype": { "base": "float", "minimum": 0, "maximum": 7 },
+            "titles": "唤醒"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Wang-2022-AffectiveRatings.tsv"
+    }
+  ]
+}
