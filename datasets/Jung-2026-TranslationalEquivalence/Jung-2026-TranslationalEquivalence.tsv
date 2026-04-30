@@ -1,0 +1,206 @@
+CONCEPTICON_ID	CONCEPTICON_GLOSS	KOREAN	ENGLISH	KOREAN_ENGLISH_TRANSLATIONAL_EQUIVALENCE	ENGLISH_POS	LINE_IN_SOURCE
+1000	ANXIETY	불안	anxiety	1	noun	1402
+1035	GOOD	좋다	good	1	adjective	514
+1072	PRISONER	사로잡힌	captive	1	adjective	238
+1090	BE BORN	비련의	suffering	1	adjective	19
+1092	HOPE	희망	hope	1	noun	1667
+1101	SUFFER	시달리다	suffer	1	verb	657
+1120	HONEST	솔직하다	honest	1	adjective	650
+1129	PAINFUL	괴롭다	painful	1	adjective	176
+1140	FATIGUE	피곤함	fatigue	1	noun	1745
+1141	PITY	연민	pity	1	noun	1116
+1147	PURE	순수하다	pure	1	adjective	656
+1202	BIG	대단하다	great	1	adjective	613
+1203	LONG	열망하다	long	1	verb	2290
+1230	DIRTY	지저분하다	dirty	1	adjective	711
+1231	NEW	새로운	new	1	adjective	763
+1232	WARM	따뜻함	warm	1	noun	1686
+1246	SMALL	소소한	small	1	adjective	644
+1271	DELIGHT	낙	delight	1	noun	1231
+1308	DOUBT	의혹	doubt	1	noun	1606
+1319	COWARD	겁쟁이	coward	1	noun	1860
+1325	FRIEND	친구	friend	1	noun	1904
+1326	DOWN	우울하다	down	1	adjective	976
+1330	DEFEND	수비	defense	1	noun	1875
+1338	PEACE	평안	peace	1	noun	1566
+134	FAULT	죄의식	guilt	1	noun	1637
+1361	TOOL	쓰라림	wrench	1	noun	1705
+1367	CROSS	짜증난	cross	1	adjective	857
+1406	FAR		distant	0	adjective	886
+1419	FEAR (BE AFRAID)	겁내다	fear	1	verb	2020
+1427	BEAUTIFUL	아름답다	beautiful	1	adjective	597
+1429	FULL	든든하다	full	1	adjective	617
+143	HUMID	촉촉하다	moist	1	adjective	717
+1438	FOOL	바보	fool	1	noun	1903
+145	SORROWFUL	처연하다	sorrowful	1	adjective	428
+1452	PUSH	재촉	push	1	noun	1765
+1495	HAPPY	행복하다	happy	1	adjective	136
+150	WORRY	염려하다	worry	1	verb	2011
+1518	STUPID	멍청한	stupid	1	adjective	1025
+1520	CRUSH		crush	0	noun	1868
+1528	FORGIVE	용서하다	forgive	1	verb	2293
+1552	GLOOMY	침울하다	gloomy	1	adjective	390
+1562	MIND	꺼리다	mind	1	verb	2125
+1564	LAZY	귀찮다	lazy	1	adjective	179
+1572	SURPRISED	놀란	surprised	1	adjective	1027
+1607	HATE	혐오하다	hate	1	verb	2193
+1624	EMPTY	허전하다	empty	1	adjective	174
+1651	TEAR (OF EYE)	눈물	tear	1	noun	1323
+1668	GRIEF	비애	grief	1	noun	1513
+1679	LOAD	부담스러움	burden	1	noun	1695
+1682	GUILTY	죄스럽다	guilty	1	adjective	553
+1687	PRAISE	칭찬	praise	1	noun	1780
+1735	TEAR (SHRED)	눈물짓다	tear	1	verb	1324
+174	PROUD	자랑스럽다	proud	1	adjective	529
+1757	TIRED	피곤하다	tired	1	adjective	732
+1771	TASTELESS	싱겁다	insipid	1	adjective	757
+1773	GRAVE	침통하다	grave	1	adjective	391
+1774	STINGY	탐욕스러운	avaricious	1	adjective	680
+1776	SHAME	자괴	shame	1	noun	1413
+1779	DARE	모험	dare	1	noun	1869
+1783	PAIN	고통	pain	1	noun	1282
+1784	WANT	원하다	want	1	verb	2301
+1810	DANGER	위험	danger	1	noun	1769
+1814	ACCUSE	탓하다	accuse	1	verb	2265
+1815	ACHE	아림	ache	1	noun	1553
+1820	BEAR	참다	bear	1	verb	2308
+1826	ANGRY	성난	angry	1	adjective	72
+1839	CRY	울다	cry	1	verb	2145
+1856	SOFT	부드럽다	soft	1	adjective	636
+1861	ACTIVE	활발하다	active	1	adjective	755
+1863	AMAZING	굉장하다	amazing	1	adjective	591
+1875	REGRET	유감스러운	sorry	1	adjective	253
+1880	PASSIONATE	격정적인	passionate	1	adjective	2052
+1893	QUAIL	주눅들다	quail	1	verb	1995
+1899	MAD	노엽다	mad	1	adjective	93
+1954	GENTLE	온화하다	gentle	1	adjective	914
+1955	GRIEVE	애도하다	mourn	1	verb	1989
+196	DONATE	베풀다	give	1	verb	2320
+1976	MERRY	흥겹다	merry	1	adjective	134
+1983	SNORE	코웃음	snort	1	noun	1481
+2008	RESCUE	아끼다	save	1	verb	2324
+2016	JEALOUSY	질투심	jealousy	1	noun	1534
+2109	FEAR OR FRIGHTEN	혼비백산하다	be frightened	1	verb	2143
+215	LIE DOWN	거짓말하는	lying	1	adjective	964
+2157	FINE OR THIN	괜찮다	fine	1	adjective	584
+2191	LOW (HEIGHT)	낮은	low	1	adjective	961
+2192	REJOICE	희희낙락하다	rejoice	1	verb	2063
+2216	BECOME NUMB	무감각하다	numb	1	adjective	991
+2223	BE ANGRY	성나다	be angry	1	verb	2025
+2233	LOVELY	사랑스럽다	lovely	1	adjective	340
+2271	THINK	생각	think	1	noun	1038
+2272	HOT OR WARM	뜨끔하다	hot	1	adjective	230
+2316	FREE	자유롭다	free	1	adjective	704
+2328	MISS (SOMEBODY)	보고싶다	miss	1	verb	2285
+2335	CUNNING	교활함	cunning	1	noun	850
+24	PRAY	기원하다	pray	1	verb	2278
+243	FRESH	싱싱하다	fresh	1	adjective	662
+2465	DISGUST	역겨움	disgust	1	noun	1444
+2470	DEAR	친애하는	beloved	1	adjective	545
+2483	COLD (OF WEATHER)	선선하다	cool	1	adjective	639
+2507	DISGUSTING	역겹다	disgusting	1	adjective	377
+2524	JOY	희	joy	1	noun	1219
+2553	MISERY	비참	misery	1	noun	1125
+2559	FEEL (TACTUALLY)	느끼다	feel	1	verb	2282
+257	WORSHIP	찬양하다	worship	1	verb	2307
+258	CALM	담담하다	calm	1	adjective	255
+26	UNPLEASANT	불쾌하다	unpleasant	1	adjective	459
+270	JUG	거슬림	jar	1	noun	1550
+2712	GET DIZZY	아찔하다	dizzy	1	adjective	484
+2715	DESPISE	경멸	despise	1	noun	1451
+2716	BLAME (SOMEBODY)	질책하다	blame	1	verb	2260
+2758	CAREFUL	조심스럽다	cautious	1	adjective	817
+2821	JEALOUS	질투하는	jealous	1	adjective	941
+2826	LIE (FALSEHOOD)	거짓말	lie	1	noun	1926
+2869	BOTHER (HARASS)	성가심	bother	1	noun	1834
+2919	STILL (CONTINUING)	잔잔하다	still	1	adjective	702
+2941	HAPPINESS	행복	happiness	1	noun	1240
+2960	LONGING (WISH)	욕구	desire	1	noun	1713
+2975	THOUGHT	사려	thought	1	noun	1851
+3	BRAVE	용감하다	brave	1	adjective	812
+3002	PRECIOUS	소중하다	precious	1	adjective	647
+3005	FAMILIAR	친근하다	familiar	1	adjective	726
+3033	SCARED	겁먹은	scared	1	adjective	1017
+3049	COURAGE	용기	courage	1	noun	1859
+3053	TIGHT	긴장한	tense	1	adjective	222
+3197	SUSPICION	의혹	suspicion	1	noun	1605
+320	LAME	재미없다	lame	1	adjective	139
+3204	INSULT	굴욕	insult	1	noun	1425
+3425	JOKE	농담	joke	1	noun	1925
+3468	KINDNESS	친절	kindness	1	noun	1743
+3616	FAINT (PASS OUT)	아련하다	faint	1	adjective	466
+3629	HESITATE	망설이다	hesitate	1	verb	2134
+3632	GENEROUS	너그럽다	generous	1	adjective	913
+3633	CURIOUS		curious	0	adjective	861
+3639	AVOID	꺼리다	avoid	1	verb	2127
+3667	LOST	잃어버린	lost	1	adjective	958
+3673	MOURNING	애도	mourning	1	noun	1587
+3701	HOLLOW	공허하다	hollow	1	adjective	925
+3708	FEELING SORE	쓰라리다	sore	1	adjective	669
+3735	NEAR (IN SPACE)	친근하다	close	1	adjective	727
+3749	HATE (LOATHING)	혐오	hate	1	noun	1439
+376	FRAGRANT	향기롭다	fragrant	1	adjective	750
+3761	EMOTIONAL	감개무량하다	emotional	1	adjective	36
+3762	SAFE	안전한	safe	1	adjective	1013
+3798	STINGER	아림	sting	1	noun	1552
+3805	SHY OR ASHAMED	남부끄럽다	ashamed	1	adjective	146
+381	BLAME	질책	blame	1	noun	1615
+3812	COWARDLY	겁이 많은	cowardly	1	adjective	848
+3834	LOVE (AFFECTION)	연정	love	1	noun	1410
+3837	ASTRINGENT	떫다	astringent	1	adjective	225
+3844	CONTEMPT	가증스러움	contempt	1	noun	1130
+3845	DISAPPOINTMENT	낙망	disappointment	1	noun	1247
+3846	EXCITEMENT	들뜸	excitement	1	noun	1241
+3847	INTEREST (FEELING)	흥미	interest	1	noun	1656
+3848	SURPRISE (FEELING)	신기함	surprise	1	noun	1702
+3849	TRIUMPH	승리	triumph	1	noun	1804
+385	RESPECT (SOMEBODY)	존중	respect	1	noun	1798
+3854	SADNESS	슬픔	sadness	1	noun	1511
+3858	CONFUSED	혼란스럽다	confused	1	adjective	837
+3869	ANXIOUS	조마조마하다	anxious	1	adjective	164
+3877	DEPRESSION	우울	depression	1	noun	1949
+3885	IMPATIENT	안달하는	impatient	1	adjective	934
+39	KEEN	열렬하다	keen	1	adjective	951
+3902	TRUST (SOMEBODY)	신뢰	trust	1	noun	1792
+3903	SYMPATHIZE	동정하다	sympathize	1	verb	2001
+3915	PRIDE	자랑스러움	pride	1	noun	528
+3955	HOSTILITY	반감	hostility	1	noun	1428
+3967	CONTENT	만족하는	content	1	adjective	1014
+3972	EXCITED	흥분한	excited	1	adjective	409
+3973	DEPRESSED	우울하다	depressed	1	adjective	492
+3974	UNHAPPY	불행하다	unhappy	1	adjective	328
+3975	NERVOUS	떨리는	nervous	1	adjective	160
+40	ENVY	시샘하다	envy	1	verb	443
+41	IGNORE	무시하다	ignore	1	verb	2284
+45	EVIL	악하다	evil	1	adjective	674
+484	CONDEMN	멸시하다	condemn	1	verb	2209
+487	SHY	부끄럽다	shy	1	adjective	343
+500	CRUEL	잔인하다	cruel	1	adjective	705
+509	CERTAIN	확신하는	certain	1	adjective	818
+51	SORE	아픔	sore	1	noun	1760
+528	DREADFUL	공포스럽다	fearful	1	adjective	70
+583	KIND OR POLITE	친절하다	kind	1	adjective	952
+584	DIFFICULT	힘겹다	difficult	1	adjective	735
+600	STRANGE	의아하다	strange	1	adjective	526
+643	NEED (NOUN)	욕구	need	1	noun	1932
+679	BRIGHT	해맑다	bright	1	adjective	748
+686	EASY	거뜬하다	easy	1	adjective	4
+698	WISE	지혜롭다	wise	1	adjective	713
+699	SAD	슬프다	sad	1	adjective	430
+717	SWEET	감미롭다	sweet	1	adjective	48
+720	GOOD LUCK	행운	luck	1	noun	1782
+722	ATTACK	공격	attack	1	noun	1833
+75	DISGRACE	수치	disgrace	1	noun	1501
+754	HURRY	급함	hurry	1	noun	1917
+781	FEAR (FRIGHT)	겁	fear	1	noun	1166
+783	VICTORY	승리	victory	1	noun	1803
+82	ANGER	성	anger	1	noun	1186
+833	ENDURE	참다	endure	1	verb	2309
+837	BLUE	우울하다	blue	1	adjective	1069
+845	MURDER	살인	murder	1	noun	1930
+887	BITTER	씁쓸하다	bitter	1	adjective	457
+897	SWALLOW	참다	swallow	1	verb	2311
+90	INNOCENT	순수하다	innocent	1	adjective	655
+905	BORING	재미없다	boring	1	adjective	138
+923	LOVE	사랑하다	love	1	verb	2184
+940	STRAIN	긴장	strain	1	noun	1305

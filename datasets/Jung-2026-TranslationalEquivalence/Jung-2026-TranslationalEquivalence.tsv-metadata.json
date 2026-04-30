@@ -1,0 +1,65 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of translational equivalence between Korean and English by Jung et al. (2026).",
+  "dc:source": "https://github.com/yoonwonj/EVOKE/blob/main/Korean_English_mappings/Emotion_Words_Combined_Clean.csv",
+  "dc:references" : "Jung2026",
+  "dcat:keyword": ["ratings", "equivalence", "bilingual", "Korean", "English"],
+  "dc:description": "An automated mapping of translational equivalence ratings between Korean and English words submitted with the study of Jung et al. (2026) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "KOREAN",
+            "datatype": "string",
+            "titles": "Korean_Word"
+          },
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "English_Word"
+          },
+          {
+            "name": "KOREAN_ENGLISH_TRANSLATIONAL_EQUIVALENCE",
+            "datatype": { "base": "integer", "minimum": 0, "maximum": 1 },
+            "titles": "Translational_Equivalence"
+          },
+          {
+            "name": "ENGLISH_POS",
+            "datatype": { "base": "string", "format": "adjective|noun|verb"},
+            "titles": "POS"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Jung-2026-TranslationalEquivalence.tsv"
+    }
+  ]
+}
