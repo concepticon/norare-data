@@ -10,9 +10,8 @@ def download(dataset):
     save_dir.mkdir(parents=True, exist_ok=True)
 
     ctx = ssl.create_default_context(ssl.Purpose.SERVER_AUTH)
-    ctx.options |= 0x4  # keep your existing SSL setting
+    ctx.options |= 0x4 
 
-    # IMPORTANT: add browser header + Request wrapper
     req = Request(URL, headers={"User-Agent": "Mozilla/5.0"})
 
     with urlopen(req, context=ctx) as resp:
