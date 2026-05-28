@@ -1260,3 +1260,6 @@ Wang-2022-AffectiveRatings	CHINESE_AROUSAL_MEAN	mean	arousal		ratings	users	zh		
 MartinezTomas-2026-AffectiveRatings	SPANISH_VALENCE_MEAN	mean	valence		ratings	users	es		The mean rating of valence on a 9-point scale (1 = very unhappy,  9 = very happy).
 MartinezTomas-2026-AffectiveRatings	SPANISH_AROUSAL_MEAN	mean	arousal		ratings	users	es		The mean rating of arousal on a 9-point scale (1 = very calm,  9 = very active).
 Jung-2026-TranslationalEquivalence	KOREAN_ENGLISH_TRANSLATIONAL_EQUIVALENCE	numeric	translational equivalence		ratings	users	ko		Translational equivalence is encoded as a binary variable: 0 = a translational equivalent exists in both languages (no lexical gap), 1 = no translational equivalent exists (lexical gap). Ratings were given by two bilingual speakers of Korean and English.
+Feng-2026-Frequency	CHINESE_FREQUENCY_PM	numeric	frequency	per million	norms	corpus	zh		The frequency per million spoken words.
+Feng-2026-Frequency	CHINESE_FREQUENCY_LOG	logarithmic	frequency		norms	corpus	zh		The log10 of spoken word frequency. 
+Feng-2026-Frequency	CHINESE_FREQUENCY_LOG_ZIPF	logarithmic	frequency	zipf	norms	corpus	zh		Logarithmic word frequency based on the Zipf scale.
