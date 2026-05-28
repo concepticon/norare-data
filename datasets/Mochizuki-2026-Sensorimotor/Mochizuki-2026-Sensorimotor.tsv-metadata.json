@@ -1,0 +1,75 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Ratings of body-object interaction of 5,637 Japanese words by Mochizuki & Ota (2026)",
+ "dc:source": "https://osf.io/gkjmc/files/jsmd9",
+  "dc:references" : "Mochizuki2026",
+  "dcat:keyword": ["body-object interaction", "sensorimotor", "ratings", "Japanese"],
+  "dc:description": "An automated mapping of body-object interaction (BOI) ratings of 5,637 Japanese words submitted with the study by Mochizuki & Ota (2026) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "JAPANESE",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "EngTranslation"
+          },
+          {
+            "name": "JAPANESE_POS",
+            "datatype": "string",
+            "titles": "PartOfSpeech"
+          },
+          {
+            "name": "JAPANESE_BOI_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "meanBOI"
+          },
+          {
+            "name": "JAPANESE_BOI_MIN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "minBOI"
+          },
+          {
+            "name": "JAPANESE_BOI_MAX",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "maxBOI"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Mochizuki-2026-Sensorimotor.tsv"
+    }
+  ]
+}
