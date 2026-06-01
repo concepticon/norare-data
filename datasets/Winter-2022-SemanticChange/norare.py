@@ -4,37 +4,24 @@ from csvw.dsv import reader
 import json
 
 def download(dataset):
-    dataset.download_zip(
-        'https://github.com/concepticon/concepticon-data/archive/refs/heads/master.zip',
-        'concepticon-data-master.zip',
-        'concepticon-data-master/concepticondata/conceptlists/Winter-2022-98.tsv'
-    )
+    pass
 
 
 def map(dataset, concepticon, mappings):
     # Load the Winter-2022-98 concept list from the raw folder inside the downloaded zip
-    winter = models.Conceptlist.from_file(
-        dataset.raw_dir / "concepticon-data-master" / "concepticondata" / "conceptlists" / "Winter-2022-98.tsv"
-    )
+    winter = concepticon.conceptlists["Winter-2022-98"]
     
     # Prepare dictionaries to hold related concepts by ID
     target_concepts = {concept.id: [] for concept in winter.concepts.values()}
     source_concepts = {concept.id: [] for concept in winter.concepts.values()}
     linked_concepts = {concept.id: [] for concept in winter.concepts.values()}
 
-    # Helper to parse the JSON-like strings in the TSV fields, fallback to empty list
-    def parse_json_field(field):
-        try:
-            return json.loads(field) if field else []
-        except json.JSONDecodeError:
-            return []
-
     # For each concept, fill the relationships
     for concept in winter.concepts.values():
         # Parse the fields from the original TSV attributes
-        tc = parse_json_field(concept.attributes.get("target_concepts", "[]"))
-        sc = parse_json_field(concept.attributes.get("source_concepts", "[]"))
-        lc = parse_json_field(concept.attributes.get("linked_concepts", "[]"))
+        tc = concept.attributes.get("target_concepts", "[]")
+        sc = concept.attributes.get("source_concepts", "[]")
+        lc = concept.attributes.get("linked_concepts", "[]")
         
         target_concepts[concept.id] = tc
         source_concepts[concept.id] = sc
