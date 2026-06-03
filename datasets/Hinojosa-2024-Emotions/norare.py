@@ -3,8 +3,8 @@ from urllib.request import urlopen, Request
 from pathlib import Path
 
 def download(dataset):
-    URL = "https://ndownloader.figshare.com/files/36434421"
-    FILE_NAME = "CROWD-5e.xlsx"
+    URL = "https://ndownloader.figshare.com/files/38169297"
+    FILE_NAME = "Norms for 9,000 Spanish words in seven discrete positive emotions.csv"
 
     save_dir = Path(__file__).resolve().parent / "raw"
     save_dir.mkdir(parents=True, exist_ok=True)
@@ -22,14 +22,11 @@ def download(dataset):
     with open(file_path, "wb") as f:
         f.write(content)
 
-def map(dataset, concepticon, mappings):   
-    sheet_list = dataset.get_excel('CROWD-5e.xlsx', 1, dicts=False)
-    sheet = [dict(zip(sheet_list[0], row)) for row in sheet_list[1:]] 
-
+def map(dataset, concepticon, mappings):    
     dataset.extract_data(
-        sheet,
+        dataset.get_csv('Norms for 9,000 Spanish words in seven discrete positive emotions.csv', delimiter=";"),
         concepticon,
         mappings,
-        gloss='ENGLISH',
-        language='en'
-    )
+        gloss='SPANISH',
+        language='es'
+    )    
