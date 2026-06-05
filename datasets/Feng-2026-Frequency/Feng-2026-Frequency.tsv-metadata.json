@@ -1,0 +1,70 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of frequency measures by Feng et al. (2026).",
+  "dc:source": "https://www.scidb.cn/en/s/Vb6vIb#p2",
+  "dc:references" : "Feng2026",
+  "dcat:keyword": ["frequency", "child speech", "spoken language", "Chinese"],
+  "dc:description": "An automated mapping of of frequency measures from the Chinese Preschool Children’s Spoken Lexical Database (CPCSLD) submitted with the study of Feng et al. (2026) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CHINESE",
+            "datatype": "string",
+            "titles": "words"
+          },
+          {
+            "name": "CHINESE_POS",
+            "datatype": "string",
+            "titles": "type"
+          },
+          {
+            "name": "CHINESE_FREQUENCY_PM",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1000000},
+            "titles": "frequency_per_million"
+          },
+          {
+            "name": "CHINESE_FREQUENCY_LOG",
+            "datatype": "float",
+            "titles": "log_frequency_per_million"
+          },
+          {
+            "name": "CHINESE_FREQUENCY_LOG_ZIPF",
+            "datatype": "float",
+            "titles": "Zipf"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Feng-2026-Frequency.tsv"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Specificity ratings for 8,513 English words by Muraki & Pexman (2026)",
+  "dc:source": "https://osf.io/bz635/files/a7tzg?view_only=4a39331890a4453cac833aa5f1c584d2",
+  "dc:references" : "Muraki2026",
+  "dcat:keyword": ["specificity", "ratings", "best-worst", "English"],
+  "dc:description": "An automated mapping of the specificity ratings of 8,513 English words submitted with the study by Muraki & Pexman (2026) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "ENGLISH_POS",
+            "datatype": "string",
+            "titles": "PoS"
+          },
+          {
+            "name": "ENGLISH_SPECIFICITY_MEAN",
+            "datatype": {"base": "float", "minimum": -1, "maximum": 1},
+            "titles": "KM_Count"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Muraki-2026-Specificity.tsv"
+    }
+  ]
+}
