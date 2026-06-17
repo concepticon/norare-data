@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of utility ratings and familiarity scores by Wang et al. (2026).",
+  "dc:source": "https://osf.io/4nwgx/files/7w2tv",
+  "dc:references" : "Wang2026",
+  "dcat:keyword": ["ratings", "best-worst", "utility", "familiarity", "LLM", "English"],
+  "dc:description": "An automated mapping of utility ratings given by participants and familiarity scores given by GPT-4 submitted with the study of Wang et al. (2026) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "Word"
+          },
+          {
+            "name": "ENGLISH_UTILITY_MEAN",
+            "datatype": {"base": "float", "minimum": 0, "maximum": 1},
+            "titles": "Utility"
+          },
+          {
+            "name": "ENGLISH_FAMILIARITY_GPT_SCORE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 7.1},
+            "titles": "GPT_FAM"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Wang-2026-Utility.tsv"
+    }
+  ]
+}
