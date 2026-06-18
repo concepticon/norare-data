@@ -43,6 +43,7 @@ def map(dataset, concepticon, mappings):
                     "Weight": weight,
                 }]
         table.append(collections.OrderedDict([
+            ("ID", concept.id),
             ("CONCEPT_ID", concept.id),
             ('NUMBER', concept.number),
             ('ENGLISH', concept.english),
