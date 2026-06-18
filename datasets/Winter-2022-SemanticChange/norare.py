@@ -74,24 +74,8 @@ def map(dataset, concepticon, mappings):
                 graph[concept]["targets"] += [{
                     k: omar if k == "OvertMarking" else v for k, v in source_json.items()}]
             graph[concept]["linked"] += [links_json]
-    
-    ## Prepare dictionaries to hold related concepts by ID
-    #target_concepts = {concept.id: [] for concept in winter.concepts.values()}
-    #source_concepts = {concept.id: [] for concept in winter.concepts.values()}
-    #linked_concepts = {concept.id: [] for concept in winter.concepts.values()}
-
-    ## For each concept, fill the relationships
-    #for concept in winter.concepts.values():
-    #    # Parse the fields from the original TSV attributes
-    #    tc = concept.attributes.get("target_concepts", "[]")
-    #    sc = concept.attributes.get("source_concepts", "[]")
-    #    lc = concept.attributes.get("linked_concepts", "[]")
-    #    
-    #    target_concepts[concept.id] = tc
-    #    source_concepts[concept.id] = sc
-    #    linked_concepts[concept.id] = lc
-
-    # Build the output table with all fields required
+            
+     # Build the output table with all fields required
     table = []
     for concept in winter.concepts.values():
         row = collections.OrderedDict([
