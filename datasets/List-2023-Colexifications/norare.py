@@ -19,10 +19,7 @@ def download(dataset):
         obj.extractall(path=dataset.raw_dir)
 
 def map(dataset, concepticon, mappings):
-    base_dir = pathlib.Path(__file__).parent.resolve()
-    new_tsv_path = base_dir / "List-2023-1308.tsv"  # change this if your file has a different name
-
-    listdata = models.Conceptlist.from_file(new_tsv_path)
+    listdata = concepticon.conceptlists["List-2023-1308"] 
 
     # Initialize relationship dictionaries
     target_concepts = {concept.id: [] for concept in listdata.concepts.values()}
