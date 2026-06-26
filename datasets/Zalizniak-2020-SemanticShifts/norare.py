@@ -9,7 +9,7 @@ def download(dataset):
 
 def map(dataset, concepticon, mappings):
 
-    dss = concepticon.conceptlists["Zalizniak-2020-2590"]
+    dss = concepticon.conceptlists[dataset.concepticon]
 
     with UnicodeDictReader(dataset.raw_dir / "data.tsv", delimiter="\t") as reader:
         data = {}

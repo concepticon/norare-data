@@ -12,7 +12,7 @@ def download(dataset):
 
 def map(dataset, concepticon, mappings):
     # Load the Winter-2022-98 concept list from the raw folder inside the downloaded zip
-    winter = concepticon.conceptlists["Winter-2022-98"]
+    winter = concepticon.conceptlists[dataset.concepticon]
 
     # must correct for error in data
     correct = {
