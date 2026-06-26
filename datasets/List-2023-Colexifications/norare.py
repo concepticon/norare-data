@@ -6,19 +6,30 @@ import json
 import pathlib
 
 def download(dataset):
-    dataset.raw_dir.mkdir(parents=True, exist_ok=True)
 
-    zip_path = dataset.raw_dir / "graphs.zip"
+    dataset.download_zip(
+            "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
+            target="graphs.zip",
+            filename="colexification-affix.gml"
+            )
+    dataset.download_zip(
+            "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
+            target="graphs.zip",
+            filename="colexification-full.gml"
+            )
+    dataset.download_zip(
+            "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
+            target="graphs.zip",
+            filename="colexification-overlap.gml"
+            )
 
-    urlretrieve(
-        "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
-        str(zip_path)
-    )
 
-    with zipfile.ZipFile(zip_path, "r") as obj:
-        obj.extractall(path=dataset.raw_dir)
 
 def map(dataset, concepticon, mappings):
+
+    listdata = concepticon.conceptlists[dataset.concepticon]
+    print(listdata)
+    input()
     base_dir = pathlib.Path(__file__).parent.resolve()
     new_tsv_path = base_dir / "List-2023-1308.tsv"  # change this if your file has a different name
 
