@@ -12,7 +12,7 @@ def download(dataset):
 def map(dataset, concepticon, mappings):
 
     # load the concept list that we downloaded
-    urban = concepticon.conceptlists["Urban-2011-160"]
+    urban = concepticon.conceptlists[dataset.concepticon]
     
     # make dictionary to retrieve concepticon ID from the english values
     concept2id = {concept.english: concept.id for concept in urban.concepts.values()}
