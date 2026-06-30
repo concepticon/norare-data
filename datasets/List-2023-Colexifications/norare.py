@@ -53,24 +53,37 @@ def map(dataset, concepticon, mappings):
                 dataset.raw_dir / f"colexification-{g.name.lower()}.gml")
         for i, node in enumerate(graph.vs):
             data = node.attributes()
-            concepts[data["label"]] = collections.OrderedDict([
-                ('variety_count', int(data["variety_count"])),
-                ('language_count', int(data["language_count"])),
-                ('family_count', int(data["family_count"])),
-                ('linked_concepts', collections.defaultdict(functools.partial(node_dict, 'LINKED'))),
-                ('target_concepts', collections.defaultdict(functools.partial(node_dict, 'TARGET')))
-            ])
+            if data['label'] not in concepts:
+                concepts[data["label"]] = collections.OrderedDict([
+                    ('variety_count', int(data["variety_count"])),
+                    ('language_count', int(data["language_count"])),
+                    ('family_count', int(data["family_count"])),
+                    ('linked_concepts', collections.defaultdict(functools.partial(node_dict, 'LINKED'))),
+                    ('target_concepts', collections.defaultdict(functools.partial(node_dict, 'TARGET')))
+                ])
         for edge in graph.es:
+            if g.name == "Affix" and int(edge['family_count']) > 1:
+                sname, tname = graph.vs[edge.source]['label'], graph.vs[edge.target]['label']
+                target_idx = g2i[tname]
+                concepts[sname]['target_concepts'][target_idx]['ID'] = target_idx
+                concepts[sname]['target_concepts'][target_idx]['NAME'] = target_idx
+                concepts[sname]['target_concepts'][target_idx]['Affix-Vars'] = int(
+                        edge['variety_count'])
+                concepts[sname]['target_concepts'][target_idx]['Affix-Lngs'] = int(
+                        edge['language_count'])
+                concepts[sname]['target_concepts'][target_idx]['Affix-Fams'] = int(
+                        edge['family_count'])
             if ((g != Graphs.Overlap and int(edge["family_count"]) > 1)
                     or (g == Graphs.Overlap and int(edge["family_count"]) > 4)):
                 sname, tname = graph.vs[edge.source]["label"], graph.vs[edge.target]["label"]
-                jds = concepts[sname]['target_concepts' if g == Graphs.Affix else 'linked_concepts']
+                jds = concepts[sname]['target_concepts' if g.name == "Affix" else 'linked_concepts']
                 target_idx = g2i[tname]
                 jds[target_idx]["ID"] = target_idx
                 jds[target_idx]["NAME"] = tname
                 jds[target_idx][g.name + "Vars"] = int(edge["variety_count"])
                 jds[target_idx][g.name + "Lngs"] = int(edge["language_count"])
                 jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
+
                 if g != Graphs.Affix:
                     jds = concepts[tname]['linked_concepts']
                     target_idx = g2i[sname]
@@ -79,6 +92,8 @@ def map(dataset, concepticon, mappings):
                     jds[target_idx][g.name + "Vars"] = int(edge["variety_count"])
                     jds[target_idx][g.name + "Lngs"] = int(edge["language_count"])
                     jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
+                else:
+                    concepts[sname]['target_concepts'] = jds
     table = []
     for concept in listdata.concepts.values():
         row = collections.OrderedDict([
