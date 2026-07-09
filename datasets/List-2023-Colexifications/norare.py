@@ -1,48 +1,99 @@
-from urllib.request import urlretrieve
-import zipfile
 import collections
-from pyconcepticon import models
-import json
-import pathlib
+import igraph
+import enum
+import functools
+
+
+class Graphs(enum.Enum):  # We read data from three different CLICS graphs.
+    Full = 1
+    Affix = 2
+    Overlap = 3
+
+
+def node_dict(type_):  # The skeleton for a concept node.
+    res = {'ID': '', 'NAME': ''}
+    if type_ == 'LINKED':
+        res.update({'{}{}'.format(Graphs.Full.name, s): 0 for s in ['Vars', 'Lngs', 'Fams']})
+        res.update({'{}{}'.format(Graphs.Overlap.name, s): 0 for s in ['Vars', 'Lngs', 'Fams']})
+    else:
+        res.update({'{}{}'.format(Graphs.Affix.name, s): 0 for s in ['Vars', 'Lngs', 'Fams']})
+    return res
+
 
 def download(dataset):
-    dataset.raw_dir.mkdir(parents=True, exist_ok=True)
 
-    zip_path = dataset.raw_dir / "graphs.zip"
+    dataset.download_zip(
+            "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
+            target="graphs.zip",
+            filename="colexification-affix.gml"
+            )
+    dataset.download_zip(
+            "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
+            target="graphs.zip",
+            filename="colexification-full.gml"
+            )
+    dataset.download_zip(
+            "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
+            target="graphs.zip",
+            filename="colexification-overlap.gml"
+            )
 
-    urlretrieve(
-        "https://github.com/lingpy/pacs/raw/main/examples/colexifications-graphs.zip",
-        str(zip_path)
-    )
-
-    with zipfile.ZipFile(zip_path, "r") as obj:
-        obj.extractall(path=dataset.raw_dir)
 
 def map(dataset, concepticon, mappings):
-    base_dir = pathlib.Path(__file__).parent.resolve()
-    new_tsv_path = base_dir / "List-2023-1308.tsv"  # change this if your file has a different name
 
-    listdata = models.Conceptlist.from_file(new_tsv_path)
+    listdata = concepticon.conceptlists[dataset.concepticon]
+    c2i = {c.gloss: c.id for c in concepticon.conceptsets.values()}
+    g2i = {c.concepticon_gloss: c.id for c in listdata.concepts.values()}
 
-    # Initialize relationship dictionaries
-    target_concepts = {concept.id: [] for concept in listdata.concepts.values()}
-    linked_concepts = {concept.id: [] for concept in listdata.concepts.values()}
+    # iterate over graphs and read them with igraph
+    concepts = {}
+    for g in Graphs:
+        print(f"Reading Graph {g.name}")
+        graph = igraph.read(
+                dataset.raw_dir / f"colexification-{g.name.lower()}.gml")
+        for i, node in enumerate(graph.vs):
+            data = node.attributes()
+            if data['label'] not in concepts:
+                concepts[data["label"]] = collections.OrderedDict([
+                    ('variety_count', int(data["variety_count"])),
+                    ('language_count', int(data["language_count"])),
+                    ('family_count', int(data["family_count"])),
+                    ('linked_concepts', collections.defaultdict(functools.partial(node_dict, 'LINKED'))),
+                    ('target_concepts', collections.defaultdict(functools.partial(node_dict, 'TARGET')))
+                ])
+        for edge in graph.es:
+            if g.name == "Affix" and int(edge['family_count']) > 1:
+                sname, tname = graph.vs[edge.source]['label'], graph.vs[edge.target]['label']
+                target_idx = g2i[tname]
+                concepts[sname]['target_concepts'][target_idx]['ID'] = target_idx
+                concepts[sname]['target_concepts'][target_idx]['NAME'] = target_idx
+                concepts[sname]['target_concepts'][target_idx]['Affix-Vars'] = int(
+                        edge['variety_count'])
+                concepts[sname]['target_concepts'][target_idx]['Affix-Lngs'] = int(
+                        edge['language_count'])
+                concepts[sname]['target_concepts'][target_idx]['Affix-Fams'] = int(
+                        edge['family_count'])
+            if ((g != Graphs.Overlap and int(edge["family_count"]) > 1)
+                    or (g == Graphs.Overlap and int(edge["family_count"]) > 4)):
+                sname, tname = graph.vs[edge.source]["label"], graph.vs[edge.target]["label"]
+                jds = concepts[sname]['target_concepts' if g.name == "Affix" else 'linked_concepts']
+                target_idx = g2i[tname]
+                jds[target_idx]["ID"] = target_idx
+                jds[target_idx]["NAME"] = tname
+                jds[target_idx][g.name + "Vars"] = int(edge["variety_count"])
+                jds[target_idx][g.name + "Lngs"] = int(edge["language_count"])
+                jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
 
-    # JSON parsing helper
-    def parse_json_field(field):
-        try:
-            return json.loads(field) if field else []
-        except json.JSONDecodeError:
-            return []
-
-    # Populate relationship data
-    for concept in listdata.concepts.values():
-        tc = parse_json_field(concept.attributes.get("target_concepts", "[]"))
-        lc = parse_json_field(concept.attributes.get("linked_concepts", "[]"))
-        target_concepts[concept.id] = tc
-        linked_concepts[concept.id] = lc
-
-    # Construct output table
+                if g != Graphs.Affix:
+                    jds = concepts[tname]['linked_concepts']
+                    target_idx = g2i[sname]
+                    jds[target_idx]["ID"] = target_idx
+                    jds[target_idx]["NAME"] = sname
+                    jds[target_idx][g.name + "Vars"] = int(edge["variety_count"])
+                    jds[target_idx][g.name + "Lngs"] = int(edge["language_count"])
+                    jds[target_idx][g.name + "Fams"] = int(edge["family_count"])
+                else:
+                    concepts[sname]['target_concepts'] = jds
     table = []
     for concept in listdata.concepts.values():
         row = collections.OrderedDict([
@@ -51,11 +102,26 @@ def map(dataset, concepticon, mappings):
             ('CONCEPTICON_ID', concept.concepticon_id),
             ('CONCEPTICON_GLOSS', concept.concepticon_gloss),
             ('ENGLISH', concept.english),
-            ('FAMILY_COUNT', concept.attributes.get('family_count', '')),
-            ('LANGUAGE_COUNT', concept.attributes.get('language_count', '')),
-            ('VARIETY_COUNT', concept.attributes.get('variety_count', '')),
-            ('LINKED_CONCEPTS', linked_concepts[concept.id]),
-            ('TARGET_CONCEPTS', target_concepts[concept.id]),
+            (
+                'FAMILY_COUNT', 
+                concepts[concept.concepticon_gloss]["family_count"]
+                ),
+            (
+                'LANGUAGE_COUNT', 
+                concepts[concept.concepticon_gloss]["language_count"]
+                ),
+            (
+                'VARIETY_COUNT', 
+                concepts[concept.concepticon_gloss]["variety_count"]
+                ),
+            (
+                'LINKED_CONCEPTS', 
+                concepts[concept.concepticon_gloss]["linked_concepts"]
+                ),
+            (
+                'TARGET_CONCEPTS', 
+                concepts[concept.concepticon_gloss]["target_concepts"]
+                ),
         ])
         table.append(row)
 
