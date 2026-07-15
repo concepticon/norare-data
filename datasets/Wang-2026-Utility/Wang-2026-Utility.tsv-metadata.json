@@ -29,7 +29,7 @@
             "titles": "Word"
           },
           {
-            "name": "ENGLISH_UTILITY_MEAN",
+            "name": "ENGLISH_UTILITY_SCORE",
             "datatype": {"base": "float", "minimum": 0, "maximum": 1},
             "titles": "Utility"
           },
