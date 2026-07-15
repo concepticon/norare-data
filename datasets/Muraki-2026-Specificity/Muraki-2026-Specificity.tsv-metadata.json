@@ -34,7 +34,7 @@
             "titles": "PoS"
           },
           {
-            "name": "ENGLISH_SPECIFICITY_MEAN",
+            "name": "ENGLISH_SPECIFICITY_SCORE",
             "datatype": {"base": "float", "minimum": -1, "maximum": 1},
             "titles": "KM_Count"
           },

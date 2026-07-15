@@ -1,0 +1,416 @@
+CONCEPTICON_ID	CONCEPTICON_GLOSS	Kannada	ENGLISH	KANNADA_POS	KANNADA_AOA_MEAN	LINE_IN_SOURCE
+1008	BULL	ಬಸವನು	bull	noun	3.7	121
+102	COMMON COLD (DISEASE)	ಚಳಿಯು	cold	noun	3.19	175
+1030	NECESSARY	ಅವಶ್ಯಕವು	necessary	noun	4.89	88
+1035	GOOD	ಹಿತ	good	verb	4.53	345
+1039	SHOW	ತೋರಿಸು	show	verb	2.62	828
+1043	BRAID	ಜಡೆಯು	braid	noun	3.09	391
+1044	PILLOW	ದಿಂಬು	pillow	noun	2.49	219
+1045	POET	ಕವಿಯು	poet	noun	4.69	454
+1046	SHUT	ಮುಚ್ಚು	close	verb	2.62	551
+1048	LINE	ಗೆರೆಯು	line	noun	3.31	274
+1050	MOTHER-IN-LAW	ಅತ್ತೆಯು	mother in law	noun	3.12	66
+1055	FATHER-IN-LAW	ಮಾವನು	father in law	noun	3.3	513
+1085	FOLLOW	ಹಿಂಬಾಲಿಸು	follow	verb	3.99	343
+1096	SONG	ಹಾಡು	song	noun	2.31	298
+1117	LIKE	ಮೆಚ್ಚಿಕೊಳ್ಳು	like	verb	4.36	536
+1128	ORDER	ಆದೇಶ	order	verb	4.84	2
+1130	WE (EXCLUSIVE)	ನಾವು	we	pronoun	2.82	581
+1139	LEOPARD	ಚಿರತೆಯು	leopard	noun	3.32	191
+1140	FATIGUE	ಸುಸ್ತು	fatigue	verb	3.38	775
+1150	THUNDER	ಗುಡುಗು	thunder	noun	3.12	288
+1155	CAVE	ಗುಹೆಯು	cave	noun	3.93	290
+1158	STEP	ಹೆಜ್ಜೆಯು	step	noun	3.51	334
+1161	THREAD	ದಾರವು	thread	noun	3.23	200
+1165	MOUSTACHE	ಮೀಸೆಯು	moustache	noun	3.22	541
+1171	MIRROR	ಕನ್ನಡಿಯು	mirror	noun	3.01	436
+1174	YESTERDAY	ನಿನ್ನೆಯು	yesterday	noun	3.57	633
+119	DIVE	ಧುಮುಕು	dive	verb	4.24	215
+1199	WIFE	ಹೆಂಡತಿಯು	wife	noun	4.2	336
+1201	FEATHER	ಪುಕ್ಕವು	feather	noun	3.73	689
+1209	I	ನಾನು	I	pronoun	2.08	576
+1214	THIS	ಇದು	this	pronoun	2.51	370
+1216	MOTHER	ಅಮ್ಮನು	mother	noun	1.69	48
+1217	FATHER	ಅಪ್ಪನು	father	noun	1.84	60
+1218	ROPE	ತಂತಿಯು	string	noun	4.23	800
+1220	TAIL	ಬಾಲವು	tail	noun	2.84	96
+1225	DAY (NOT NIGHT)	ಹಗಲು	day time	noun	3.24	309
+1226	YEAR	ವರ್ಷವು	year	noun	3.85	867
+1228	EARTH (SOIL)	ಮಣ್ಣು	soil	noun	2.26	527
+1229	OLD	ಹಳತು	old	adjective	4.04	314
+1230	DIRTY	ಕೊಳಕು	dirty	adjective	3.16	471
+1231	NEW	ಹೊಸತು	new	adjective	3.57	354
+1233	NIGHT	ರಾತ್ರಿಯು	night	noun	2.96	700
+1235	WHO	ಯಾರು	who	pronoun	2.38	878
+1236	WHAT	ಏನು	what	pronoun	2.36	243
+1237	WHERE	ಎಲ್ಲಿ	where	adverb	2.65	249
+1247	EAR	ಕಿವಿಯು	ear	noun	2.47	467
+1248	EYE	ಕಣ್ಣು	eye	noun	1.77	438
+1251	BELLY	ಹೊಟ್ಟೆಯು	stomach	noun	2.62	355
+1252	HOUSE	ಮನೆಯು	house	noun	2.74	526
+1257	WING	ರೆಕ್ಕೆಯು	wing	noun	3.38	708
+1259	WEDDING	ಮದುವೆಯು	wedding	noun	3.74	516
+1271	DELIGHT	ದಯವಿಟ್ಟು	please	adverb	4.12	207
+1274	SALT	ಉಪ್ಪು	salt	noun	2.5	846
+1277	HAND	ಕೈಯು	hand	noun	2.69	423
+1278	VOMIT	ವಾಂತಿಯು	vomit	noun	3.26	861
+1285	IMPORTANT	ಮುಖ್ಯವು	important	adjective	4.46	561
+1286	HOT	ಬಿಸಿಯು	hot	adjective	2.66	164
+1289	BABY	ಮಗು	baby	noun	2.27	518
+1293	MISTAKE	ತಪ್ಪು	error	adjective	2.77	803
+1295	STICK	ಚಡಿಯು	stick	noun	4.65	172
+1297	LEG	ಕಾಲುಗಳು	legs	noun	2.77	411
+1298	NEWSPAPER	ಪತ್ರಿಕೆಯು	newspaper	noun	4	669
+1306	QUEEN	ರಾಣಿಯು	the queen	noun	3.41	699
+131	FESTIVAL	ಹಬ್ಬವು	festival	noun	3.34	306
+1312	FOX	ನರಿಯು	fox	noun	3.24	600
+1313	MOON	ಚಂದ್ರನು	moon	noun	2.59	177
+1323	CLOCK	ಗಡಿಯಾರವು	clock	noun	3.2	264
+1329	TOMORROW	ನಾಳೆಯು	tomorrow	noun	3.3	574
+133	WEAVE	ಹೆಣೆ	weave	verb	4.35	337
+1333	NECK	ಕತ್ತು	neck	noun	2.74	450
+1336	EAT	ತಿನ್ನು	eat	verb	1.97	821
+1339	MORNING	ಬೆಳಗ್ಗೆಯು	morning	noun	3.07	137
+1344	RAM	ಕುರಿಯು	sheep	noun	2.97	492
+1346	THROAT	ಗಂಟಲು	throat	noun	2.92	266
+1350	MONKEY	ಕೋತಿಯು 	monkey	noun	2.72	480
+1355	LAUGH	ನಗೆಯು	laugh	noun	3.32	586
+1356	NUMBER	ಅಂಕಿಯು	number	noun	3.95	53
+1357	DAUGHTER	ಮಗಳು	daughter	noun	3.14	517
+1360	DUCK	ಬಾತುಕೋಳಿಯು	duck	noun	3.05	100
+1363	VOICE	ಧ್ವನಿಯು	voice	noun	3.91	217
+1364	HEALTHY	ಆರೋಗ್ಯಕರವು	healthy	adjective	4.53	21
+1366	BOY	ಹುಡುಗನು	boy	noun	3.09	358
+1372	MEDICINE	ಔಷಧವು	medicine	noun	3	69
+1375	WINDOW	ಕಿಟಕಿಯು	window	noun	2.95	465
+1377	VISIT	ಭೇಟಿ	visit	verb	4.27	152
+138	BATHE	ಸ್ನಾನವು	bath	noun	2.65	756
+1380	TOOTH	ಹಲ್ಲು	tooth	noun	2.08	316
+1383	GRANDFATHER	ಅಜ್ಜನು	grandfather	noun	2.38	39
+1386	LION	ಸಿಂಹವು	lion	noun	2.93	752
+1388	SHADE	ನೆರಳು	shade	noun	3.28	613
+140	PADDY FIELD	ಹೊಲವು	field	noun	3.95	349
+1403	BITE	ಕಚ್ಚು	bite	verb	2.32	420
+1404	STRAIGHT	ನೆಟ್ಟಗೆಯು	straight	noun	4.49	616
+1405	NAME	ಹೆಸರು	name	noun	2.04	339
+1406	FAR	ದೂರವು	far	noun	3.65	233
+1407	BREATHE	ಉಸಿರಾಟವು	breathing	noun	4.18	848
+1415	THINK (REFLECT)	ಅನಿಸು	think	verb	4.35	52
+1416	SIT	ಕೂರುತ್ತಾ	sitting	verb	3.31	496
+1419	FEAR (BE AFRAID)	ಹೆದರಿಕೆ	fear	adverb	2.96	328
+1420	COUNT	ಎಣಿಸುತ್ತಾ	counting	verb	3.36	252
+1424	YELLOW	ಹಳದಿಯು	yellow	noun	3.09	313
+1425	GREEN	ಹಸಿರು	green	adjective	2.51	321
+1427	BEAUTIFUL	ಚಂದವು	beautiful	adjective	3.28	176
+1428	BURNING	ಸುಡುತ್ತಾ	burning	verb	3.66	767
+1430	STAR	ಚುಕ್ಕಿಯು	star	noun	3.43	196
+1435	HUNT	ಬೇಟೆಯಾಡುತ್ತಾ	hunting	verb	4.27	135
+1439	SWIM	ಈಜಾಡುತ್ತಾ	swimming	verb	3.62	372
+1441	FLY (MOVE THROUGH AIR)	ಹಾರುತ್ತಾ	flying	verb	2.96	305
+1442	STAND	ನಿಲ್ಲುತ್ತಾ	standing	verb	3.2	626
+1445	TURN (SOMETHING)	ತಿರುಗು	turn	verb	2.7	822
+1450	ROOM	ಕೊಠಡಿಯು	room	noun	3.97	482
+1458	SAY	ಹೇಳು	tell	verb	2.24	333
+1462	POT	ಮಡಕೆಯು	pot	noun	3.65	515
+1464	LADDER	ಏಣಿಯು	ladder	noun	3.27	242
+1468	LOOK FOR	ಹುಡುಕು	search	verb	2.77	359
+1477	KEEP	ಇಡು	keep	verb	2.51	369
+1480	BODY	ದೇಹವು	body	noun	3.92	208
+1486	PLANT (SOMETHING)	ನೆಡು	plant	verb	3.77	605
+1487	POUR	ಸುರಿ	pour	verb	3.28	774
+1489	CLOUD	ಮೋಡಗಳು	clouds	noun	3.58	546
+1494	DIE	ತೀರು	die	verb	4.92	817
+1496	GRANDMOTHER	ಅಜ್ಜಿಯು	grandmother	noun	2.32	40
+1501	BORE	ಬೇಸರ	bore	verb	3.92	132
+1508	KING	ಮಹಾರಾಜನು	king	noun	3.61	519
+1509	MOSQUITO	ಸೊಳ್ಳೆಯು	mosquito	noun	2.88	759
+1511	ROOSTER	ಹುಂಜವು	cock	noun	3.72	364
+1524	WINE	ದ್ರಾಕ್ಷಾರಸವು	wine	noun	4.7	226
+1526	MEAL	ಊಟವು	meal	noun	2.46	857
+153	GREY	ಬೂದು	gray	adjective	3.95	169
+1559	MONEY	ಹಣವು	money	noun	3.26	318
+156	RED	ಕೆಂಪು	red	adjective	2.47	458
+1560	FACE	ಮುಖವು	face	noun	2.62	560
+1562	MIND	ಬುದ್ಧಿಯು	mind	adjective	4.04	168
+1566	GUN	ಬಂದೂಕು	gun	noun	3.74	116
+1567	DOOR	ಬಾಗಿಲು	door	noun	2.08	94
+1579	BE	ಬದುಕುತ್ತಾ	living	verb	4.42	108
+1580	ONLY	ಮಾತ್ರ	only	adverb	3.53	511
+1585	SLEEP	ಮಲಗು	sleep	verb	2.05	522
+1592	CHEST	ಎದೆಯು	chest	noun	3.35	238
+1596	LOCK	ಬೀಗವು	lock	noun	3.36	158
+1600	SKIRT	ಲಂಗವು	skirt	noun	2.99	499
+1613	COLOR	ಬಣ್ಣವು	color	adjective	2.99	117
+1623	SPEAK	ಉದ್ಗರಿಸು	say	verb	5.11	836
+1628	SQUIRREL	ಅಳಿಲು	squirrel	noun	2.74	45
+1629	EVENING	ಸಂಜೆಯು	evening	noun	3.3	727
+1631	FAST	ಪುರ್ರನೆ 	quickly	adverb	3.96	690
+1632	FLOOR	ನೆಲವು	floor	noun	3.31	609
+1638	TRUTH	ನಿಜವು	truth	noun	3.84	624
+1644	RELATIVES	ನೆಂಟರು	relatives	noun	4.11	612
+1651	TEAR (OF EYE)	ಕಣ್ಣೀರು	tears	noun	2.97	437
+1659	DOLL	ಗೊಂಬೆಯು	doll	noun	2.45	278
+1667	HOLE	ತೆರೆಯುತ್ತಾ	opening	verb	3.81	813
+1676	ALWAYS	ಎಂದೆಂದಿಗೂ	always	adverb	4.61	250
+1684	BUD	ಚಿಗುರು	shoot	noun	4.07	185
+1726	WET	ಒದ್ದೆಯು	wet	adjective	3.34	647
+1732	SKY	ಆಕಾಶವು	sky	noun	2.77	7
+174	PROUD	ಜಂಭವು	proud	adjective	4.3	392
+1743	JOIN	ಸೇರುತ್ತಾ	unite	verb	3.95	737
+1758	OLDER SISTER	ಅಕ್ಕನು	elder sister	noun	2.39	42
+1759	OLDER BROTHER	ಅಣ್ಣನು	elder brother	noun	2.43	54
+176	BLOW (WITH MOUTH)	ಊದು	blow	verb	2.65	854
+1760	YOUNGER BROTHER	ತಮ್ಮನು	younger brother	noun	2.74	794
+1762	STONE (OF FRUIT)	ಕಲ್ಲು	stone	noun	2.15	428
+1775	TABLE	ಮೇಜು	table	noun	3.14	537
+1784	WANT	ಬಯಸು	wish	verb	4.7	125
+1786	DRY UP	ಒಣಗು	dry up	adjective	3.45	651
+1791	BUTTERFLY	ಚಿಟ್ಟೆಯು	butterfly	noun	2.92	194
+1793	BAT	ಬಾವಲಿಯು	bat	noun	3.92	101
+1803	WOOD	ಕಟ್ಟಿಗೆಯು	piece of wood	noun	3.69	448
+1810	DANGER	ಅಪಾಯ	danger	verb	3.66	58
+1811	SOUND OR NOISE	ಶಬ್ಧವು	sound	noun	3.34	741
+1812	TRY	ಪ್ರಯತ್ನಿಸು	try	verb	3.97	683
+1819	LOOK	ನೋಡು	look	verb	2.14	641
+1829	JUMP	ಕುಪ್ಪಳಿಸು	jump	verb	4.14	491
+1834	SHE	ಅವಳು	she	pronoun	2.76	76
+1839	CRY	ಅಳು	cry	verb	2.07	46
+1840	BUILD	ನಿರ್ಮಿಸು	build	verb	4.76	635
+1844	BOAT	ದೋಣಿಯು	boat	noun	3.39	223
+1845	BALL	ಚೆಂಡು	ball	noun	2.12	182
+1846	RULE	ನಿಯಮವು	rule	noun	4.81	639
+1853	DOVE	ಪಾರಿವಾಳವು	pigeon	noun	3.2	655
+1856	SOFT	ಮಿದು	soft	adjective	4.62	539
+1857	CROCODILE	ಮೊಸಳೆಯು	crocodile	noun	3.36	548
+1877	EAST	ಪೂರ್ವವು	east	noun	4.74	694
+1888	PAIR	ಜೋಡಿಯು	pair	noun	4.08	402
+1892	TOUCH	ಮುಟ್ಟು	touch	verb	2.36	567
+1895	CLOTHES	ಬಟ್ಟೆಗಳು	clothes	noun	3.01	122
+1898	SPECTACLES	ಲೋಟಗಳು	glasses	noun	3.05	503
+1903	SWELLING	ಊದಿಕೊಳ್ಳುತ್ತಾ	swelling	verb	4.45	853
+1909	SHAKE	ಅಲುಗಿಸು	shake	verb	4.2	47
+195	MAT	ಚಾಪೆಯು	mat	noun	3.01	171
+1963	IMMEDIATELY	ತಕ್ಷಣ	immediately	adverb	3.8	788
+1966	BUNCH	ಗೊಂಚಲು	bunch	noun	3.93	279
+197	OTHER	ಇನ್ನೊಂದು	other	pronoun	3.27	377
+1973	DEMON	ಭೂತವು	devil	noun	3.62	154
+1983	SNORE	ಗೊರಕೆಯು	snore	noun	3.8	282
+2	DUST	ಧೂಳು	dust	adjective	3.22	216
+2004	BEND	ಬಾಗು	bend	verb	3.53	95
+2006	FILL	ತುಂಬು	fill	verb	2.76	829
+2008	RESCUE	ಉಳಿಸು	save	verb	3.78	840
+2009	DOG	ನಾಯಿಯು	dog	noun	2.35	582
+2018	GREEDY	ಹಸಿಯುತ್ತಾ	starving	verb	3.81	322
+2033	DELIVER	ತಲುಪಿಸು	deliver	verb	4.14	791
+204	AGAIN	ಮತ್ತೆ	again	adverb	3.2	531
+2060	STORY	ಕಥೆಯು	story	noun	2.88	444
+2090	MY	ನನ್ನ	my	pronoun	2.16	598
+2092	HIS OR HER	ಅವನ	his	pronoun	2.86	77
+2093	AFTERWARDS	ಆಮೇಲೆ	afterwards	adverb	2.89	13
+2098	FOOT OR LEG	ಅಡಿಯು	foot	noun	4.39	36
+2099	CHILD	ಮಕ್ಕಳು	children	noun	3.08	521
+210	LIFE	ಪ್ರಾಣವು	life	noun	4.57	673
+2108	RAINING OR RAIN	ಮಳೆಯು	rain	noun	2.96	524
+2115	CEASE OR FINISH	ನಿಲ್ಲಿಸು	stop	verb	2.89	625
+2131	TORCH OR LAMP	ದೀಪವು	lamp	noun	2.96	218
+2139	MUROID (MOUSE OR RAT)	ಇಲಿಯು	rat	noun	2.8	374
+2144	SPRING OR WELL	ಬಾವಿಯು	well	noun	3.15	102
+2148	PICK	ಕಿತ್ತು	pluck	verb	3.24	466
+2155	CUT (WITH SCISSORS)	ಕತ್ತರಿಯು	scissor	noun	3.16	446
+2165	SLOWLY	ನಿಧಾನವಾಗಿ	slowly	adverb	3.28	618
+2183	RIGHT HAND	ಬಲಗೈ	right hand	noun	3.26	113
+2192	REJOICE	ನಲಿ	rejoice	verb	3.76	589
+2239	DENSE	ದಟ್ಟವು	dense	adjective	4.49	206
+2250	LEAF (LEAFLIKE OBJECT)	ಎಲೆಯು	leaf	noun	2.86	245
+2252	PATH	ಮಾರ್ಗವು	path	noun	4.27	508
+227	FISH	ಮೀನು	fish	noun	2.34	540
+230	SWEEP	ಗುಡಿಸು	sweep	verb	3.11	287
+2312	YOU (OBLIQUE CASE OF YOU)	ನೀನು	you	pronoun	2.2	621
+2336	OF THIS KIND (SUCH)	ಹೀಗಾಗಿ	so	adverb	4.36	342
+2350	EARTHWORM	ಕೀಟವು	worm	noun	3.57	463
+2374	DREAM	ಕನಸು	dream	noun	3.81	433
+238	PRAWNS	ಸಿಗಡಿಯು	shrimp	noun	4.81	747
+239	FLOWER	ಹೂ	flower	noun	2.12	366
+2400	THEIR	ಅವರ	their	pronoun	3.14	83
+2403	TOY	ಆಟಿಕೆಯು	toy	noun	2.99	26
+2409	BROWN	ಕಂದು	brown	adjective	3.28	434
+2422	SOMEONE	ಬೇರೆಯವರು	others	pronoun	3.65	130
+243	FRESH	ತಾಜವು	fresh	adjective	4.57	781
+244	LEFT	ಎಡಗಡೆಯು	left side	noun	4.04	236
+2457	PATH OR ROAD	ರಸ್ತೆಯು	road	noun	3.19	706
+2465	DISGUST	ಜಿಗುಪ್ಸೆಯು	disgust	noun	5.45	399
+2466	WEIGHT	ಭಾರವು	weight	adjective	3.36	147
+2467	GAME	ಆಟವು	game	noun	2.45	25
+2468	BAG	ಚೀಲವು	bag	noun	3.22	186
+2470	DEAR	ಅಚ್ಚುಮೆಚ್ಚು	beloved	adjective	4.28	29
+2474	HER (GENITIVE OF SHE)	ಅವಳ	her	pronoun	2.91	71
+248	HAPPEN	ಉಂಟಾಗು	happen	verb	4.49	843
+2482	TOGETHER	ಜೊತೆಯಾಗಿ	together	adverb	3.7	404
+2486	HIDE	ಅಡಗಿಸುತ್ತಾ	hiding	verb	4.35	30
+25	DIRT	ಕಲ್ಮಶವು	dirt	noun	5.3	429
+2516	WATER BUFFALO	ನೀರು	water	noun	1.76	622
+2549	VEHICLE	ವಾಹನವು	vehicle	noun	3.41	859
+2554	PRINCE (RULER)	ರಾಜಕುಮಾರನು	prince	noun	3.51	696
+256	FOOD	ಆಹಾರವು	food	noun	3.49	5
+2625	MAP	ಭೂಪಟವು	map	noun	4.65	153
+2642	HE OR SHE	ಅವನು	he	pronoun	2.62	82
+2653	NET (FOR CATCHING)	ಬಲೆಯು	net	noun	3.68	114
+2678	HAIR OR FUR	ಕೂದಲು	hair	noun	2.2	493
+269	COOKED	ಬೆಂದ	cooked	verb	4.32	141
+27	AIR	ಗಾಳಿಯು	air	noun	3.07	262
+2805	BIRTH (ACCOUCHEMENT)	ಜನ್ಮವು	birth	noun	4.78	394
+2816	ECHO	ಪ್ರತಿಧ್ವನಿಯು	echo	noun	5.07	681
+2826	LIE (FALSEHOOD)	ಸುಳ್ಳು	lie	noun	3.3	771
+2860	BOLT (MOVE IN HASTE)	ಧಾವಿಸು	rush	verb	4.76	211
+2873	MOVE (AFFECT EMOTIONALLY)	ನಡೆ	move	verb	2.72	583
+2876	ROAR (OF SEA)	ಘರ್ಜನೆ	roar	verb	4.08	275
+2882	ADD	ಕೂಡಿಸು	add	verb	3.41	494
+2886	PRODUCE	ಸೃಷ್ಟಿಸು	produce	verb	4.95	764
+2894	TUMBLE (FALL DOWN)	ಲಾಗ	tumble	verb	3.92	497
+2919	STILL (CONTINUING)	ಈಗಲೂ	still	noun	3.84	371
+2920	SUDDENLY	ಛಂಗನೆ	suddenly	adverb	4.42	184
+2926	HARDLY	ಗಟ್ಟಿಯಾಗಿ	hardly	adverb	3.35	270
+2933	CONVERSATION	ಮಾತು	talk	noun	2.49	512
+2934	CUCKOO	ಕೋಗಿಲೆಯು	cuckoo	noun	3.46	477
+2941	HAPPINESS	ಸಂತೋಷವು	happiness	adjective	3.58	730
+2950	MEANING	ಅರ್ಥವು	meaning	noun	4.14	65
+2955	STATE (POLITICS)	ರಾಜ್ಯವು	state	noun	4.5	698
+2960	LONGING (WISH)	ಆಸೆಯು	desire	noun	3.81	22
+2968	REASON	ಕಾರಣವು	reason	noun	4.32	414
+2972	SLEEP (STATE)	ನಿದ್ರೆಯು	sleep	noun	2.97	619
+2975	THOUGHT	ಕಲ್ಪನೆಯು	thought	noun	5.19	430
+2992	TIP (OF OBJECT)	ತಲೆಯು	head	noun	2.36	789
+2999	EVERYWHERE	ಎಲ್ಲೆಡೆ	everywhere	pronoun	4.43	248
+3020	BREAK (BREAKING)	ಮುರಿ	break	verb	2.97	565
+3033	SCARED	ಹೆದರಿಕೆಯು	scared	adjective	3.47	329
+3049	COURAGE	ಧೈರ್ಯವು	courage	noun	4.12	213
+3101	SWING	ಉಯ್ಯಾಲೆಯು	swing	noun	3.36	858
+3107	WHISTLE (INSTRUMENT)	ಸೀಟಿಯು	whistle	noun	3.93	751
+3134	TYPE (ON SOMETHING)	ರೀತಿಯು	type	noun	4.58	709
+3153	LORD	ಸ್ವಾಮಿಯು	lord	noun	4.09	778
+3222	TWIG	ಕೊಂಬೆಯು	twig	noun	3.86	473
+323	FAT (ORGANIC SUBSTANCE)	ದಪ್ಪವು	fat	adjective	3.24	205
+3276	SUNSHINE	ಬಿಸಿಲು	sunlight	noun	2.73	163
+3330	LENTILS	ಬೇಳೆಯು	lentil	noun	3.95	129
+3368	POWDER	ಪುಡಿಯು	powder	noun	3.66	688
+3382	PEACOCK	ನವಿಲು	peacock	noun	2.54	604
+3425	JOKE	ತಮಾಷೆಯು	joke	adjective	3.88	792
+3447	BEGIN OR START	ಪ್ರಾರಂಭಿಸು	begin	verb	3.72	675
+3458	SILENCE	ಮೌನವು	silence	noun	4.3	535
+3472	DANCE (MOVEMENT)	ನಾಟ್ಯವು	dance	noun	4.03	578
+35	TAMARIND	ಹುಣಸೆಯು	tamarind	noun	4	363
+3549	BIRD NEST	ಗೂಡು	nest	noun	3.04	297
+3621	DISABLED PERSON	ಕುಂಟನು	cripple	adjective	3.86	490
+3630	PLAN	ಯೋಜನೆಯು	plan	noun	5	883
+3634	STUBBORN	ಹಠಮಾರಿಯು	stubborn	adjective	4.12	324
+3639	AVOID	ತಪ್ಪಿಸು	avoid	verb	3.84	802
+3661	RICH PERSON	ಶ್ರೀಮಂತನು	rich man	noun	4.53	763
+3665	TRAVEL	ಸಂಚರಿಸು	travel	verb	4.58	725
+367	RIDE	ಸವಾರಿ	ride	verb	4.01	735
+3678	ELEPHANT TRUNK	ಸೊಂಡಿಲು	trunk	noun	2.96	760
+3704	ODOR (SMELL)	ವಾಸನೆಯು	smell	noun	2.99	863
+3705	SCATTER	ಕೆದರು	scatter	verb	4.19	455
+3732	POMEGRANATE	ದಾಳಿಂಬೆಯು	pomegranate	noun	3.11	199
+374	ONE TIME	ಒಮ್ಮೆ	once	adverb	3.55	649
+3809	SCREAM (PRODUCE A CRY)	ಕಿರುಚು	scream	verb	2.96	464
+3825	MALE CAT	ಬೆಕ್ಕು	cat	noun	1.85	136
+3826	ROE DEER	ಜಿಂಕೆಯು	deer	noun	3.04	400
+3848	SURPRISE (FEELING)	ಆಶ್ಚರ್ಯವು	surprise	adjective	4.36	23
+3854	SADNESS	ದುಃಖವು	sadness	noun	4.09	229
+3858	CONFUSED	ತಬ್ಬಿಬ್ಬಾಗಿ	confused	adverb	5.12	784
+3879	IMAGINE	ಊಹಿಸು	imagine	verb	4.81	855
+3897	NATURE	ಪ್ರಕೃತಿಯು	nature	noun	4.57	679
+3915	PRIDE	ಹೆಮ್ಮೆಯು	pride	adjective	4.91	335
+398	PIERCE	ಕೊರೆ	to pierce	verb	4.64	481
+3981	GUAVA	ಸೀಬೆಹಣ್ಣು	guava	noun	3.53	750
+3985	THOSE (PLURAL OF THAT)	ಅವು	those	pronoun	3.14	89
+399	PLANTAIN	ಬಾಳೆಯು	banana	noun	3.31	97
+4032	KITE (TOY)	ಗಾಳಿಪಟವು	kite	noun	2.96	261
+406	OLD MAN	ಮುದುಕನು	old man	noun	3.58	555
+420	FOREST	ಕಾಡು	forest	noun	3.04	406
+45	EVIL	ದುಷ್ಟನು	wicked	adjective	4.58	231
+453	RAINY SEASON	ಮಳೆಗಾಲವು	rainy season	noun	3.77	523
+492	THREE	ಮೂರು	three	noun	2.35	570
+501	LIFT	ಎತ್ತಿಕೊಳ್ಳು	lift	verb	2.76	259
+503	FROG	ಕಪ್ಪೆಯು	frog	noun	2.76	439
+504	LEARN	ಕಲಿ	learn	verb	3.09	427
+508	PERIOD	ಅವಧಿಯು	period	noun	4.86	70
+52	SHIVER	ನಡುಕವು	shiver	noun	4.39	585
+522	WOLF	ತೋಳವು	wolf	noun	3.65	826
+55	WHISPER	ಪಿಸುಗುಡು	whisper	verb	4.47	672
+574	TRANSIT	ದಾಟು	cross	verb	3.07	203
+584	DIFFICULT	ಕಷ್ಟ	difficult	verb	3.57	442
+593	POTATO	ಆಲುಗಡ್ಡೆಯು	potato	noun	3.3	11
+600	STRANGE	ವಿಚಿತ್ರವು	odd	adjective	4.58	871
+602	HIDE (CONCEAL)	ಬಚ್ಚಿಕೊಳ್ಳು	to hide	verb	3.5	104
+604	GLASS	ಗಾಜು	glass	noun	3.28	260
+606	GRASS	ಹುಲ್ಲು	grass	noun	2.66	361
+607	GRASSHOPPER	ಮಿಡತೆಯು	grasshopper	noun	4.19	538
+612	HEAT	ಸೆಖೆಯು	heat	noun	3.42	738
+613	HIGH TIDE	ನೆರೆಯು	flood	noun	4.89	615
+616	HOSPITAL	ಆಸ್ಪತ್ರೆಯು	hospital	noun	3.26	24
+619	ANIMAL	ಪ್ರಾಣಿಯು	animal	noun	3.14	674
+620	INSECT	ಹುಳು	insect	noun	2.72	362
+633	MARKET	ಸಂತೆಯು	market	noun	3.97	729
+635	MILK	ಹಾಲು	milk	noun	1.69	304
+639	MOUNTAIN	ಬೆಟ್ಟವು	hill	noun	3.46	146
+653	PLANT (VEGETATION)	ಗಿಡವು	plant	noun	2.91	276
+665	BEE	ದುಂಬಿಯು	bee	noun	4.01	230
+667	ROAD	ದಾರಿಯು	way	noun	3.35	201
+673	SCHOOL	ಶಾಲೆಯು	school	noun	2.91	739
+674	MOUTH	ಬಾಯಿಯು	mouth	noun	2.41	103
+677	AXE	ಮಚ್ಚು	axe	noun	3.92	514
+683	PERSON	ವ್ಯಕ್ತಿಯು	person	noun	4.23	876
+694	GET	ದೊರಕು	get	verb	4.47	225
+695	GO	ಹೋಗುತ್ತಾ	going	verb	3.11	351
+703	SOON	ಬೇಗ	soon	adverb	2.54	126
+704	CLEAN	ಶುಭ್ರವು	clean	adjective	4.55	745
+706	DARK	ಕತ್ತಲು	dark	noun	2.59	445
+709	TEACH	ಹೇಳಿಕೊಡು	to teach	verb	3.12	332
+710	WHEEL	ಚಕ್ರವು	wheel	noun	3.19	174
+711	TALL	ಎತ್ತರವು	tall	adjective	3.45	258
+715	SHOUT	ಗದರು	shout	verb	3.81	263
+717	SWEET	ಸಿಹಿಯು	sweet	adjective	2.77	749
+727	WHICH	ಯಾವ	which	pronoun	2.77	879
+728	FIRST	ಮೊದಲು	first	noun	3.14	543
+73	BEAK	ಕೊಕ್ಕು	beak	noun	3.14	470
+730	SNAKE	ನಾಗನು	snake	noun	4.08	573
+732	YOUR (SINGULAR)	ನಿಮ್ಮ	your	pronoun	2.97	629
+735	OWL	ಗೂಬೆಯು	owl	noun	3.51	296
+744	EGG	ಮೊಟ್ಟೆಯು	egg	noun	2.86	550
+771	HAT	ಟೋಪಿಯು	hat	noun	2.59	827
+777	FLUTE	ಕೊಳಲು	flute	noun	3.16	472
+78	THAT	ಅದನ್ನು	that	pronoun	3.18	32
+780	OUR	ನಮ್ಮ	our	pronoun	2.73	593
+781	FEAR (FRIGHT)	ಭಯವು	fear	noun	3.26	151
+789	PEOPLE	ಜನರು	people	noun	3.51	393
+79	WASTE	ಕಸವು	waste	noun	3.09	441
+790	READY	ತಯಾರು	ready	verb	3.65	809
+815	GOVERNMENT	ಸರ್ಕಾರವು	government	noun	5.11	733
+817	THEY	ಅವರು	they	pronoun	3	86
+82	ANGER	ಕೋಪವು	anger	noun	3.27	479
+846	TIGER	ಹುಲಿಯು	tiger	noun	2.97	360
+847	THIRSTY	ದಾಹವು	thirsty	noun	4.09	198
+850	SQUARE	ಜಾಗವು	place	noun	3.38	386
+862	SUGAR	ಸಕ್ಕರೆಯು	sugar	noun	2.81	718
+882	PARROT	ಗಿಣಿಯು	parrot	noun	3.01	277
+889	FLAME	ಬೆಂಕಿಯು	fire	noun	2.77	142
+892	TIME	ಸಮಯವು	time	noun	3.93	720
+895	TORTOISE	ಆಮೆಯು	tortoise	noun	3.04	14
+897	SWALLOW	ಕಬಳಿಸು	swallow	verb	5.04	419
+907	OLD WOMAN	ಮುದುಕಿಯು	old woman	noun	3.57	556
+913	CROW	ಕಾಗೆಯು	crow	noun	2.57	408
+920	GRAPE	ದ್ರಾಕ್ಷಿಯು	grape	noun	2.97	227
+924	VEGETABLES	ತರಕಾರಿಗಳು	vegetables	noun	3.12	805
+926	RICE	ಅಕ್ಕಿಯು	rice	noun	3.18	43
+928	EMBRACE	ತಬ್ಬು	hug	verb	3.81	785
+930	VILLAGE	ಹಳ್ಳಿಯು	village	noun	3.73	315
+935	WAR	ಯುದ್ಧವು	war	noun	4.64	885
+939	HORN (INSTRUMENT)	ಕೊಂಬು	horn	noun	3.07	474
+942	HONEY	ಜೇನು	honey	noun	3.2	397
+946	BLOOD	ರಕ್ತವು	blood	noun	3.18	705
+963	BOOK	ಪುಸ್ತಕವು	book	noun	2.93	691
+964	WOOL	ಉಣ್ಣೆಯು	wool	noun	4.92	842
+977	ARROW	ಬಾಣವು	arrow	noun	3.69	99
+979	FARMER	ರೈತನು	farmer	noun	3.77	702
+98	ALL	ಎಲ್ಲರೂ	all	pronoun	3.31	247
