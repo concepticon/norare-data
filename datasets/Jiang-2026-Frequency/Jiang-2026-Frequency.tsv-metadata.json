@@ -5,7 +5,7 @@
   "dc:source": "https://osf.io/ku4p9/files/xfubm",
   "dc:references" : "Jiang2026",
   "dcat:keyword": ["frequency", "Singapore English"],
-  "dc:description": "An automated mapping of of frequency measures from the National Speech Corpus (NSC) of Singapor English submitted with the study of Jiang & Siew (2026) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of frequency measures from the National Speech Corpus (NSC) of Singapore English submitted with the study of Jiang & Siew (2026) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -29,22 +29,22 @@
             "titles": "word"
           },
           {
-            "name": "SINGAPOR_ENGLISH_FREQUENCY_NSC",
+            "name": "SINGAPORE_ENGLISH_FREQUENCY",
             "datatype": "integer",
             "titles": "NSC_rawcount"
           },
           {
-            "name": "SINGAPOR_ENGLISH_FREQUENCY_ZIPF_NSC",
+            "name": "SINGAPORE_ENGLISH_FREQUENCY_ZIPF",
             "datatype": "float",
             "titles": "NSC_Zipf"
           },
           {
-            "name": "SINGAPOR_ENGLISH_CD_NSC",
+            "name": "SINGAPORE_ENGLISH_CD",
             "datatype": "integer",
             "titles": "NSC_CDcount"
           },
           {
-            "name": "SINGAPOR_ENGLISH_CD_PERCENTAGE_NSC",
+            "name": "SINGAPORE_ENGLISH_CD_PERCENTAGE",
             "datatype": "float",
             "titles": "NSC_CD"
           },
