@@ -29,7 +29,7 @@
             "titles": "WORD"
           },
           {
-            "name": "ENGLISH_VALENCE_MEAN",
+            "name": "ENGLISH_VALENCE_SCORE",
             "datatype": {"base": "float", "minimum": -1, "maximum": 1},
             "titles": "VALENCE"
           },
