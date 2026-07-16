@@ -1,11 +1,11 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of dominant emotion and intensity ratings by Mohammad (2018).",
-  "dc:source": "http://sentiment.nrc.ca/lexicons-for-research/",
-  "dc:references" : "Mohammad2018b",
-  "dcat:keyword": ["emotions", "intensity", "English"],
-  "dc:description": "An automated mapping of the dominant emotion and intensity ratings submitted with the study of Mohammad (2018) to the concept sets in Concepticon.",
+  "dc:title": "Automatic mapping of frequency measures by Jiang & Siew (2026).",
+  "dc:source": "https://osf.io/ku4p9/files/xfubm",
+  "dc:references" : "Jiang2026",
+  "dcat:keyword": ["frequency", "Singapore English"],
+  "dc:description": "An automated mapping of frequency measures from the National Speech Corpus (NSC) of Singapore English submitted with the study of Jiang & Siew (2026) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
@@ -27,16 +27,26 @@
             "name": "ENGLISH",
             "datatype": "string",
             "titles": "word"
-          }, 
-          {
-            "name": "ENGLISH_EMOTION_DOMINANT",
-            "datatype": {"base": "string", "format": "anger|anticipation|disgust|fear|joy|sadness|surprise|trust"},
-            "titles": "emotion"
           },
           {
-            "name": "ENGLISH_EMOTION_INTENSITY_SCORE",
-            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
-            "titles": "emotion-intensity-score"
+            "name": "SINGAPORE_ENGLISH_FREQUENCY",
+            "datatype": "integer",
+            "titles": "NSC_rawcount"
+          },
+          {
+            "name": "SINGAPORE_ENGLISH_FREQUENCY_ZIPF",
+            "datatype": "float",
+            "titles": "NSC_Zipf"
+          },
+          {
+            "name": "SINGAPORE_ENGLISH_CD",
+            "datatype": "integer",
+            "titles": "NSC_CDcount"
+          },
+          {
+            "name": "SINGAPORE_ENGLISH_CD_PERCENTAGE",
+            "datatype": "float",
+            "titles": "NSC_CD"
           },
           {
             "name": "LINE_IN_SOURCE",
@@ -54,7 +64,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Mohammad-2018-EmotionIntensity.tsv"
+      "url": "Jiang-2026-Frequency.tsv"
     }
   ]
 }
