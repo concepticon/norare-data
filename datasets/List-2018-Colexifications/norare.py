@@ -73,6 +73,7 @@ def map(dataset, concepticon, mappings):
 
         table += [collections.OrderedDict({
             "ID": concept.id,
+            "NUMBER": concept.id.split("-")[-1],
             "CONCEPTICON_ID": concept.concepticon_id,
             "CONCEPTICON_GLOSS": concept.concepticon_gloss,
             "ENGLISH": gloss,

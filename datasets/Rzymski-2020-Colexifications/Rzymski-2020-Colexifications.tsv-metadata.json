@@ -79,7 +79,7 @@
                     {
                         "datatype": "nonNegativeInteger",
                         "name": "WEIGHTED_LANGUAGE_DEGREE"
-                    }
+                    },
                     {
                         "datatype": "json",
                         "name": "LINKED_CONCEPTS"
