@@ -60,13 +60,14 @@ def map(dataset, concepticon, mappings):
         ff = graph.nodes[idx]["FamilyFrequency"]
         lf = graph.nodes[idx]["LanguageFrequency"]
         wf = graph.nodes[idx]["WordFrequency"]
+        english = graph.nodes[idx]["Gloss"]
 
         table += [collections.OrderedDict({
             "ID": concept_ids[idx],
             "NUMBER": concept_ids[idx].split("-")[-1],
             "CONCEPTICON_ID": idx,
             "CONCEPTICON_GLOSS": gloss,
-            "ENGLISH": gloss,
+            "ENGLISH": english,
             "FAMILY_FREQUENCY": int(ff),
             "LANGUAGE_FREQUENCY": int(lf),
             "WORD_FREQUENCY": int(wf),
