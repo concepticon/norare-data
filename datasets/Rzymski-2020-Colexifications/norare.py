@@ -30,7 +30,7 @@ def map(dataset, concepticon, mappings):
     ldeg = nx.degree(graph, weight='LanguageWeight')
 
     concepts = {lookup[c]: c for c in visited}
-    concept_ids = {cid: f"Rzymski-2020-{i + 1}" for i, cid in
+    concept_ids = {cid: f"Rzymski-2020-{len(lookup)}-{i + 1}" for i, cid in
                    enumerate(sorted(visited))}
     # calculate the json links
     links = {concept: [] for concept in concepts}
@@ -79,5 +79,7 @@ def map(dataset, concepticon, mappings):
             "WEIGHTED_LANGUAGE_DEGREE": int(fdeg[idx]),
             "LINKED_CONCEPTS": links[gloss]
             })]
+
+    table = sorted(table, key=lambda row: int(row["NUMBER"]))
     
     dataset.table.write(table)
