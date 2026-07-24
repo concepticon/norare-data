@@ -136,15 +136,15 @@ Ferre-2017-DiscreteEmotions	SPANISH_ANGER_MEAN	mean	anger		ratings	users	es		The
 Ferre-2017-DiscreteEmotions	SPANISH_SADNESS_MEAN	mean	sadness		ratings	users	es		The mean value of the ratings for the discrete emotion sadness on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_FEAR_MEAN	mean	fear		ratings	users	es		The mean value of the ratings for the discrete emotion fear on a 5-point scale.
 Ferre-2017-DiscreteEmotions	SPANISH_DISGUST_MEAN	mean	disgust		ratings	users	es		The mean value of the ratings for the discrete emotion disgust on a 5-point scale.
-Rzymski-2020-1624	FAMILY_FREQUENCY	cardinality	polysemy	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
-Rzymski-2020-1624	LANGUAGE_FREQUENCY	cardinality	polysemy	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
-Rzymski-2020-1624	WORD_FREQUENCY	cardinality	polysemy	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
-Rzymski-2020-1624	RANK	ordinality	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
-Rzymski-2020-1624	COMMUNITY	numeric	polysemy	community	relations	concept lists	en		This is the community identifier.
-Rzymski-2020-1624	CENTRAL_CONCEPT	numeric	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
-Rzymski-2020-1624	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the unweighted and weighted degree for each node.
-Rzymski-2020-1624	WEIGHTED_FAMILY_DEGREE	numeric	polysemy	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
-Rzymski-2020-1624	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weighted language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
+Rzymski-2020-Colexifications	FAMILY_FREQUENCY	cardinality	polysemy	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
+Rzymski-2020-Colexifications	LANGUAGE_FREQUENCY	cardinality	polysemy	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
+Rzymski-2020-Colexifications	WORD_FREQUENCY	cardinality	polysemy	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
+Rzymski-2020-Colexifications	RANK	ordinality	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
+Rzymski-2020-Colexifications	COMMUNITY	numeric	polysemy	community	relations	concept lists	en		This is the community identifier.
+Rzymski-2020-Colexifications	CENTRAL_CONCEPT	numeric	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
+Rzymski-2020-Colexifications	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the unweighted and weighted degree for each node.
+Rzymski-2020-Colexifications	WEIGHTED_FAMILY_DEGREE	numeric	polysemy	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
+Rzymski-2020-Colexifications	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weighted language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
 Wierzba-2015-DiscreteEmotions	POLISH_HAPPINESS_MEAN	mean	happiness		ratings	users	pl		Mean value for all valid responses on a 7-point scale in the emotional category happiness.
 Wierzba-2015-DiscreteEmotions	POLISH_ANGER_MEAN	mean	anger		ratings	users	pl		Mean value for all valid responses on a 7-point scale in the emotional category anger.
 Wierzba-2015-DiscreteEmotions	POLISH_SADNESS_MEAN	mean	sadness		ratings	users	pl		Mean value for all valid responses on a 7-point scale in the emotional category sadness.
@@ -621,16 +621,16 @@ List-2014-1280	FREQUENCY	cardinality	polysemy	frequency	relations	concept lists	
 List-2014-1280	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the number of concepts to which a given concept links.
 List-2014-1280	WEIGHTED_DEGREE	numeric	polysemy	weighted degree	relations	concept lists	en		This is the number of languages in which the concept links to any other concept.
 List-2014-1280	RANK	ordinality	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
-List-2018-1105	FAMILY_FREQUENCY	cardinality	polysemy	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
-List-2018-1105	LANGUAGE_FREQUENCY	cardinality	polysemy	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
-List-2018-1105	WORD_FREQUENCY	cardinality	polysemy	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
-List-2018-1105	RANK	ordinality	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
-List-2018-1105	COMMUNITY	numeric	polysemy	community	relations	concept lists	en		This is the community identifier.
-List-2018-1105	CENTRAL_CONCEPT	linguistic	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
-List-2018-1105	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the number of concepts to which a given concept links.
-List-2018-1105	WEIGHTED_FAMILY_DEGREE	numeric	polysemy	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
-List-2018-1105	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weighted language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
-Bolognesi-2022-Specificity	ITALIAN_SPECIFICITY_SCORE	numeric	specificity	best-worst	ratings	users	it		The values are based on specificity ratings collected from Italian speakers using the Best-Worst Scaling method and then converted into a 5-point scale (1-5) for better comparability.
+List-2018-Colexifications	FAMILY_FREQUENCY	cardinality	polysemy	family	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language families.
+List-2018-Colexifications	LANGUAGE_FREQUENCY	cardinality	polysemy	language	relations	concept lists	en		This is the number of times a translation for a given concept occurs across language varieties.
+List-2018-Colexifications	WORD_FREQUENCY	cardinality	polysemy	word	relations	concept lists	en		This is the number of times a translation for a given concept occurs for a given word.
+List-2018-Colexifications	RANK	ordinality	polysemy	rank	relations	concept lists	en		This is the rank based on the degree.
+List-2018-Colexifications	COMMUNITY	numeric	polysemy	community	relations	concept lists	en		This is the community identifier.
+List-2018-Colexifications	CENTRAL_CONCEPT	linguistic	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS3.
+List-2018-Colexifications	DEGREE	numeric	polysemy	degree	relations	concept lists	en		This is the number of concepts to which a given concept links.
+List-2018-Colexifications	WEIGHTED_FAMILY_DEGREE	numeric	polysemy	weighted family degree	relations	concept lists	en		This is the weighted degree for each node across language families.
+List-2018-Colexifications	WEIGHTED_LANGUAGE_DEGREE	numeric	polysemy	weighted language degree	relations	concept lists	en		This is the weighted degree for each node across language varieties.
+Bolognesi-2022-Specificity	ITALIAN_SPECIFICITY_MEAN	mean	specificity		ratings	users	it		The values are based on specificity ratings collected from Italian speakers using the Best-Worst Scaling method and then converted into a 5-point scale (1-5) for better comparability.
 Montefinese-2014-AffectiveRatings	ITALIAN_FAMILIARITY_MEAN	mean	familiarity		ratings	users	it		Mean familiarity ratings, with 1 being unfamiliar and 9 highly familiar.
 Montefinese-2014-AffectiveRatings	ITALIAN_IMAGEABILITY_MEAN	mean	imageability		ratings	users	it		Mean imageability ratings, with 1 being unimaginable and 9 highly imaginable.
 Montefinese-2014-AffectiveRatings	ITALIAN_CONCRETENESS_MEAN	mean	concreteness		ratings	users	it		Mean concreteness ratings, with 1 being abstract and 9 highly concrete.
