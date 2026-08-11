@@ -1,0 +1,80 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of lexical decision data by Alzahrani et al. (2026).",
+  "dc:source": "https://osf.io/py36e/files/nu974?view_only=5ca8ae4af6a74bceab77ff3fc6d60284",
+  "dc:references" : "Alzahrani2026",
+  "dcat:keyword": ["lexical decision", "Modern Standard Arabic", "ratings"],
+  "dc:description": "An automated mapping of lexical decision data for 10,000 Modern Standard Arabic words submitted with the study of Alzahrani et al. (2026) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ARABIC",
+            "datatype": "string",
+            "titles": "item"
+          },
+          {
+            "name": "ARABIC_RT_L1_MEAN",
+            "datatype": "float",
+            "titles": "RT_L1_group"
+          },
+          {
+            "name": "ARABIC_RT_L1_ZSCORE",
+            "datatype": "float",
+            "titles": "Zscore_L1_group"
+          },
+          {
+            "name": "ARABIC_ACCURACY_L1_PERCENTAGE",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
+            "titles": "Accuracy_L1_group"
+          },
+          {
+            "name": "ARABIC_RT_L2_MEAN",
+            "datatype": "float",
+            "titles": "RT_L2_group"
+          },
+          {
+            "name": "ARABIC_RT_L2_ZSCORE",
+            "datatype": "float",
+            "titles": "Zscore_L2_group"
+          },
+          {
+            "name": "ARABIC_ACCURACY_L2_PERCENTAGE",
+            "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
+            "titles": "Accuracy_L2_group"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Alzahrani-2026-LexicalDecision.tsv"
+    }
+  ]
+}

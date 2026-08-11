@@ -1312,3 +1312,9 @@ Zalizniak-2020-SemanticShifts	TARGET_CONCEPTS	linguistic	semantic change		relati
 Zalizniak-2020-SemanticShifts	DEGREE	numeric	degree		relations	concept lists	global		The total number of semantic connections a concept has, counting both linked and target concepts.
 Zalizniak-2020-SemanticShifts	WEIGHTED_DEGREE	numeric	weighted degree		relations	concept lists	global		This is the number of languages in which the concept links to any other concept.
 Zalizniak-2020-SemanticShifts	RANK	ordinality	stability	rank	relations	concept lists	global		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
+Alzahrani-2026-LexicalDecision	ARABIC_RT_L1_MEAN	mean	lexical decision	reaction time	norms	users	ar		Mean reaction time across 604 L1 speakers of Modern Standard Arabic.
+Alzahrani-2026-LexicalDecision	ARABIC_RT_L1_ZSCORE	standardized	lexical decision	reaction time	norms	users	ar		Mean standardized reaction time across 604 L1 speakers of Modern Standard Arabic.
+Alzahrani-2026-LexicalDecision	ARABIC_ACCURACY_L1_PERCENTAGE	percentage	lexical decision	accuracy	norms	users	ar		Average accuracy of the responses of L1 speakers in the lexical decision task.
+Alzahrani-2026-LexicalDecision	ARABIC_RT_L2_MEAN	mean	lexical decision	reaction time	norms	users	ar		Mean reaction time across 43 L2 speakers of Modern Standard Arabic.
+Alzahrani-2026-LexicalDecision	ARABIC_RT_L2_ZSCORE	standardized	lexical decision	reaction time	norms	users	ar		Mean standardized reaction time across 43 L2 speakers of Modern Standard Arabic.
+Alzahrani-2026-LexicalDecision	ARABIC_ACCURACY_L2_PERCENTAGE	percentage	lexical decision	accuracy	norms	users	ar		Average accuracy of the responses of L2 speakers in the lexical decision task.
