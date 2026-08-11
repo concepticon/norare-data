@@ -29,17 +29,17 @@
             "titles": "Word"
           }, 
           {
-            "name": "ENGLISH_VALENCE_MEAN",
+            "name": "ENGLISH_VALENCE_SCORE",
             "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Valence"
           },
           {
-            "name": "ENGLISH_AROUSAL_MEAN",
+            "name": "ENGLISH_AROUSAL_SCORE",
             "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Arousal"
           },
           {
-            "name": "ENGLISH_DOMINANCE_MEAN",
+            "name": "ENGLISH_DOMINANCE_SCORE",
             "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "Dominance"
           },

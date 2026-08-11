@@ -34,7 +34,7 @@
             "titles": "emotion"
           },
           {
-            "name": "ENGLISH_EMOTION_INTENSITY",
+            "name": "ENGLISH_EMOTION_INTENSITY_SCORE",
             "datatype": {"base": "decimal", "minimum": 0, "maximum": 1},
             "titles": "emotion-intensity-score"
           },

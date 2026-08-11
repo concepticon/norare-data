@@ -1,0 +1,150 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Discrete emotion ratings for Chinese words in ten emotion categories by Song (2026).",
+  "dc:source": "https://osf.io/uztvh/files/xcw4v?view_only=3d56e6dfcfb043eba2d3fb850ee27f68",
+  "dc:references" : "Song2026",
+  "dcat:keyword": ["discrete emotions", "Chinese", "ratings"],
+  "dc:description": "An automated mapping of discrete emotion ratings for Chinese words in ten categories submitted with the study of Song (2026) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "CHINESE",
+            "datatype": "string",
+            "titles": "词汇"
+          },
+          {
+            "name": "CHINESE_HAPPINESS_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Happiness_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_HAPPINESS_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Happiness_Male_mean rating"
+          },
+          {
+            "name": "CHINESE_ANGER_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Anger_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_ANGER_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Anger_Male_mean rating"
+          },
+          {
+            "name": "CHINESE_SADNESS_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Sadness_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_SADNESS_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Sadness_Male_mean rating"
+          },
+          {
+            "name": "CHINESE_FEAR_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Fear_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_FEAR_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Fear_Male_mean rating"
+          },
+          {
+            "name": "CHINESE_DISGUST_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Disgust_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_DISGUST_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Disgust_Male_mean rating"
+          },
+          {
+            "name": "CHINESE_ANXIETY_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Anxiety_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_ANXIETY_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Anxiety_Male_mean rating"
+          },
+          {
+            "name": "CHINESE_SURPRISE_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Surprise_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_SURPRISE_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Surprise_Male_mean rating"
+          },
+          {
+            "name": "CHINESE_CONTENTMENT_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Contentment_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_CONTENTMENT_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Contentment_Male_mean rating"
+          },
+          {
+            "name": "CHINESE_AMUSEMENT_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Amusement_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_AMUSEMENT_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Amusement_Male_mean rating"
+          },
+          {
+            "name": "CHINESE_SERENITY_MEAN_FEMALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Serenity_Female_mean rating"
+          },
+          {
+            "name": "CHINESE_SERENITY_MEAN_MALE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 5},
+            "titles": "Serenity_Male_mean rating"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Song-2026-Emotions.tsv"
+    }
+  ]
+}
