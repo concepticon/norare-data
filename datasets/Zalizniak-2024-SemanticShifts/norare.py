@@ -4,8 +4,10 @@ import json
 
 
 def download(dataset):
-    pass
-
+    dataset.download(
+        'https://github.com/lexibank/datsemshift/raw/main/cldf/parameters.csv',
+        'parameters.csv',
+    )
 
 def map(dataset, concepticon, mappings):
 
@@ -14,10 +16,13 @@ def map(dataset, concepticon, mappings):
     concept_by_id = {c.id: c for c in dss.concepts.values()}
 
     # load TSV once
-    data = {}
     with UnicodeDictReader(dataset.raw_dir / "parameters.csv", delimiter=",") as reader:
+        data = {}
         for row in reader:
             data[row["ID"]] = row
+
+    num2id = {concept.number: concept.id for concept in dss.concepts.values()}
+    num2name = {concept.number: concept.english for concept in dss.concepts.values()}
 
     table = []
 
