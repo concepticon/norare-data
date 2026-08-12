@@ -479,12 +479,12 @@ VanHeuven-2014-Frequency	ENGLISH_FREQUENCY_LOG_BNC	logarithmic	frequency	zipf, B
 VanHeuven-2014-Frequency	ENGLISH_CD	tokens	contextual diversity		norms	corpus	en		This is the number of films in which the word appears (max. 45,099 BBC broadcasts).
 VanHeuven-2014-Frequency	ENGLISH_CD_CBEEBIES	tokens	contextual diversity	Cbeebies	norms	corpus	en		This is the number of films of the Cbeebies corpus (a channel for pre-school children, age 0-6) in which the word appears.
 VanHeuven-2014-Frequency	ENGLISH_CD_CBBC	tokens	contextual diversity	CBBC	norms	corpus	en		This is the number of films of the CBBC corpus (a channel for primary school children, age 6-12) in which the word appears.
-Vergallito-2020-1121	ACCURACY_LD_MEAN	percentage	lexical decision	accuracy	ratings	users	it		This is the average accuracy of the responses in the lexical decision task.
-Vergallito-2020-1121	LD_RT_MEAN	mean	lexical decision	reaction time	ratings	users	it		This is the mean raw reaction times in the lexical decision task.
-Vergallito-2020-1121	ACCURACY_NAMING_MEAN	percentage	naming	accuracy	ratings	users	it		This is the average accuracy of the responses in the naming task.
-Vergallito-2020-1121	NAMING_RT_MEAN	mean	reaction time	naming	ratings	users	it		This is the mean raw reaction times in the naming task.
-Vergallito-2020-1121	LD_RT_ZSCORE	standardized	lexical decision	reaction time	ratings	users	it		This is the reaction times scaled for participant and session, lexical decision task.
-Vergallito-2020-1121	NAMING_RT_ZSCORE	standardized	reaction time	naming	ratings	users	it		This is the reaction times scaled for participant and session, naming task.
+Vergallito-2020-1121	ACCURACY_LD_MEAN	percentage	lexical decision	accuracy	norms	users	it		This is the average accuracy of the responses in the lexical decision task.
+Vergallito-2020-1121	LD_RT_MEAN	mean	lexical decision	reaction time	norms	users	it		This is the mean raw reaction times in the lexical decision task.
+Vergallito-2020-1121	ACCURACY_NAMING_MEAN	percentage	naming	accuracy	norms	users	it		This is the average accuracy of the responses in the naming task.
+Vergallito-2020-1121	NAMING_RT_MEAN	mean	reaction time	naming	norms	users	it		This is the mean raw reaction times in the naming task.
+Vergallito-2020-1121	LD_RT_ZSCORE	standardized	lexical decision	reaction time	norms	users	it		This is the reaction times scaled for participant and session, lexical decision task.
+Vergallito-2020-1121	NAMING_RT_ZSCORE	standardized	reaction time	naming	norms	users	it		This is the reaction times scaled for participant and session, naming task.
 Vergallito-2020-1121	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	users	it		This is the mean rating in the auditory modality on a scale from 0 (not at all) to 5 (greatly).
 Vergallito-2020-1121	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	users	it		This is the mean rating in the gustatory modality on a scale from 0 (not at all) to 5 (greatly).
 Vergallito-2020-1121	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	users	it		This is the mean rating in the haptic modality on a scale from 0 (not at all) to 5 (greatly).
@@ -1312,3 +1312,9 @@ Zalizniak-2020-SemanticShifts	TARGET_CONCEPTS	linguistic	semantic change		relati
 Zalizniak-2020-SemanticShifts	DEGREE	numeric	degree		relations	concept lists	global		The total number of semantic connections a concept has, counting both linked and target concepts.
 Zalizniak-2020-SemanticShifts	WEIGHTED_DEGREE	numeric	weighted degree		relations	concept lists	global		This is the number of languages in which the concept links to any other concept.
 Zalizniak-2020-SemanticShifts	RANK	ordinality	stability	rank	relations	concept lists	global		The ranks provided in the Database of Semantic Shifts that classifies semantic shifts attested in the languages of the world.
+Alzahrani-2026-LexicalDecision	ARABIC_RT_L1_MEAN	mean	reaction time	L1	norms	users	ar		Mean reaction time across 604 L1 speakers of Modern Standard Arabic.
+Alzahrani-2026-LexicalDecision	ARABIC_RT_L1_ZSCORE	standardized	reaction time	L1	norms	users	ar		Mean standardized reaction time across 604 L1 speakers of Modern Standard Arabic.
+Alzahrani-2026-LexicalDecision	ARABIC_ACCURACY_L1_PERCENTAGE	percentage	accuracy	L1	norms	users	ar		Average accuracy of the responses of L1 speakers in the lexical decision task.
+Alzahrani-2026-LexicalDecision	ARABIC_RT_L2_MEAN	mean	reaction time	L2	norms	users	ar		Mean reaction time across 43 L2 speakers of Modern Standard Arabic.
+Alzahrani-2026-LexicalDecision	ARABIC_RT_L2_ZSCORE	standardized	reaction time	L2	norms	users	ar		Mean standardized reaction time across 43 L2 speakers of Modern Standard Arabic.
+Alzahrani-2026-LexicalDecision	ARABIC_ACCURACY_L2_PERCENTAGE	percentage	accuracy	L2	norms	users	ar		Average accuracy of the responses of L2 speakers in the lexical decision task.
