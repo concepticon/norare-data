@@ -5,7 +5,7 @@
   "dc:source": "https://osf.io/py36e/files/nu974?view_only=5ca8ae4af6a74bceab77ff3fc6d60284",
   "dc:references" : "Alzahrani2026",
   "dcat:keyword": ["lexical decision", "Modern Standard Arabic", "ratings"],
-  "dc:description": "An automated mapping of lexical decision data for 10,000 Modern Standard Arabic words submitted with the study of Alzahrani et al. (2026) to the concept sets in Concepticon.",
+  "dc:description": "An automated mapping of lexical decision data given by L1 and L2 speakers for 10,000 Modern Standard Arabic words submitted with the study of Alzahrani et al. (2026) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
     "encoding": "utf-8",
