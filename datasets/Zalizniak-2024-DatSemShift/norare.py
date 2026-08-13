@@ -25,6 +25,7 @@ def map(dataset, concepticon, mappings):
                 for itm in ["Linked_Concepts", "Target_Concepts", "Domain", "Alias",
                             "Shifts", "Gloss_in_Source", "Definition"]:
                     new_row[itm.upper()] = row[itm]
+                    new_row["NUMBER"] = row["Number"]
                     
                 new_row["TARGET_CONCEPTS"] = json.loads(new_row["TARGET_CONCEPTS"])
                 new_row["LINKED_CONCEPTS"] = json.loads(new_row["LINKED_CONCEPTS"])
