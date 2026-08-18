@@ -327,7 +327,7 @@ Yao-2017-1100	AROUSAL_MEAN	mean	arousal		ratings	users	zh		Arousal rating on a 9
 Yao-2017-1100	CONCRETENESS_MEAN	mean	concreteness		ratings	users	zh		Concreteness rating on a 9-point Likert scale 960 university students.
 Yao-2017-1100	FAMILIARITY_MEAN	mean	familiarity		ratings	users	zh		Familiarity rating on a 9-point Likert scale 960 university students.
 Yao-2017-1100	IMAGEABILITY_MEAN	mean	imageability		ratings	users	zh		Imageability rating on a 9-point Likert scale 960 university students.
-Yao-2017-1100	CONTEXT_AVAILABILITY_MEAN	mean	contect availability		ratings	users	zh		Context availability rating on a 9-point Likert scale 960 university students.
+Yao-2017-1100	CONTEXT_AVAILABILITY_MEAN	mean	context availability		ratings	users	zh		Context availability rating on a 9-point Likert scale 960 university students.
 Xiao-2012-213	PEN_STROKES	cardinality	strokes		norms	meta	zh		Total number of strokes of the whole-word.
 Xiao-2012-213	ICONICITY	mean	iconicity		ratings	users	zh		40 U.S. adults with no knowledge of Chinese were given an English word or short phrase together with two Chinese characters and were asked which character matched the meaning of the English word.
 Xiao-2012-213	PICTURABILITY	mean	picturability		ratings	users	zh		31 English speaking students were shown the English translations of Chinese characters used in the experiment and had to rate each translation on a 7-point scale to indicate the extent to which the concept could be expressed easily in a simple black-on-white line drawing or diagram.
