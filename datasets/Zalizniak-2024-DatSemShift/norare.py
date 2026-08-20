@@ -1,57 +1,60 @@
-import collections
-from pyconcepticon import models
-from csvw.dsv import reader
 import json
 
+
 def download(dataset):
-    dataset.download_zip(
-        'https://github.com/concepticon/concepticon-data/archive/refs/heads/master.zip',
-        'concepticon-data-master.zip',
-        'concepticon-data-master/concepticondata/conceptlists/Zalizniak-2024-4583.tsv'
+    dataset.download_file(
+        'https://raw.githubusercontent.com/lexibank/datsemshift/refs/tags/v1.1rc/cldf/parameters.csv',
+        "parameters.csv"
     )
 
 def map(dataset, concepticon, mappings):
-    # Load the CLDF-formatted Zalizniak file from the downloaded zip
-    zalizniak = models.Conceptlist.from_file(
-        dataset.raw_dir / "concepticon-data-master" / "concepticondata" / "conceptlists" / "Zalizniak-2024-4583.tsv"
-    )
+    # get mappings
+    zalizniak = {c.number: (c.id, c.concepticon_id, c.concepticon_gloss, c.english) for c in
+                 concepticon.conceptlists["Zalizniak-2024-4583"].concepts.values()
+                 if c.concepticon_id}
     
-    # Initialize relationship dictionaries
-    target_concepts = {concept.id: [] for concept in zalizniak.concepts.values()}
-    linked_concepts = {concept.id: [] for concept in zalizniak.concepts.values()}
-
-    # JSON parsing helper
-    def parse_json_field(field):
-        try:
-            return json.loads(field) if field else []
-        except json.JSONDecodeError:
-            return []
-
-    # Populate relationship data
-    for concept in zalizniak.concepts.values():
-        tc = parse_json_field(concept.attributes.get("target_concepts", "[]"))
-        lc = parse_json_field(concept.attributes.get("linked_concepts", "[]"))
-        target_concepts[concept.id] = tc
-        linked_concepts[concept.id] = lc
-
-    # Construct output table
+    # the cldf is already formatted as needed, we keep it in this form, just
+    # transform it a bit
+    cldf = []
+    id_converter = {}
+    for row in dataset.get_csv("parameters.csv", dicts=True, delimiter=","):
+        if row["Number"] in zalizniak:
+            cldf += [row]
+            id_converter[row["ID"]] = zalizniak[row["Number"]][0]
+    
     table = []
-    for concept in zalizniak.concepts.values():
-        row = collections.OrderedDict([
-            ('ID', concept.id),
-            ('NUMBER', concept.number),
-            ('CONCEPTICON_ID', concept.concepticon_id),
-            ('CONCEPTICON_GLOSS', concept.concepticon_gloss),
-            ('ENGLISH', concept.english),
-            ('GLOSS_IN_SOURCE', concept.attributes.get('gloss_in_source', '')),
-            ('TARGET_CONCEPTS', target_concepts[concept.id]),
-            ('LINKED_CONCEPTS', linked_concepts[concept.id]),
-            ('SHIFTS', concept.attributes.get('shifts', '')),
-            ('DOMAIN', concept.attributes.get('domain', '')),
-            ('ALIAS', concept.attributes.get('alias', '')),
-            ('DEFINITION', concept.attributes.get('definition', '')),
-        ])
-        table.append(row)
+    for row in cldf:
+        if row["ID"] in id_converter:
+            # get ID, Concepticon ID and Gloss, and English
+            new_row = {}
+            new_row["ID"] = zalizniak[row["Number"]][0]
+            new_row["NUMBER"] = row["Number"]
+            new_row["CONCEPTICON_ID"] = zalizniak[row["Number"]][1]
+            new_row["CONCEPTICON_GLOSS"] = zalizniak[row["Number"]][2]
+            new_row["ENGLISH"] = zalizniak[row["Number"]][3]
 
-    # Write to output
+            # get links
+            tc, lc = json.loads(row["Target_Concepts"]), json.loads(row["Linked_Concepts"])
+            for kind, links in [("TARGET_CONCEPTS", tc), ("LINKED_CONCEPTS", lc)]:
+                if links:
+                    new_links = []
+                    for edge in links:
+                        if edge["ID"] in id_converter:
+                            new_edge = {}
+                            new_edge["ID"] = id_converter[edge["ID"]]
+                            new_edge["NAME"] = edge["NAME"]
+                            for entry in ["Polysemy", "PolysemyByFamily", "Derivation",
+                                          "DerivationByFamily"]:
+                                new_edge[entry] = edge[entry]
+                            new_links += [new_edge]
+                    new_row[kind] = new_links
+                else:
+                    new_row[kind] = []
+            for itm in ["Domain", "Alias", "Shifts", "Gloss_in_Source", "Definition"]:
+                new_row[itm.upper()] = row[itm]
+
+            # add further items that must be p
+            table.append(new_row)
+    table = sorted(table, key=lambda x: int(x["NUMBER"]))
+
     dataset.table.write(table)
