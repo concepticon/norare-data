@@ -330,7 +330,7 @@ Yao-2017-1100	IMAGEABILITY_MEAN	mean	imageability		ratings	users	zh		Imageabilit
 Yao-2017-1100	CONTEXT_AVAILABILITY_MEAN	mean	availability	context	ratings	users	zh		Context availability rating on a 9-point Likert scale 960 university students.
 Xiao-2012-213	PEN_STROKES	cardinality	strokes		norms	meta	zh		Total number of strokes of the whole-word.
 Xiao-2012-213	ICONICITY_MEAN	mean	iconicity		ratings	users	zh		40 U.S. adults with no knowledge of Chinese were given an English word or short phrase together with two Chinese characters and were asked which character matched the meaning of the English word.
-Xiao-2012-213	IMAGEABILITY_MEAN	mean	imageability		ratings	users	zh		31 English speaking students were shown the English translations of Chinese characters used in the experiment and had to rate each translation on a 7-point scale to indicate the extent to which the concept could be expressed easily in a simple black-on-white line drawing or diagram.
+Xiao-2012-213	PICTURABILITY_MEAN	mean	picturability		ratings	users	zh		31 English speaking students were shown the English translations of Chinese characters used in the experiment and had to rate each translation on a 7-point scale to indicate the extent to which the concept could be expressed easily in a simple black-on-white line drawing or diagram.
 Pagel-2018-200	RATE	numeric	stability	rate	relations	concept lists	en		Stability (rate of lexical change) measured for concepts based on a sample from Indo-European languages.
 Pagel-2007-200	RANK	ordinality	stability	rank	relations	concept lists	en	Dyen1992	Ranks for the 200 basic concepts, which are retrieved from the calculation of evolutionary rates from phylogenetic analyses on the database by Dyen et al (1992).
 Briesemeister-2011-DiscreteEmotions	GERMAN_HAPPINESS_MEAN	mean	happiness		ratings	users	de		Mean value for all valid responses a 5-point scale in the emotional category happiness.
@@ -428,19 +428,19 @@ Morucci-2019-643	PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strengt
 Morucci-2019-643	PERCEPTUAL_STRENGTH_ENTROPY	numeric	sensory modality	entropy perceptual strength	ratings	user	it		The variability of the scores across the five sensory modalities.
 Morucci-2019-643	FAMILIARITY_MEAN	mean	familiarity		ratings	user	en		The frequency (1-7) with which a word occurs in everyday life.
 Morucci-2019-643	AOA_MEAN	mean	AoA		ratings	user	en		The age at which a word was learnt. The rating scale goes from one (0–2 years) to seven (13 and older) with intervening points spanning two years.
-Miklashevsky-2018-506	RUSSIAN_AUDITORY_MEAN	mean	sensory modality	auditory	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by hearing.
-Miklashevsky-2018-506	RUSSIAN_GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by tasting.
-Miklashevsky-2018-506	RUSSIAN_HAPTIC_MEAN	mean	sensory modality	haptic	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by feeling through touch.
-Miklashevsky-2018-506	RUSSIAN_OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by smelling.
-Miklashevsky-2018-506	RUSSIAN_VISUAL_MEAN	mean	sensory modality	visual	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by seeing.
-Miklashevsky-2018-506	RUSSIAN_AOA_MEAN	mean	AoA		ratings	users	ru		The mean of age of acquisition rating. Participants were asked to indicate the age in years from 0 to 15 in which they had acquired the word.
+Miklashevsky-2018-506	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by hearing.
+Miklashevsky-2018-506	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by tasting.
+Miklashevsky-2018-506	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by feeling through touch.
+Miklashevsky-2018-506	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by smelling.
+Miklashevsky-2018-506	VISUAL_MEAN	mean	sensory modality	visual	ratings	users	ru		Mean rating (1-7) of how strongly noun concept is experienced by seeing.
+Miklashevsky-2018-506	AOA_MEAN	mean	AoA		ratings	users	ru		The mean of age of acquisition rating. Participants were asked to indicate the age in years from 0 to 15 in which they had acquired the word.
 Miklashevsky-2018-506	SEMANTIC_CATEGORY	linguistic	semantic field		relations	users	ru		The semantic category of the word (16 categories, e.g., action, body part, food).
-Miklashevsky-2018-506	RUSSIAN_CONCRETENESS	linguistic	concreteness		relations	users	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
-Miklashevsky-2018-506	RUSSIAN_OBJECTIVE_WORD_FREQUENCY	logarithmic	frequency		norms	corpus	ru	Ljashevskaja2009	The decimal logarithm of objective word frequency (based on [Ljashevskaja and Sharov 2009](:bib:Ljashevskaja2009)).
-Miklashevsky-2018-506	RUSSIAN_IMAGEABILITY_MEAN	mean	imageability		ratings	users	ru		Imageability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
-Miklashevsky-2018-506	RUSSIAN_MANIPULABILITY_MEAN	mean	sensory modality	manipulability	ratings	users	ru		Manipulability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
-Miklashevsky-2018-506	RUSSIAN_SPATIAL_LOCALIZATION_MEAN	mean	spatial localization		ratings	users	ru		Spatial localization estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
-Miklashevsky-2018-506	RUSSIAN_SUBJECTIVE_FREQ_MEAN	mean	frequency	subjective	norms	users	ru		 Subjective frequency estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
+Miklashevsky-2018-506	CONCRETENESS	linguistic	concreteness		relations	users	ru		The abstractness of the category: Abstract (categories: Action, Intelligence, Sense_Emotion, Sense_Phys) vs. Concrete (all other categories).
+Miklashevsky-2018-506	OBJECTIVE_WORD_FREQUENCY	logarithmic	frequency		norms	corpus	ru	Ljashevskaja2009	The decimal logarithm of objective word frequency (based on [Ljashevskaja and Sharov 2009](:bib:Ljashevskaja2009)).
+Miklashevsky-2018-506	IMAGEABILITY_MEAN	mean	imageability		ratings	users	ru		Imageability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
+Miklashevsky-2018-506	MANIPULABILITY_MEAN	mean	sensory modality	manipulability	ratings	users	ru		Manipulability estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
+Miklashevsky-2018-506	SPATIAL_LOCALIZATION_MEAN	mean	spatial localization		ratings	users	ru		Spatial localization estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
+Miklashevsky-2018-506	SUBJECTIVE_FREQ_MEAN	mean	frequency	subjective	norms	users	ru		 Subjective frequency estimates were based on a 7-point rating scale (1—the lowest; 7—the highest).
 Chen-2019-171	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	users	zh		Mean rating (0-5) of how strongly adjective concept is experienced by hearing.
 Chen-2019-171	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	users	zh		Mean rating (0-5) of how strongly adjective concept is experienced by tasting.
 Chen-2019-171	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	users	zh		Mean rating (0-5) of how strongly adjective concept is experienced by feeling through touch.
@@ -562,35 +562,35 @@ Chedid-2019-Familiarity	FRENCH_RT_MEAN	mean	lexical decision	reaction time	norms
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MEAN	mean	familiarity		ratings	users	fr		Mean of the conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MAX	numeric	familiarity	maximum	ratings	users	fr		The maximum of conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
 Chedid-2019-Familiarity	FRENCH_FAMILIARITY_MIN	numeric	familiarity	minimum	ratings	users	fr		The minimum of conceptual familiarity ratings based on a scale from 0 (extreme left) to 100 (extreme right).
-Zhong-2022-664	CHINESE_VISUAL_MEAN	mean	sensory modality	visual	ratings	users	zh		Visual strength: mean rating (0–5) of how strongly the concept is experienced by seeing.
-Zhong-2022-664	CHINESE_AUDITORY_MEAN	mean	sensory modality	auditory	ratings	users	zh		Auditory strength: mean rating (0–5) of how strongly the concept is experienced by hearing.
-Zhong-2022-664	CHINESE_GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	users	zh		Gustatory strength: mean rating (0–5) of how strongly the concept is experienced by tasting.
-Zhong-2022-664	CHINESE_OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	users	zh		Olfactory strength: mean rating (0–5) of how strongly the concept is experienced by smelling.
-Zhong-2022-664	CHINESE_HAPTIC_MEAN	mean	sensory modality	haptic	ratings	users	zh		Haptic strength: mean rating (0–5) of how strongly the concept is experienced by feeling through touch.
-Zhong-2022-664	CHINESE_INTEROCEPTIVE_MEAN	mean	sensory modality	interoceptive	ratings	users	zh		Interoceptive strength: mean rating (0–5) of how strongly the concept is experienced by sensations inside the body.
-Zhong-2022-664	CHINESE_PERCEPTUAL_MEAN	mean	sensory modality	perceptual strength	ratings	users	zh		This value represents the mean perceptual strength.
-Zhong-2022-664	CHINESE_PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant perceptual strength	ratings	users	zh		Perceptual modality through which the concept is experienced most strongly (i.e., with highest perceptual strength rating).
-Zhong-2022-664	CHINESE_PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	users	zh		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
-Zhong-2022-664	CHINESE_PERCEPTUAL_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated perceptual strength	ratings	users	zh		Aggregated perceptual strength in all modalities where the influence of weaker modalities is attenuated, calculated as Minkowski distance (with exponent 3) of the 6-dimension vector of perceptual strength from the origin.
-Zhong-2022-664	CHINESE_PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strength	ratings	users	zh		This value represents the summarized perceptual strength.
-Zhong-2022-664	CHINESE_PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity perceptual strength	ratings	users	zh		Modality exclusivity of the concept; the extent to which a concept is experienced through a single perceptual modality (0–1, typically expressed as %), calculated as the range of perceptual strength values divided by their sum.
-Zhong-2022-664	CHINESE_FOOT_ACTION_MEAN	mean	sensory modality	foot action strength	ratings	users	zh		Foot action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the foot / leg.
-Zhong-2022-664	CHINESE_HAND_ACTION_MEAN	mean	sensory modality	hand action strength	ratings	users	zh		Hand action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the hand / arm.
-Zhong-2022-664	CHINESE_MOUTH_ACTION_MEAN	mean	sensory modality	mouth action strength	ratings	users	zh		Mouth action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the mouth / throat.
-Zhong-2022-664	CHINESE_HEAD_ACTION_MEAN	mean	sensory modality	head action strength	ratings	users	zh		Head action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the head excluding mouth.
-Zhong-2022-664	CHINESE_TORSO_ACTION_MEAN	mean	sensory modality	torso action strength	ratings	users	zh		Torso action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the torso.
-Zhong-2022-664	CHINESE_ACTION_STRENGTH_MEAN	mean	sensory modality	action strength	ratings	users	zh		This value represents the mean action effector strength.
-Zhong-2022-664	CHINESE_ACTION_STRENGTH_SUM	sum	sensory modality	action strength	ratings	users	zh		This value represents the summarized action effector strength.
-Zhong-2022-664	CHINESE_ACTION_STRENGTH_MAX	numeric	sensory modality	maximum action strength	ratings	users	zh		Action strength in the dominant effector (i.e., highest strength rating across five action effectors).
-Zhong-2022-664	CHINESE_ACTION_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated action strength	ratings	users	zh		Aggregated action strength in all effectors where the influence of weaker effectors is attenuated, calculated as Minkowski distance (with exponent 3) of the 5-dimension vector of action strength from the origin.
-Zhong-2022-664	CHINESE_ACTION_EXCLUSIVITY	percentage	sensory modality	exclusivity action strength	ratings	users	zh		Effector exclusivity of the concept; the extent to which a concept is experienced through a single action effector (0–1, typically expressed as %), calculated as the range of action strength values divided by their sum.
-Zhong-2022-664	CHINESE_ACTION_DOMINANT	linguistic	sensory modality	dominant action strength	ratings	users	zh		Action effector through which the concept is experienced most strongly (i.e., with highest action strength rating).
-Zhong-2022-664	CHINESE_SENSORIMOTOR_STRENGTH_MAX	numeric	sensory modality	maximum sensorimotor strength	ratings	users	zh		Sensorimotor strength in the dominant dimension (i.e., highest strength rating across 11 sensorimotor dimensions).
-Zhong-2022-664	CHINESE_SENSORIMOTOR_DOMINANT	linguistic	sensory modality	dominant sensorimotor strength	ratings	users	zh		Sensorimotor dimension through which the concept is experienced most strongly (i.e., with highest sensorimotor strength rating).
-Zhong-2022-664	CHINESE_SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated sensorimotor strength	ratings	users	zh		Aggregated sensorimotor strength in all dimensions where the influence of weaker dimensions is attenuated, calculated as Minkowski distance (with exponent 3) of the 11-dimension vector of sensorimotor strength from the origin.
-Zhong-2022-664	CHINESE_SENSORIMOTOR_STRENGTH_SUM	sum	sensory modality	sensorimotor strength	ratings	users	zh		This value represents the summarized sensorimotor strength in all dimensions.
-Zhong-2022-664	CHINESE_SENSORIMOTOR_EXCLUSIVITY	percentage	sensory modality	exclusivity sensorimotor strength	ratings	users	zh		Sensorimotor exclusivity of the concept; the extent to which a concept is experienced through a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum.
-Zhong-2022-664	CHINESE_CONCRETENESS	linguistic	concreteness		ratings	users	zh		This value represents the categorical distinction of whether the word is abstract or concrete.
+Zhong-2022-664	VISUAL_MEAN	mean	sensory modality	visual	ratings	users	zh		Visual strength: mean rating (0–5) of how strongly the concept is experienced by seeing.
+Zhong-2022-664	AUDITORY_MEAN	mean	sensory modality	auditory	ratings	users	zh		Auditory strength: mean rating (0–5) of how strongly the concept is experienced by hearing.
+Zhong-2022-664	GUSTATORY_MEAN	mean	sensory modality	gustatory	ratings	users	zh		Gustatory strength: mean rating (0–5) of how strongly the concept is experienced by tasting.
+Zhong-2022-664	OLFACTORY_MEAN	mean	sensory modality	olfactory	ratings	users	zh		Olfactory strength: mean rating (0–5) of how strongly the concept is experienced by smelling.
+Zhong-2022-664	HAPTIC_MEAN	mean	sensory modality	haptic	ratings	users	zh		Haptic strength: mean rating (0–5) of how strongly the concept is experienced by feeling through touch.
+Zhong-2022-664	INTEROCEPTIVE_MEAN	mean	sensory modality	interoceptive	ratings	users	zh		Interoceptive strength: mean rating (0–5) of how strongly the concept is experienced by sensations inside the body.
+Zhong-2022-664	PERCEPTUAL_MEAN	mean	sensory modality	perceptual strength	ratings	users	zh		This value represents the mean perceptual strength.
+Zhong-2022-664	PERCEPTUAL_DOMINANT	linguistic	sensory modality	dominant perceptual strength	ratings	users	zh		Perceptual modality through which the concept is experienced most strongly (i.e., with highest perceptual strength rating).
+Zhong-2022-664	PERCEPTUAL_STRENGTH_MAX	numeric	sensory modality	maximum perceptual strength	ratings	users	zh		Perceptual strength in the dominant modality (i.e., highest strength rating across six perceptual modalities).
+Zhong-2022-664	PERCEPTUAL_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated perceptual strength	ratings	users	zh		Aggregated perceptual strength in all modalities where the influence of weaker modalities is attenuated, calculated as Minkowski distance (with exponent 3) of the 6-dimension vector of perceptual strength from the origin.
+Zhong-2022-664	PERCEPTUAL_STRENGTH_SUM	sum	sensory modality	perceptual strength	ratings	users	zh		This value represents the summarized perceptual strength.
+Zhong-2022-664	PERCEPTUAL_EXCLUSIVITY	percentage	sensory modality	exclusivity perceptual strength	ratings	users	zh		Modality exclusivity of the concept; the extent to which a concept is experienced through a single perceptual modality (0–1, typically expressed as %), calculated as the range of perceptual strength values divided by their sum.
+Zhong-2022-664	FOOT_ACTION_MEAN	mean	sensory modality	foot action strength	ratings	users	zh		Foot action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the foot / leg.
+Zhong-2022-664	HAND_ACTION_MEAN	mean	sensory modality	hand action strength	ratings	users	zh		Hand action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the hand / arm.
+Zhong-2022-664	MOUTH_ACTION_MEAN	mean	sensory modality	mouth action strength	ratings	users	zh		Mouth action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the mouth / throat.
+Zhong-2022-664	HEAD_ACTION_MEAN	mean	sensory modality	head action strength	ratings	users	zh		Head action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the head excluding mouth.
+Zhong-2022-664	TORSO_ACTION_MEAN	mean	sensory modality	torso action strength	ratings	users	zh		Torso action strength: mean rating (0–5) of how strongly the concept is experienced by performaing an action with the torso.
+Zhong-2022-664	ACTION_STRENGTH_MEAN	mean	sensory modality	action strength	ratings	users	zh		This value represents the mean action effector strength.
+Zhong-2022-664	ACTION_STRENGTH_SUM	sum	sensory modality	action strength	ratings	users	zh		This value represents the summarized action effector strength.
+Zhong-2022-664	ACTION_STRENGTH_MAX	numeric	sensory modality	maximum action strength	ratings	users	zh		Action strength in the dominant effector (i.e., highest strength rating across five action effectors).
+Zhong-2022-664	ACTION_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated action strength	ratings	users	zh		Aggregated action strength in all effectors where the influence of weaker effectors is attenuated, calculated as Minkowski distance (with exponent 3) of the 5-dimension vector of action strength from the origin.
+Zhong-2022-664	ACTION_EXCLUSIVITY	percentage	sensory modality	exclusivity action strength	ratings	users	zh		Effector exclusivity of the concept; the extent to which a concept is experienced through a single action effector (0–1, typically expressed as %), calculated as the range of action strength values divided by their sum.
+Zhong-2022-664	ACTION_DOMINANT	linguistic	sensory modality	dominant action strength	ratings	users	zh		Action effector through which the concept is experienced most strongly (i.e., with highest action strength rating).
+Zhong-2022-664	SENSORIMOTOR_STRENGTH_MAX	numeric	sensory modality	maximum sensorimotor strength	ratings	users	zh		Sensorimotor strength in the dominant dimension (i.e., highest strength rating across 11 sensorimotor dimensions).
+Zhong-2022-664	SENSORIMOTOR_DOMINANT	linguistic	sensory modality	dominant sensorimotor strength	ratings	users	zh		Sensorimotor dimension through which the concept is experienced most strongly (i.e., with highest sensorimotor strength rating).
+Zhong-2022-664	SENSORIMOTOR_STRENGTH_AGGREGATED	normalized	sensory modality	aggregated sensorimotor strength	ratings	users	zh		Aggregated sensorimotor strength in all dimensions where the influence of weaker dimensions is attenuated, calculated as Minkowski distance (with exponent 3) of the 11-dimension vector of sensorimotor strength from the origin.
+Zhong-2022-664	SENSORIMOTOR_STRENGTH_SUM	sum	sensory modality	sensorimotor strength	ratings	users	zh		This value represents the summarized sensorimotor strength in all dimensions.
+Zhong-2022-664	SENSORIMOTOR_EXCLUSIVITY	percentage	sensory modality	exclusivity sensorimotor strength	ratings	users	zh		Sensorimotor exclusivity of the concept; the extent to which a concept is experienced through a single sensorimotor dimension (0–1, typically expressed as %), calculated as the range of sensorimotor strength values divided by their sum.
+Zhong-2022-664	CONCRETENESS	linguistic	concreteness		ratings	users	zh		This value represents the categorical distinction of whether the word is abstract or concrete.
 Jackson-2019-24	VALENCE	mean	valence		ratings	users	en		Valence ratings for emotion concepts based on a 10-point Likert scale.
 Jackson-2019-24	ACTIVATION	mean	arousal		ratings	users	en		Arousal ratings for emotion concepts based on a 10-point Likert scale.
 Jackson-2019-24	DOMINANCE	mean	dominance		ratings	users	en		Dominance ratings for emotion concepts based on a 10-point Likert scale.
@@ -602,16 +602,16 @@ Wang-2021-90	ISC_BRAIN_WORDNEUROSYNTH	numeric	intersubject consistency	term word
 Wang-2021-90	ISC_BRAIN_OBJEMONOBJNENOBJ	numeric	intersubject consistency	object contrast	norms	users	zh		Intersubject consistency (ISC) values from brain data, calculated from the brain mask defined by contrasting objects versus emotional nonobjects versus nonemotional nonobjects.
 Wang-2021-90	ISC_BRAIN_OBJNOBJ_LEAVE2_TOP300	numeric	intersubject consistency	individual-subject	norms	users	zh		Intersubject consistency (ISC) values from brain data, calculated from the individual-subject brain mask defined by contrasting object words with nonobject words; there were 300 voxels in each subject mask.
 Wang-2021-90	ISC_BEHAVIORAL	numeric	intersubject consistency	behavioral	norms	users	zh		Intersubject consistency (ISC) values from behavioral data.
-Wang-2021-90	CHINESE_SER_ZSCORE	standardized	sensory experience		ratings	users	zh		The averge of z-scores of language and sensory-experience rating means.
-Wang-2021-90	CHINESE_LANGUAGE_DESCRIPTIVENESS_MEAN	mean	descriptiveness		ratings	users	zh		The rating mean of language descriptiveness on a 7-point scale.
-Wang-2021-90	CHINESE_SER_MEAN	mean	sensory experience		ratings	users	zh		The rating mean of sensory experience on a 7-point scale.
-Wang-2021-90	CHINESE_NAVIGATION_MEAN	mean	spatial localization	navigation	ratings	users	zh		The rating mean of navigation on a 7-point scale.
-Wang-2021-90	CHINESE_MANIPULATION_MEAN	mean	sensory modality	manipulability	ratings	users	zh		The rating mean of manipulation on a 7-point scale.
-Wang-2021-90	CHINESE_STRESS_ACTION_MEAN	mean	action	stress-related	ratings	users	zh		The rating mean of stress-related action on a 7-point scale.
-Wang-2021-90	CHINESE_AROUSAL_MEAN	mean	arousal		ratings	users	zh		The rating mean of arousal on a 7-point scale.
-Wang-2021-90	CHINESE_VALENCE_MEAN	mean	valence		ratings	users	zh		The rating mean of emotional valence on a 7-point scale.
-Wang-2021-90	CHINESE_STROKE	cardinality	strokes		norms	meta	zh		Total number of strokes of the whole-word.
-Wang-2021-90	CHINESE_FAMILIARITY_MEAN	mean	familiarity		ratings	users	zh		The rating mean of familiarity on a 7-point scale.
+Wang-2021-90	SER_ZSCORE	standardized	sensory experience		ratings	users	zh		The averge of z-scores of language and sensory-experience rating means.
+Wang-2021-90	LANGUAGE_DESCRIPTIVENESS_MEAN	mean	descriptiveness		ratings	users	zh		The rating mean of language descriptiveness on a 7-point scale.
+Wang-2021-90	SER_MEAN	mean	sensory experience		ratings	users	zh		The rating mean of sensory experience on a 7-point scale.
+Wang-2021-90	NAVIGATION_MEAN	mean	spatial localization	navigation	ratings	users	zh		The rating mean of navigation on a 7-point scale.
+Wang-2021-90	MANIPULATION_MEAN	mean	sensory modality	manipulability	ratings	users	zh		The rating mean of manipulation on a 7-point scale.
+Wang-2021-90	STRESS_ACTION_MEAN	mean	action	stress-related	ratings	users	zh		The rating mean of stress-related action on a 7-point scale.
+Wang-2021-90	AROUSAL_MEAN	mean	arousal		ratings	users	zh		The rating mean of arousal on a 7-point scale.
+Wang-2021-90	VALENCE_MEAN	mean	valence		ratings	users	zh		The rating mean of emotional valence on a 7-point scale.
+Wang-2021-90	STROKE	cardinality	strokes		norms	meta	zh		Total number of strokes of the whole-word.
+Wang-2021-90	FAMILIARITY_MEAN	mean	familiarity		ratings	users	zh		The rating mean of familiarity on a 7-point scale.
 List-2014-1280	COMMUNITY_LABEL	linguistic	polysemy	central concept	relations	concept lists	en		This is the most central node in each of the community clusters in CLICS1.
 List-2014-1280	COMMUNITY_ID	numeric	polysemy	community	relations	concept lists	en		This is the community identifier.
 List-2014-1280	COMMUNITY_URL	linguistic	polysemy	community	relations	concept lists	en		This is the community URL.
@@ -858,7 +858,7 @@ DellaRosa-2010-417	ITALIAN_IMAGEABILITY_MEAN	mean	imageability		ratings	users	it
 DellaRosa-2010-417	ITALIAN_FAMILIARITY_MEAN	mean	familiarity		ratings	users	it		The mean rating of familiarity on a 7-point scale (1 = unfamiliar, 7 = familiar).
 DellaRosa-2010-417	ITALIAN_AoA_MEAN	mean	AoA		ratings	users	it		The mean rating of age of acquisition. Participants were asked to estimate the age at which they thought they had learned each item.
 DellaRosa-2010-417	ITALIAN_CONTEXT_AVAILABILITY_MEAN	mean	availability	context	ratings	users	it		The mean rating of context availablity on a 7-point scale (1 = difficult to think of a context, 7 = easy to think of a context).
-DellaRosa-2010-417	ITALIAN_CONCRETENESS_MEAN	mean	abstractness		ratings	users	it		The mean rating of abstractness on a 7-point scale (1 = less abstract, 7 = more abstract).
+DellaRosa-2010-417	ITALIAN_ABSTRACTNESS_MEAN	mean	abstractness		ratings	users	it		The mean rating of abstractness on a 7-point scale (1 = less abstract, 7 = more abstract).
 DellaRosa-2010-417	ITALIAN_MoA_MEAN	mean	mode of acquisition		ratings	users	it		The mean rating of mode of acquisition on a 7-point scale (1 = totally acquired through experience, 7 = totally acquired through language).
 Yi-2025-AffectiveRatings	CHINESE_STROKE	cardinality	strokes		norms	meta	zh		The total number of strokes of the whole word.
 Yi-2025-AffectiveRatings	CHINESE_VALENCE_MEAN	mean	valence		ratings	users	zh		The mean rating of valence for Chinese words on a 9-point scale (1 = extremely negative, 9 = extremely positive).
