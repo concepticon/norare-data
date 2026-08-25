@@ -39,7 +39,7 @@
             "titles": "mean_relief"
           },
           {
-            "name": "SPANISH_EXCITEMENT_MEAN",
+            "name": "SPANISH_AROUSAL_MEAN",
             "datatype": {"base": "float", "minimum": 1, "maximum": 5},
             "titles": "mean_excitement"
           },
