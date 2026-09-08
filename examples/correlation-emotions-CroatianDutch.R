@@ -1,9 +1,9 @@
-# R version 4.5.2
+# R version 4.6.1
 
 # Load libraries
 library(groundhog)
 pkgs <- c("readr","ggplot2", "ggthemes", "ggpubr", "gridExtra")
-groundhog.library(pkgs, "2026-03-29")
+groundhog.library(pkgs, "2026-09-05")
 
 # Set working directory to NoRaRe repository (please adapt the path accordingly)
 setwd("./concepticon/norare-data/")
