@@ -29,56 +29,55 @@ cor.test(Emotions_Croatian_Dutch_overlap$CROATIAN_DISGUST_MEAN, Emotions_Croatia
 
 # Create scatter plots comparing Croatian vs. Dutch ratings, one per emotion
 happiness_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_HAPPINESS_MEAN, y=DUTCH_HAPPINESS_MEAN)) + 
-     geom_point() + 
-     scale_x_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     scale_y_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-     stat_cor(method = "pearson", label.x = 1.2, label.y = 4.8, p.accuracy = 0.0001, size = 10) +
-     labs(title = "Happiness", x = "Coso et al. (2023)", y = "Speed & Brysbaert (2024)") +
-     theme_hc(base_size = 30)
+  geom_point() + 
+  scale_x_continuous(limits = c(1, 5), breaks = 1:5) +
+  scale_y_continuous(limits = c(1, 5), breaks = 1:5) +
+  geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
+  stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
+  labs(title = "Happiness", x = "", y = "Speed & Brysbaert (2024)") +
+  theme_hc(base_size = 14)
 
 sadness_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_SADNESS_MEAN, y=DUTCH_SADNESS_MEAN)) + 
-     geom_point() + 
-     scale_x_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     scale_y_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-     stat_cor(method = "pearson", label.x = 1.2, label.y = 4.8, p.accuracy = 0.0001, size = 10) +
-     labs(title = "Sadness", x = "Coso et al. (2023)", y = "Speed & Brysbaert (2024)") +
-     theme_hc(base_size = 30)
+  geom_point() + 
+  scale_x_continuous(limits = c(1, 5), breaks = 1:5) +
+  scale_y_continuous(limits = c(1, 5), breaks = 1:5) +
+  geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
+  stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
+  labs(title = "Sadness", x = "", y = "") +
+  theme_hc(base_size = 14)
 
 anger_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_ANGER_MEAN, y=DUTCH_ANGER_MEAN)) + 
-     geom_point() + 
-     scale_x_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     scale_y_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-     stat_cor(method = "pearson", label.x = 1.2, label.y = 4.8, p.accuracy = 0.0001, size = 10) +
-     labs(title = "Anger", x = "Coso et al. (2023)", y = "Speed & Brysbaert (2024)") +
-     theme_hc(base_size = 30)
+  geom_point() + 
+  scale_x_continuous(limits = c(1, 5), breaks = 1:5) +
+  scale_y_continuous(limits = c(1, 5), breaks = 1:5) +
+  geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
+  stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
+  labs(title = "Anger", x = "Coso et al. (2023)", y = "") +
+  theme_hc(base_size = 14)
 
 fear_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_FEAR_MEAN, y=DUTCH_FEAR_MEAN)) + 
-     geom_point() + 
-     scale_x_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     scale_y_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-     stat_cor(method = "pearson", label.x = 1.2, label.y = 4.8, p.accuracy = 0.0001, size = 10) +
-     labs(title = "Fear", x = "Coso et al. (2023)", y = "Speed & Brysbaert (2024)") +
-     theme_hc(base_size = 30)
+  geom_point() + 
+  scale_x_continuous(limits = c(1, 5), breaks = 1:5) +
+  scale_y_continuous(limits = c(1, 5), breaks = 1:5) +
+  geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
+  stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
+  labs(title = "Fear", x = "", y = "") +
+  theme_hc(base_size = 14)
 
 disgust_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_DISGUST_MEAN, y=DUTCH_DISGUST_MEAN)) + 
-     geom_point() + 
-     scale_x_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     scale_y_continuous(limits = c(0.5, 5.5), breaks = 1:5) +
-     geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
-     stat_cor(method = "pearson", label.x = 1.2, label.y = 4.8, p.accuracy = 0.0001, size = 10) +
-     labs(title = "Disgust", x = "Coso et al. (2023)", y = "Speed & Brysbaert (2024)") +
-     theme_hc(base_size = 30)
+  geom_point() + 
+  scale_x_continuous(limits = c(1, 5), breaks = 1:5) +
+  scale_y_continuous(limits = c(1, 5), breaks = 1:5) +
+  geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
+  stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
+  labs(title = "Disgust", x = "", y = "") +
+  theme_hc(base_size = 14)
 
-# Preview all five plots together in a 2-row grid
-grid.arrange(happiness_plot, sadness_plot, anger_plot, disgust_plot, fear_plot, nrow=2)
+# Arrange all five in a single row
+grid.arrange(happiness_plot, sadness_plot, anger_plot, disgust_plot, fear_plot, nrow=1)
 
-# Combine plots into a single grob object for saving
-affective_g = arrangeGrob(happiness_plot, sadness_plot, anger_plot, disgust_plot, fear_plot, nrow=2)
+affective_g = arrangeGrob(happiness_plot, sadness_plot, anger_plot, disgust_plot, fear_plot, nrow=1)
 
 # Save combined plot to file
-ggsave("examples/Emotions_Croatian_Dutch.pdf", affective_g, width=20, height=20)
+ggsave("examples/Emotions_Croatian_Dutch.pdf", affective_g, width=30, height=6.5)
 
