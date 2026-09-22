@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of affective ratings by Bermúdez-Margaretto et al. (2026).",
+  "dc:source": "https://doi.org/10.3758/s13428-026-03159-x",
+  "dc:references" : "BermudezMargaretto2026",
+  "dcat:keyword": ["ratings", "affective", "L2", "English"],
+  "dc:description": "An automated mapping of ratings of English words on valence and arousal given by L2 speakers submitted with the study of Bermúdez-Margaretto et al. (2026) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "word"
+          }, 
+          {
+            "name": "ENGLISH_AROUSAL_MEAN",
+            "datatype": { "base": "float", "minimum": 1, "maximum": 9 },
+            "titles": "Mean1"
+          },
+          {
+            "name": "ENGLISH_VALENCE_MEAN",
+            "datatype": { "base": "float", "minimum": 1, "maximum": 9 },
+            "titles": "Mean2"
+          },
+                   {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "BermudezMargaretto-2026-AffectiveRatings.tsv"
+    }
+  ]
+}
