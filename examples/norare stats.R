@@ -34,3 +34,15 @@ norare_counts <- norare %>%
 
 print(norare_counts, n = Inf)
 write_tsv(norare_counts, "examples/norare_counts.tsv")
+
+# Get unique DATASET names (collapse duplicates)
+unique_datasets <- norare %>%
+  distinct(DATASET) %>%
+  arrange(DATASET)
+
+print(unique_datasets, n = Inf)
+write_tsv(unique_datasets, "examples/unique_datasets.tsv")
+
+# Count how many individual datasets there are
+n_datasets <- nrow(unique_datasets)
+cat("Number of individual datasets:", n_datasets, "\n")
