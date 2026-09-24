@@ -1,0 +1,60 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of concreteness scores given by an LLM and frequency of 3,000 modern standard Arabic words by Alzahrani et al. (2025).",
+  "dc:source": "https://osf.io/zajk6/files/ky45v?view_only=b2ce3c47a0c640f68dda1e718e9f39b5",
+  "dc:references" : "Alzahrani2025",
+  "dcat:keyword": ["concreteness", "frequency", "LLM", "Modern Standard Arabic"],
+  "dc:description": "An automated mapping of concreteness scores given by an LLM and frequency for 3,000 modern standard Arabic words submitted with the study of Alzahrani et al. (2025) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ARABIC",
+            "datatype": "string",
+            "titles": "item"
+          },         
+          {
+            "name": "ARABIC_CONCRETENESS_LLM_SCORE",
+            "datatype": {"base": "float", "minimum": 1, "maximum": 7},
+            "titles": "cnc_top_rating"
+          },
+          {
+            "name": "ARABIC_FREQUENCY",
+            "datatype": "float",
+            "titles": "raw_frequency"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Alzahrani-2025b-Concreteness.tsv"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "url": "",
   "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
-  "dc:title": "Automatic mapping of concreteness and AoA ratingd and frequency of 2,467 modern standard Arabic words by Alzahrani et al. (2025).",
+  "dc:title": "Automatic mapping of concreteness and AoA ratings and frequency of 2,467 modern standard Arabic words by Alzahrani et al. (2025).",
   "dc:source": "https://osf.io/zajk6/files/osfstorage?view_only=b2ce3c47a0c640f68dda1e718e9f39b5",
   "dc:references" : "Alzahrani2025",
   "dcat:keyword": ["concreteness", "AoA", "frequency", "Modern Standard Arabic"],
@@ -69,7 +69,7 @@
         ],
         "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
       },
-      "url": "Alzahrani-2025-Concreteness.tsv"
+      "url": "Alzahrani-2025a-Concreteness.tsv"
     }
   ]
 }
