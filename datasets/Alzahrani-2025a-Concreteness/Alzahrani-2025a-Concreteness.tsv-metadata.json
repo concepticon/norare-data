@@ -1,0 +1,75 @@
+{
+  "url": "",
+  "@context": ["http://www.w3.org/ns/csvw", {"@language": "en"}],
+  "dc:title": "Automatic mapping of concreteness and AoA ratings and frequency of 2,467 modern standard Arabic words by Alzahrani et al. (2025).",
+  "dc:source": "https://osf.io/zajk6/files/osfstorage?view_only=b2ce3c47a0c640f68dda1e718e9f39b5",
+  "dc:references" : "Alzahrani2025",
+  "dcat:keyword": ["concreteness", "AoA", "frequency", "Modern Standard Arabic"],
+  "dc:description": "An automated mapping of the concreteness and AoA ratings and frequency for 2,467 modern standard Arabic words submitted with the study of Alzahrani et al. (2025) to the concept sets in Concepticon.",
+  "dialect": {
+    "delimiter": "\t",
+    "encoding": "utf-8",
+    "header": true
+  },
+  "tables": [
+    {
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "CONCEPTICON_ID",
+            "datatype": "integer"
+          }, 
+          {
+            "name": "CONCEPTICON_GLOSS",
+            "datatype": "string"
+          }, 
+          {
+            "name": "ARABIC",
+            "datatype": "string",
+            "titles": "item"
+          },
+          {
+            "name": "ENGLISH",
+            "datatype": "string",
+            "titles": "english_translation"
+          },           
+          {
+            "name": "ARABIC_CONCRETENESS_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "cnc_m"
+          },
+          {
+            "name": "ARABIC_AOA_MEAN",
+            "datatype": {"base": "decimal", "minimum": 1, "maximum": 7},
+            "titles": "aoa_m"
+          },
+          {
+            "name": "ARABIC_FREQUENCY_PM",
+            "datatype": "float",
+            "titles": "relative_frequency"
+          },
+          {
+            "name": "ARABIC_POS",
+            "datatype": "string",
+            "titles": "pos"
+          },
+          {
+            "name": "LINE_IN_SOURCE",
+            "datatype": "integer"
+          }
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": "CONCEPTICON_ID",
+            "reference": {
+              "resource": "../concepticon.tsv",
+              "columnReference": "ID"
+            }
+          }
+        ],
+        "aboutUrl": "http://concepticon.clld.org/parameters/{CONCEPTICON_ID}"
+      },
+      "url": "Alzahrani-2025a-Concreteness.tsv"
+    }
+  ]
+}
