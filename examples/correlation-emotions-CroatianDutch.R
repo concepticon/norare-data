@@ -35,7 +35,12 @@ happiness_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_HAPPINE
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
   stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
   labs(title = "Happiness", x = "", y = "Speed & Brysbaert (2024)") +
-  theme_hc(base_size = 14)
+  theme_hc(base_size = 14) +
+  theme(
+    plot.title = element_text(size = 25),
+    axis.title.y = element_text(size = 30)
+  )
+
 
 sadness_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_SADNESS_MEAN, y=DUTCH_SADNESS_MEAN)) + 
   geom_point() + 
@@ -44,7 +49,8 @@ sadness_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_SADNESS_M
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
   stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
   labs(title = "Sadness", x = "", y = "") +
-  theme_hc(base_size = 14)
+  theme_hc(base_size = 14) +
+  theme(plot.title = element_text(size = 25))
 
 anger_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_ANGER_MEAN, y=DUTCH_ANGER_MEAN)) + 
   geom_point() + 
@@ -53,7 +59,11 @@ anger_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_ANGER_MEAN,
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
   stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
   labs(title = "Anger", x = "Coso et al. (2023)", y = "") +
-  theme_hc(base_size = 14)
+  theme_hc(base_size = 14) +
+  theme(
+    plot.title = element_text(size = 25),
+    axis.title.x = element_text(size = 30)
+  )
 
 fear_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_FEAR_MEAN, y=DUTCH_FEAR_MEAN)) + 
   geom_point() + 
@@ -62,7 +72,8 @@ fear_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_FEAR_MEAN, y
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
   stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
   labs(title = "Fear", x = "", y = "") +
-  theme_hc(base_size = 14)
+  theme_hc(base_size = 14) +
+  theme(plot.title = element_text(size = 25))
 
 disgust_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_DISGUST_MEAN, y=DUTCH_DISGUST_MEAN)) + 
   geom_point() + 
@@ -71,7 +82,8 @@ disgust_plot <- ggplot(Emotions_Croatian_Dutch_overlap, aes(x=CROATIAN_DISGUST_M
   geom_smooth(method = "gam", formula = y ~ x, se=TRUE, fullrange=FALSE, level=0.95) +
   stat_cor(method = "pearson", label.x = 1.2, label.y = 5.2, p.accuracy = 0.0001, size = 5) +
   labs(title = "Disgust", x = "", y = "") +
-  theme_hc(base_size = 14)
+  theme_hc(base_size = 14) +
+  theme(plot.title = element_text(size = 25))
 
 # Arrange all five in a single row
 grid.arrange(happiness_plot, sadness_plot, anger_plot, disgust_plot, fear_plot, nrow=1)
