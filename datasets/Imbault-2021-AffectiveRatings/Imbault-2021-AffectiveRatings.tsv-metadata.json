@@ -4,7 +4,7 @@
   "dc:title": "Automatic mapping of valence and arousal ratings by Imbault et al. (2021).",
   "dc:source": "https://osf.io/nr9wj/files/dzv6j?view_only=d731c1111f7048a492e6a5cdb88c081b",
   "dc:references" : "Imbault2021",
-  "dcat:keyword": ["valence", "arousal", "English"],
+  "dcat:keyword": ["valence", "arousal", "English", "L2"],
   "dc:description": "An automated mapping of the valence and arousal ratings submitted with the study of Imbault et al. (2021) to the concept sets in Concepticon.",
   "dialect": {
     "delimiter": "\t",
